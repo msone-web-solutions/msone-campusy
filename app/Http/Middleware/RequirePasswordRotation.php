@@ -20,7 +20,7 @@ class RequirePasswordRotation
             return $next($request);
         }
 
-        if ($request->routeIs('password.rotate', 'logout') || $request->is('livewire/*')) {
+        if ($request->routeIs('password.rotate', 'logout', '*livewire.*')) {
             return $next($request);
         }
 

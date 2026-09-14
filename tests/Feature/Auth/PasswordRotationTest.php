@@ -55,3 +55,11 @@ test('the new password must differ from the start password and match the confirm
 
     expect($user->fresh()->must_change_password)->toBeTrue();
 });
+
+test('livewire update requests are not redirected while rotation is pending', function () {
+    $user = User::factory()->create(['must_change_password' => true]);
+
+    // Der Livewire-Endpunkt muss erreichbar bleiben (kein Redirect), sonst kann das Formular nie abgeschickt werden.
+    // Ohne gültigen Payload antwortet Livewire selbst mit 404 – entscheidend ist, dass es kein 302 ist.
+    $this->actingAs($user)->post(route("default-livewire.update"), [])->assertStatus(404);
+});
