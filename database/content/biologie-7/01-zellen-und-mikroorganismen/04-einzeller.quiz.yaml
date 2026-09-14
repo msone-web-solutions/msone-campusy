@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Einzeller?"
+  options: ["Ein Lebewesen aus einer einzigen Zelle", "Eine Zelle aus dem menschlichen Körper", "Ein sehr kleines Insekt", "Ein Teil eines Organs"]
+  answer: { index: 0 }
+  explanation: "Einzeller bestehen aus nur einer Zelle, die alle Lebensfunktionen übernimmt."
+- key: q2
+  type: single_choice
+  prompt: "Womit bewegt sich das Pantoffeltierchen?"
+  options: ["Mit Scheinfüßchen", "Mit einer Geißel", "Mit Wimpern", "Mit Flossen"]
+  answer: { index: 2 }
+  explanation: "Der Körper des Pantoffeltierchens ist rundum mit Wimpern bedeckt, die es durchs Wasser treiben."
+- key: q3
+  type: gap_text
+  prompt: "Die Nahrung des Pantoffeltierchens wird in einer ___ verdaut, unverdauliche Reste verlassen die Zelle am ___."
+  answer:
+    gaps:
+      - ["Nahrungsvakuole", "Vakuole"]
+      - ["Zellafter"]
+  explanation: "Zellmund → Nahrungsvakuole → Verdauung → Zellafter."
+- key: q4
+  type: true_false
+  prompt: "Euglena kann im Licht Fotosynthese betreiben."
+  answer: { value: true }
+  explanation: "Euglena hat Chloroplasten und stellt im Licht wie eine Pflanze Nahrung her."
+- key: q5
+  type: single_choice
+  prompt: "Wie vermehrt sich das Pantoffeltierchen?"
+  options: ["Durch Eier", "Durch Zellteilung", "Durch Samen", "Durch Sporen"]
+  answer: { index: 1 }
+  explanation: "Die Zelle schnürt sich quer durch – aus einem Pantoffeltierchen werden zwei."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Aussagen über die Amöbe sind richtig?"
+  options: ["Sie hat keine feste Körperform", "Sie bewegt sich mit Scheinfüßchen", "Sie hat einen roten Augenfleck", "Sie umfließt ihre Beute"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Amöben sind formveränderlich, bewegen sich mit Scheinfüßchen und umfließen Beute. Den Augenfleck hat Euglena."
+- key: q7
+  type: single_choice
+  prompt: "Wie kann man Einzeller zu Hause beobachten?"
+  options: ["Mit einem Heuaufguss und einem Mikroskop", "Mit einer Lupe im Garten", "Mit dem bloßen Auge im Leitungswasser", "Gar nicht, sie leben nur im Meer"]
+  answer: { index: 0 }
+  explanation: "In einem Heuaufguss mit Teichwasser entwickeln sich nach einigen Tagen viele Einzeller."
+- key: q8
+  type: single_choice
+  prompt: "Welche Bedeutung haben Einzeller in Kläranlagen?"
+  options: ["Sie machen das Wasser trüb", "Sie fressen Bakterien und reinigen so das Abwasser", "Sie erzeugen Schlamm", "Sie haben dort keine Bedeutung"]
+  answer: { index: 1 }
+  explanation: "Pantoffeltierchen und andere Einzeller fressen Bakterien und helfen so bei der Abwasserreinigung."

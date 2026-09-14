@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein diskontinuierlicher Text?"
+  options: ["Ein Text mit vielen Absätzen", "Eine Tabelle, ein Diagramm oder eine Grafik", "Ein Gedicht", "Ein besonders langer Text"]
+  answer: { index: 1 }
+  explanation: "Diskontinuierliche Texte stellen Informationen nicht in fortlaufenden Sätzen dar, sondern in Tabellen, Diagrammen oder Karten."
+- key: q2
+  type: single_choice
+  prompt: "Welche Lesetechnik nutzt du, um einen schwierigen Schulbuchtext für eine Klassenarbeit wirklich zu verstehen?"
+  options: ["überfliegendes Lesen", "scannendes Lesen", "reflektierendes Lesen", "Korrekturlesen"]
+  answer: { index: 2 }
+  explanation: "Reflektierendes (intensives) Lesen: langsam, abschnittsweise, mit Markierungen und Notizen."
+- key: q3
+  type: gap_text
+  prompt: "Ein vernetzter Text im Internet, bei dem man über Links springt, heißt ___."
+  answer:
+    gaps:
+      - ["Hypertext", "hypertext"]
+  explanation: "Der Hypertext ist über Hyperlinks verknüpft; man liest nicht linear von vorn nach hinten."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Schritte gehören zur Fünf-Schritt-Lesemethode?"
+  options: ["Überfliegen", "Fragen stellen", "Den Text auswendig lernen", "Zusammenfassen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Überfliegen – Fragen stellen – gründlich lesen – zusammenfassen – wiederholen. Auswendiglernen gehört nicht dazu."
+- key: q5
+  type: true_false
+  prompt: "Beim Markieren sollte man möglichst viele Wörter anstreichen, damit nichts verloren geht."
+  answer: { value: false }
+  explanation: "Nur Schlüsselwörter markieren – wenn alles bunt ist, hilft die Markierung nicht mehr."
+- key: q6
+  type: single_choice
+  prompt: "Wozu dient eine Fußnote?"
+  options: ["Sie macht den Text länger.", "Sie erklärt ein Wort oder nennt eine Quelle am Seitenende.", "Sie ersetzt die Überschrift.", "Sie zeigt das Ende des Textes an."]
+  answer: { index: 1 }
+  explanation: "Fußnoten geben Erklärungen oder Quellenangaben, ohne den Haupttext zu unterbrechen."
+- key: q7
+  type: single_choice
+  prompt: "Was solltest du bei einem Diagramm als Erstes klären?"
+  options: ["Die Farbe der Balken", "Überschrift, Quelle, Legende und Einheiten", "Den niedrigsten Wert", "Die Anzahl der Seiten"]
+  answer: { index: 1 }
+  explanation: "Erst wenn du weißt, was dargestellt wird und in welchen Einheiten, kannst du die Werte richtig deuten."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet „Adressatenbezug“ bei einem Sachtext?"
+  options: ["Der Text enthält eine Postadresse.", "Der Text ist auf bestimmte Leser zugeschnitten, z. B. Kinder oder Fachleute.", "Der Text wurde per Post verschickt.", "Der Text hat viele Hyperlinks."]
+  answer: { index: 1 }
+  explanation: "Der Adressatenbezug beschreibt, für wen ein Text geschrieben ist – das beeinflusst Sprache und Erklärungen."

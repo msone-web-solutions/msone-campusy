@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Warum nennt man die Schöpfungserzählung in Genesis 2–3 „jahwistisch“?"
+  options: ["Weil sie von Jahwe, dem Propheten, geschrieben wurde", "Weil Gott darin mit dem Namen Jahwe genannt wird", "Weil sie im Land Jahwe spielt", "Weil sie am jüdischen Feiertag gelesen wird"]
+  answer: { index: 1 }
+  explanation: "In dieser Erzählung trägt Gott den Namen Jahwe."
+- key: q2
+  type: gap_text
+  prompt: "Gott sagt: „Es ist nicht gut, dass der Mensch ___ sei.“"
+  answer:
+    gaps:
+      - ["allein", "alleine"]
+  explanation: "Gen 2,18 – der Mensch ist auf Gemeinschaft angelegt."
+- key: q3
+  type: true_false
+  prompt: "Die „Hilfe, die ihm entspricht“ in Genesis 2 bedeutet, dass die Frau dem Mann dienen soll."
+  answer: { value: false }
+  explanation: "„Entsprechen“ meint ein gleichwertiges Gegenüber auf Augenhöhe."
+- key: q4
+  type: single_choice
+  prompt: "Welches biblische Buch besteht aus Liebesgedichten?"
+  options: ["Das Buch Hiob", "Die Apostelgeschichte", "Das Hohelied Salomos", "Der Römerbrief"]
+  answer: { index: 2 }
+  explanation: "Das Hohelied besingt die Liebe zweier Menschen mit Bildern aus der Natur."
+- key: q5
+  type: single_choice
+  prompt: "Wer hat das „Hohelied der Liebe“ (1 Kor 13) geschrieben?"
+  options: ["König Salomo", "Jesus", "Paulus", "Mose"]
+  answer: { index: 2 }
+  explanation: "Paulus schrieb es in seinem Brief an die Gemeinde in Korinth."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Eigenschaften nennt Paulus in 1 Kor 13 für die Liebe?"
+  options: ["Sie ist langmütig.", "Sie eifert nicht.", "Sie sucht das Ihre.", "Sie rechnet das Böse nicht zu."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Paulus sagt: Die Liebe sucht NICHT das Ihre – sie ist nicht egoistisch."
+- key: q7
+  type: gap_text
+  prompt: "Jesus sagt zu den Anklägern: „Wer unter euch ohne Sünde ist, der werfe den ersten ___.“"
+  answer:
+    gaps:
+      - ["Stein"]
+  explanation: "Joh 8,7 – daraufhin gehen alle Ankläger weg."
+- key: q8
+  type: single_choice
+  prompt: "Was zeigt die Geschichte von der Ehebrecherin (Joh 8) vor allem?"
+  options: ["Dass Ehebruch erlaubt ist", "Dass Jesus schnelles Verurteilen und Doppelmoral ablehnt", "Dass Steinigung damals nicht üblich war", "Dass Jesus die Frau bestraft"]
+  answer: { index: 1 }
+  explanation: "Jesus verurteilt die Frau nicht, gibt ihr eine neue Chance und entlarvt die Doppelmoral der Ankläger."

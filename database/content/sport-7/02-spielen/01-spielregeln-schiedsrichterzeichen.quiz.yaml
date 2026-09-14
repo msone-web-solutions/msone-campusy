@@ -1,0 +1,49 @@
+- key: q1
+  type: numeric
+  prompt: "Wie viele Spieler einer Mannschaft stehen beim Basketball gleichzeitig auf dem Feld?"
+  answer: { value: 5, tolerance: 0 }
+  options: { unit: "Spieler" }
+  explanation: "Beim Basketball spielen 5 gegen 5."
+- key: q2
+  type: single_choice
+  prompt: "Wie viele Schritte darf ein Handballspieler mit dem Ball in der Hand höchstens machen?"
+  options: ["Zwei", "Drei", "Vier", "Beliebig viele"]
+  answer: { index: 1 }
+  explanation: "Im Handball sind drei Schritte erlaubt, dann muss geprellt oder abgespielt werden – und der Ball darf höchstens 3 Sekunden gehalten werden."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet es, wenn der Basketball-Schiedsrichter die Fäuste umeinander kreisen lässt?"
+  options: ["Foul", "Schrittfehler", "Doppeldribbling", "Auszeit"]
+  answer: { index: 1 }
+  explanation: "Kreisende Fäuste zeigen den Schrittfehler (Travelling) an."
+- key: q4
+  type: numeric
+  prompt: "Bis zu wie vielen Punkten geht ein Satz im Volleyball (bei mindestens 2 Punkten Vorsprung)?"
+  answer: { value: 25, tolerance: 0 }
+  options: { unit: "Punkte" }
+  explanation: "Ein Satz geht bis 25 Punkte mit mindestens 2 Punkten Vorsprung."
+- key: q5
+  type: true_false
+  prompt: "Im Fußball darf der Torwart den Ball im eigenen Strafraum mit der Hand spielen."
+  answer: { value: true }
+  explanation: "Nur der Torwart darf im eigenen Strafraum die Hände benutzen – Feldspieler nie."
+- key: q6
+  type: gap_text
+  prompt: "Im Handball darf nur der ___ den Torraum betreten. Ein grobes Foul wird mit einer ___-Minuten-Zeitstrafe bestraft."
+  answer:
+    gaps:
+      - ["Torwart", "Torhüter", "Torfrau", "Torhüterin"]
+      - ["2", "zwei", "Zwei"]
+  explanation: "Der 6-m-Raum gehört dem Torwart; grobe Fouls bringen 2 Minuten Zeitstrafe."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Aktionen sind im Volleyball Fehler?"
+  options: ["Der Ball wird gefangen und geworfen", "Ein Spieler berührt den Ball zweimal nacheinander", "Die Mannschaft spielt den Ball mit drei Berührungen über das Netz", "Ein Spieler berührt beim Spielen das Netz"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Halten, Doppelberührung und Netzberührung sind Fehler. Drei Berührungen sind erlaubt."
+- key: q8
+  type: single_choice
+  prompt: "Der Schiedsrichter entscheidet gegen deine Mannschaft, obwohl du sicher bist, dass er sich geirrt hat. Wie verhältst du dich fair?"
+  options: ["Laut protestieren, bis er die Entscheidung ändert", "Die Entscheidung akzeptieren und weiterspielen", "Den Gegner beim nächsten Angriff foulen", "Das Spielfeld verlassen"]
+  answer: { index: 1 }
+  explanation: "Fair Play heißt, Schiedsrichterentscheidungen zu akzeptieren und Emotionen zu beherrschen – auch wenn es schwerfällt."

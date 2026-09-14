@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie entsteht das Licht in einer Glühlampe?"
+  options: ["Ein Halbleiter sendet Licht aus", "Ein Wolframdraht wird durch Strom so heiß, dass er glüht", "Quecksilberdampf wird angeregt", "Ein Gas verbrennt"]
+  answer: { index: 1 }
+  explanation: "Die Glühwendel aus Wolfram wird etwa 2 500 °C heiß und leuchtet."
+- key: q2
+  type: single_choice
+  prompt: "Welches Leuchtmittel hat die längste Lebensdauer?"
+  options: ["Glühlampe", "Halogenlampe", "Energiesparlampe", "LED"]
+  answer: { index: 3 }
+  explanation: "LEDs halten 15 000 bis 50 000 Stunden – deutlich länger als alle anderen."
+- key: q3
+  type: true_false
+  prompt: "Die Angabe in Watt sagt aus, wie hell eine Lampe leuchtet."
+  answer: { value: false }
+  explanation: "Watt gibt die aufgenommene Leistung an. Die Helligkeit wird in Lumen gemessen."
+- key: q4
+  type: numeric
+  prompt: "Eine 60-W-Glühlampe brennt 100 Stunden. Wie viel Energie verbraucht sie in kWh?"
+  answer: { value: 6 }
+  options: { unit: "kWh" }
+  explanation: "60 W · 100 h = 6 000 Wh = 6 kWh."
+- key: q5
+  type: numeric
+  prompt: "Eine LED mit 8 W ersetzt eine 60-W-Glühlampe. Wie viel Watt Leistung spart sie?"
+  answer: { value: 52 }
+  options: { unit: "W" }
+  explanation: "60 W − 8 W = 52 W."
+- key: q6
+  type: single_choice
+  prompt: "Warum gehören Energiesparlampen nicht in den Restmüll?"
+  options: ["Weil sie zu groß sind", "Weil sie giftiges Quecksilber enthalten", "Weil sie noch leuchten könnten", "Weil sie aus Wolfram bestehen"]
+  answer: { index: 1 }
+  explanation: "Energiesparlampen enthalten Quecksilber und müssen an Sammelstellen abgegeben werden."
+- key: q7
+  type: gap_text
+  prompt: "Die Einheit der elektrischen Energie auf der Stromrechnung ist die ___."
+  answer:
+    gaps:
+      - ["Kilowattstunde", "kWh", "Kilowatt-Stunde"]
+  explanation: "1 kWh = 1 000 W · 1 h; eine kWh kostet etwa 35 Cent."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Angaben findet man auf der Verpackung eines Leuchtmittels?"
+  options: ["Lichtstrom in Lumen", "Leistung in Watt", "Energieeffizienzklasse A bis G", "Gewicht des Lampenkartons"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Lumen, Watt und Energielabel sind Pflichtangaben; das Kartongewicht nicht."

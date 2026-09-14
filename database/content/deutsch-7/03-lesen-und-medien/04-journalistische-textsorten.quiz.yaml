@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Textsorte beantwortet kurz und sachlich die W-Fragen und stellt das Wichtigste an den Anfang?"
+  options: ["Reportage", "Nachricht", "Kommentar", "Interview"]
+  answer: { index: 1 }
+  explanation: "Die Nachricht (Meldung) informiert knapp, sachlich und ohne Meinung."
+- key: q2
+  type: single_choice
+  prompt: "Worin unterscheidet sich die Reportage vom Bericht?"
+  options: ["Die Reportage ist kürzer.", "Die Reportage schildert anschaulich und im Präsens, was der Reporter vor Ort erlebt hat; der Bericht bleibt sachlich und distanziert.", "Der Bericht enthält Meinung, die Reportage nicht.", "Es gibt keinen Unterschied."]
+  answer: { index: 1 }
+  explanation: "Die Reportage lässt miterleben (Präsens, Sinneseindrücke); der Bericht informiert sachlich im Präteritum."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche W-Fragen beantwortet eine Nachricht?"
+  options: ["Wer?", "Was?", "Wann?", "Wie findest du das?"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Wer, Was, Wann, Wo, Wie, Warum, Woher – aber keine Meinungsfrage."
+- key: q4
+  type: single_choice
+  prompt: "Zu welcher Medienart gehört ein Podcast?"
+  options: ["Printmedien", "Hörmedien", "audiovisuelle Medien", "Er ist kein Medium."]
+  answer: { index: 1 }
+  explanation: "Ein Podcast ist ein reines Hörmedium wie Radio oder Hörspiel."
+- key: q5
+  type: gap_text
+  prompt: "Ein Text, in dem ein Journalist seine Meinung zu einem Ereignis begründet, heißt ___."
+  answer:
+    gaps:
+      - ["Kommentar", "kommentar"]
+  explanation: "Der Kommentar ist die wertende journalistische Textsorte."
+- key: q6
+  type: single_choice
+  prompt: "Was bewirkt das Minuszeichen in der Suche „Jaguar -Auto“?"
+  options: ["Es sucht nur nach Autos.", "Es schließt Treffer mit dem Wort „Auto“ aus.", "Es sucht nach dem genauen Satz.", "Es hat keine Wirkung."]
+  answer: { index: 1 }
+  explanation: "Der Minus-Operator schließt Seiten mit dem angegebenen Wort aus – hier bleiben Treffer zur Raubkatze."
+- key: q7
+  type: multiple_choice
+  prompt: "Woran erkennst du eine vertrauenswürdige Internetquelle?"
+  options: ["Der Autor oder die Redaktion ist im Impressum genannt.", "Die Angaben lassen sich auf anderen Seiten bestätigen.", "Die Überschrift hat viele Ausrufezeichen.", "Es werden Quellen genannt."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Autorenschaft, Belege und Gegencheck sprechen für Qualität. Reißerische Überschriften sind ein Warnsignal."
+- key: q8
+  type: true_false
+  prompt: "Eine Anzeige in einer Zeitung muss als Werbung gekennzeichnet sein."
+  answer: { value: true }
+  explanation: "Bezahlte Werbung muss erkennbar sein, damit sie nicht mit redaktionellen Texten verwechselt wird."

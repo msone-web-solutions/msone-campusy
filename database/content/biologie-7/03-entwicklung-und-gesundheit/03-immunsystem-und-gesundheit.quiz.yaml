@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Barrieren halten Krankheitserreger vom Körperinneren fern?"
+  options: ["Haut", "Schleimhäute", "Magensäure", "Rote Blutzellen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Haut, Schleimhäute und Magensäure sind die erste Abwehrstufe. Rote Blutzellen transportieren Sauerstoff."
+- key: q2
+  type: single_choice
+  prompt: "Was machen Fresszellen?"
+  options: ["Sie bilden Antikörper", "Sie umfließen und verdauen eingedrungene Erreger", "Sie transportieren Sauerstoff", "Sie bilden Hormone"]
+  answer: { index: 1 }
+  explanation: "Fresszellen gehören zur unspezifischen Abwehr und vernichten alles Fremde."
+- key: q3
+  type: gap_text
+  prompt: "Lymphozyten bilden passgenaue ___ gegen den Erreger. Nach der Krankheit bleiben ___ zurück, die für Immunität sorgen."
+  answer:
+    gaps:
+      - ["Antikörper", "Antikoerper"]
+      - ["Gedächtniszellen", "Gedaechtniszellen", "Gedachtniszellen"]
+  explanation: "Antikörper machen den Erreger unschädlich; Gedächtniszellen erkennen ihn beim nächsten Mal sofort."
+- key: q4
+  type: single_choice
+  prompt: "Was passiert bei einer aktiven Immunisierung (Impfung)?"
+  options: ["Man bekommt fertige Antikörper gespritzt", "Abgeschwächte Erreger regen den Körper an, selbst Antikörper und Gedächtniszellen zu bilden", "Das Immunsystem wird ausgeschaltet", "Man bekommt die Krankheit in voller Stärke"]
+  answer: { index: 1 }
+  explanation: "Die Impfung trainiert das Immunsystem, ohne krank zu machen. Fertige Antikörper gibt es bei der passiven Immunisierung."
+- key: q5
+  type: true_false
+  prompt: "Wenn genügend Menschen geimpft sind, sind auch Ungeimpfte wie Säuglinge besser geschützt."
+  answer: { value: true }
+  explanation: "Das nennt man Herdenimmunität: Der Erreger findet zu wenige Wirte, um sich auszubreiten."
+- key: q6
+  type: single_choice
+  prompt: "Welche Krankheit wurde durch Impfungen weltweit ausgerottet?"
+  options: ["Masern", "Pocken", "Grippe", "Aids"]
+  answer: { index: 1 }
+  explanation: "Die Pocken gelten seit 1980 als ausgerottet. Masern könnten folgen, wenn genug Menschen geimpft wären."
+- key: q7
+  type: multiple_choice
+  prompt: "Wie kann HIV übertragen werden?"
+  options: ["Ungeschützter Geschlechtsverkehr", "Gemeinsam benutzte Spritzen", "Händeschütteln", "Küssen"]
+  answer: { indexes: [0, 1] }
+  explanation: "HIV wird über Blut, Sperma, Scheidenflüssigkeit und Muttermilch übertragen – nicht durch Alltagskontakte."
+- key: q8
+  type: single_choice
+  prompt: "Welche Folge hat Rauchen laut Statistik besonders häufig?"
+  options: ["Bessere Ausdauer", "Lungenkrebs und Herzinfarkt", "Stärkere Knochen", "Ein stärkeres Immunsystem"]
+  answer: { index: 1 }
+  explanation: "Raucher erkranken etwa 20-mal häufiger an Lungenkrebs; Rauchen schädigt auch Herz und Gefäße."

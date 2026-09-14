@@ -1,0 +1,11 @@
+slug: franzoesisch
+name: Französisch
+description: Klasse 7 – Sekundarschule Sachsen-Anhalt (Fachlehrplan Französisch Stand 01.08.2019, Schuljahrgänge 7/8, 2. Fremdsprache ab Klasse 7)
+icon: globe
+color: blue
+grade: 7
+school_type: sekundarschule
+state: ST
+curriculum_version: lsa-sks-2019
+sort: 17
+optional: true

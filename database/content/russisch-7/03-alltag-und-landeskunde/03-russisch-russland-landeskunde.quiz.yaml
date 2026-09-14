@@ -1,0 +1,47 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie heißt die Hauptstadt Russlands auf Russisch?"
+  options: ["Санкт-Петербург", "Москва", "Новосибирск", "Киев"]
+  answer: { index: 1 }
+  explanation: "Москва (Moskau) ist die Hauptstadt mit über 12 Millionen Einwohnern."
+- key: q2
+  type: numeric
+  prompt: "Über wie viele Zeitzonen erstreckt sich Russland?"
+  answer: { value: 11 }
+  explanation: "Russland erstreckt sich über elf Zeitzonen."
+- key: q3
+  type: true_false
+  prompt: "Der Name „Roter Platz“ (Красная площадь) kommt von der Farbe der Kremlmauer."
+  answer: { value: false }
+  explanation: "красный bedeutete im alten Russisch „schön“ – der „schöne Platz“."
+- key: q4
+  type: single_choice
+  prompt: "Welches Tier zeigt das russische Staatswappen?"
+  options: ["einen Bären", "einen Doppeladler", "einen Löwen", "einen Wolf"]
+  answer: { index: 1 }
+  explanation: "Der goldene Doppeladler auf rotem Grund stammt aus der Zarenzeit."
+- key: q5
+  type: gap_text
+  prompt: "Die ineinander gesteckten Holzpuppen heißen ___."
+  answer:
+    gaps:
+      - ["Матрёшка", "матрёшка", "матрешка", "Matrjoschka", "matrjoschka", "Matroschka", "matryoshka"]
+  explanation: "Die Matrjoschka ist ein bekanntes russisches Souvenir."
+- key: q6
+  type: single_choice
+  prompt: "Wann feiert die russisch-orthodoxe Kirche Weihnachten?"
+  options: ["am 24. Dezember", "am 25. Dezember", "am 1. Januar", "am 7. Januar"]
+  answer: { index: 3 }
+  explanation: "Wegen des julianischen Kalenders fällt das orthodoxe Weihnachtsfest auf den 7. Januar."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Aussagen über Russland sind richtig?"
+  options: ["Der Ural trennt den europäischen vom asiatischen Teil.", "St. Petersburg wurde 1703 von Peter dem Großen gegründet.", "Der Baikalsee ist der tiefste See der Welt.", "Russland ist kleiner als Deutschland."]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Russland ist fast 50-mal so groß wie Deutschland – die letzte Aussage ist falsch."
+- key: q8
+  type: single_choice
+  prompt: "Was ist eine дача?"
+  options: ["eine Suppe aus Roter Bete", "ein Wochenendhaus mit Garten", "ein Musikinstrument", "ein Teekessel"]
+  answer: { index: 1 }
+  explanation: "Die Datscha ist ein kleines Haus mit Garten vor der Stadt, das im Sommer sehr wichtig ist."

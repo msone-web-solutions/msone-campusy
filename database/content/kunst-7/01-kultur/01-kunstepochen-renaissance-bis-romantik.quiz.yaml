@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet das Wort „Renaissance“?"
+  options: ["Vernunft", "Wiedergeburt", "Pracht", "Gefühl"]
+  answer: { index: 1 }
+  explanation: "Renaissance = Wiedergeburt (der antiken Kunst und Kultur)."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Künstler malte die „Mona Lisa“?"
+  options: ["Michelangelo", "Albrecht Dürer", "Leonardo da Vinci", "Rembrandt"]
+  answer: { index: 2 }
+  explanation: "Leonardo da Vinci malte die Mona Lisa um 1503 – mit dem weichen Sfumato-Übergang."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Merkmale sind typisch für den Barock?"
+  options: ["starke Hell-Dunkel-Kontraste", "Bewegung und Diagonalen", "strenge Symmetrie und Säulen", "Prunk und Gold"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Barock ist prachtvoll, bewegt und dramatisch beleuchtet. Strenge Symmetrie und Säulen kennzeichnen den Klassizismus."
+- key: q4
+  type: gap_text
+  prompt: "Albrecht ___ aus Nürnberg brachte die Renaissance nach Deutschland und schuf den berühmten „Feldhasen“."
+  answer:
+    gaps:
+      - ["Dürer", "Duerer", "dürer"]
+  explanation: "Albrecht Dürer (1471–1528) war Maler, Grafiker und selbstbewusste Künstlerpersönlichkeit."
+- key: q5
+  type: single_choice
+  prompt: "Welches Bauwerk gehört zum Klassizismus?"
+  options: ["Der Dresdner Zwinger", "Das Brandenburger Tor", "Der Kölner Dom", "Die Sixtinische Kapelle"]
+  answer: { index: 1 }
+  explanation: "Das Brandenburger Tor (1791) mit seinen Säulen folgt dem Vorbild der Athener Akropolis."
+- key: q6
+  type: single_choice
+  prompt: "Was ist eine „Rückenfigur“ in der Romantik?"
+  options: ["Eine Statue aus Marmor", "Eine Person, die mit dem Rücken zum Betrachter in die Landschaft blickt", "Ein Bild, das auf der Rückseite bemalt ist", "Ein Porträt von hinten"]
+  answer: { index: 1 }
+  explanation: "Caspar David Friedrich setzte Rückenfiguren ein, damit der Betrachter mit ihnen in die Weite schaut."
+- key: q7
+  type: true_false
+  prompt: "In der Romantik standen Vernunft und strenge geometrische Formen im Mittelpunkt."
+  answer: { value: false }
+  explanation: "Das gilt für den Klassizismus. Die Romantik betonte Gefühl, Sehnsucht und Natur."
+- key: q8
+  type: single_choice
+  prompt: "Wer waren die wichtigsten Auftraggeber der Barockkunst?"
+  options: ["Fabrikbesitzer", "Kirche und absolutistische Fürsten", "Schulen", "Zeitungen"]
+  answer: { index: 1 }
+  explanation: "Kirche und Fürsten wie August der Starke wollten mit prunkvollen Bauten und Bildern ihre Macht zeigen."

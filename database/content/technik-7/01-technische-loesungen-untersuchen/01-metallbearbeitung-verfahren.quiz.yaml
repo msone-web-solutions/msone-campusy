@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Zu welcher Verfahrensgruppe gehört das Gießen?"
+  options: ["Urformen", "Umformen", "Trennen", "Fügen"]
+  answer: { index: 0 }
+  explanation: "Beim Gießen entsteht aus flüssigem Metall zum ersten Mal ein fester Körper – das ist Urformen."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Verfahren gehören zum Trennen?"
+  options: ["Sägen", "Biegen", "Feilen", "Bohren"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Sägen, Feilen und Bohren entfernen Material. Biegen ist Umformen."
+- key: q3
+  type: true_false
+  prompt: "Beim Umformen entstehen Späne, weil Material entfernt wird."
+  answer: { value: false }
+  explanation: "Beim Umformen wird nur die Form verändert; die Masse bleibt gleich. Späne entstehen beim Trennen."
+- key: q4
+  type: gap_text
+  prompt: "Schweißen und Nieten sind ___ Verbindungen, Schrauben sind ___ Verbindungen."
+  answer:
+    gaps:
+      - ["nicht lösbare", "nicht lösbar", "unlösbare", "unlösbar"]
+      - ["lösbare", "lösbar"]
+  explanation: "Nicht lösbare Verbindungen kann man nur durch Zerstören trennen, lösbare wie Schrauben zerstörungsfrei."
+- key: q5
+  type: single_choice
+  prompt: "Warum werden Schrauben und Leitplanken verzinkt?"
+  options: ["Damit sie schwerer werden", "Zum Schutz vor Korrosion (Rost)", "Damit sie leichter zu biegen sind", "Um Späne zu vermeiden"]
+  answer: { index: 1 }
+  explanation: "Verzinken ist ein Beschichtungsverfahren, das Stahl vor Rost schützt."
+- key: q6
+  type: single_choice
+  prompt: "Welches Verfahren ist ein Umformverfahren?"
+  options: ["Löten", "Lackieren", "Schmieden", "Scheren"]
+  answer: { index: 2 }
+  explanation: "Beim Schmieden wird glühendes Metall mit dem Hammer in eine neue Form gebracht."
+- key: q7
+  type: single_choice
+  prompt: "Welche Reihenfolge ist beim Herstellen eines Blechanhängers sinnvoll?"
+  options: ["Lackieren – Sägen – Bohren – Feilen", "Anreißen – Sägen – Feilen – Bohren – Biegen – Lackieren", "Bohren – Anreißen – Lackieren – Sägen", "Biegen – Lackieren – Sägen – Anreißen"]
+  answer: { index: 1 }
+  explanation: "Erst wird die Form angerissen und herausgetrennt, dann gebohrt und gebogen, ganz zum Schluss beschichtet."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Sicherheitsregeln gelten in der Metallwerkstatt?"
+  options: ["Werkstück fest im Schraubstock einspannen", "Späne mit der Hand wegwischen", "Schutzbrille beim Bohren tragen", "Beim Schleifen die Brille abnehmen"]
+  answer: { indexes: [0, 2] }
+  explanation: "Einspannen und Schutzbrille schützen vor Verletzungen. Späne sind scharf – nur mit Handfeger entfernen."

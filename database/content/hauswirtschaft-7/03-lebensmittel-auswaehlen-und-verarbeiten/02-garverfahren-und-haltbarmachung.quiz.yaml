@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Verfahren sind mechanische Verfahren der Lebensmittelverarbeitung?"
+  options: ["Raspeln", "Braten", "Kneten", "Sieben"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Raspeln, Kneten und Sieben kommen ohne Wärme aus. Braten ist ein thermisches Verfahren."
+- key: q2
+  type: single_choice
+  prompt: "Bei welchem Garverfahren gart das Lebensmittel in wenig Flüssigkeit oder im eigenen Saft mit Deckel?"
+  options: ["Kochen", "Dünsten", "Frittieren", "Grillen"]
+  answer: { index: 1 }
+  explanation: "Dünsten braucht nur wenig Flüssigkeit und schont Nährstoffe."
+- key: q3
+  type: numeric
+  prompt: "Bei welcher Temperatur in °C kocht Wasser und gart man Nudeln?"
+  answer: { value: 100 }
+  options: { unit: "°C" }
+  explanation: "Kochen findet bei 100 °C statt."
+- key: q4
+  type: true_false
+  prompt: "Beim Kochen in viel Wasser gehen wasserlösliche Vitamine wie Vitamin C teilweise ins Kochwasser über."
+  answer: { value: true }
+  explanation: "Deshalb wenig Wasser verwenden, kurz garen oder das Kochwasser weiterverwenden."
+- key: q5
+  type: single_choice
+  prompt: "Welche Bedingung brauchen Mikroorganismen NICHT, um Lebensmittel zu verderben?"
+  options: ["Wärme", "Wasser", "Nährstoffe", "Kälte unter −18 °C"]
+  answer: { index: 3 }
+  explanation: "Bei −18 °C ist das Wachstum gestoppt – deshalb hält Tiefgekühltes monatelang."
+- key: q6
+  type: single_choice
+  prompt: "Nach welchem Prinzip macht Salz Lebensmittel haltbar (z. B. beim Pökeln)?"
+  options: ["Salz erhitzt das Lebensmittel", "Salz entzieht Wasser, das Mikroorganismen zum Wachsen brauchen", "Salz fügt Sauerstoff hinzu", "Salz färbt das Lebensmittel"]
+  answer: { index: 1 }
+  explanation: "Ohne verfügbares Wasser können Keime nicht wachsen – gleiches Prinzip wie Zuckern und Trocknen."
+- key: q7
+  type: gap_text
+  prompt: "Sauerkraut wird durch ___gärung haltbar, Gewürzgurken durch Einlegen in ___."
+  answer:
+    gaps:
+      - ["Milchsäure", "Milchsäure-"]
+      - ["Essig", "Essigwasser", "Essigsud"]
+  explanation: "Säure hemmt das Wachstum von Keimen – bei Sauerkraut durch Milchsäurebakterien, bei Gurken durch Essig."
+- key: q8
+  type: single_choice
+  prompt: "Wo im Kühlschrank ist es am kältesten – der richtige Platz für Fleisch und Fisch?"
+  options: ["Im obersten Fach", "In der Tür", "Unten, direkt über dem Gemüsefach", "Im Gemüsefach"]
+  answer: { index: 2 }
+  explanation: "Die Glasplatte über dem Gemüsefach ist die kälteste Zone – ideal für leicht Verderbliches."

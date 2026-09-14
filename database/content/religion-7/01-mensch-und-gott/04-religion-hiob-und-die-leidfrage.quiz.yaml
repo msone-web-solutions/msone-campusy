@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bezeichnet der Begriff „Theodizee“?"
+  options: ["Die Lehre von der Dreieinigkeit", "Die Frage, wie ein guter, allmächtiger Gott Leid zulassen kann", "Eine Gebetsform im Judentum", "Die Schöpfungsgeschichte"]
+  answer: { index: 1 }
+  explanation: "Theodizee heißt wörtlich „Rechtfertigung Gottes“ angesichts des Leids."
+- key: q2
+  type: gap_text
+  prompt: "Hiob sagt: „Der HERR hat's gegeben, der HERR hat's ___; der Name des HERRN sei gelobt.“"
+  answer:
+    gaps:
+      - ["genommen"]
+  explanation: "Hiob 1,21 – Hiob hält zunächst am Lob Gottes fest."
+- key: q3
+  type: true_false
+  prompt: "Am Ende des Buches Hiob tadelt Gott Hiob, weil er geklagt hat."
+  answer: { value: false }
+  explanation: "Gott tadelt die Freunde mit ihren falschen Erklärungen – Hiobs ehrliche Klage war richtig."
+- key: q4
+  type: single_choice
+  prompt: "Was meint der „Tun-Ergehen-Zusammenhang“?"
+  options: ["Wer viel tut, wird müde.", "Wer Gutes tut, dem geht es gut; wer Böses tut, wird bestraft.", "Gott handelt nur am Sabbat.", "Leid ist immer Zufall."]
+  answer: { index: 1 }
+  explanation: "Diese Vorstellung vertreten Hiobs Freunde – das Buch Hiob widerspricht ihr."
+- key: q5
+  type: multiple_choice
+  prompt: "Was lehrt das Buch Hiob über den Umgang mit Leid?"
+  options: ["Klagen ist erlaubt.", "Leid ist immer eine Strafe für Schuld.", "Gute Tröster sind da und schweigen, statt zu erklären.", "Gott bleibt auch im Leid in Beziehung zum Menschen."]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Gerade die Deutung „Leid = Strafe“ wird im Buch Hiob widerlegt."
+- key: q6
+  type: single_choice
+  prompt: "Wer ruft am Kreuz die Worte aus Psalm 22: „Mein Gott, mein Gott, warum hast du mich verlassen?“"
+  options: ["Hiob", "Paulus", "Jesus", "Mose"]
+  answer: { index: 2 }
+  explanation: "Mk 15,34 – für Christen ein Zeichen, dass Gott das Leid von innen kennt."
+- key: q7
+  type: single_choice
+  prompt: "Wie antwortet Gott Hiob aus dem Sturm?"
+  options: ["Mit einer genauen Erklärung des Leids", "Mit Gegenfragen über die Größe der Schöpfung", "Mit einer Strafe", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "„Wo warst du, als ich die Erde gründete?“ – Gott zeigt, dass der Mensch ihn nicht durchschauen kann."
+- key: q8
+  type: gap_text
+  prompt: "In der Heilungsgeschichte am Teich Betesda (Joh 5) sagt Jesus zu dem Gelähmten: „Steh auf, nimm dein ___ und geh hin!“"
+  answer:
+    gaps:
+      - ["Bett", "Lager", "Matte"]
+  explanation: "Der Mann war 38 Jahre gelähmt – Gottes Wille ist Heilung und Leben."

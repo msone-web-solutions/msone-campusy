@@ -1,0 +1,47 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche gehören zu den sechs Bewertungskriterien für technische Lösungen?"
+  options: ["zweckmäßig", "zuverlässig", "beliebt", "umweltgerecht"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die sechs Kriterien: zweckmäßig, zuverlässig, sicher, umweltgerecht, wirtschaftlich, ästhetisch. „Beliebt“ gehört nicht dazu."
+- key: q2
+  type: single_choice
+  prompt: "Eine Trinkflasche kostet 15 € und hält zehn Jahre. Welches Kriterium wird damit bewertet?"
+  options: ["ästhetisch", "wirtschaftlich", "sicher", "zweckmäßig"]
+  answer: { index: 1 }
+  explanation: "Wirtschaftlich bedeutet: Preis und Leistung stehen in einem guten Verhältnis."
+- key: q3
+  type: numeric
+  prompt: "Ein Produkt bekommt beim Kriterium „sicher“ 4 Punkte, das Kriterium hat das Gewicht 3. Wie viele gewichtete Punkte ergibt das?"
+  answer: { value: 12 }
+  explanation: "4 Punkte · Gewicht 3 = 12."
+- key: q4
+  type: single_choice
+  prompt: "Warum werden Kriterien in einer Bewertungstabelle gewichtet?"
+  options: ["Damit die Tabelle länger wird", "Weil nicht jedes Kriterium gleich wichtig ist", "Damit alle Produkte gleich viele Punkte bekommen", "Weil es die Stiftung Warentest vorschreibt"]
+  answer: { index: 1 }
+  explanation: "Beim Fahrradhelm ist Sicherheit wichtiger als Aussehen – das drückt die Gewichtung aus."
+- key: q5
+  type: gap_text
+  prompt: "Ein Smartphone fällt 100-mal aus 1 m Höhe auf Beton. Das ist ein ___."
+  answer:
+    gaps:
+      - ["Falltest", "Fall-Test"]
+  explanation: "Der Falltest prüft, ob das Gerät Stürze übersteht."
+- key: q6
+  type: true_false
+  prompt: "Das CE-Zeichen bedeutet, dass eine unabhängige Prüfstelle die Sicherheit des Produkts getestet hat."
+  answer: { value: false }
+  explanation: "CE ist eine Erklärung des Herstellers. Das GS-Zeichen steht für eine unabhängige Sicherheitsprüfung."
+- key: q7
+  type: single_choice
+  prompt: "Welches Label kennzeichnet besonders umweltfreundliche Produkte?"
+  options: ["CE", "GS", "Blauer Engel", "TÜV"]
+  answer: { index: 2 }
+  explanation: "Der Blaue Engel ist das deutsche Umweltzeichen."
+- key: q8
+  type: single_choice
+  prompt: "Was ist das Ziel eines technischen Tests?"
+  options: ["Herauszufinden, ob das Produkt gut aussieht", "Unter festgelegten Bedingungen zu prüfen, ob ein Produkt eine Anforderung erfüllt", "Das Produkt möglichst schnell zu zerstören", "Werbung für das Produkt zu machen"]
+  answer: { index: 1 }
+  explanation: "Ein Test misst unter gleichen, festgelegten Bedingungen, ob Anforderungen erfüllt sind."

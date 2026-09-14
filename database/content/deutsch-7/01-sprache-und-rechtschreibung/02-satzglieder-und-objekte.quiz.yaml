@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Mit welcher Frage findest du das Genitivobjekt?"
+  options: ["Wem?", "Wen oder was?", "Wessen?", "Wo?"]
+  answer: { index: 2 }
+  explanation: "Das Genitivobjekt antwortet auf die Frage „Wessen?“."
+- key: q2
+  type: single_choice
+  prompt: "Welches Satzglied ist „auf ihre Freundin“ im Satz „Mia wartet auf ihre Freundin“?"
+  options: ["Subjekt", "Dativobjekt", "Präpositionalobjekt", "Adverbiale Bestimmung des Ortes"]
+  answer: { index: 2 }
+  explanation: "„warten auf“ ist eine feste Verbindung. Frage: Auf wen wartet Mia? – Präpositionalobjekt."
+- key: q3
+  type: single_choice
+  prompt: "Welches Satzglied ist „im Park“ im Satz „Mia wartet im Park“?"
+  options: ["Präpositionalobjekt", "Adverbiale Bestimmung des Ortes", "Akkusativobjekt", "Genitivobjekt"]
+  answer: { index: 1 }
+  explanation: "Frage: Wo wartet Mia? – Die Präposition „im“ ist nicht fest an „warten“ gebunden, man könnte auch „vor dem Haus“ sagen. Also adverbiale Bestimmung."
+- key: q4
+  type: gap_text
+  prompt: "Bei der ___probe ersetzt man ein Satzglied durch ein Pronomen, z. B. „auf den Bus“ durch „darauf“."
+  answer:
+    gaps:
+      - ["Ersatz", "ersatz", "Austausch"]
+  explanation: "Die Ersatzprobe (Austauschprobe) zeigt, ob eine Wortgruppe ein Satzglied ist und in welchem Fall sie steht."
+- key: q5
+  type: true_false
+  prompt: "In „das Handy meiner Schwester“ ist „meiner Schwester“ ein Genitivobjekt."
+  answer: { value: false }
+  explanation: "„meiner Schwester“ gehört als Attribut zu „das Handy“ – es ist ein Satzgliedteil, kein eigenes Satzglied."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Verben verlangen ein Präpositionalobjekt?"
+  options: ["sich freuen (auf/über)", "denken (an)", "geben", "sich interessieren (für)", "sehen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "sich freuen auf/über, denken an, sich interessieren für haben feste Präpositionen. „geben“ nimmt Dativ- und Akkusativobjekt, „sehen“ ein Akkusativobjekt."
+- key: q7
+  type: single_choice
+  prompt: "Welche Frage passt zum Präpositionalobjekt in „Wir sprechen über den Film“?"
+  options: ["Wo sprechen wir?", "Worüber sprechen wir?", "Wessen sprechen wir?", "Wem sprechen wir?"]
+  answer: { index: 1 }
+  explanation: "Beim Präpositionalobjekt wird die Frage mit der Präposition gebildet: Worüber?"
+- key: q8
+  type: single_choice
+  prompt: "Womit prüfst du, ob mehrere Wörter zusammen ein Satzglied bilden?"
+  options: ["Mit der Umstellprobe", "Mit dem Wörterbuch", "Mit der Silbentrennung", "Mit der Großschreibung"]
+  answer: { index: 0 }
+  explanation: "Was sich nur gemeinsam im Satz verschieben lässt, ist ein Satzglied – das zeigt die Umstellprobe."

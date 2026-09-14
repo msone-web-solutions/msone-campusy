@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Worum geht es bei der austeilenden Gerechtigkeit?"
+  options: ["Um die Bestrafung von Verbrechen", "Um die gerechte Verteilung von Gütern, Chancen und Lasten", "Um den Ausgleich eines Schadens", "Um den Tausch von Waren"]
+  answer: { index: 1 }
+  explanation: "Austeilend = verteilen; ausgleichend = wiedergutmachen."
+- key: q2
+  type: single_choice
+  prompt: "Ein Dieb muss das Gestohlene zurückgeben und wird bestraft. Welche Gerechtigkeit ist das?"
+  options: ["Austeilende Gerechtigkeit", "Ausgleichende Gerechtigkeit", "Geschlechtergerechtigkeit", "Gleichbehandlung"]
+  answer: { index: 1 }
+  explanation: "Ein Ungleichgewicht wird wieder ausgeglichen."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Maßstäbe kann man bei der Verteilung anlegen?"
+  options: ["Gleichheit", "Leistung", "Bedürfnis", "Körpergröße"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Gleichheit, Leistung und Bedürfnis sind die drei klassischen Verteilungsmaßstäbe."
+- key: q4
+  type: single_choice
+  prompt: "Drei unterschiedlich große Kinder bekommen je eine gleich hohe Kiste, um über den Zaun zu schauen – das kleinste sieht trotzdem nichts. Was zeigt das Beispiel?"
+  options: ["Gleichbehandlung ist immer gerecht", "Gleichbehandlung kann ungerecht sein, wenn die Menschen ungleiche Voraussetzungen haben", "Kisten sind ungerecht", "Das kleinste Kind ist selbst schuld"]
+  answer: { index: 1 }
+  explanation: "Gerecht wäre eine Verteilung nach Bedarf – dann sehen alle das Spiel."
+- key: q5
+  type: true_false
+  prompt: "Frauen durften in Deutschland schon seit 1871 wählen."
+  answer: { value: false }
+  explanation: "Das Frauenwahlrecht kam erst 1918; die erste Wahl mit Frauen war im Januar 1919."
+- key: q6
+  type: numeric
+  prompt: "Um etwa wie viel Prozent lag der durchschnittliche Stundenlohn von Frauen in Deutschland 2024 unter dem der Männer (Gender Pay Gap)?"
+  answer: { value: 16, tolerance: 2 }
+  options: { unit: "%" }
+  explanation: "Laut Statistischem Bundesamt betrug der unbereinigte Gender Pay Gap 2024 rund 16 Prozent."
+- key: q7
+  type: gap_text
+  prompt: "Unbezahlte Arbeit wie Kinderbetreuung, Pflege und Haushalt nennt man ___-Arbeit."
+  answer:
+    gaps:
+      - ["Care", "Sorge"]
+  explanation: "Care-Arbeit (Sorgearbeit) wird überwiegend von Frauen geleistet und nicht bezahlt."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Merkmale sollte eine Institution haben, die für Gerechtigkeit sorgt?"
+  options: ["Sie ist unabhängig", "Sie hört beide Seiten an", "Sie entscheidet nach Sympathie", "Sie kann ihre Entscheidungen durchsetzen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Entscheidungen nach Sympathie wären Willkür – das Gegenteil von Gerechtigkeit."

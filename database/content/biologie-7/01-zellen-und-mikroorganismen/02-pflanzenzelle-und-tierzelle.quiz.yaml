@@ -1,0 +1,51 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie nennt man die kleinste Bau- und Funktionseinheit aller Lebewesen?"
+  options: ["Organ", "Zelle", "Gewebe", "Organell"]
+  answer: { index: 1 }
+  explanation: "Die Zelle zeigt alle Merkmale des Lebens und ist die Grundbaueinheit aller Organismen."
+- key: q2
+  type: gap_text
+  prompt: "Die grünen Organellen der Pflanzenzelle heißen ___ und enthalten den Farbstoff ___."
+  answer:
+    gaps:
+      - ["Chloroplasten", "Chloroplast"]
+      - ["Chlorophyll", "Blattgrün"]
+  explanation: "In den Chloroplasten findet mit Hilfe des Chlorophylls die Fotosynthese statt."
+- key: q3
+  type: true_false
+  prompt: "Tierzellen besitzen eine Zellwand aus Cellulose."
+  answer: { value: false }
+  explanation: "Eine Zellwand haben nur Pflanzenzellen. Tierzellen werden nur von der Zellmembran begrenzt."
+- key: q4
+  type: single_choice
+  prompt: "Welche Aufgabe haben die Mitochondrien?"
+  options: ["Sie speichern Zellsaft", "Sie liefern der Zelle Energie", "Sie geben der Zelle Halt", "Sie stellen Traubenzucker aus Licht her"]
+  answer: { index: 1 }
+  explanation: "Mitochondrien sind die Kraftwerke der Zelle: Sie setzen Energie aus Traubenzucker frei."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Bestandteile findet man sowohl in Tier- als auch in Pflanzenzellen?"
+  options: ["Zellmembran", "Chloroplasten", "Zellkern", "Zellplasma"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Membran, Kern und Plasma haben alle Zellen. Chloroplasten gibt es nur in Pflanzenzellen."
+- key: q6
+  type: single_choice
+  prompt: "Was passiert mit einer Pflanze, wenn ihre Vakuolen wenig Wasser enthalten?"
+  options: ["Sie wächst schneller", "Sie welkt", "Sie wird grüner", "Nichts, die Vakuole ist unwichtig"]
+  answer: { index: 1 }
+  explanation: "Gefüllte Vakuolen drücken gegen die Zellwand und halten die Zellen prall. Fehlt Wasser, erschlafft die Pflanze."
+- key: q7
+  type: single_choice
+  prompt: "Warum brauchen Tierzellen keine Chloroplasten?"
+  options: ["Weil Tiere keine Energie brauchen", "Weil Tiere ihre Nahrung fressen und nicht selbst herstellen", "Weil Tiere im Dunkeln leben", "Weil Tierzellen zu klein sind"]
+  answer: { index: 1 }
+  explanation: "Chloroplasten stellen Nahrung aus Licht her. Tiere nehmen fertige Nährstoffe mit der Nahrung auf."
+- key: q8
+  type: gap_text
+  prompt: "Bei der Fotosynthese entstehen aus Wasser und Kohlenstoffdioxid mit Lichtenergie ___ und ___."
+  answer:
+    gaps:
+      - ["Traubenzucker", "Zucker", "Glucose", "Glukose"]
+      - ["Sauerstoff"]
+  explanation: "Traubenzucker dient der Pflanze als Nahrung, Sauerstoff wird an die Luft abgegeben."

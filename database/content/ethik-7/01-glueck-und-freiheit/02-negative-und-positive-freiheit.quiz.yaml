@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet negative Freiheit?"
+  options: ["Freiheit, die schlecht ist", "Freiheit von Zwang und Verboten", "Freiheit, anderen zu schaden", "Freiheit nur für Erwachsene"]
+  answer: { index: 1 }
+  explanation: "„Negativ“ heißt hier: Zwang ist nicht vorhanden. Es hat nichts mit „schlecht“ zu tun."
+- key: q2
+  type: single_choice
+  prompt: "Welches Beispiel zeigt positive Freiheit?"
+  options: ["Niemand verbietet mir zu lesen", "Ich kann lesen und wähle selbst, welches Buch ich lese", "Es gibt keine Bibliothek", "Meine Eltern lesen mir vor"]
+  answer: { index: 1 }
+  explanation: "Positive Freiheit ist die Fähigkeit, etwas selbst zu tun und zu gestalten."
+- key: q3
+  type: true_false
+  prompt: "Wenn alle Menschen ohne jede Regel völlig frei wären, wären alle dauerhaft freier."
+  answer: { value: false }
+  explanation: "Ohne Regeln gilt das Recht des Stärkeren – unbegrenzte Freiheit hebt sich selbst auf."
+- key: q4
+  type: gap_text
+  prompt: "Der Zustand ohne Herrschaft und verbindliche Regeln heißt ___; Handeln ohne Rücksicht auf andere nennt man ___."
+  answer:
+    gaps:
+      - ["Anarchie"]
+      - ["Willkür", "Willkuer"]
+  explanation: "Anarchie = Herrschaftslosigkeit; Willkür = rücksichtsloses Handeln nach Belieben."
+- key: q5
+  type: single_choice
+  prompt: "Was besagt der Satz „Die Freiheit des Einzelnen endet dort, wo die Freiheit des anderen beginnt“?"
+  options: ["Man ist nur allein frei", "Meine Freiheit ist durch die Rechte der anderen begrenzt", "Der andere hat keine Freiheit", "Freiheit gibt es nicht"]
+  answer: { index: 1 }
+  explanation: "Freiheit gilt für alle – deshalb muss ich die Freiheit der anderen achten."
+- key: q6
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Toleranz und Anerkennung?"
+  options: ["Es gibt keinen", "Toleranz heißt ertragen, Anerkennung heißt als gleichwertig wertschätzen", "Anerkennung ist weniger als Toleranz", "Toleranz gilt nur für Freunde"]
+  answer: { index: 1 }
+  explanation: "Anerkennung geht über das bloße Dulden hinaus."
+- key: q7
+  type: multiple_choice
+  prompt: "Was muss man NICHT tolerieren?"
+  options: ["Gewalt gegen andere", "Eine andere Religion", "Mobbing", "Einen anderen Musikgeschmack"]
+  answer: { indexes: [0, 2] }
+  explanation: "Was anderen die Freiheit nimmt, hat keinen Anspruch auf Toleranz. Religion und Geschmack schon."
+- key: q8
+  type: single_choice
+  prompt: "Warum gehören Freiheit und Verantwortung zusammen?"
+  options: ["Weil Verantwortung Freiheit verhindert", "Weil ich verantworten muss, was ich mit meiner Freiheit tue – auch gegenüber anderen", "Weil nur Verantwortliche frei sein dürfen", "Weil Freiheit nur für Eltern gilt"]
+  answer: { index: 1 }
+  explanation: "Wer frei entscheidet, trägt die Folgen seiner Entscheidungen – für sich und andere."

@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was versteht man unter einem Haushalt?"
+  options: ["Nur eine Familie mit Kindern", "Menschen, die zusammen wohnen und wirtschaften – auch eine einzelne Person", "Ein Geschäft, das Haushaltsgeräte verkauft", "Eine Schulklasse"]
+  answer: { index: 1 }
+  explanation: "Ein Haushalt kann eine Familie, ein Paar, eine WG oder eine Einzelperson sein."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Arbeiten gehörten um 1920 zu einem Waschtag?"
+  options: ["Wasser vom Brunnen holen", "Wäsche im Kessel erhitzen", "Waschmaschine einschalten", "Wäsche auf dem Waschbrett schrubben"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Waschmaschinen verbreiteten sich erst in den 1950er/60er-Jahren."
+- key: q3
+  type: gap_text
+  prompt: "Arbeit so zu organisieren, dass sie mit weniger Zeit, Kraft und Geld erledigt wird, nennt man ___."
+  answer:
+    gaps:
+      - ["Rationalisierung", "Rationalisieren"]
+  explanation: "Rationalisierung im Haushalt geschah vor allem durch Technik und Fertigprodukte."
+- key: q4
+  type: single_choice
+  prompt: "Welche Geräte verbreiteten sich in den 1950er- und 1960er-Jahren in vielen Haushalten?"
+  options: ["Saugroboter und Mikrowelle", "Waschmaschine und Kühlschrank", "Geschirrspüler und Tiefkühltruhe", "Gasherd und Petroleumlampe"]
+  answer: { index: 1 }
+  explanation: "Waschmaschine und Kühlschrank waren die großen Erleichterungen der Wirtschaftswunderzeit."
+- key: q5
+  type: single_choice
+  prompt: "Warum ist die Zeit für Hausarbeit trotz Technik weniger stark gesunken als erwartet?"
+  options: ["Weil die Geräte nicht funktionieren", "Weil Ansprüche gestiegen sind und neue Aufgaben hinzukamen", "Weil niemand die Geräte kaufen kann", "Weil Hausarbeit verboten wurde"]
+  answer: { index: 1 }
+  explanation: "Häufigeres Waschen, größere Wohnungen und Organisationsaufgaben gleichen die Zeitersparnis teilweise aus."
+- key: q6
+  type: true_false
+  prompt: "In Deutschland werden pro Jahr mehr Stunden unbezahlte Hausarbeit geleistet als bezahlte Erwerbsarbeit."
+  answer: { value: true }
+  explanation: "Hausarbeit ist unsichtbar, aber gewaltig – ohne sie würde die Gesellschaft nicht funktionieren."
+- key: q7
+  type: single_choice
+  prompt: "Was bezeichnet der Begriff Gender Care Gap?"
+  options: ["Den Preisunterschied zwischen Haushaltsgeräten", "Den Unterschied zwischen Frauen und Männern bei der unbezahlten Haus- und Sorgearbeit", "Die Lücke zwischen Küche und Wohnzimmer", "Die Zeit, die ein Waschgang dauert"]
+  answer: { index: 1 }
+  explanation: "Frauen leisten im Durchschnitt deutlich mehr Stunden unbezahlte Sorgearbeit als Männer."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Beispiele gehören zur Alltagskultur und Tradition im Haushalt?"
+  options: ["das gemeinsame Sonntagsessen", "Plätzchenbacken vor Weihnachten", "das Bedienen der Waschmaschine", "Familienrezepte der Großeltern"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Feste, Rituale und weitergegebene Rezepte sind Alltagskultur; das Bedienen eines Geräts ist eine technische Tätigkeit."

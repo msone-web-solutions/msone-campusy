@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „Au revoir“?"
+  options: ["Guten Morgen", "Auf Wiedersehen", "Bis morgen", "Danke"]
+  answer: { index: 1 }
+  explanation: "Au revoir = Auf Wiedersehen. Bis morgen = À demain."
+- key: q2
+  type: gap_text
+  prompt: "Ich heiße Paul: Je ___ Paul."
+  answer:
+    gaps:
+      - ["m'appelle", "m’appelle", "mappelle"]
+  explanation: "Je m'appelle Paul. – Ich heiße Paul."
+- key: q3
+  type: single_choice
+  prompt: "Wie sagt man „Ich bin 14 Jahre alt“ auf Französisch?"
+  options: ["Je suis quatorze ans.", "J'ai quatorze ans.", "Je quatorze ans.", "J'habite quatorze ans."]
+  answer: { index: 1 }
+  explanation: "Das Alter wird mit avoir (haben) ausgedrückt: J'ai quatorze ans."
+- key: q4
+  type: true_false
+  prompt: "„Salut“ kann sowohl „Hallo“ als auch „Tschüss“ bedeuten."
+  answer: { value: true }
+  explanation: "Salut ist die lockere Begrüßung und Verabschiedung unter Freunden."
+- key: q5
+  type: single_choice
+  prompt: "Welche Antwort passt auf „Ça va ?“"
+  options: ["Je m'appelle Léa.", "Ça va bien, merci. Et toi ?", "Au revoir !", "J'habite à Paris."]
+  answer: { index: 1 }
+  explanation: "Auf die Frage nach dem Befinden antwortet man z. B. mit „Ça va bien, merci“."
+- key: q6
+  type: gap_text
+  prompt: "Ich wohne in Halle: J'habite ___ Halle."
+  answer:
+    gaps:
+      - ["à", "a"]
+  explanation: "Vor Städtenamen steht à: J'habite à Halle. Vor Ländern wie Allemagne steht en."
+- key: q7
+  type: single_choice
+  prompt: "Welche Zahl ist „dix-sept“?"
+  options: ["7", "10", "17", "27"]
+  answer: { index: 2 }
+  explanation: "dix-sept = 10 + 7 = 17."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Aussagen zur französischen Aussprache stimmen?"
+  options: ["Das h ist stumm.", "Die Betonung liegt auf der letzten Silbe.", "Alle Endkonsonanten werden deutlich gesprochen.", "„ou“ wird wie [u] gesprochen."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Endkonsonanten sind meist stumm (salut, Paris) – alles andere stimmt."

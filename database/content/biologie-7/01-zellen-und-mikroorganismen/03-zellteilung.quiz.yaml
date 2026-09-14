@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie entstehen neue Zellen?"
+  options: ["Aus Nährstoffen im Blut", "Durch Teilung vorhandener Zellen", "Aus dem Nichts, wenn Energie da ist", "Durch Verschmelzen von Wasser und Eiweiß"]
+  answer: { index: 1 }
+  explanation: "Jede Zelle entsteht aus einer Zelle – durch Zellteilung."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Chromosomen hat eine menschliche Körperzelle?"
+  answer: { value: 46 }
+  explanation: "Körperzellen des Menschen enthalten 46 Chromosomen, Geschlechtszellen nur 23."
+- key: q3
+  type: gap_text
+  prompt: "Vor der Teilung wird die Erbinformation im ___ verdoppelt. Sie wird dann in Form von ___ sichtbar."
+  answer:
+    gaps:
+      - ["Zellkern", "Kern"]
+      - ["Chromosomen"]
+  explanation: "Die verdoppelte Erbinformation wird zu Chromosomen verpackt und auf beide Tochterzellen verteilt."
+- key: q4
+  type: true_false
+  prompt: "Die beiden Tochterzellen enthalten nach der Zellteilung unterschiedliche Erbinformationen."
+  answer: { value: false }
+  explanation: "Beide Tochterzellen erhalten genau dieselbe Erbinformation wie die Mutterzelle."
+- key: q5
+  type: multiple_choice
+  prompt: "Wofür braucht der Körper Zellteilung?"
+  options: ["Wachstum", "Wundheilung", "Ersatz alter Zellen", "Verdauung von Nahrung"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Wachstum, Heilung und Zellersatz beruhen auf Zellteilung. Die Verdauung ist ein Stoffwechselvorgang."
+- key: q6
+  type: single_choice
+  prompt: "Ein Bakterium teilt sich alle 20 Minuten. Wie viele Bakterien sind es nach einer Stunde?"
+  options: ["3", "4", "8", "20"]
+  answer: { index: 2 }
+  explanation: "Nach 20 min: 2, nach 40 min: 4, nach 60 min: 8. Die Zahl verdoppelt sich bei jeder Teilung."
+- key: q7
+  type: single_choice
+  prompt: "Worin unterscheidet sich die Zellteilung bei Pflanzenzellen von der bei Tierzellen?"
+  options: ["Pflanzenzellen verdoppeln ihre Erbinformation nicht", "Zwischen den Tochterzellen entsteht eine neue Zellwand", "Pflanzenzellen teilen sich nie", "Pflanzenzellen haben keine Chromosomen"]
+  answer: { index: 1 }
+  explanation: "Tierzellen schnüren sich durch, Pflanzenzellen bauen eine neue Zellwand zwischen den Tochterzellen."
+- key: q8
+  type: single_choice
+  prompt: "Was passiert, wenn die Kontrolle über die Zellteilung verloren geht?"
+  options: ["Die Zellen hören auf zu wachsen", "Es kann ein Krebsgeschwulst entstehen", "Die Zellen werden zu Pflanzenzellen", "Nichts, das ist normal"]
+  answer: { index: 1 }
+  explanation: "Ungebremste Zellteilung führt zu Geschwulsten – Krebs. Tabakrauch und UV-Strahlung können die Kontrolle stören."

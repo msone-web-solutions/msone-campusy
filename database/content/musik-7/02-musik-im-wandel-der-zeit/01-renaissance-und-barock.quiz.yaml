@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet das Wort „Renaissance“?"
+  options: ["Prächtige Perle", "Wiedergeburt", "Neue Musik", "Tanzabend"]
+  answer: { index: 1 }
+  explanation: "Renaissance = Wiedergeburt der Antike; der Mensch rückte in den Mittelpunkt."
+- key: q2
+  type: single_choice
+  prompt: "Welches Merkmal ist typisch für die Musik des Barock?"
+  options: ["Elektronische Klänge", "Der Generalbass als durchgehende Begleitung", "Ausschließlich einstimmiger Gesang", "Fehlende Verzierungen"]
+  answer: { index: 1 }
+  explanation: "Cembalo und Bassinstrument bilden mit dem Generalbass das Fundament fast jedes Barockstücks."
+- key: q3
+  type: numeric
+  prompt: "In welchem Jahr wurden sowohl Händel als auch Bach geboren?"
+  answer: { value: 1685 }
+  explanation: "Beide kamen 1685 zur Welt – Händel in Halle, Bach in Eisenach."
+- key: q4
+  type: gap_text
+  prompt: "Johann Sebastian Bach war Hofkapellmeister in ___ (Sachsen-Anhalt) und ab 1723 Thomaskantor in ___."
+  answer:
+    gaps:
+      - ["Köthen", "Koethen", "Kothen"]
+      - ["Leipzig"]
+  explanation: "In Köthen entstanden die „Brandenburgischen Konzerte“, in Leipzig die großen Passionen."
+- key: q5
+  type: single_choice
+  prompt: "Welches Werk stammt von Georg Friedrich Händel?"
+  options: ["„Toccata und Fuge d-Moll“", "„Wassermusik“", "„Tafelmusik“", "„Weihnachtsoratorium“"]
+  answer: { index: 1 }
+  explanation: "Die „Wassermusik“ wurde 1717 auf der Themse für den englischen König gespielt."
+- key: q6
+  type: true_false
+  prompt: "Georg Philipp Telemann wurde in Magdeburg geboren und komponierte über 3 600 Werke."
+  answer: { value: true }
+  explanation: "Telemann gilt als einer der produktivsten Komponisten der Musikgeschichte."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Gattungen entstanden oder blühten im Barock?"
+  options: ["Oper", "Concerto grosso", "Rocksong", "Oratorium"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Oper, Concerto grosso und Oratorium sind barocke Gattungen; der Rocksong kam im 20. Jahrhundert."
+- key: q8
+  type: single_choice
+  prompt: "Was versteht man unter Terrassendynamik?"
+  options: ["Musik, die im Freien gespielt wird", "Stufenweiser Wechsel zwischen laut und leise statt allmählicher Übergänge", "Ein Tanz auf der Terrasse", "Immer gleich bleibende Lautstärke"]
+  answer: { index: 1 }
+  explanation: "Im Barock wechselt die Lautstärke in Stufen – wie Terrassen – nicht in allmählichem An- und Abschwellen."

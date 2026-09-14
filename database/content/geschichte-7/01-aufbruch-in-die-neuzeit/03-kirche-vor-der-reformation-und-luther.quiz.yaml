@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wo wurde Martin Luther geboren?"
+  options: ["Wittenberg", "Eisleben", "Erfurt", "Magdeburg"]
+  answer: { index: 1 }
+  explanation: "Luther wurde 1483 in Eisleben geboren und starb dort auch 1546."
+- key: q2
+  type: single_choice
+  prompt: "Was gilt als Beginn der Reformation?"
+  options: ["Die Erfindung des Buchdrucks 1450", "Der Thesenanschlag am 31. Oktober 1517", "Der Augsburger Religionsfrieden 1555", "Luthers Geburt 1483"]
+  answer: { index: 1 }
+  explanation: "Am 31. Oktober 1517 veröffentlichte Luther seine 95 Thesen gegen den Ablass."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Missstände gab es in der Kirche um 1500?"
+  options: ["Ablasshandel", "Verkauf von Kirchenämtern", "Die Bibel war nur auf Deutsch erhältlich", "Prunk und Kriege des Papstes"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die Bibel war damals auf Latein – Luther übersetzte sie erst ins Deutsche."
+- key: q4
+  type: gap_text
+  prompt: "„Sola ___“ bedeutet: allein durch den Glauben; „sola scriptura“ bedeutet: allein die ___."
+  answer:
+    gaps:
+      - ["fide"]
+      - ["Schrift", "Bibel", "Heilige Schrift"]
+  explanation: "sola fide = allein durch den Glauben; sola scriptura = allein die Schrift (Bibel)."
+- key: q5
+  type: true_false
+  prompt: "Nach Luthers Lehre kann sich der Mensch das Heil durch gute Werke und Geld verdienen."
+  answer: { value: false }
+  explanation: "Genau das Gegenteil: Das Heil ist ein Geschenk Gottes aus Gnade (sola gratia)."
+- key: q6
+  type: single_choice
+  prompt: "Welche Erfindung half, Luthers Ideen schnell zu verbreiten?"
+  options: ["Das Telefon", "Der Buchdruck", "Die Dampfmaschine", "Der Kompass"]
+  answer: { index: 1 }
+  explanation: "Gutenbergs Buchdruck (um 1450) machte Flugschriften billig und massenhaft verfügbar."
+- key: q7
+  type: single_choice
+  prompt: "Ein Spottbild zeigt den Papst als Esel. Was muss man bei der Auswertung dieser Quelle beachten?"
+  options: ["Das Bild zeigt die Wirklichkeit", "Das Bild zeigt die Sichtweise seines Urhebers, hier eines Reformationsanhängers", "Spottbilder sind keine Quellen", "Das Bild wurde vom Papst selbst gemacht"]
+  answer: { index: 1 }
+  explanation: "Quellen sind perspektivisch: Sie zeigen die Absicht und Sicht dessen, der sie geschaffen hat."
+- key: q8
+  type: single_choice
+  prompt: "Ein Online-Shop bietet Luther-Socken mit dem Spruch „Hier stehe ich“ an. Welchen Anteil hat dieses Medienangebot vor allem?"
+  options: ["Informierend", "Werbend", "Wissenschaftlich", "Kommentierend"]
+  answer: { index: 1 }
+  explanation: "Souvenirs nutzen Luther vor allem, um etwas zu verkaufen – der werbende Anteil überwiegt."

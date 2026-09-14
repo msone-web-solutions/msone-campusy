@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welcher Songteil erzählt die Geschichte und hat bei jeder Wiederholung einen anderen Text?"
+  options: ["Der Refrain", "Die Strophe", "Das Intro", "Das Outro"]
+  answer: { index: 1 }
+  explanation: "Strophen tragen die Handlung – die Melodie bleibt, der Text ändert sich."
+- key: q2
+  type: single_choice
+  prompt: "Was ist eine Bridge?"
+  options: ["Die Einleitung eines Songs", "Ein Teil mit neuen Akkorden und anderer Stimmung, der zum letzten Refrain führt", "Der ausgeblendete Schluss", "Ein Schlagzeugsolo"]
+  answer: { index: 1 }
+  explanation: "Die Bridge bringt Abwechslung und baut Spannung für den letzten Refrain auf."
+- key: q3
+  type: gap_text
+  prompt: "Ein instrumentaler Abschnitt zwischen zwei Gesangsteilen heißt ___."
+  answer:
+    gaps:
+      - ["Zwischenspiel", "Interlude", "Instrumentalteil"]
+  explanation: "Das Zwischenspiel (Interlude) ist z. B. ein Gitarrensolo zwischen Refrain und Strophe."
+- key: q4
+  type: true_false
+  prompt: "Ein Ostinato ist eine Figur, die sich ständig auf gleicher Tonhöhe wiederholt."
+  answer: { value: true }
+  explanation: "Ostinato = hartnäckig; die Figur bleibt unverändert, z. B. das Trommelmuster im „Boléro“."
+- key: q5
+  type: single_choice
+  prompt: "Was unterscheidet eine Sequenz von einem Ostinato?"
+  options: ["Die Sequenz ist lauter", "Bei der Sequenz wird das Motiv auf einer anderen Tonhöhe wiederholt", "Die Sequenz wird nur vom Schlagzeug gespielt", "Es gibt keinen Unterschied"]
+  answer: { index: 1 }
+  explanation: "Ostinato: gleiche Tonhöhe. Sequenz: gleiche Figur, versetzt nach oben oder unten."
+- key: q6
+  type: single_choice
+  prompt: "Was ist eine Suite?"
+  options: ["Ein Solokonzert für Klavier", "Eine Folge von Tanzsätzen mit unterschiedlichem Charakter", "Ein Lied mit Strophe und Refrain", "Ein Schlagzeug-Pattern"]
+  answer: { index: 1 }
+  explanation: "Die barocke Suite reiht Tänze wie Allemande, Courante, Sarabande und Gigue aneinander."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Aussagen zum Concerto grosso sind richtig?"
+  options: ["Eine kleine Solistengruppe wechselt sich mit dem ganzen Orchester ab", "Es stammt aus dem Barock", "Es wird nur von einem Sänger vorgetragen", "Bachs „Brandenburgische Konzerte“ sind Beispiele dafür"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Concertino gegen Tutti, eine Barockform, berühmt durch Bach und Händel – kein Gesangsstück."
+- key: q8
+  type: single_choice
+  prompt: "Wie heißt die kleine Solistengruppe im Concerto grosso?"
+  options: ["Tutti", "Concertino", "Ripieno", "Ostinato"]
+  answer: { index: 1 }
+  explanation: "Concertino = Solistengruppe, Ripieno/Tutti = das ganze Orchester."

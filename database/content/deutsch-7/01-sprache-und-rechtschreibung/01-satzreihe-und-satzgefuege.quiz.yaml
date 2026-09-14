@@ -1,0 +1,47 @@
+- key: q1
+  type: single_choice
+  prompt: "Woran erkennst du einen Nebensatz?"
+  options: ["Das Verb steht an zweiter Stelle.", "Er beginnt mit einer Konjunktion und das Verb steht am Ende.", "Er ist immer sehr kurz.", "Er steht immer am Satzanfang."]
+  answer: { index: 1 }
+  explanation: "Nebensätze werden durch Konjunktionen wie „weil“ oder „dass“ eingeleitet, und das konjugierte Verb rückt ans Ende."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Satz ist ein Satzgefüge?"
+  options: ["Es ist kalt, aber die Sonne scheint.", "Wir frieren, denn es ist kalt.", "Wir frieren, weil es kalt ist.", "Es ist kalt und wir frieren."]
+  answer: { index: 2 }
+  explanation: "Nur bei „weil es kalt ist“ steht das Verb am Ende – das ist ein Nebensatz, also ein Satzgefüge. Die anderen Sätze sind Satzreihen."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Konjunktionen leiten einen Nebensatz ein?"
+  options: ["weil", "denn", "obwohl", "wenn", "aber"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "weil, obwohl und wenn sind unterordnende Konjunktionen (Nebensatz). denn und aber verbinden Hauptsätze."
+- key: q4
+  type: true_false
+  prompt: "Zwischen einem Hauptsatz und einem Nebensatz steht immer ein Komma."
+  answer: { value: true }
+  explanation: "Das ist die Grundregel der Kommasetzung im Satzgefüge."
+- key: q5
+  type: gap_text
+  prompt: "Der Nebensatz „..., weil sie krank ist“ nennt einen Grund. Er heißt deshalb ___satz."
+  answer:
+    gaps:
+      - ["Kausal", "kausal"]
+  explanation: "Kausalsätze antworten auf die Frage „Warum?“ und werden mit „weil“ oder „da“ eingeleitet."
+- key: q6
+  type: single_choice
+  prompt: "Wo steht das Komma? „Als der Wecker klingelte sprang Paul aus dem Bett.“"
+  options: ["nach „Als“", "nach „klingelte“", "nach „sprang“", "Es braucht kein Komma."]
+  answer: { index: 1 }
+  explanation: "Der vorangestellte Nebensatz „Als der Wecker klingelte“ endet vor dem Verb des Hauptsatzes „sprang“ – dort steht das Komma."
+- key: q7
+  type: single_choice
+  prompt: "Wie viele Kommas braucht der Satz „Das Buch das du mir geliehen hast war spannend“?"
+  options: ["keins", "eins", "zwei", "drei"]
+  answer: { index: 2 }
+  explanation: "Der eingeschobene Nebensatz „das du mir geliehen hast“ wird von zwei Kommas eingerahmt."
+- key: q8
+  type: true_false
+  prompt: "In einer Satzreihe darf das Komma vor „und“ weggelassen werden."
+  answer: { value: true }
+  explanation: "Vor „und“ und „oder“ zwischen zwei Hauptsätzen ist das Komma freiwillig; vor „aber“, „denn“ und „sondern“ ist es Pflicht."

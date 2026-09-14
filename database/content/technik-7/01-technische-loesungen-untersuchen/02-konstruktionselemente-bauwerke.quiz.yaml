@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet es, wenn ein Bauteil auf Zug beansprucht wird?"
+  options: ["Es wird zusammengedrückt", "Es wird auseinandergezogen", "Es wird gedreht", "Es wird erwärmt"]
+  answer: { index: 1 }
+  explanation: "Zug zieht ein Bauteil auseinander, Druck drückt es zusammen."
+- key: q2
+  type: true_false
+  prompt: "Stein hält Druckkräfte sehr gut aus, aber Zugkräfte nur schlecht."
+  answer: { value: true }
+  explanation: "Deshalb baute man aus Stein Bögen, in denen fast nur Druck wirkt."
+- key: q3
+  type: gap_text
+  prompt: "Der oberste Stein eines Bogens heißt ___."
+  answer:
+    gaps:
+      - ["Schlussstein", "Schluss-Stein"]
+  explanation: "Erst mit dem Schlussstein trägt sich der Bogen selbst."
+- key: q4
+  type: single_choice
+  prompt: "Warum trägt ein I-Profil mehr als ein massiver Stab mit gleicher Masse?"
+  options: ["Weil es aus härterem Stahl besteht", "Weil das Material dort sitzt, wo die größten Kräfte wirken (oben und unten)", "Weil es länger ist", "Weil es lackiert ist"]
+  answer: { index: 1 }
+  explanation: "Die Form entscheidet: Die Flansche oben und unten nehmen Druck und Zug auf."
+- key: q5
+  type: single_choice
+  prompt: "Welche geometrische Form macht ein Fachwerk stabil?"
+  options: ["Das Quadrat", "Der Kreis", "Das Dreieck", "Das Parallelogramm"]
+  answer: { index: 2 }
+  explanation: "Ein Dreieck aus Stäben ist unverschieblich, ein Viereck kippt zum Parallelogramm."
+- key: q6
+  type: multiple_choice
+  prompt: "Wo wird Fachwerk typischerweise eingesetzt?"
+  options: ["Strommasten", "Kräne", "Dachstühle", "Fensterglas"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Strommasten, Kräne und Dachstühle bestehen aus Dreiecksverbänden. Fensterglas ist kein Tragwerk."
+- key: q7
+  type: single_choice
+  prompt: "Beim Skelettbau …"
+  options: ["tragen dicke Ziegelwände die Decken.", "trägt ein Gerüst aus Stützen und Trägern, die Wände sind nur Ausfachung.", "gibt es keine Wände.", "werden nur Bögen verwendet."]
+  answer: { index: 1 }
+  explanation: "Beim Skelettbau trägt das Gerüst; typisch für Hochhäuser mit Glasfassaden."
+- key: q8
+  type: single_choice
+  prompt: "Warum werden Steine im Verband gemauert (Fugen versetzt)?"
+  options: ["Weil es schöner aussieht", "Damit weniger Mörtel gebraucht wird", "Damit keine durchgehende Fuge entsteht, an der die Wand reißen könnte", "Damit die Wand schneller trocknet"]
+  answer: { index: 2 }
+  explanation: "Liegen Fugen übereinander, entsteht eine Schwachstelle – der Verband verteilt die Lasten."

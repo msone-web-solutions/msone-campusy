@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was war ein Ablassbrief?"
+  options: ["Ein Brief des Papstes an Luther", "Ein Dokument, das gegen Geld Strafen im Fegefeuer verkürzen sollte", "Eine Bibelübersetzung", "Eine Einladung zum Reichstag"]
+  answer: { index: 1 }
+  explanation: "Mit dem Ablasshandel finanzierte der Papst unter anderem den Petersdom."
+- key: q2
+  type: numeric
+  prompt: "In welchem Jahr veröffentlichte Luther seine 95 Thesen?"
+  answer: { value: 1517 }
+  explanation: "Am 31. Oktober 1517 – heute der Reformationstag."
+- key: q3
+  type: gap_text
+  prompt: "Luther wurde in ___ geboren und veröffentlichte seine Thesen in ___."
+  answer:
+    gaps:
+      - ["Eisleben"]
+      - ["Wittenberg", "Lutherstadt Wittenberg"]
+  explanation: "Beide Orte liegen in Sachsen-Anhalt und sind UNESCO-Welterbe."
+- key: q4
+  type: single_choice
+  prompt: "Was meint die Rechtfertigungslehre?"
+  options: ["Der Mensch muss sich Gottes Liebe durch gute Werke verdienen.", "Der Mensch wird allein aus Gnade durch den Glauben vor Gott gerecht.", "Nur der Papst kann Sünden vergeben.", "Der Mensch muss Ablassbriefe kaufen."]
+  answer: { index: 1 }
+  explanation: "Luther fand die Antwort im Römerbrief: „Der Gerechte wird aus Glauben leben.“"
+- key: q5
+  type: true_false
+  prompt: "Auf dem Reichstag zu Worms 1521 widerrief Luther seine Lehre."
+  answer: { value: false }
+  explanation: "Luther weigerte sich zu widerrufen, solange man ihn nicht aus der Bibel widerlege – daraufhin wurde er geächtet."
+- key: q6
+  type: single_choice
+  prompt: "Was tat Luther während seines Verstecks auf der Wartburg?"
+  options: ["Er schrieb die 95 Thesen.", "Er übersetzte das Neue Testament ins Deutsche.", "Er gründete eine Universität.", "Er traf den Papst."]
+  answer: { index: 1 }
+  explanation: "Als „Junker Jörg“ übersetzte er in elf Wochen das Neue Testament."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche gehören zu den reformatorischen Prinzipien (Sola)?"
+  options: ["sola scriptura – allein die Schrift", "sola gratia – allein durch Gnade", "sola pecunia – allein durch Geld", "solus Christus – allein Christus"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die vier Sola: scriptura, gratia, fide, Christus. „Sola pecunia“ gibt es nicht."
+- key: q8
+  type: single_choice
+  prompt: "Wer ließ Luther nach dem Reichstag zu Worms auf die Wartburg bringen?"
+  options: ["Kaiser Karl V.", "Papst Leo X.", "Kurfürst Friedrich der Weise", "Johann Tetzel"]
+  answer: { index: 2 }
+  explanation: "Friedrich der Weise, Luthers Landesherr, ließ ihn zum Schein entführen."

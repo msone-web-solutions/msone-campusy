@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Mit welcher Formel berechnet man die Lageenergie?"
+  options: ["E = m · v", "E = m · g · h", "E = F : A", "E = ½ · m · h²"]
+  answer: { index: 1 }
+  explanation: "Lageenergie = Masse · Ortsfaktor · Höhe."
+- key: q2
+  type: numeric
+  prompt: "Ein Ball (0,5 kg) liegt auf einem 4 m hohen Schrank. Berechne seine Lageenergie gegenüber dem Boden in J (g = 10 N/kg)."
+  answer: { value: 20, tolerance: 0.1 }
+  options: { unit: "J" }
+  explanation: "E = m · g · h = 0,5 kg · 10 N/kg · 4 m = 20 J."
+- key: q3
+  type: numeric
+  prompt: "Ein Turmspringer (50 kg) springt vom 5-m-Brett. Wie viel Lageenergie in J hat er oben gegenüber der Wasseroberfläche? (g = 10 N/kg)"
+  answer: { value: 2500, tolerance: 1 }
+  options: { unit: "J" }
+  explanation: "E = 50 kg · 10 N/kg · 5 m = 2500 J."
+- key: q4
+  type: multiple_choice
+  prompt: "Wovon hängt die Bewegungsenergie eines Körpers ab?"
+  options: ["Von seiner Masse", "Von seiner Geschwindigkeit", "Von seiner Farbe", "Von seiner Höhe über dem Boden"]
+  answer: { indexes: [0, 1] }
+  explanation: "E = ½ · m · v² – Masse und Geschwindigkeit. Die Höhe bestimmt die Lageenergie."
+- key: q5
+  type: single_choice
+  prompt: "Ein Auto fährt doppelt so schnell wie vorher. Wie verändert sich seine Bewegungsenergie?"
+  options: ["Sie bleibt gleich", "Sie verdoppelt sich", "Sie vervierfacht sich", "Sie halbiert sich"]
+  answer: { index: 2 }
+  explanation: "Die Geschwindigkeit geht quadratisch ein: 2² = 4 – vierfache Bewegungsenergie."
+- key: q6
+  type: numeric
+  prompt: "Ein Läufer (60 kg) läuft mit 4 m/s. Berechne seine Bewegungsenergie in J."
+  answer: { value: 480, tolerance: 1 }
+  options: { unit: "J" }
+  explanation: "E = ½ · 60 kg · (4 m/s)² = 30 · 16 J = 480 J."
+- key: q7
+  type: true_false
+  prompt: "Bei doppelter Geschwindigkeit ist der Bremsweg eines Autos etwa viermal so lang."
+  answer: { value: true }
+  explanation: "Die vierfache Bewegungsenergie muss beim Bremsen in Wärme umgewandelt werden – dafür braucht es den vierfachen Weg."
+- key: q8
+  type: gap_text
+  prompt: "Ein Pendel hat am höchsten Punkt nur ___ und am tiefsten Punkt nur ___."
+  answer:
+    gaps:
+      - ["Lageenergie", "potentielle Energie", "potenzielle Energie"]
+      - ["Bewegungsenergie", "kinetische Energie"]
+  explanation: "Oben ist alle Energie Lageenergie, unten Bewegungsenergie – dazwischen wandeln sie sich ineinander um."

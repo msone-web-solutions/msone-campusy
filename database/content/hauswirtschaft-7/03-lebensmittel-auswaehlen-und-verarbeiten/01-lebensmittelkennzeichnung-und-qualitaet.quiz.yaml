@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet das Mindesthaltbarkeitsdatum (MHD)?"
+  options: ["Danach muss das Lebensmittel sofort weggeworfen werden", "Bis dahin garantiert der Hersteller die volle Qualität – danach prüfen", "Das Datum der Herstellung", "Das Datum des Einkaufs"]
+  answer: { index: 1 }
+  explanation: "Viele Lebensmittel sind nach dem MHD noch lange genießbar – mit den Sinnen prüfen."
+- key: q2
+  type: single_choice
+  prompt: "Auf welchen Lebensmitteln steht ein Verbrauchsdatum („zu verbrauchen bis“)?"
+  options: ["Nudeln und Reis", "Schokolade", "Hackfleisch und rohes Geflügel", "Honig"]
+  answer: { index: 2 }
+  explanation: "Leicht verderbliche Lebensmittel tragen ein Verbrauchsdatum – danach nicht mehr essen."
+- key: q3
+  type: true_false
+  prompt: "Steht Zucker im Zutatenverzeichnis an erster Stelle, ist Zucker die mengenmäßig größte Zutat."
+  answer: { value: true }
+  explanation: "Die Zutaten sind nach Menge absteigend geordnet."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Angaben gehören in die Nährwerttabelle?"
+  options: ["Energie in kJ/kcal", "Zucker", "Salz", "Preis"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Energie, Fett, Kohlenhydrate (davon Zucker), Eiweiß und Salz pro 100 g – der Preis gehört nicht dazu."
+- key: q5
+  type: single_choice
+  prompt: "Ein Ei trägt den Code 0-DE-1234567. Was bedeutet die 0?"
+  options: ["Käfighaltung", "Bodenhaltung", "Freilandhaltung", "Bio-Haltung"]
+  answer: { index: 3 }
+  explanation: "0 = Bio, 1 = Freiland, 2 = Boden, 3 = Käfig/Kleingruppe."
+- key: q6
+  type: single_choice
+  prompt: "Was zeigt der Nutri-Score an?"
+  options: ["Den Preis pro Kilogramm", "Eine Bewertung der Nährwertqualität von A (günstig) bis E (ungünstig)", "Das Herkunftsland", "Die Haltbarkeit in Tagen"]
+  answer: { index: 1 }
+  explanation: "Der Nutri-Score vergleicht Produkte derselben Gruppe auf einer fünfstufigen Farbskala."
+- key: q7
+  type: gap_text
+  prompt: "Zutaten wie Milch, Gluten oder Nüsse, die Unverträglichkeiten auslösen können, heißen ___ und müssen hervorgehoben werden."
+  answer:
+    gaps:
+      - ["Allergene", "Allergen"]
+  explanation: "14 Allergene müssen laut LMIV im Zutatenverzeichnis hervorgehoben sein."
+- key: q8
+  type: single_choice
+  prompt: "Ein Fertiggericht ist schnell zubereitet, enthält aber viel Salz und Fett. Welcher Wert ist hoch, welcher niedrig?"
+  options: ["Hoher Gebrauchswert, niedriger Gesundheitswert", "Hoher Gesundheitswert, niedriger Gebrauchswert", "Beide Werte hoch", "Beide Werte niedrig"]
+  answer: { index: 0 }
+  explanation: "Schnell und praktisch = hoher Gebrauchswert; viel Salz und Fett = geringer Gesundheitswert."

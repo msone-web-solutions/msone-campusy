@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welche Richtung wirkt die Auftriebskraft?"
+  options: ["Nach unten", "Nach oben", "Zur Seite", "In Bewegungsrichtung"]
+  answer: { index: 1 }
+  explanation: "Die Auftriebskraft wirkt der Gewichtskraft entgegen, also nach oben."
+- key: q2
+  type: single_choice
+  prompt: "Wovon hängt die Auftriebskraft nach dem Archimedischen Prinzip ab?"
+  options: ["Vom Material des Körpers", "Von der Gewichtskraft der verdrängten Flüssigkeit", "Von der Farbe des Körpers", "Von der Temperatur des Körpers"]
+  answer: { index: 1 }
+  explanation: "Die Auftriebskraft ist so groß wie die Gewichtskraft der verdrängten Flüssigkeit – das Material spielt keine Rolle."
+- key: q3
+  type: numeric
+  prompt: "Ein Körper zeigt am Federkraftmesser in Luft 3,2 N, ganz in Wasser eingetaucht 2,4 N. Wie groß ist die Auftriebskraft in N?"
+  answer: { value: 0.8, tolerance: 0.02 }
+  options: { unit: "N" }
+  explanation: "3,2 N − 2,4 N = 0,8 N."
+- key: q4
+  type: single_choice
+  prompt: "Ein Körper hat die Dichte 0,7 g/cm³ und wird in Wasser (1 g/cm³) gelegt. Was passiert?"
+  options: ["Er sinkt", "Er schwebt", "Er schwimmt", "Er löst sich auf"]
+  answer: { index: 2 }
+  explanation: "Seine Dichte ist kleiner als die des Wassers – er schwimmt."
+- key: q5
+  type: true_false
+  prompt: "Ein Körper schwebt in einer Flüssigkeit, wenn Gewichtskraft und Auftriebskraft gleich groß sind und er vollständig eingetaucht bleibt."
+  answer: { value: true }
+  explanation: "Beim Schweben halten sich beide Kräfte die Waage – der Körper bleibt in jeder Tiefe stehen."
+- key: q6
+  type: gap_text
+  prompt: "Ein Stahlschiff schwimmt, weil es hohl ist und seine ___ Dichte kleiner ist als die Dichte von ___."
+  answer:
+    gaps:
+      - ["mittlere", "durchschnittliche", "Gesamt"]
+      - ["Wasser"]
+  explanation: "Stahl und Luft zusammen ergeben eine mittlere Dichte unter 1 g/cm³ – kleiner als die Dichte von Wasser."
+- key: q7
+  type: single_choice
+  prompt: "Wie taucht ein U-Boot ab?"
+  options: ["Es wird schwerer gebaut", "Es flutet Tanks mit Wasser und erhöht so seine mittlere Dichte", "Es schaltet den Auftrieb ab", "Es fährt schneller"]
+  answer: { index: 1 }
+  explanation: "Mit Wasser in den Tanks steigt die mittlere Dichte über die des Wassers – das Boot sinkt. Zum Auftauchen wird das Wasser mit Druckluft herausgepresst."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Aussagen zum dynamischen Auftrieb sind richtig?"
+  options: ["Er entsteht nur bei Bewegung", "Er trägt Flugzeuge", "Er entsteht durch Druckunterschiede an der Tragfläche", "Er hält einen Heißluftballon in der Luft"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Dynamischer Auftrieb braucht Strömung und Druckunterschied an der Tragfläche. Der Heißluftballon steigt durch statischen Auftrieb (geringere Dichte der warmen Luft)."

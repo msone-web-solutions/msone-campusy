@@ -1,0 +1,48 @@
+- key: q1
+  type: true_false
+  prompt: "Der Erzähler einer Geschichte ist immer der Autor selbst."
+  answer: { value: false }
+  explanation: "Der Erzähler ist eine vom Autor gestaltete Stimme im Text – nicht der reale Mensch, der schreibt."
+- key: q2
+  type: single_choice
+  prompt: "„Ich rannte die Treppe hinunter, mein Herz klopfte.“ – Welche Erzählform liegt vor?"
+  options: ["Er-/Sie-Erzähler", "Ich-Erzähler", "neutraler Erzähler", "auktorialer Erzähler"]
+  answer: { index: 1 }
+  explanation: "Das „ich“ zeigt einen Ich-Erzähler, der selbst Teil der Handlung ist."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Erzähler berichtet nur, was man sehen und hören kann – wie eine Kamera?"
+  options: ["auktorialer Erzähler", "personaler Erzähler", "neutraler Erzähler", "Ich-Erzähler"]
+  answer: { index: 2 }
+  explanation: "Der neutrale Erzähler gibt keine Gedanken und keine Wertungen wieder."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Merkmale sind typisch für eine Kurzgeschichte?"
+  options: ["unmittelbarer Beginn", "offener Schluss", "viele Figuren und Schauplätze", "alltägliche Figuren in einer entscheidenden Situation"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kurzgeschichten beginnen mitten im Geschehen, enden offen und zeigen Alltagsfiguren an einem Wendepunkt. Sie haben wenige Figuren und Orte."
+- key: q5
+  type: gap_text
+  prompt: "Eine Erzählung mittlerer Länge, die eine „unerhörte Begebenheit“ erzählt, nennt man ___."
+  answer:
+    gaps:
+      - ["Novelle", "novelle"]
+  explanation: "Goethes Definition der Novelle: eine sich ereignete, unerhörte Begebenheit."
+- key: q6
+  type: single_choice
+  prompt: "Was ist ein Motiv?"
+  options: ["Der Name des Autors", "Ein wiederkehrendes Element wie die Reise oder die Lüge, das in vielen Texten vorkommt", "Die Länge eines Textes", "Die Hauptfigur"]
+  answer: { index: 1 }
+  explanation: "Motive sind typische Bausteine, die in vielen Geschichten auftauchen."
+- key: q7
+  type: single_choice
+  prompt: "Freunde sitzen am Lagerfeuer und einer erzählt eine Gruselgeschichte. Wie nennt man das Lagerfeuer-Geschehen?"
+  options: ["Binnenhandlung", "Rahmenhandlung", "Nebenhandlung", "Vorgeschichte"]
+  answer: { index: 1 }
+  explanation: "Die Rahmenhandlung umschließt die eigentliche (Binnen-)Geschichte."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet es, wenn eine Kurzgeschichte einen „offenen Schluss“ hat?"
+  options: ["Der Text ist unvollständig abgedruckt.", "Das Problem wird nicht gelöst; der Leser muss selbst weiterdenken.", "Alle Fragen werden am Ende beantwortet.", "Die Geschichte endet mit einem Happy End."]
+  answer: { index: 1 }
+  explanation: "Der offene Schluss lässt den Ausgang bewusst offen und fordert zur Deutung heraus."

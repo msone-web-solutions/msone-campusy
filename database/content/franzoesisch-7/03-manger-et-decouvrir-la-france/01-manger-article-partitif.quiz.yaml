@@ -1,0 +1,52 @@
+- key: q1
+  type: gap_text
+  prompt: "Ich esse Brot: Je mange ___ pain. Ich trinke Wasser: Je bois ___ eau."
+  answer:
+    gaps:
+      - ["du"]
+      - ["de l'", "de l’", "de l"]
+  explanation: "pain (m.) → du pain; eau beginnt mit Vokal → de l'eau."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Artikel steht nach „J'aime …“ (Ich mag …)?"
+  options: ["der Teilungsartikel: J'aime du fromage.", "der bestimmte Artikel: J'aime le fromage.", "kein Artikel: J'aime fromage.", "der unbestimmte Artikel: J'aime un fromage."]
+  answer: { index: 1 }
+  explanation: "Nach aimer, adorer, préférer, détester steht der bestimmte Artikel."
+- key: q3
+  type: single_choice
+  prompt: "Wie lautet die Verneinung von „Je mange des fruits“?"
+  options: ["Je ne mange pas des fruits.", "Je ne mange pas de fruits.", "Je ne mange pas les fruits.", "Je mange pas des fruits."]
+  answer: { index: 1 }
+  explanation: "Nach der Verneinung wird des zu de."
+- key: q4
+  type: gap_text
+  prompt: "Ein Kilo Äpfel: un kilo ___ pommes. Eine Flasche Wasser: une bouteille ___ eau."
+  answer:
+    gaps:
+      - ["de"]
+      - ["d'", "d’", "d"]
+  explanation: "Nach Mengenangaben nur de, vor Vokal d'."
+- key: q5
+  type: single_choice
+  prompt: "Was bedeutet „beaucoup de légumes“?"
+  options: ["wenig Gemüse", "viel Gemüse", "kein Gemüse", "ein Stück Gemüse"]
+  answer: { index: 1 }
+  explanation: "beaucoup de = viel; un peu de = ein bisschen; trop de = zu viel."
+- key: q6
+  type: single_choice
+  prompt: "Was sagst du im Geschäft, um höflich etwas zu bestellen?"
+  options: ["Je veux une baguette.", "Je voudrais une baguette, s'il vous plaît.", "Donne une baguette !", "Baguette !"]
+  answer: { index: 1 }
+  explanation: "„Je voudrais“ (ich hätte gern) plus „s'il vous plaît“ ist die höfliche Form."
+- key: q7
+  type: gap_text
+  prompt: "Was kostet das? – C'est ___ ?"
+  answer:
+    gaps:
+      - ["combien"]
+  explanation: "C'est combien ? / Ça fait combien ? – Was kostet das?"
+- key: q8
+  type: true_false
+  prompt: "„Je bois“ ist die richtige Form von „boire“ für „ich trinke“."
+  answer: { value: true }
+  explanation: "boire: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent."

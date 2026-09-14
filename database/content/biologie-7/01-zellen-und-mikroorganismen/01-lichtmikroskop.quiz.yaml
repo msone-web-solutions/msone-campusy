@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Teil des Mikroskops trägt die verschiedenen Objektive?"
+  options: ["Der Tubus", "Der Objektivrevolver", "Der Objekttisch", "Die Blende"]
+  answer: { index: 1 }
+  explanation: "Der drehbare Objektivrevolver trägt die Objektive, damit man zwischen Vergrößerungen wechseln kann."
+- key: q2
+  type: numeric
+  prompt: "Okular 10-fach, Objektiv 40-fach – wie hoch ist die Gesamtvergrößerung?"
+  answer: { value: 400 }
+  explanation: "Die Vergrößerungen werden multipliziert: 10 · 40 = 400."
+- key: q3
+  type: true_false
+  prompt: "Das Bild im Lichtmikroskop erscheint auf dem Kopf und seitenverkehrt."
+  answer: { value: true }
+  explanation: "Die Linsen kehren das Bild um. Schiebt man das Präparat nach links, wandert das Bild nach rechts."
+- key: q4
+  type: gap_text
+  prompt: "Zum Scharfstellen benutzt man bei kleiner Vergrößerung den ___ und bei großer Vergrößerung nur noch den ___."
+  answer:
+    gaps:
+      - ["Grobtrieb"]
+      - ["Feintrieb"]
+  explanation: "Der Grobtrieb bewegt den Tisch schnell, der Feintrieb ganz langsam – so stößt das Objektiv nicht an das Präparat."
+- key: q5
+  type: single_choice
+  prompt: "Wie legt man das Deckgläschen richtig auf?"
+  options: ["Flach von oben fallen lassen", "Schräg ansetzen und langsam absenken", "Ohne Wassertropfen direkt auf das Objekt", "Man braucht kein Deckgläschen"]
+  answer: { index: 1 }
+  explanation: "Schräges Ansetzen verhindert Luftblasen, die im Bild stören würden."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Regeln gelten für eine mikroskopische Zeichnung?"
+  options: ["Mit spitzem Bleistift zeichnen", "Alle Teile beschriften", "Mit Schattierungen und Farben ausmalen", "Vergrößerung angeben"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Klare Bleistiftlinien, Beschriftung und Vergrößerungsangabe gehören dazu – Schattierungen nicht."
+- key: q7
+  type: single_choice
+  prompt: "Wer prägte den Begriff „Zelle“, nachdem er 1665 Kork unter dem Mikroskop betrachtet hatte?"
+  options: ["Antoni van Leeuwenhoek", "Robert Hooke", "Charles Darwin", "Louis Pasteur"]
+  answer: { index: 1 }
+  explanation: "Hooke sah kleine Kammern im Kork und nannte sie „cellulae“ – Zellen. Leeuwenhoek entdeckte später Einzeller."
+- key: q8
+  type: single_choice
+  prompt: "Welche Aussage zum Elektronenmikroskop ist richtig?"
+  options: ["Es arbeitet mit Licht und vergrößert 100-fach", "Es vergrößert viel stärker als das Lichtmikroskop, zeigt aber keine lebenden Zellen", "Es ist kleiner als eine Lupe", "Es kann nur Pflanzen zeigen"]
+  answer: { index: 1 }
+  explanation: "Elektronenmikroskope vergrößern bis zu einer Million Mal, die Objekte müssen dafür aber tot und getrocknet sein."

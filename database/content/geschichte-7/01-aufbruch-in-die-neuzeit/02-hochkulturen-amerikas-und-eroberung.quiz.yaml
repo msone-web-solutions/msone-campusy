@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie hieß die Hauptstadt der Azteken?"
+  options: ["Cuzco", "Tenochtitlán", "Potosí", "Yucatán"]
+  answer: { index: 1 }
+  explanation: "Tenochtitlán lag auf einer Insel im Texcoco-See; heute steht dort Mexiko-Stadt."
+- key: q2
+  type: single_choice
+  prompt: "Wo lag das Reich der Inka?"
+  options: ["Auf der Halbinsel Yucatán", "Im Hochland von Mexiko", "In den Anden Südamerikas", "In Nordamerika"]
+  answer: { index: 2 }
+  explanation: "Das Inkareich erstreckte sich über 4.000 km entlang der Anden."
+- key: q3
+  type: multiple_choice
+  prompt: "Warum konnten wenige Spanier die großen Reiche besiegen?"
+  options: ["Überlegene Waffen und Pferde", "Eingeschleppte Krankheiten wie Pocken", "Die Indianer hatten keine Städte", "Verbündete unter den unterworfenen Völkern"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Waffen, Krankheiten und Verbündete waren entscheidend. Die Hochkulturen hatten große Städte."
+- key: q4
+  type: gap_text
+  prompt: "Der Inkaherrscher ___ wurde 1533 von Pizarro hingerichtet; der Aztekenherrscher hieß ___."
+  answer:
+    gaps:
+      - ["Atahualpa"]
+      - ["Moctezuma", "Moctezuma II.", "Montezuma", "Moctezuma II"]
+  explanation: "Atahualpa (Inka) und Moctezuma II. (Azteken) waren die Herrscher zur Zeit der Eroberung."
+- key: q5
+  type: true_false
+  prompt: "Die Kartoffel wurde von den Europäern nach Amerika gebracht."
+  answer: { value: false }
+  explanation: "Umgekehrt: Die Kartoffel stammt aus den Anden und kam von Amerika nach Europa."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet das Wort „Kolonie“?"
+  options: ["Ein freies Land mit eigenem König", "Ein Gebiet, das von einem fremden Land beherrscht und ausgebeutet wird", "Eine Handelsstadt in Europa", "Ein Schiff der Entdecker"]
+  answer: { index: 1 }
+  explanation: "Kolonien wurden von einer fremden Macht beherrscht und wirtschaftlich ausgenutzt."
+- key: q7
+  type: numeric
+  prompt: "Etwa wie viel Prozent der Bevölkerung Amerikas starben in den 100 Jahren nach 1492 vor allem durch eingeschleppte Krankheiten?"
+  answer: { value: 90, tolerance: 5 }
+  options: { unit: "%" }
+  explanation: "Schätzungen gehen von rund 90 Prozent aus – die größte Bevölkerungskatastrophe der Geschichte."
+- key: q8
+  type: single_choice
+  prompt: "Warum verschleppten die Europäer Menschen aus Afrika als Sklaven nach Amerika?"
+  options: ["Weil in Afrika zu viele Menschen lebten", "Weil die einheimische Bevölkerung Amerikas durch Krankheiten und Zwangsarbeit stark dezimiert war", "Weil die Afrikaner freiwillig kamen", "Weil es in Amerika keine Arbeit gab"]
+  answer: { index: 1 }
+  explanation: "Für Plantagen und Minen fehlten Arbeitskräfte – so begann der transatlantische Sklavenhandel."

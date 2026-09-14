@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wer wurde als „King of Rock 'n' Roll“ bekannt?"
+  options: ["Bob Dylan", "Elvis Presley", "Michael Jackson", "John Lennon"]
+  answer: { index: 1 }
+  explanation: "Elvis Presley machte den Rock 'n' Roll in den 1950er-Jahren weltberühmt."
+- key: q2
+  type: gap_text
+  prompt: "Die erfolgreichste Band aller Zeiten, The ___, stammt aus der englischen Stadt ___."
+  answer:
+    gaps:
+      - ["Beatles"]
+      - ["Liverpool"]
+  explanation: "Die Beatles aus Liverpool prägten ab 1963 den Beat und die gesamte Popmusik."
+- key: q3
+  type: single_choice
+  prompt: "In welchem Jahrzehnt und wo entstand der Hip-Hop?"
+  options: ["In den 1950ern in London", "In den 1970ern in der Bronx, New York", "In den 1990ern in Berlin", "In den 1960ern in Liverpool"]
+  answer: { index: 1 }
+  explanation: "Hip-Hop entstand auf Blockpartys in der Bronx mit DJs, MCs, Breakdance und Graffiti."
+- key: q4
+  type: true_false
+  prompt: "Das Festival von Woodstock fand 1969 statt."
+  answer: { value: true }
+  explanation: "Rund 400 000 Menschen feierten in Woodstock Frieden, Liebe und Musik."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche technischen Entwicklungen haben die Popmusik stark verändert?"
+  options: ["Synthesizer", "Streaming", "Cembalo", "Drumcomputer"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Synthesizer und Drumcomputer prägten den Klang, Streaming die Verbreitung. Das Cembalo gehört zum Barock."
+- key: q6
+  type: single_choice
+  prompt: "Was ist ein Musical?"
+  options: ["Ein Konzert nur mit Instrumenten", "Ein Bühnenstück, das Schauspiel, Gesang, Tanz und Orchester verbindet", "Ein Film über Musiker", "Eine Oper, in der alles gesungen wird"]
+  answer: { index: 1 }
+  explanation: "Im Musical wechseln gesprochene Dialoge mit Songs und Tanzszenen."
+- key: q7
+  type: single_choice
+  prompt: "Wo entstand das Musical?"
+  options: ["In Wien und Paris", "Am Broadway in New York und im Londoner West End", "In Halle und Magdeburg", "In Hollywood"]
+  answer: { index: 1 }
+  explanation: "Broadway und West End sind bis heute die Zentren des Musicals."
+- key: q8
+  type: single_choice
+  prompt: "Welches Musical erzählt die Geschichte von Romeo und Julia unter Straßengangs in New York?"
+  options: ["„Cats“", "„West Side Story“", "„Der König der Löwen“", "„Hamilton“"]
+  answer: { index: 1 }
+  explanation: "Leonard Bernsteins „West Side Story“ (1957) verlegt Shakespeares Stoff nach New York."

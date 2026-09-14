@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Zahl ist „восемь“?"
+  options: ["6", "7", "8", "9"]
+  answer: { index: 2 }
+  explanation: "восемь = 8, семь = 7, девять = 9."
+- key: q2
+  type: numeric
+  prompt: "Welche Zahl ist „сорок пять“? (Ziffern eintragen)"
+  answer: { value: 45 }
+  explanation: "сорок = 40, пять = 5 → 45."
+- key: q3
+  type: gap_text
+  prompt: "Die Zahl 12 heißt auf Russisch ___."
+  answer:
+    gaps:
+      - ["двенадцать", "dwenadzat", "dvenadtsat", "dwenadtsat", "dvenadcat"]
+  explanation: "Zwei + -надцать = двенадцать."
+- key: q4
+  type: single_choice
+  prompt: "Wie sagt man „Ich bin 13 Jahre alt“?"
+  options: ["Я тринадцать лет.", "Мне тринадцать лет.", "Мне тринадцать года.", "Я есть тринадцать."]
+  answer: { index: 1 }
+  explanation: "Die Person steht im Dativ (мне), nach 13 folgt лет."
+- key: q5
+  type: single_choice
+  prompt: "Wie heißt „drei Jahre“ richtig?"
+  options: ["три год", "три года", "три лет", "три годы"]
+  answer: { index: 1 }
+  explanation: "Nach 2, 3 und 4 steht года."
+- key: q6
+  type: true_false
+  prompt: "„Сорок“ ist die russische Zahl für 40 und eine Ausnahme, die nicht auf -дцать oder -десят endet."
+  answer: { value: true }
+  explanation: "сорок (40) und девяносто (90) sind unregelmäßige Zehner."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Aussagen zu Ordinalzahlen sind richtig?"
+  options: ["первый bedeutet „erster“", "Ordinalzahlen verhalten sich wie Adjektive", "седьмой bedeutet „sechster“", "третий bedeutet „dritter“"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "седьмой ist der siebte, шестой der sechste."
+- key: q8
+  type: gap_text
+  prompt: "„Wie alt bist du?“ heißt auf Russisch: ___ тебе лет?"
+  answer:
+    gaps:
+      - ["Сколько", "сколько", "Skolko", "skolko", "skol'ko", "Skol'ko"]
+  explanation: "Сколько тебе лет? – wörtlich: Wie viel dir Jahre?"

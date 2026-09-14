@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Worin unterscheidet sich eine Maschine von einem Werkzeug?"
+  options: ["Eine Maschine ist immer größer", "Bei einer Maschine kommt die Bewegung nicht direkt vom Menschen, sondern von einem Antrieb", "Ein Werkzeug hat mehr Teile", "Eine Maschine besteht immer aus Metall"]
+  answer: { index: 1 }
+  explanation: "Beim Werkzeug liefert der Mensch Kraft und Bewegung, bei der Maschine ein Antriebselement."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Teile sind Übertragungselemente?"
+  options: ["Zahnrad", "Elektromotor", "Riemen", "Welle"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Zahnrad, Riemen und Welle leiten Bewegung weiter. Der Elektromotor ist das Antriebselement."
+- key: q3
+  type: single_choice
+  prompt: "Welches Funktionselement ist der Bohrer einer Bohrmaschine?"
+  options: ["Antriebselement", "Steuerungselement", "Arbeitselement", "Stützelement"]
+  answer: { index: 2 }
+  explanation: "Der Bohrer erledigt die eigentliche Arbeit am Werkstück."
+- key: q4
+  type: gap_text
+  prompt: "Das Gehäuse einer Bohrmaschine und der Rahmen eines Fahrrads sind ___elemente."
+  answer:
+    gaps:
+      - ["Stütz", "Stütz-", "Stuetz"]
+  explanation: "Stützelemente tragen und verbinden alle anderen Teile."
+- key: q5
+  type: single_choice
+  prompt: "Was gehört beim Fahrrad zu den Steuerungselementen?"
+  options: ["Kette", "Rahmen", "Bremshebel und Schalthebel", "Hinterrad"]
+  answer: { index: 2 }
+  explanation: "Mit Lenker, Brems- und Schalthebel steuert der Fahrer Richtung und Geschwindigkeit."
+- key: q6
+  type: single_choice
+  prompt: "Welcher Fluss ist gemeint, wenn Sensoren den Wasserstand messen und die Steuerung darauf reagiert?"
+  options: ["Stofffluss", "Energiefluss", "Datenfluss", "Wasserfluss"]
+  answer: { index: 2 }
+  explanation: "Messwerte und Steuerbefehle sind Informationen – das ist der Datenfluss."
+- key: q7
+  type: true_false
+  prompt: "Vor dem Werkzeugwechsel an einer elektrischen Maschine sollte man den Netzstecker ziehen."
+  answer: { value: true }
+  explanation: "So kann die Maschine nicht versehentlich anlaufen."
+- key: q8
+  type: single_choice
+  prompt: "Wie nennt man die Darstellung einer Maschine mit Kästchen für Elemente und Pfeilen für die Flüsse?"
+  options: ["Bauplan", "Blockschaltbild", "Stückliste", "Arbeitsplan"]
+  answer: { index: 1 }
+  explanation: "Im Blockschaltbild wird das Zusammenwirken der Elemente und Flüsse sichtbar."

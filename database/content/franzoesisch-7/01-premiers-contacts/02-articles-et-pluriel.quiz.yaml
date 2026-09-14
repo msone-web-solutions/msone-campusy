@@ -1,0 +1,53 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie viele grammatische Geschlechter gibt es im Französischen?"
+  options: ["Eins", "Zwei", "Drei", "Vier"]
+  answer: { index: 1 }
+  explanation: "Nur masculin und féminin – ein sächliches Geschlecht gibt es nicht."
+- key: q2
+  type: gap_text
+  prompt: "Bestimmter Artikel: ___ garçon (der Junge), ___ fille (das Mädchen), ___ ami (der Freund)"
+  answer:
+    gaps:
+      - ["le"]
+      - ["la"]
+      - ["l'", "l’", "l"]
+  explanation: "le garçon (m.), la fille (f.), l'ami (Elision vor Vokal)."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Artikel steht im Plural vor männlichen UND weiblichen Nomen?"
+  options: ["le", "la", "les", "l'"]
+  answer: { index: 2 }
+  explanation: "les vélos, les maisons – der Plural ist für beide Geschlechter gleich."
+- key: q4
+  type: gap_text
+  prompt: "Unbestimmter Artikel: ___ vélo (ein Fahrrad), ___ maison (ein Haus), ___ amis (Freunde)"
+  answer:
+    gaps:
+      - ["un"]
+      - ["une"]
+      - ["des"]
+  explanation: "un (m.), une (f.), des (Plural)."
+- key: q5
+  type: true_false
+  prompt: "Das Plural-s am Ende französischer Nomen wird deutlich gesprochen."
+  answer: { value: false }
+  explanation: "Das -s ist stumm; den Plural hört man am Artikel (le → les, un → des)."
+- key: q6
+  type: single_choice
+  prompt: "Wie lautet der Plural von „le jeu“ (das Spiel)?"
+  options: ["les jeus", "les jeux", "les jeaux", "les jeu"]
+  answer: { index: 1 }
+  explanation: "Nomen auf -eu bekommen -x: les jeux."
+- key: q7
+  type: single_choice
+  prompt: "Wie lautet der Plural von „l'animal“ (das Tier)?"
+  options: ["les animals", "les animales", "les animaux", "les animal"]
+  answer: { index: 2 }
+  explanation: "Nomen auf -al werden zu -aux: les animaux."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Nomen sind weiblich (féminin)?"
+  options: ["la voiture", "le fromage", "la télévision", "la baguette"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "-ure, -sion und -ette sind typisch weiblich; le fromage (-age) ist männlich."

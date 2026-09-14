@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Konflikt und Gewalt?"
+  options: ["Es gibt keinen", "Ein Konflikt ist ein Aufeinanderprallen von Interessen; Gewalt ist ein verletzender Umgang damit", "Gewalt ist harmloser als ein Konflikt", "Konflikte gibt es nur in der Schule"]
+  answer: { index: 1 }
+  explanation: "Konflikte sind normal – Gewalt ist eine zerstörerische Reaktion darauf."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Beispiele sind seelische (psychische) Gewalt?"
+  options: ["Jemanden wochenlang ignorieren und ausgrenzen", "Jemanden schubsen", "Jemandem drohen", "Jemanden vor der Klasse bloßstellen"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Schubsen ist körperliche Gewalt; Ausgrenzen, Drohen und Bloßstellen verletzen die Seele."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet strukturelle Gewalt?"
+  options: ["Gewalt mit Werkzeugen", "Ungerechte Verhältnisse wie Armut oder Diskriminierung, die Menschen schaden, ohne dass ein Einzelner zuschlägt", "Gewalt in Gebäuden", "Gewalt zwischen Staaten"]
+  answer: { index: 1 }
+  explanation: "Strukturelle Gewalt steckt in den Verhältnissen, nicht in einer einzelnen Tat."
+- key: q4
+  type: true_false
+  prompt: "Ein einmaliger heftiger Streit zwischen zwei Mitschülern ist bereits Mobbing."
+  answer: { value: false }
+  explanation: "Mobbing ist wiederholt, gezielt und dauert über längere Zeit an; ein einzelner Streit ist keines."
+- key: q5
+  type: gap_text
+  prompt: "Statt „Du bist rücksichtslos!“ sagt man in einer ___-Botschaft: „Ich friere, wenn das Fenster offen ist.“"
+  answer:
+    gaps:
+      - ["Ich"]
+  explanation: "Ich-Botschaften beschreiben die eigene Wahrnehmung und das eigene Gefühl statt anzuklagen."
+- key: q6
+  type: single_choice
+  prompt: "Welche vier Schritte hat die Gewaltfreie Kommunikation nach Rosenberg?"
+  options: ["Anklage – Drohung – Strafe – Versöhnung", "Beobachtung – Gefühl – Bedürfnis – Bitte", "Schweigen – Warten – Vergessen – Weitermachen", "Sieg – Niederlage – Kompromiss – Konsens"]
+  answer: { index: 1 }
+  explanation: "Beobachten ohne zu bewerten, Gefühl benennen, Bedürfnis nennen, eine konkrete Bitte äußern."
+- key: q7
+  type: single_choice
+  prompt: "Was macht ein Streitschlichter (Mediator)?"
+  options: ["Er entscheidet, wer Recht hat", "Er bestraft den Schuldigen", "Er hilft beiden Seiten neutral, selbst eine Lösung zu finden", "Er nimmt Partei für den Schwächeren"]
+  answer: { index: 2 }
+  explanation: "Ein Mediator vermittelt neutral – die Lösung finden die Streitenden selbst."
+- key: q8
+  type: single_choice
+  prompt: "Zwei Freunde wollen beide das einzige Fahrrad am Samstag. Sie beschließen: Einer fährt vormittags, der andere nachmittags. Welcher Konfliktausgang ist das?"
+  options: ["Sieg/Niederlage", "Vermeidung", "Kompromiss", "Gewalt"]
+  answer: { index: 2 }
+  explanation: "Beide geben etwas nach und bekommen etwas – ein Kompromiss."

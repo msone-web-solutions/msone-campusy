@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie klingt ein unbetontes о im Russischen?"
+  options: ["wie ein langes o", "wie ein kurzes a", "wie ein u", "es wird gar nicht gesprochen"]
+  answer: { index: 1 }
+  explanation: "Unbetontes о wird zu einem kurzen a reduziert: молоко́ = malakó."
+- key: q2
+  type: single_choice
+  prompt: "Wie wird Москва́ ausgesprochen?"
+  options: ["Moskwá", "Maskwá", "Moskwa", "Muskwá"]
+  answer: { index: 1 }
+  explanation: "Das erste о ist unbetont und klingt wie a: Maskwá."
+- key: q3
+  type: true_false
+  prompt: "Im Russischen liegt die Betonung immer auf der ersten Silbe."
+  answer: { value: false }
+  explanation: "Die Betonung ist frei und muss mit jedem Wort gelernt werden."
+- key: q4
+  type: gap_text
+  prompt: "Das Wort друг (Freund) wird am Ende stimmlos gesprochen, also ___."
+  answer:
+    gaps:
+      - ["druk", "druck"]
+  explanation: "Auslautverhärtung: г am Wortende klingt wie к."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Konsonanten sind im Russischen immer hart?"
+  options: ["ж", "ч", "ш", "ц", "щ"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "ж, ш und ц sind immer hart; ч und щ sind immer weich."
+- key: q6
+  type: single_choice
+  prompt: "Wodurch wird ein Konsonant weich gesprochen?"
+  options: ["Wenn er am Wortanfang steht", "Wenn danach ein weicher Vokal (я, ё, ю, е, и) oder ь folgt", "Wenn er betont ist", "Wenn davor ein о steht"]
+  answer: { index: 1 }
+  explanation: "Weiche Vokale und das Weichheitszeichen machen den Konsonanten davor weich."
+- key: q7
+  type: single_choice
+  prompt: "Wie unterscheidet man im Russischen die Aussage „Это Анна.“ von der Frage „Это Анна?“ beim Sprechen?"
+  options: ["Durch ein zusätzliches Fragewort", "Durch die Wortstellung", "Nur durch die Satzmelodie", "Gar nicht"]
+  answer: { index: 2 }
+  explanation: "Bei der Ja/Nein-Frage steigt die Stimme auf dem wichtigsten Wort stark an."
+- key: q8
+  type: gap_text
+  prompt: "Der Buchstabe ___ ist immer betont; deshalb muss man bei ihm die Betonung nicht extra lernen."
+  answer:
+    gaps:
+      - ["ё", "jo"]
+  explanation: "ё trägt immer die Betonung."

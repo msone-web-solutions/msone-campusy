@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was geschah 1521 auf dem Reichstag zu Worms?"
+  options: ["Luther widerrief seine Lehre", "Luther widerrief nicht und wurde mit der Reichsacht belegt", "Der Bauernkrieg begann", "Der Religionsfrieden wurde geschlossen"]
+  answer: { index: 1 }
+  explanation: "Luther blieb bei seiner Lehre; das Wormser Edikt erklärte ihn für vogelfrei."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Forderungen stellten die Bauern in den Zwölf Artikeln?"
+  options: ["Ende der Leibeigenschaft", "Freie Wahl des Pfarrers", "Abschaffung des Kaisers", "Freie Jagd und Fischerei"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die Bauern forderten Freiheit und weniger Abgaben – nicht die Abschaffung des Kaisers."
+- key: q3
+  type: single_choice
+  prompt: "Wer führte die Bauern in Thüringen an und wurde nach der Schlacht bei Frankenhausen hingerichtet?"
+  options: ["Martin Luther", "Thomas Müntzer", "Karl V.", "Johann Tetzel"]
+  answer: { index: 1 }
+  explanation: "Thomas Müntzer aus Stolberg im Harz führte das Bauernheer und wurde 1525 hingerichtet."
+- key: q4
+  type: true_false
+  prompt: "Luther unterstützte die aufständischen Bauern und kämpfte mit ihnen."
+  answer: { value: false }
+  explanation: "Luther forderte die Fürsten auf, den Aufstand niederzuschlagen."
+- key: q5
+  type: gap_text
+  prompt: "Die evangelischen Stände protestierten 1529 in Speyer – daher der Name ___."
+  answer:
+    gaps:
+      - ["Protestanten", "Protestant", "Protestantismus"]
+  explanation: "Aus der Protestation zu Speyer leitet sich das Wort „Protestanten“ ab."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet „cuius regio, eius religio“?"
+  options: ["Jeder darf seinen Glauben frei wählen", "Wessen Land, dessen Religion – der Landesherr bestimmt die Konfession", "Der Papst bestimmt die Religion", "Alle müssen katholisch sein"]
+  answer: { index: 1 }
+  explanation: "Der Augsburger Religionsfrieden 1555 gab den Landesherren das Recht, die Konfession zu bestimmen."
+- key: q7
+  type: single_choice
+  prompt: "Was durften Untertanen tun, die die Konfession ihres Fürsten nicht annehmen wollten?"
+  options: ["Den Fürsten absetzen", "Auswandern", "Eine eigene Kirche gründen", "Nichts – sie wurden hingerichtet"]
+  answer: { index: 1 }
+  explanation: "Das Recht auszuwandern (ius emigrandi) war Teil des Religionsfriedens."
+- key: q8
+  type: single_choice
+  prompt: "Was versteht man unter Konfessionalisierung?"
+  options: ["Die Abschaffung aller Religionen", "Den Aufbau eigener Kirchen, Schulen und Regeln je Konfession, oft unter Kontrolle des Landesherrn", "Die Wiedervereinigung der Kirche", "Die Verbreitung des Islam in Europa"]
+  answer: { index: 1 }
+  explanation: "Nach 1555 organisierten sich die Konfessionen getrennt; die Fürsten bauten dabei ihre Macht aus."

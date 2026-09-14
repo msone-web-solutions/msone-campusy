@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet бабушка?"
+  options: ["Tante", "Oma", "Schwester", "Tochter"]
+  answer: { index: 1 }
+  explanation: "бабушка = Oma, дедушка = Opa."
+- key: q2
+  type: single_choice
+  prompt: "Welches Genus hat das Wort окно (Fenster)?"
+  options: ["maskulin", "feminin", "neutrum", "kann man nicht erkennen"]
+  answer: { index: 2 }
+  explanation: "Endung -о → neutrum."
+- key: q3
+  type: true_false
+  prompt: "Das Wort папа ist feminin, weil es auf -а endet."
+  answer: { value: false }
+  explanation: "Wörter für männliche Personen wie папа, дедушка, дядя sind trotz der Endung -а maskulin."
+- key: q4
+  type: gap_text
+  prompt: "Ergänze: ___ брат (dein Bruder), ___ школа (unsere Schule)."
+  answer:
+    gaps:
+      - ["твой", "twoj", "tvoy", "tvoj"]
+      - ["наша", "nascha", "nasha"]
+  explanation: "брат maskulin → твой; школа feminin → наша."
+- key: q5
+  type: single_choice
+  prompt: "Wie sagt man „Ich habe eine Schwester“ auf Russisch?"
+  options: ["Я есть сестра.", "У меня есть сестра.", "Я имею сестра.", "Мне сестра."]
+  answer: { index: 1 }
+  explanation: "Besitz wird mit „у меня есть“ (bei mir ist) ausgedrückt."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Substantive sind feminin?"
+  options: ["сестра", "дом", "семья", "письмо", "мать"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "сестра und семья enden auf -а/-я; мать ist eine feminine Ausnahme auf -ь. дом ist maskulin, письмо neutrum."
+- key: q7
+  type: single_choice
+  prompt: "Welches Personalpronomen ersetzt „музей“ (Museum)?"
+  options: ["она", "оно", "он", "они"]
+  answer: { index: 2 }
+  explanation: "музей endet auf -й und ist maskulin → он."
+- key: q8
+  type: gap_text
+  prompt: "Die Frage nach dem Besitzer lautet auf Russisch ___ (Wessen?)."
+  answer:
+    gaps:
+      - ["Чей", "чей", "Tschej", "tschej", "chey", "chej"]
+  explanation: "Чей это дом? – Wessen Haus ist das?"

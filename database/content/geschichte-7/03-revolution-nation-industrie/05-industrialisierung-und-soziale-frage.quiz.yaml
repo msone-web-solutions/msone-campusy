@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welchem Land begann die Industrialisierung?"
+  options: ["Deutschland", "England", "Frankreich", "USA"]
+  answer: { index: 1 }
+  explanation: "England war ab etwa 1770 das „Mutterland der Industrie“."
+- key: q2
+  type: single_choice
+  prompt: "Welche Maschine trieb die erste Phase der Industrialisierung an?"
+  options: ["Der Elektromotor", "Die Dampfmaschine", "Der Verbrennungsmotor", "Das Wasserrad"]
+  answer: { index: 1 }
+  explanation: "James Watts verbesserte Dampfmaschine (1769) lief mit Kohle und konnte überall stehen."
+- key: q3
+  type: gap_text
+  prompt: "Die erste deutsche Eisenbahn fuhr ___ von Nürnberg nach ___."
+  answer:
+    gaps:
+      - ["1835"]
+      - ["Fürth", "Fuerth"]
+  explanation: "Am 7. Dezember 1835 fuhr der „Adler“ von Nürnberg nach Fürth."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Probleme gehörten zur sozialen Frage?"
+  options: ["Kinderarbeit", "Arbeitstage von 12 bis 16 Stunden", "Zu hohe Löhne", "Wohnungsnot in den Städten"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die Löhne waren viel zu niedrig, nicht zu hoch."
+- key: q5
+  type: true_false
+  prompt: "Bismarck verbot die Sozialdemokratie und führte gleichzeitig die Sozialversicherung ein."
+  answer: { value: true }
+  explanation: "Sozialistengesetz 1878 und Sozialversicherungen 1883–1889 – „Zuckerbrot und Peitsche“."
+- key: q6
+  type: single_choice
+  prompt: "Welche Klasse entstand neu durch die Industrialisierung?"
+  options: ["Der Adel", "Die Arbeiterschaft (Proletariat)", "Der Klerus", "Die Bauern"]
+  answer: { index: 1 }
+  explanation: "Arbeiter besaßen nur ihre Arbeitskraft und bildeten die neue Unterschicht der Klassengesellschaft."
+- key: q7
+  type: single_choice
+  prompt: "Was war 1861 in Staßfurt eine Weltneuheit?"
+  options: ["Die erste Zuckerfabrik", "Das erste Kalibergwerk der Welt", "Die erste Eisenbahn", "Die erste Dampfmaschine"]
+  answer: { index: 1 }
+  explanation: "In Staßfurt wurde erstmals Kalisalz für Kunstdünger abgebaut."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Industriezweige waren typisch für das heutige Sachsen-Anhalt?"
+  options: ["Zuckerindustrie in der Magdeburger Börde", "Schwermaschinenbau in Magdeburg", "Schiffbau an der Nordsee", "Braunkohle und Chemie um Bitterfeld"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Schiffbau gab es an der Küste – nicht in Sachsen-Anhalt."

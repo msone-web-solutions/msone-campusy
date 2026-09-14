@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Mit welchen Kennzeichen beschreibt man einen Wirtschaftsraum?"
+  options: ["Verkehrsanbindung", "Wirtschaftsstruktur (Branchen)", "Arbeitslosenquote", "Lieblingsessen der Bewohner"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Verkehr, Branchen, Arbeitsmarkt, Bevölkerung und Infrastruktur sind Kennzeichen eines Wirtschaftsraums."
+- key: q2
+  type: single_choice
+  prompt: "Welcher ist ein harter Standortfaktor?"
+  options: ["Schönes Landschaftsbild", "Autobahnanschluss", "Gutes Image der Region", "Vielfältiges Kulturangebot"]
+  answer: { index: 1 }
+  explanation: "Harte Faktoren sind messbar und in Geld ausdrückbar, z. B. Verkehrsanbindung, Löhne, Grundstückspreise."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Standortfaktor ist für ein Logistikunternehmen besonders wichtig?"
+  options: ["Wald in der Nähe", "Autobahn und Flughafen", "Viele Theater", "Ein Fluss zum Angeln"]
+  answer: { index: 1 }
+  explanation: "Logistik lebt von schnellen Transportwegen."
+- key: q4
+  type: gap_text
+  prompt: "Der Verkauf von Waren in andere Länder heißt ___, der Einkauf aus anderen Ländern ___."
+  answer:
+    gaps:
+      - ["Export", "Ausfuhr"]
+      - ["Import", "Einfuhr"]
+  explanation: "Export = Ausfuhr, Import = Einfuhr."
+- key: q5
+  type: single_choice
+  prompt: "Was exportiert Sachsen-Anhalt vor allem?"
+  options: ["Erdöl und Erdgas", "Chemieprodukte, Maschinen und Nahrungsmittel", "Kaffee und Bananen", "Smartphones"]
+  answer: { index: 1 }
+  explanation: "Chemie, Maschinenbau und Nahrungsmittel sind die wichtigsten Exportbranchen; Erdöl und Erdgas werden importiert."
+- key: q6
+  type: true_false
+  prompt: "Nach 1990 verlor Sachsen-Anhalt durch den Strukturwandel viele Industriearbeitsplätze."
+  answer: { value: true }
+  explanation: "Viele Betriebe schlossen, junge Menschen wanderten ab; seitdem wurde neu aufgebaut."
+- key: q7
+  type: single_choice
+  prompt: "Ein neues Gewerbegebiet soll auf Ackerland entstehen. Wer hat daran ein Interesse, wer ist dagegen?"
+  options: ["Alle sind dafür", "Gemeinde und Unternehmen dafür (Arbeitsplätze), Landwirte und Anwohner eher dagegen (Ackerland, Verkehr)", "Nur der Staat entscheidet, Interessen spielen keine Rolle", "Landwirte sind dafür, Unternehmen dagegen"]
+  answer: { index: 1 }
+  explanation: "Ein typischer Interessenkonflikt, der in Gemeinderäten und Bürgerversammlungen ausgehandelt wird."
+- key: q8
+  type: single_choice
+  prompt: "Wie versucht der Staat, strukturschwachen Regionen zu helfen?"
+  options: ["Durch Verbote für Unternehmen", "Durch Infrastrukturmaßnahmen wie Straßen, Breitband, Gewerbegebiete und Fördergeld", "Durch höhere Steuern", "Durch Schließung von Schulen"]
+  answer: { index: 1 }
+  explanation: "Bessere Infrastruktur und Förderung sollen Unternehmen anlocken und Arbeitsplätze schaffen."

@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was unterscheidet ein Designobjekt von einem Gemälde?"
+  options: ["Es ist immer bunter.", "Es muss einen Zweck erfüllen, also funktionieren.", "Es ist teurer.", "Es wird nie im Museum gezeigt."]
+  answer: { index: 1 }
+  explanation: "Design gestaltet Gebrauchsgegenstände – die Funktion steht im Mittelpunkt."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche drei Aspekte bilden im Design eine Einheit?"
+  options: ["Form", "Funktion", "Ästhetik", "Epoche"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Form, Funktion und Ästhetik müssen zusammenpassen."
+- key: q3
+  type: single_choice
+  prompt: "Welche Designschule arbeitete ab 1925 in Dessau?"
+  options: ["Die Renaissance-Werkstatt", "Das Bauhaus", "Die Akademie Colani", "Das Barock-Atelier"]
+  answer: { index: 1 }
+  explanation: "Das Bauhaus zog 1925 von Weimar nach Dessau in Sachsen-Anhalt."
+- key: q4
+  type: single_choice
+  prompt: "Wofür ist Luigi Colani bekannt?"
+  options: ["Für strenge, eckige Formen", "Für organische, runde, futuristische Formen", "Für Ölgemälde", "Für Graffiti"]
+  answer: { index: 1 }
+  explanation: "Colani ließ sich von der Natur inspirieren und entwarf fließende, runde Formen."
+- key: q5
+  type: gap_text
+  prompt: "Ob ein Produkt gut in der Hand liegt und leicht zu bedienen ist, beschreibt das Kriterium ___."
+  answer:
+    gaps:
+      - ["Benutzerfreundlichkeit", "benutzerfreundlichkeit", "Ergonomie", "ergonomie"]
+  explanation: "Benutzerfreundlichkeit (Ergonomie) fragt, wie gut sich ein Gegenstand benutzen lässt."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Eigenschaften machen ein Produkt umweltfreundlich?"
+  options: ["langlebig", "reparierbar", "recycelbar", "möglichst schnell kaputt, damit man Neues kauft"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Nachhaltiges Design ist langlebig, reparierbar und recycelbar – keine Wegwerfware."
+- key: q7
+  type: single_choice
+  prompt: "Welcher Schritt kommt im Designprozess nach dem Sammeln von Ideen und Skizzen?"
+  options: ["Die Präsentation", "Auswählen und ausarbeiten der besten Idee", "Die Recherche", "Das Verkaufen"]
+  answer: { index: 1 }
+  explanation: "Aufgabe klären → Recherche → Ideen/Skizzen → auswählen und ausarbeiten → Modell → testen → präsentieren."
+- key: q8
+  type: true_false
+  prompt: "Eine Entwurfsskizze muss eine saubere, perfekte Zeichnung sein."
+  answer: { value: false }
+  explanation: "Entwurfsskizzen sind schnelle Denkwerkzeuge mit Notizen, Pfeilen und Maßen – Perfektion ist nicht das Ziel."

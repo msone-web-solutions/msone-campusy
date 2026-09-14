@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Worin unterscheidet sich eine Charakteristik von einer Personenbeschreibung?"
+  options: ["Die Charakteristik ist kürzer.", "Die Charakteristik erfasst auch Verhalten, Gefühle und Eigenschaften und belegt sie mit dem Text.", "Die Charakteristik beschreibt nur das Aussehen.", "Es gibt keinen Unterschied."]
+  answer: { index: 1 }
+  explanation: "Die Beschreibung bleibt beim Äußeren; die Charakteristik deutet die Figur und belegt jede Aussage."
+- key: q2
+  type: single_choice
+  prompt: "„Lisa war ein ehrliches Mädchen“, schreibt der Erzähler. Welche Art der Charakterisierung ist das?"
+  options: ["direkt", "indirekt", "beides"]
+  answer: { index: 0 }
+  explanation: "Die Eigenschaft „ehrlich“ wird ausdrücklich genannt – direkte Charakterisierung."
+- key: q3
+  type: multiple_choice
+  prompt: "Woraus kann man bei der indirekten Charakterisierung Eigenschaften erschließen?"
+  options: ["aus dem Verhalten der Figur", "aus ihrer Sprache", "aus der Reaktion anderer Figuren", "aus der Seitenzahl des Buches"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Verhalten, Sprache, Gedanken, Äußeres und die Reaktionen anderer Figuren geben Hinweise. Die Seitenzahl nicht."
+- key: q4
+  type: single_choice
+  prompt: "Wie zeigt man in einem Zitat an, dass man Wörter weggelassen hat?"
+  options: ["mit drei Punkten in eckigen Klammern [...]", "mit einem Fragezeichen", "gar nicht", "mit einem Doppelpunkt"]
+  answer: { index: 0 }
+  explanation: "Auslassungen werden mit [...] gekennzeichnet, damit das Zitat ehrlich bleibt."
+- key: q5
+  type: true_false
+  prompt: "Eine Charakteristik wird im Präsens geschrieben."
+  answer: { value: true }
+  explanation: "Wie die Inhaltsangabe steht auch die Charakteristik im Präsens."
+- key: q6
+  type: gap_text
+  prompt: "In welcher Reihenfolge baut man den Hauptteil auf? Von den ___ Merkmalen zu den ___ Merkmalen."
+  answer:
+    gaps:
+      - ["äußeren", "aeusseren", "äusseren"]
+      - ["inneren"]
+  explanation: "Von außen nach innen: erst Aussehen und Lebensumstände, dann Verhalten, zuletzt Charakter und Gefühle."
+- key: q7
+  type: single_choice
+  prompt: "Welche Angabe gehört zu einem korrekten Zitat?"
+  options: ["Die Meinung des Schreibers", "Anführungszeichen und Zeilenangabe", "Ein Ausrufezeichen", "Die Seitenzahl des Heftes"]
+  answer: { index: 1 }
+  explanation: "Zitate stehen wörtlich in Anführungszeichen und werden mit der Zeile (Z. ...) belegt."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Satz ist eine gelungene Charakterisierung mit Beleg?"
+  options: ["Tom ist mutig.", "Tom ist mutig, denn er springt als Einziger ins kalte Wasser, um den Hund zu retten (vgl. Z. 8–10).", "Tom springt ins Wasser und rettet den Hund. Dann geht er nach Hause.", "Ich finde Tom cool."]
+  answer: { index: 1 }
+  explanation: "Eigenschaft nennen, mit Verhalten begründen und mit Zeilenangabe belegen – so geht es richtig."

@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Maschinen nutzten Menschen schon vor der Dampfmaschine?"
+  options: ["Elektromotoren", "Wasserräder und Windmühlen", "Industrieroboter", "Verbrennungsmotoren"]
+  answer: { index: 1 }
+  explanation: "Wasserräder und Windmühlen nutzten Naturkräfte, waren aber an den Ort gebunden."
+- key: q2
+  type: gap_text
+  prompt: "James Watt verbesserte ab 1769 die ___ und ermöglichte damit die Industrielle Revolution."
+  answer:
+    gaps:
+      - ["Dampfmaschine", "Dampf-Maschine"]
+  explanation: "Die Dampfmaschine trieb Fabriken, Lokomotiven und Schiffe an."
+- key: q3
+  type: single_choice
+  prompt: "Was führte Henry Ford um 1913 in der Autoproduktion ein?"
+  options: ["Den Industrieroboter", "Die Fließbandfertigung", "Die Dampfmaschine", "Die CNC-Fräse"]
+  answer: { index: 1 }
+  explanation: "Am Fließband macht jeder Arbeiter nur einen Handgriff – die Produktion wurde viel schneller."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche sind ökologische (Umwelt-)Folgen des Maschineneinsatzes?"
+  options: ["Rohstoffverbrauch", "Abgase und Lärm", "Arbeitsplätze fallen weg", "Produkte werden billiger"]
+  answer: { indexes: [0, 1] }
+  explanation: "Rohstoffe und Abgase betreffen die Umwelt. Arbeitsplätze sind eine soziale, billigere Produkte eine ökonomische Folge."
+- key: q5
+  type: single_choice
+  prompt: "Welche Folge des Maschineneinsatzes ist eine soziale Folge?"
+  options: ["Maschinen sind störanfällig", "Weniger schwere körperliche Arbeit für Beschäftigte", "Höherer Energieverbrauch", "Höhere Anschaffungskosten"]
+  answer: { index: 1 }
+  explanation: "Soziale Folgen betreffen die Menschen und die Gesellschaft, z. B. Arbeitsbedingungen."
+- key: q6
+  type: true_false
+  prompt: "Der Beruf des Kfz-Mechatronikers hat sich durch Diagnosecomputer im Vergleich zum früheren Kfz-Mechaniker verändert."
+  answer: { value: true }
+  explanation: "Heute werden Fehler elektronisch ausgelesen; Elektronik und Mechanik gehören zusammen."
+- key: q7
+  type: single_choice
+  prompt: "Was versteht man unter Industrie 4.0?"
+  options: ["Fabriken mit genau vier Maschinen", "Vernetzte Maschinen, die Daten austauschen und die Produktion teilweise selbst organisieren", "Die vierte Dampfmaschine von James Watt", "Handarbeit ohne Maschinen"]
+  answer: { index: 1 }
+  explanation: "Industrie 4.0 steht für digital vernetzte, automatisierte Produktion."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet es, dass Technik gewollte und ungewollte Wirkungen hat?"
+  options: ["Maschinen funktionieren manchmal nicht", "Neben dem beabsichtigten Zweck entstehen auch Nebenfolgen, z. B. Abgase oder wegfallende Arbeitsplätze", "Menschen wollen keine Maschinen", "Maschinen haben immer nur Vorteile"]
+  answer: { index: 1 }
+  explanation: "Der Zweck ist gewollt; Nebenfolgen wie Umweltbelastung sind ungewollt – beides muss man abwägen."

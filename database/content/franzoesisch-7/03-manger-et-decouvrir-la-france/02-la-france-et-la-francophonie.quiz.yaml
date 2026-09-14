@@ -1,0 +1,51 @@
+- key: q1
+  type: single_choice
+  prompt: "Warum wird Frankreich „l'Hexagone“ genannt?"
+  options: ["Wegen seiner sechs Nachbarländer", "Wegen seiner sechseckigen Form", "Wegen seiner sechs Regionen", "Wegen der sechs großen Flüsse"]
+  answer: { index: 1 }
+  explanation: "Die Umrisse Frankreichs ähneln einem Sechseck (Hexagon)."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Länder grenzen an Frankreich?"
+  options: ["Belgien", "Spanien", "Portugal", "Italien"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Portugal grenzt nicht an Frankreich – dazwischen liegt Spanien."
+- key: q3
+  type: gap_text
+  prompt: "Der Fluss, der durch Paris fließt, heißt la ___."
+  answer:
+    gaps:
+      - ["Seine"]
+  explanation: "Paris liegt an der Seine; die Loire ist bekannt für ihre Schlösser."
+- key: q4
+  type: single_choice
+  prompt: "In welchem Museum hängt die Mona Lisa (la Joconde)?"
+  options: ["Im Centre Pompidou", "Im Louvre", "Im Sacré-Cœur", "Im Eiffelturm"]
+  answer: { index: 1 }
+  explanation: "Der Louvre ist das größte Kunstmuseum der Welt."
+- key: q5
+  type: single_choice
+  prompt: "Woran erinnert der französische Nationalfeiertag am 14. Juli?"
+  options: ["An den Bau des Eiffelturms", "An den Sturm auf die Bastille 1789", "An das Ende des Zweiten Weltkriegs", "An die Gründung der EU"]
+  answer: { index: 1 }
+  explanation: "Der Sturm auf die Bastille 1789 gilt als Beginn der Französischen Revolution."
+- key: q6
+  type: single_choice
+  prompt: "Was macht man an der Chandeleur (2. Februar)?"
+  options: ["Man versteckt Schokoladeneier", "Man backt Crêpes", "Man klebt Papierfische auf Rücken", "Man isst die galette des rois"]
+  answer: { index: 1 }
+  explanation: "An der Chandeleur werden traditionell Crêpes gebacken."
+- key: q7
+  type: multiple_choice
+  prompt: "In welchen Ländern ist Französisch Amtssprache?"
+  options: ["Kanada", "Senegal", "Belgien", "Portugal"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Kanada (v. a. Québec), Senegal und Belgien gehören zur Frankophonie; in Portugal spricht man Portugiesisch."
+- key: q8
+  type: gap_text
+  prompt: "Ich wohne in Deutschland: J'habite ___ Allemagne. Mein Onkel wohnt in Kanada: Mon oncle habite ___ Canada."
+  answer:
+    gaps:
+      - ["en"]
+      - ["au"]
+  explanation: "en vor weiblichen Ländern (Allemagne), au vor männlichen Ländern (Canada)."

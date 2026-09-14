@@ -1,0 +1,52 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Zahl ist „quatre-vingt-douze“?"
+  options: ["82", "92", "72", "412"]
+  answer: { index: 1 }
+  explanation: "4 × 20 + 12 = 92."
+- key: q2
+  type: gap_text
+  prompt: "Schreibe 71 auf Französisch: ___"
+  answer:
+    gaps:
+      - ["soixante et onze", "soixante-et-onze", "71"]
+  explanation: "71 = 60 + 11 = soixante et onze (mit „et“, wie bei 21, 31 … 61)."
+- key: q3
+  type: single_choice
+  prompt: "Wie heißt „der erste“ auf Französisch?"
+  options: ["unième", "premier", "deuxième", "unier"]
+  answer: { index: 1 }
+  explanation: "premier / première ist die Ausnahme; ab 2 gilt -ième."
+- key: q4
+  type: gap_text
+  prompt: "Es ist halb neun: Il est huit heures ___ ___."
+  answer:
+    gaps:
+      - ["et"]
+      - ["demie", "demi"]
+  explanation: "8:30 = huit heures et demie."
+- key: q5
+  type: single_choice
+  prompt: "Was bedeutet „Il est midi“?"
+  options: ["Es ist Mitternacht.", "Es ist 12 Uhr mittags.", "Es ist Mittwoch.", "Es ist halb zwölf."]
+  answer: { index: 1 }
+  explanation: "midi = 12 Uhr mittags, minuit = Mitternacht."
+- key: q6
+  type: gap_text
+  prompt: "Die Wochentage: lundi, mardi, ___, jeudi, ___, samedi, dimanche"
+  answer:
+    gaps:
+      - ["mercredi"]
+      - ["vendredi"]
+  explanation: "mercredi = Mittwoch, vendredi = Freitag."
+- key: q7
+  type: single_choice
+  prompt: "Welches Wort bedeutet „zuerst“?"
+  options: ["enfin", "puis", "d'abord", "ensuite"]
+  answer: { index: 2 }
+  explanation: "d'abord = zuerst; puis/ensuite = dann; enfin = schließlich."
+- key: q8
+  type: true_false
+  prompt: "Am französischen collège werden die Klassenstufen rückwärts gezählt (sixième, cinquième, quatrième, troisième)."
+  answer: { value: true }
+  explanation: "Die sixième ist die erste Klasse des collège, die troisième die letzte."

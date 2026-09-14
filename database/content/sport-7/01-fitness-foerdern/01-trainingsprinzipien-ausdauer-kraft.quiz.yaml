@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Fähigkeiten gehören zur Kondition?"
+  options: ["Ausdauer", "Kraft", "Beweglichkeit", "Fairness"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Kondition umfasst Ausdauer, Kraft, Schnelligkeit und Beweglichkeit. Fairness ist wichtig, aber keine konditionelle Fähigkeit."
+- key: q2
+  type: single_choice
+  prompt: "Was bedeutet das Trainingsprinzip „Belastung und Erholung“?"
+  options: ["Man soll jeden Tag so hart wie möglich trainieren", "Der Körper passt sich in der Erholungsphase an, deshalb gehören Pausen zum Training", "Erholung ist nur für Profis wichtig", "Man soll nach dem Training sofort weitertrainieren"]
+  answer: { index: 1 }
+  explanation: "Die Anpassung (Superkompensation) findet in der Pause statt. Ohne Erholung droht Übertraining."
+- key: q3
+  type: gap_text
+  prompt: "Beim Ausdauertraining läuft man bei der ___ gleichmäßig und locker, bei der ___ wechseln sich schnelle Abschnitte und Pausen ab."
+  answer:
+    gaps:
+      - ["Dauermethode", "Dauerlaufmethode", "Dauerleistungsmethode"]
+      - ["Intervallmethode"]
+  explanation: "Dauermethode: gleichmäßiges Tempo. Intervallmethode: Belastung und lohnende Pause im Wechsel."
+- key: q4
+  type: numeric
+  prompt: "Wie viele Minuten Dauerbelastung sollen Schülerinnen und Schüler der 7./8. Klasse laut Lehrplan im Bewegungsfeld Fitness durchhalten?"
+  answer: { value: 30, tolerance: 0.5 }
+  options: { unit: "min" }
+  explanation: "In 7/8 sind 30 Minuten Dauerbelastung vorgesehen (in 5/6 waren es 20, in 9/10 sind es 40 Minuten)."
+- key: q5
+  type: single_choice
+  prompt: "Was versteht man unter einer funktionalen Abfolge im Circuittraining?"
+  options: ["Alle Stationen trainieren dieselbe Muskelgruppe", "Die Muskelgruppen wechseln sich von Station zu Station ab", "Die Stationen werden nach Schwierigkeit sortiert", "Man beginnt immer mit der schwersten Übung"]
+  answer: { index: 1 }
+  explanation: "Nach einer Armübung folgt z. B. eine Beinübung, dann Bauch, dann Rücken – so kann sich jede Muskelgruppe zwischendurch erholen."
+- key: q6
+  type: single_choice
+  prompt: "Welcher Muskel wird gedehnt, wenn man im Stand die Ferse zum Gesäß zieht?"
+  options: ["Wade", "Oberschenkelvorderseite", "Oberschenkelrückseite", "Bauchmuskel"]
+  answer: { index: 1 }
+  explanation: "Beim Anziehen der Ferse zum Gesäß wird die Oberschenkelvorderseite (Quadrizeps) gedehnt."
+- key: q7
+  type: true_false
+  prompt: "Beim Dehnen sollte man kräftig wippen, damit der Muskel schneller länger wird."
+  answer: { value: false }
+  explanation: "Dehnpositionen werden ruhig etwa 20 Sekunden gehalten. Wippen kann den Muskel verletzen."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Wirkungen hat das Aufwärmen vor dem Sport?"
+  options: ["Es erhöht die Körpertemperatur", "Es macht Muskeln und Sehnen geschmeidig", "Es beugt Verletzungen vor", "Es ersetzt das eigentliche Training"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Aufwärmen bereitet Kreislauf, Muskeln und Gelenke auf die Belastung vor und senkt das Verletzungsrisiko – ersetzt aber nicht das Training."

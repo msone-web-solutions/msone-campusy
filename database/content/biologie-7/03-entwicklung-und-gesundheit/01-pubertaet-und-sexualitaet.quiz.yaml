@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was sind Hormone?"
+  options: ["Botenstoffe, die über das Blut Veränderungen in Organen auslösen", "Nährstoffe aus der Nahrung", "Zellen des Immunsystems", "Muskelfasern"]
+  answer: { index: 0 }
+  explanation: "Hormone werden von Drüsen ins Blut abgegeben und wirken als Botenstoffe auf andere Organe."
+- key: q2
+  type: gap_text
+  prompt: "Das wichtigste weibliche Geschlechtshormon heißt ___, das wichtigste männliche ___."
+  answer:
+    gaps:
+      - ["Östrogen", "Oestrogen", "Estrogen"]
+      - ["Testosteron"]
+  explanation: "Östrogen wird in den Eierstöcken, Testosteron in den Hoden gebildet."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Veränderungen betreffen in der Pubertät sowohl Mädchen als auch Jungen?"
+  options: ["Wachstumsschub", "Stimmbruch", "Scham- und Achselbehaarung", "Regelblutung"]
+  answer: { indexes: [0, 2] }
+  explanation: "Wachstumsschub und Körperbehaarung betreffen beide. Stimmbruch (ausgeprägt bei Jungen) und Regelblutung sind geschlechtsspezifisch."
+- key: q4
+  type: true_false
+  prompt: "Die Pubertät beginnt bei allen Kindern genau mit 12 Jahren."
+  answer: { value: false }
+  explanation: "Jeder Körper hat sein eigenes Tempo. Mädchen beginnen meist zwischen 9 und 13, Jungen zwischen 11 und 14 Jahren."
+- key: q5
+  type: single_choice
+  prompt: "Was passiert beim Eisprung?"
+  options: ["Die Gebärmutterschleimhaut wird abgestoßen", "Eine reife Eizelle verlässt den Eierstock", "Eine Eizelle wird befruchtet", "Die Regelblutung beginnt"]
+  answer: { index: 1 }
+  explanation: "Etwa am 14. Zyklustag verlässt die Eizelle den Eierstock und wandert in den Eileiter."
+- key: q6
+  type: single_choice
+  prompt: "In welchem Organ kann ein Kind heranwachsen?"
+  options: ["Im Eierstock", "Im Eileiter", "In der Gebärmutter", "In der Scheide"]
+  answer: { index: 2 }
+  explanation: "Die Gebärmutter ist ein muskulöses Hohlorgan, in dem sich das Kind entwickelt."
+- key: q7
+  type: single_choice
+  prompt: "Warum liegen die Hoden außerhalb des Körpers im Hodensack?"
+  options: ["Weil dort mehr Platz ist", "Weil Spermien eine etwas niedrigere Temperatur brauchen", "Weil sie sonst nicht wachsen", "Damit sie leichter zu sehen sind"]
+  answer: { index: 1 }
+  explanation: "Die Spermienbildung funktioniert nur bei etwas niedrigerer Temperatur als im Körperinneren."
+- key: q8
+  type: single_choice
+  prompt: "Welche Aussage über Homosexualität ist aus biologischer Sicht richtig?"
+  options: ["Sie ist eine Krankheit, die behandelt werden muss", "Sie ist eine natürliche Variante, die auch bei vielen Tierarten vorkommt", "Sie entsteht durch falsche Ernährung", "Sie ist eine freie Entscheidung wie ein Hobby"]
+  answer: { index: 1 }
+  explanation: "Homosexualität ist keine Krankheit und keine Entscheidung, sondern eine natürliche Variante menschlicher Sexualität."

@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Was macht ein gutes Plakat aus?"
+  options: ["ein klarer Blickfang", "eine kurze Schlagzeile", "möglichst viel Text", "wenige, kontrastreiche Farben"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Blickfang, kurze Schlagzeile und wenige starke Farben – viel Text wird im Vorbeigehen nicht gelesen."
+- key: q2
+  type: single_choice
+  prompt: "Welche Schriftart wirkt modern und sachlich und eignet sich gut für Plakate?"
+  options: ["Serifenschrift", "serifenlose Schrift", "Schreibschrift", "Frakturschrift"]
+  answer: { index: 1 }
+  explanation: "Serifenlose Schriften wie Arial oder Helvetica sind klar und aus der Entfernung gut lesbar."
+- key: q3
+  type: gap_text
+  prompt: "Ein stark vereinfachtes Bildzeichen, das ohne Worte verstanden wird, z. B. auf Toilettenschildern, heißt ___."
+  answer:
+    gaps:
+      - ["Piktogramm", "piktogramm", "Symbol"]
+  explanation: "Piktogramme sind reduzierte, eindeutige Bildzeichen."
+- key: q4
+  type: single_choice
+  prompt: "Welche Einstellungsgröße zeigt den ganzen Ort mit kleiner Figur und dient der Orientierung?"
+  options: ["Detail", "Groß", "Totale", "Nah"]
+  answer: { index: 2 }
+  explanation: "Die Totale gibt den Überblick über den Schauplatz."
+- key: q5
+  type: single_choice
+  prompt: "Ein Bösewicht wird aus der Froschperspektive gefilmt. Welche Wirkung hat das?"
+  options: ["Er wirkt klein und hilflos.", "Er wirkt groß, mächtig und bedrohlich.", "Er wirkt lustig.", "Es hat keine Wirkung."]
+  answer: { index: 1 }
+  explanation: "Die Untersicht (Froschperspektive) lässt Figuren groß und überlegen erscheinen."
+- key: q6
+  type: single_choice
+  prompt: "Was bewirken schnelle Schnitte in einem Film?"
+  options: ["Ruhe und Nachdenklichkeit", "Tempo und Spannung", "Der Film wird länger", "Der Ton wird lauter"]
+  answer: { index: 1 }
+  explanation: "Viele kurze Einstellungen erzeugen Tempo – lange Einstellungen wirken ruhig."
+- key: q7
+  type: single_choice
+  prompt: "Wie entsteht ein Stop-Motion-Film?"
+  options: ["Man filmt eine Szene ohne Unterbrechung.", "Man fotografiert viele Einzelbilder, zwischen denen die Figuren leicht bewegt werden, und spielt sie schnell hintereinander ab.", "Man zeichnet jedes Bild am Computer.", "Man filmt in Zeitlupe."]
+  answer: { index: 1 }
+  explanation: "Stop-Motion = Einzelbildaufnahme; 8 bis 12 Bilder pro Sekunde ergeben eine flüssige Bewegung."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Künstler machte Suppendosen und Prominentenfotos im Siebdruck zur Pop-Art?"
+  options: ["August Sander", "Andy Warhol", "Albrecht Dürer", "Paul Cézanne"]
+  answer: { index: 1 }
+  explanation: "Andy Warhol vervielfältigte Massenbilder im Siebdruck und färbte sie bunt ein."

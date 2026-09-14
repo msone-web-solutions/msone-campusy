@@ -1,0 +1,48 @@
+- key: q1
+  type: gap_text
+  prompt: "Grundumsatz + ___ = Gesamtumsatz (Energiebedarf)."
+  answer:
+    gaps:
+      - ["Leistungsumsatz", "Leistungs-Umsatz"]
+  explanation: "Der Leistungsumsatz umfasst alle zusätzlichen Tätigkeiten wie Sport, Arbeit, Gehen."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Faktoren beeinflussen den Nahrungsbedarf eines Menschen?"
+  options: ["Alter", "Bewegung und Sport", "Lieblingsfarbe", "Geschlecht"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Alter, Geschlecht, Körpergröße, Bewegung und Umgebung bestimmen den Bedarf – die Lieblingsfarbe nicht."
+- key: q3
+  type: single_choice
+  prompt: "Wie viele Portionen Obst und Gemüse empfiehlt die DGE pro Tag?"
+  options: ["1 Portion", "2 Portionen", "5 Portionen", "10 Portionen"]
+  answer: { index: 2 }
+  explanation: "5 am Tag: 3 Portionen Gemüse und 2 Portionen Obst, jeweils eine Handvoll."
+- key: q4
+  type: numeric
+  prompt: "Wie viel Gramm Fleisch und Wurst pro Woche empfiehlt die DGE höchstens?"
+  answer: { value: 300 }
+  options: { unit: "g" }
+  explanation: "Maximal 300 g pro Woche – das entspricht etwa zwei kleinen Fleischportionen."
+- key: q5
+  type: true_false
+  prompt: "Die DGE empfiehlt, dass etwa drei Viertel der Nahrung aus pflanzlichen Lebensmitteln bestehen sollten."
+  answer: { value: true }
+  explanation: "Überwiegend pflanzlich essen ist gut für Gesundheit und Umwelt."
+- key: q6
+  type: single_choice
+  prompt: "Welche Lebensmittel stehen in der Ernährungspyramide ganz oben (nur wenig davon)?"
+  options: ["Gemüse und Obst", "Getränke", "Süßigkeiten, Snacks und Fette", "Vollkornprodukte"]
+  answer: { index: 2 }
+  explanation: "Die Spitze der Pyramide steht für Lebensmittel, die man nur selten und in kleinen Mengen essen sollte."
+- key: q7
+  type: single_choice
+  prompt: "Welches Pausenbrot ist am besten geeignet?"
+  options: ["Weißbrot mit Nuss-Nougat-Creme", "Vollkornbrot mit Käse und Gurke", "Ein Schokoriegel", "Chips"]
+  answer: { index: 1 }
+  explanation: "Vollkorn sättigt lange, Käse liefert Eiweiß und Calcium, Gurke Vitamine und Wasser."
+- key: q8
+  type: single_choice
+  prompt: "Nach welchen drei Gesichtspunkten sollte man einen Ernährungstrend beurteilen?"
+  options: ["gesundheitlich, ökonomisch, ökologisch", "modisch, lecker, teuer", "schnell, süß, bunt", "berühmt, neu, exotisch"]
+  answer: { index: 0 }
+  explanation: "Gesundheit (alle Nährstoffe?), Kosten und Umweltwirkung sind die entscheidenden Kriterien."

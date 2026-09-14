@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Aussagen gehören zum Teilchenmodell?"
+  options: ["Alle Stoffe bestehen aus kleinsten Teilchen", "Die Teilchen sind ständig in Bewegung", "Zwischen den Teilchen wirken Anziehungskräfte", "Die Teilchen werden beim Erwärmen größer"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Teilchen, Bewegung und Anziehungskräfte sind die drei Grundaussagen. Beim Erwärmen werden nicht die Teilchen größer, sondern ihre Abstände."
+- key: q2
+  type: single_choice
+  prompt: "Was passiert mit den Teilchen eines Stoffes, wenn seine Temperatur steigt?"
+  options: ["Sie bewegen sich langsamer", "Sie bewegen sich schneller", "Sie bleiben stehen", "Sie verschwinden"]
+  answer: { index: 1 }
+  explanation: "Höhere Temperatur bedeutet schnellere Teilchenbewegung."
+- key: q3
+  type: single_choice
+  prompt: "Warum haben lange Brücken Dehnungsfugen?"
+  options: ["Damit Regenwasser abfließen kann", "Weil sich die Brücke bei Wärme ausdehnt und Platz braucht", "Damit die Brücke leichter wird", "Zur Verzierung"]
+  answer: { index: 1 }
+  explanation: "Im Sommer wird die Brücke länger; ohne Fugen würde sie sich verbiegen oder Risse bekommen."
+- key: q4
+  type: gap_text
+  prompt: "Ein ___ besteht aus zwei verschiedenen Metallen und biegt sich beim Erwärmen, weil sich beide unterschiedlich stark ___."
+  answer:
+    gaps:
+      - ["Bimetallstreifen", "Bimetall"]
+      - ["ausdehnen", "dehnen"]
+  explanation: "Der Bimetallstreifen krümmt sich, weil ein Metall stärker als das andere länger wird – so schaltet er z. B. das Bügeleisen."
+- key: q5
+  type: single_choice
+  prompt: "Welche Stoffart dehnt sich beim Erwärmen am stärksten aus?"
+  options: ["Feste Körper", "Flüssigkeiten", "Gase", "Alle gleich stark"]
+  answer: { index: 2 }
+  explanation: "Gase dehnen sich am stärksten aus, Flüssigkeiten weniger, feste Körper am wenigsten."
+- key: q6
+  type: numeric
+  prompt: "Bei welcher Temperatur in °C hat Wasser seine größte Dichte?"
+  answer: { value: 4, tolerance: 0.1 }
+  options: { unit: "°C" }
+  explanation: "Bei 4 °C ist Wasser am dichtesten (Anomalie des Wassers)."
+- key: q7
+  type: true_false
+  prompt: "Ein See friert im Winter zuerst am Grund zu."
+  answer: { value: false }
+  explanation: "Das dichteste Wasser (4 °C) sinkt nach unten, kälteres bleibt oben und gefriert dort. Seen frieren von oben zu."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Erscheinungen sind Folgen der Anomalie des Wassers?"
+  options: ["Eis schwimmt auf Wasser", "Wasserleitungen platzen bei Frost", "Frostsprengung von Felsen", "Wasser kocht bei 100 °C"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Eis ist weniger dicht als Wasser und braucht mehr Platz – daher schwimmt es, sprengt Rohre und Felsen. Die Siedetemperatur hat mit der Anomalie nichts zu tun."

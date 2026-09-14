@@ -1,0 +1,50 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Durch welche drei Merkmale ist eine Kraft festgelegt?"
+  options: ["Betrag", "Richtung", "Angriffspunkt", "Farbe des Pfeils"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Betrag, Richtung und Angriffspunkt bestimmen eine Kraft. Die Farbe des Pfeils ist nur Zeichenhilfe."
+- key: q2
+  type: single_choice
+  prompt: "Welche der folgenden Größen ist eine vektorielle Größe?"
+  options: ["Masse", "Kraft", "Volumen", "Temperatur"]
+  answer: { index: 1 }
+  explanation: "Die Kraft hat Betrag und Richtung – sie ist ein Vektor. Masse, Volumen und Temperatur sind skalare Größen ohne Richtung."
+- key: q3
+  type: numeric
+  prompt: "Zwei Kinder schieben einen Wagen in dieselbe Richtung mit 35 N und 45 N. Wie groß ist die resultierende Kraft in N?"
+  answer: { value: 80, tolerance: 0.5 }
+  options: { unit: "N" }
+  explanation: "Gleiche Richtung: 35 N + 45 N = 80 N."
+- key: q4
+  type: numeric
+  prompt: "Beim Tauziehen zieht Team A mit 500 N nach links, Team B mit 420 N nach rechts. Wie groß ist die resultierende Kraft in N?"
+  answer: { value: 80, tolerance: 0.5 }
+  options: { unit: "N" }
+  explanation: "Entgegengesetzte Richtung: 500 N − 420 N = 80 N, gerichtet nach links (Team A gewinnt)."
+- key: q5
+  type: single_choice
+  prompt: "Mit welchem Verfahren bestimmt man zeichnerisch die Resultierende zweier schräg zueinander wirkender Kräfte?"
+  options: ["Kräftedreieck der Massen", "Kräfteparallelogramm", "Überlaufmethode", "Kräftetabelle"]
+  answer: { index: 1 }
+  explanation: "Beim Kräfteparallelogramm ist die Diagonale vom gemeinsamen Angriffspunkt aus die Resultierende."
+- key: q6
+  type: gap_text
+  prompt: "Zwei Kräfte sind im ___, wenn sie gleich groß und ___ gerichtet sind. Ihre Resultierende ist dann ___ Newton."
+  answer:
+    gaps:
+      - ["Gleichgewicht", "Kräftegleichgewicht"]
+      - ["entgegengesetzt", "entgegen gesetzt", "gegensätzlich"]
+      - ["0", "null", "Null"]
+  explanation: "Gleich groß, entgegengesetzt, am selben Körper: Die Resultierende ist 0 N – Kräftegleichgewicht."
+- key: q7
+  type: true_false
+  prompt: "Auf einen Körper, der in Ruhe ist, wirken grundsätzlich keine Kräfte."
+  answer: { value: false }
+  explanation: "Es können Kräfte wirken – sie sind aber im Gleichgewicht. Auf ein Buch auf dem Tisch wirken Gewichtskraft und Stützkraft."
+- key: q8
+  type: single_choice
+  prompt: "Zwei Kräfte von je 50 N greifen an einem Körper an. Wann ist die Resultierende am größten?"
+  options: ["Wenn beide in dieselbe Richtung zeigen", "Wenn sie senkrecht zueinander stehen", "Wenn sie entgegengesetzt gerichtet sind", "Der Winkel spielt keine Rolle"]
+  answer: { index: 0 }
+  explanation: "In gleicher Richtung addieren sich die Kräfte zu 100 N. Senkrecht sind es nur etwa 71 N, entgegengesetzt 0 N."

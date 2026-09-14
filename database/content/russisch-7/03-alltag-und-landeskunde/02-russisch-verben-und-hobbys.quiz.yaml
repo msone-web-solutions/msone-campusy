@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „гулять“?"
+  options: ["lesen", "spazieren gehen", "schwimmen", "zeichnen"]
+  answer: { index: 1 }
+  explanation: "гулять = spazieren gehen; читать = lesen, плавать = schwimmen, рисовать = zeichnen."
+- key: q2
+  type: gap_text
+  prompt: "Ergänze: Я ___ книгу. (читать)"
+  answer:
+    gaps:
+      - ["читаю", "tschitaju", "chitayu", "chitaju"]
+  explanation: "1. Person Singular der е-Konjugation: -ю."
+- key: q3
+  type: single_choice
+  prompt: "Welche Form ist richtig: „Sie (Plural) spielen Fußball“?"
+  options: ["Они играет в футбол.", "Они играют в футбол.", "Они играем в футбол.", "Они играешь в футбол."]
+  answer: { index: 1 }
+  explanation: "они → Endung -ют: играют."
+- key: q4
+  type: single_choice
+  prompt: "Zu welcher Konjugation gehört „говорить“?"
+  options: ["е-Konjugation", "и-Konjugation", "zu keiner, es ist unregelmäßig", "zu beiden"]
+  answer: { index: 1 }
+  explanation: "говорить endet auf -ить und hat die Endungen -ишь, -ит, -им, -ите, -ят."
+- key: q5
+  type: true_false
+  prompt: "Bei „Я занимаюсь спортом“ entspricht die Endung -сь dem deutschen „sich“."
+  answer: { value: true }
+  explanation: "заниматься ist reflexiv; -ся/-сь entspricht dem deutschen Reflexivpronomen."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Formen von „жить“ sind richtig?"
+  options: ["я живу", "ты живёшь", "он живёт", "они живют"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Nach Konsonant: живу, живёшь, живёт … они живут (nicht живют)."
+- key: q7
+  type: single_choice
+  prompt: "Welche Konjunktion passt: „Я играю в футбол, ___ моя сестра рисует.“"
+  options: ["и", "а", "или", "не"]
+  answer: { index: 1 }
+  explanation: "а stellt zwei Dinge gegenüber (ich spiele Fußball, meine Schwester dagegen malt)."
+- key: q8
+  type: gap_text
+  prompt: "„Ich spiele Gitarre“ heißt: Я играю ___ гитаре."
+  answer:
+    gaps:
+      - ["на", "na"]
+  explanation: "Instrumente: играть на + Instrument; Sportarten: играть в + Sport."

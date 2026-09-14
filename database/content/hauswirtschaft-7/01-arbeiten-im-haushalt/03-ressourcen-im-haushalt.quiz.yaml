@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche gehören zu den Ressourcen eines Haushalts?"
+  options: ["Zeit", "Geld", "Energie", "Werbung"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Zeit, Geld, Energie, Wasser, Sachgüter und Arbeitskraft sind Ressourcen. Werbung ist ein äußerer Einfluss."
+- key: q2
+  type: single_choice
+  prompt: "Welche Ausgabe ist eine feste Ausgabe (Fixkosten)?"
+  options: ["Kinobesuch", "Miete", "Geburtstagsgeschenk", "Eis im Sommer"]
+  answer: { index: 1 }
+  explanation: "Die Miete fällt jeden Monat in gleicher Höhe an – typische Fixkosten."
+- key: q3
+  type: numeric
+  prompt: "Jemand legt jeden Monat 5 € vom Taschengeld zurück. Wie viel Euro sind das nach einem Jahr?"
+  answer: { value: 60 }
+  options: { unit: "€" }
+  explanation: "5 € · 12 Monate = 60 €."
+- key: q4
+  type: gap_text
+  prompt: "Ein Heft oder eine App, in der alle Einnahmen und Ausgaben notiert werden, heißt ___."
+  answer:
+    gaps:
+      - ["Haushaltsbuch", "Haushaltsbuch (App)", "Haushalts-Buch"]
+  explanation: "Das Haushaltsbuch zeigt, wohin das Geld fließt, und hilft beim Sparen."
+- key: q5
+  type: true_false
+  prompt: "Geräte im Standby-Modus verbrauchen keinen Strom."
+  answer: { value: false }
+  explanation: "Standby kann bis zu 100 € im Jahr kosten – Geräte ganz ausschalten oder Steckdosenleiste nutzen."
+- key: q6
+  type: single_choice
+  prompt: "Um wie viel Prozent sinkt der Heizenergieverbrauch etwa, wenn man die Raumtemperatur um 1 °C senkt?"
+  options: ["um etwa 1 %", "um etwa 6 %", "um etwa 25 %", "gar nicht"]
+  answer: { index: 1 }
+  explanation: "Jedes Grad weniger spart rund 6 % Heizenergie."
+- key: q7
+  type: single_choice
+  prompt: "Warum ist es besonders wichtig, warmes Wasser zu sparen?"
+  options: ["Weil warmes Wasser knapper ist als kaltes", "Weil das Erwärmen von Wasser viel Energie kostet", "Weil warmes Wasser die Rohre beschädigt", "Weil kaltes Wasser gesünder ist"]
+  answer: { index: 1 }
+  explanation: "Warmwasser bedeutet Wasser- und Energieverbrauch zugleich."
+- key: q8
+  type: single_choice
+  prompt: "Was zeigt der ökologische Fußabdruck an?"
+  options: ["Die Schuhgröße eines Menschen", "Wie viel Fläche der Erde nötig wäre, um den Lebensstil eines Menschen dauerhaft zu ermöglichen", "Wie viel Wasser ein Haushalt verbraucht", "Die Größe eines Gartens"]
+  answer: { index: 1 }
+  explanation: "Lebten alle wie in Deutschland, bräuchte man etwa drei Erden."

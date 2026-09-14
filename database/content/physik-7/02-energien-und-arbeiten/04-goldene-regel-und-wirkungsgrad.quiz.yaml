@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was besagt die Goldene Regel der Mechanik?"
+  options: ["Mit Maschinen kann man Arbeit sparen", "Was man an Kraft spart, muss man an Weg zulegen", "Kraft und Weg werden beide kleiner", "Jede Maschine hat den Wirkungsgrad 1"]
+  answer: { index: 1 }
+  explanation: "Kraft sparen ist möglich, Arbeit sparen nicht – der Weg wird entsprechend länger."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Einrichtungen sind kraftumformende Einrichtungen?"
+  options: ["Hebel", "Flaschenzug", "Schiefe Ebene", "Federkraftmesser"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Hebel, Flaschenzug und schiefe Ebene verringern die nötige Kraft. Der Federkraftmesser misst nur Kräfte."
+- key: q3
+  type: numeric
+  prompt: "Eine Last (400 N) wird mit einem Flaschenzug mit 4 tragenden Seilstücken gehoben. Welche Zugkraft in N ist nötig (ohne Reibung)?"
+  answer: { value: 100, tolerance: 0.5 }
+  options: { unit: "N" }
+  explanation: "Die Kraft verteilt sich auf 4 Seilstücke: 400 N : 4 = 100 N. Dafür muss man viermal so viel Seil ziehen."
+- key: q4
+  type: numeric
+  prompt: "Über eine 5 m lange Rampe wird ein Wagen 1 m hoch gezogen. Die Hubarbeit beträgt 500 J. Welche Zugkraft in N ist entlang der Rampe nötig (ohne Reibung)?"
+  answer: { value: 100, tolerance: 0.5 }
+  options: { unit: "N" }
+  explanation: "W = F · s → F = W : s = 500 J : 5 m = 100 N."
+- key: q5
+  type: single_choice
+  prompt: "Was macht eine feste Rolle?"
+  options: ["Sie halbiert die nötige Kraft", "Sie lenkt die Kraft nur um, spart aber keine Kraft", "Sie verdoppelt die Arbeit", "Sie verkürzt den Weg"]
+  answer: { index: 1 }
+  explanation: "Eine feste Rolle ändert nur die Richtung der Kraft (z. B. nach unten ziehen statt nach oben heben). Erst die lose Rolle halbiert die Kraft."
+- key: q6
+  type: numeric
+  prompt: "Ein Gerät nimmt 1200 J Energie auf und gibt 900 J nutzbar ab. Berechne den Wirkungsgrad in Prozent."
+  answer: { value: 75, tolerance: 0.5 }
+  options: { unit: "%" }
+  explanation: "η = 900 J : 1200 J = 0,75 = 75 %."
+- key: q7
+  type: true_false
+  prompt: "Eine Maschine kann einen Wirkungsgrad von mehr als 100 % haben, wenn sie sehr gut geschmiert ist."
+  answer: { value: false }
+  explanation: "Der Wirkungsgrad ist immer kleiner als 100 %, weil bei jedem Vorgang ein Teil der Energie durch Reibung entwertet wird. Mehr Energie als hineingesteckt kann nie herauskommen."
+- key: q8
+  type: gap_text
+  prompt: "Beim Hebel gilt: Kraft mal ___ auf der einen Seite ist gleich Kraft mal ___ auf der anderen Seite."
+  answer:
+    gaps:
+      - ["Hebelarm", "Kraftarm", "Länge"]
+      - ["Hebelarm", "Lastarm", "Länge"]
+  explanation: "Hebelgesetz: F₁ · l₁ = F₂ · l₂ – Kraft mal Hebelarm ist auf beiden Seiten gleich."

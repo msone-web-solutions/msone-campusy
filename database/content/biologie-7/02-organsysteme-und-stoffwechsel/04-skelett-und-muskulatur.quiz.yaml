@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Aufgaben hat das Skelett?"
+  options: ["Den Körper stützen", "Organe schützen", "Nahrung verdauen", "Blutzellen bilden"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Stützen, schützen und Blutbildung im Knochenmark – Verdauung ist Aufgabe des Verdauungssystems."
+- key: q2
+  type: numeric
+  prompt: "Aus etwa wie vielen Knochen besteht das Skelett eines Erwachsenen?"
+  answer: { value: 206, tolerance: 6 }
+  explanation: "Ein Erwachsener hat etwa 206 Knochen; Kinder haben mehr, weil manche Knochen später zusammenwachsen."
+- key: q3
+  type: single_choice
+  prompt: "Welche Form hat die Wirbelsäule, und wozu dient sie?"
+  options: ["Gerade – damit man groß wirkt", "Doppelt S-förmig – sie federt Stöße ab", "Kreisförmig – zum Rollen", "Zickzack – zum Klettern"]
+  answer: { index: 1 }
+  explanation: "Die doppelte S-Form wirkt wie eine Feder und dämpft Stöße beim Gehen und Springen."
+- key: q4
+  type: single_choice
+  prompt: "Was passiert mit einem Knochen, den man mehrere Tage in Essig legt?"
+  options: ["Er wird härter", "Er wird biegsam, weil sich der Kalk löst", "Er löst sich vollständig auf", "Nichts"]
+  answer: { index: 1 }
+  explanation: "Der Essig löst die Kalksalze. Übrig bleiben die elastischen Eiweißfasern."
+- key: q5
+  type: single_choice
+  prompt: "Welcher Gelenktyp ist das Schultergelenk?"
+  options: ["Scharniergelenk", "Drehgelenk", "Kugelgelenk", "Sattelgelenk"]
+  answer: { index: 2 }
+  explanation: "Schulter und Hüfte sind Kugelgelenke und erlauben Bewegung in alle Richtungen."
+- key: q6
+  type: true_false
+  prompt: "Ein Muskel kann sowohl ziehen als auch schieben."
+  answer: { value: false }
+  explanation: "Muskeln können sich nur zusammenziehen. Für die Gegenbewegung braucht es einen Gegenspieler."
+- key: q7
+  type: gap_text
+  prompt: "Der Muskel, der den Arm beugt, heißt ___; der Muskel, der ihn streckt, heißt ___."
+  answer:
+    gaps:
+      - ["Beuger", "Bizeps", "Armbeuger"]
+      - ["Strecker", "Trizeps", "Armstrecker"]
+  explanation: "Beuger (Bizeps) und Strecker (Trizeps) sind Gegenspieler am Oberarm."
+- key: q8
+  type: single_choice
+  prompt: "Was verringert die Reibung in einem Gelenk?"
+  options: ["Die Sehnen", "Die Gelenkschmiere und der Knorpel", "Das Knochenmark", "Die Muskelfasern"]
+  answer: { index: 1 }
+  explanation: "Glatter Knorpel und Gelenkschmiere in der Gelenkkapsel lassen die Knochen fast reibungsfrei gleiten."

@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Markt im wirtschaftlichen Sinn?"
+  options: ["Nur ein Platz mit Ständen in der Stadt", "Jeder Ort, an dem Anbieter und Nachfrager zusammentreffen und tauschen", "Ein Supermarkt", "Eine Werbeaktion"]
+  answer: { index: 1 }
+  explanation: "Auch Onlineplattformen, die Börse oder die Jobbörse sind Märkte."
+- key: q2
+  type: single_choice
+  prompt: "Es gibt nur wenige große Mobilfunkanbieter. Welche Marktform ist das?"
+  options: ["Polypol", "Oligopol", "Monopol", "Wochenmarkt"]
+  answer: { index: 1 }
+  explanation: "Wenige Anbieter = Oligopol. Viele = Polypol, einer = Monopol."
+- key: q3
+  type: true_false
+  prompt: "Je höher der Preis eines Gutes, desto größer ist in der Regel die angebotene Menge."
+  answer: { value: true }
+  explanation: "Hohe Preise machen das Anbieten lohnend – das Angebot steigt mit dem Preis."
+- key: q4
+  type: numeric
+  prompt: "Bei 3 € pro kg Äpfel werden 80 kg nachgefragt, aber nur 50 kg angeboten. Wie viel kg fehlen?"
+  answer: { value: 30 }
+  options: { unit: "kg" }
+  explanation: "80 kg − 50 kg = 30 kg Nachfrageüberschuss – der Preis wird steigen."
+- key: q5
+  type: single_choice
+  prompt: "Eine Rekordernte an Kartoffeln führt in der Regel dazu, dass …"
+  options: ["der Preis steigt, weil mehr da ist.", "der Preis sinkt, weil das Angebot größer ist.", "der Preis gleich bleibt.", "niemand mehr Kartoffeln kauft."]
+  answer: { index: 1 }
+  explanation: "Größeres Angebot bei gleicher Nachfrage senkt den Preis."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Faktoren können die Nachfrage nach einem Produkt erhöhen?"
+  options: ["Werbung und Mode", "steigende Einkommen der Käufer", "steigende Energiekosten des Herstellers", "ein beliebter Influencer stellt es vor"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Energiekosten betreffen das Angebot (Kosten), nicht die Nachfrage."
+- key: q7
+  type: single_choice
+  prompt: "Welche Entwicklung hat den Handel in den letzten 20 Jahren am stärksten verändert?"
+  options: ["Der Versandkatalog", "Der Internethandel (E-Commerce)", "Der Wochenmarkt", "Das Kaufhaus"]
+  answer: { index: 1 }
+  explanation: "Onlinehandel wächst stark, Innenstädte verlieren Geschäfte, Paketdienste boomen."
+- key: q8
+  type: gap_text
+  prompt: "Der ___handel kauft große Mengen beim Hersteller und beliefert den ___handel, der an Endverbraucher verkauft."
+  answer:
+    gaps:
+      - ["Groß", "Groß-", "Gross"]
+      - ["Einzel", "Einzel-"]
+  explanation: "Großhandel → Einzelhandel → Verbraucher."

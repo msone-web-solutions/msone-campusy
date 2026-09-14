@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Wie reagiert der Körper auf sportliche Belastung?"
+  options: ["Das Herz schlägt schneller", "Die Atmung wird tiefer und schneller", "Man schwitzt", "Der Puls sinkt"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Herzschlag und Atmung nehmen zu, Schwitzen kühlt den Körper. Der Puls steigt bei Belastung – er sinkt nicht."
+- key: q2
+  type: numeric
+  prompt: "Du zählst in 10 Sekunden 25 Herzschläge. Wie hoch ist der Puls pro Minute?"
+  answer: { value: 150, tolerance: 0.5 }
+  options: { unit: "Schläge/min" }
+  explanation: "25 · 6 = 150 Schläge pro Minute."
+- key: q3
+  type: single_choice
+  prompt: "Wann misst man den Ruhepuls am besten?"
+  options: ["Direkt nach dem Sport", "Morgens vor dem Aufstehen", "Nach dem Mittagessen", "Beim Treppensteigen"]
+  answer: { index: 1 }
+  explanation: "Morgens im Liegen ist der Körper am ruhigsten – der Wert ist dann am aussagekräftigsten."
+- key: q4
+  type: numeric
+  prompt: "Wie hoch ist der ungefähre Maximalpuls eines 13-jährigen Menschen nach der Faustregel „220 minus Alter“?"
+  answer: { value: 207, tolerance: 1 }
+  options: { unit: "Schläge/min" }
+  explanation: "220 − 13 = 207 Schläge pro Minute."
+- key: q5
+  type: true_false
+  prompt: "Ein trainierter Mensch hat in der Regel einen niedrigeren Ruhepuls als ein untrainierter."
+  answer: { value: true }
+  explanation: "Ein trainiertes Herz pumpt pro Schlag mehr Blut und braucht deshalb in Ruhe weniger Schläge."
+- key: q6
+  type: single_choice
+  prompt: "Was solltest du bei Schwindel und Übelkeit während des Sports tun?"
+  options: ["Weitermachen, das geht vorbei", "Sofort aufhören, hinsetzen und trinken", "Schneller laufen, um den Kreislauf anzuregen", "Nur die Atmung anhalten"]
+  answer: { index: 1 }
+  explanation: "Schwindel und Übelkeit sind Warnsignale für Kreislaufprobleme oder Unterzucker – Belastung sofort beenden."
+- key: q7
+  type: gap_text
+  prompt: "Jugendliche sollen sich täglich mindestens ___ Minuten bewegen und etwa ___ bis 2 Liter Wasser trinken."
+  answer:
+    gaps:
+      - ["60", "sechzig"]
+      - ["1,5", "1.5", "eineinhalb"]
+  explanation: "Die WHO empfiehlt 60 Minuten Bewegung täglich; 1,5–2 Liter Wasser sind die Faustregel für die Flüssigkeitszufuhr."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Aussagen zum Doping sind richtig?"
+  options: ["Doping ist im Wettkampf verboten", "Doping kann Herz und Leber schädigen", "Doping ist harmlos, wenn man es nur kurz nimmt", "Es gibt natürliche Leistungsgrenzen, die man akzeptieren sollte"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Doping ist verboten und gesundheitsschädlich – auch kurzzeitig. Natürliche Grenzen gehören zum Sport."

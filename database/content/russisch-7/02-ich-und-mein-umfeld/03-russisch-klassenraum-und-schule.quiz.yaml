@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „Что это?“"
+  options: ["Wer ist das?", "Was ist das?", "Wo ist das?", "Wessen ist das?"]
+  answer: { index: 1 }
+  explanation: "что = was, кто = wer, где = wo, чей = wessen."
+- key: q2
+  type: single_choice
+  prompt: "Mit welchem Fragewort fragt man nach einem Hund (собака)?"
+  options: ["что", "кто", "где", "какой"]
+  answer: { index: 1 }
+  explanation: "Im Russischen fragt man nach Personen UND Tieren mit кто."
+- key: q3
+  type: true_false
+  prompt: "Im russischen Satz „Это доска“ fehlt das Wort für „ist“, weil es im Präsens nicht gebraucht wird."
+  answer: { value: true }
+  explanation: "Russisch hat im Präsens kein Äquivalent für „ist / sind“."
+- key: q4
+  type: gap_text
+  prompt: "Ergänze die Verneinung: Это ___ ручка, это карандаш."
+  answer:
+    gaps:
+      - ["не", "ne"]
+  explanation: "не steht direkt vor dem verneinten Wort. Нет ist nur die Antwort „Nein“."
+- key: q5
+  type: single_choice
+  prompt: "Wie heißt „Das Buch ist auf dem Tisch“ auf Russisch?"
+  options: ["Книга на стол.", "Книга в столе.", "Книга на столе.", "Книга стол."]
+  answer: { index: 2 }
+  explanation: "на + Präpositiv (Endung -е): на столе."
+- key: q6
+  type: gap_text
+  prompt: "Bilde den Plural von карандаш: ___."
+  answer:
+    gaps:
+      - ["карандаши", "karandaschi", "karandashi"]
+  explanation: "Nach ш steht immer -и: карандаши."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Plurale sind richtig gebildet?"
+  options: ["стол → столы", "книга → книгы", "окно → окна", "друг → друзья"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Nach к darf kein ы stehen: книга → книги. столы, окна und die Ausnahme друзья sind richtig."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet die Aufforderung „Откройте книгу!“?"
+  options: ["Schließt das Buch!", "Öffnet das Buch!", "Lest das Buch!", "Nehmt das Buch!"]
+  answer: { index: 1 }
+  explanation: "Откройте = Öffnet!, Читайте = Lest!, Слушайте = Hört zu!"

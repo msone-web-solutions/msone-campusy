@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was zeigt ein Stillleben?"
+  options: ["Menschen in Bewegung", "Eine Anordnung unbewegter Gegenstände wie Obst, Blumen oder Geschirr", "Eine Landschaft", "Ein Porträt"]
+  answer: { index: 1 }
+  explanation: "Stillleben = „stilles Leben“: unbewegte Dinge, vom Maler bewusst angeordnet."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Gegenstände sind typische Vanitas-Symbole?"
+  options: ["Totenschädel", "erloschene Kerze", "Sanduhr", "Fußball"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Schädel, Kerze, Sanduhr und welke Blumen stehen für die Vergänglichkeit."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Maler baute seine Stillleben aus Grundformen wie Kugel, Zylinder und Kegel auf?"
+  options: ["Caspar David Friedrich", "Paul Cézanne", "Albrecht Dürer", "Keith Haring"]
+  answer: { index: 1 }
+  explanation: "Cézanne gilt mit seiner Formauffassung als Wegbereiter der modernen Kunst."
+- key: q4
+  type: single_choice
+  prompt: "Welche Farbe ist die Komplementärfarbe zu Blau?"
+  options: ["Grün", "Orange", "Violett", "Rot"]
+  answer: { index: 1 }
+  explanation: "Im Farbkreis liegen Blau und Orange gegenüber."
+- key: q5
+  type: gap_text
+  prompt: "Blau, Blaugrün und Violett gehören zu den ___ Farben und wirken ruhig und fern."
+  answer:
+    gaps:
+      - ["kalten", "Kalten", "kalt"]
+  explanation: "Kalte Farben treten zurück und wirken kühl – warme Farben kommen nach vorn."
+- key: q6
+  type: single_choice
+  prompt: "Wie nennt man den dicken Farbauftrag mit sichtbaren Pinsel- oder Spachtelspuren?"
+  options: ["lasierend", "pastos", "Nass-in-Nass", "deckend"]
+  answer: { index: 1 }
+  explanation: "Pastoser Auftrag (z. B. bei van Gogh) zeigt die Bewegung des Pinsels."
+- key: q7
+  type: single_choice
+  prompt: "Zu welcher Drucktechnik gehört der Linolschnitt?"
+  options: ["Tiefdruck", "Hochdruck", "Flachdruck", "Durchdruck"]
+  answer: { index: 1 }
+  explanation: "Beim Hochdruck drucken die stehen gebliebenen, erhabenen Stellen der Platte."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet „stilisieren“?"
+  options: ["Ein Bild möglichst naturgetreu malen", "Eine Naturform auf ihre Grundlinien vereinfachen, z. B. für ein Ornament", "Ein Bild mit vielen Farben füllen", "Ein Foto bearbeiten"]
+  answer: { index: 1 }
+  explanation: "Beim Stilisieren werden Details weggelassen und Linien vereinfacht – so entsteht ein wiederholbares Modul."

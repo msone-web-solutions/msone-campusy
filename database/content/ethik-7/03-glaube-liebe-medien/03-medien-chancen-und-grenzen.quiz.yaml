@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist der Zweck eines Medientagebuchs?"
+  options: ["Anderen zeigen, wie viel man online ist", "Die eigene Mediennutzung sichtbar machen und einschätzen, was einem guttut", "Filme bewerten", "Ein Tagebuch für Influencer"]
+  answer: { index: 1 }
+  explanation: "Wer notiert, wann er was wie lange nutzt, erkennt Muster – und kann sie ändern."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Wirkungen können Medien haben?"
+  options: ["Abstumpfung gegenüber Gewalt", "Verstärkung von Rollenklischees", "Weckung von Konsumwünschen durch Influencer-Werbung", "Automatisch bessere Noten"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Gewalt, Klischees und Konsum sind typische Wirkungsfelder – Noten verbessern Medien nicht von allein."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet „Medienwirklichkeit“?"
+  options: ["Die Wahrheit, wie sie in den Medien steht", "Der ausgewählte, geschnittene und inszenierte Ausschnitt der Welt, den Medien zeigen", "Ein Fernsehsender", "Die Realität in Videospielen"]
+  answer: { index: 1 }
+  explanation: "Medien zeigen nie alles – sie wählen aus und inszenieren."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Folgen kann übermäßiger Medienkonsum haben?"
+  options: ["Schlafmangel", "Konzentrationsprobleme", "Bewegungsmangel", "Bessere Augen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Schlaf, Konzentration und Bewegung leiden; die Augen werden eher belastet."
+- key: q5
+  type: true_false
+  prompt: "Ein Foto von Mitschülern darf man in einer Gruppe posten, ohne sie zu fragen, solange man es selbst gemacht hat."
+  answer: { value: false }
+  explanation: "Das Recht am eigenen Bild: Veröffentlichen nur mit Einwilligung der Abgebildeten."
+- key: q6
+  type: gap_text
+  prompt: "Filme und Spiele tragen eine ___ (freigegeben ab 0, 6, 12, 16 oder keine Jugendfreigabe)."
+  answer:
+    gaps:
+      - ["Alterskennzeichnung", "Altersfreigabe", "Alterskennzeichen"]
+  explanation: "Die Alterskennzeichnung ist in Abschnitt 3 des Jugendschutzgesetzes geregelt."
+- key: q7
+  type: single_choice
+  prompt: "Welche Behörde führt die Liste jugendgefährdender Medien?"
+  options: ["Die FSK", "Die Bundeszentrale für Kinder- und Jugendmedienschutz", "Das Bundeskanzleramt", "Die Polizei"]
+  answer: { index: 1 }
+  explanation: "Die BzKJ ist in Abschnitt 4 des Jugendschutzgesetzes geregelt."
+- key: q8
+  type: single_choice
+  prompt: "Warum nennt man die Presse die „vierte Gewalt“?"
+  options: ["Weil Journalisten Gewalt anwenden", "Weil sie neben Parlament, Regierung und Gerichten die Mächtigen kontrolliert", "Weil es vier große Zeitungen gibt", "Weil sie Gesetze beschließt"]
+  answer: { index: 1 }
+  explanation: "Freie Medien decken Missstände auf – geschützt durch die Pressefreiheit in Art. 5 GG."

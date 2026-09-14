@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „selig“ in den Seligpreisungen?"
+  options: ["reich", "glücklich zu preisen", "verstorben", "schuldig"]
+  answer: { index: 1 }
+  explanation: "Jesus preist die glücklich, die in der Welt oft als Verlierer gelten."
+- key: q2
+  type: gap_text
+  prompt: "„Selig sind die ___; denn sie werden Gottes Kinder heißen.“"
+  answer:
+    gaps:
+      - ["Friedfertigen", "Friedensstifter", "Friedfertige"]
+  explanation: "Mt 5,9 – Frieden stiften ist ein Kennzeichen der Kinder Gottes."
+- key: q3
+  type: true_false
+  prompt: "Mit der Bergpredigt schafft Jesus die Gebote der Tora ab."
+  answer: { value: false }
+  explanation: "Jesus sagt: „Ich bin nicht gekommen, um aufzulösen, sondern zu erfüllen“ (Mt 5,17)."
+- key: q4
+  type: single_choice
+  prompt: "Welchen alten Grundsatz ersetzt Jesus durch die Feindesliebe?"
+  options: ["Du sollst nicht töten", "Auge um Auge, Zahn um Zahn", "Ehre Vater und Mutter", "Du sollst den Sabbat heiligen"]
+  answer: { index: 1 }
+  explanation: "Statt Vergeltung fordert Jesus, die Spirale der Gewalt zu durchbrechen."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Bitten gehören zum Vaterunser?"
+  options: ["Unser tägliches Brot gib uns heute.", "Vergib uns unsere Schuld, wie auch wir vergeben unsern Schuldigern.", "Mach uns reich und berühmt.", "Dein Reich komme."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Das Vaterunser bittet um das Nötige, um Vergebung und um Gottes Reich – nicht um Reichtum."
+- key: q6
+  type: single_choice
+  prompt: "Was zeigt die Anrede „Vater“ (aramäisch Abba) über Jesu Gottesbild?"
+  options: ["Gott ist streng und fern.", "Gott ist nah, vertraut und liebevoll.", "Gott ist unbekannt.", "Gott ist nur für Männer da."]
+  answer: { index: 1 }
+  explanation: "Abba bedeutet etwa „Papa“ – Jesus spricht Gott vertrauensvoll an."
+- key: q7
+  type: single_choice
+  prompt: "Was ruft der Vater des kranken Jungen in Mk 9,24?"
+  options: ["„Ich glaube; hilf meinem Unglauben!“", "„Ich habe keinen Glauben.“", "„Heile ihn oder geh weg!“", "„Alle Dinge sind unmöglich.“"]
+  answer: { index: 0 }
+  explanation: "Der Satz zeigt: Glaube und Zweifel gehören zusammen."
+- key: q8
+  type: gap_text
+  prompt: "Das bekannteste Gebet der Christen, das Jesus in der Bergpredigt lehrt, heißt ___."
+  answer:
+    gaps:
+      - ["Vaterunser", "Vater unser", "Vater-unser"]
+  explanation: "Mt 6,9–13 – das Vaterunser wird in allen christlichen Konfessionen gebetet."

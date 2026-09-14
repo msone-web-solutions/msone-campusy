@@ -1,0 +1,47 @@
+- key: q1
+  type: single_choice
+  prompt: "Wofür steht die Abkürzung ÖPNV?"
+  options: ["Öffentlicher Personennahverkehr", "Örtlicher Privat-Nahverkehr", "Öffentlicher Post- und Nachtverkehr", "Östlicher Personen-Nahverkehr"]
+  answer: { index: 0 }
+  explanation: "ÖPNV umfasst Bus, Straßenbahn, S-Bahn und Regionalzüge."
+- key: q2
+  type: single_choice
+  prompt: "Womit wird ein Fahrrad angetrieben?"
+  options: ["Mit einem Verbrennungsmotor", "Mit Muskelkraft über Pedale, Kette und Ritzel", "Mit Druckluft", "Mit Dampf"]
+  answer: { index: 1 }
+  explanation: "Die Muskelkraft wird über Pedale, Kette und Ritzel auf das Hinterrad übertragen."
+- key: q3
+  type: numeric
+  prompt: "Ein Auto braucht etwa 12 m² Parkfläche, ein Fahrrad etwa 1 m². Wie viele Fahrräder passen auf die Fläche eines Autos?"
+  answer: { value: 12 }
+  explanation: "12 m² : 1 m² = 12 Fahrräder."
+- key: q4
+  type: true_false
+  prompt: "Pro Person verbraucht eine voll besetzte Straßenbahn weniger Energie als ein Auto mit einer Person."
+  answer: { value: true }
+  explanation: "Der Energieverbrauch verteilt sich auf viele Fahrgäste – pro Person bleibt wenig übrig."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Nachteile hat das Auto?"
+  options: ["hohe Kosten", "großer Flächenbedarf", "an Fahrpläne gebunden", "Abgase und Lärm"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Ans Fahrplan ist der ÖPNV gebunden, nicht das Auto."
+- key: q6
+  type: gap_text
+  prompt: "Beim ___ fährt man mit dem Auto zum Bahnhof und steigt dort in die Bahn um."
+  answer:
+    gaps:
+      - ["Park-and-Ride", "Park and Ride", "Park & Ride", "Park+Ride", "P+R"]
+  explanation: "Park-and-Ride verbindet die Flexibilität des Autos mit den Vorteilen der Bahn in der Stadt."
+- key: q7
+  type: single_choice
+  prompt: "Für welchen Zweck ist das Fahrrad am besten geeignet?"
+  options: ["Wocheneinkauf für eine fünfköpfige Familie", "Täglicher Schulweg von 3 km", "Fahrt von Magdeburg nach München", "Umzug mit Möbeln"]
+  answer: { index: 1 }
+  explanation: "Kurze Alltagsstrecken bis etwa 10 km sind die Stärke des Fahrrads."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet Carsharing?"
+  options: ["Mehrere Autos gleichzeitig besitzen", "Ein Auto nur bei Bedarf mieten und mit anderen teilen", "Mit dem Auto im Stau stehen", "Ein Auto verschenken"]
+  answer: { index: 1 }
+  explanation: "Beim Carsharing nutzen viele Menschen dasselbe Auto abwechselnd – das spart Platz und Kosten."

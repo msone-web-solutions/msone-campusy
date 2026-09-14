@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welcher Stand zahlte in Frankreich vor 1789 alle Steuern?"
+  options: ["Der Klerus", "Der Adel", "Der 3. Stand", "Alle gleichermaßen"]
+  answer: { index: 2 }
+  explanation: "Der 3. Stand – 98 % der Bevölkerung – trug alle Lasten, Klerus und Adel waren befreit."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Ursachen führten zur Revolution?"
+  options: ["Staatsbankrott durch Kriege und Hofhaltung", "Hunger durch Missernten und hohe Brotpreise", "Zu viele Rechte für den 3. Stand", "Ideen der Aufklärung"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Der 3. Stand hatte gerade keine Rechte – das war ein Grund für die Revolution."
+- key: q3
+  type: single_choice
+  prompt: "Was schworen die Abgeordneten des 3. Standes beim Ballhausschwur?"
+  options: ["Den König zu töten", "Nicht auseinanderzugehen, bis Frankreich eine Verfassung hat", "Nie wieder Steuern zu zahlen", "Nach Amerika auszuwandern"]
+  answer: { index: 1 }
+  explanation: "Der Ballhausschwur vom 20. Juni 1789 forderte eine Verfassung."
+- key: q4
+  type: gap_text
+  prompt: "Der Sturm auf die ___ am 14. Juli 1789 ist heute der französische ___."
+  answer:
+    gaps:
+      - ["Bastille"]
+      - ["Nationalfeiertag", "Feiertag"]
+  explanation: "Die Bastille war ein Gefängnis und Symbol der königlichen Willkür."
+- key: q5
+  type: true_false
+  prompt: "Die Erklärung der Menschen- und Bürgerrechte von 1789 gab auch Frauen das Wahlrecht."
+  answer: { value: false }
+  explanation: "Frauen blieben ausgeschlossen; Olympe de Gouges forderte deshalb 1791 die Rechte der Frau."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet Artikel 1 der Erklärung: „Die Menschen werden frei und gleich an Rechten geboren“?"
+  options: ["Nur Adlige haben Rechte", "Rechte hat man, weil man Mensch ist – nicht wegen der Herkunft", "Alle müssen gleich viel verdienen", "Der König verteilt die Rechte"]
+  answer: { index: 1 }
+  explanation: "Rechte sind angeboren und nicht von Stand oder Geburt abhängig – der Kern der Menschenrechte."
+- key: q7
+  type: single_choice
+  prompt: "Was beschloss die Nationalversammlung in der Nacht vom 4. August 1789?"
+  options: ["Die Hinrichtung des Königs", "Die Abschaffung der Feudalrechte und Privilegien", "Den Krieg gegen Österreich", "Den Bau von Versailles"]
+  answer: { index: 1 }
+  explanation: "Damit endete die Ständegesellschaft: keine Frondienste, kein Zehnt, keine Steuerbefreiung mehr."
+- key: q8
+  type: single_choice
+  prompt: "Ein Adliger schreibt 1789 in einem Brief, Paris sei von „Räubern“ beherrscht. Wie ist die Quelle einzuordnen?"
+  options: ["Sie beschreibt objektiv die Wahrheit", "Sie zeigt die Sicht eines Verlierers der Revolution, der seine Privilegien verlor", "Sie ist gefälscht", "Sie stammt von einem Bauern"]
+  answer: { index: 1 }
+  explanation: "Quellen sind perspektivisch: Der Adlige verlor Rechte und Besitz – das prägt sein Urteil."

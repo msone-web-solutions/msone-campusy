@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie viele Buchstaben hat das russische Alphabet?"
+  options: ["26", "30", "33", "36"]
+  answer: { index: 2 }
+  explanation: "Das russische Alphabet hat 33 Buchstaben: 10 Vokale, 21 Konsonanten und die Zeichen ь und ъ."
+- key: q2
+  type: single_choice
+  prompt: "Welchen Laut hat der russische Buchstabe Н?"
+  options: ["[h]", "[n]", "[p]", "[r]"]
+  answer: { index: 1 }
+  explanation: "Н ist ein falscher Freund: Er sieht wie H aus, wird aber wie N gesprochen."
+- key: q3
+  type: true_false
+  prompt: "Der russische Buchstabe Р wird wie das deutsche P gesprochen."
+  answer: { value: false }
+  explanation: "Р ist ein gerolltes R. Das P wird im Russischen mit П geschrieben."
+- key: q4
+  type: gap_text
+  prompt: "Das russische Wort СПОРТ liest man ___."
+  answer:
+    gaps:
+      - ["Sport", "sport"]
+  explanation: "С = s, П = p, О = o, Р = r, Т = t – also Sport."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Buchstaben gehören zu den „falschen Freunden“ (sehen bekannt aus, klingen anders)?"
+  options: ["В", "К", "С", "Х", "М"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "В = w, С = s, Х = ch sind falsche Freunde. К und М sehen gleich aus und klingen gleich."
+- key: q6
+  type: single_choice
+  prompt: "Was bewirkt das Zeichen ь (мягкий знак)?"
+  options: ["Es wird wie ein kurzes i gesprochen", "Es macht den Konsonanten davor weich", "Es zeigt die Betonung an", "Es verdoppelt den Konsonanten"]
+  answer: { index: 1 }
+  explanation: "Das Weichheitszeichen hat keinen eigenen Laut, sondern macht den vorhergehenden Konsonanten weich."
+- key: q7
+  type: gap_text
+  prompt: "Die Brüder ___ und Method entwickelten im 9. Jahrhundert eine Schrift für die slawischen Sprachen."
+  answer:
+    gaps:
+      - ["Kyrill", "Kirill", "Кирилл"]
+  explanation: "Nach Kyrill ist die kyrillische Schrift (Kyrilliza) benannt."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Vokalbuchstabe wird am Wortanfang [ju] gesprochen?"
+  options: ["у", "ю", "я", "ё"]
+  answer: { index: 1 }
+  explanation: "ю = [ju], я = [ja], ё = [jo]; у ist der harte Vokal [u]."

@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welcher Einheit wird die Wärme Q angegeben?"
+  options: ["Grad Celsius (°C)", "Joule (J)", "Kelvin (K)", "Watt (W)"]
+  answer: { index: 1 }
+  explanation: "Wärme ist übertragene Energie und wird in Joule gemessen. °C und K sind Temperatureinheiten."
+- key: q2
+  type: single_choice
+  prompt: "In welche Richtung fließt Wärme von selbst?"
+  options: ["Vom kälteren zum wärmeren Körper", "Vom wärmeren zum kälteren Körper", "Immer nach oben", "In beide Richtungen gleich"]
+  answer: { index: 1 }
+  explanation: "Wärme fließt von selbst immer vom Körper mit höherer zum Körper mit niedrigerer Temperatur (2. Hauptsatz)."
+- key: q3
+  type: gap_text
+  prompt: "Die drei Arten der Wärmeübertragung sind Wärmeleitung, ___ und ___."
+  answer:
+    gaps:
+      - ["Wärmeströmung", "Konvektion", "Wärmestrahlung", "Strahlung"]
+      - ["Wärmestrahlung", "Strahlung", "Wärmeströmung", "Konvektion"]
+  explanation: "Wärmeleitung, Wärmeströmung (Konvektion) und Wärmestrahlung."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Stoff hat die größte spezifische Wärmekapazität?"
+  options: ["Eisen", "Blei", "Wasser", "Kupfer"]
+  answer: { index: 2 }
+  explanation: "Wasser hat mit 4190 J/(kg·K) eine der höchsten spezifischen Wärmekapazitäten – etwa zehnmal so hoch wie Eisen."
+- key: q5
+  type: numeric
+  prompt: "Berechne die Wärme in J, die 3 kg Wasser bei einer Erwärmung um 20 K aufnehmen (c = 4190 J/(kg·K))."
+  answer: { value: 251400, tolerance: 50 }
+  options: { unit: "J" }
+  explanation: "Q = c · m · ΔT = 4190 · 3 · 20 J = 251 400 J ≈ 251 kJ."
+- key: q6
+  type: numeric
+  prompt: "Ein Eisenstück (2 kg, c = 450 J/(kg·K)) wird um 50 K erwärmt. Wie viel Wärme in J nimmt es auf?"
+  answer: { value: 45000, tolerance: 10 }
+  options: { unit: "J" }
+  explanation: "Q = 450 · 2 · 50 J = 45 000 J = 45 kJ."
+- key: q7
+  type: true_false
+  prompt: "Ein Perpetuum mobile, das ewig läuft und dabei Arbeit verrichtet, ohne Energie zu bekommen, ist nach dem 1. Hauptsatz unmöglich."
+  answer: { value: true }
+  explanation: "Energie kann nicht aus dem Nichts entstehen – jede Maschine braucht Energiezufuhr und entwertet außerdem einen Teil davon."
+- key: q8
+  type: single_choice
+  prompt: "Warum haben Küstenorte mildere Winter und kühlere Sommer als Orte weit im Landesinneren?"
+  options: ["Weil dort mehr Wind weht", "Weil das Meer wegen der hohen Wärmekapazität des Wassers Wärme langsam aufnimmt und langsam abgibt", "Weil Salzwasser nicht gefriert", "Weil die Sonne dort schwächer scheint"]
+  answer: { index: 1 }
+  explanation: "Wasser speichert sehr viel Wärme. Das Meer gleicht Temperaturunterschiede aus – Seeklima."

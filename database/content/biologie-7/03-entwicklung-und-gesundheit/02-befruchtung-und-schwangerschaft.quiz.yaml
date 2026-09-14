@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was passiert bei der Befruchtung?"
+  options: ["Die Eizelle teilt sich in zwei Hälften", "Die Kerne von Eizelle und Spermium verschmelzen", "Die Gebärmutterschleimhaut wird abgestoßen", "Das Spermium wird in der Scheide gebildet"]
+  answer: { index: 1 }
+  explanation: "Ein Spermium dringt in die Eizelle ein, die Zellkerne verschmelzen zur Zygote."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Chromosomen bringt jede Geschlechtszelle (Eizelle bzw. Spermium) mit?"
+  answer: { value: 23 }
+  explanation: "23 + 23 = 46 Chromosomen in der befruchteten Eizelle."
+- key: q3
+  type: gap_text
+  prompt: "Nach der Befruchtung nistet sich die Eizelle in der Schleimhaut der ___ ein. Über die ___ ist das Kind mit der Plazenta verbunden."
+  answer:
+    gaps:
+      - ["Gebärmutter", "Gebaermutter", "Gebarmutter"]
+      - ["Nabelschnur"]
+  explanation: "Einnistung in der Gebärmutter; die Nabelschnur verbindet das Kind mit der Plazenta."
+- key: q4
+  type: single_choice
+  prompt: "Welche Aufgabe hat die Plazenta?"
+  options: ["Sie schützt das Kind vor Stößen", "Sie tauscht Sauerstoff, Nährstoffe und Abfallstoffe zwischen Mutter und Kind aus", "Sie bildet die Spermien", "Sie löst die Wehen aus"]
+  answer: { index: 1 }
+  explanation: "In der Plazenta liegen die Blutgefäße von Mutter und Kind eng beieinander – Stoffe werden ausgetauscht, das Blut mischt sich aber nicht."
+- key: q5
+  type: true_false
+  prompt: "Das Geschlecht des Kindes wird durch das Spermium bestimmt."
+  answer: { value: true }
+  explanation: "Das Spermium trägt ein X- oder ein Y-Chromosom, die Eizelle immer ein X. XY = Junge, XX = Mädchen."
+- key: q6
+  type: single_choice
+  prompt: "Warum darf eine Schwangere keinen Alkohol trinken?"
+  options: ["Weil sie davon müde wird", "Weil Alkohol über die Plazenta zum Kind gelangt und sein Gehirn schädigen kann", "Weil Alkohol die Wehen auslöst", "Alkohol ist in der Schwangerschaft unbedenklich"]
+  answer: { index: 1 }
+  explanation: "Alles, was die Mutter aufnimmt, erreicht das Kind. Alkohol kann bleibende Schäden verursachen."
+- key: q7
+  type: single_choice
+  prompt: "Welches Verhütungsmittel schützt auch vor sexuell übertragbaren Krankheiten?"
+  options: ["Die Pille", "Die Spirale", "Das Kondom", "Die Kalendermethode"]
+  answer: { index: 2 }
+  explanation: "Nur das Kondom verhindert den Kontakt mit Körperflüssigkeiten und schützt so vor HIV und anderen Infektionen."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Methoden gelten als unsicher zur Verhütung?"
+  options: ["„Aufpassen“ (Coitus interruptus)", "Kalendermethode", "Pille", "Hormonspirale"]
+  answer: { indexes: [0, 1] }
+  explanation: "Aufpassen und Kalendermethode versagen häufig. Pille und Spirale sind sehr sicher."

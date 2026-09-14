@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was war nach Kant „Aufklärung“?"
+  options: ["Das Ende aller Religion", "Der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit", "Die Erfindung der Elektrizität", "Die Herrschaft der Könige"]
+  answer: { index: 1 }
+  explanation: "So beginnt Kants berühmter Aufsatz von 1784."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Forderungen stellten die Aufklärer?"
+  options: ["Gewaltenteilung", "Toleranz gegenüber anderen Religionen", "Stärkung des Gottesgnadentums", "Bildung für alle"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Das Gottesgnadentum war genau das, was die Aufklärer ablehnten."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet Gewaltenteilung?"
+  options: ["Der König teilt seine Macht mit dem Papst", "Gesetzgebung, Regierung und Rechtsprechung werden getrennt", "Das Heer wird in drei Teile geteilt", "Die Bürger dürfen Gewalt anwenden"]
+  answer: { index: 1 }
+  explanation: "Legislative, Exekutive und Judikative sollen sich gegenseitig kontrollieren."
+- key: q4
+  type: gap_text
+  prompt: "Lessing zeigte in „Nathan der Weise“ mit der ___ die Gleichwertigkeit der drei Religionen."
+  answer:
+    gaps:
+      - ["Ringparabel"]
+  explanation: "Die Ringparabel steht für religiöse Toleranz."
+- key: q5
+  type: true_false
+  prompt: "Die meisten Aufklärer wollten den Glauben an Gott komplett abschaffen."
+  answer: { value: false }
+  explanation: "Sie kritisierten Aberglauben und Kirchenmacht; viele glaubten als Deisten weiter an einen Schöpfergott."
+- key: q6
+  type: single_choice
+  prompt: "Wer war Dorothea Erxleben?"
+  options: ["Die Frau Ludwigs XIV.", "Die erste Frau in Deutschland, die in Medizin promovierte (Halle, 1754)", "Eine französische Salondame", "Die Herausgeberin der Encyclopédie"]
+  answer: { index: 1 }
+  explanation: "Dorothea Erxleben aus Quedlinburg wurde 1754 in Halle zur Doktorin der Medizin promoviert."
+- key: q7
+  type: single_choice
+  prompt: "Wo wurden die Ideen der Aufklärung unter Bürgern diskutiert?"
+  options: ["Nur im Schloss des Königs", "In Kaffeehäusern, Salons und Lesegesellschaften", "Nur in Kirchen", "Im Fernsehen"]
+  answer: { index: 1 }
+  explanation: "Kaffeehäuser, Salons und Lesegesellschaften waren die Treffpunkte der aufgeklärten Bürger."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Gedanke der Aufklärung widersprach dem Absolutismus am stärksten?"
+  options: ["Alle Menschen sind von Natur aus frei und gleich", "Der König hat einen schönen Garten", "Die Sonne ist der Mittelpunkt des Sonnensystems", "Kaffee ist gesund"]
+  answer: { index: 0 }
+  explanation: "Wenn alle gleich sind, gibt es keine Rechtfertigung für die Alleinherrschaft eines Königs."

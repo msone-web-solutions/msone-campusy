@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet Verantwortung?"
+  options: ["Immer Recht haben", "Für die Folgen des eigenen Handelns einstehen", "Alles allein machen", "Anderen die Schuld geben"]
+  answer: { index: 1 }
+  explanation: "Verantwortlich ist, wer für sein Handeln Rede und Antwort steht."
+- key: q2
+  type: single_choice
+  prompt: "Welche Aussage über einen 13-Jährigen ist richtig?"
+  options: ["Er ist strafmündig", "Er ist noch nicht strafmündig, kann aber für Schäden haften und Jugendamt/Eltern werden eingeschaltet", "Er darf alles ohne Folgen tun", "Er ist volljährig"]
+  answer: { index: 1 }
+  explanation: "Strafmündigkeit beginnt mit 14; Schadenersatz und Maßnahmen des Jugendamts sind schon vorher möglich."
+- key: q3
+  type: gap_text
+  prompt: "Ab ___ Jahren ist man strafmündig, ab ___ Jahren volljährig."
+  answer:
+    gaps:
+      - ["14", "vierzehn"]
+      - ["18", "achtzehn"]
+  explanation: "14 = Beginn des Jugendstrafrechts, 18 = Volljährigkeit."
+- key: q4
+  type: single_choice
+  prompt: "Einen Freund anzulügen ist …"
+  options: ["strafbar und unmoralisch", "erlaubt, aber moralisch falsch", "erlaubt und moralisch richtig", "nur für Erwachsene verboten"]
+  answer: { index: 1 }
+  explanation: "Kein Gesetz verbietet Lügen unter Freunden – aber das Gewissen und die Freundschaft leiden."
+- key: q5
+  type: true_false
+  prompt: "Alles, was das Gesetz erlaubt, ist auch moralisch in Ordnung."
+  answer: { value: false }
+  explanation: "Moralische Verantwortung geht über das Gesetz hinaus – Wegsehen bei Mobbing ist erlaubt, aber falsch."
+- key: q6
+  type: single_choice
+  prompt: "Was ist Altruismus?"
+  options: ["Handeln zum eigenen Vorteil", "Uneigennütziges Handeln zum Wohl anderer", "Handeln aus Angst vor Strafe", "Handeln nach Gesetz"]
+  answer: { index: 1 }
+  explanation: "Altruismus (von lat. alter = der andere) ist Handeln für andere ohne Gegenleistung."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Regeln gehören zu einer achtungsvollen Kommunikation?"
+  options: ["Ausreden lassen", "Zuhören", "Lauter werden, bis man gewinnt", "Keine Beleidigungen – auch nicht im Chat"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Wer lauter wird, will siegen statt verstehen."
+- key: q8
+  type: single_choice
+  prompt: "Wie lautet die Goldene Regel?"
+  options: ["Wer Gold hat, macht die Regeln", "Behandle andere so, wie du selbst behandelt werden möchtest", "Auge um Auge, Zahn um Zahn", "Jeder ist sich selbst der Nächste"]
+  answer: { index: 1 }
+  explanation: "Die Goldene Regel findet sich in fast allen Religionen und Kulturen."

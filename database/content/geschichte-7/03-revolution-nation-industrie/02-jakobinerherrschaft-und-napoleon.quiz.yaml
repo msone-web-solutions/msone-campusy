@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist eine konstitutionelle Monarchie?"
+  options: ["Ein König ohne jede Macht", "Ein König, dessen Macht durch eine Verfassung begrenzt ist", "Ein gewählter Präsident", "Eine Herrschaft der Jakobiner"]
+  answer: { index: 1 }
+  explanation: "Die Verfassung von 1791 schuf eine Monarchie mit begrenzter königlicher Macht."
+- key: q2
+  type: single_choice
+  prompt: "Wann wurde Ludwig XVI. hingerichtet?"
+  options: ["14. Juli 1789", "21. Januar 1793", "9. November 1799", "2. Dezember 1804"]
+  answer: { index: 1 }
+  explanation: "Am 21. Januar 1793 starb der König unter der Guillotine."
+- key: q3
+  type: gap_text
+  prompt: "Die radikalen ___ unter Robespierre regierten 1793/94 mit dem ___."
+  answer:
+    gaps:
+      - ["Jakobiner"]
+      - ["Terror", "Schrecken", "Wohlfahrtsausschuss"]
+  explanation: "Die Jakobinerherrschaft war die Zeit des Terrors (la Terreur)."
+- key: q4
+  type: numeric
+  prompt: "Etwa wie viele Menschen wurden während des Terrors offiziell hingerichtet?"
+  answer: { value: 17000, tolerance: 2000 }
+  explanation: "Rund 17.000 offizielle Hinrichtungen; die Gesamtzahl der Opfer war deutlich höher."
+- key: q5
+  type: true_false
+  prompt: "Robespierre wurde am Ende selbst mit der Guillotine hingerichtet."
+  answer: { value: true }
+  explanation: "Im Juli 1794 stürzte der Konvent Robespierre; er starb unter der Guillotine."
+- key: q6
+  type: single_choice
+  prompt: "Womit endete die Französische Revolution 1799?"
+  options: ["Mit der Rückkehr Ludwigs XVI.", "Mit dem Staatsstreich Napoleons", "Mit dem Sturm auf die Bastille", "Mit dem Sieg Österreichs"]
+  answer: { index: 1 }
+  explanation: "Napoleon stürzte das Direktorium und wurde Erster Konsul – das Ende der Revolution."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Errungenschaften der Revolution sicherte Napoleons Code civil?"
+  options: ["Gleichheit vor dem Gesetz", "Pressefreiheit", "Schutz des Eigentums", "Religionsfreiheit"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Gleichheit, Eigentum und Religionsfreiheit blieben – die Presse wurde unter Napoleon zensiert."
+- key: q8
+  type: single_choice
+  prompt: "Welche Aussage über die Abschnitte der Revolution ist richtig?"
+  options: ["Erst Terror, dann Verfassung, dann Republik", "Erst konstitutionelle Monarchie, dann Republik und Terror, dann Direktorium, dann Napoleon", "Erst Napoleon, dann Republik", "Erst Republik, dann Monarchie, dann Terror"]
+  answer: { index: 1 }
+  explanation: "1789–1792 Monarchie mit Verfassung, 1792–1794 Republik und Terror, 1795–1799 Direktorium, ab 1799 Napoleon."

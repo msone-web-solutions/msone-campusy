@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Wo zeigt sich der Einfluss der Religion in unserer Kultur?"
+  options: ["In Feiertagen wie Weihnachten und Ostern", "In Redewendungen wie „Sündenbock“", "In der Zeitrechnung „nach Christus“", "In der Multiplikationstabelle"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Kalender, Sprache und Kunst sind religiös geprägt – das Einmaleins nicht."
+- key: q2
+  type: single_choice
+  prompt: "Was ist ein Mythos?"
+  options: ["Eine Lüge", "Eine Erzählung, die Welt und Mensch deutet, z. B. eine Schöpfungsgeschichte", "Ein wissenschaftlicher Bericht", "Ein Gebet"]
+  answer: { index: 1 }
+  explanation: "Mythen erklären nicht naturwissenschaftlich, sondern deuten, was die Welt bedeutet."
+- key: q3
+  type: single_choice
+  prompt: "„Ich glaube an meine beste Freundin.“ – Welche Bedeutung von „glauben“ ist gemeint?"
+  options: ["Für-wahr-Halten (Vermutung)", "Vertrauen (Gewissheit)", "Wissen", "Zweifeln"]
+  answer: { index: 1 }
+  explanation: "Hier geht es um Vertrauen, nicht um eine überprüfbare Hypothese."
+- key: q4
+  type: true_false
+  prompt: "Naturwissenschaft und religiöser Glaube beantworten dieselbe Frage auf verschiedene Weise."
+  answer: { value: false }
+  explanation: "Sie stellen verschiedene Fragen: Wissenschaft fragt „Wie funktioniert die Welt?“, Religion „Was bedeutet sie?“."
+- key: q5
+  type: gap_text
+  prompt: "Im Hinduismus bestimmt das ___ die nächste Wiedergeburt; im Buddhismus ist das Ziel das ___."
+  answer:
+    gaps:
+      - ["Karma"]
+      - ["Nirwana", "Nirvana"]
+  explanation: "Karma = Folge der Taten; Nirwana = Erlöschen von Gier und Leid, Ende der Wiedergeburten."
+- key: q6
+  type: single_choice
+  prompt: "Welche Religionen sind monotheistisch?"
+  options: ["Hinduismus und Buddhismus", "Judentum, Christentum und Islam", "Nur das Christentum", "Alle Religionen"]
+  answer: { index: 1 }
+  explanation: "Monotheismus = Glaube an einen einzigen Gott."
+- key: q7
+  type: single_choice
+  prompt: "Was ist der Hauptunterschied zwischen der Jenseitsvorstellung des Christentums und der des Buddhismus?"
+  options: ["Es gibt keinen", "Christentum: einmaliges Leben, Auferstehung; Buddhismus: Kreislauf der Wiedergeburten bis zum Nirwana", "Buddhismus: Auferstehung; Christentum: Wiedergeburt", "Beide glauben an Wiedergeburt"]
+  answer: { index: 1 }
+  explanation: "Linie mit Ziel (monotheistisch) gegen Kreislauf, dem man entkommen will (asiatisch)."
+- key: q8
+  type: single_choice
+  prompt: "Wie sieht das Menschenbild im Judentum und Christentum aus?"
+  options: ["Der Mensch ist ein Zufallsprodukt", "Der Mensch ist Ebenbild Gottes und trägt Verantwortung", "Der Mensch ist ein Tier wie alle anderen", "Der Mensch hat keine Seele"]
+  answer: { index: 1 }
+  explanation: "„Nach seinem Bild“ – daraus folgt die Würde und die Verantwortung des Menschen."

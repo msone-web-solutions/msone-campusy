@@ -1,0 +1,51 @@
+- key: q1
+  type: gap_text
+  prompt: "Die vier Phasen des Weitsprungs sind Anlauf, ___, Flug und ___."
+  answer:
+    gaps:
+      - ["Absprung"]
+      - ["Landung"]
+  explanation: "Anlauf – Absprung – Flug – Landung."
+- key: q2
+  type: single_choice
+  prompt: "Warum darf man beim Weitsprung nach der Landung nicht nach hinten in den Sand fallen?"
+  options: ["Weil man sich dabei den Rücken verletzt", "Weil der hinterste Abdruck im Sand gemessen wird", "Weil der Sprung dann nicht zählt", "Weil man dann zu weit springt"]
+  answer: { index: 1 }
+  explanation: "Gemessen wird der Abdruck, der dem Balken am nächsten liegt – ein Handabdruck hinter den Füßen verkürzt die Weite."
+- key: q3
+  type: single_choice
+  prompt: "Wie heißt die heute verbreitetste Hochsprungtechnik, bei der man rücklings über die Latte geht?"
+  options: ["Schersprung", "Flop", "Wälzer", "Hangsprung"]
+  answer: { index: 1 }
+  explanation: "Der Flop (Fosbury-Flop) mit bogenförmigem Anlauf und Rücken zur Latte ist die Standardtechnik."
+- key: q4
+  type: numeric
+  prompt: "Wie viele Versuche hat man beim Hochsprung pro Höhe?"
+  answer: { value: 3, tolerance: 0 }
+  options: { unit: "Versuche" }
+  explanation: "Drei Versuche pro Höhe – wer dreimal reißt, scheidet aus."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Elemente gehören zum Schlagwurf aus dem 3-Schritt-Rhythmus?"
+  options: ["Ball zurückführen", "Impulsschritt (Kreuzschritt)", "Stemmschritt", "Beidbeiniger Absprung"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Ball zurück – Impulsschritt – Stemmschritt, dann Abwurf mit hohem Ellenbogen. Ein Absprung gehört nicht zum Wurf."
+- key: q6
+  type: true_false
+  prompt: "Beim Kugelstoßen darf die Kugel wie ein Ball von hinten über den Kopf geworfen werden."
+  answer: { value: false }
+  explanation: "Die Kugel muss aus der Position am Hals geradlinig weggestoßen werden – Werfen ist verboten und gefährlich."
+- key: q7
+  type: gap_text
+  prompt: "Beim Kugelstoßen gilt die Bewegungsreihenfolge Beine – ___ – Arm. Die Kugel liegt beim Ausholen am ___."
+  answer:
+    gaps:
+      - ["Hüfte", "Huefte", "Rumpf"]
+      - ["Hals", "Kinn", "Hals und Kinn"]
+  explanation: "Erst strecken sich die Beine, dann dreht die Hüfte ein, zuletzt drückt der Arm. Die Kugel liegt an Hals und Kinn."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Sicherheitsregeln gelten beim Kugelstoßen?"
+  options: ["Nur auf Kommando stoßen", "Alle stoßen in dieselbe Richtung", "Kugeln werden zurückgeworfen, um Zeit zu sparen", "Niemand steht im Stoßbereich"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kugeln werden immer getragen, nie geworfen. Kommando, gleiche Richtung und freier Stoßbereich verhindern Unfälle."

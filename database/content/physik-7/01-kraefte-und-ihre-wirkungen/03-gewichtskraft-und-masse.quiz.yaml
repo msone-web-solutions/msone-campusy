@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welche Richtung wirkt die Gewichtskraft immer?"
+  options: ["Senkrecht nach unten (zum Erdmittelpunkt)", "Waagerecht", "Nach oben", "In Bewegungsrichtung"]
+  answer: { index: 0 }
+  explanation: "Die Erde zieht alle Körper zu ihrem Mittelpunkt hin – die Gewichtskraft wirkt senkrecht nach unten."
+- key: q2
+  type: single_choice
+  prompt: "Welches Gerät misst die Gewichtskraft?"
+  options: ["Balkenwaage", "Federkraftmesser", "Messzylinder", "Lineal"]
+  answer: { index: 1 }
+  explanation: "Der Federkraftmesser misst Kräfte in Newton. Die Balkenwaage vergleicht Massen."
+- key: q3
+  type: numeric
+  prompt: "Berechne die Gewichtskraft eines Körpers mit der Masse 2,5 kg auf der Erde (g = 10 N/kg)."
+  answer: { value: 25, tolerance: 0.5 }
+  options: { unit: "N" }
+  explanation: "F = m · g = 2,5 kg · 10 N/kg = 25 N."
+- key: q4
+  type: numeric
+  prompt: "Ein Federkraftmesser zeigt für einen Körper 70 N an. Welche Masse hat der Körper in kg? (g = 10 N/kg)"
+  answer: { value: 7, tolerance: 0.1 }
+  options: { unit: "kg" }
+  explanation: "m = F : g = 70 N : 10 N/kg = 7 kg."
+- key: q5
+  type: true_false
+  prompt: "Auf dem Mond ist die Masse eines Astronauten kleiner als auf der Erde."
+  answer: { value: false }
+  explanation: "Die Masse ist überall gleich. Nur die Gewichtskraft ist auf dem Mond kleiner, weil der Ortsfaktor dort nur etwa 1,6 N/kg beträgt."
+- key: q6
+  type: gap_text
+  prompt: "Die Gewichtskraft berechnet man mit der Formel F = m · g. Dabei ist g der ___, der auf der Erde etwa ___ N/kg beträgt."
+  answer:
+    gaps:
+      - ["Ortsfaktor", "Fallfaktor"]
+      - ["10", "9,81", "9.81"]
+  explanation: "g heißt Ortsfaktor; auf der Erde beträgt er 9,81 N/kg, gerundet 10 N/kg."
+- key: q7
+  type: numeric
+  prompt: "Ein Koffer hat die Masse 12 kg. Welche Gewichtskraft hat er auf dem Mond (g = 1,6 N/kg)? Gib das Ergebnis in N an."
+  answer: { value: 19.2, tolerance: 0.3 }
+  options: { unit: "N" }
+  explanation: "F = m · g = 12 kg · 1,6 N/kg = 19,2 N – auf der Erde wären es 120 N."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Aussagen über Masse und Gewichtskraft sind richtig?"
+  options: ["Die Masse wird in kg gemessen", "Die Gewichtskraft wird in N gemessen", "Die Gewichtskraft ist auf jedem Himmelskörper gleich", "Masse und Gewichtskraft sind proportional zueinander"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Masse in kg, Gewichtskraft in N, beide proportional (F = m · g). Die Gewichtskraft hängt aber vom Himmelskörper ab."

@@ -1,0 +1,74 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist das Besondere an einer Ballade?"
+  options: ["Sie hat keinen Reim.", "Sie erzählt in Gedichtform eine dramatische Geschichte.", "Sie beschreibt nur Gefühle.", "Sie ist immer lustig."]
+  answer: { index: 1 }
+  explanation: "Die Ballade ist ein erzählendes Gedicht mit Spannung, Höhepunkt und oft tragischem Ende."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche drei Gattungen vereint die Ballade?"
+  options: ["Lyrik", "Epik", "Dramatik", "Sachtext"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Lyrik (Gedichtform), Epik (Erzähler, Handlung) und Dramatik (Dialoge, Spannung)."
+- key: q3
+  type: single_choice
+  prompt: "Welches Reimschema hat der Paarreim?"
+  options: ["abab", "aabb", "abba", "abcb"]
+  answer: { index: 1 }
+  explanation: "Beim Paarreim reimen sich zwei aufeinanderfolgende Verse: aabb."
+- key: q4
+  type: gap_text
+  prompt: "Ein Metrum aus unbetonter und betonter Silbe (x x́) heißt ___, aus betonter und unbetonter Silbe (x́ x) heißt ___."
+  answer:
+    gaps:
+      - ["Jambus", "jambus"]
+      - ["Trochäus", "Trochaeus", "trochäus"]
+  explanation: "Jambus: unbetont–betont („Es ist der Vater“); Trochäus: betont–unbetont."
+- key: q5
+  type: single_choice
+  prompt: "„Die Sonne lacht vom Himmel.“ – Welches sprachliche Mittel ist das?"
+  options: ["Vergleich", "Personifikation", "Zeilensprung", "Lautmalerei"]
+  answer: { index: 1 }
+  explanation: "Die Sonne handelt wie ein Mensch (sie lacht) – das ist eine Personifikation."
+- key: q6
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Metapher und Vergleich?"
+  options: ["Die Metapher benutzt „wie“, der Vergleich nicht.", "Der Vergleich benutzt „wie“ oder „als“, die Metapher nicht.", "Es gibt keinen Unterschied.", "Metaphern gibt es nur in Balladen."]
+  answer: { index: 1 }
+  explanation: "„rot wie Blut“ ist ein Vergleich; „ein Meer von Flammen“ ist eine Metapher ohne Vergleichswort."
+- key: q7
+  type: true_false
+  prompt: "Das lyrische Ich in einem Gedicht ist immer der Dichter selbst."
+  answer: { value: false }
+  explanation: "Das lyrische Ich ist die Sprecherstimme im Gedicht – eine gestaltete Figur, nicht automatisch der Autor."
+- key: q8
+  type: single_choice
+  prompt: "Welche Wirkung hat ein Zeilensprung meistens?"
+  options: ["Er verlangsamt das Gedicht und macht es feierlich.", "Er erzeugt Tempo und verbindet die Verse.", "Er macht das Gedicht kürzer.", "Er ersetzt den Reim."]
+  answer: { index: 1 }
+  explanation: "Weil der Satz über das Versende weiterläuft, liest man schneller weiter – das erzeugt Tempo und Atemlosigkeit."
+- key: q9
+  type: single_choice
+  prompt: "„Auf den hohen Felsenklippen / sitzen sieben Robbensippen, / die sich in die Rippen stippen, / bis sie von den Klippen kippen.“ – Welches Reimschema ist das?"
+  options: ["Kreuzreim abab", "Paarreim aabb", "Haufenreim aaaa", "umarmender Reim abba"]
+  answer: { index: 2 }
+  explanation: "Alle vier Verse enden auf denselben Reimklang (-ippen): Haufenreim aaaa."
+- key: q10
+  type: multiple_choice
+  prompt: "Welche Merkmale gehören zur Dramatik?"
+  options: ["Dialoge", "Theaterstück", "Strophen und Verse", "Tragödie oder Komödie", "erzählende Literatur"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Dramatik = Theaterstück mit Dialogen, als Tragödie oder Komödie. Strophen/Verse gehören zur Lyrik, erzählende Literatur zur Epik."
+- key: q11
+  type: multiple_choice
+  prompt: "Was unterscheidet die Volksballade von der Kunstballade?"
+  options: ["Der Verfasser der Volksballade ist unbekannt, die Kunstballade stammt von einem bekannten Dichter.", "Die Volksballade wurde mündlich weitergegeben, die Kunstballade schriftlich veröffentlicht.", "Die Volksballade hat keine Reime.", "Die Kunstballade ist immer lustig."]
+  answer: { indexes: [0, 1] }
+  explanation: "Volksballade: anonym, mündlich überliefert, einfache Sprache. Kunstballade: von einem Dichter (Goethe, Schiller) kunstvoll geschrieben."
+- key: q12
+  type: gap_text
+  prompt: "„Die Sonne scheint so hell und klar, / der Himmel strahlt, wie wunderbar. / Die Blumen blühen bunt im Feld, / und Freude zieht durch unsere Welt.“ – Reimschema: ___"
+  answer:
+    gaps:
+      - ["aabb", "Paarreim", "paarreim", "aabb Paarreim", "Paarreim aabb"]
+  explanation: "klar/wunderbar und Feld/Welt reimen sich jeweils direkt nacheinander: Paarreim aabb."

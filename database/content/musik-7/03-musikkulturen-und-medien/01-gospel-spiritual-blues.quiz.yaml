@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Wozu dienten Sprechtrommeln in Afrika?"
+  options: ["Nur zum Tanzen", "Zur Übermittlung von Nachrichten über weite Entfernungen", "Als Kochgefäß", "Zum Wecken der Kinder"]
+  answer: { index: 1 }
+  explanation: "Durch veränderbare Tonhöhen konnten Sprechtrommeln Botschaften kilometerweit weitergeben – Musik als Kommunikationsmittel."
+- key: q2
+  type: gap_text
+  prompt: "Wenn mehrere Rhythmen gleichzeitig übereinander laufen, nennt man das ___."
+  answer:
+    gaps:
+      - ["Polyrhythmik", "Polyrhythmus", "Polyrythmik"]
+  explanation: "Polyrhythmik ist ein Hauptmerkmal afrikanischer Musik."
+- key: q3
+  type: single_choice
+  prompt: "Was sind Spirituals?"
+  options: ["Tanzlieder aus Europa", "Religiöse Lieder der afroamerikanischen Sklaven, die von Freiheit und Erlösung handeln", "Instrumentalstücke für Trommeln", "Opernarien aus dem Barock"]
+  answer: { index: 1 }
+  explanation: "Spirituals verbanden biblische Geschichten mit der Hoffnung auf eigene Befreiung."
+- key: q4
+  type: true_false
+  prompt: "Der Gospel ist meist lauter, schneller und freudiger als das Spiritual."
+  answer: { value: true }
+  explanation: "Gospel entstand in den Kirchen nach der Sklaverei – mit Chor, Klavier, Klatschen und Improvisation."
+- key: q5
+  type: single_choice
+  prompt: "Welche Sängerin wurde als „Queen of Gospel“ bekannt?"
+  options: ["Bessie Smith", "Mahalia Jackson", "Madonna", "Billie Eilish"]
+  answer: { index: 1 }
+  explanation: "Mahalia Jackson machte den Gospel weltweit bekannt."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Merkmale sind typisch für den Blues?"
+  options: ["Zwölftaktschema mit drei Akkorden", "Textform AAB", "Blue Notes", "Ausschließlich fröhliche Texte über Feste"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "12 Takte, AAB und Blue Notes sind typisch. Bluestexte handeln meist von Leid und Alltag."
+- key: q7
+  type: single_choice
+  prompt: "Wo und wann entstand der Blues?"
+  options: ["In London um 1600", "Im Mississippi-Delta um 1900", "In New York um 1970", "In Halle um 1700"]
+  answer: { index: 1 }
+  explanation: "Der Blues entstand um 1900 in den Südstaaten der USA, vor allem im Mississippi-Delta."
+- key: q8
+  type: single_choice
+  prompt: "Welche Musik entwickelte sich aus dem Blues?"
+  options: ["Barockmusik", "Gregorianischer Choral", "Jazz, Rhythm & Blues und Rock 'n' Roll", "Renaissance-Tänze"]
+  answer: { index: 2 }
+  explanation: "Der Blues ist die Wurzel fast der gesamten Popmusik."

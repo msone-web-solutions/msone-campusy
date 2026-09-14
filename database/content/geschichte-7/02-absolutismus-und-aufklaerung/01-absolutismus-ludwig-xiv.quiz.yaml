@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Woher kommt das Wort „Absolutismus“?"
+  options: ["Von lateinisch absolutus = losgelöst (von den Gesetzen)", "Von französisch absolu = perfekt", "Vom Namen des Königs Absolut I.", "Von griechisch absolo = Sonne"]
+  answer: { index: 0 }
+  explanation: "Der absolutistische Herrscher regierte losgelöst von den Gesetzen."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Säulen stützten die Macht Ludwigs XIV.?"
+  options: ["Stehendes Heer", "Vom König bezahlte Beamte", "Ein gewähltes Parlament", "Hofstaat in Versailles"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Ein gewähltes Parlament gab es im Absolutismus nicht – das war gerade der Punkt."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet Gottesgnadentum?"
+  options: ["Der König wird vom Volk gewählt", "Der König ist von Gott eingesetzt und nur ihm verantwortlich", "Der Papst regiert das Land", "Gott vergibt dem König alle Sünden"]
+  answer: { index: 1 }
+  explanation: "Mit dem Gottesgnadentum rechtfertigten absolutistische Herrscher ihre Alleinherrschaft."
+- key: q4
+  type: true_false
+  prompt: "Der Adel in Frankreich zahlte unter Ludwig XIV. hohe Steuern."
+  answer: { value: false }
+  explanation: "Adel und Klerus waren von Steuern befreit – eine der Grenzen der königlichen Macht."
+- key: q5
+  type: gap_text
+  prompt: "Das Schloss ___ wurde Vorbild für Fürsten in ganz Europa; sein berühmtester Raum ist der ___."
+  answer:
+    gaps:
+      - ["Versailles"]
+      - ["Spiegelsaal"]
+  explanation: "Versailles mit dem Spiegelsaal war das Muster des barocken Herrscherschlosses."
+- key: q6
+  type: single_choice
+  prompt: "Warum laufen die Straßen strahlenförmig auf das Schloss Versailles zu?"
+  options: ["Aus Platzgründen", "Um den König als Sonne und Mittelpunkt des Staates darzustellen", "Weil der Baumeister sich verrechnet hat", "Damit die Bauern schneller zum Markt kamen"]
+  answer: { index: 1 }
+  explanation: "Die Anlage macht den Sonnenkönig-Gedanken sichtbar: Alles läuft auf ihn zu."
+- key: q7
+  type: single_choice
+  prompt: "Was geschah 1685 mit den Hugenotten?"
+  options: ["Sie wurden Berater des Königs", "Ihre Religion wurde verboten, viele flohen ins Ausland", "Sie erhielten Versailles geschenkt", "Sie gründeten eine eigene Stadt in Paris"]
+  answer: { index: 1 }
+  explanation: "Mit dem Edikt von Fontainebleau 1685 verbot Ludwig XIV. den evangelischen Glauben in Frankreich."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Elemente des modernen Staates entstanden im Absolutismus?"
+  options: ["Berufsheer", "Bezahlte Beamte und zentrale Verwaltung", "Freie Wahlen", "Einheitliche Gesetze im ganzen Land"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Heer, Beamtenapparat und einheitliche Gesetze prägen Staaten bis heute; freie Wahlen kamen erst viel später."

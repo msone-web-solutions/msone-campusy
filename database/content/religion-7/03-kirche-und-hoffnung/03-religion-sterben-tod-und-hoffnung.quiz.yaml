@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Warum verliert Orpheus seine Frau Eurydike endgültig?"
+  options: ["Er singt zu leise.", "Er dreht sich auf dem Weg aus der Unterwelt um.", "Hades lässt sie nicht gehen.", "Er kommt zu spät."]
+  answer: { index: 1 }
+  explanation: "Der Mythos zeigt: Der Tod lässt sich nicht rückgängig machen."
+- key: q2
+  type: single_choice
+  prompt: "Was lehrt das Märchen „Gevatter Tod“?"
+  options: ["Der Tod lässt sich mit Geld bestechen.", "Der Tod trifft jeden und lässt sich nicht überlisten.", "Ärzte können den Tod besiegen.", "Der Tod bevorzugt Reiche."]
+  answer: { index: 1 }
+  explanation: "Als der Arzt den Tod überlistet, löscht dieser seine Lebenskerze."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Religionen glauben an Reinkarnation (Wiedergeburt)?"
+  options: ["Hinduismus", "Christentum", "Buddhismus", "Islam"]
+  answer: { indexes: [0, 2] }
+  explanation: "Judentum, Christentum und Islam glauben an ein einmaliges Leben und Auferstehung."
+- key: q4
+  type: gap_text
+  prompt: "Die beiden Jünger in Lk 24 sind auf dem Weg nach ___, als sich der auferstandene Jesus zu ihnen gesellt."
+  answer:
+    gaps:
+      - ["Emmaus"]
+  explanation: "Die Emmaus-Geschichte erzählt, wie aus Trauer Osterhoffnung wird."
+- key: q5
+  type: true_false
+  prompt: "Christliche Auferstehung bedeutet, dass ein Toter in sein altes Leben zurückkehrt."
+  answer: { value: false }
+  explanation: "Auferstehung meint ein neues Leben bei Gott – Paulus vergleicht es mit dem Samenkorn (1 Kor 15)."
+- key: q6
+  type: single_choice
+  prompt: "Welche Sterbephase beschreibt Kübler-Ross mit der Frage „Warum ich?“"
+  options: ["Nicht-wahrhaben-Wollen", "Zorn", "Verhandeln", "Annahme"]
+  answer: { index: 1 }
+  explanation: "Die Phasen: Nicht-wahrhaben-Wollen, Zorn, Verhandeln, Depression, Annahme."
+- key: q7
+  type: single_choice
+  prompt: "Was ist ein Hospiz?"
+  options: ["Ein Krankenhaus für Kinder", "Eine Einrichtung, in der Sterbende würdevoll begleitet werden", "Eine Kirche für Beerdigungen", "Ein Friedhof"]
+  answer: { index: 1 }
+  explanation: "Hospize verbinden Palliativmedizin mit ehrenamtlicher Begleitung."
+- key: q8
+  type: gap_text
+  prompt: "Am Grab spricht der Pfarrer: „Erde zu Erde, Asche zu Asche, ___ zu ___.“"
+  answer:
+    gaps:
+      - ["Staub"]
+      - ["Staub"]
+  explanation: "Die Worte erinnern an Gen 3,19 und gehören zum evangelischen Beerdigungsritual."

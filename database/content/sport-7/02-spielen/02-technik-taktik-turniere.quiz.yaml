@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was versteht man im Sportspiel unter Technik?"
+  options: ["Das kluge Verhalten im Spiel", "Die richtige Ausführung einer Bewegung", "Die Spielregeln", "Die Organisation eines Turniers"]
+  answer: { index: 1 }
+  explanation: "Technik ist das „Wie“ einer Bewegung – Taktik ist das „Wann, Wo und Warum“."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Technikmerkmale gehören zum richtigen Dribbeln?"
+  options: ["Ball mit den Fingerkuppen führen", "Blick nach vorn statt auf den Ball", "Ball mit dem Körper abschirmen", "Ball mit der flachen Hand schlagen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Fingerkuppen, Blick nach vorn und Abschirmen sind die Merkmale. Mit der flachen Hand geschlagen wird der Ball unkontrollierbar."
+- key: q3
+  type: gap_text
+  prompt: "Beim ___ spielt ein Spieler den Ball zum Mitspieler und bekommt ihn sofort zurück. Bei der ___ bewacht jeder Verteidiger einen bestimmten Gegenspieler."
+  answer:
+    gaps:
+      - ["Doppelpass"]
+      - ["Manndeckung", "Mann-Deckung", "Personaldeckung"]
+  explanation: "Doppelpass ist Gruppentaktik, Manndeckung Mannschaftstaktik (Gegenteil: Raumdeckung)."
+- key: q4
+  type: single_choice
+  prompt: "Zu welcher Taktik-Ebene gehört das Freilaufen eines einzelnen Spielers?"
+  options: ["Individualtaktik", "Gruppentaktik", "Mannschaftstaktik", "Turniertaktik"]
+  answer: { index: 0 }
+  explanation: "Freilaufen ist eine Entscheidung eines einzelnen Spielers – Individualtaktik."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Spiele hat ein Turnier „jeder gegen jeden“ mit 4 Mannschaften?"
+  answer: { value: 6, tolerance: 0 }
+  options: { unit: "Spiele" }
+  explanation: "4 · 3 : 2 = 6 Spiele."
+- key: q6
+  type: single_choice
+  prompt: "Welche Turnierform hat den Nachteil, dass ausgeschiedene Mannschaften nicht mehr spielen?"
+  options: ["Jeder gegen jeden", "K.-o.-System", "Kaiserturnier", "Rundenturnier"]
+  answer: { index: 1 }
+  explanation: "Im K.-o.-System scheidet der Verlierer aus – schnell und spannend, aber viele sitzen früh am Rand."
+- key: q7
+  type: true_false
+  prompt: "In einer leistungsheterogenen Mannschaft ist es sinnvoll, den Ball immer nur dem besten Spieler zu geben."
+  answer: { value: false }
+  explanation: "Alle einbeziehen macht das Team stärker und das Spiel fairer – z. B. mit der Regel, dass vor dem Abschluss drei Pässe gespielt werden müssen."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Folgen hat die Kommerzialisierung im Sport?"
+  options: ["Anstoßzeiten richten sich nach dem Fernsehen", "Sponsoren und TV-Rechte finanzieren den Spitzensport", "Fan-Artikel und Tickets werden teurer", "Es gibt keine Werbung mehr im Stadion"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Geld ermöglicht Spitzensport, bestimmt aber auch Termine und Preise. Werbung nimmt zu, nicht ab."

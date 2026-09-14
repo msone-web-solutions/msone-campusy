@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Sprintstrecke laufen Schülerinnen und Schüler in Klasse 7/8 laut Lehrplan aus dem Tiefstart?"
+  options: ["50 m", "75 m", "100 m", "200 m"]
+  answer: { index: 1 }
+  explanation: "In 5/6 sind es 50 m aus dem Hochstart, in 7/8 75 m aus dem Tiefstart, in 9/10 100 m."
+- key: q2
+  type: gap_text
+  prompt: "Die Startkommandos beim Tiefstart lauten „Auf die Plätze!“, „___!“ und dann der Startschuss. Wer sich vor dem Signal bewegt, verursacht einen ___."
+  answer:
+    gaps:
+      - ["Fertig"]
+      - ["Fehlstart", "Frühstart"]
+  explanation: "Auf die Plätze – Fertig – Schuss. Eine Bewegung vor dem Signal ist ein Fehlstart."
+- key: q3
+  type: single_choice
+  prompt: "Wie sollte die Hüfte beim Kommando „Fertig!“ stehen?"
+  options: ["Tiefer als die Schultern", "Etwas höher als die Schultern", "Auf dem Boden", "Genau auf Kniehöhe"]
+  answer: { index: 1 }
+  explanation: "Die Hüfte wird etwas über Schulterhöhe angehoben – so kann man kraftvoll nach vorn abdrücken."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Technikmerkmale gehören zum richtigen Sprint?"
+  options: ["Fußaufsatz auf dem Ballen", "Kräftiger Armeinsatz gegengleich", "Aktiver Kniehub", "Fersenlauf mit hängenden Armen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Ballenlauf, Armeinsatz und Kniehub machen schnell. Fersenlauf bremst."
+- key: q5
+  type: true_false
+  prompt: "Beim Staffellauf schaut der übernehmende Läufer während der Übergabe nach hinten auf den Stab."
+  answer: { value: false }
+  explanation: "Der Übernehmende schaut nach vorn und streckt den Arm nach hinten. Der Ankommende ruft „Hopp!“ und legt den Stab in die Hand."
+- key: q6
+  type: single_choice
+  prompt: "Wer darf einen beim Staffellauf fallen gelassenen Stab aufheben?"
+  options: ["Jeder Läufer der Mannschaft", "Nur der Läufer, der ihn fallen gelassen hat", "Der Schiedsrichter", "Der nächste Läufer"]
+  answer: { index: 1 }
+  explanation: "Nur der Läufer, der den Stab verloren hat, darf ihn aufheben – sonst Disqualifikation."
+- key: q7
+  type: numeric
+  prompt: "Wie viele Schritte macht man beim klassischen Rhythmus zwischen zwei Hürden, damit man immer mit demselben Bein abspringt?"
+  answer: { value: 3, tolerance: 0 }
+  options: { unit: "Schritte" }
+  explanation: "Der Dreier-Rhythmus sorgt dafür, dass immer dasselbe Bein Schwungbein ist."
+- key: q8
+  type: single_choice
+  prompt: "Warum dürfen Hürden nur in Laufrichtung überquert werden?"
+  options: ["Weil sie sonst schneller kaputtgehen", "Weil sie nur in Laufrichtung umkippen können und man sich sonst verletzt", "Weil die Zeit sonst nicht gestoppt werden kann", "Weil es im Lehrplan steht"]
+  answer: { index: 1 }
+  explanation: "Hürden kippen bei Berührung nach vorn um. Läuft man gegen die Richtung, bleibt man hängen und stürzt."

@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Wo entsteht der Ton der menschlichen Stimme?"
+  options: ["In der Lunge", "An den Stimmlippen im Kehlkopf", "In der Nase", "An den Zähnen"]
+  answer: { index: 1 }
+  explanation: "Die ausströmende Luft versetzt die Stimmlippen im Kehlkopf in Schwingung."
+- key: q2
+  type: gap_text
+  prompt: "Den Stimmwechsel in der Pubertät nennt man ___ oder Stimmbruch."
+  answer:
+    gaps:
+      - ["Mutation"]
+  explanation: "Mutation ist der Fachbegriff für den Stimmwechsel."
+- key: q3
+  type: single_choice
+  prompt: "Warum wird die Stimme von Jungen in der Pubertät tiefer?"
+  options: ["Weil sie weniger Luft haben", "Weil die Stimmlippen länger und dicker werden und langsamer schwingen", "Weil sie weniger singen", "Weil die Nase größer wird"]
+  answer: { index: 1 }
+  explanation: "Der Kehlkopf wächst, die Stimmlippen werden etwa einen Zentimeter länger – die Stimme sinkt um eine Oktave."
+- key: q4
+  type: multiple_choice
+  prompt: "Was ist während der Mutation richtig für die Stimme?"
+  options: ["In der bequemen Lage singen", "Möglichst laut schreien, um die Stimme zu trainieren", "Weitersingen und die Stimme nicht schonen bis zum Erwachsenenalter", "Bei Heiserkeit die Stimme ausruhen"]
+  answer: { indexes: [0, 3] }
+  explanation: "Bequeme Lage und Schonung bei Heiserkeit sind richtig. Schreien schadet. Weitersingen ja – aber ohne Überanstrengung."
+- key: q5
+  type: single_choice
+  prompt: "Welche Stimmgattung ist die tiefe Männerstimme?"
+  options: ["Sopran", "Alt", "Tenor", "Bass"]
+  answer: { index: 3 }
+  explanation: "Bass ist die tiefste Stimmgattung; Tenor ist die hohe Männerstimme."
+- key: q6
+  type: single_choice
+  prompt: "Wofür steht die Abkürzung SATB?"
+  options: ["Für vier Musikinstrumente", "Für die vier Stimmgattungen Sopran, Alt, Tenor, Bass", "Für vier Musikepochen", "Für vier Taktarten"]
+  answer: { index: 1 }
+  explanation: "SATB bezeichnet die vier Stimmen eines gemischten Chores."
+- key: q7
+  type: true_false
+  prompt: "Bei Call & Response singt ein Vorsänger eine Zeile und die Gruppe antwortet."
+  answer: { value: true }
+  explanation: "Ruf und Antwort – typisch für Gospel, Blues und Hip-Hop."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet Off-Beat?"
+  options: ["Die Musik hat keinen Rhythmus", "Die Betonung liegt zwischen den Zählzeiten bzw. auf 2 und 4", "Der Beat ist ausgeschaltet", "Alle singen gleichzeitig"]
+  answer: { index: 1 }
+  explanation: "Off-Beat-Betonungen machen Pop und Reggae federnd und tanzbar."

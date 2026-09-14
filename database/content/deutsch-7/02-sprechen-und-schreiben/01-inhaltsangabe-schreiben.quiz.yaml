@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "In welcher Zeitform wird eine Inhaltsangabe geschrieben?"
+  options: ["Präteritum", "Präsens", "Perfekt", "Futur"]
+  answer: { index: 1 }
+  explanation: "Die Inhaltsangabe steht im Präsens; nur Vorzeitiges wird im Perfekt ausgedrückt."
+- key: q2
+  type: multiple_choice
+  prompt: "Was gehört NICHT in eine Inhaltsangabe?"
+  options: ["Wörtliche Rede", "Die eigene Meinung", "Der Basissatz mit Titel und Autor", "Spannende Ausschmückungen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Wörtliche Rede, Meinung und Ausschmückungen gehören nicht hinein. Der Basissatz ist Pflicht."
+- key: q3
+  type: single_choice
+  prompt: "Wie wird die wörtliche Rede „Ich habe nichts gehört“, sagt der Mann, in der Inhaltsangabe wiedergegeben?"
+  options: ["Der Mann sagt: „Ich habe nichts gehört.“", "Der Mann sagt, er habe nichts gehört.", "Der Mann sagte, dass er nichts gehört hat.", "Der Mann hört nichts."]
+  answer: { index: 1 }
+  explanation: "Indirekte Rede mit Konjunktiv I im Präsens: Der Mann sagt, er habe nichts gehört."
+- key: q4
+  type: gap_text
+  prompt: "Der erste Satz der Inhaltsangabe, der Textsorte, Titel, Autor und Thema nennt, heißt ___."
+  answer:
+    gaps:
+      - ["Basissatz", "basissatz", "Einleitungssatz", "Kernsatz"]
+  explanation: "Der Basissatz (Einleitungssatz) liefert alle Grundinformationen zum Text."
+- key: q5
+  type: true_false
+  prompt: "Eine Inhaltsangabe soll ungefähr so lang sein wie der Originaltext."
+  answer: { value: false }
+  explanation: "Sie ist deutlich kürzer – etwa ein Drittel bis ein Viertel des Originals."
+- key: q6
+  type: single_choice
+  prompt: "Worin unterscheidet sich die Inhaltsangabe von der Nacherzählung?"
+  options: ["Die Inhaltsangabe ist sachlich und knapp, die Nacherzählung erzählt spannend und ausführlich.", "Die Inhaltsangabe steht im Präteritum, die Nacherzählung im Präsens.", "Es gibt keinen Unterschied.", "Die Inhaltsangabe enthält mehr wörtliche Rede."]
+  answer: { index: 0 }
+  explanation: "Die Nacherzählung will unterhalten (Präteritum, Spannung); die Inhaltsangabe will informieren (Präsens, sachlich)."
+- key: q7
+  type: single_choice
+  prompt: "Was ist ein sinnvoller erster Arbeitsschritt beim Schreiben einer Inhaltsangabe?"
+  options: ["Sofort losschreiben", "Den Text mehrmals lesen und in Abschnitte gliedern", "Den Text abschreiben", "Die Meinung formulieren"]
+  answer: { index: 1 }
+  explanation: "Lesen, markieren und Abschnitte mit Überschriften bilden – dann erst den Schreibplan machen."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Satz passt in den Hauptteil einer Inhaltsangabe?"
+  options: ["Und dann, ganz leise, schlich sie sich in die dunkle, kalte Küche ...", "Die Frau entdeckt nachts ihren Mann in der Küche und bemerkt Brotkrümel auf dem Tisch.", "Ich finde, der Mann hätte ehrlich sein sollen.", "„Ich habe nichts gehört“, sagte der Mann."]
+  answer: { index: 1 }
+  explanation: "Sachlich, im Präsens, ohne Ausschmückung, wörtliche Rede und Meinung."

@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein „Tag“ beim Graffiti?"
+  options: ["Ein aufwendiges Bild mit Schattierung", "Ein schneller Namenszug des Sprayers", "Eine Schablone", "Ein Aufkleber"]
+  answer: { index: 1 }
+  explanation: "Der Tag ist die einfachste Form: ein schnell gesprühter Namenszug."
+- key: q2
+  type: true_false
+  prompt: "Ein Foto ist erst dann urheberrechtlich geschützt, wenn der Fotograf es mit einem ©-Zeichen versieht."
+  answer: { value: false }
+  explanation: "Das Urheberrecht entsteht automatisch mit dem Werk – ohne Anmeldung und ohne Zeichen."
+- key: q3
+  type: single_choice
+  prompt: "Wann darfst du ein Foto deines Mitschülers in eurer Klassengruppe posten?"
+  options: ["Immer, wenn es lustig ist", "Nur mit seiner Einwilligung", "Wenn mindestens drei andere zustimmen", "Wenn das Foto in der Schule gemacht wurde"]
+  answer: { index: 1 }
+  explanation: "Das Recht am eigenen Bild verlangt die Einwilligung der abgebildeten Person."
+- key: q4
+  type: gap_text
+  prompt: "Bilder, deren Urheber seit mehr als 70 Jahren tot ist, sind ___ und dürfen frei verwendet werden."
+  answer:
+    gaps:
+      - ["gemeinfrei", "Gemeinfrei", "frei"]
+  explanation: "70 Jahre nach dem Tod des Urhebers erlischt das Urheberrecht; das Werk wird gemeinfrei."
+- key: q5
+  type: multiple_choice
+  prompt: "Was gehört zu einer korrekten Quellenangabe bei einem CC-lizenzierten Bild?"
+  options: ["Name des Urhebers", "Lizenz", "Fundort (Link)", "Deine eigene Meinung zum Bild"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Urheber, Titel, Lizenz und Fundort – so ist die Nutzung nachvollziehbar."
+- key: q6
+  type: single_choice
+  prompt: "Welches Werkzeug der Bildbearbeitung brauchst du, um mehrere Bildschichten übereinanderzulegen?"
+  options: ["Zuschneiden", "Ebenen", "Helligkeit", "Filter"]
+  answer: { index: 1 }
+  explanation: "Ebenen sind die Grundlage jeder Fotomontage."
+- key: q7
+  type: multiple_choice
+  prompt: "Woran kann man ein manipuliertes Foto erkennen?"
+  options: ["unlogische Schatten", "verzerrter Hintergrund", "unnatürlich perfekte Haut", "das Bild ist farbig"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Schattenfehler, Verzerrungen und zu glatte Haut sind typische Spuren von Bearbeitung."
+- key: q8
+  type: single_choice
+  prompt: "Warum solltest du Standortdaten (Geotags) in Fotos ausschalten, bevor du sie postest?"
+  options: ["Weil die Fotos sonst unscharf werden", "Weil sonst jeder sehen kann, wo das Foto aufgenommen wurde – z. B. dein Zuhause", "Weil die Datei sonst zu groß ist", "Das ist nicht nötig"]
+  answer: { index: 1 }
+  explanation: "Geotags verraten den genauen Aufnahmeort – ein Risiko für deine Privatsphäre."

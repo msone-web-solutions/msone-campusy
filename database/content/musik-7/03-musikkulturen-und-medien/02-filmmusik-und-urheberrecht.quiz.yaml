@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Funktionen kann Filmmusik übernehmen?"
+  options: ["Stimmung erzeugen", "Figuren charakterisieren", "Die Schauspieler ersetzen", "Kommende Ereignisse vorausdeuten"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Musik erzeugt Stimmung, kennzeichnet Figuren und deutet voraus – Schauspieler ersetzt sie nicht."
+- key: q2
+  type: single_choice
+  prompt: "Was ist Underscoring?"
+  options: ["Musik, die eine Grundstimmung für eine ganze Szene erzeugt", "Musik, die genau der Handlung folgt und jede Bewegung vertont", "Musik, die aus einem Radio im Film kommt", "Musik ohne Instrumente"]
+  answer: { index: 1 }
+  explanation: "Underscoring („Mickey-Mousing“) vertont jede Bewegung – typisch für Zeichentrick."
+- key: q3
+  type: gap_text
+  prompt: "Musik, deren Quelle im Film sichtbar ist (z. B. ein Radio), nennt man ___-Musik; Musik nur für das Publikum heißt ___-Musik."
+  answer:
+    gaps:
+      - ["On"]
+      - ["Off"]
+  explanation: "On-Musik hören auch die Figuren, Off-Musik nur die Zuschauer."
+- key: q4
+  type: single_choice
+  prompt: "Welche Aufgabe haben Geräusche im Hörspiel?"
+  options: ["Sie stören nur", "Sie schaffen den Raum und ersetzen das fehlende Bild", "Sie ersetzen die Sprecher", "Sie sind verboten"]
+  answer: { index: 1 }
+  explanation: "Schritte, Türen oder Regen lassen den Hörer den Ort der Handlung vorstellen."
+- key: q5
+  type: true_false
+  prompt: "Das Bild eines Popstars in Videos und sozialen Medien ist meist sorgfältig inszeniert."
+  answer: { value: true }
+  explanation: "Image, Auftritte und Social-Media-Präsenz werden von Management und Label geplant."
+- key: q6
+  type: single_choice
+  prompt: "Wie lange gilt das Urheberrecht an einem Musikstück?"
+  options: ["10 Jahre nach der Veröffentlichung", "Bis 70 Jahre nach dem Tod des Urhebers", "Für immer", "Nur solange der Song in den Charts ist"]
+  answer: { index: 1 }
+  explanation: "Das Urheberrecht erlischt erst 70 Jahre nach dem Tod des Urhebers."
+- key: q7
+  type: single_choice
+  prompt: "Welche Organisation sammelt in Deutschland Gebühren für die Aufführung von Musik und leitet sie an die Urheber weiter?"
+  options: ["Die GEMA", "Die STIKO", "Die Bundesbank", "Der ADAC"]
+  answer: { index: 0 }
+  explanation: "Die GEMA vertritt Komponisten und Textdichter und verteilt die eingenommenen Gebühren."
+- key: q8
+  type: multiple_choice
+  prompt: "Was darfst du mit Musik tun, ohne das Urheberrecht zu verletzen?"
+  options: ["Sie legal streamen oder kaufen", "Musik mit Creative-Commons-Lizenz unter deren Bedingungen nutzen", "Songs aus illegalen Quellen herunterladen", "Geschützte Songs ohne Erlaubnis in eigenen Videos hochladen"]
+  answer: { indexes: [0, 1] }
+  explanation: "Legal streamen und lizenzfreie Musik nutzen ist erlaubt. Illegaler Download und Upload geschützter Musik sind verboten."

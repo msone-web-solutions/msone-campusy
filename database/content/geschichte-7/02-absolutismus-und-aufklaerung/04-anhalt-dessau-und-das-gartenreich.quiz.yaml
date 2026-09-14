@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Was kennzeichnet den aufgeklärten Absolutismus?"
+  options: ["Das Volk wählt den Fürsten", "Der Fürst regiert allein, aber nach Ideen der Aufklärung", "Der Fürst gibt seine Macht an die Kirche ab", "Es gibt keinen Fürsten mehr"]
+  answer: { index: 1 }
+  explanation: "Reformen von oben – Mitbestimmung gab es weiterhin nicht."
+- key: q2
+  type: single_choice
+  prompt: "Wer regierte Anhalt-Dessau ab 1758 und schuf das Gartenreich?"
+  options: ["Der Alte Dessauer", "Fürst Leopold III. Friedrich Franz", "Friedrich II. von Preußen", "Moses Mendelssohn"]
+  answer: { index: 1 }
+  explanation: "Fürst Franz („Vater Franz“) regierte fast 60 Jahre lang."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Reformen führte Fürst Franz durch?"
+  options: ["Deichbau nach dem Elbhochwasser", "Gründung einer Reformschule", "Bau einer Synagoge in Wörlitz", "Einführung des Wahlrechts für alle"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Deiche, Philanthropinum und Toleranz – ein Wahlrecht gab es nicht."
+- key: q4
+  type: gap_text
+  prompt: "Der Pädagoge ___ gründete 1774 in Dessau das Philanthropinum."
+  answer:
+    gaps:
+      - ["Basedow", "Johann Bernhard Basedow"]
+  explanation: "Johann Bernhard Basedow leitete die erste aufgeklärte Reformschule Deutschlands."
+- key: q5
+  type: true_false
+  prompt: "Der Wörlitzer Park ist wie Versailles streng geometrisch angelegt."
+  answer: { value: false }
+  explanation: "Wörlitz ist ein Landschaftsgarten, der wie natürliche Landschaft wirkt – das Gegenteil von Versailles."
+- key: q6
+  type: single_choice
+  prompt: "Was war am Wörlitzer Park für die damalige Zeit neu?"
+  options: ["Er war nur für den Fürsten zugänglich", "Er war von Anfang an für alle Menschen offen", "Er hatte keine Gebäude", "Er lag in Frankreich"]
+  answer: { index: 1 }
+  explanation: "Ein öffentlicher Park war Ausdruck aufgeklärten Denkens."
+- key: q7
+  type: single_choice
+  prompt: "Wer war Moses Mendelssohn?"
+  options: ["Ein Fürst von Anhalt", "Ein jüdischer Philosoph aus Dessau und Freund Lessings", "Der Architekt des Schlosses Wörlitz", "Ein Dichter aus Halberstadt"]
+  answer: { index: 1 }
+  explanation: "Mendelssohn war Vorbild für Lessings „Nathan der Weise“ und setzte sich für die Rechte der Juden ein."
+- key: q8
+  type: single_choice
+  prompt: "Warum wurde das Gartenreich 2000 zum UNESCO-Welterbe erklärt?"
+  options: ["Weil es der größte Park der Welt ist", "Weil es ein herausragendes Beispiel für die Landschaftsgestaltung der Aufklärung ist", "Weil dort Ludwig XIV. lebte", "Weil es das älteste Schloss Europas hat"]
+  answer: { index: 1 }
+  explanation: "Das Gartenreich zeigt, wie aufgeklärte Ideen in einer ganzen Landschaft umgesetzt wurden."

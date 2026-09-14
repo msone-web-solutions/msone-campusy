@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Aus welchen drei Bausteinen besteht ein vollständiges Argument?"
+  options: ["Einleitung, Hauptteil, Schluss", "Behauptung, Begründung, Beispiel", "Frage, Antwort, Meinung", "These, Zitat, Schluss"]
+  answer: { index: 1 }
+  explanation: "Die drei B: Behauptung – Begründung – Beispiel."
+- key: q2
+  type: single_choice
+  prompt: "„Zum Beispiel hat unsere Klasse letztes Jahr beim Sponsorenlauf 800 Euro gesammelt.“ – Welcher Baustein ist das?"
+  options: ["Behauptung", "Begründung", "Beispiel", "Folgerung"]
+  answer: { index: 2 }
+  explanation: "Ein konkreter Fall, der die Begründung belegt, ist das Beispiel."
+- key: q3
+  type: single_choice
+  prompt: "Wo sollte das stärkste Argument stehen?"
+  options: ["Am Anfang", "In der Mitte", "Am Schluss", "Das ist egal"]
+  answer: { index: 2 }
+  explanation: "Das letzte Argument bleibt am besten im Gedächtnis – deshalb das stärkste zuletzt."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Wörter leiten eine Begründung ein?"
+  options: ["denn", "zum Beispiel", "weil", "erstens", "da"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "denn, weil und da nennen den Grund. „zum Beispiel“ leitet ein Beispiel ein, „erstens“ reiht Argumente."
+- key: q5
+  type: true_false
+  prompt: "In einer Stellungnahme sollte man Gegenargumente lieber verschweigen, damit die eigene Position stärker wirkt."
+  answer: { value: false }
+  explanation: "Wer Gegenargumente nennt und entkräftet, wirkt glaubwürdiger und überzeugender."
+- key: q6
+  type: gap_text
+  prompt: "Der Satz „Deshalb wäre der Unterricht abwechslungsreicher“ ist eine ___."
+  answer:
+    gaps:
+      - ["Folgerung", "folgerung", "Schlussfolgerung", "Schluss"]
+  explanation: "„Deshalb“ leitet die Folgerung ein – den Schluss, der aus dem Argument gezogen wird."
+- key: q7
+  type: single_choice
+  prompt: "Welche Aussage ist im Streitgespräch angemessen?"
+  options: ["„Das ist doch totaler Quatsch, was du sagst!“", "„Du hast gesagt, Handys lenken ab – aber mit klaren Regeln lässt sich das lösen.“", "„Das weiß doch jeder!“", "Den anderen unterbrechen, bevor er fertig ist."]
+  answer: { index: 1 }
+  explanation: "Sachlich auf das Gesagte eingehen und das Argument entkräften – nicht die Person angreifen."
+- key: q8
+  type: single_choice
+  prompt: "Was gehört in die Einleitung einer Stellungnahme?"
+  options: ["Das stärkste Argument", "Anlass, Thema und der eigene Standpunkt", "Ein Appell an die Leser", "Eine Zusammenfassung aller Argumente"]
+  answer: { index: 1 }
+  explanation: "Die Einleitung nennt, worum es geht, und kündigt den eigenen Standpunkt an. Argumente kommen in den Hauptteil, der Appell in den Schluss."

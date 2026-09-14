@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welchem Jahr erreichte Kolumbus Amerika?"
+  options: ["1453", "1492", "1498", "1522"]
+  answer: { index: 1 }
+  explanation: "Am 12. Oktober 1492 landete Kolumbus auf einer Insel der Bahamas."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Motive trieben die Europäer zu den Entdeckungsfahrten?"
+  options: ["Gewinn durch Gold und Gewürze", "Verbreitung des christlichen Glaubens", "Suche nach Erdöl", "Ruhm und Macht für Könige"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Gold, Gewürze, Glaube und Geltung – Erdöl spielte um 1500 keine Rolle."
+- key: q3
+  type: true_false
+  prompt: "Kolumbus wusste genau, dass er einen neuen Kontinent entdeckt hatte."
+  answer: { value: false }
+  explanation: "Kolumbus glaubte bis zu seinem Tod, Indien erreicht zu haben. Der Kontinent wurde nach Amerigo Vespucci benannt."
+- key: q4
+  type: single_choice
+  prompt: "Wer fand 1498 den Seeweg nach Indien um Afrika herum?"
+  options: ["Ferdinand Magellan", "Bartolomeu Dias", "Vasco da Gama", "Marco Polo"]
+  answer: { index: 2 }
+  explanation: "Vasco da Gama erreichte 1498 die indische Küste. Dias hatte 1488 nur das Kap umsegelt."
+- key: q5
+  type: gap_text
+  prompt: "Das wendige Schiff der Entdecker hieß ___; die Richtung zeigte der ___."
+  answer:
+    gaps:
+      - ["Karavelle"]
+      - ["Kompass", "Kompaß"]
+  explanation: "Karavelle und Kompass waren wichtige technische Voraussetzungen."
+- key: q6
+  type: single_choice
+  prompt: "Was bewies die Fahrt Magellans (1519–1522)?"
+  options: ["Dass Indien im Westen liegt", "Dass die Erde eine Kugel ist", "Dass Afrika eine Insel ist", "Dass es keinen Seeweg nach Asien gibt"]
+  answer: { index: 1 }
+  explanation: "Die erste Weltumsegelung bewies praktisch, dass die Erde eine Kugel ist."
+- key: q7
+  type: single_choice
+  prompt: "Was legte der Vertrag von Tordesillas 1494 fest?"
+  options: ["Den Frieden zwischen Osmanen und Europa", "Die Aufteilung der Welt zwischen Spanien und Portugal", "Die Rechte der Bewohner Amerikas", "Den Preis für Pfeffer"]
+  answer: { index: 1 }
+  explanation: "Spanien und Portugal teilten die außereuropäische Welt unter sich auf – ohne die Bewohner zu fragen."
+- key: q8
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen einer historischen Karte und einer Geschichtskarte?"
+  options: ["Es gibt keinen Unterschied", "Die historische Karte zeigt das damalige Weltbild, die Geschichtskarte das heutige Wissen", "Die Geschichtskarte ist immer älter", "Die historische Karte ist immer genauer"]
+  answer: { index: 1 }
+  explanation: "Historische Karten sind Quellen aus der Zeit selbst; Geschichtskarten sind heutige Darstellungen."

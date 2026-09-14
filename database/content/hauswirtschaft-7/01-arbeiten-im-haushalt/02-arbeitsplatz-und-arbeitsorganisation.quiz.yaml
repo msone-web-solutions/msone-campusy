@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche drei Punkte bilden das Arbeitsdreieck in der Küche?"
+  options: ["Tisch, Stuhl, Fenster", "Kühlschrank, Spüle, Herd", "Backofen, Mikrowelle, Toaster", "Tür, Fenster, Lampe"]
+  answer: { index: 1 }
+  explanation: "Zwischen Vorrat (Kühlschrank), Vorbereiten (Spüle) und Garen (Herd) sollten die Wege kurz sein."
+- key: q2
+  type: gap_text
+  prompt: "Alle Zutaten und Geräte vor dem Kochen bereitzustellen nennt man mit einem französischen Begriff ___."
+  answer:
+    gaps:
+      - ["Mise en place", "mise en place", "Mise-en-place"]
+  explanation: "Mise en place heißt „alles an seinem Platz“."
+- key: q3
+  type: single_choice
+  prompt: "Nach welchem Grundsatz legt man die Reihenfolge im Arbeitsplan fest?"
+  options: ["Das Leichteste zuerst", "Was am längsten dauert, zuerst beginnen", "Immer mit dem Nachtisch anfangen", "Die Reihenfolge ist egal"]
+  answer: { index: 1 }
+  explanation: "So können lange Vorgänge (Wasser kochen, Ofen vorheizen) parallel zu anderen Arbeiten laufen."
+- key: q4
+  type: single_choice
+  prompt: "A schält die Kartoffeln, B schneidet sie, C brät sie. Welche Form der Arbeitsteilung ist das?"
+  options: ["Aufgabenteilung", "Arbeitsteilung nach Schritten", "Rotation", "Wochenplan"]
+  answer: { index: 1 }
+  explanation: "Eine Aufgabe wird in Schritte zerlegt, jeder übernimmt einen Schritt."
+- key: q5
+  type: true_false
+  prompt: "Brennendes Fett in der Pfanne löscht man am besten mit Wasser."
+  answer: { value: false }
+  explanation: "Wasser verdampft schlagartig und schleudert brennendes Fett heraus. Deckel drauf – die Flamme erstickt."
+- key: q6
+  type: multiple_choice
+  prompt: "Wann muss man sich in der Küche die Hände waschen?"
+  options: ["vor dem Kochen", "nach dem Anfassen von rohem Fleisch", "nach dem Toilettengang", "nur nach dem Essen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Händewaschen vor dem Kochen, nach rohem Fleisch und nach der Toilette verhindert Keimübertragung."
+- key: q7
+  type: single_choice
+  prompt: "Warum sollte rohes Geflügel auf einem eigenen Schneidebrett verarbeitet werden?"
+  options: ["Weil es sonst nicht schmeckt", "Damit keine Keime (z. B. Salmonellen) auf andere Lebensmittel gelangen", "Weil Holzbretter zu klein sind", "Damit das Brett nicht nass wird"]
+  answer: { index: 1 }
+  explanation: "Rohes Fleisch und Eier können Salmonellen tragen – getrennte Bretter verhindern die Übertragung."
+- key: q8
+  type: single_choice
+  prompt: "Was ist bei einer Verbrennung an der Hand als Erstes zu tun?"
+  options: ["Mit Butter einreiben", "Sofort mit kühlem Wasser kühlen", "Ein Pflaster darüberkleben", "Abwarten"]
+  answer: { index: 1 }
+  explanation: "Kühlen mit kühlem (nicht eiskaltem) Wasser lindert Schmerz und begrenzt den Schaden."

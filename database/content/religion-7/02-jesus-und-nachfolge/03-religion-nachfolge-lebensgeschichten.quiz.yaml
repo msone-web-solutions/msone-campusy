@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „Nachfolge Jesu“?"
+  options: ["Jesus als historische Person erforschen", "So leben, wie Jesus es vorgemacht hat", "Nach Jerusalem pilgern", "Einen Orden gründen"]
+  answer: { index: 1 }
+  explanation: "Nachfolge heißt, Jesu Botschaft konkret im eigenen Leben umzusetzen."
+- key: q2
+  type: gap_text
+  prompt: "Franz von Assisi gründete den Orden der ___."
+  answer:
+    gaps:
+      - ["Franziskaner", "Minderbrüder"]
+  explanation: "Die Franziskaner (Minderbrüder) leben nach dem Vorbild des Franziskus in Armut."
+- key: q3
+  type: single_choice
+  prompt: "Welche Frau lebte auf der Wartburg und pflegte Kranke?"
+  options: ["Hildegard von Bingen", "Klara von Assisi", "Elisabeth von Thüringen", "Mechthild von Magdeburg"]
+  answer: { index: 2 }
+  explanation: "Elisabeth war Landgräfin von Thüringen und gründete Hospitäler in Eisenach und Marburg."
+- key: q4
+  type: true_false
+  prompt: "Mechthild von Magdeburg schrieb ihr Buch „Das fließende Licht der Gottheit“ auf Deutsch statt auf Latein."
+  answer: { value: true }
+  explanation: "Sie war die erste Mystikerin, die in deutscher Sprache schrieb."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Aussagen über Hildegard von Bingen sind richtig?"
+  options: ["Sie war Äbtissin eines Klosters.", "Sie schrieb Bücher über Heilpflanzen.", "Sie lebte als Begine in Magdeburg.", "Sie komponierte Musik."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Begine in Magdeburg war Mechthild, nicht Hildegard."
+- key: q6
+  type: single_choice
+  prompt: "Was waren Beginen?"
+  options: ["Nonnen in einem Kloster mit Gelübde", "Fromme Frauen, die ohne Klostergelübde in Gemeinschaft lebten und Kranke pflegten", "Ritter im Dienst des Papstes", "Mönche des Franziskanerordens"]
+  answer: { index: 1 }
+  explanation: "Beginen lebten in eigenen Häusern, arbeiteten und halfen Kranken – ohne Ordensgelübde."
+- key: q7
+  type: single_choice
+  prompt: "Welcher evangelische Pfarrer leistete Widerstand gegen Hitler und schrieb das Buch „Nachfolge“?"
+  options: ["Martin Luther", "Dietrich Bonhoeffer", "Franz von Assisi", "Albert Schweitzer"]
+  answer: { index: 1 }
+  explanation: "Bonhoeffer wurde 1945 kurz vor Kriegsende hingerichtet."
+- key: q8
+  type: gap_text
+  prompt: "Die organisierte Hilfe der Kirche für Arme, Kranke und Bedürftige nennt man ___."
+  answer:
+    gaps:
+      - ["Diakonie"]
+  explanation: "Diakonie kommt vom griechischen Wort für „Dienst“."

@@ -1,0 +1,47 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Was kann ein Getriebe verändern?"
+  options: ["die Drehzahl", "die Drehrichtung", "die Bewegungsform", "die Farbe des Werkstücks"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Getriebe verändern Drehzahl, Drehrichtung und Bewegungsform – die Farbe natürlich nicht."
+- key: q2
+  type: true_false
+  prompt: "Zwei direkt ineinandergreifende Zahnräder drehen sich in dieselbe Richtung."
+  answer: { value: false }
+  explanation: "Sie drehen sich gegenläufig. Erst ein Zwischenrad sorgt für gleiche Drehrichtung."
+- key: q3
+  type: numeric
+  prompt: "Antriebsrad 15 Zähne, Abtriebsrad 45 Zähne. Wie lautet das Übersetzungsverhältnis i (Zahl bei „i : 1“)?"
+  answer: { value: 3 }
+  explanation: "45 : 15 = 3, also i = 3 : 1."
+- key: q4
+  type: numeric
+  prompt: "Ein Motor dreht mit 3 000 U/min, das Getriebe hat i = 5 : 1. Mit wie vielen U/min dreht der Abtrieb?"
+  answer: { value: 600 }
+  options: { unit: "U/min" }
+  explanation: "3 000 U/min : 5 = 600 U/min."
+- key: q5
+  type: single_choice
+  prompt: "Welches Getriebe verbindet Motor und Trommel einer Waschmaschine?"
+  options: ["Schneckengetriebe", "Riemengetriebe", "Zahnstange und Ritzel", "Kurbeltrieb"]
+  answer: { index: 1 }
+  explanation: "Ein Keilriemen überträgt die Motordrehung leise auf die Trommel."
+- key: q6
+  type: gap_text
+  prompt: "Wenn ein Flachriemen auf der Scheibe durchrutscht, nennt man das ___."
+  answer:
+    gaps:
+      - ["Schlupf"]
+  explanation: "Schlupf tritt bei Riemen auf, nicht bei Ketten oder Zahnrädern."
+- key: q7
+  type: single_choice
+  prompt: "Welches Getriebe wandelt eine Drehbewegung in eine Hin-und-her-Bewegung um, z. B. bei der Stichsäge?"
+  options: ["Kettengetriebe", "Kurbeltrieb", "Kegelradgetriebe", "Riemengetriebe"]
+  answer: { index: 1 }
+  explanation: "Kurbel und Pleuelstange machen aus Drehen ein Hin und Her."
+- key: q8
+  type: single_choice
+  prompt: "Beim Fahrrad schaltest du hinten auf ein größeres Ritzel. Was passiert?"
+  options: ["Du fährst pro Pedalumdrehung weiter und musst stärker treten", "Du fährst pro Pedalumdrehung weniger weit, musst aber weniger stark treten", "Die Kette dreht sich rückwärts", "Nichts ändert sich"]
+  answer: { index: 1 }
+  explanation: "Größeres Ritzel = Übersetzung ins Langsame: weniger Radumdrehungen pro Tritt, dafür mehr Kraft – gut für Berge."

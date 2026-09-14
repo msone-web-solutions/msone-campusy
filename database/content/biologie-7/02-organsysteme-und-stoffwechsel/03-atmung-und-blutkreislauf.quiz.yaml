@@ -1,0 +1,48 @@
+- key: q1
+  type: gap_text
+  prompt: "Zellatmung: Traubenzucker + ___ → Kohlenstoffdioxid + Wasser + ___"
+  answer:
+    gaps:
+      - ["Sauerstoff"]
+      - ["Energie"]
+  explanation: "In den Mitochondrien wird Traubenzucker mit Sauerstoff abgebaut, dabei wird Energie frei."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Muskel sorgt hauptsächlich für das Einatmen?"
+  options: ["Der Herzmuskel", "Das Zwerchfell", "Der Bizeps", "Die Lunge selbst"]
+  answer: { index: 1 }
+  explanation: "Das Zwerchfell zieht sich zusammen und vergrößert den Brustraum. Die Lunge hat keine eigenen Muskeln."
+- key: q3
+  type: numeric
+  prompt: "Wie viel Prozent Sauerstoff enthält die Einatemluft ungefähr?"
+  answer: { value: 21, tolerance: 1 }
+  explanation: "Luft besteht zu etwa 21 % aus Sauerstoff und 78 % aus Stickstoff."
+- key: q4
+  type: single_choice
+  prompt: "Welche Blutbestandteile transportieren den Sauerstoff?"
+  options: ["Weiße Blutzellen", "Blutplättchen", "Rote Blutzellen", "Blutplasma"]
+  answer: { index: 2 }
+  explanation: "Rote Blutzellen enthalten Hämoglobin, das Sauerstoff bindet."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Aussagen über weiße Blutzellen sind richtig?"
+  options: ["Sie bekämpfen Krankheitserreger", "Sie bilden Antikörper", "Sie enthalten Hämoglobin", "Ihre Zahl steigt bei einer Infektion"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Weiße Blutzellen sind die Abwehr. Hämoglobin steckt in den roten Blutzellen."
+- key: q6
+  type: true_false
+  prompt: "Die linke Herzhälfte pumpt sauerstoffreiches Blut in den Körperkreislauf."
+  answer: { value: true }
+  explanation: "Rechte Hälfte → Lunge (Lungenkreislauf), linke Hälfte → Körper (Körperkreislauf)."
+- key: q7
+  type: single_choice
+  prompt: "In welchen Gefäßen findet der Stoffaustausch mit den Körperzellen statt?"
+  options: ["In den Arterien", "In den Venen", "In den Kapillaren", "In den Herzklappen"]
+  answer: { index: 2 }
+  explanation: "Kapillaren sind haarfein und dünnwandig – hier gehen Sauerstoff und Nährstoffe zu den Zellen."
+- key: q8
+  type: single_choice
+  prompt: "Warum steigt der Puls beim Sport?"
+  options: ["Weil das Herz kaputtgeht", "Weil die Muskeln mehr Sauerstoff brauchen und das Blut schneller fließen muss", "Weil man mehr schwitzt", "Weil die Lunge kleiner wird"]
+  answer: { index: 1 }
+  explanation: "Der Körper passt sich an: Mehr Herzschläge und schnellere Atmung liefern den Muskeln mehr Sauerstoff."

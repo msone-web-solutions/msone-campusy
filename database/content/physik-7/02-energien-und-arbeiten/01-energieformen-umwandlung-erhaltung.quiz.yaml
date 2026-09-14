@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Einheit hat die Energie?"
+  options: ["Newton (N)", "Joule (J)", "Pascal (Pa)", "Watt (W)"]
+  answer: { index: 1 }
+  explanation: "Energie wird in Joule gemessen. Newton ist die Einheit der Kraft, Watt die der Leistung."
+- key: q2
+  type: single_choice
+  prompt: "Welche Energieform hat Wasser in einem hoch gelegenen Stausee?"
+  options: ["Bewegungsenergie", "Lageenergie", "Elektrische Energie", "Spannenergie"]
+  answer: { index: 1 }
+  explanation: "Gehobene Körper besitzen Lageenergie (potentielle Energie)."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Energieformen gehören zur mechanischen Energie?"
+  options: ["Lageenergie", "Bewegungsenergie", "Spannenergie", "Chemische Energie"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Lage-, Bewegungs- und Spannenergie sind mechanische Energieformen. Chemische Energie steckt in Brennstoffen und Nahrung."
+- key: q4
+  type: gap_text
+  prompt: "Der Energieerhaltungssatz sagt: Energie kann weder ___ noch ___ werden."
+  answer:
+    gaps:
+      - ["erzeugt", "hergestellt", "geschaffen"]
+      - ["vernichtet", "zerstört", "verbraucht"]
+  explanation: "Energie wird nur umgewandelt oder übertragen – die Gesamtenergie bleibt gleich."
+- key: q5
+  type: single_choice
+  prompt: "Ein Ball springt nach jedem Aufprall weniger hoch. Was passiert mit der fehlenden Energie?"
+  options: ["Sie wird vernichtet", "Sie wird in thermische Energie umgewandelt und entwertet", "Sie wird in Lageenergie gespeichert", "Sie verwandelt sich in Masse"]
+  answer: { index: 1 }
+  explanation: "Durch Verformung und Luftwiderstand entsteht thermische Energie, die sich in der Umgebung verteilt – Energieentwertung."
+- key: q6
+  type: single_choice
+  prompt: "Welche Energieumwandlungskette beschreibt eine Taschenlampe richtig?"
+  options: ["Lichtenergie → chemische Energie → elektrische Energie", "Chemische Energie → elektrische Energie → Lichtenergie", "Elektrische Energie → Lageenergie → Lichtenergie", "Thermische Energie → Lichtenergie → chemische Energie"]
+  answer: { index: 1 }
+  explanation: "Die Batterie speichert chemische Energie, sie liefert elektrische Energie, die Lampe wandelt sie in Licht (und Wärme) um."
+- key: q7
+  type: true_false
+  prompt: "Eine LED-Lampe entwertet weniger Energie als eine Glühlampe, weil sie einen größeren Teil der elektrischen Energie in Licht umwandelt."
+  answer: { value: true }
+  explanation: "Eine Glühlampe wandelt nur etwa 5 % in Licht um, eine LED 30–40 %. Der Rest wird zu Wärme – entwertete Energie."
+- key: q8
+  type: single_choice
+  prompt: "Wie nennt man ein Diagramm, das mit Kästen und Pfeilen zeigt, wie Energie umgewandelt wird?"
+  options: ["Kräfteparallelogramm", "Energieflussdiagramm", "Stromlaufplan", "Säulendiagramm"]
+  answer: { index: 1 }
+  explanation: "Im Energieflussdiagramm stehen Kästen für die Energieformen und Pfeile für die Umwandlungen."

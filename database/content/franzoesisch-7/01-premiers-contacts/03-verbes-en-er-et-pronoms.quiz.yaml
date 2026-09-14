@@ -1,0 +1,53 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Pronomen benutzt man für eine gemischte Gruppe aus Jungen und Mädchen?"
+  options: ["elles", "ils", "on", "vous"]
+  answer: { index: 1 }
+  explanation: "ils steht für männliche und gemischte Gruppen, elles nur für rein weibliche."
+- key: q2
+  type: gap_text
+  prompt: "Je ___ (parler) français. Tu ___ (habiter) à Lyon ?"
+  answer:
+    gaps:
+      - ["parle"]
+      - ["habites"]
+  explanation: "je → -e (parle), tu → -es (habites)."
+- key: q3
+  type: gap_text
+  prompt: "Elle ___ (aimer) le sport. Ils ___ (jouer) au foot."
+  answer:
+    gaps:
+      - ["aime"]
+      - ["jouent"]
+  explanation: "elle → -e (aime), ils → -ent (jouent)."
+- key: q4
+  type: true_false
+  prompt: "Die Formen „je parle“, „tu parles“ und „ils parlent“ klingen beim Sprechen gleich."
+  answer: { value: true }
+  explanation: "Die Endungen -e, -es und -ent sind stumm – nur die Schreibung unterscheidet sie."
+- key: q5
+  type: single_choice
+  prompt: "Wie heißt „ich mag“ auf Französisch?"
+  options: ["je aime", "j'aime", "je aimes", "j'aimes"]
+  answer: { index: 1 }
+  explanation: "Vor Vokal wird je zu j' (Elision): j'aime."
+- key: q6
+  type: single_choice
+  prompt: "Welche Form ist richtig: „Nous ___ une pizza.“ (manger)"
+  options: ["mangons", "mangeons", "mangez", "mangent"]
+  answer: { index: 1 }
+  explanation: "Bei manger bleibt das e vor -ons erhalten, damit das g weich bleibt: nous mangeons."
+- key: q7
+  type: gap_text
+  prompt: "Und du? – Et ___ ? / Das bin ich. – C'est ___ ."
+  answer:
+    gaps:
+      - ["toi"]
+      - ["moi"]
+  explanation: "Nach et und c'est stehen die betonten Pronomen: Et toi ? C'est moi."
+- key: q8
+  type: single_choice
+  prompt: "„On va au cinéma.“ – Was bedeutet „on“ hier in der Umgangssprache?"
+  options: ["er", "ihr", "wir", "sie"]
+  answer: { index: 2 }
+  explanation: "on = man, wird umgangssprachlich sehr häufig für „wir“ benutzt."

@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Woran kann man erkennen, dass eine Kraft auf einen Körper wirkt?"
+  options: ["Der Körper wird verformt", "Der Körper wird schneller oder langsamer", "Der Körper ändert seine Bewegungsrichtung", "Der Körper hat eine Masse"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Kräfte erkennt man an Verformung und Bewegungsänderung (schneller, langsamer, andere Richtung). Eine Masse hat jeder Körper – das zeigt keine Kraftwirkung."
+- key: q2
+  type: single_choice
+  prompt: "Welche Einheit hat die Kraft?"
+  options: ["Kilogramm (kg)", "Newton (N)", "Meter (m)", "Joule (J)"]
+  answer: { index: 1 }
+  explanation: "Die Kraft wird in Newton (N) gemessen, benannt nach Isaac Newton."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Körper wird elastisch verformt?"
+  options: ["Ein Stück Knete, das gedrückt wird", "Alufolie, die zerknüllt wird", "Ein Gummiband, das gedehnt wird", "Ein Blech, das verbeult wird"]
+  answer: { index: 2 }
+  explanation: "Das Gummiband nimmt nach dem Loslassen seine alte Form wieder an – elastisch. Knete, Alufolie und Blech bleiben verformt – plastisch."
+- key: q4
+  type: numeric
+  prompt: "Eine Feder verlängert sich pro 1 N um 4 cm. Wie viel cm Verlängerung zeigt sie bei 3 N?"
+  answer: { value: 12, tolerance: 0.1 }
+  options: { unit: "cm" }
+  explanation: "3 N · 4 cm/N = 12 cm. Die Verlängerung ist proportional zur Kraft."
+- key: q5
+  type: true_false
+  prompt: "Bei einem Federkraftmesser gilt: Doppelte Kraft bewirkt doppelte Verlängerung der Feder."
+  answer: { value: true }
+  explanation: "Das ist das Hooke'sche Gesetz – Verlängerung und Kraft sind proportional, solange die Feder nicht überdehnt wird."
+- key: q6
+  type: gap_text
+  prompt: "Das Formelzeichen der Kraft ist ___, ihre Einheit heißt ___."
+  answer:
+    gaps:
+      - ["F"]
+      - ["Newton", "N"]
+  explanation: "F wie force; die Einheit Newton (N) ist nach Isaac Newton benannt."
+- key: q7
+  type: single_choice
+  prompt: "Mit welcher Kraft drückt ungefähr ein Körper von 1 kg Masse auf deine Hand?"
+  options: ["1 N", "10 N", "100 N", "1000 N"]
+  answer: { index: 1 }
+  explanation: "1 kg entspricht auf der Erde etwa 10 N; 100 g (eine Tafel Schokolade) etwa 1 N."
+- key: q8
+  type: single_choice
+  prompt: "Warum darf man einen Federkraftmesser nicht über seinen Messbereich hinaus belasten?"
+  options: ["Weil die Skala dann zu klein wird", "Weil die Feder plastisch verformt wird und danach falsch anzeigt", "Weil die Feder magnetisch wird", "Weil die Kraft dann negativ wird"]
+  answer: { index: 1 }
+  explanation: "Wird die Feder überdehnt, kehrt sie nicht mehr in ihre Ausgangsform zurück – der Kraftmesser ist dann unbrauchbar."

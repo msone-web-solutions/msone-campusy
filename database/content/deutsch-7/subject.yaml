@@ -1,0 +1,10 @@
+slug: deutsch
+name: Deutsch
+description: Klasse 7 – Sekundarschule Sachsen-Anhalt (Fachlehrplan Deutsch Stand 01.08.2019, Schuljahrgänge 7/8)
+icon: book
+color: rose
+grade: 7
+school_type: sekundarschule
+state: ST
+curriculum_version: lsa-sks-2019
+sort: 6

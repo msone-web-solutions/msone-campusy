@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „kleindeutsche Lösung“?"
+  options: ["Ein kleines Deutschland ohne Preußen", "Ein deutscher Nationalstaat ohne Österreich unter Führung Preußens", "Ein Deutschland nur aus Kleinstaaten", "Die Teilung Deutschlands"]
+  answer: { index: 1 }
+  explanation: "Kleindeutsch = ohne Österreich; großdeutsch = mit Österreich."
+- key: q2
+  type: single_choice
+  prompt: "In welcher Reihenfolge fanden die Einigungskriege statt?"
+  options: ["Frankreich – Österreich – Dänemark", "Dänemark – Österreich – Frankreich", "Österreich – Dänemark – Frankreich", "Dänemark – Frankreich – Österreich"]
+  answer: { index: 1 }
+  explanation: "1864 Dänemark, 1866 Österreich, 1870/71 Frankreich."
+- key: q3
+  type: gap_text
+  prompt: "1866 siegte Preußen bei ___ über Österreich; 1870 wurde Napoleon III. bei ___ gefangen genommen."
+  answer:
+    gaps:
+      - ["Königgrätz", "Koeniggraetz", "Königgraetz"]
+      - ["Sedan"]
+  explanation: "Königgrätz (1866) und Sedan (1870) waren die entscheidenden Schlachten."
+- key: q4
+  type: true_false
+  prompt: "Bei der Kaiserproklamation 1871 in Versailles waren gewählte Vertreter des Volkes anwesend."
+  answer: { value: false }
+  explanation: "Nur Fürsten, Generäle und Offiziere – das Bild zeigt die Einigung von oben."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Merkmale kennzeichnen den Nationalismus im Kaiserreich?"
+  options: ["Frankreich als „Erbfeind“", "Minderheiten als „Reichsfeinde“", "Toleranz gegenüber allen Nachbarn", "Streben nach Kolonien und Weltmacht"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Der übersteigerte Nationalismus wertete andere ab – Toleranz gehörte nicht dazu."
+- key: q6
+  type: single_choice
+  prompt: "Wer durfte im Kaiserreich den Reichstag wählen?"
+  options: ["Alle Männer ab 25 Jahren", "Nur Adlige", "Alle Männer und Frauen ab 21", "Nur Preußen"]
+  answer: { index: 0 }
+  explanation: "Das allgemeine Männerwahlrecht war fortschrittlich; Frauen durften erst ab 1918 wählen."
+- key: q7
+  type: single_choice
+  prompt: "Wie lange ist ein Liedtext urheberrechtlich geschützt?"
+  options: ["10 Jahre nach Veröffentlichung", "Bis 70 Jahre nach dem Tod des Urhebers", "Für immer", "Bis der Urheber stirbt"]
+  answer: { index: 1 }
+  explanation: "Danach ist das Werk gemeinfrei – wie das Lied der Deutschen (Hoffmann von Fallersleben starb 1874)."
+- key: q8
+  type: single_choice
+  prompt: "Du willst eine Orchesteraufnahme der Nationalhymne von 2019 in dein Video schneiden. Was gilt?"
+  options: ["Alles frei, weil das Lied gemeinfrei ist", "Die Aufnahme ist durch Leistungsschutzrechte geschützt – du brauchst eine Erlaubnis oder freie Lizenz", "Man darf Musik nie in Videos verwenden", "Nur die Melodie ist geschützt"]
+  answer: { index: 1 }
+  explanation: "Text und Melodie sind frei, aber Musiker und Label haben Rechte an ihrer Aufnahme."

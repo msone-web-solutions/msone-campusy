@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Aufgaben erfüllen Unternehmen?"
+  options: ["Güter herstellen und Dienstleistungen anbieten", "Arbeitsplätze schaffen", "Steuern zahlen", "Gesetze beschließen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Gesetze beschließt das Parlament, nicht ein Unternehmen."
+- key: q2
+  type: single_choice
+  prompt: "Ein landwirtschaftlicher Betrieb, der Weizen anbaut, gehört zum …"
+  options: ["primären Sektor", "sekundären Sektor", "tertiären Sektor", "digitalen Sektor"]
+  answer: { index: 0 }
+  explanation: "Der primäre Sektor gewinnt Rohstoffe aus der Natur – Landwirtschaft, Forst, Fischerei, Bergbau."
+- key: q3
+  type: single_choice
+  prompt: "In welchem Sektor arbeiten heute die meisten Beschäftigten in Deutschland?"
+  options: ["Primärer Sektor", "Sekundärer Sektor", "Tertiärer Sektor", "Alle gleich"]
+  answer: { index: 2 }
+  explanation: "Etwa drei Viertel arbeiten im Dienstleistungssektor."
+- key: q4
+  type: gap_text
+  prompt: "Die betrieblichen Grundfunktionen Beschaffung, ___ und Absatz beschreiben den Weg vom Einkauf über die Herstellung bis zum Verkauf."
+  answer:
+    gaps:
+      - ["Produktion", "Leistungserstellung", "Fertigung", "Herstellung"]
+  explanation: "Beschaffung (Einkauf) → Produktion (Herstellung) → Absatz (Verkauf)."
+- key: q5
+  type: single_choice
+  prompt: "Ein Buchhalter, der Rechnungen bearbeitet und Löhne auszahlt, arbeitet in welcher Grundfunktion?"
+  options: ["Produktion", "Beschaffung", "Verwaltung", "Absatz"]
+  answer: { index: 2 }
+  explanation: "Buchhaltung, Rechnungen und Lohnabrechnung gehören zur Verwaltung."
+- key: q6
+  type: single_choice
+  prompt: "Kaffee kommt aus Brasilien, Chips aus Taiwan, Maschinen aus Deutschland. Welche Form der Arbeitsteilung zeigt das?"
+  options: ["Berufliche Arbeitsteilung", "Betriebliche Arbeitsteilung", "Internationale Arbeitsteilung", "Familiäre Arbeitsteilung"]
+  answer: { index: 2 }
+  explanation: "Länder spezialisieren sich auf bestimmte Güter – internationale Arbeitsteilung."
+- key: q7
+  type: true_false
+  prompt: "Ein Nachteil der Arbeitsteilung ist, dass Betriebe voneinander abhängig werden."
+  answer: { value: true }
+  explanation: "Fehlt ein Zulieferteil, steht die ganze Produktion still."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Merkmale beschreiben einen Arbeitsplatz?"
+  options: ["Tätigkeiten", "Arbeitsort und Arbeitszeit", "Anforderungen und Belastungen", "Lieblingsfarbe des Chefs"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Tätigkeiten, Ort, Zeit, Arbeitsmittel, Anforderungen, Zusammenarbeit und Verdienst sind Arbeitsplatzmerkmale."

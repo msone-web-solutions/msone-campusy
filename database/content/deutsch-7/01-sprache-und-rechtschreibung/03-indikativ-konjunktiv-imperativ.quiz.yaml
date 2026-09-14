@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie heißt die Wirklichkeitsform des Verbs?"
+  options: ["Konjunktiv", "Imperativ", "Indikativ", "Infinitiv"]
+  answer: { index: 2 }
+  explanation: "Der Indikativ stellt etwas als Tatsache dar."
+- key: q2
+  type: single_choice
+  prompt: "In welchem Satz steht der Konjunktiv I?"
+  options: ["Sie sagt, sie sei müde.", "Wenn ich müde wäre, würde ich schlafen.", "Sie ist müde.", "Sei nicht so müde!"]
+  answer: { index: 0 }
+  explanation: "„sie sei“ ist Konjunktiv I in der indirekten Rede. „wäre“ ist Konjunktiv II, „ist“ Indikativ, „Sei!“ Imperativ."
+- key: q3
+  type: single_choice
+  prompt: "Wofür benutzt man den Konjunktiv I vor allem?"
+  options: ["Für Befehle", "Für die indirekte Rede", "Für Wünsche", "Für die Vergangenheit"]
+  answer: { index: 1 }
+  explanation: "Mit dem Konjunktiv I gibt man wieder, was jemand gesagt hat, ohne es selbst zu behaupten."
+- key: q4
+  type: gap_text
+  prompt: "Konjunktiv II: Wenn ich mehr Geld ___, ___ ich mir ein neues Handy kaufen."
+  answer:
+    gaps:
+      - ["hätte", "haette"]
+      - ["würde", "wuerde", "könnte", "koennte"]
+  explanation: "„hätte“ ist der Konjunktiv II von „haben“; im Hauptsatz passt die würde-Form (oder „könnte“)."
+- key: q5
+  type: true_false
+  prompt: "Der Konjunktiv II wird vom Präteritum abgeleitet."
+  answer: { value: true }
+  explanation: "hatte → hätte, kam → käme, war → wäre: Grundlage ist das Präteritum, oft mit Umlaut."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Formen sind Imperative?"
+  options: ["Nimm das Buch!", "Er nimmt das Buch.", "Seid still!", "Sie seien still."]
+  answer: { indexes: [0, 2] }
+  explanation: "„Nimm!“ (du) und „Seid!“ (ihr) sind Befehlsformen. „nimmt“ ist Indikativ, „seien“ Konjunktiv I."
+- key: q7
+  type: single_choice
+  prompt: "Welche Umformung ist richtig? Direkte Rede: Max sagt: „Ich kann nicht kommen.“"
+  options: ["Max sagt, er kann nicht kommen.", "Max sagt, er könne nicht kommen.", "Max sagt, er könnte nicht kommen.", "Max sagt, komm nicht."]
+  answer: { index: 1 }
+  explanation: "In der indirekten Rede steht der Konjunktiv I: „er könne“."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Satz drückt eine höfliche Bitte mit dem Konjunktiv II aus?"
+  options: ["Gib mir das Salz!", "Gibst du mir das Salz?", "Könntest du mir das Salz geben?", "Er sagt, er gebe mir das Salz."]
+  answer: { index: 2 }
+  explanation: "„Könntest“ ist Konjunktiv II und macht die Bitte höflich."

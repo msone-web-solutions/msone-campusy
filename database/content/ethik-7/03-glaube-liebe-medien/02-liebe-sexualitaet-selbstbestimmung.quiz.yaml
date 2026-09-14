@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was meint der griechische Begriff „Eros“?"
+  options: ["Freundschaftsliebe", "Leidenschaftliche, romantische Liebe zu einem bestimmten Menschen", "Selbstlose Liebe für Fremde", "Liebe zu Tieren"]
+  answer: { index: 1 }
+  explanation: "Eros ist die romantische Liebe, die Nähe und Gegenliebe will."
+- key: q2
+  type: gap_text
+  prompt: "Die selbstlose, schenkende Liebe heißt ___; die Freundschaftsliebe heißt ___."
+  answer:
+    gaps:
+      - ["Agape"]
+      - ["Philia"]
+  explanation: "Agape verlangt nichts zurück; Philia ist die Verbundenheit unter Freunden."
+- key: q3
+  type: true_false
+  prompt: "Selbstliebe ist dasselbe wie Egoismus."
+  answer: { value: false }
+  explanation: "Selbstliebe heißt, sich anzunehmen und für sich zu sorgen – die Grundlage, um andere lieben zu können."
+- key: q4
+  type: single_choice
+  prompt: "Was bedeutet sexuelle Selbstbestimmung?"
+  options: ["Jeder muss mit 14 Erfahrungen machen", "Jeder Mensch entscheidet selbst, ob, wann, mit wem und wie er Nähe will", "Die Eltern entscheiden", "Der Partner entscheidet"]
+  answer: { index: 1 }
+  explanation: "Niemand darf gedrängt oder gezwungen werden – auch „noch nicht“ ist eine gültige Entscheidung."
+- key: q5
+  type: single_choice
+  prompt: "Was besagt „Nein heißt Nein“ im Strafgesetzbuch (seit 2016)?"
+  options: ["Man muss sich körperlich wehren, damit es strafbar ist", "Jede sexuelle Handlung gegen den erkennbaren Willen ist strafbar – ein Nein reicht", "Nur Fremde können Täter sein", "Nein gilt nur in der Ehe nicht"]
+  answer: { index: 1 }
+  explanation: "Ein ausgesprochenes oder deutlich gezeigtes Nein genügt; Schweigen ist kein Ja."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Aussagen über intime Bilder sind richtig?"
+  options: ["Nacktbilder von unter 18-Jährigen weiterzuleiten ist strafbar", "Wer ein Bild verschickt, verliert die Kontrolle darüber", "Ein Foto zu verlangen ist ein normaler Liebesbeweis", "Bilder ohne Erlaubnis zu verbreiten verletzt das Recht am eigenen Bild"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "„Wenn du mich liebst, schick mir ein Foto“ ist Druck, kein Liebesbeweis."
+- key: q7
+  type: single_choice
+  prompt: "Was ist Cybergrooming?"
+  options: ["Ein Computerspiel", "Erwachsene geben sich online als Gleichaltrige aus, bauen Vertrauen auf und drängen zu Bildern oder Treffen", "Das Pflegen von Online-Profilen", "Eine Chat-Funktion"]
+  answer: { index: 1 }
+  explanation: "Cybergrooming ist strafbar – schon der Versuch. Bei komischem Gefühl: Chat beenden und Hilfe holen."
+- key: q8
+  type: single_choice
+  prompt: "Wer trägt bei sexualisierter Gewalt die Schuld?"
+  options: ["Immer der Täter", "Das Opfer, wenn es mitgegangen ist", "Beide gleichermaßen", "Niemand"]
+  answer: { index: 0 }
+  explanation: "Die Verantwortung liegt immer beim Täter – unabhängig von Kleidung oder Verhalten des Opfers."

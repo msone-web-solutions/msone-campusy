@@ -1,0 +1,51 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie bildet man aus „Tu aimes la musique.“ eine Frage mit est-ce que?"
+  options: ["Est-ce que tu aimes la musique ?", "Tu est-ce que aimes la musique ?", "Aimes est-ce que tu la musique ?", "Est-ce que aimes-tu la musique ?"]
+  answer: { index: 0 }
+  explanation: "Est-ce que steht vor dem unveränderten Aussagesatz."
+- key: q2
+  type: single_choice
+  prompt: "Welches Fragewort bedeutet „warum“?"
+  options: ["où", "quand", "pourquoi", "comment"]
+  answer: { index: 2 }
+  explanation: "pourquoi = warum; où = wo, quand = wann, comment = wie."
+- key: q3
+  type: gap_text
+  prompt: "Wo wohnst du? – Tu habites ___ ? / Wie heißt du? – ___ tu t'appelles ?"
+  answer:
+    gaps:
+      - ["où", "ou"]
+      - ["Comment", "comment"]
+  explanation: "où = wo, comment = wie."
+- key: q4
+  type: single_choice
+  prompt: "„Tu n'aimes pas le chocolat ? – ___, j'aime le chocolat !“ Welches Wort fehlt?"
+  options: ["Oui", "Si", "Non", "Pas"]
+  answer: { index: 1 }
+  explanation: "Auf eine verneinte Frage antwortet man bejahend mit „si“ (doch)."
+- key: q5
+  type: gap_text
+  prompt: "Verneine: „Je parle italien.“ → Je ___ parle ___ italien."
+  answer:
+    gaps:
+      - ["ne"]
+      - ["pas"]
+  explanation: "ne + Verb + pas: Je ne parle pas italien."
+- key: q6
+  type: single_choice
+  prompt: "Welche Verneinung ist richtig?"
+  options: ["Je n'ai pas un chien.", "Je n'ai pas de chien.", "Je ne pas ai de chien.", "Je n'ai de chien pas."]
+  answer: { index: 1 }
+  explanation: "Nach der Verneinung wird un/une/des zu de: Je n'ai pas de chien."
+- key: q7
+  type: true_false
+  prompt: "Nach „ne … pas“ bleibt der bestimmte Artikel le/la/les unverändert."
+  answer: { value: true }
+  explanation: "Je n'aime pas le sport. – Nur der unbestimmte Artikel wird zu de."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet „Il ne mange jamais de viande“?"
+  options: ["Er isst kein Fleisch mehr.", "Er isst nie Fleisch.", "Er isst nichts.", "Er isst nur Fleisch."]
+  answer: { index: 1 }
+  explanation: "ne … jamais = nie; ne … plus = nicht mehr; ne … rien = nichts."

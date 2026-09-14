@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „До свидания!“?"
+  options: ["Guten Morgen!", "Auf Wiedersehen!", "Wie geht's?", "Danke!"]
+  answer: { index: 1 }
+  explanation: "До свидания! ist die höfliche Verabschiedung; Пока! ist das lockere Tschüss."
+- key: q2
+  type: gap_text
+  prompt: "„Ich heiße Anna“ heißt auf Russisch: ___ зовут Анна."
+  answer:
+    gaps:
+      - ["Меня", "menja", "menya", "Menja"]
+  explanation: "Меня зовут … bedeutet wörtlich „Mich nennt man …“."
+- key: q3
+  type: true_false
+  prompt: "Der Satz „Я из Германии“ enthält im Russischen kein Wort für „bin“ oder „komme“."
+  answer: { value: true }
+  explanation: "Im Präsens fällt die Form von „sein“ weg: Я из Германии = Ich (bin) aus Deutschland."
+- key: q4
+  type: single_choice
+  prompt: "Wie sprichst du deine Lehrerin Елена Петровна Смирнова höflich an?"
+  options: ["Смирнова", "Елена", "Елена Петровна", "Госпожа Елена"]
+  answer: { index: 2 }
+  explanation: "Erwachsene werden höflich mit Vorname + Vatersname angesprochen."
+- key: q5
+  type: single_choice
+  prompt: "Der Vater von Dmitri heißt Iwan. Wie lautet Dmitris Vatersname?"
+  options: ["Иванова", "Ивановна", "Иванович", "Иванов"]
+  answer: { index: 2 }
+  explanation: "Söhne bekommen -ович: Иван → Иванович. Ивановна wäre die Tochter, Иванов ein Familienname."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Ausdrücke passen zur Antwort auf „Как дела?“"
+  options: ["Хорошо, спасибо.", "Нормально.", "Меня зовут Лена.", "До свидания!"]
+  answer: { indexes: [0, 1] }
+  explanation: "Auf „Wie geht's?“ antwortet man mit Хорошо, спасибо (Gut, danke) oder Нормально (Ganz okay)."
+- key: q7
+  type: gap_text
+  prompt: "Auf „Спасибо!“ antwortet man mit ___ (bitte sehr / gern geschehen)."
+  answer:
+    gaps:
+      - ["Пожалуйста", "пожалуйста", "Poschalujsta", "poschalujsta", "pozhaluysta", "pozhalujsta"]
+  explanation: "Пожалуйста bedeutet sowohl „bitte“ als auch „bitte sehr“."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Gruß passt am Abend?"
+  options: ["Доброе утро!", "Добрый вечер!", "Спокойной ночи!", "Как дела?"]
+  answer: { index: 1 }
+  explanation: "Добрый вечер! = Guten Abend! Спокойной ночи! sagt man erst zum Schlafengehen."

@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche drei Stoffgruppen sind die Nährstoffe?"
+  options: ["Kohlenhydrate", "Vitamine", "Fette", "Eiweiße"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Kohlenhydrate, Fette und Eiweiße liefern Energie bzw. Baustoffe. Vitamine sind Ergänzungsstoffe."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Nährstoff ist vor allem Baustoff für Muskeln und Blut?"
+  options: ["Kohlenhydrate", "Fette", "Eiweiße", "Ballaststoffe"]
+  answer: { index: 2 }
+  explanation: "Eiweiße (Proteine) liefern die Aminosäuren, aus denen der Körper Muskeln, Haut und Blut aufbaut."
+- key: q3
+  type: gap_text
+  prompt: "Jodlösung färbt ___ blauschwarz. Fett erkennt man an einem durchscheinenden ___ auf Papier."
+  answer:
+    gaps:
+      - ["Stärke", "Staerke"]
+      - ["Fleck", "Fettfleck"]
+  explanation: "Stärkenachweis mit Jodlösung, Fettnachweis mit der Fettfleckprobe."
+- key: q4
+  type: single_choice
+  prompt: "Warum schmeckt lange gekautes Brot süß?"
+  options: ["Weil Speichel Zucker enthält", "Weil ein Enzym im Speichel Stärke zu Zucker spaltet", "Weil Brot immer süß ist", "Weil die Zähne Zucker abgeben"]
+  answer: { index: 1 }
+  explanation: "Schon im Mund beginnt die Verdauung: Ein Enzym des Speichels zerlegt Stärke in Zucker."
+- key: q5
+  type: true_false
+  prompt: "Die Salzsäure im Magen tötet Bakterien ab."
+  answer: { value: true }
+  explanation: "Der Magensaft ist stark sauer. Das tötet viele Krankheitserreger und hilft beim Eiweißabbau."
+- key: q6
+  type: numeric
+  prompt: "Wie lang ist der Dünndarm eines Erwachsenen ungefähr (in Metern)? Gib eine Zahl zwischen 5 und 6 an."
+  answer: { values: [5, 5.5, 6], tolerance: 0.5 }
+  explanation: "Der Dünndarm ist etwa 5 bis 6 Meter lang – so haben die Nährstoffe genug Zeit und Fläche, um ins Blut zu gelangen."
+- key: q7
+  type: single_choice
+  prompt: "Welche Aufgabe haben die Darmzotten?"
+  options: ["Sie zerkleinern die Nahrung", "Sie vergrößern die Oberfläche für die Aufnahme der Nährstoffe ins Blut", "Sie bilden Magensäure", "Sie speichern Kot"]
+  answer: { index: 1 }
+  explanation: "Millionen Zotten vergrößern die Innenfläche des Dünndarms auf rund 200 Quadratmeter."
+- key: q8
+  type: single_choice
+  prompt: "Was passiert im Dickdarm?"
+  options: ["Eiweiße werden gespalten", "Dem Nahrungsrest wird Wasser entzogen", "Fette werden ins Blut aufgenommen", "Stärke wird in Zucker zerlegt"]
+  answer: { index: 1 }
+  explanation: "Im Dickdarm wird Wasser zurückgewonnen, der Rest wird als Kot ausgeschieden."

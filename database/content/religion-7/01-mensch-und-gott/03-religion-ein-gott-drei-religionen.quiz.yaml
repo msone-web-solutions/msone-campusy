@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „Monotheismus“?"
+  options: ["Glaube an viele Götter", "Glaube an einen einzigen Gott", "Glaube an keinen Gott", "Glaube an die Natur"]
+  answer: { index: 1 }
+  explanation: "monos = einer, theos = Gott."
+- key: q2
+  type: single_choice
+  prompt: "Warum nennt man Judentum, Christentum und Islam „abrahamitische Religionen“?"
+  options: ["Weil Abraham den Koran schrieb", "Weil alle drei sich auf Abraham als Stammvater des Glaubens berufen", "Weil Abraham in Jerusalem geboren wurde", "Weil Abraham der erste Prophet des Islam war"]
+  answer: { index: 1 }
+  explanation: "Abraham gilt in allen drei Religionen als Vater des Glaubens."
+- key: q3
+  type: gap_text
+  prompt: "Am brennenden Dornbusch nennt Gott Mose seinen Namen: „Ich bin, der ich ___.“"
+  answer:
+    gaps:
+      - ["bin"]
+  explanation: "2. Mose 3,14 – der Gottesname JHWH wird von Juden nicht ausgesprochen."
+- key: q4
+  type: true_false
+  prompt: "Christen glauben an drei Götter: Vater, Sohn und Heiliger Geist."
+  answer: { value: false }
+  explanation: "Die Trinität meint EINEN Gott in drei Personen, nicht drei Götter."
+- key: q5
+  type: single_choice
+  prompt: "Bei welchem Ereignis sind nach Mk 1,9–11 Vater, Sohn und Heiliger Geist zugleich gegenwärtig?"
+  options: ["Bei der Geburt Jesu", "Bei der Taufe Jesu im Jordan", "Beim letzten Abendmahl", "Bei der Kreuzigung"]
+  answer: { index: 1 }
+  explanation: "Jesus im Wasser, der Geist als Taube, die Stimme des Vaters vom Himmel."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Aussagen über den Islam sind richtig?"
+  options: ["Das Glaubensbekenntnis heißt Schahada.", "Jesus gilt als Sohn Gottes.", "Der Koran nennt 99 Namen Gottes.", "In Moscheen gibt es keine Bilder von Gott."]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Im Islam ist Jesus ein Prophet, nicht Gottes Sohn."
+- key: q7
+  type: single_choice
+  prompt: "In welchen Religionen gilt ein Bilderverbot für Gott?"
+  options: ["nur im Judentum", "nur im Islam", "im Judentum und im Islam", "in allen drei Religionen gleich streng"]
+  answer: { index: 2 }
+  explanation: "Christen dürfen Gott darstellen, weil er in Jesus ein Gesicht bekommen hat."
+- key: q8
+  type: gap_text
+  prompt: "Die heilige Schrift des Islam heißt ___, die fünf Bücher Mose im Judentum heißen ___."
+  answer:
+    gaps:
+      - ["Koran", "Qur'an", "Quran"]
+      - ["Tora", "Thora", "Torah"]
+  explanation: "Koran (Islam), Tora (Judentum), Bibel (Christentum)."

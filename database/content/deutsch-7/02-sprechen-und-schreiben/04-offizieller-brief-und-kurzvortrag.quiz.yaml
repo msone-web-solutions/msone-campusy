@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Anrede passt, wenn du den Namen des Empfängers nicht kennst?"
+  options: ["Hallo zusammen,", "Sehr geehrte Damen und Herren,", "Liebe Leute,", "Hi,"]
+  answer: { index: 1 }
+  explanation: "„Sehr geehrte Damen und Herren,“ ist die förmliche Anrede ohne Namen."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Bestandteile gehören zu einem offiziellen Brief?"
+  options: ["Betreff", "Smiley am Ende", "Grußformel „Mit freundlichen Grüßen“", "Absender und Empfänger", "Abkürzung „LG“"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Betreff, Grußformel, Absender und Empfänger sind Pflicht. Smileys und „LG“ gehören nicht in einen offiziellen Brief."
+- key: q3
+  type: true_false
+  prompt: "Die Höflichkeitsanrede „Sie“ und „Ihnen“ wird im Brief großgeschrieben."
+  answer: { value: true }
+  explanation: "Die Höflichkeitsform Sie, Ihnen, Ihr wird immer großgeschrieben."
+- key: q4
+  type: single_choice
+  prompt: "Was gehört unbedingt in eine höfliche Absage?"
+  options: ["Eine ausführliche Kritik am Angebot", "Eine kurze Begründung und ein Ausdruck des Bedauerns", "Gar keine Begründung", "Ein Witz zur Auflockerung"]
+  answer: { index: 1 }
+  explanation: "Eine Absage wird klar ausgesprochen, kurz begründet und höflich mit Bedauern formuliert."
+- key: q5
+  type: single_choice
+  prompt: "Welche Formulierung ist für eine Anfrage an ein Museum angemessen?"
+  options: ["Sagt mal, was kostet das bei euch?", "Könnten Sie uns bitte mitteilen, was eine Führung kostet?", "Ich will wissen, was das kostet.", "Kostet das was?"]
+  answer: { index: 1 }
+  explanation: "Höflich, mit Konjunktiv II und der Höflichkeitsform Sie."
+- key: q6
+  type: gap_text
+  prompt: "Die Zeile unter dem Datum, die in wenigen Worten sagt, worum es im Brief geht, heißt ___."
+  answer:
+    gaps:
+      - ["Betreff", "betreff", "Betreffzeile"]
+  explanation: "Der Betreff nennt kurz den Anlass des Briefes, z. B. „Anfrage: Führung für die Klasse 7b“."
+- key: q7
+  type: single_choice
+  prompt: "Was steht auf guten Stichwortkarten für einen Kurzvortrag?"
+  options: ["Der komplette Vortrag in ganzen Sätzen", "Nur Stichwörter, groß und nummeriert", "Nichts – man spricht ganz ohne Hilfe", "Alle Quellen mit Internetadresse"]
+  answer: { index: 1 }
+  explanation: "Stichwörter stützen das freie Sprechen; ganze Sätze verleiten zum Ablesen."
+- key: q8
+  type: multiple_choice
+  prompt: "Was gehört zu einem guten Vortragsverhalten?"
+  options: ["Blickkontakt zur Klasse halten", "So schnell wie möglich sprechen", "Laut und deutlich sprechen", "Am Ende die Quellen nennen"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Blickkontakt, deutliches Sprechen und Quellenangabe sind wichtig. Zu schnelles Sprechen macht den Vortrag unverständlich."

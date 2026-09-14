@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Algorithmus im Zusammenhang mit sozialen Netzwerken?"
+  options: ["Ein Mitarbeiter, der Freunde aussucht", "Ein Rechenverfahren, das Daten auswertet und Vorschläge macht", "Ein Virus", "Eine Chatregel"]
+  answer: { index: 1 }
+  explanation: "Algorithmen werten Kontakte, Likes und Standort aus und berechnen daraus Vorschläge."
+- key: q2
+  type: true_false
+  prompt: "Ein intimes Foto, das man verschickt hat, kann man jederzeit sicher wieder löschen lassen."
+  answer: { value: false }
+  explanation: "Einmal verschickte Bilder können kopiert und weitergeleitet werden – das Internet vergisst nicht."
+- key: q3
+  type: gap_text
+  prompt: "Das Beleidigen, Bloßstellen oder Ausschließen von Menschen über das Internet nennt man ___."
+  answer:
+    gaps:
+      - ["Cybermobbing", "Cyber-Mobbing", "Mobbing"]
+  explanation: "Cybermobbing passiert rund um die Uhr und erreicht viele Zuschauer."
+- key: q4
+  type: single_choice
+  prompt: "Welche biblische Aussage setzt der Religionsunterricht den medialen Schönheitsidealen entgegen?"
+  options: ["Der Mensch ist Ebenbild Gottes.", "Der Mensch soll sich vergleichen.", "Nur Schöne sind Gott wohlgefällig.", "Der Mensch soll allein bleiben."]
+  answer: { index: 0 }
+  explanation: "Gen 1,27 – jeder Mensch hat als Ebenbild Gottes eine unantastbare Würde."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Verhaltensweisen sind Warnsignale für Kontrolle statt Liebe?"
+  options: ["Der Partner verlangt das Handy-Passwort.", "Der Partner will ständig den Standort sehen.", "Der Partner fragt, wie der Tag war.", "Der Partner droht, wenn man sich mit Freunden trifft."]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kontrolle, Überwachung und Drohungen verletzen die Freiheit des anderen. Interesse am Tag ist normal."
+- key: q6
+  type: single_choice
+  prompt: "Welches Gebot verbietet, Gerüchte und Lügen über andere zu verbreiten?"
+  options: ["das erste Gebot", "das vierte Gebot", "das achte Gebot", "das zehnte Gebot"]
+  answer: { index: 2 }
+  explanation: "Das achte Gebot lautet: Du sollst nicht falsch Zeugnis reden wider deinen Nächsten."
+- key: q7
+  type: gap_text
+  prompt: "Die Telefonnummer der „Nummer gegen Kummer“ für Kinder und Jugendliche lautet 116 ___."
+  answer:
+    gaps:
+      - ["111"]
+  explanation: "116 111 – kostenlos und anonym."
+- key: q8
+  type: single_choice
+  prompt: "Welche Haltung entspricht dem Verhalten Jesu bei der Ehebrecherin, wenn jemand ein Foto verschickt hat und nun bloßgestellt wird?"
+  options: ["Selbst schuld – das hat man davon.", "Das Bild weiterleiten, damit alle Bescheid wissen.", "Nicht verurteilen, sondern helfen und einen Neuanfang ermöglichen.", "Die Person aus der Klasse ausschließen."]
+  answer: { index: 2 }
+  explanation: "Jesus verurteilt nicht, sondern schenkt einen Neuanfang – das gilt auch heute."

@@ -1,0 +1,48 @@
+- key: q1
+  type: true_false
+  prompt: "Jesus war Jude und lebte nach den jüdischen Geboten."
+  answer: { value: true }
+  explanation: "Jesus wurde als Jude geboren, betete und feierte als Jude. Das Christentum entstand erst nach seinem Tod."
+- key: q2
+  type: single_choice
+  prompt: "Was bedeutet der Titel „Christus“?"
+  options: ["Der Lehrer", "Der Gesalbte (Messias)", "Der Sohn", "Der König von Rom"]
+  answer: { index: 1 }
+  explanation: "Christus ist die griechische Übersetzung des hebräischen Messias = der Gesalbte."
+- key: q3
+  type: single_choice
+  prompt: "Wo stand zu Jesu Zeit der einzige jüdische Tempel?"
+  options: ["In Nazaret", "In Bethlehem", "In Jerusalem", "In Rom"]
+  answer: { index: 2 }
+  explanation: "Der Tempel in Jerusalem war das zentrale Heiligtum; er wurde 70 n. Chr. zerstört."
+- key: q4
+  type: gap_text
+  prompt: "Der jüdische Ruhetag heißt ___ und dauert von Freitagabend bis Samstagabend."
+  answer:
+    gaps:
+      - ["Sabbat", "Schabbat", "Shabbat"]
+  explanation: "Der Sabbat erinnert an den siebten Tag der Schöpfung."
+- key: q5
+  type: single_choice
+  prompt: "Wie alt war Jesus, als er im Tempel mit den Lehrern diskutierte?"
+  options: ["8 Tage", "7 Jahre", "12 Jahre", "30 Jahre"]
+  answer: { index: 2 }
+  explanation: "Lk 2,41–52 – mit zwölf gilt ein jüdischer Junge als religiös mündig."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Ereignisse zeigen Jesus als Juden?"
+  options: ["Die Beschneidung am achten Tag", "Das Pessachmahl mit den Jüngern", "Die Taufe durch Johannes im Jordan", "Die Kreuzigung durch die Römer"]
+  answer: { indexes: [0, 1] }
+  explanation: "Beschneidung und Pessach sind jüdische Rituale, die der Lehrplan als Stationen nennt. Taufe und Kreuzigung sind keine spezifisch jüdischen Bräuche."
+- key: q7
+  type: single_choice
+  prompt: "Woran erinnert das Pessachfest?"
+  options: ["An die Schöpfung der Welt", "An den Auszug aus Ägypten", "An die Zerstörung des Tempels", "An die Geburt Abrahams"]
+  answer: { index: 1 }
+  explanation: "Pessach feiert die Befreiung Israels aus der Sklaverei in Ägypten."
+- key: q8
+  type: single_choice
+  prompt: "Worin unterscheiden sich orthodoxe und liberale Juden?"
+  options: ["Orthodoxe glauben an einen anderen Gott.", "Liberale Juden legen die Gebote zeitgemäß aus, Orthodoxe halten sie streng ein.", "Liberale Juden haben keine Synagogen.", "Orthodoxe Juden lesen die Tora nicht."]
+  answer: { index: 1 }
+  explanation: "Beide Richtungen gehören zum Judentum, unterscheiden sich aber in der Strenge der Auslegung."

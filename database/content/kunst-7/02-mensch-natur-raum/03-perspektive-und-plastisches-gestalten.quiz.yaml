@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche einfachen Mittel erzeugen Raumwirkung auf der Fläche?"
+  options: ["Überschneidung", "Größenunterschied", "Tiefenstaffelung", "Großschreibung"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Überschneidung, Größe, Höhe im Bild und Farbperspektive schaffen Tiefe."
+- key: q2
+  type: single_choice
+  prompt: "Auf welcher Höhe liegt die Horizontlinie in der Zentralperspektive?"
+  options: ["Am oberen Bildrand", "Auf Augenhöhe des Betrachters", "Am unteren Bildrand", "Immer in der Bildmitte"]
+  answer: { index: 1 }
+  explanation: "Die Horizontlinie entspricht der Augenhöhe – liegt sie hoch, blickt man von oben, liegt sie tief, von unten."
+- key: q3
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Parallel- und Zentralperspektive?"
+  options: ["Bei der Parallelperspektive bleiben die Tiefenlinien parallel, bei der Zentralperspektive treffen sie sich im Fluchtpunkt.", "Die Parallelperspektive hat zwei Fluchtpunkte.", "Es gibt keinen Unterschied.", "Die Zentralperspektive hat keinen Horizont."]
+  answer: { index: 0 }
+  explanation: "Die Zentralperspektive ahmt das natürliche Sehen nach: Tiefenlinien laufen im Fluchtpunkt zusammen."
+- key: q4
+  type: gap_text
+  prompt: "Der Punkt auf der Horizontlinie, in dem sich alle Tiefenlinien treffen, heißt ___."
+  answer:
+    gaps:
+      - ["Fluchtpunkt", "fluchtpunkt"]
+  explanation: "Vom Fluchtpunkt aus werden die Fluchtlinien konstruiert."
+- key: q5
+  type: single_choice
+  prompt: "Wie heißt der Schatten, den ein Gegenstand auf den Boden wirft?"
+  options: ["Eigenschatten", "Halbschatten", "Schlagschatten", "Reflexlicht"]
+  answer: { index: 2 }
+  explanation: "Der Schlagschatten liegt auf der Unterlage; der Eigenschatten liegt am Gegenstand selbst."
+- key: q6
+  type: single_choice
+  prompt: "Michelangelo schlug seinen „David“ aus einem Marmorblock. Welches Verfahren und welche Bezeichnung passen?"
+  options: ["antragend – Plastik", "abtragend – Skulptur", "antragend – Relief", "abtragend – Plastik"]
+  answer: { index: 1 }
+  explanation: "Wegnehmen von Material (hauen) ist abtragend – das Ergebnis heißt Skulptur."
+- key: q7
+  type: true_false
+  prompt: "Eine Figur, die aus Ton aufgebaut wird, nennt man in der Fachsprache Plastik."
+  answer: { value: true }
+  explanation: "Antragende Verfahren (formen, aufbauen, gießen) ergeben eine Plastik."
+- key: q8
+  type: single_choice
+  prompt: "Womit sollte man bei der Farbmodellierung die Schattenseite eines Apfels abdunkeln?"
+  options: ["Mit viel Schwarz", "Mit Blau oder der Komplementärfarbe", "Mit Weiß", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Schwarz macht die Farbe schmutzig; Blau oder die Komplementärfarbe erzeugt lebendige, tiefe Schatten."

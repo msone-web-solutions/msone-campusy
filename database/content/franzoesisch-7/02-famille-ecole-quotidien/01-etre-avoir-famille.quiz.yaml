@@ -1,0 +1,54 @@
+- key: q1
+  type: gap_text
+  prompt: "Je ___ (être) allemand. Tu ___ (avoir) un frère ?"
+  answer:
+    gaps:
+      - ["suis"]
+      - ["as"]
+  explanation: "je suis (être), tu as (avoir)."
+- key: q2
+  type: single_choice
+  prompt: "Welche Form ist richtig: „Ils ___ trois enfants.“ (avoir)"
+  options: ["sont", "ont", "avons", "est"]
+  answer: { index: 1 }
+  explanation: "ils ont = sie haben. ils sont = sie sind."
+- key: q3
+  type: gap_text
+  prompt: "Vous ___ (être) en classe ? – Oui, nous ___ (avoir) un test."
+  answer:
+    gaps:
+      - ["êtes", "etes"]
+      - ["avons"]
+  explanation: "vous êtes (être), nous avons (avoir)."
+- key: q4
+  type: single_choice
+  prompt: "Wie sagt man „Ich habe Hunger“?"
+  options: ["Je suis faim.", "J'ai faim.", "Je faim.", "J'ai soif."]
+  answer: { index: 1 }
+  explanation: "Hunger und Durst werden mit avoir ausgedrückt: J'ai faim (Hunger), J'ai soif (Durst)."
+- key: q5
+  type: single_choice
+  prompt: "Was bedeutet „la sœur“?"
+  options: ["die Tante", "die Schwester", "die Cousine", "die Großmutter"]
+  answer: { index: 1 }
+  explanation: "la sœur = die Schwester; le frère = der Bruder."
+- key: q6
+  type: gap_text
+  prompt: "Meine Eltern: ___ parents. Mein Bruder: ___ frère. Meine Schwester: ___ sœur."
+  answer:
+    gaps:
+      - ["mes"]
+      - ["mon"]
+      - ["ma"]
+  explanation: "mes (Plural), mon (m. Sg.), ma (f. Sg.)."
+- key: q7
+  type: single_choice
+  prompt: "„Marie aime ___ frère.“ (Marie liebt ihren Bruder.) Welcher Possessivbegleiter ist richtig?"
+  options: ["sa", "son", "ses", "leur"]
+  answer: { index: 1 }
+  explanation: "frère ist männlich Singular → son frère, obwohl die Besitzerin weiblich ist."
+- key: q8
+  type: true_false
+  prompt: "Vor einem weiblichen Nomen, das mit Vokal beginnt, sagt man „mon amie“ statt „ma amie“."
+  answer: { value: true }
+  explanation: "Aus Aussprachegründen: mon amie, ton école, son histoire."

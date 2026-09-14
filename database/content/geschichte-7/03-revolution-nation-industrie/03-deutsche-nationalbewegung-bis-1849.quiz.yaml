@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Wodurch entstand die deutsche Nationalbewegung zu Beginn des 19. Jahrhunderts?"
+  options: ["Durch den Widerstand gegen die Herrschaft Napoleons", "Durch die Erfindung des Buchdrucks", "Durch den Bau von Versailles", "Durch die Reformation"]
+  answer: { index: 0 }
+  explanation: "Im Kampf gegen Napoleon entdeckten viele Deutsche ihre gemeinsame Sprache und Kultur."
+- key: q2
+  type: gap_text
+  prompt: "1813 wurde Napoleon in der ___ bei Leipzig entscheidend geschlagen."
+  answer:
+    gaps:
+      - ["Völkerschlacht"]
+  explanation: "Die Völkerschlacht bei Leipzig (Oktober 1813) war die entscheidende Niederlage Napoleons in Deutschland."
+- key: q3
+  type: single_choice
+  prompt: "Was beschloss der Wiener Kongress 1815 für Deutschland?"
+  options: ["Einen deutschen Nationalstaat mit Verfassung", "Den Deutschen Bund aus 39 Einzelstaaten", "Die Republik Deutschland", "Den Anschluss an Frankreich"]
+  answer: { index: 1 }
+  explanation: "Statt Einheit gab es einen lockeren Bund unter Führung Österreichs und Preußens."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Ereignisse waren Höhepunkte der Nationalbewegung vor 1848?"
+  options: ["Wartburgfest 1817", "Hambacher Fest 1832", "Sturm auf die Bastille 1789", "Gründung des Zollvereins 1834"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die Bastille gehört zur Französischen Revolution."
+- key: q5
+  type: true_false
+  prompt: "Die Karlsbader Beschlüsse 1819 gewährten den Studenten mehr Freiheiten."
+  answer: { value: false }
+  explanation: "Im Gegenteil: Zensur, Verbot der Burschenschaften und Überwachung der Universitäten."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutete „Deutschland, Deutschland über alles“ im Jahr 1841?"
+  options: ["Deutschland soll die Welt beherrschen", "Die Einheit Deutschlands ist wichtiger als die Einzelstaaten", "Deutschland ist das beste Land", "Der Kaiser steht über allen"]
+  answer: { index: 1 }
+  explanation: "Hoffmann von Fallersleben forderte die Einheit gegen die Kleinstaaterei; erst später wurde die Zeile missbraucht."
+- key: q7
+  type: single_choice
+  prompt: "Warum scheiterte die Revolution 1848/49?"
+  options: ["Weil die Paulskirche abbrannte", "Weil der preußische König die Kaiserkrone ablehnte und die Fürsten die Aufstände niederschlugen", "Weil Napoleon zurückkam", "Weil niemand wählen wollte"]
+  answer: { index: 1 }
+  explanation: "Friedrich Wilhelm IV. wollte keine Krone vom Volk; die Fürsten hatten ihre Armeen behalten."
+- key: q8
+  type: single_choice
+  prompt: "Welche Bedingung förderte die wirtschaftliche Einheit Deutschlands ab 1834?"
+  options: ["Der Deutsche Zollverein", "Der Wiener Kongress", "Die Karlsbader Beschlüsse", "Der Rheinbund"]
+  answer: { index: 0 }
+  explanation: "Der Zollverein schaffte die Binnenzölle ab und schuf einen gemeinsamen Markt."

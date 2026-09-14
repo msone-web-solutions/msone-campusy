@@ -1,0 +1,47 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „Naturstudium“?"
+  options: ["Zeichnen aus der Erinnerung", "Zeichnen nach der Wirklichkeit, z. B. nach einem Modell oder Gegenstand", "Zeichnen nach Fotos aus dem Internet", "Abpausen"]
+  answer: { index: 1 }
+  explanation: "Beim Naturstudium beobachtet man ein reales Objekt genau und zeichnet, was man sieht."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Kopfhöhen ist ein Erwachsener nach der Faustregel ungefähr groß? (Gib die kleinere der beiden üblichen Zahlen an.)"
+  answer: { value: 7.5, tolerance: 0.6 }
+  explanation: "Etwa 7,5 bis 8 Kopfhöhen – 7,5 oder 8 gelten als richtig."
+- key: q3
+  type: single_choice
+  prompt: "Wo liegen die Augen im Kopf?"
+  options: ["Im oberen Drittel", "Etwa auf halber Kopfhöhe", "Im unteren Drittel", "Direkt unter dem Haaransatz"]
+  answer: { index: 1 }
+  explanation: "Ein häufiger Fehler ist, die Augen zu hoch zu setzen – sie liegen etwa in der Mitte des Kopfes."
+- key: q4
+  type: true_false
+  prompt: "Bei Kindern ist der Kopf im Verhältnis zum Körper größer als bei Erwachsenen."
+  answer: { value: true }
+  explanation: "Ein Kleinkind misst nur etwa 4 Köpfe, ein Erwachsener 7,5 bis 8."
+- key: q5
+  type: gap_text
+  prompt: "Leonardo da Vincis Zeichnung des „___ Menschen“ zeigt die idealen Proportionen in Kreis und Quadrat."
+  answer:
+    gaps:
+      - ["Vitruvianischen", "vitruvianischen", "Vitruvianische"]
+  explanation: "Der Vitruvianische Mensch (um 1490) zeigt: Armspannweite = Körperhöhe."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Grundformen helfen beim Aufbau einer Figur?"
+  options: ["Ei für den Kopf", "Zylinder für Arme und Beine", "Kugeln für die Gelenke", "Dreiecke für die Augen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Kopf als Ei, Gliedmaßen als Zylinder, Gelenke als Kugeln – so entsteht das Volumen."
+- key: q7
+  type: single_choice
+  prompt: "Wie verhalten sich Schulter- und Hüftlinie bei einem gehenden Menschen?"
+  options: ["Sie sind immer parallel.", "Sie sind gegenläufig gekippt.", "Sie sind senkrecht.", "Sie berühren sich."]
+  answer: { index: 1 }
+  explanation: "Beim Gehen kippen Schulter- und Hüftlinie in entgegengesetzte Richtungen – das macht die Figur lebendig."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Bleistift eignet sich am besten für schnelle, lockere Skizzen?"
+  options: ["Ein harter Bleistift (H)", "Ein weicher Bleistift (2B–6B)", "Ein Kugelschreiber", "Ein Textmarker"]
+  answer: { index: 1 }
+  explanation: "Weiche Bleistifte geben kräftige, dunkle Linien ohne Druck – ideal für Skizzen."

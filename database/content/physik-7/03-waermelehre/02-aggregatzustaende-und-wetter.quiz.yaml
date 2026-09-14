@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie sind die Teilchen in einem festen Körper angeordnet?"
+  options: ["Regelmäßig auf festen Plätzen, sie schwingen nur", "Sie gleiten aneinander vorbei", "Sie fliegen frei umher", "Sie bewegen sich gar nicht"]
+  answer: { index: 0 }
+  explanation: "Im festen Zustand sitzen die Teilchen in einem Gitter und schwingen um ihre Plätze."
+- key: q2
+  type: gap_text
+  prompt: "Der Übergang von fest zu flüssig heißt ___, der Übergang von flüssig zu gasförmig heißt ___."
+  answer:
+    gaps:
+      - ["Schmelzen"]
+      - ["Verdampfen", "Sieden"]
+  explanation: "Schmelzen bei der Schmelztemperatur, Verdampfen (Sieden) bei der Siedetemperatur."
+- key: q3
+  type: numeric
+  prompt: "Bei welcher Temperatur in °C siedet Wasser bei Normaldruck?"
+  answer: { value: 100, tolerance: 0.5 }
+  options: { unit: "°C" }
+  explanation: "Wasser siedet bei 100 °C, es schmilzt bei 0 °C."
+- key: q4
+  type: true_false
+  prompt: "Während Eis schmilzt, bleibt die Temperatur bei 0 °C, obwohl weiter Energie zugeführt wird."
+  answer: { value: true }
+  explanation: "Die zugeführte Energie (Schmelzwärme) wird gebraucht, um die Anziehungskräfte zwischen den Teilchen zu überwinden – nicht, um sie schneller zu machen."
+- key: q5
+  type: single_choice
+  prompt: "Welchen Aggregatzustand hat Wasser bei Normbedingungen (0 °C)?"
+  options: ["flüssig", "fest", "gasförmig", "flüssig und gasförmig"]
+  answer: { index: 1 }
+  explanation: "Bei 0 °C ist Wasser gerade fest (Eis) – das ist die Schmelz- bzw. Erstarrungstemperatur."
+- key: q6
+  type: single_choice
+  prompt: "Wie entsteht Hagel?"
+  options: ["Schnee schmilzt beim Fallen und gefriert am Boden", "Tropfen werden in der Gewitterwolke vom Aufwind mehrfach hochgerissen und gefrieren in Schichten", "Wasserdampf resublimiert direkt am Boden", "Regen fällt durch sehr kalte Luft und gefriert"]
+  answer: { index: 1 }
+  explanation: "Hagelkörner wachsen schichtweise, weil sie im Aufwind immer wieder in kalte Wolkenbereiche gelangen."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Gase sind Treibhausgase?"
+  options: ["Kohlenstoffdioxid (CO₂)", "Wasserdampf", "Methan", "Stickstoff"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "CO₂, Wasserdampf und Methan halten Wärmestrahlung zurück. Stickstoff (78 % der Luft) ist kein Treibhausgas."
+- key: q8
+  type: single_choice
+  prompt: "Warum kühlt Schwitzen den Körper?"
+  options: ["Der Schweiß ist kälter als die Haut", "Beim Verdunsten verlassen die schnellsten Teilchen die Flüssigkeit, die zurückbleibende Flüssigkeit und die Haut kühlen ab", "Der Schweiß gefriert auf der Haut", "Schweiß leitet die Wärme in die Kleidung"]
+  answer: { index: 1 }
+  explanation: "Verdunsten entzieht der Haut Energie (Verdampfungswärme) – deshalb friert man auch nach dem Schwimmen."

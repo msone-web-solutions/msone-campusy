@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Instrumente gehören zur Standardbesetzung einer Rockband?"
+  options: ["Schlagzeug", "E-Bass", "Querflöte", "E-Gitarre"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Schlagzeug, Bass, Gitarre, Keyboard und Gesang – die Querflöte gehört nicht dazu."
+- key: q2
+  type: single_choice
+  prompt: "Welche Aufgabe hat der E-Bass in der Band?"
+  options: ["Er spielt die Melodie", "Er spielt die tiefen Grundtöne und verbindet Rhythmus und Harmonie", "Er gibt das Tempo mit Becken vor", "Er singt die Chorstimmen"]
+  answer: { index: 1 }
+  explanation: "Der Bass bildet mit dem Schlagzeug die Rhythmusgruppe und spielt die Grundtöne der Akkorde."
+- key: q3
+  type: gap_text
+  prompt: "Die große Trommel des Schlagzeugs heißt ___, die kleine Trommel mit Schnarrsaiten heißt ___."
+  answer:
+    gaps:
+      - ["Bassdrum", "Bass Drum", "Große Trommel", "Grosse Trommel", "Kick"]
+      - ["Snare", "Snaredrum", "Snare Drum", "Kleine Trommel"]
+  explanation: "Bassdrum (Fußpedal) und Snare sind die wichtigsten Trommeln des Drumsets."
+- key: q4
+  type: single_choice
+  prompt: "Wie erzeugt eine E-Gitarre ihren Klang?"
+  options: ["Durch ein Schallloch im Korpus", "Tonabnehmer wandeln die Saitenschwingung in ein elektrisches Signal um, das verstärkt wird", "Durch eingebaute Lautsprecher im Hals", "Durch Luft, die durch die Saiten strömt"]
+  answer: { index: 1 }
+  explanation: "Magnetische Tonabnehmer erzeugen aus der Schwingung der Stahlsaiten ein Signal für den Verstärker."
+- key: q5
+  type: true_false
+  prompt: "Der E-Bass hat sechs Saiten und klingt höher als die E-Gitarre."
+  answer: { value: false }
+  explanation: "Der E-Bass hat meist vier dickere Saiten und klingt eine Oktave tiefer."
+- key: q6
+  type: single_choice
+  prompt: "Was ist ein Loop?"
+  options: ["Ein Gitarreneffekt", "Ein sich wiederholender Musikabschnitt", "Ein Stimmgerät", "Ein Beckenständer"]
+  answer: { index: 1 }
+  explanation: "Loops sind kurze Abschnitte, die in Schleife wiederholt werden – ein Grundbaustein digitaler Musikproduktion."
+- key: q7
+  type: single_choice
+  prompt: "Aus welchen Tönen besteht der G-Dur-Dreiklang?"
+  options: ["g – a – h", "g – h – d", "g – c – e", "g – b – d"]
+  answer: { index: 1 }
+  explanation: "Grundton g, Terz h, Quinte d."
+- key: q8
+  type: single_choice
+  prompt: "Welche Instrumente bilden die Rhythmusgruppe einer Band?"
+  options: ["Gesang und Keyboard", "Leadgitarre und Gesang", "Schlagzeug und Bass", "Keyboard und Gitarre"]
+  answer: { index: 2 }
+  explanation: "Schlagzeug und Bass liefern Beat und Grundtöne – das Fundament der Band."

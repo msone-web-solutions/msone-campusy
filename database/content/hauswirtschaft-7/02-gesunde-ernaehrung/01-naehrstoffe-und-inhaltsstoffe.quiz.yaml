@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche gehören zu den Hauptnährstoffen, die Energie liefern?"
+  options: ["Kohlenhydrate", "Vitamine", "Fette", "Eiweiße"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Vitamine sind Ergänzungsstoffe und liefern keine Energie."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Kilokalorien liefert etwa 1 Gramm Fett?"
+  answer: { value: 9 }
+  options: { unit: "kcal" }
+  explanation: "Fett liefert ca. 9 kcal/g – mehr als doppelt so viel wie Kohlenhydrate und Eiweiß (je 4 kcal/g)."
+- key: q3
+  type: single_choice
+  prompt: "Womit weist man Stärke in einer Kartoffel nach?"
+  options: ["Mit Essig – es schäumt", "Mit Iodlösung – Blauschwarzfärbung", "Mit Papier – Fettfleck", "Mit Wasser – es löst sich"]
+  answer: { index: 1 }
+  explanation: "Iodlösung färbt Stärke blauschwarz."
+- key: q4
+  type: single_choice
+  prompt: "Wofür braucht der Körper vor allem Eiweiße?"
+  options: ["Als schnelle Energie", "Als Baustoff für Muskeln, Organe und Blut", "Zum Süßen", "Als Ballaststoff"]
+  answer: { index: 1 }
+  explanation: "Proteine bestehen aus Aminosäuren und sind die Bausteine des Körpers."
+- key: q5
+  type: true_false
+  prompt: "Ungesättigte Fettsäuren aus Pflanzenölen, Nüssen und Fisch sind gesünder als gesättigte aus Butter und Wurst."
+  answer: { value: true }
+  explanation: "Ungesättigte Fettsäuren sollten den größeren Teil der Fettzufuhr ausmachen."
+- key: q6
+  type: gap_text
+  prompt: "Der Mineralstoff ___ wird für die Blutbildung gebraucht und steckt in Fleisch, Hülsenfrüchten und Vollkorn."
+  answer:
+    gaps:
+      - ["Eisen"]
+  explanation: "Eisenmangel führt zu Blutarmut und Müdigkeit."
+- key: q7
+  type: single_choice
+  prompt: "Warum sollte Gemüse nur kurz und mit wenig Wasser gegart werden?"
+  options: ["Weil es sonst zu salzig wird", "Weil viele Vitamine hitze- und wasserempfindlich sind", "Weil es sonst mehr Kalorien hat", "Weil es sonst nicht gar wird"]
+  answer: { index: 1 }
+  explanation: "Vitamine wie Vitamin C werden durch Hitze zerstört oder ins Kochwasser ausgelaugt."
+- key: q8
+  type: single_choice
+  prompt: "Was sind Ballaststoffe?"
+  options: ["Energiereiche Fette", "Unverdauliche Pflanzenfasern, die sättigen und die Verdauung anregen", "Künstliche Zusatzstoffe", "Tierische Eiweiße"]
+  answer: { index: 1 }
+  explanation: "Ballaststoffe stecken in Vollkorn, Gemüse, Obst und Hülsenfrüchten; ca. 30 g pro Tag sind empfohlen."

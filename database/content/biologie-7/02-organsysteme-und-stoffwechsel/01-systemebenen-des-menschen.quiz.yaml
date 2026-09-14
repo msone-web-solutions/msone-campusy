@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Reihenfolge der Systemebenen ist richtig?"
+  options: ["Zelle – Organ – Gewebe – Organsystem – Organismus", "Zelle – Gewebe – Organ – Organsystem – Organismus", "Gewebe – Zelle – Organ – Organismus – Organsystem", "Organismus – Organ – Gewebe – Zelle – Organsystem"]
+  answer: { index: 1 }
+  explanation: "Von klein nach groß: Zelle, Gewebe, Organ, Organsystem, Organismus."
+- key: q2
+  type: single_choice
+  prompt: "Was ist ein Gewebe?"
+  options: ["Ein einzelnes Organ", "Ein Verband gleichartiger Zellen mit gleicher Aufgabe", "Alle Organe zusammen", "Die Haut des Menschen"]
+  answer: { index: 1 }
+  explanation: "Gewebe bestehen aus vielen ähnlichen Zellen, die dieselbe Aufgabe erfüllen, z. B. Muskelgewebe."
+- key: q3
+  type: gap_text
+  prompt: "Das Herz ist ein ___, der Blutkreislauf ist ein ___."
+  answer:
+    gaps:
+      - ["Organ"]
+      - ["Organsystem"]
+  explanation: "Das Herz besteht aus mehreren Geweben (Organ); Herz, Gefäße und Blut bilden zusammen das Organsystem Blutkreislauf."
+- key: q4
+  type: true_false
+  prompt: "Die Haut ist das größte Organ des Menschen."
+  answer: { value: true }
+  explanation: "Bei einem Erwachsenen misst die Haut etwa zwei Quadratmeter."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Organe gehören zum Verdauungssystem?"
+  options: ["Magen", "Lunge", "Darm", "Speiseröhre"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Magen, Darm und Speiseröhre verdauen; die Lunge gehört zum Atmungssystem."
+- key: q6
+  type: single_choice
+  prompt: "Warum sehen Muskelzellen und Nervenzellen unterschiedlich aus, obwohl sie dieselbe Erbinformation tragen?"
+  options: ["Weil sie von verschiedenen Eltern stammen", "Weil sie sich auf unterschiedliche Aufgaben spezialisiert haben", "Weil Nervenzellen älter sind", "Weil Muskelzellen keinen Zellkern haben"]
+  answer: { index: 1 }
+  explanation: "Zellen spezialisieren sich: Bau und Funktion passen zusammen."
+- key: q7
+  type: single_choice
+  prompt: "Zu welchem Grundgewebe gehören Knochen, Knorpel und Sehnen?"
+  options: ["Deckgewebe", "Muskelgewebe", "Nervengewebe", "Binde- und Stützgewebe"]
+  answer: { index: 3 }
+  explanation: "Binde- und Stützgewebe verbindet, stützt und füllt – dazu zählen auch Fettgewebe und Blut."
+- key: q8
+  type: single_choice
+  prompt: "Beim Sport atmet man schneller und das Herz schlägt kräftiger. Was zeigt das?"
+  options: ["Dass die Organsysteme unabhängig voneinander arbeiten", "Dass die Organsysteme zusammenarbeiten und aufeinander reagieren", "Dass die Lunge das Herz ersetzt", "Dass Muskeln keinen Sauerstoff brauchen"]
+  answer: { index: 1 }
+  explanation: "Atmung, Blutkreislauf, Nervensystem und Muskeln greifen ineinander – der Körper ist ein System."

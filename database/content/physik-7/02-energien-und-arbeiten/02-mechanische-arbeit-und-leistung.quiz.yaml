@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie berechnet man die mechanische Arbeit?"
+  options: ["W = F : s", "W = F · s", "W = m · g", "W = P : t"]
+  answer: { index: 1 }
+  explanation: "Arbeit = Kraft mal Weg: W = F · s."
+- key: q2
+  type: single_choice
+  prompt: "In welcher Situation wird physikalisch KEINE Arbeit verrichtet?"
+  options: ["Ein Kran hebt eine Palette an", "Ein Schrank wird über den Boden geschoben", "Ein Träger hält einen Koffer still in der Hand", "Ein Bogen wird gespannt"]
+  answer: { index: 2 }
+  explanation: "Beim Festhalten ist der Weg null – also W = F · 0 = 0. Es wirkt zwar eine Kraft, aber es wird keine Arbeit verrichtet."
+- key: q3
+  type: numeric
+  prompt: "Du hebst eine Kiste mit der Gewichtskraft 80 N um 1,5 m hoch. Wie viel Hubarbeit in J verrichtest du?"
+  answer: { value: 120, tolerance: 0.5 }
+  options: { unit: "J" }
+  explanation: "W = F · s = 80 N · 1,5 m = 120 J."
+- key: q4
+  type: gap_text
+  prompt: "Die Einheit der Arbeit ist das ___, die Einheit der Leistung ist das ___."
+  answer:
+    gaps:
+      - ["Joule", "J"]
+      - ["Watt", "W"]
+  explanation: "Arbeit in Joule (J), Leistung in Watt (W); 1 W = 1 J/s."
+- key: q5
+  type: numeric
+  prompt: "Ein Schüler verrichtet beim Treppensteigen 2400 J Arbeit in 8 s. Berechne seine Leistung in W."
+  answer: { value: 300, tolerance: 1 }
+  options: { unit: "W" }
+  explanation: "P = W : t = 2400 J : 8 s = 300 W."
+- key: q6
+  type: true_false
+  prompt: "Wer dieselbe Arbeit in kürzerer Zeit verrichtet, erbringt eine größere Leistung."
+  answer: { value: true }
+  explanation: "P = W : t – bei gleicher Arbeit und kleinerer Zeit wird die Leistung größer."
+- key: q7
+  type: single_choice
+  prompt: "Welche Energie nimmt ein Körper auf, wenn an ihm Hubarbeit verrichtet wird?"
+  options: ["Bewegungsenergie", "Lageenergie", "Thermische Energie", "Chemische Energie"]
+  answer: { index: 1 }
+  explanation: "Hubarbeit wird als Lageenergie (potentielle Energie) im gehobenen Körper gespeichert."
+- key: q8
+  type: numeric
+  prompt: "Eine Pumpe hat die Leistung 500 W. Wie viel Arbeit in J verrichtet sie in 30 s?"
+  answer: { value: 15000, tolerance: 1 }
+  options: { unit: "J" }
+  explanation: "W = P · t = 500 W · 30 s = 15 000 J = 15 kJ."

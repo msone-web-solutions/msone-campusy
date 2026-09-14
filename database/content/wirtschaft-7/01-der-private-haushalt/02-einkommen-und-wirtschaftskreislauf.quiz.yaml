@@ -1,0 +1,48 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche gehören zum Arbeitseinkommen?"
+  options: ["Lohn", "Gehalt", "Kindergeld", "Ausbildungsvergütung"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kindergeld ist ein Übertragungseinkommen vom Staat."
+- key: q2
+  type: single_choice
+  prompt: "Was bleibt vom Bruttoeinkommen nach Abzug von Steuern und Sozialabgaben übrig?"
+  options: ["Das Vermögenseinkommen", "Das Nettoeinkommen", "Das Taschengeld", "Der Gewinn"]
+  answer: { index: 1 }
+  explanation: "Netto ist das Geld, das tatsächlich ausgezahlt wird."
+- key: q3
+  type: numeric
+  prompt: "Ein Haushalt hat 2 200 € Nettoeinkommen und gibt 1 980 € für Konsum aus. Wie viel Euro spart er?"
+  answer: { value: 220 }
+  options: { unit: "€" }
+  explanation: "2 200 € − 1 980 € = 220 € (das sind genau 10 %)."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Ausgabenposten ist in den meisten Haushalten der größte?"
+  options: ["Kleidung", "Wohnen (Miete, Energie)", "Freizeit", "Handy"]
+  answer: { index: 1 }
+  explanation: "Miete und Energie machen oft ein Drittel der Konsumausgaben aus."
+- key: q5
+  type: single_choice
+  prompt: "Welche zwei Wirtschaftseinheiten bilden den einfachen Wirtschaftskreislauf?"
+  options: ["Staat und Banken", "Haushalte und Unternehmen", "Ausland und Staat", "Käufer und Verkäufer"]
+  answer: { index: 1 }
+  explanation: "Haushalte liefern Arbeitskraft und kaufen Güter; Unternehmen zahlen Einkommen und produzieren Güter."
+- key: q6
+  type: single_choice
+  prompt: "Was fließt im einfachen Wirtschaftskreislauf von den Haushalten zu den Unternehmen als Geldstrom?"
+  options: ["Einkommen", "Konsumausgaben", "Arbeitskraft", "Güter"]
+  answer: { index: 1 }
+  explanation: "Haushalte bezahlen die Güter mit Konsumausgaben; Einkommen fließt in die Gegenrichtung."
+- key: q7
+  type: true_false
+  prompt: "Werbung informiert nur sachlich über Produkte und beeinflusst das Konsumverhalten nicht."
+  answer: { value: false }
+  explanation: "Werbung weckt Wünsche, verknüpft Produkte mit Gefühlen und nutzt Tricks wie künstliche Verknappung."
+- key: q8
+  type: gap_text
+  prompt: "Bei Online-Käufen haben Verbraucher in der Regel ein ___-tägiges Widerrufsrecht."
+  answer:
+    gaps:
+      - ["14", "vierzehn"]
+  explanation: "Innerhalb von 14 Tagen kann ein Online-Kauf ohne Angabe von Gründen widerrufen werden."

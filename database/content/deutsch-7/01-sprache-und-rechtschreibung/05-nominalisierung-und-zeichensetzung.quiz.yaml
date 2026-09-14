@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Schreibung ist richtig?"
+  options: ["Das lesen macht Spaß.", "Das Lesen macht Spaß.", "Das Lesen macht spaß."]
+  answer: { index: 1 }
+  explanation: "Der Artikel „das“ zeigt die Nominalisierung „Lesen“ an. „Spaß“ ist ein Nomen."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Wörter sind Signalwörter für eine Nominalisierung?"
+  options: ["beim", "nichts", "schnell", "etwas", "gestern"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "beim (bei dem), nichts und etwas stehen typischerweise vor nominalisierten Verben und Adjektiven: beim Essen, nichts Neues, etwas Schönes."
+- key: q3
+  type: single_choice
+  prompt: "Welche Schreibung ist richtig?"
+  options: ["Wir haben nichts neues erfahren.", "Wir haben nichts Neues erfahren.", "Wir haben Nichts neues erfahren."]
+  answer: { index: 1 }
+  explanation: "Nach „nichts“ wird das Adjektiv nominalisiert und großgeschrieben: nichts Neues."
+- key: q4
+  type: single_choice
+  prompt: "Wie schreibt man richtig?"
+  options: ["Anna’s Fahrrad", "Annas Fahrrad", "Annas’ Fahrrad"]
+  answer: { index: 1 }
+  explanation: "Beim normalen Genitiv wird einfach ein s angehängt – ohne Apostroph."
+- key: q5
+  type: single_choice
+  prompt: "Wann steht beim Genitiv eines Namens ein Apostroph?"
+  options: ["Immer", "Nie", "Wenn der Name auf s, ß, x oder z endet (Klaus’ Auto)", "Wenn der Name kurz ist"]
+  answer: { index: 2 }
+  explanation: "Endet der Name auf einen s-Laut, kann man kein weiteres s anhängen; der Apostroph ersetzt es."
+- key: q6
+  type: true_false
+  prompt: "„Rad fahren“ schreibt man getrennt."
+  answer: { value: true }
+  explanation: "Nomen + Verb werden in der Regel getrennt geschrieben: Rad fahren, Ski fahren, Fußball spielen."
+- key: q7
+  type: gap_text
+  prompt: "Verben und Adjektive, die wie Nomen gebraucht werden, nennt man ___. Man schreibt sie ___."
+  answer:
+    gaps:
+      - ["Nominalisierung", "Nominalisierungen", "Substantivierung", "Substantivierungen", "nominalisiert"]
+      - ["groß", "gross"]
+  explanation: "Nominalisierte (substantivierte) Verben und Adjektive werden großgeschrieben."
+- key: q8
+  type: single_choice
+  prompt: "In welchem Satz ist „sitzenlassen“ richtig zusammengeschrieben?"
+  options: ["Er hat seine Freundin einfach sitzenlassen (im Stich gelassen).", "Die Lehrerin hat die Kinder auf der Bank sitzenlassen.", "Beide Sätze sind falsch."]
+  answer: { index: 0 }
+  explanation: "Bei übertragener Bedeutung (im Stich lassen) schreibt man zusammen; wenn jemand wirklich sitzen bleibt, getrennt: sitzen lassen."

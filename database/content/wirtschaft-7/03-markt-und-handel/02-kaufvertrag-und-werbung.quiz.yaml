@@ -1,0 +1,49 @@
+- key: q1
+  type: true_false
+  prompt: "Ein Kaufvertrag ist nur gültig, wenn er schriftlich abgeschlossen wurde."
+  answer: { value: false }
+  explanation: "Kaufverträge kommen auch mündlich oder durch schlüssiges Handeln (Bezahlen an der Kasse) zustande."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Pflichten hat der Verkäufer aus dem Kaufvertrag?"
+  options: ["Ware mangelfrei übergeben", "Kaufpreis bezahlen", "Ware rechtzeitig liefern", "Eigentum übertragen"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Bezahlen ist die Pflicht des Käufers."
+- key: q3
+  type: single_choice
+  prompt: "Ab welchem Alter ist man beschränkt geschäftsfähig?"
+  options: ["Ab 3 Jahren", "Ab 7 Jahren", "Ab 14 Jahren", "Ab 18 Jahren"]
+  answer: { index: 1 }
+  explanation: "Von 7 bis 17 Jahren ist man beschränkt geschäftsfähig, ab 18 voll geschäftsfähig."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Kauf ist für eine 13-Jährige ohne Zustimmung der Eltern gültig?"
+  options: ["Ein Handyvertrag mit 24 Monaten Laufzeit", "Ein Comic vom eigenen Taschengeld", "Ein E-Bike auf Raten", "Ein Streaming-Abo"]
+  answer: { index: 1 }
+  explanation: "Der Taschengeldparagraf erlaubt Käufe mit frei verfügbarem Geld; Dauerverträge und Ratenkäufe nicht."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Jahre beträgt die gesetzliche Gewährleistung beim Kauf neuer Ware?"
+  answer: { value: 2 }
+  options: { unit: "Jahre" }
+  explanation: "Zwei Jahre ab Übergabe der Ware haftet der Verkäufer für Mängel."
+- key: q6
+  type: gap_text
+  prompt: "Die gesetzliche Mängelhaftung heißt ___; ein freiwilliges Versprechen des Herstellers heißt ___."
+  answer:
+    gaps:
+      - ["Gewährleistung", "Gewaehrleistung", "Mängelhaftung"]
+      - ["Garantie"]
+  explanation: "Gewährleistung ist Pflicht (2 Jahre), Garantie freiwillig und zusätzlich."
+- key: q7
+  type: single_choice
+  prompt: "Der Händler liefert die bestellte Couch nicht zum vereinbarten Termin. Was sollte der Käufer zuerst tun?"
+  options: ["Sofort ein neues Sofa woanders kaufen und die Rechnung schicken", "Eine Nachfrist setzen (mahnen)", "Den Händler anzeigen", "Nichts – abwarten"]
+  answer: { index: 1 }
+  explanation: "Bei Lieferverzug wird zunächst eine Nachfrist gesetzt; verstreicht sie, kann man zurücktreten."
+- key: q8
+  type: single_choice
+  prompt: "Wofür steht das A in AIDA am Ende (Action)?"
+  options: ["Aufmerksamkeit erregen", "Zum Kauf bewegen", "Angebot machen", "Anzeige schalten"]
+  answer: { index: 1 }
+  explanation: "AIDA: Attention (Aufmerksamkeit), Interest (Interesse), Desire (Wunsch), Action (Handlung = Kauf)."

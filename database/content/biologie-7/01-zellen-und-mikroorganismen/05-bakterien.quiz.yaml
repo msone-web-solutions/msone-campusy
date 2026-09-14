@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche drei Grundformen von Bakterien gibt es?"
+  options: ["Kugelbakterien", "Stäbchenbakterien", "Würfelbakterien", "Schraubenbakterien"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kugeln (Kokken), Stäbchen und Schrauben – Würfelbakterien gibt es nicht."
+- key: q2
+  type: true_false
+  prompt: "Bakterien besitzen einen echten Zellkern."
+  answer: { value: false }
+  explanation: "Die Erbinformation liegt frei im Zellplasma. Bakterien sind Prokaryoten („Vorkernige“)."
+- key: q3
+  type: gap_text
+  prompt: "Bakterien vermehren sich durch ___. Bei schlechten Bedingungen bilden manche widerstandsfähige ___."
+  answer:
+    gaps:
+      - ["Zweiteilung", "Teilung", "Zellteilung"]
+      - ["Sporen", "Dauersporen"]
+  explanation: "Zweiteilung alle 20 Minuten bei Wärme; Sporen überstehen Hitze, Kälte und Trockenheit."
+- key: q4
+  type: single_choice
+  prompt: "Welche Bakterien machen aus Milch Joghurt?"
+  options: ["Salmonellen", "Milchsäurebakterien", "Tetanusbakterien", "Schraubenbakterien"]
+  answer: { index: 1 }
+  explanation: "Milchsäurebakterien säuern Milch zu Joghurt und Kohl zu Sauerkraut."
+- key: q5
+  type: single_choice
+  prompt: "Welche Rolle spielen Bakterien im Kompost?"
+  options: ["Sie machen den Kompost giftig", "Sie zersetzen abgestorbene Pflanzenreste zu Humus und Mineralstoffen", "Sie fressen die Regenwürmer", "Sie wachsen dort zu Pilzen heran"]
+  answer: { index: 1 }
+  explanation: "Als Destruenten bauen Bakterien tote Stoffe ab und machen Nährstoffe wieder für Pflanzen verfügbar."
+- key: q6
+  type: single_choice
+  prompt: "Wer entdeckte 1928 das Penicillin?"
+  options: ["Robert Koch", "Alexander Fleming", "Louis Pasteur", "Rudolf Virchow"]
+  answer: { index: 1 }
+  explanation: "Fleming bemerkte, dass ein Schimmelpilz Bakterien in seiner Kultur abtötete – das erste Antibiotikum."
+- key: q7
+  type: single_choice
+  prompt: "Warum sollte man Antibiotika nur nach Anweisung einnehmen?"
+  options: ["Weil sie sonst süchtig machen", "Weil sonst resistente Bakterien entstehen können", "Weil sie sonst gegen Viren wirken", "Weil sie sehr teuer sind"]
+  answer: { index: 1 }
+  explanation: "Bei falscher oder zu häufiger Einnahme überleben Bakterien, gegen die das Mittel nicht mehr wirkt."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Maßnahmen schützen vor bakteriellen Infektionen?"
+  options: ["Gründlich Hände waschen", "Lebensmittel kühlen und durchgaren", "Wunden nicht reinigen", "Impfungen, z. B. gegen Tetanus"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Hygiene, Lebensmittelsicherheit und Impfungen schützen. Wunden sollte man immer reinigen."

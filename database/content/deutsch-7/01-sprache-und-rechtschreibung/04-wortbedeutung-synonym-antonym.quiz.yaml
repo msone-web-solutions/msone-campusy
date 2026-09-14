@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Wort ist ein Synonym zu „beginnen“?"
+  options: ["beenden", "anfangen", "warten", "beginnend"]
+  answer: { index: 1 }
+  explanation: "„anfangen“ bedeutet dasselbe wie „beginnen“. „beenden“ ist das Antonym."
+- key: q2
+  type: single_choice
+  prompt: "Welches Wortpaar sind Antonyme?"
+  options: ["groß – riesig", "Bank – Bank", "mutig – feige", "Auto – Fahrzeug"]
+  answer: { index: 2 }
+  explanation: "mutig und feige sind Gegenteile. groß/riesig sind Synonyme, Bank/Bank Homonyme, Auto/Fahrzeug Unter- und Oberbegriff."
+- key: q3
+  type: gap_text
+  prompt: "Ein Wort wie „Schloss“, das gleich geschrieben wird, aber Verschiedenes bedeutet, nennt man ___."
+  answer:
+    gaps:
+      - ["Homonym", "homonym", "Homonyme"]
+  explanation: "Homonyme sind Wörter mit gleicher Form und unterschiedlicher Bedeutung."
+- key: q4
+  type: single_choice
+  prompt: "In welchem Satz wird „Feuer“ in übertragener Bedeutung verwendet?"
+  options: ["Das Feuer im Kamin knistert.", "Die Feuerwehr löschte das Feuer.", "Sie ist Feuer und Flamme für die Idee.", "Wir machten ein Feuer am See."]
+  answer: { index: 2 }
+  explanation: "„Feuer und Flamme sein“ ist ein Sprachbild für große Begeisterung – hier brennt nichts wirklich."
+- key: q5
+  type: single_choice
+  prompt: "Was ist der Oberbegriff zu Hammer, Säge und Zange?"
+  options: ["Metall", "Werkzeug", "Werkstatt", "Handwerker"]
+  answer: { index: 1 }
+  explanation: "Hammer, Säge und Zange sind Unterbegriffe zum Oberbegriff Werkzeug."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Wörter sind Fremdwörter?"
+  options: ["Computer", "Haus", "Restaurant", "Demokratie", "Baum"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Computer (englisch), Restaurant (französisch) und Demokratie (griechisch) stammen aus anderen Sprachen."
+- key: q7
+  type: true_false
+  prompt: "Die Wörter „speisen“, „essen“ und „futtern“ sind Synonyme, gehören aber zu verschiedenen Stilschichten."
+  answer: { value: true }
+  explanation: "Sie bedeuten dasselbe, klingen aber gehoben, neutral bzw. umgangssprachlich."
+- key: q8
+  type: single_choice
+  prompt: "Was ist eine Metapher?"
+  options: ["Ein Vergleich mit dem Wort „wie“", "Ein bildhafter Ausdruck ohne „wie“, z. B. „Wüstenschiff“", "Ein Wort aus einer fremden Sprache", "Ein Wort mit gegenteiliger Bedeutung"]
+  answer: { index: 1 }
+  explanation: "Die Metapher überträgt eine Bedeutung bildhaft, ohne das Vergleichswort „wie“: Das Kamel ist ein „Wüstenschiff“."

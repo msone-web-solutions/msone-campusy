@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Glücksversprechen?"
+  options: ["Ein Versprechen, das man einem Freund gibt", "Eine Botschaft, die Glück verspricht, wenn man etwas kauft, hat oder tut", "Ein Gesetz über Glück", "Ein Glückwunsch zum Geburtstag"]
+  answer: { index: 1 }
+  explanation: "Werbung, Influencer, Spiele und Heilslehren versprechen Glück gegen Geld, Zeit oder Gehorsam."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Beispiele sind versteckte Glücksversprechen?"
+  options: ["Ein Influencer zeigt beiläufig ein Produkt in seinem perfekten Alltag", "Likes und Follower als Belohnung fürs Posten", "Ein Plakat mit dem Slogan „Kauf dich glücklich“", "Tägliche Streaks und Lootboxen im Spiel"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Der Slogan ist ein offenes Versprechen; die anderen wirken versteckt."
+- key: q3
+  type: single_choice
+  prompt: "Welches Bedürfnis ist ein ideelles Bedürfnis?"
+  options: ["Hunger", "Freundschaft", "Sinn im Leben", "Eine warme Wohnung"]
+  answer: { index: 2 }
+  explanation: "Ideelle Bedürfnisse wie Sinn, Wissen und Freiheit brauchen weder Dinge noch andere Menschen, sondern eigenes Tun."
+- key: q4
+  type: gap_text
+  prompt: "Bedürfnisse nach Freundschaft und Anerkennung nennt man ___ Bedürfnisse; Bedürfnisse nach Essen und Kleidung ___ Bedürfnisse."
+  answer:
+    gaps:
+      - ["soziale", "sozial"]
+      - ["materielle", "materiell"]
+  explanation: "Sozial = braucht andere Menschen; materiell = braucht Dinge oder Geld."
+- key: q5
+  type: true_false
+  prompt: "Sehnsucht ist immer ein Zeichen für eine Sucht."
+  answer: { value: false }
+  explanation: "Sehnsucht ist normal und treibt uns an; Sucht ist eine Abhängigkeit mit Kontrollverlust."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet Willensfreiheit?"
+  options: ["Alles tun zu dürfen, was man will", "Sich bewusst für oder gegen etwas entscheiden zu können, auch gegen einen Impuls", "Keine Regeln zu haben", "Niemals Wünsche zu haben"]
+  answer: { index: 1 }
+  explanation: "Willensfreiheit ist die Fähigkeit zur eigenen Entscheidung – die Grundlage der Selbstbestimmung."
+- key: q7
+  type: single_choice
+  prompt: "Warum kann eine Limonade das Bedürfnis nach Freundschaft nicht erfüllen?"
+  options: ["Weil sie zu teuer ist", "Weil ein materielles Produkt kein soziales Bedürfnis stillen kann", "Weil Limonade ungesund ist", "Weil Freundschaft verboten ist"]
+  answer: { index: 1 }
+  explanation: "Soziale Bedürfnisse brauchen Menschen und Beziehungen, keine Produkte."
+- key: q8
+  type: single_choice
+  prompt: "Was sagt die Forschung über Geld und Glück?"
+  options: ["Je mehr Geld, desto glücklicher – ohne Grenze", "Über das Existenzminimum hinaus macht mehr Geld kaum glücklicher", "Geld macht immer unglücklich", "Nur Reiche können glücklich sein"]
+  answer: { index: 1 }
+  explanation: "Beziehungen, Gesundheit und Sinn tragen dauerhaft mehr zur Zufriedenheit bei als zusätzlicher Besitz."

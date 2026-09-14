@@ -1,0 +1,48 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches ist ein Existenzbedürfnis?"
+  options: ["Ein neues Handy", "Ein Kinobesuch", "Essen und Trinken", "Eine Fernreise"]
+  answer: { index: 2 }
+  explanation: "Existenzbedürfnisse sind lebensnotwendig: Nahrung, Kleidung, Wohnung, Schlaf."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche sind freie Güter?"
+  options: ["Sonnenlicht", "Brot", "Luft zum Atmen", "Busfahrt"]
+  answer: { indexes: [0, 2] }
+  explanation: "Freie Güter sind unbegrenzt und kostenlos. Brot und Busfahrt sind knappe wirtschaftliche Güter."
+- key: q3
+  type: single_choice
+  prompt: "Ein Haarschnitt beim Friseur ist …"
+  options: ["ein Sachgut", "eine Dienstleistung", "ein freies Gut", "ein Produktionsgut"]
+  answer: { index: 1 }
+  explanation: "Dienstleistungen sind immateriell – man kann sie nicht anfassen oder lagern."
+- key: q4
+  type: gap_text
+  prompt: "Bedürfnisse sind unbegrenzt, Güter sind ___ – das ist das Grundproblem der Wirtschaft."
+  answer:
+    gaps:
+      - ["knapp", "begrenzt"]
+  explanation: "Knappheit zwingt uns, zu entscheiden und zu wirtschaften."
+- key: q5
+  type: single_choice
+  prompt: "Anna kauft das günstigste Fahrradschloss, das sicher ist. Nach welchem Prinzip handelt sie?"
+  options: ["Maximalprinzip", "Minimalprinzip", "Luxusprinzip", "Kollektivprinzip"]
+  answer: { index: 1 }
+  explanation: "Festes Ziel (ein sicheres Schloss) mit möglichst geringem Mitteleinsatz – Minimalprinzip."
+- key: q6
+  type: true_false
+  prompt: "„Möglichst viel für möglichst wenig Geld“ ist eine korrekte Formulierung des ökonomischen Prinzips."
+  answer: { value: false }
+  explanation: "Entweder Ziel oder Mittel müssen fest sein. Beides „möglichst“ ist kein Prinzip."
+- key: q7
+  type: single_choice
+  prompt: "Was sind Opportunitätskosten?"
+  options: ["Die Kosten für die Verpackung", "Der Wert dessen, worauf man bei einer Entscheidung verzichtet", "Die Steuern auf ein Produkt", "Die Kosten für den Transport"]
+  answer: { index: 1 }
+  explanation: "Wer sein Geld für das Konzert ausgibt, verzichtet auf die Kopfhörer – das sind die Opportunitätskosten."
+- key: q8
+  type: single_choice
+  prompt: "Wann wird aus einem Bedürfnis eine Nachfrage?"
+  options: ["Sobald man sich etwas wünscht", "Wenn man das Geld hat und tatsächlich kauft", "Wenn Werbung dafür läuft", "Wenn Freunde es haben"]
+  answer: { index: 1 }
+  explanation: "Bedürfnis → mit Kaufkraft Bedarf → mit tatsächlichem Kauf Nachfrage."
