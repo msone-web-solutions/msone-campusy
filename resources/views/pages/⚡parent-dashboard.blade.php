@@ -62,7 +62,7 @@ new #[Title('Elternübersicht')] class extends Component
 ?>
 
 <div>
-    <x-raque.page-banner title="Elternübersicht" eyebrow="Wochenbericht" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Eltern']]">
+    <x-raque.page-banner title="Elternübersicht." :emphasis="true" eyebrow="Wochenbericht" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Eltern']]">
         <p style="color:#fff;opacity:.9;margin-top:4px">Was in dieser Woche gelernt wurde, wo es hakt – und was dein Kind in eigenen Worten erklärt hat.</p>
     </x-raque.page-banner>
 

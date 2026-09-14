@@ -46,7 +46,7 @@ new #[Title('Dein Schultag')] class extends Component
         $dateLabel = $weekdays[$plan['date']->dayOfWeekIso - 1].', '.$plan['date']->day.'. '.$months[$plan['date']->month - 1];
     @endphp
 
-    <x-raque.page-banner title="Dein Schultag" eyebrow="Stundenplan">
+    <x-raque.page-banner title="Dein Schultag." :emphasis="true" eyebrow="Stundenplan">
         <p style="color:#fff;opacity:.9;margin-top:4px">{{ $dateLabel }} · {{ $plan['lessons_total'] }} Doppelstunden, {{ max(0, $plan['lessons_total'] - 1) }} Bewegungspausen, {{ intdiv($plan['settings']->day_start, 60) }}:{{ sprintf('%02d', $plan['settings']->day_start % 60) }} bis {{ intdiv($plan['day_end'], 60) }}:{{ sprintf('%02d', $plan['day_end'] % 60) }} Uhr.</p>
         @unless ($plan['is_school_day'])
             <p style="margin-top:12px"><span class="rq-badge" style="background:#fff;color:var(--color-primary)"><i class="bx bx-sun"></i>Kein Schultag – das ist dein Plan für {{ $weekdays[$plan['date']->dayOfWeekIso - 1] }}</span></p>

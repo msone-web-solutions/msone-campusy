@@ -116,7 +116,7 @@ new #[Title('Stundenplan einstellen')] class extends Component
 
 <div>
     @php $pace = $this->pace; $child = $this->child; @endphp
-    <x-raque.page-banner :title="'Stundenplan für '.$child->name" eyebrow="Rahmen & Tempo" :crumbs="[['label' => 'Elternübersicht', 'href' => route('parent.dashboard')], ['label' => 'Stundenplan']]">
+    <x-raque.page-banner :title="'Stundenplan für '.$child->name.'.'" :emphasis="$child->name.'.'" eyebrow="Rahmen & Tempo" :crumbs="[['label' => 'Elternübersicht', 'href' => route('parent.dashboard')], ['label' => 'Stundenplan']]">
         <p style="color:#fff;opacity:.9;margin-top:4px">Aus diesen Vorgaben rechnet Campusy Soll-Tempo, Rückstand und den Fertigstellungstermin. Änderungen wirken sofort.</p>
     </x-raque.page-banner>
 

@@ -106,6 +106,10 @@ new #[Title('Dashboard')] class extends Component
 
 <div>
     @php $stats = $this->stats; @endphp
+    <x-raque.page-banner :title="'Hallo '.auth()->user()->name.'.'" :emphasis="auth()->user()->name" eyebrow="Dein Dashboard" compact>
+        <p>Hier siehst du, wo du stehst – und wo es weitergeht.</p>
+    </x-raque.page-banner>
+    <section class="rq-section rq-section--tight rq-section--panel">
     <x-raque.shell>
         <x-slot:left>
             <x-raque.profile-card
@@ -279,4 +283,5 @@ new #[Title('Dashboard')] class extends Component
             </div>
         </x-slot:right>
     </x-raque.shell>
+    </section>
 </div>

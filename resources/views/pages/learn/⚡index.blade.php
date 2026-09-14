@@ -40,7 +40,7 @@ new #[Title('Lernen')] class extends Component
 ?>
 
 <div>
-    <x-raque.page-banner title="Deine Fächer" eyebrow="Klasse 7 · Sekundarschule Sachsen-Anhalt" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Fächer']]" />
+    <x-raque.page-banner title="Deine Fächer." :emphasis="true" eyebrow="Klasse 7 · Sekundarschule Sachsen-Anhalt" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Fächer']]" />
 
     <section class="rq-section rq-section--tight rq-section--panel">
         <div class="rq-container">

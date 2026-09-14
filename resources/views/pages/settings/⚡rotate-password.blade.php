@@ -55,7 +55,7 @@ new #[Layout('layouts::auth')] #[Title('Neues Passwort festlegen')] class extend
 
 <div class="flex flex-col gap-6">
     <div style="text-align:center">
-        <h1 style="font-size:var(--fs-page-title);font-weight:700;margin-bottom:6px">Neues Passwort festlegen</h1>
+        <h1 style="font-size:28px;font-weight:100;line-height:1.2;margin-bottom:6px"><strong style="font-weight:700">Neues Passwort</strong> festlegen.</h1>
         <p>Dein Zugang wurde mit einem Startpasswort angelegt. Bitte lege jetzt ein eigenes Passwort fest, bevor es weitergeht.</p>
     </div>
 

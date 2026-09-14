@@ -43,7 +43,7 @@ new #[Title('Themen')] class extends Component
 ?>
 
 <div>
-    <x-raque.page-banner :title="$subject->name.' – Klasse '.$subject->grade" eyebrow="Sekundarschule Sachsen-Anhalt · Fachlehrplan 2019" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Fächer', 'href' => route('learn.index')], ['label' => $subject->name]]">
+    <x-raque.page-banner :title="$subject->name.' – Klasse '.$subject->grade.'.'" :emphasis="$subject->name" eyebrow="Sekundarschule Sachsen-Anhalt · Fachlehrplan 2019" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Fächer', 'href' => route('learn.index')], ['label' => $subject->name]]">
         <div style="margin-top:25px">
             @if ($this->nextTopic)
                 <x-raque.button variant="on-primary" icon="bx bx-right-arrow-alt" class="rq-btn--wrap" :href="route('learn.topic', [$subject, $this->nextTopic->topicArea, $this->nextTopic])" wire:navigate>Weiter lernen: {{ $this->nextTopic->title }}</x-raque.button>

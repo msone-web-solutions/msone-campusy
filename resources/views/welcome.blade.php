@@ -14,18 +14,15 @@
     <x-raque.topbar />
     <x-raque.navbar />
 
-    {{-- Hero --}}
-    <section class="rq-section--compact rq-section--panel">
+    {{-- Hero: full-bleed illustration ground, header overlays it --}}
+    <section class="rq-hero-band">
         <div class="rq-container rq-hero">
             <div>
-                <span class="rq-eyebrow">Homeschooling · Sekundarschule Sachsen-Anhalt</span>
-                <h1>Der komplette Lehrplan der 7. Klasse – Thema für Thema erklärt</h1>
+                <span class="rq-eyebrow rq-eyebrow--tracked" style="margin-left:42px">Homeschooling Klasse 7</span>
+                <h1><strong>Der Lehrplan</strong> der 7. Klasse –<br>Thema für <strong>Thema erklärt</strong></h1>
                 <p>Campusy ist der Lehrer zu Hause: Jedes Thema wird Schritt für Schritt erklärt, der Hefteintrag steht fertig zum Abschreiben bereit, und ein interaktiver Test am Ende zeigt, ob alles sitzt. Aufgebaut nach dem gültigen Fachlehrplan Sekundarschule Sachsen-Anhalt.</p>
                 <div style="display:flex;gap:15px;flex-wrap:wrap">
-                    <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('login')" icon="bx bx-book-open" wire:navigate>{{ auth()->check() && auth()->user()->isParent() ? 'Zum Wochenbericht' : 'Alle Fächer ansehen' }}</x-raque.button>
-                    @guest
-                        <x-raque.button :href="route('login')" variant="outline" wire:navigate>Login</x-raque.button>
-                    @endguest
+                    <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('login')" variant="on-primary" wire:navigate>{{ auth()->check() && auth()->user()->isParent() ? 'Zum Wochenbericht' : 'Alle Fächer ansehen' }}</x-raque.button>
                 </div>
             </div>
             <div class="rq-hero__visual" aria-hidden="true">
@@ -65,7 +62,7 @@
     {{-- Subject grid --}}
     <section class="rq-section rq-section--panel" id="faecher">
         <div class="rq-container">
-            <x-raque.section-title eyebrow="Fächer entdecken" title="Drei Fächer, ein Aufbau">Jedes Thema folgt dem gleichen Weg: Erklärung, Hefteintrag, Test – nach dem Lehrplan von Sachsen-Anhalt in der Reihenfolge, wie die Schule sie prüft.</x-raque.section-title>
+            <x-raque.section-title eyebrow="Fächer entdecken" title="Drei Fächer, ein Aufbau." emphasis="ein Aufbau.">Jedes Thema folgt dem gleichen Weg: Erklärung, Hefteintrag, Test – nach dem Lehrplan von Sachsen-Anhalt in der Reihenfolge, wie die Schule sie prüft.</x-raque.section-title>
             <div class="rq-grid rq-grid--3">
                 @foreach ($subjects as $subject)
                     @php
@@ -109,7 +106,7 @@
     {{-- Testimonials --}}
     <section class="rq-section">
         <div class="rq-container">
-            <x-raque.section-title eyebrow="Stimmen" title="Das sagen Schüler und Eltern" />
+            <x-raque.section-title eyebrow="Was sie sagen" title="Das sagen Schüler und Eltern." emphasis="Schüler und Eltern." />
             <div class="rq-grid rq-grid--3">
                 <x-raque.testimonial name="Mia" role="Schülerin, 7. Klasse">„Endlich weiß ich genau, was ins Heft muss. Und der Test zeigt mir sofort, wo ich noch üben muss – ohne dass jemand schimpft.“</x-raque.testimonial>
                 <x-raque.testimonial name="Familie Krüger" role="Homeschooling seit 2025">„Wir haben lange nach etwas gesucht, das wirklich dem Lehrplan von Sachsen-Anhalt folgt. Die Themenreihenfolge passt zu dem, was die Schule prüft.“</x-raque.testimonial>
@@ -118,7 +115,7 @@
         </div>
     </section>
 
-    <x-raque.cta-banner title="Heute anfangen – der erste Test wartet schon">
+    <x-raque.cta-banner title="Heute anfangen – der erste Test wartet schon." emphasis="Heute anfangen">
         <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('login')" variant="on-primary" wire:navigate>Anmelden</x-raque.button>
     </x-raque.cta-banner>
 

@@ -42,7 +42,7 @@ new #[Title('Wochenplan')] class extends Component
         $weekEnd = $week['week_start']->addDays(6);
     @endphp
 
-    <x-raque.page-banner title="Dein Wochenplan" eyebrow="Hochrechnung aus dem Lernstand" :crumbs="[['label' => 'Home', 'href' => route('dashboard')], ['label' => 'Schultag', 'href' => route('school-day')], ['label' => 'Wochenplan']]">
+    <x-raque.page-banner title="Dein Wochenplan." :emphasis="true" eyebrow="Hochrechnung aus dem Lernstand" :crumbs="[['label' => 'Home', 'href' => route('dashboard')], ['label' => 'Schultag', 'href' => route('school-day')], ['label' => 'Wochenplan']]">
         <p style="color:#fff;opacity:.9;margin-top:4px">{{ $week['week_start']->format('d.m.') }} – {{ $weekEnd->format('d.m.Y') }} · Vergangene Tage zeigen, was bestanden wurde; ab heute zeigt der Plan, was ansteht.</p>
     </x-raque.page-banner>
 

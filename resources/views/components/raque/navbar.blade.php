@@ -44,11 +44,11 @@
                 <a href="{{ route('profile.edit') }}" class="rq-icon-btn" aria-label="Einstellungen" title="Einstellungen" wire:navigate><i class="bx bx-cog"></i></a>
                 <form method="POST" action="{{ route('logout') }}" style="display:inline">
                     @csrf
-                    <button type="submit" class="rq-icon-btn rq-icon-btn--primary" aria-label="Abmelden" title="Abmelden"><i class="bx bx-log-out"></i></button>
+                    <button type="submit" class="rq-icon-btn" aria-label="Abmelden" title="Abmelden"><i class="bx bx-log-out"></i></button>
                 </form>
                 <a href="{{ route('profile.edit') }}" class="rq-navbar__avatar" title="{{ auth()->user()->name }}" wire:navigate>{{ $initials }}</a>
             @else
-                <a href="{{ route('login') }}" class="rq-btn rq-btn--outline rq-btn--sm" wire:navigate>Login</a>
+                <a href="{{ route('login') }}" class="rq-navbar__login" wire:navigate>Log in</a>
             @endauth
         </div>
     </div>
