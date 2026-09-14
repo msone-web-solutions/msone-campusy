@@ -161,7 +161,7 @@ return [
     */
 
     'features' => [
-        Features::registration(),
+        // Registrierung ist geschlossen – Zugänge werden von den Eltern angelegt.
         Features::resetPasswords(),
         Features::emailVerification(),
         Features::twoFactorAuthentication([

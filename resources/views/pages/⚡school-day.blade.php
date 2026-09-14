@@ -413,7 +413,7 @@ new #[Title('Dein Schultag')] class extends Component
                     } catch (e) {}
                 },
                 confettiStyle(i) {
-                    const colors = ['#ff1949', '#0eb582', '#f2b827', '#4c6fff', '#ffffff'];
+                    const colors = ['#142fdb', '#7bb544', '#f2b827', '#00b2a9', '#ffffff'];
                     const left = (i * 37) % 100, delay = ((i * 13) % 20) / 10, dur = 2.5 + ((i * 7) % 15) / 10, rot = (i * 53) % 360;
                     return `left:${left}%;background:${colors[i % colors.length]};animation-delay:${delay}s;animation-duration:${dur}s;transform:rotate(${rot}deg)`;
                 },

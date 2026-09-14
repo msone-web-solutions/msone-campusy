@@ -87,98 +87,154 @@ new #[Title('Dashboard')] class extends Component
 
 <div>
     @php $stats = $this->stats; @endphp
-    <x-raque.page-banner :title="'Hallo '.auth()->user()->name.'!'" eyebrow="Dein Dashboard">
-        <p style="color:#fff;opacity:.9;margin-top:4px">Hier siehst du, wo du stehst – und wo es weitergeht.</p>
-    </x-raque.page-banner>
+    <x-raque.shell>
+        <x-slot:left>
+            <x-raque.profile-card
+                :name="auth()->user()->name"
+                headline="Klasse 7 · Sekundarschule Sachsen-Anhalt"
+                :badges="[
+                    ['icon' => 'bx bx-task', 'label' => 'Erster Test', 'earned' => $stats['attempts'] > 0],
+                    ['icon' => 'bx bx-check-circle', 'label' => '5 Themen bestanden', 'earned' => $stats['passed'] >= 5],
+                    ['icon' => 'bx bx-shield-quarter', 'label' => 'Erstes Thema gesichert', 'earned' => $stats['mastered'] > 0],
+                    ['icon' => 'bx bx-pencil', 'label' => '10 Hefteinträge', 'earned' => $stats['notebooks'] >= 10],
+                    ['icon' => 'bx bx-trophy', 'label' => 'Halbzeit', 'earned' => $stats['total'] > 0 && $stats['passed'] * 2 >= $stats['total']],
+                ]"
+                :stats="[
+                    ['label' => 'Themen bestanden', 'value' => $stats['passed'].' / '.$stats['total']],
+                    ['label' => 'Davon gesichert', 'value' => $stats['mastered']],
+                    ['label' => 'Themen getestet', 'value' => $stats['attempts']],
+                    ['label' => 'Hefteinträge', 'value' => $stats['notebooks']],
+                    ['label' => 'Fällige Übungen', 'value' => $this->dueCount],
+                ]"
+                footer="Zum Stundenplan"
+                :footer-href="route('school-day')" />
 
-    <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container rq-stack" style="gap:30px">
-            <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--raque-amber-500)">
-                <div>
-                    <span class="rq-eyebrow" style="margin-bottom:4px;color:#a2740a">Dein Schultag</span>
-                    <h2 style="font-size:var(--fs-h3);font-weight:600;line-height:1.4">Drei Doppelstunden, zwei Bewegungspausen – 8 bis 13 Uhr</h2>
-                    <p style="margin-top:4px">Stundenplan mit Uhr, Fächer-Rotation und Sportübungen für zu Hause.</p>
-                </div>
-                <x-raque.button icon="bx bx-time-five" :href="route('school-day')" wire:navigate>Zum Stundenplan</x-raque.button>
-            </div>
+            <x-raque.card title="Fortschritt je Fach">
+                @foreach ($this->subjects as $subject)
+                    @php
+                        $topics = $subject->topicAreas->flatMap->topics;
+                        $passed = $topics->filter(fn ($t) => $t->progress->first()?->status->isPassed() ?? false)->count();
+                        $percent = $topics->isEmpty() ? 0 : (int) round($passed * 100 / $topics->count());
+                    @endphp
+                    <a href="{{ route('learn.subject', $subject) }}" wire:navigate wire:key="dash-subject-{{ $subject->id }}" style="display:block;padding:15px 20px;border-bottom:1px solid var(--border-default)">
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                            <span style="font-weight:500">{{ $subject->name }}</span>
+                            <span class="rq-muted rq-num">{{ $passed }}/{{ $topics->count() }} · {{ $percent }} %</span>
+                        </div>
+                        <div class="rq-progress"><span style="width: {{ $percent }}%"></span></div>
+                    </a>
+                @endforeach
+                <a href="{{ route('learn.index') }}" class="rq-card__footer-link" wire:navigate>Alle Fächer</a>
+            </x-raque.card>
+        </x-slot:left>
 
-            @if ($this->dueCount > 0)
-                <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-secondary)">
-                    <div>
-                        <span class="rq-eyebrow" style="margin-bottom:4px;color:var(--color-secondary)">Tägliche Übung</span>
-                        <h2 style="font-size:var(--fs-h3);font-weight:600;line-height:1.4">{{ $this->dueCount }} Aufgaben fällig · etwa {{ (int) ceil(min($this->dueCount, 10) * 0.6) }} Minuten</h2>
-                        <p style="margin-top:4px">Gemischt aus allem, was du schon kannst – mit Abstand wiederholen ist der stärkste Lerneffekt.</p>
+        {{-- Feed --}}
+        @if ($this->continueTopic)
+            @php $t = $this->continueTopic; @endphp
+            <x-raque.card>
+                <div style="display:flex;gap:1rem;padding:var(--pad-post-head)">
+                    <span class="rq-row__avatar" style="width:42px;height:42px;font-size:18px;background:var(--color-primary);color:#fff"><i class="bx bx-play"></i></span>
+                    <div style="min-width:0;flex:1">
+                        <span style="display:block;font-weight:500;margin-bottom:5px">Weiter lernen</span>
+                        <span style="font-size:var(--fs-xs);color:var(--text-secondary)">{{ $t->topicArea->subject->name }} · Themenfeld {{ $t->topicArea->sort }} · {{ $t->topicArea->name }}</span>
                     </div>
+                </div>
+                <div style="padding:var(--pad-post-body)">
+                    <h2 style="font-size:var(--fs-lg);font-weight:600;line-height:1.4;margin-bottom:6px">{{ $t->title }}</h2>
+                    <p>{{ $t->intro }}</p>
+                </div>
+                <div style="display:flex;gap:8px;padding:var(--pad-post-actions);border-top:1px solid var(--border-default)">
+                    <x-raque.button icon="bx bx-right-arrow-alt" :href="route('learn.topic', [$t->topicArea->subject, $t->topicArea, $t])" wire:navigate>Los geht's</x-raque.button>
+                    <x-raque.button variant="cancel" icon="bx bx-book-open" :href="route('learn.subject', $t->topicArea->subject)" wire:navigate>{{ $t->topicArea->subject->name }}</x-raque.button>
+                </div>
+            </x-raque.card>
+        @endif
+
+        @if ($this->dueCount > 0)
+            <x-raque.card>
+                <div style="display:flex;gap:1rem;padding:var(--pad-post-head)">
+                    <span class="rq-row__avatar" style="width:42px;height:42px;font-size:18px;background:var(--color-success);color:#fff"><i class="bx bx-refresh"></i></span>
+                    <div style="min-width:0;flex:1">
+                        <span style="display:block;font-weight:500;margin-bottom:5px">Tägliche Übung</span>
+                        <span style="font-size:var(--fs-xs);color:var(--text-secondary)">{{ $this->dueCount }} Aufgaben fällig · etwa {{ (int) ceil(min($this->dueCount, 10) * 0.6) }} Minuten</span>
+                    </div>
+                </div>
+                <div style="padding:var(--pad-post-body)"><p>Gemischt aus allem, was du schon kannst – mit Abstand wiederholen ist der stärkste Lerneffekt.</p></div>
+                <div style="padding:var(--pad-post-actions);border-top:1px solid var(--border-default)">
                     <x-raque.button icon="bx bx-refresh" :href="route('practice')" wire:navigate>Jetzt üben</x-raque.button>
                 </div>
-            @endif
+            </x-raque.card>
+        @endif
 
-            @if ($this->continueTopic)
-                @php $t = $this->continueTopic; @endphp
-                <div class="rq-card" style="padding:30px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-primary)">
-                    <div>
-                        <span class="rq-eyebrow" style="margin-bottom:4px">Weiter lernen</span>
-                        <h2 style="font-size:var(--fs-h3);font-weight:600;line-height:1.4">{{ $t->title }}</h2>
-                        <p style="margin-top:4px">{{ $t->topicArea->subject->name }} · Themenfeld {{ $t->topicArea->sort }} · {{ $t->topicArea->name }}</p>
-                    </div>
-                    <x-raque.button icon="bx bx-right-arrow-alt" :href="route('learn.topic', [$t->topicArea->subject, $t->topicArea, $t])" wire:navigate>Los geht's</x-raque.button>
+        <div class="rq-grid rq-grid--2" style="gap:var(--space-20)">
+            @foreach ([
+                ['label' => 'Themen bestanden', 'value' => $stats['passed'].' / '.$stats['total'], 'icon' => 'bx bx-check-circle'],
+                ['label' => 'Davon gesichert', 'value' => $stats['mastered'], 'icon' => 'bx bx-shield-quarter'],
+                ['label' => 'Themen getestet', 'value' => $stats['attempts'], 'icon' => 'bx bx-task'],
+                ['label' => 'Fächer', 'value' => $this->subjects->count(), 'icon' => 'bx bx-book-open'],
+            ] as $tile)
+                <div class="rq-card rq-stat-tile">
+                    <div class="rq-stat-tile__label"><i class="{{ $tile['icon'] }}"></i>{{ $tile['label'] }}</div>
+                    <div class="rq-stat-tile__value">{{ $tile['value'] }}</div>
                 </div>
-            @endif
-
-            <div class="rq-grid rq-grid--4">
-                @foreach ([
-                    ['label' => 'Themen bestanden', 'value' => $stats['passed'].' / '.$stats['total'], 'icon' => 'bx bx-check-circle'],
-                    ['label' => 'Davon gesichert', 'value' => $stats['mastered'], 'icon' => 'bx bx-shield-quarter'],
-                    ['label' => 'Themen getestet', 'value' => $stats['attempts'], 'icon' => 'bx bx-task'],
-                    ['label' => 'Fächer', 'value' => $this->subjects->count(), 'icon' => 'bx bx-book-open'],
-                ] as $tile)
-                    <div class="rq-card rq-stat-tile">
-                        <div class="rq-stat-tile__label"><i class="{{ $tile['icon'] }}"></i>{{ $tile['label'] }}</div>
-                        <div class="rq-stat-tile__value">{{ $tile['value'] }}</div>
-                    </div>
-                @endforeach
-            </div>
-
-            <div class="rq-grid" style="grid-template-columns:3fr 2fr">
-                <div>
-                    <h2 style="font-size:var(--fs-h4);font-weight:600;margin-bottom:15px">Fortschritt je Fach</h2>
-                    <div style="display:grid;gap:15px">
-                        @foreach ($this->subjects as $subject)
-                            @php
-                                $topics = $subject->topicAreas->flatMap->topics;
-                                $passed = $topics->filter(fn ($t) => $t->progress->first()?->status->isPassed() ?? false)->count();
-                                $percent = $topics->isEmpty() ? 0 : (int) round($passed * 100 / $topics->count());
-                            @endphp
-                            <a href="{{ route('learn.subject', $subject) }}" wire:navigate wire:key="dash-subject-{{ $subject->id }}" class="rq-card rq-card--lift" style="display:block;padding:20px 25px">
-                                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-                                    <span style="font-size:16.5px;font-weight:500">{{ $subject->name }}</span>
-                                    <span class="rq-muted rq-num">{{ $passed }}/{{ $topics->count() }} · {{ $percent }} %</span>
-                                </div>
-                                <div class="rq-progress"><span style="width: {{ $percent }}%"></span></div>
-                            </a>
-                        @endforeach
-                    </div>
-                </div>
-
-                <div>
-                    <h2 style="font-size:var(--fs-h4);font-weight:600;margin-bottom:15px">Letzte Tests</h2>
-                    @if ($this->recentAttempts->isEmpty())
-                        <div class="rq-callout"><i class="bx bx-info-circle"></i><p>Noch kein Test gemacht. Such dir ein Thema aus und leg los!</p></div>
-                    @else
-                        <ul class="rq-list rq-card">
-                            @foreach ($this->recentAttempts as $attempt)
-                                <li class="rq-topic" style="padding:14px 20px" wire:key="attempt-{{ $attempt->id }}">
-                                    <span class="rq-topic__nr {{ $attempt->passed ? 'rq-topic__nr--done' : '' }}" style="font-size:12px">{{ $attempt->percent() }}%</span>
-                                    <span style="min-width:0;flex:1">
-                                        <span class="rq-topic__title" style="font-size:15px">{{ $attempt->topic->title }}</span>
-                                        <span class="rq-topic__intro">{{ $attempt->topic->topicArea->subject->name }} · {{ $attempt->finished_at->diffForHumans() }}</span>
-                                    </span>
-                                </li>
-                            @endforeach
-                        </ul>
-                    @endif
-                </div>
-            </div>
+            @endforeach
         </div>
-    </section>
+
+        <x-raque.card title="Letzte Tests" footer="Alle Fächer" :footer-href="route('learn.index')">
+            @if ($this->recentAttempts->isEmpty())
+                <p style="padding:30px 20px;text-align:center">Noch kein Test gemacht. Such dir ein Thema aus und leg los!</p>
+            @else
+                @foreach ($this->recentAttempts as $attempt)
+                    <x-raque.row wire:key="attempt-{{ $attempt->id }}"
+                        :title="$attempt->topic->title"
+                        :sub="$attempt->topic->topicArea->subject->name.' · '.$attempt->finished_at->diffForHumans()"
+                        :nr="$attempt->percent().'%'"
+                        :href="route('learn.topic', [$attempt->topic->topicArea->subject, $attempt->topic->topicArea, $attempt->topic])"
+                        :style="$attempt->passed ? '--row-ok:1' : ''">
+                        <span class="rq-badge {{ $attempt->passed ? 'rq-badge--green' : 'rq-badge--amber' }}">{{ $attempt->passed ? 'Bestanden' : 'Nochmal' }}</span>
+                    </x-raque.row>
+                @endforeach
+            @endif
+        </x-raque.card>
+
+        <x-slot:right>
+            <x-raque.card title="Entdecken" footer="Alle Fächer" :footer-href="route('learn.index')">
+                <div class="rq-explore">
+                    @foreach ($this->subjects as $subject)
+                        <div class="rq-explore__group" wire:key="explore-{{ $subject->id }}">
+                            <h6>{{ $subject->name }}</h6>
+                            <ul>
+                                @foreach ($subject->topicAreas as $area)
+                                    <li><a href="{{ route('learn.subject', $subject) }}#tf-{{ $area->sort }}" wire:navigate>#{{ $area->name }}</a></li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endforeach
+                </div>
+            </x-raque.card>
+
+            <x-raque.card title="Nächste Themen" footer="Zum Stundenplan" :footer-href="route('school-day')">
+                @foreach ($this->subjects as $subject)
+                    @php $next = $subject->topicAreas->flatMap->topics->first(fn ($t) => ! ($t->progress->first()?->status->isPassed() ?? false)); @endphp
+                    @if ($next)
+                        <x-raque.row wire:key="next-{{ $subject->id }}" :title="$next->title" :sub="$subject->name.' · TF '.$next->topicArea->sort"
+                            :icon="['mathematik' => 'bx bx-math', 'chemie' => 'bx bx-test-tube', 'informatik' => 'bx bx-code-alt'][$subject->slug] ?? 'bx bx-book'"
+                            :href="route('learn.topic', [$subject, $next->topicArea, $next])">
+                            <a href="{{ route('learn.topic', [$subject, $next->topicArea, $next]) }}" class="rq-icon-btn rq-icon-btn--sm rq-icon-btn--outlined" aria-label="Öffnen" wire:navigate><i class="bx bx-right-arrow-alt"></i></a>
+                        </x-raque.row>
+                    @endif
+                @endforeach
+            </x-raque.card>
+
+            <div class="rq-card rq-banner-card">
+                <div class="rq-banner-card__inner">
+                    <div class="rq-banner-card__overlay">
+                        <span class="rq-banner-card__eyebrow">Dein Schultag</span>
+                        <h4>Drei Doppelstunden, zwei Bewegungspausen – 8 bis 13 Uhr.</h4>
+                        <div><x-raque.button variant="on-primary" :href="route('school-day')" wire:navigate>Stundenplan öffnen</x-raque.button></div>
+                    </div>
+                </div>
+            </div>
+        </x-slot:right>
+    </x-raque.shell>
 </div>

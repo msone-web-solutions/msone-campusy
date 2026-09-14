@@ -22,7 +22,7 @@
                 <h1>Der komplette Lehrplan der 7. Klasse – Thema für Thema erklärt</h1>
                 <p>Campusy ist der Lehrer zu Hause: Jedes Thema wird Schritt für Schritt erklärt, der Hefteintrag steht fertig zum Abschreiben bereit, und ein interaktiver Test am Ende zeigt, ob alles sitzt. Aufgebaut nach dem gültigen Fachlehrplan Sekundarschule Sachsen-Anhalt.</p>
                 <div style="display:flex;gap:15px;flex-wrap:wrap">
-                    <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('register')" icon="bx bx-book-open" wire:navigate>{{ auth()->check() && auth()->user()->isParent() ? 'Zum Wochenbericht' : 'Alle Fächer ansehen' }}</x-raque.button>
+                    <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('login')" icon="bx bx-book-open" wire:navigate>{{ auth()->check() && auth()->user()->isParent() ? 'Zum Wochenbericht' : 'Alle Fächer ansehen' }}</x-raque.button>
                     @guest
                         <x-raque.button :href="route('login')" variant="outline" wire:navigate>Login</x-raque.button>
                     @endguest
@@ -119,7 +119,7 @@
     </section>
 
     <x-raque.cta-banner title="Heute anfangen – der erste Test wartet schon">
-        <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('register')" variant="on-primary" wire:navigate>Kostenlos starten</x-raque.button>
+        <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('login')" variant="on-primary" wire:navigate>Anmelden</x-raque.button>
     </x-raque.cta-banner>
 
     <x-raque.footer />
