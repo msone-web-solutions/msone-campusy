@@ -10,6 +10,7 @@ Route::middleware(['auth', 'verified', 'role:student'])->group(function () {
     Route::livewire('dashboard', 'pages::dashboard')->name('dashboard');
     Route::livewire('ueben', 'pages::practice')->name('practice');
     Route::livewire('schultag', 'pages::school-day')->name('school-day');
+    Route::livewire('wochenplan', 'pages::week-plan')->name('week-plan');
 
     Route::livewire('lernen', 'pages::learn.index')->name('learn.index');
     Route::livewire('lernen/{subject}', 'pages::learn.subject')->name('learn.subject');
@@ -24,6 +25,7 @@ Route::middleware(['auth', 'verified', 'role:student'])->group(function () {
 // Eltern: Wochenübersicht der verknüpften Kinder
 Route::middleware(['auth', 'verified', 'role:parent'])->group(function () {
     Route::livewire('eltern', 'pages::parent-dashboard')->name('parent.dashboard');
+    Route::livewire('eltern/stundenplan/{child}', 'pages::parent-schedule')->name('parent.schedule');
 });
 
 require __DIR__.'/settings.php';

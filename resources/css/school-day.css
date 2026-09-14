@@ -3,7 +3,25 @@
    ============================================================ */
 .rq-day { --subj-mathematik: #142fdb; --subj-chemie: #7bb544; --subj-informatik: #00b2a9; --amber: #f2b827; }
 .rq-day__layout { display: grid; grid-template-columns: 380px minmax(0, 1fr); gap: 30px; align-items: start; }
-@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } }
+.rq-day__lernstand { grid-column: 1; }
+.rq-day__timeline-wrap { grid-column: 2; grid-row: 1 / span 2; }
+.rq-day__now-badge--late { color: #b45309; background: rgba(242,184,39,.18); }
+.rq-day__now-badge--done { color: #5a8f2b; background: rgba(123,181,68,.14); }
+.rq-day__block.is-late { border-left-color: var(--amber); box-shadow: 0 0 0 2px rgba(242,184,39,.35); }
+.rq-day__block.is-focus:not(.is-done) { box-shadow: 0 12px 28px rgba(20, 47, 219, .16), 0 0 0 2px rgba(20,47,219,.25); }
+.rq-day__units { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.rq-day__units li { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: var(--radius-control); background: var(--surface-inset); }
+.rq-day__units li.is-passed { opacity: .65; }
+.rq-day__units li.is-passed a { text-decoration: line-through; }
+.rq-day__unit-nr { flex: 0 0 auto; min-width: 38px; height: 30px; padding: 0 8px; border-radius: var(--radius-icon-btn); background: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: var(--color-icon); font-variant-numeric: tabular-nums; }
+.rq-day__unit-steps { display: flex; gap: 6px; flex: 0 0 auto; }
+.rq-day__unit-steps span { width: 28px; height: 28px; border-radius: 50%; background: #fff; color: #cfcfcf; display: inline-flex; align-items: center; justify-content: center; font-size: 15px; }
+.rq-day__unit-steps span.is-ok { background: var(--subj-chemie); color: #fff; }
+.rq-pace { position: relative; }
+.rq-pace > span { position: absolute; left: 0; top: 0; height: 100%; }
+.rq-pace__soll { background: rgba(20,47,219,.18); }
+.rq-pace__ist { background: var(--color-primary); }
+@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } .rq-day__lernstand, .rq-day__timeline-wrap { grid-column: 1; grid-row: auto; } }
 
 /* ---- Uhr ---- */
 .rq-day__clock-card { padding: 30px; position: sticky; top: calc(var(--header-height) + 20px); display: grid; gap: 22px; }
@@ -272,3 +290,40 @@
 .rq-fig--eyes .rq-fig__head { animation: rq-look 4s ease-in-out infinite; }
 @keyframes rq-look { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(20deg); } }
 @keyframes rq-eyes { 0%, 100% { transform: scale(1); opacity: .6; } 50% { transform: scale(1.4); opacity: 1; } }
+
+/* ---- Wochenplan ---- */
+.rq-week__status { padding: 20px 25px; }
+.rq-week__status-main { display: flex; align-items: center; gap: 25px; flex-wrap: wrap; }
+.rq-week__kpis { display: flex; gap: 25px; flex-wrap: wrap; }
+.rq-week__kpis div { display: grid; gap: 2px; }
+.rq-week__kpis strong { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.rq-week__grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; align-items: start; }
+.rq-week__grid > *, .rq-week__day > *, .rq-week__block > *, .rq-week__item > span { min-width: 0; }
+.rq-week__item-title { overflow-wrap: anywhere; }
+@media (max-width: 1100px) { .rq-week__grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; } }
+@media (max-width: 700px) { .rq-week__grid { grid-template-columns: 1fr 1fr !important; } }
+@media (max-width: 480px) { .rq-week__grid { grid-template-columns: 1fr !important; } }
+.rq-week__day { padding: 14px; display: grid; gap: 8px; min-height: 160px; }
+.rq-week__day.is-free { background: transparent; box-shadow: none; border: 2px dashed var(--border-default); min-height: 0; }
+.rq-week__day.is-free .rq-week__day-head { flex-direction: column; }
+.rq-week__day.is-past { opacity: .85; }
+.rq-week__day.is-today { box-shadow: 0 12px 28px rgba(20, 47, 219, .16), 0 0 0 2px rgba(20,47,219,.25); }
+.rq-week__day-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; margin-bottom: 4px; }
+.rq-week__day-name { display: block; font-weight: 600; font-size: 15px; }
+.rq-week__empty { font-size: 13px; line-height: 1.5; }
+.rq-week__block { border-radius: var(--radius-control); background: var(--surface-inset); padding: 8px; display: grid; gap: 6px; border-left: 3px solid var(--raque-grey-300); }
+.rq-week__block-head { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); }
+.rq-week__block-head i { font-size: 16px; color: var(--color-icon); }
+.rq-week__item { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.35; padding: 6px 8px; border-radius: 6px; background: #fff; color: var(--text-heading); }
+.rq-week__item > i { font-size: 18px; color: var(--subj-chemie); flex: 0 0 auto; }
+.rq-week__item .rq-day__unit-nr { min-width: 32px; height: 24px; font-size: 11px; }
+.rq-week__item-title { display: block; font-weight: 500; }
+.rq-week__item.is-passed { background: rgba(123,181,68,.10); }
+.rq-week__item.is-passed .rq-week__item-title { text-decoration: line-through; opacity: .8; }
+.rq-week__item--mathematik.rq-week__block, .rq-week__item--mathematik.rq-week__item { border-left: 3px solid var(--subj-mathematik); }
+.rq-week__item--chemie.rq-week__block, .rq-week__item--chemie.rq-week__item { border-left: 3px solid var(--subj-chemie); }
+.rq-week__item--informatik.rq-week__block, .rq-week__item--informatik.rq-week__item { border-left: 3px solid var(--subj-informatik); }
+.rq-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.rq-table th, .rq-table td { text-align: left; padding: 12px 20px; border-bottom: 1px solid var(--border-default); vertical-align: middle; }
+.rq-table th { font-size: 12px; text-transform: uppercase; color: var(--text-secondary); font-weight: 500; }
+.rq-table tbody tr:last-child td { border-bottom: 0; }

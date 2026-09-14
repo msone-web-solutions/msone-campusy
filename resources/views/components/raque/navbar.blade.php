@@ -25,6 +25,7 @@
                 @else
                     <li><a href="{{ route('dashboard') }}" class="rq-navbar__link {{ request()->routeIs('dashboard') ? 'is-active' : '' }}" wire:navigate><i class="bx bx-home"></i>Home</a></li>
                     <li><a href="{{ route('school-day') }}" class="rq-navbar__link {{ request()->routeIs('school-day') ? 'is-active' : '' }}" wire:navigate><i class="bx bx-time-five"></i>Schultag</a></li>
+                    <li><a href="{{ route('week-plan') }}" class="rq-navbar__link {{ request()->routeIs('week-plan') ? 'is-active' : '' }}" wire:navigate><i class="bx bx-calendar-week"></i>Woche</a></li>
                     <li><a href="{{ route('learn.index') }}" class="rq-navbar__link {{ request()->routeIs('learn.*') ? 'is-active' : '' }}" wire:navigate><i class="bx bx-book-open"></i>Fächer</a></li>
                     <li><a href="{{ route('practice') }}" class="rq-navbar__link {{ request()->routeIs('practice') ? 'is-active' : '' }}" wire:navigate><i class="bx bx-refresh"></i>Üben @if ($due > 0)<span class="rq-navbar__count">{{ $due }}</span>@endif</a></li>
                 @endif

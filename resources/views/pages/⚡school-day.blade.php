@@ -32,12 +32,13 @@ new #[Title('Dein Schultag')] class extends Component
             'subject' => $b['subject']?->slug,
             'lessons' => $b['lessons'],
             'exercises' => $b['exercises'],
+            'done' => $b['done'],
         ], $this->plan['blocks']);
     }
 };
 ?>
 
-<div x-data="schoolDay(@js($this->clientBlocks))" x-init="init()" class="rq-day">
+<div x-data="schoolDay(@js($this->clientBlocks), @js($this->plan['first_open']))" x-init="init()" class="rq-day">
     @php
         $plan = $this->plan;
         $weekdays = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
@@ -46,9 +47,9 @@ new #[Title('Dein Schultag')] class extends Component
     @endphp
 
     <x-raque.page-banner title="Dein Schultag" eyebrow="Stundenplan">
-        <p style="color:#fff;opacity:.9;margin-top:4px">{{ $dateLabel }} · drei Doppelstunden, zwei Bewegungspausen, 8 bis 13 Uhr.</p>
+        <p style="color:#fff;opacity:.9;margin-top:4px">{{ $dateLabel }} · {{ $plan['lessons_total'] }} Doppelstunden, {{ max(0, $plan['lessons_total'] - 1) }} Bewegungspausen, {{ intdiv($plan['settings']->day_start, 60) }}:{{ sprintf('%02d', $plan['settings']->day_start % 60) }} bis {{ intdiv($plan['day_end'], 60) }}:{{ sprintf('%02d', $plan['day_end'] % 60) }} Uhr.</p>
         @unless ($plan['is_school_day'])
-            <p style="margin-top:12px"><span class="rq-badge" style="background:#fff;color:var(--color-primary)"><i class="bx bx-sun"></i>Wochenende – das ist dein Plan für Montag</span></p>
+            <p style="margin-top:12px"><span class="rq-badge" style="background:#fff;color:var(--color-primary)"><i class="bx bx-sun"></i>Kein Schultag – das ist dein Plan für {{ $weekdays[$plan['date']->dayOfWeekIso - 1] }}</span></p>
         @endunless
     </x-raque.page-banner>
 
@@ -105,9 +106,15 @@ new #[Title('Dein Schultag')] class extends Component
                     </template>
                     <template x-if="!current && state === 'after'">
                         <div>
-                            <span class="rq-eyebrow" style="margin-bottom:2px;color:var(--color-secondary)">Schultag geschafft</span>
-                            <h2 class="rq-day__status-title">Feierabend! 🎉</h2>
-                            <p class="rq-muted" style="margin-top:4px">Alle drei Doppelstunden liegen hinter dir. Morgen früh um 8 geht's weiter.</p>
+                            @if ($plan['lessons_done'] >= $plan['lessons_total'])
+                                <span class="rq-eyebrow" style="margin-bottom:2px;color:var(--color-secondary)">Schultag geschafft</span>
+                                <h2 class="rq-day__status-title">Feierabend! 🎉</h2>
+                                <p class="rq-muted" style="margin-top:4px">Alle {{ $plan['lessons_total'] }} Doppelstunden liegen hinter dir. Beim nächsten Schultag geht's weiter.</p>
+                            @else
+                                <span class="rq-eyebrow" style="margin-bottom:2px;color:#b45309">Schultag vorbei</span>
+                                <h2 class="rq-day__status-title">{{ $plan['lessons_total'] - $plan['lessons_done'] }} von {{ $plan['lessons_total'] }} Blöcken offen</h2>
+                                <p class="rq-muted" style="margin-top:4px">Was heute liegen geblieben ist, steht morgen als Erstes im Plan – oder du holst jetzt noch einen Block nach.</p>
+                            @endif
                         </div>
                     </template>
 
@@ -120,15 +127,51 @@ new #[Title('Dein Schultag')] class extends Component
                 {{-- Vorschau: Uhr stellen (für den POC, damit der Tagesablauf jederzeit zu sehen ist) --}}
                 <div class="rq-day__sim">
                     <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer"><input type="checkbox" x-model="simulate"> Vorschau: Uhr stellen</label>
-                    <input type="range" min="465" max="795" step="1" x-model.number="simMinutes" x-show="simulate" x-cloak style="width:100%;margin-top:8px;accent-color:var(--color-primary)">
+                    <input type="range" min="{{ $plan['settings']->day_start - 15 }}" max="{{ $plan['day_end'] + 15 }}" step="1" x-model.number="simMinutes" x-show="simulate" x-cloak style="width:100%;margin-top:8px;accent-color:var(--color-primary)">
                 </div>
             </div>
+
+            {{-- Lernstand --}}
+            @php $pace = $plan['pace']; @endphp
+            <div class="rq-day__lernstand">
+            <x-raque.card title="Lernstand" footer="Zum Wochenplan" :footer-href="route('week-plan')">
+                <div class="rq-card__body" style="display:grid;gap:14px">
+                    @if ($pace['backlog_blocks'] > 0)
+                        <div class="rq-callout rq-callout--red" style="padding:14px 16px">
+                            <i class="bx bx-error"></i>
+                            <div><strong style="color:var(--text-heading)">Rückstand: {{ $pace['backlog_blocks'] }} {{ $pace['backlog_blocks'] === 1 ? 'Block' : 'Blöcke' }}</strong><p style="line-height:1.5">≈ {{ number_format(abs($pace['backlog_days']), 1, ',', '.') }} Schultage hinter dem Plan. Offene Themen rücken automatisch nach vorn – heute aufholen lohnt sich.</p></div>
+                        </div>
+                    @elseif ($pace['backlog_blocks'] < 0)
+                        <div class="rq-callout rq-callout--green" style="padding:14px 16px">
+                            <i class="bx bx-trending-up"></i>
+                            <div><strong style="color:var(--text-heading)">Vorsprung: {{ abs($pace['backlog_blocks']) }} {{ abs($pace['backlog_blocks']) === 1 ? 'Block' : 'Blöcke' }}</strong><p style="line-height:1.5">Du bist dem Plan ≈ {{ number_format(abs($pace['backlog_days']), 1, ',', '.') }} Schultage voraus.</p></div>
+                        </div>
+                    @else
+                        <div class="rq-callout rq-callout--green" style="padding:14px 16px"><i class="bx bx-check-circle"></i><div><strong style="color:var(--text-heading)">Im Plan</strong><p style="line-height:1.5">Soll und Ist stimmen überein.</p></div></div>
+                    @endif
+
+                    <div>
+                        <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px"><span>Ist: {{ $pace['percent_done'] }} % des Lehrplans</span><span class="rq-muted">Soll: {{ $pace['percent_expected'] }} %</span></div>
+                        <div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div>
+                    </div>
+
+                    <ul class="rq-profile__stats" style="padding:0">
+                        <li><span>Heute geschafft</span><span>{{ $plan['lessons_done'] }} / {{ $plan['lessons_total'] }} Blöcke</span></li>
+                        <li><span>Offene Blöcke gesamt</span><span>{{ $pace['remaining_blocks'] }}</span></li>
+                        <li><span>Schultage bis fertig</span><span>{{ $pace['school_days_left'] }}</span></li>
+                        <li><span>Voraussichtlich fertig</span><span>{{ $pace['finish_date']?->format('d.m.Y') ?? '–' }}</span></li>
+                    </ul>
+                </div>
+            </x-raque.card>
+            </div>
+
+            <div class="rq-day__timeline-wrap">
 
             {{-- Timeline --}}
             <div class="rq-day__timeline">
                 @foreach ($plan['blocks'] as $i => $block)
                     <div class="rq-card rq-day__block rq-day__block--{{ $block['type'] }} {{ $block['subject'] ? 'rq-day__block--'.$block['subject']->slug : '' }}"
-                         :class="{ 'is-now': current === blocks[{{ $i }}], 'is-done': minutes() >= blocks[{{ $i }}].end, 'is-next': minutes() < blocks[{{ $i }}].start }"
+                         :class="{ 'is-now': current === blocks[{{ $i }}], 'is-done': isDone({{ $i }}), 'is-next': minutes() < blocks[{{ $i }}].start && !isDone({{ $i }}), 'is-late': isLate({{ $i }}), 'is-focus': firstOpen === {{ $i }} }"
                          style="--delay: {{ $i * 90 }}ms" wire:key="block-{{ $i }}">
                         <div class="rq-day__time">
                             <span class="rq-num">{{ sprintf('%d:%02d', intdiv($block['start'], 60), $block['start'] % 60) }}</span>
@@ -142,13 +185,15 @@ new #[Title('Dein Schultag')] class extends Component
                                     <h3 class="rq-day__title">{{ $block['title'] }}</h3>
                                     <p class="rq-day__subtitle">{{ $block['subtitle'] }}</p>
                                 </div>
-                                <span class="rq-day__now-badge" x-show="current === blocks[{{ $i }}]" x-cloak><span class="rq-day__pulse"></span>Jetzt</span>
+                                <span class="rq-day__now-badge" x-show="current === blocks[{{ $i }}] && !isDone({{ $i }})" x-cloak><span class="rq-day__pulse"></span>Jetzt</span>
+                                <span class="rq-day__now-badge rq-day__now-badge--late" x-show="isLate({{ $i }})" x-cloak><i class="bx bx-time"></i>Nachholen</span>
+                                <span class="rq-day__now-badge rq-day__now-badge--done" x-show="isDone({{ $i }})" x-cloak><i class="bx bx-check"></i>Geschafft</span>
                             </div>
 
                             @if ($block['type'] === 'lesson')
                                 <ol class="rq-day__lessons">
                                     @foreach ($block['lessons'] as $j => $lesson)
-                                        <li :class="{ 'is-now': current === blocks[{{ $i }}] && currentLesson() === blocks[{{ $i }}].lessons[{{ $j }}], 'is-done': minutes() >= blocks[{{ $i }}].lessons[{{ $j }}].end }" class="{{ $lesson['label'] === 'Mikropause' ? 'is-micro' : '' }}">
+                                        <li :class="{ 'is-now': current === blocks[{{ $i }}] && currentLesson() === blocks[{{ $i }}].lessons[{{ $j }}], 'is-done': isDone({{ $i }}) }" class="{{ $lesson['label'] === 'Mikropause' ? 'is-micro' : '' }}">
                                             <span class="rq-num">{{ sprintf('%d:%02d', intdiv($lesson['start'], 60), $lesson['start'] % 60) }}</span>
                                             <span>{{ $lesson['label'] }}</span>
                                             @if ($lesson['label'] === 'Mikropause')
@@ -157,17 +202,31 @@ new #[Title('Dein Schultag')] class extends Component
                                         </li>
                                     @endforeach
                                 </ol>
-                                @if ($block['topic'])
-                                    <div class="rq-day__topic">
-                                        <div style="min-width:0">
-                                            <span class="rq-tag">{{ $block['subject']->name }} · TF {{ $block['topic']->topicArea->sort }} · {{ $block['topic']->topicArea->name }}</span>
-                                            <div style="font-weight:500;margin-top:2px">{{ $block['topic']->title }} <span class="rq-muted" style="font-weight:400;font-size:13px">· ca. {{ $block['topic']->estimated_minutes }} min</span></div>
+                                @if ($block['units'])
+                                    <ul class="rq-day__units">
+                                        @foreach ($block['units'] as $u)
+                                            <li class="{{ $u['passed'] ? 'is-passed' : '' }}" wire:key="unit-{{ $i }}-{{ $loop->index }}">
+                                                <span class="rq-day__unit-nr">{{ $u['topic']->topicArea->sort }}.{{ $u['topic']->sort }}</span>
+                                                <span style="min-width:0;flex:1">
+                                                    <a href="{{ route('learn.topic', [$u['topic']->topicArea->subject, $u['topic']->topicArea, $u['topic']]) }}" wire:navigate style="font-weight:500">{{ $u['topic']->title }}</a>
+                                                    @if ($u['parts'] > 1)<span class="rq-badge" style="margin-left:6px">Teil {{ $u['part'] }} / {{ $u['parts'] }}</span>@endif
+                                                    <span class="rq-muted" style="display:block">{{ $u['topic']->topicArea->name }} · ca. {{ $u['minutes'] }} min</span>
+                                                </span>
+                                                <span class="rq-day__unit-steps">
+                                                    <span class="{{ $u['notebook'] || $u['passed'] ? 'is-ok' : '' }}" title="Hefteintrag"><i class="bx bx-pencil"></i></span>
+                                                    <span class="{{ $u['passed'] ? 'is-ok' : '' }}" title="Test bestanden"><i class="bx bx-task"></i></span>
+                                                </span>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                    @unless ($block['done'])
+                                        <div style="margin-top:12px;display:flex;justify-content:flex-end">
+                                            <x-raque.button :href="$block['href']" size="sm" icon="bx bx-right-arrow-alt" wire:navigate>{{ $block['topic']?->title }}</x-raque.button>
                                         </div>
-                                        <x-raque.button :href="$block['href']" size="sm" icon="bx bx-right-arrow-alt" wire:navigate>Thema öffnen</x-raque.button>
-                                    </div>
-                                @elseif ($block['subject'])
+                                    @endunless
+                                @else
                                     <div class="rq-day__topic">
-                                        <div><span class="rq-tag">{{ $block['subject']->name }}</span><div style="font-weight:500;margin-top:2px">Alle Themen bestanden – wiederholen und sichern</div></div>
+                                        <div><span class="rq-tag">Frei</span><div style="font-weight:500;margin-top:2px">Alle Themen bestanden – wiederholen und sichern</div></div>
                                         <x-raque.button :href="route('practice')" size="sm" icon="bx bx-refresh" wire:navigate>Üben</x-raque.button>
                                     </div>
                                 @endif
@@ -202,8 +261,9 @@ new #[Title('Dein Schultag')] class extends Component
 
                 <div class="rq-callout" style="margin-top:10px">
                     <i class="bx bx-bulb"></i>
-                    <p><strong>Warum so?</strong> Zwei Lernblöcke à 40 Minuten mit Mikropause, danach richtig bewegen: Bewegung bringt Sauerstoff ins Gehirn und verbessert nachweislich Aufmerksamkeit und Gedächtnis. Die Fächer wechseln jeden Tag die Reihenfolge, damit keins immer im müden dritten Block landet.</p>
+                    <p><strong>Warum so?</strong> Zwei Lernblöcke mit Mikropause, danach richtig bewegen: Bewegung bringt Sauerstoff ins Gehirn und verbessert nachweislich Aufmerksamkeit und Gedächtnis. Die Fächer sind nach Gewichtung verzahnt, kurze Themen teilen sich eine Doppelstunde, lange werden aufgeteilt – und was liegen bleibt, rutscht automatisch in den nächsten Block.</p>
                 </div>
+            </div>
             </div>
         </div>
     </section>
@@ -290,9 +350,10 @@ new #[Title('Dein Schultag')] class extends Component
     </div>
 
     <script>
-        function schoolDay(blocks) {
+        function schoolDay(blocks, firstOpen) {
             return {
                 blocks,
+                firstOpen,
                 now: new Date(),
                 simulate: false,
                 simMinutes: 8 * 60 + 20,
@@ -324,6 +385,8 @@ new #[Title('Dein Schultag')] class extends Component
                     this.current = this.blocks.find(b => m >= b.start && m < b.end) || null;
                     this.state = this.current ? 'in' : (m < this.blocks[0].start ? 'before' : 'after');
                 },
+                isDone(i) { const b = this.blocks[i]; return b.type === 'lesson' ? b.done : this.minutes() >= b.end; },
+                isLate(i) { const b = this.blocks[i]; return b.type === 'lesson' && !b.done && this.minutes() >= b.end; },
                 currentLesson() {
                     if (!this.current || !this.current.lessons.length) return null;
                     const m = this.minutes();

@@ -6,6 +6,7 @@ use App\Models\Topic;
 use App\Models\TopicProgress;
 use App\Models\User;
 use App\Review\ReviewPlanner;
+use App\Schedule\Curriculum;
 use Illuminate\Support\Collection;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Title;
@@ -53,6 +54,7 @@ new #[Title('Elternübersicht')] class extends Component
             'lastActive' => $attempts->first()?->finished_at,
             'streak' => $streak,
             'recent' => $attempts->take(5),
+            'pace' => Curriculum::for($child)->pace(now()),
         ];
     }
 };
@@ -71,6 +73,23 @@ new #[Title('Elternübersicht')] class extends Component
                     <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px">
                         <h2 style="font-size:26px;font-weight:600">{{ $child->name }}</h2>
                         <span class="rq-muted">Zuletzt aktiv: {{ $r['lastActive']?->diffForHumans() ?? 'noch nie' }} · Lernsträhne: {{ $r['streak'] }} {{ $r['streak'] === 1 ? 'Tag' : 'Tage' }}</span>
+                    </div>
+
+                    @php $pace = $r['pace']; @endphp
+                    <div class="rq-card" style="padding:18px 25px;display:flex;align-items:center;gap:25px;flex-wrap:wrap;border-left:5px solid {{ $pace['backlog_blocks'] > 0 ? 'var(--micko-amber-500)' : 'var(--color-success)' }}">
+                        @if ($pace['backlog_blocks'] > 0)
+                            <span class="rq-badge rq-badge--amber" style="font-size:13px;padding:6px 12px"><i class="bx bx-error"></i>Rückstand: {{ $pace['backlog_blocks'] }} {{ $pace['backlog_blocks'] === 1 ? 'Block' : 'Blöcke' }} · ≈ {{ number_format(abs($pace['backlog_days']), 1, ',', '.') }} Schultage</span>
+                        @elseif ($pace['backlog_blocks'] < 0)
+                            <span class="rq-badge rq-badge--green" style="font-size:13px;padding:6px 12px"><i class="bx bx-trending-up"></i>Vorsprung: {{ abs($pace['backlog_blocks']) }} Blöcke</span>
+                        @else
+                            <span class="rq-badge rq-badge--green" style="font-size:13px;padding:6px 12px"><i class="bx bx-check-circle"></i>Im Plan</span>
+                        @endif
+                        <div style="flex:1;min-width:200px">
+                            <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px"><span>Ist {{ $pace['percent_done'] }} %</span><span class="rq-muted">Soll {{ $pace['percent_expected'] }} %</span></div>
+                            <div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div>
+                        </div>
+                        <span class="rq-muted">Voraussichtlich fertig: <strong style="color:var(--text-heading)">{{ $pace['finish_date']?->format('d.m.Y') ?? '–' }}</strong></span>
+                        <x-raque.button size="sm" variant="outline" icon="bx bx-cog" :href="route('parent.schedule', $child)" wire:navigate>Stundenplan einstellen</x-raque.button>
                     </div>
 
                     <div class="rq-grid rq-grid--4">

@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
@@ -103,6 +104,12 @@ class User extends Authenticatable implements PasskeyUser
     public function children(): HasMany
     {
         return $this->hasMany(User::class, 'parent_id');
+    }
+
+    /** @return HasOne<ScheduleSetting, $this> */
+    public function scheduleSetting(): HasOne
+    {
+        return $this->hasOne(ScheduleSetting::class);
     }
 
     public function isParent(): bool

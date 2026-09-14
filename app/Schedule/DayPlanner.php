@@ -2,19 +2,22 @@
 
 namespace App\Schedule;
 
-use App\Enums\ProgressStatus;
+use App\Models\ScheduleSetting;
 use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\User;
 use App\Review\ReviewPlanner;
+use Carbon\CarbonImmutable;
 use Carbon\CarbonInterface;
-use Illuminate\Support\Collection;
 
 /**
- * Baut den Stundenplan eines Schultags: drei Doppelstunden von 8 bis 13 Uhr,
- * dazwischen Bewegungspausen mit Sport- und Dehnübungen für zu Hause.
+ * Baut den Stundenplan eines Schultags aus dem Lernstand: die offenen Themen
+ * werden in Doppelstunden gepackt, Rückstand rutscht automatisch nach vorn.
+ * Zeitraster, Blockanzahl und Pausen kommen aus den ScheduleSettings.
  *
  * @phpstan-import-type Exercise from ExerciseLibrary
+ * @phpstan-import-type Unit from Curriculum
+ * @phpstan-import-type Pace from Curriculum
  *
  * @phpstan-type Block array{
  *     type: string,
@@ -27,14 +30,16 @@ use Illuminate\Support\Collection;
  *     topic: ?Topic,
  *     href: ?string,
  *     lessons: list<array{start: int, end: int, label: string}>,
- *     exercises: array<int, Exercise>
+ *     exercises: array<int, Exercise>,
+ *     units: list<Unit>,
+ *     done: bool
  * }
  */
 class DayPlanner
 {
-    public const int DAY_START = 8 * 60;
+    public const int WARMUP_MINUTES = 15;
 
-    public const int DAY_END = 13 * 60;
+    public const int COOLDOWN_MINUTES = 10;
 
     public function __construct(
         private ExerciseLibrary $exercises = new ExerciseLibrary,
@@ -44,104 +49,137 @@ class DayPlanner
     }
 
     /**
-     * @return array{date: CarbonInterface, is_school_day: bool, blocks: list<Block>, due: int}
+     * @return array{
+     *     date: CarbonInterface, is_school_day: bool, blocks: list<Block>, due: int,
+     *     settings: ScheduleSetting, pace: Pace, lessons_total: int, lessons_done: int, first_open: ?int, day_end: int
+     * }
      */
     public function planFor(User $user, CarbonInterface $date): array
     {
-        $isSchoolDay = $date->isWeekday();
-        $planDate = $isSchoolDay ? $date : $date->next(CarbonInterface::MONDAY);
-        $subjects = $this->subjectsFor($planDate);
+        $curriculum = Curriculum::for($user);
+        $settings = $curriculum->settings();
+        $today = CarbonImmutable::instance($date)->startOfDay();
+        $isSchoolDay = $settings->isSchoolDay($today);
+        $planDate = $isSchoolDay ? $today : $this->nextSchoolDay($settings, $today);
+
+        // Heute erledigte Blöcke bleiben sichtbar: bestandene Themen von heute zuerst,
+        // dann die offenen Einheiten in Planreihenfolge.
+        $doneUnits = $curriculum->passedOn($today)->map(fn (Topic $t) => [
+            'topic' => $t, 'part' => 1, 'parts' => 1, 'minutes' => max(10, (int) $t->estimated_minutes), 'passed' => true, 'notebook' => true,
+        ])->values()->all();
+        $doneBlocks = array_map(fn (array $b) => ['done' => true] + $b, $curriculum->packBlocks($doneUnits));
+
+        $perDay = max(1, $settings->blocks_per_day);
+        $openBlocks = array_slice($curriculum->packBlocks(), 0, max(0, $perDay - count($doneBlocks)));
+        $packed = array_slice(array_merge($doneBlocks, $openBlocks), 0, $perDay);
 
         $blocks = [];
-        $blocks[] = $this->block('warmup', 8 * 60, 8 * 60 + 15, 'Ankommen & Aufwärmen', 'Wasser trinken, Fenster auf, kurz dehnen – dann die tägliche Übung.', 'bx bx-sun', href: route('practice'), exercises: $this->exercises->warmup($planDate)->all());
-        $blocks[] = $this->lesson(1, 8 * 60 + 15, 9 * 60 + 40, $subjects->get(0), $user);
-        $blocks[] = $this->block('break', 9 * 60 + 40, 10 * 60, 'Bewegungspause', 'Raus aus dem Stuhl: fünf Übungen, dann Snack und Wasser.', 'bx bx-run', exercises: $this->exercises->movementBreak($planDate, 1)->all());
-        $blocks[] = $this->lesson(2, 10 * 60, 11 * 60 + 25, $subjects->get(1), $user);
-        $blocks[] = $this->block('break', 11 * 60 + 25, 11 * 60 + 45, 'Bewegungspause', 'Noch einmal Kreislauf anwerfen – der letzte Block wird leichter.', 'bx bx-run', exercises: $this->exercises->movementBreak($planDate, 2)->all());
-        $blocks[] = $this->lesson(3, 11 * 60 + 45, 13 * 60, $subjects->get(2), $user);
-        $blocks[] = $this->block('cooldown', 13 * 60, 13 * 60 + 10, 'Feierabend', 'Dehnen, durchatmen, kurz zurückblicken: Was hast du heute gelernt?', 'bx bx-party', href: route('dashboard'), exercises: $this->exercises->cooldown($planDate)->all());
+        $t = $settings->day_start;
+        $blocks[] = $this->block('warmup', $t, $t + self::WARMUP_MINUTES, 'Ankommen & Aufwärmen', 'Wasser trinken, Fenster auf, kurz dehnen – dann die tägliche Übung.', 'bx bx-sun', href: route('practice'), exercises: $this->exercises->warmup($planDate)->all());
+        $t += self::WARMUP_MINUTES;
+
+        $lessonsDone = 0;
+        $firstOpen = null;
+        for ($i = 0; $i < $perDay; $i++) {
+            if ($i > 0) {
+                $blocks[] = $this->block('break', $t, $t + $settings->break_minutes, 'Bewegungspause', $i === 1 ? 'Raus aus dem Stuhl: fünf Übungen, dann Snack und Wasser.' : 'Noch einmal Kreislauf anwerfen – der nächste Block wird leichter.', 'bx bx-run', exercises: $this->exercises->movementBreak($planDate, $i)->all());
+                $t += $settings->break_minutes;
+            }
+
+            $lesson = $this->lesson($i + 1, $t, $t + $settings->lesson_minutes, $packed[$i] ?? null);
+            if ($lesson['done']) {
+                $lessonsDone++;
+            } elseif ($firstOpen === null && $lesson['subject'] !== null) {
+                $firstOpen = count($blocks);
+            }
+            $blocks[] = $lesson;
+            $t += $settings->lesson_minutes;
+        }
+
+        $dayEnd = $t;
+        $blocks[] = $this->block('cooldown', $t, $t + self::COOLDOWN_MINUTES, 'Feierabend', 'Dehnen, durchatmen, kurz zurückblicken: Was hast du heute gelernt?', 'bx bx-party', href: route('dashboard'), exercises: $this->exercises->cooldown($planDate)->all());
 
         return [
             'date' => $planDate,
             'is_school_day' => $isSchoolDay,
             'blocks' => $blocks,
             'due' => $this->reviews->dueCountFor($user),
+            'settings' => $settings,
+            'pace' => $curriculum->pace($today),
+            'lessons_total' => $perDay,
+            'lessons_done' => $lessonsDone,
+            'first_open' => $firstOpen,
+            'day_end' => $dayEnd,
         ];
     }
 
-    /**
-     * Fächer-Rotation: jeder Wochentag beginnt mit einem anderen Fach, damit
-     * kein Fach immer in der müden dritten Doppelstunde landet (Interleaving).
-     *
-     * @return Collection<int, Subject>
-     */
-    public function subjectsFor(CarbonInterface $date): Collection
+    private function nextSchoolDay(ScheduleSetting $settings, CarbonImmutable $from): CarbonImmutable
     {
-        $subjects = Subject::query()->orderBy('sort')->get();
-
-        if ($subjects->isEmpty()) {
-            return $subjects;
+        $d = $from;
+        for ($i = 0; $i < 14; $i++) {
+            $d = $d->addDay();
+            if ($settings->isSchoolDay($d)) {
+                return $d;
+            }
         }
 
-        $offset = ($date->dayOfWeekIso - 1) % $subjects->count();
-
-        return collect(range(0, 2))->map(fn (int $i) => $subjects->get(($i + $offset) % $subjects->count()));
+        return $from->next(CarbonInterface::MONDAY);
     }
 
     /**
-     * Nächstes noch nicht bestandenes Thema des Fachs in Lehrplan-Reihenfolge.
-     */
-    public function nextTopicFor(User $user, Subject $subject): ?Topic
-    {
-        return Topic::query()
-            ->whereHas('topicArea', fn ($q) => $q->where('subject_id', $subject->id))
-            ->whereDoesntHave('progress', fn ($q) => $q->where('user_id', $user->id)->whereIn('status', [ProgressStatus::Passed, ProgressStatus::Mastered]))
-            ->join('topic_areas', 'topic_areas.id', '=', 'topics.topic_area_id')
-            ->orderBy('topic_areas.sort')
-            ->orderBy('topics.sort')
-            ->select('topics.*')
-            ->with('topicArea.subject')
-            ->first();
-    }
-
-    /**
+     * @param  array{subject: Subject, units: list<Unit>, minutes: int, done: bool}|null  $packed
      * @return Block
      */
-    private function lesson(int $nr, int $start, int $end, ?Subject $subject, User $user): array
+    private function lesson(int $nr, int $start, int $end, ?array $packed): array
     {
-        $topic = $subject ? $this->nextTopicFor($user, $subject) : null;
-        $half = intdiv($end - $start - 5, 2);
+        $subject = $packed['subject'] ?? null;
+        $units = $packed['units'] ?? [];
+        $done = $packed['done'] ?? false;
+        $open = collect($units)->first(fn (array $u) => ! $u['passed']);
+        $topic = $open['topic'] ?? ($units[0]['topic'] ?? null);
+        $half = intdiv($end - $start - ScheduleSetting::MICRO_BREAK, 2);
+
+        $subtitle = match (true) {
+            $subject === null => 'Alles erledigt – freie Lernzeit oder wiederholen.',
+            $done => 'Geschafft: '.collect($units)->map(fn (array $u) => $u['topic']->title)->implode(' · '),
+            count($units) === 1 && $units[0]['parts'] > 1 => $units[0]['topic']->title.' (Teil '.$units[0]['part'].' von '.$units[0]['parts'].')',
+            count($units) === 1 => $units[0]['topic']->title,
+            default => count($units).' Themen: '.collect($units)->map(fn (array $u) => $u['topic']->title)->implode(' · '),
+        };
 
         return $this->block(
             'lesson',
             $start,
             $end,
             $nr.'. Doppelstunde'.($subject ? ' · '.$subject->name : ''),
-            $topic ? $topic->title : ($subject ? 'Alles bestanden – heute wiederholen und festigen.' : 'Freie Lernzeit'),
+            $subtitle,
             $subject ? $this->subjectIcon($subject) : 'bx bx-book-open',
             $subject,
             $topic,
-            $topic ? route('learn.topic', [$topic->topicArea->subject, $topic->topicArea, $topic]) : ($subject ? route('learn.subject', $subject) : route('learn.index')),
+            $topic ? route('learn.topic', [$topic->topicArea->subject, $topic->topicArea, $topic]) : route('practice'),
             [
                 ['start' => $start, 'end' => $start + $half, 'label' => 'Erklärung & Hefteintrag'],
-                ['start' => $start + $half, 'end' => $start + $half + 5, 'label' => 'Mikropause'],
-                ['start' => $start + $half + 5, 'end' => $end, 'label' => 'Üben & Test'],
+                ['start' => $start + $half, 'end' => $start + $half + ScheduleSetting::MICRO_BREAK, 'label' => 'Mikropause'],
+                ['start' => $start + $half + ScheduleSetting::MICRO_BREAK, 'end' => $end, 'label' => 'Üben & Test'],
             ],
             $this->exercises->microBreak()->all(),
+            $units,
+            $done,
         );
     }
 
     /**
      * @param  list<array{start: int, end: int, label: string}>  $lessons
      * @param  array<int, Exercise>  $exercises
+     * @param  list<Unit>  $units
      * @return Block
      */
-    private function block(string $type, int $start, int $end, string $title, string $subtitle, string $icon, ?Subject $subject = null, ?Topic $topic = null, ?string $href = null, array $lessons = [], array $exercises = []): array
+    private function block(string $type, int $start, int $end, string $title, string $subtitle, string $icon, ?Subject $subject = null, ?Topic $topic = null, ?string $href = null, array $lessons = [], array $exercises = [], array $units = [], bool $done = false): array
     {
-        return compact('type', 'start', 'end', 'title', 'subtitle', 'icon', 'subject', 'topic', 'href', 'lessons', 'exercises');
+        return compact('type', 'start', 'end', 'title', 'subtitle', 'icon', 'subject', 'topic', 'href', 'lessons', 'exercises', 'units', 'done');
     }
 
-    private function subjectIcon(Subject $subject): string
+    public static function subjectIcon(Subject $subject): string
     {
         return match ($subject->slug) {
             'mathematik' => 'bx bx-math',

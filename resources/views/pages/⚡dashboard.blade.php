@@ -6,6 +6,7 @@ use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\TopicProgress;
 use App\Review\ReviewPlanner;
+use App\Schedule\Curriculum;
 use Illuminate\Support\Collection;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Title;
@@ -42,6 +43,15 @@ new #[Title('Dashboard')] class extends Component
         return $this->subjects
             ->flatMap(fn (Subject $s) => $s->topicAreas->flatMap->topics)
             ->first(fn (Topic $t) => ! ($t->progress->first()?->status->isPassed() ?? false));
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    #[Computed]
+    public function pace(): array
+    {
+        return Curriculum::for(auth()->user())->pace(now());
     }
 
     #[Computed]
@@ -105,6 +115,7 @@ new #[Title('Dashboard')] class extends Component
                     ['label' => 'Themen getestet', 'value' => $stats['attempts']],
                     ['label' => 'Hefteinträge', 'value' => $stats['notebooks']],
                     ['label' => 'Fällige Übungen', 'value' => $this->dueCount],
+                    ['label' => 'Lernstand', 'value' => $this->pace['backlog_blocks'] > 0 ? $this->pace['backlog_blocks'].' Blöcke Rückstand' : ($this->pace['backlog_blocks'] < 0 ? abs($this->pace['backlog_blocks']).' Blöcke Vorsprung' : 'im Plan')],
                 ]"
                 footer="Zum Stundenplan"
                 :footer-href="route('school-day')" />
@@ -129,6 +140,24 @@ new #[Title('Dashboard')] class extends Component
         </x-slot:left>
 
         {{-- Feed --}}
+        @php $pace = $this->pace; @endphp
+        @if ($pace['backlog_blocks'] > 0)
+            <x-raque.card style="border-left:5px solid var(--micko-amber-500)">
+                <div style="display:flex;gap:1rem;padding:var(--pad-post-head)">
+                    <span class="rq-row__avatar" style="width:42px;height:42px;font-size:18px;background:var(--micko-amber-500);color:#fff"><i class="bx bx-error"></i></span>
+                    <div style="min-width:0;flex:1">
+                        <span style="display:block;font-weight:500;margin-bottom:5px">Rückstand: {{ $pace['backlog_blocks'] }} {{ $pace['backlog_blocks'] === 1 ? 'Block' : 'Blöcke' }}</span>
+                        <span style="font-size:var(--fs-xs);color:var(--text-secondary)">≈ {{ number_format(abs($pace['backlog_days']), 1, ',', '.') }} Schultage hinter dem Plan · Ist {{ $pace['percent_done'] }} % · Soll {{ $pace['percent_expected'] }} %</span>
+                    </div>
+                </div>
+                <div style="padding:var(--pad-post-body)"><div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div></div>
+                <div style="display:flex;gap:8px;padding:var(--pad-post-actions);border-top:1px solid var(--border-default)">
+                    <x-raque.button icon="bx bx-time-five" :href="route('school-day')" wire:navigate>Heute aufholen</x-raque.button>
+                    <x-raque.button variant="cancel" icon="bx bx-calendar-week" :href="route('week-plan')" wire:navigate>Wochenplan</x-raque.button>
+                </div>
+            </x-raque.card>
+        @endif
+
         @if ($this->continueTopic)
             @php $t = $this->continueTopic; @endphp
             <x-raque.card>

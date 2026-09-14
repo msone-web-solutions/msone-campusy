@@ -15,10 +15,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property ProgressStatus $status
  * @property CarbonInterface|null $notebook_confirmed_at
  * @property int $best_percent
+ * @property CarbonInterface|null $passed_at
  * @property CarbonInterface|null $mastered_at
  * @property CarbonInterface|null $last_seen_at
  */
-#[Fillable(['user_id', 'topic_id', 'status', 'notebook_confirmed_at', 'best_percent', 'mastered_at', 'last_seen_at'])]
+#[Fillable(['user_id', 'topic_id', 'status', 'notebook_confirmed_at', 'best_percent', 'passed_at', 'mastered_at', 'last_seen_at'])]
 class TopicProgress extends Model
 {
     protected $table = 'topic_progress';
@@ -39,6 +40,7 @@ class TopicProgress extends Model
         return [
             'status' => ProgressStatus::class,
             'notebook_confirmed_at' => 'datetime',
+            'passed_at' => 'datetime',
             'mastered_at' => 'datetime',
             'last_seen_at' => 'datetime',
         ];
@@ -63,6 +65,10 @@ class TopicProgress extends Model
     {
         if ($status->rank() > $this->status->rank()) {
             $this->status = $status;
+        }
+
+        if ($status->isPassed()) {
+            $this->passed_at ??= now();
         }
     }
 }
