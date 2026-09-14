@@ -2,9 +2,9 @@
    Schultag: Uhr, Timeline, Pausen-Modus, Strichfigur
    ============================================================ */
 .rq-day { --subj-mathematik: #01a6fd; --subj-chemie: #17d0cf; --subj-informatik: #0d6fb8; --amber: #ffc926; }
-.rq-day__layout { display: grid; grid-template-columns: 380px minmax(0, 1fr); gap: 30px; align-items: start; }
-.rq-day__lernstand { grid-column: 1; }
-.rq-day__timeline-wrap { grid-column: 2; grid-row: 1 / span 2; }
+.rq-day__layout { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 30px; align-items: start; }
+.rq-day__side { display: grid; gap: 30px; min-width: 0; }
+.rq-day__timeline-wrap { min-width: 0; }
 .rq-day__now-badge--late { color: #7a5a00; background-image: none; background-color: rgba(255,201,38,.35); }
 .rq-day__now-badge--done { color: #0e8a89; background-image: none; background-color: rgba(23,208,207,.18); }
 .rq-day__block.is-late { border-left-color: var(--amber); outline: 2px solid rgba(255,201,38,.6); outline-offset: -2px; }
@@ -17,14 +17,15 @@
 .rq-day__unit-steps { display: flex; gap: 6px; flex: 0 0 auto; }
 .rq-day__unit-steps span { width: 28px; height: 28px; border-radius: 50%; background: #fff; color: #cfcfcf; display: inline-flex; align-items: center; justify-content: center; font-size: 15px; }
 .rq-day__unit-steps span.is-ok { background-image: var(--gradient); background-size: var(--gradient-size); color: #fff; }
-.rq-pace { position: relative; }
+.rq-pace { position: relative; z-index: 0; }
 .rq-pace > span { position: absolute; left: 0; top: 0; height: 100%; }
 .rq-pace__soll { background: rgba(1,166,253,.18); }
 .rq-pace__ist { background-image: var(--gradient-text); }
-@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } .rq-day__lernstand, .rq-day__timeline-wrap { grid-column: 1; grid-row: auto; } .rq-day__clock-card { position: static; } }
+@media (max-width: 1023px) { .rq-day__layout { grid-template-columns: 1fr; } }
+@media (min-width: 700px) and (max-width: 1023px) { .rq-day__side { grid-template-columns: 1fr 1fr; align-items: start; } }
 
 /* ---- Uhr ---- */
-.rq-day__clock-card { padding: 30px; position: sticky; top: calc(var(--header-height) + 20px); display: grid; gap: 22px; }
+.rq-day__clock-card { padding: 30px; display: grid; gap: 22px; }
 .rq-day__clock { position: relative; width: 100%; max-width: 300px; margin: 0 auto; }
 .rq-day__clock svg { width: 100%; height: auto; display: block; }
 .rq-clock__face { fill: #fff; stroke: var(--raque-grey-100); stroke-width: 2; }

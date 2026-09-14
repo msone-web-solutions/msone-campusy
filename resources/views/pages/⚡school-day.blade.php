@@ -55,6 +55,7 @@ new #[Title('Dein Schultag')] class extends Component
 
     <section class="rq-section rq-section--tight rq-section--panel">
         <div class="rq-container rq-day__layout">
+            <div class="rq-day__side">
 
             {{-- Uhr + Status --}}
             <div class="rq-card rq-day__clock-card">
@@ -165,6 +166,7 @@ new #[Title('Dein Schultag')] class extends Component
                     </ul>
                 </div>
             </x-raque.card>
+            </div>
             </div>
 
             <div class="rq-day__timeline-wrap">
