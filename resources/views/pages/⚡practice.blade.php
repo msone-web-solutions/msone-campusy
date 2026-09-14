@@ -145,7 +145,7 @@ new #[Title('Tägliche Übung')] class extends Component
     <x-raque.page-banner title="Tägliche Übung" compact eyebrow="Wiederholen mit Abstand · gemischt aus allen Themen" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Üben']]" />
 
     <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container" style="max-width:860px;display:grid;gap:25px">
+        <div class="rq-container rq-stack" style="max-width:860px;gap:25px">
 
             @if ($phase === 'empty')
                 <div class="rq-card" style="padding:35px 40px;display:flex;gap:25px;align-items:flex-start;flex-wrap:wrap">

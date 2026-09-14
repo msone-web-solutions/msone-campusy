@@ -92,7 +92,7 @@ new #[Title('Dashboard')] class extends Component
     </x-raque.page-banner>
 
     <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container" style="display:grid;gap:30px">
+        <div class="rq-container rq-stack" style="gap:30px">
             @if ($this->dueCount > 0)
                 <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-secondary)">
                     <div>

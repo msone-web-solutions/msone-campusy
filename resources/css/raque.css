@@ -111,6 +111,9 @@
 .rq-btn--icon.rq-btn--sm { padding-left: 45px; }
 .rq-btn--icon > i { position: absolute; left: 25px; top: 50%; transform: translateY(-50%); font-size: 18px; line-height: 1; }
 .rq-btn--icon.rq-btn--sm > i { left: 18px; }
+.rq-btn--wrap { white-space: normal; text-align: left; line-height: 1.4; }
+.rq-stack { display: grid; gap: 40px; }
+.rq-stack > * { min-width: 0; }
 .rq-btn--ghost { background: transparent; border-color: transparent; color: var(--text-heading); }
 .rq-btn.rq-btn--ghost:hover { background: transparent; border-color: transparent; color: var(--color-primary); }
 .rq-btn:disabled, .rq-btn[aria-disabled="true"] { opacity: .55; pointer-events: none; }

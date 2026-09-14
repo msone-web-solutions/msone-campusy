@@ -46,7 +46,7 @@ new #[Title('Themen')] class extends Component
     <x-raque.page-banner :title="$subject->name.' – Klasse '.$subject->grade" eyebrow="Sekundarschule Sachsen-Anhalt · Fachlehrplan 2019" :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Fächer', 'href' => route('learn.index')], ['label' => $subject->name]]">
         <div style="margin-top:25px">
             @if ($this->nextTopic)
-                <x-raque.button variant="on-primary" icon="bx bx-right-arrow-alt" :href="route('learn.topic', [$subject, $this->nextTopic->topicArea, $this->nextTopic])" wire:navigate>Weiter lernen: {{ $this->nextTopic->title }}</x-raque.button>
+                <x-raque.button variant="on-primary" icon="bx bx-right-arrow-alt" class="rq-btn--wrap" :href="route('learn.topic', [$subject, $this->nextTopic->topicArea, $this->nextTopic])" wire:navigate>Weiter lernen: {{ $this->nextTopic->title }}</x-raque.button>
             @else
                 <span class="rq-badge rq-badge--on-primary"><i class="bx bx-check-circle"></i>Alle Themen bestanden</span>
             @endif
@@ -54,7 +54,7 @@ new #[Title('Themen')] class extends Component
     </x-raque.page-banner>
 
     <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container" style="display:grid;gap:40px">
+        <div class="rq-container rq-stack">
             @foreach ($subject->topicAreas as $area)
                 <div wire:key="area-{{ $area->id }}">
                     <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px">

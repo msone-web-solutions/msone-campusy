@@ -69,7 +69,7 @@ new #[Title('Elternübersicht')] class extends Component
     </x-raque.page-banner>
 
     <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container" style="display:grid;gap:40px">
+        <div class="rq-container rq-stack">
             @forelse ($this->children as $child)
                 @php $r = $this->reportFor($child); @endphp
                 <div wire:key="child-{{ $child->id }}" style="display:grid;gap:20px">
