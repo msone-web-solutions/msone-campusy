@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wo lebt der Großteil der chinesischen Bevölkerung?"
+  options: ["Im Westen in den Gebirgen", "Im Osten im Tiefland und an der Küste", "Gleichmäßig verteilt", "In Tibet"]
+  answer: { index: 1 }
+  explanation: "Über 90 % auf einem Drittel der Fläche – fruchtbar, Monsun, Häfen."
+- key: q2
+  type: single_choice
+  prompt: "Was waren Sonderwirtschaftszonen?"
+  options: ["Naturschutzgebiete", "Küstenregionen, in denen ausländische Firmen mit niedrigen Steuern investieren durften", "Militärgebiete", "Reisanbaugebiete"]
+  answer: { index: 1 }
+  explanation: "Shenzhen wuchs so vom Fischerdorf zur Millionenstadt."
+- key: q3
+  type: multiple_choice
+  prompt: "Womit ist China heute Technologieführer?"
+  options: ["Elektroautos", "Solarzellen", "Flugzeugbau", "Hochgeschwindigkeitszüge"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Im Flugzeugbau dominieren noch Boeing und Airbus."
+- key: q4
+  type: gap_text
+  prompt: "China ist der größte ___-Emittent der Welt; die Hälfte des Stroms kommt aus ___."
+  answer:
+    gaps:
+      - ["CO2", "CO₂"]
+      - ["Kohle"]
+  explanation: "CO₂; Kohle."
+- key: q5
+  type: single_choice
+  prompt: "Was regelt das Hukou-System?"
+  options: ["Den Ölpreis", "Die Meldeadresse und damit den Zugang zu Schule und Arzt", "Die Grenze zu Indien", "Die Zeitzone"]
+  answer: { index: 1 }
+  explanation: "Wanderarbeiter in der Stadt bleiben oft ohne diese Rechte."
+- key: q6
+  type: single_choice
+  prompt: "Was ist die „Neue Seidenstraße“?"
+  options: ["Eine Autobahn in Peking", "Chinas weltweites Infrastrukturprogramm für Häfen, Bahnen und Straßen", "Eine Textilfabrik", "Ein Staudamm"]
+  answer: { index: 1 }
+  explanation: "Belt and Road Initiative seit 2013 in über 140 Ländern."
+- key: q7
+  type: true_false
+  prompt: "Der Drei-Schluchten-Staudamm ist das größte Wasserkraftwerk der Welt."
+  answer: { value: true }
+  explanation: "Am Jangtse – 1,3 Mio. Menschen wurden umgesiedelt."
+- key: q8
+  type: single_choice
+  prompt: "Zu welcher Ländergruppe zählt China?"
+  options: ["Entwicklungsland", "Schwellenland", "Industrieland wie Japan", "Kolonie"]
+  answer: { index: 1 }
+  explanation: "Stark wachsend, aber BIP pro Kopf noch mittel."
