@@ -1,0 +1,274 @@
+/* ============================================================
+   Schultag: Uhr, Timeline, Pausen-Modus, Strichfigur
+   ============================================================ */
+.rq-day { --subj-mathematik: #ff1949; --subj-chemie: #0eb582; --subj-informatik: #4c6fff; --amber: #f2b827; }
+.rq-day__layout { display: grid; grid-template-columns: 380px minmax(0, 1fr); gap: 30px; align-items: start; }
+@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } }
+
+/* ---- Uhr ---- */
+.rq-day__clock-card { padding: 30px; position: sticky; top: 20px; display: grid; gap: 22px; }
+.rq-day__clock { position: relative; width: 100%; max-width: 300px; margin: 0 auto; }
+.rq-day__clock svg { width: 100%; height: auto; display: block; filter: drop-shadow(0 10px 20px rgba(146, 184, 255, .25)); }
+.rq-clock__face { fill: #fff; stroke: var(--raque-grey-100); stroke-width: 2; }
+.rq-clock__tick { stroke: var(--raque-grey-300); stroke-width: 1; }
+.rq-clock__tick.is-hour { stroke: var(--raque-ink-900); stroke-width: 2; }
+.rq-clock__num { font-family: var(--font-ui); font-size: 13px; font-weight: 600; fill: var(--raque-ink-900); }
+.rq-clock__hand { stroke: var(--raque-ink-900); stroke-linecap: round; transition: transform .6s cubic-bezier(.4, 2.2, .6, 1); }
+.rq-clock__hand--h { stroke-width: 6; }
+.rq-clock__hand--m { stroke-width: 4; }
+.rq-clock__hand--s { stroke: var(--color-primary); stroke-width: 1.5; transition: transform .2s cubic-bezier(.4, 2.6, .6, 1); }
+.rq-clock__pin { fill: var(--color-primary); stroke: #fff; stroke-width: 2; }
+.rq-clock__arc { opacity: .28; transition: opacity .4s, stroke-width .4s; }
+.rq-clock__arc--lesson { stroke: var(--raque-ink-500); }
+.rq-clock__arc--mathematik { stroke: var(--subj-mathematik); }
+.rq-clock__arc--chemie { stroke: var(--subj-chemie); }
+.rq-clock__arc--informatik { stroke: var(--subj-informatik); }
+.rq-clock__arc--break { stroke: var(--color-secondary); }
+.rq-clock__arc--warmup, .rq-clock__arc--cooldown { stroke: var(--amber); }
+.rq-clock__arc.is-now { opacity: 1; stroke-width: 16; animation: rq-arc-pulse 2s ease-in-out infinite; }
+@keyframes rq-arc-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
+.rq-clock__digital { position: absolute; left: 50%; top: 64%; transform: translateX(-50%); font-family: var(--font-ui); font-size: 15px; font-weight: 600; letter-spacing: .06em; color: var(--raque-ink-700); background: #fff; padding: 2px 10px; border-radius: 4px; font-variant-numeric: tabular-nums; box-shadow: 0 2px 6px rgba(0,0,0,.06); }
+
+.rq .rq-day__status-title { font-size: 22px; font-weight: 600; line-height: 1.3; }
+.rq-day__phase { margin-top: 10px; font-size: 14px; display: flex; align-items: center; gap: 4px; }
+.rq-day__phase i { color: var(--color-primary); font-size: 20px; }
+.rq-day__dayprogress { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--raque-grey-100); }
+.rq-day__sim { border-top: 1px dashed var(--raque-grey-300); padding-top: 14px; color: var(--text-body); }
+
+/* ---- Timeline ---- */
+.rq-day__timeline { display: grid; gap: 14px; position: relative; }
+.rq-day__block { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 18px; padding: 22px 26px; border-left: 5px solid var(--raque-grey-300); opacity: 0; transform: translateY(14px); animation: rq-rise .5s var(--delay, 0ms) ease-out forwards; transition: box-shadow .3s, border-color .3s, transform .3s; }
+@keyframes rq-rise { to { opacity: 1; transform: none; } }
+.rq-day__block--lesson { border-left-color: var(--raque-ink-500); }
+.rq-day__block--mathematik { border-left-color: var(--subj-mathematik); }
+.rq-day__block--chemie { border-left-color: var(--subj-chemie); }
+.rq-day__block--informatik { border-left-color: var(--subj-informatik); }
+.rq-day__block--break { border-left-color: var(--color-secondary); background: linear-gradient(90deg, rgba(14,181,130,.06), #fff 40%); }
+.rq-day__block--warmup, .rq-day__block--cooldown { border-left-color: var(--amber); background: linear-gradient(90deg, rgba(242,184,39,.10), #fff 40%); }
+.rq-day__block.is-done { opacity: .62; }
+.rq-day__block.is-done:hover { opacity: 1; }
+.rq-day__block.is-now { box-shadow: 0 12px 28px rgba(255, 25, 73, .16), 0 0 0 2px rgba(255,25,73,.25); transform: scale(1.012); }
+.rq-day__time { display: flex; flex-direction: column; align-items: center; gap: 6px; font-family: var(--font-ui); font-weight: 600; font-size: 15px; color: var(--raque-ink-900); }
+.rq-day__dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--raque-grey-300); display: flex; align-items: center; justify-content: center; font-size: 13px; color: #fff; background: #fff; transition: all .3s; }
+.is-done .rq-day__dot { background: var(--color-secondary); border-color: var(--color-secondary); }
+.is-now .rq-day__dot { border-color: var(--color-primary); background: var(--color-primary); box-shadow: 0 0 0 6px rgba(255,25,73,.15); }
+.is-now .rq-day__dot i, .is-next .rq-day__dot i { opacity: 0; }
+.rq-day__head { display: flex; gap: 14px; align-items: flex-start; }
+.rq-day__icon { flex: 0 0 auto; width: 46px; height: 46px; border-radius: var(--radius-card); background: var(--raque-grey-100); color: var(--raque-ink-900); display: flex; align-items: center; justify-content: center; font-size: 24px; }
+.rq-day__block--mathematik .rq-day__icon { background: rgba(255,25,73,.1); color: var(--subj-mathematik); }
+.rq-day__block--chemie .rq-day__icon { background: rgba(14,181,130,.12); color: var(--subj-chemie); }
+.rq-day__block--informatik .rq-day__icon { background: rgba(76,111,255,.12); color: var(--subj-informatik); }
+.rq-day__block--break .rq-day__icon { background: rgba(14,181,130,.12); color: var(--color-secondary); }
+.rq-day__block--warmup .rq-day__icon, .rq-day__block--cooldown .rq-day__icon { background: rgba(242,184,39,.18); color: #a2740a; }
+.rq-day__title { font-size: 18px; font-weight: 600; line-height: 1.3; }
+.rq-day__subtitle { font-size: 14px; margin-top: 2px; }
+.rq-day__now-badge { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-ui); font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--color-primary); background: var(--raque-red-050); padding: 5px 11px; border-radius: 20px; }
+.rq-day__pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--color-primary); animation: rq-pulse 1.4s ease-in-out infinite; }
+@keyframes rq-pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.7); opacity: .4; } }
+.rq-day__lessons { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 6px; }
+.rq-day__lessons li { display: flex; align-items: center; gap: 12px; font-size: 14px; padding: 7px 12px; border-radius: 4px; background: var(--raque-grey-100); transition: background .3s; }
+.rq-day__lessons li .rq-num { font-family: var(--font-ui); font-weight: 600; color: var(--raque-ink-900); min-width: 42px; }
+.rq-day__lessons li.is-micro { background: rgba(14,181,130,.08); }
+.rq-day__lessons li.is-done { opacity: .55; text-decoration: line-through; }
+.rq-day__lessons li.is-now { background: var(--raque-red-050); color: var(--raque-ink-900); font-weight: 500; box-shadow: inset 3px 0 0 var(--color-primary); }
+.rq-day__minibtn { margin-left: auto; border: 0; background: #fff; color: var(--color-secondary); font: inherit; font-size: 13px; font-weight: 500; padding: 4px 10px; border-radius: 4px; cursor: pointer; display: inline-flex; gap: 5px; align-items: center; }
+.rq-day__minibtn:hover { background: var(--color-secondary); color: #fff; }
+.rq-day__topic { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; padding: 14px 16px; border-radius: var(--radius-card); background: var(--surface-panel, #f6f9ff); }
+.rq-day__exercises { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+.rq-day__chip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 20px; background: #fff; border: 1px solid var(--raque-grey-100); color: var(--raque-ink-900); }
+.rq-day__chip i { font-size: 16px; }
+.rq-day__chip--ausdauer i { color: var(--color-primary); }
+.rq-day__chip--kraft i { color: var(--subj-informatik); }
+.rq-day__chip--dehnen i, .rq-day__chip--mobil i { color: var(--color-secondary); }
+.rq-day__chip--ruhe i { color: #a2740a; }
+
+/* ---- Pausen-Modus ---- */
+.rq-break { position: fixed; inset: 0; z-index: 90; color: #fff; background: radial-gradient(120% 120% at 20% 0%, #1a2a6c 0%, #12141b 60%); display: flex; align-items: center; justify-content: center; padding: 24px; overflow: hidden; }
+.rq-break--go { background: radial-gradient(120% 120% at 20% 0%, #0e7a5a 0%, #12141b 65%); }
+.rq-break--done { background: radial-gradient(120% 120% at 50% 0%, #c8123a 0%, #12141b 70%); }
+.rq-break__close { position: absolute; top: 18px; right: 18px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255,255,255,.12); color: #fff; font-size: 26px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.rq-break__close:hover { background: rgba(255,255,255,.25); }
+.rq-break__inner { width: 100%; max-width: 900px; text-align: center; }
+.rq-break__eyebrow { display: block; font-family: var(--font-ui); text-transform: uppercase; letter-spacing: .12em; font-size: 13px; opacity: .7; margin-bottom: 14px; }
+.rq-break__ready { display: grid; gap: 18px; justify-items: center; padding: 20px 0; }
+.rq-break__label { font-size: 20px; opacity: .9; }
+.rq-break__count { font-family: var(--font-ui); font-size: 140px; font-weight: 700; line-height: 1; animation: rq-count .95s ease-out; }
+@keyframes rq-count { 0% { transform: scale(.4); opacity: 0; } 30% { transform: scale(1.15); opacity: 1; } 100% { transform: scale(1); opacity: 1; } }
+.rq-break__hint { font-size: 16px; opacity: .8; max-width: 480px; }
+.rq-break__stage { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; text-align: left; }
+@media (max-width: 760px) { .rq-break__stage { grid-template-columns: 1fr; text-align: center; } .rq-break__info { justify-items: center; } }
+.rq-break__figure { display: flex; justify-content: center; }
+.rq-break__figure svg { width: min(100%, 340px); height: auto; }
+.rq-break__info { display: grid; gap: 18px; }
+.rq-break__ring { position: relative; width: 120px; height: 120px; }
+.rq-break__ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.rq-ring__bg { fill: none; stroke: rgba(255,255,255,.15); stroke-width: 8; }
+.rq-ring__fg { fill: none; stroke: #fff; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 327; transition: stroke-dashoffset 1s linear; }
+.rq-break__secs { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--font-ui); font-size: 40px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.rq-break__step { font-family: var(--font-ui); font-size: 13px; text-transform: uppercase; letter-spacing: .1em; opacity: .7; }
+.rq .rq-break__name { font-size: 40px; font-weight: 700; line-height: 1.15; margin: 4px 0 8px; color: #fff; }
+.rq-break__how { font-size: 17px; line-height: 1.6; color: rgba(255,255,255,.92); }
+.rq-break__tip { margin-top: 10px; font-size: 14px; opacity: .8; display: flex; gap: 8px; align-items: flex-start; }
+.rq-break__tip i { font-size: 18px; color: var(--amber); }
+.rq-break__dots { display: flex; justify-content: center; gap: 8px; margin-top: 26px; }
+.rq-break__dots span { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,.25); transition: all .3s; }
+.rq-break__dots span.is-done { background: var(--color-secondary); }
+.rq-break__dots span.is-now { background: #fff; transform: scale(1.4); }
+.rq-break__controls { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+.rq-break__controls button { border: 2px solid rgba(255,255,255,.4); background: transparent; color: #fff; font: inherit; font-weight: 500; padding: 10px 20px; border-radius: 5px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.rq-break__controls button:hover { background: #fff; color: var(--raque-black-900); }
+.rq-break__trophy { width: 120px; height: 120px; border-radius: 50%; background: rgba(255,255,255,.15); display: flex; align-items: center; justify-content: center; font-size: 64px; color: var(--amber); animation: rq-trophy 1s cubic-bezier(.4, 2, .6, 1); }
+@keyframes rq-trophy { 0% { transform: scale(0) rotate(-30deg); } 100% { transform: scale(1) rotate(0); } }
+
+.rq-confetti { position: absolute; inset: 0; pointer-events: none; }
+.rq-confetti span { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; opacity: .9; animation-name: rq-fall; animation-timing-function: linear; animation-iteration-count: infinite; }
+@keyframes rq-fall { 0% { transform: translateY(-20px) rotate(0); } 100% { transform: translateY(110vh) rotate(720deg); } }
+
+/* ---- Strichfigur ---- */
+.rq-fig line { stroke: #fff; stroke-width: 7; stroke-linecap: round; }
+.rq-fig circle { fill: #fff; }
+.rq-fig__ground { stroke: rgba(255,255,255,.25) !important; stroke-width: 3 !important; }
+.rq-fig__head circle { fill: var(--amber); }
+.rq-fig g { transform-box: view-box; }
+.rq-fig__all { transform-origin: 100px 172px; }
+.rq-fig__torso { transform-origin: 100px 110px; }
+.rq-fig__head { transform-origin: 100px 58px; }
+.rq-fig__arm { transform-origin: 100px 62px; }
+.rq-fig__fore--l { transform-origin: 84px 90px; }
+.rq-fig__fore--r { transform-origin: 116px 90px; }
+.rq-fig__leg { transform-origin: 100px 110px; }
+.rq-fig__shin--l { transform-origin: 88px 140px; }
+.rq-fig__shin--r { transform-origin: 112px 140px; }
+.rq-fig__breath circle { fill: none; stroke: rgba(255,255,255,.5); stroke-width: 3; transform-origin: 100px 100px; animation: rq-breathe 14s ease-in-out infinite; }
+.rq-fig__eyes circle:first-child { fill: none; stroke: #fff; stroke-width: 3; }
+.rq-fig__eyes { animation: rq-eyes 4s ease-in-out infinite; transform-origin: 150px 60px; }
+.rq-fig.is-paused * { animation-play-state: paused !important; }
+
+/* Nacken kreisen */
+.rq-fig--neck .rq-fig__head { animation: rq-neck 4s ease-in-out infinite; }
+@keyframes rq-neck { 0% { transform: rotate(-25deg); } 50% { transform: rotate(25deg); } 100% { transform: rotate(-25deg); } }
+/* Schultern kreisen */
+.rq-fig--shoulders .rq-fig__arm { animation: rq-shoulder 1.6s ease-in-out infinite; }
+@keyframes rq-shoulder { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-9px) rotate(-6deg); } }
+.rq-fig--shoulders .rq-fig__arm--r { animation-name: rq-shoulder-r; }
+@keyframes rq-shoulder-r { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-9px) rotate(6deg); } }
+/* Armkreisen */
+.rq-fig--armcircles .rq-fig__fore { transform: rotate(-40deg); }
+.rq-fig--armcircles .rq-fig__fore--r { transform: rotate(40deg); }
+.rq-fig--armcircles .rq-fig__arm--l { animation: rq-circle-l 1.6s linear infinite; }
+.rq-fig--armcircles .rq-fig__arm--r { animation: rq-circle-r 1.6s linear infinite; }
+@keyframes rq-circle-l { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+@keyframes rq-circle-r { from { transform: rotate(0); } to { transform: rotate(-360deg); } }
+/* Seitneigen */
+.rq-fig--sidebend .rq-fig__torso { animation: rq-sidebend 4s ease-in-out infinite; }
+.rq-fig--sidebend .rq-fig__arm--r { transform: rotate(-150deg); }
+.rq-fig--sidebend .rq-fig__fore--r { transform: rotate(-10deg); }
+@keyframes rq-sidebend { 0%, 100% { transform: rotate(0); } 40%, 60% { transform: rotate(-22deg); } }
+/* Vorbeuge */
+.rq-fig--forwardfold .rq-fig__torso { animation: rq-fold 6s ease-in-out infinite; }
+.rq-fig--forwardfold .rq-fig__arm { animation: rq-fold-arm 6s ease-in-out infinite; }
+@keyframes rq-fold { 0%, 100% { transform: rotate(0); } 35%, 70% { transform: rotate(-95deg); } }
+@keyframes rq-fold-arm { 0%, 100% { transform: rotate(0); } 35%, 70% { transform: rotate(85deg); } }
+/* Hüfte kreisen */
+.rq-fig--hips .rq-fig__torso { animation: rq-hips 2s ease-in-out infinite; }
+.rq-fig--hips .rq-fig__fore { transform: rotate(120deg); }
+.rq-fig--hips .rq-fig__fore--r { transform: rotate(-120deg); }
+@keyframes rq-hips { 0% { transform: translateX(-10px) rotate(4deg); } 50% { transform: translateX(10px) rotate(-4deg); } 100% { transform: translateX(-10px) rotate(4deg); } }
+/* Rumpfdrehen */
+.rq-fig--twist .rq-fig__torso { animation: rq-twist 2.4s ease-in-out infinite; }
+.rq-fig--twist .rq-fig__arm--l { transform: rotate(-70deg); }
+.rq-fig--twist .rq-fig__arm--r { transform: rotate(70deg); }
+.rq-fig--twist .rq-fig__fore--l { transform: rotate(80deg); }
+.rq-fig--twist .rq-fig__fore--r { transform: rotate(-80deg); }
+@keyframes rq-twist { 0%, 100% { transform: scaleX(1); } 25% { transform: scaleX(.35); } 50% { transform: scaleX(1); } 75% { transform: scaleX(.35) scaleX(-1); } }
+/* Hampelmann */
+.rq-fig--jumpingjack .rq-fig__all { animation: rq-jump .7s ease-in-out infinite; }
+.rq-fig--jumpingjack .rq-fig__arm--l { animation: rq-jj-arm-l .7s ease-in-out infinite; }
+.rq-fig--jumpingjack .rq-fig__arm--r { animation: rq-jj-arm-r .7s ease-in-out infinite; }
+.rq-fig--jumpingjack .rq-fig__leg--l { animation: rq-jj-leg-l .7s ease-in-out infinite; }
+.rq-fig--jumpingjack .rq-fig__leg--r { animation: rq-jj-leg-r .7s ease-in-out infinite; }
+@keyframes rq-jump { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes rq-jj-arm-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(150deg); } }
+@keyframes rq-jj-arm-r { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-150deg); } }
+@keyframes rq-jj-leg-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(25deg); } }
+@keyframes rq-jj-leg-r { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-25deg); } }
+/* Kniebeugen */
+.rq-fig--squat .rq-fig__torso { animation: rq-squat-torso 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__leg--l { animation: rq-squat-thigh-l 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__leg--r { animation: rq-squat-thigh-r 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__shin--l { animation: rq-squat-shin-l 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__shin--r { animation: rq-squat-shin-r 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__arm { animation: rq-squat-arm 2s ease-in-out infinite; }
+.rq-fig--squat .rq-fig__arm--r { animation-name: rq-squat-arm-r; }
+@keyframes rq-squat-torso { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(26px); } }
+@keyframes rq-squat-thigh-l { 0%, 100% { transform: rotate(0); } 50% { transform: translateY(26px) rotate(45deg); } }
+@keyframes rq-squat-thigh-r { 0%, 100% { transform: rotate(0); } 50% { transform: translateY(26px) rotate(-45deg); } }
+@keyframes rq-squat-shin-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-42deg); } }
+@keyframes rq-squat-shin-r { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(42deg); } }
+@keyframes rq-squat-arm { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(100deg); } }
+@keyframes rq-squat-arm-r { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-100deg); } }
+/* Ausfallschritte */
+.rq-fig--lunge .rq-fig__all { animation: rq-lunge-body 2.4s ease-in-out infinite; }
+.rq-fig--lunge .rq-fig__leg--l { animation: rq-lunge-l 2.4s ease-in-out infinite; }
+.rq-fig--lunge .rq-fig__leg--r { animation: rq-lunge-r 2.4s ease-in-out infinite; }
+.rq-fig--lunge .rq-fig__shin--l { animation: rq-lunge-shin-l 2.4s ease-in-out infinite; }
+.rq-fig--lunge .rq-fig__fore { transform: rotate(110deg); }
+.rq-fig--lunge .rq-fig__fore--r { transform: rotate(-110deg); }
+@keyframes rq-lunge-body { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(18px); } }
+@keyframes rq-lunge-l { 0%, 100% { transform: rotate(0); } 50% { transform: translateY(18px) rotate(60deg); } }
+@keyframes rq-lunge-r { 0%, 100% { transform: rotate(0); } 50% { transform: translateY(18px) rotate(-40deg); } }
+@keyframes rq-lunge-shin-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-60deg); } }
+/* Knie heben */
+.rq-fig--highknees .rq-fig__all { animation: rq-jump .5s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__leg--l { animation: rq-hk-l 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__leg--r { animation: rq-hk-r 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__shin--l { animation: rq-hk-shin-l 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__shin--r { animation: rq-hk-shin-r 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__arm--l { animation: rq-hk-arm-l 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__arm--r { animation: rq-hk-arm-r 1s ease-in-out infinite; }
+.rq-fig--highknees .rq-fig__fore { transform: rotate(110deg); }
+.rq-fig--highknees .rq-fig__fore--r { transform: rotate(-110deg); }
+@keyframes rq-hk-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(85deg); } }
+@keyframes rq-hk-r { 0%, 50%, 100% { transform: rotate(0); } 75% { transform: rotate(-85deg); } }
+@keyframes rq-hk-shin-l { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-90deg); } }
+@keyframes rq-hk-shin-r { 0%, 50%, 100% { transform: rotate(0); } 75% { transform: rotate(90deg); } }
+@keyframes rq-hk-arm-l { 0%, 100% { transform: rotate(30deg); } 50% { transform: rotate(-30deg); } }
+@keyframes rq-hk-arm-r { 0%, 100% { transform: rotate(30deg); } 50% { transform: rotate(-30deg); } }
+/* Wadenheben */
+.rq-fig--calfraise .rq-fig__all { animation: rq-calf 2s ease-in-out infinite; }
+@keyframes rq-calf { 0%, 100% { transform: translateY(0); } 40%, 60% { transform: translateY(-12px); } }
+/* Schattenboxen */
+.rq-fig--boxing .rq-fig__all { animation: rq-bounce .5s ease-in-out infinite; }
+.rq-fig--boxing .rq-fig__arm--l { animation: rq-box-l 1s ease-in-out infinite; }
+.rq-fig--boxing .rq-fig__arm--r { animation: rq-box-r 1s ease-in-out infinite; }
+.rq-fig--boxing .rq-fig__fore--l { animation: rq-box-fore-l 1s ease-in-out infinite; }
+.rq-fig--boxing .rq-fig__fore--r { animation: rq-box-fore-r 1s ease-in-out infinite; }
+@keyframes rq-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes rq-box-l { 0%, 100% { transform: rotate(-20deg); } 50% { transform: rotate(-120deg); } }
+@keyframes rq-box-r { 0%, 50%, 100% { transform: rotate(20deg); } 75% { transform: rotate(120deg); } }
+@keyframes rq-box-fore-l { 0%, 100% { transform: rotate(130deg); } 50% { transform: rotate(10deg); } }
+@keyframes rq-box-fore-r { 0%, 50%, 100% { transform: rotate(-130deg); } 75% { transform: rotate(-10deg); } }
+/* Unterarmstütz */
+.rq-fig--plank .rq-fig__all { transform: rotate(90deg) translate(-30px, 20px); animation: rq-plank 1.5s ease-in-out infinite; }
+.rq-fig--plank .rq-fig__arm { transform: rotate(-70deg); }
+.rq-fig--plank .rq-fig__arm--r { transform: rotate(-60deg); }
+.rq-fig--plank .rq-fig__fore { transform: rotate(-90deg); }
+@keyframes rq-plank { 0%, 100% { transform: rotate(90deg) translate(-30px, 20px); } 50% { transform: rotate(90deg) translate(-30px, 21px); } }
+/* Wandsitz */
+.rq-fig--wallsit .rq-fig__all { transform: translateY(24px); }
+.rq-fig--wallsit .rq-fig__leg--l { transform: rotate(80deg); }
+.rq-fig--wallsit .rq-fig__leg--r { transform: rotate(60deg); }
+.rq-fig--wallsit .rq-fig__shin--l { transform: rotate(-80deg); }
+.rq-fig--wallsit .rq-fig__shin--r { transform: rotate(-60deg); }
+.rq-fig--wallsit .rq-fig__fore { transform: rotate(120deg); }
+.rq-fig--wallsit .rq-fig__fore--r { transform: rotate(-120deg); }
+.rq-fig--wallsit .rq-fig__torso { animation: rq-tremble .25s linear infinite; }
+@keyframes rq-tremble { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(1px); } }
+/* Atmen (4-4-6) */
+.rq-fig--breathe .rq-fig__torso { animation: rq-breathe-body 14s ease-in-out infinite; }
+@keyframes rq-breathe { 0% { transform: scale(.7); } 28% { transform: scale(1.1); } 57% { transform: scale(1.1); } 100% { transform: scale(.7); } }
+@keyframes rq-breathe-body { 0% { transform: scale(1); } 28% { transform: scale(1.06); } 57% { transform: scale(1.06); } 100% { transform: scale(1); } }
+/* Augen */
+.rq-fig--eyes .rq-fig__head { animation: rq-look 4s ease-in-out infinite; }
+@keyframes rq-look { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(20deg); } }
+@keyframes rq-eyes { 0%, 100% { transform: scale(1); opacity: .6; } 50% { transform: scale(1.4); opacity: 1; } }

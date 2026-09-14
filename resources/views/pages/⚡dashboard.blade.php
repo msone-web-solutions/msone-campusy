@@ -93,6 +93,15 @@ new #[Title('Dashboard')] class extends Component
 
     <section class="rq-section rq-section--tight rq-section--panel">
         <div class="rq-container rq-stack" style="gap:30px">
+            <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--raque-amber-500)">
+                <div>
+                    <span class="rq-eyebrow" style="margin-bottom:4px;color:#a2740a">Dein Schultag</span>
+                    <h2 style="font-size:var(--fs-h3);font-weight:600;line-height:1.4">Drei Doppelstunden, zwei Bewegungspausen – 8 bis 13 Uhr</h2>
+                    <p style="margin-top:4px">Stundenplan mit Uhr, Fächer-Rotation und Sportübungen für zu Hause.</p>
+                </div>
+                <x-raque.button icon="bx bx-time-five" :href="route('school-day')" wire:navigate>Zum Stundenplan</x-raque.button>
+            </div>
+
             @if ($this->dueCount > 0)
                 <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-secondary)">
                     <div>

@@ -5,10 +5,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 
-// Schüler: Dashboard, Fächer, Lektionen, tägliche Übung
+// Schüler: Dashboard, Schultag, Fächer, Lektionen, tägliche Übung
 Route::middleware(['auth', 'verified', 'role:student'])->group(function () {
     Route::livewire('dashboard', 'pages::dashboard')->name('dashboard');
     Route::livewire('ueben', 'pages::practice')->name('practice');
+    Route::livewire('schultag', 'pages::school-day')->name('school-day');
 
     Route::livewire('lernen', 'pages::learn.index')->name('learn.index');
     Route::livewire('lernen/{subject}', 'pages::learn.subject')->name('learn.subject');
