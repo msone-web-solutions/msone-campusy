@@ -17,16 +17,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $parent = User::factory()->create([
+        // Ohne Factory, damit der Seeder auch ohne Dev-Abhängigkeiten (Faker) in Produktion läuft.
+        $parent = User::query()->firstOrCreate(['email' => 'eltern@example.com'], [
             'name' => 'Sarah Schneider',
-            'email' => 'eltern@example.com',
             'role' => UserRole::Parent,
+            'password' => 'password',
+            'email_verified_at' => now(),
         ]);
 
-        User::factory()->create([
+        User::query()->firstOrCreate(['email' => 'alexa@example.com'], [
             'name' => 'Alexa Schneider',
-            'email' => 'alexa@example.com',
+            'role' => UserRole::Student,
             'parent_id' => $parent->id,
+            'password' => 'password',
+            'email_verified_at' => now(),
         ]);
 
         ContentImporter::default()->import();
