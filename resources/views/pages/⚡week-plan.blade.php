@@ -79,31 +79,39 @@ new #[Title('Wochenplan')] class extends Component
                     <button type="button" class="rq-icon-btn rq-icon-btn--outlined" wire:click="shift(1)" aria-label="Nächste Woche"><i class="bx bx-chevron-right"></i></button>
                     <h2 style="font-size:var(--fs-lg);font-weight:600;margin-left:6px">KW {{ $week['week_start']->isoWeek }} · {{ $week['week_start']->format('d.m.') }} – {{ $weekEnd->format('d.m.Y') }}</h2>
                 </div>
-                @if ($this->offset !== 0)
-                    <x-raque.button variant="cancel" size="sm" icon="bx bx-calendar" wire:click="$set('offset', 0)">Diese Woche</x-raque.button>
-                @endif
+                <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+                    @php $free = collect($week['days'])->reject(fn ($d) => $d['is_school_day']); $todayFree = $free->first(fn ($d) => $d['is_today']); @endphp
+                    @if ($todayFree)
+                        <span class="rq-day__now-badge"><span class="rq-day__pulse"></span>Heute {{ $weekdays[$todayFree['date']->dayOfWeekIso - 1] }} – kein Schultag</span>
+                    @endif
+                    @if ($free->isNotEmpty())
+                        <span class="rq-badge"><i class="bx bx-coffee"></i>Frei: {{ $free->map(fn ($d) => $weekdays[$d['date']->dayOfWeekIso - 1])->implode(', ') }}</span>
+                    @endif
+                    @if ($this->offset !== 0)
+                        <x-raque.button variant="cancel" size="sm" icon="bx bx-calendar" wire:click="$set('offset', 0)">Diese Woche</x-raque.button>
+                    @endif
+                </div>
             </div>
 
             {{-- Tage --}}
-            <div class="rq-week__grid" style="grid-template-columns:{{ collect($week['days'])->map(fn ($d) => $d['is_school_day'] ? 'minmax(0,1fr)' : '72px')->implode(' ') }}">
-                @foreach ($week['days'] as $day)
+            @php $schoolDays = collect($week['days'])->filter(fn ($d) => $d['is_school_day'])->values(); @endphp
+            <div class="rq-week__grid" style="--days:{{ max(1, $schoolDays->count()) }}">
+                @forelse ($schoolDays as $day)
                     @php
                         $d = $day['date'];
                         $planned = $day['planned'];
                         $passed = $day['passed'];
-                        $isFree = ! $day['is_school_day'];
+                        $isFree = false;
                         $short = $day['is_past'] && $day['target_blocks'] > 0 && $passed->count() === 0;
                     @endphp
-                    <div class="rq-card rq-week__day {{ $day['is_today'] ? 'is-today' : '' }} {{ $isFree ? 'is-free' : '' }} {{ $day['is_past'] ? 'is-past' : '' }}" wire:key="day-{{ $d->toDateString() }}">
+                    <div class="rq-card rq-week__day {{ $day['is_today'] ? 'is-today' : '' }} {{ $day['is_past'] ? 'is-past' : '' }}" wire:key="day-{{ $d->toDateString() }}">
                         <div class="rq-week__day-head">
-                            <div>
-                                <span class="rq-week__day-name">{{ $weekdays[$d->dayOfWeekIso - 1] }}</span>
+                            <div class="rq-week__day-date">
+                                <span class="rq-week__day-name">{{ $weekdaysLong[$d->dayOfWeekIso - 1] }}</span>
                                 <span class="rq-muted rq-num">{{ $d->format('d.m.') }}</span>
                             </div>
                             @if ($day['is_today'])
                                 <span class="rq-day__now-badge"><span class="rq-day__pulse"></span>Heute</span>
-                            @elseif ($isFree)
-                                <span class="rq-badge">frei</span>
                             @elseif ($day['is_past'])
                                 <span class="rq-badge {{ $passed->count() >= $day['target_blocks'] ? 'rq-badge--green' : ($passed->isEmpty() ? 'rq-badge--red' : 'rq-badge--amber') }}">{{ $passed->count() }} bestanden</span>
                             @else
@@ -111,9 +119,7 @@ new #[Title('Wochenplan')] class extends Component
                             @endif
                         </div>
 
-                        @if ($isFree)
-                            <p class="rq-week__empty">Kein Schultag.</p>
-                        @elseif ($day['is_past'])
+                        @if ($day['is_past'])
                             @forelse ($passed as $topic)
                                 <a href="{{ route('learn.topic', [$topic->topicArea->subject, $topic->topicArea, $topic]) }}" class="rq-week__item is-passed rq-week__item--{{ $topic->topicArea->subject->slug }}" wire:navigate wire:key="p-{{ $topic->id }}">
                                     <i class="bx bx-check-circle"></i>
@@ -133,7 +139,7 @@ new #[Title('Wochenplan')] class extends Component
                             @endif
                             @forelse ($planned as $bi => $block)
                                 <div class="rq-week__block rq-week__item--{{ $block['subject']->slug }}" wire:key="b-{{ $d->toDateString() }}-{{ $bi }}">
-                                    <div class="rq-week__block-head"><i class="{{ $this->icon($block['subject']) }}"></i>{{ $block['subject']->name }} <span class="rq-muted rq-num">· {{ $block['minutes'] }} min</span></div>
+                                    <div class="rq-week__block-head"><span class="rq-week__block-icon"><i class="{{ $this->icon($block['subject']) }}"></i></span><span class="rq-week__block-subject">{{ $block['subject']->name }}</span><span class="rq-muted rq-num rq-week__block-min">{{ $block['minutes'] }} min</span></div>
                                     @foreach ($block['units'] as $u)
                                         <a href="{{ route('learn.topic', [$u['topic']->topicArea->subject, $u['topic']->topicArea, $u['topic']]) }}" class="rq-week__item" wire:navigate wire:key="u-{{ $d->toDateString() }}-{{ $bi }}-{{ $loop->index }}">
                                             <span class="rq-day__unit-nr">{{ $u['topic']->topicArea->sort }}.{{ $u['topic']->sort }}</span>
@@ -146,7 +152,9 @@ new #[Title('Wochenplan')] class extends Component
                             @endforelse
                         @endif
                     </div>
-                @endforeach
+                @empty
+                    <div class="rq-card rq-week__day"><p class="rq-week__empty">In dieser Woche gibt es keine Schultage.</p></div>
+                @endforelse
             </div>
 
             {{-- Fächer-Ausblick --}}

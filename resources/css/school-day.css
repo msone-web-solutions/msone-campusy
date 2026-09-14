@@ -298,32 +298,42 @@
 .rq-week__kpis { display: flex; gap: 25px; flex-wrap: wrap; }
 .rq-week__kpis div { display: grid; gap: 2px; }
 .rq-week__kpis strong { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.rq-week__grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; align-items: start; }
+.rq-week__grid { display: grid; grid-template-columns: repeat(var(--days, 5), minmax(0, 1fr)); gap: 14px; align-items: start; }
 .rq-week__grid > *, .rq-week__day > *, .rq-week__block > *, .rq-week__item > span { min-width: 0; }
-.rq-week__item-title { overflow-wrap: anywhere; }
-@media (max-width: 1100px) { .rq-week__grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; } }
-@media (max-width: 700px) { .rq-week__grid { grid-template-columns: 1fr 1fr !important; } }
-@media (max-width: 480px) { .rq-week__grid { grid-template-columns: 1fr !important; } }
-.rq-week__day { padding: 14px; display: grid; gap: 8px; min-height: 160px; }
-.rq-week__day.is-free { background: transparent; box-shadow: none; border: 2px dashed var(--border-default); min-height: 0; }
-.rq-week__day.is-free .rq-week__day-head { flex-direction: column; }
+.rq-week__item-title { overflow-wrap: break-word; hyphens: auto; }
+@media (max-width: 1199px) { .rq-week__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 900px) { .rq-week__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .rq-week__grid { grid-template-columns: 1fr; } }
+.rq-week__day { padding: 0; display: grid; gap: 10px; align-content: start; min-height: 160px; overflow: hidden; }
+.rq-week__day > * { margin-inline: 14px; }
+.rq-week__day > *:last-child { margin-bottom: 14px; }
 .rq-week__day.is-past { opacity: .85; }
 .rq-week__day.is-today { outline: 2px solid var(--genius-teal); outline-offset: -2px; }
-.rq-week__day-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; margin-bottom: 4px; }
-.rq-week__day-name { display: block; font-weight: 600; font-size: 15px; }
+.rq-week__day-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-inline: 0; padding: 12px 14px; background: var(--surface-inset); border-bottom: 1px solid var(--border-hairline); }
+.rq-week__day.is-today .rq-week__day-head { background: rgba(23,208,207,.12); }
+.rq-week__day-date { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.rq-week__day-name { font-weight: 600; font-size: 16px; color: var(--text-heading); }
 .rq-week__empty { font-size: 13px; line-height: 1.5; }
-.rq-week__block { border-radius: var(--radius-control); background: var(--surface-inset); padding: 8px; display: grid; gap: 6px; border-left: 3px solid var(--raque-grey-300); }
-.rq-week__block-head { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); }
-.rq-week__block-head i { font-size: 16px; color: var(--color-icon); }
-.rq-week__item { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.35; padding: 6px 8px; border-radius: 6px; background: #fff; color: var(--text-heading); }
-.rq-week__item > i { font-size: 18px; color: var(--subj-chemie); flex: 0 0 auto; }
-.rq-week__item .rq-day__unit-nr { min-width: 32px; height: 24px; font-size: 11px; }
+.rq-week__block { border-radius: var(--radius-control); background: var(--surface-inset); padding: 8px; display: grid; gap: 6px; border-left: 3px solid var(--subj, var(--raque-grey-300)); }
+.rq-week__block-head { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; color: var(--text-heading); padding: 2px 2px 4px; }
+.rq-week__block-icon { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--subj, var(--color-icon)) 14%, #fff); color: var(--subj, var(--color-icon)); font-size: 15px; }
+.rq-week__block-subject { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rq-week__block-min { font-weight: 500; text-transform: none; letter-spacing: 0; }
+.rq-week__item { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.4; padding: 7px 8px; border-radius: 6px; background: #fff; color: var(--text-heading); }
+.rq-week__item:hover .rq-week__item-title { color: var(--color-primary); }
+.rq-week__item > i { font-size: 18px; color: var(--genius-teal); flex: 0 0 auto; }
+.rq-week__item .rq-day__unit-nr { min-width: 30px; height: 22px; padding: 0 5px; font-size: 11px; background: color-mix(in srgb, var(--subj, var(--color-icon)) 12%, #fff); color: var(--subj, var(--color-icon)); border-radius: 5px; }
 .rq-week__item-title { display: block; font-weight: 500; }
 .rq-week__item.is-passed { background: rgba(23,208,207,.10); }
 .rq-week__item.is-passed .rq-week__item-title { text-decoration: line-through; opacity: .8; }
-.rq-week__item--mathematik.rq-week__block, .rq-week__item--mathematik.rq-week__item { border-left: 3px solid var(--subj-mathematik); }
-.rq-week__item--chemie.rq-week__block, .rq-week__item--chemie.rq-week__item { border-left: 3px solid var(--subj-chemie); }
-.rq-week__item--informatik.rq-week__block, .rq-week__item--informatik.rq-week__item { border-left: 3px solid var(--subj-informatik); }
+/* Fachfarben – Fach-Slug → --subj */
+.rq-week__item--mathematik { --subj: #01a6fd; } .rq-week__item--englisch { --subj: #e0457b; } .rq-week__item--geographie { --subj: #2e9e5b; }
+.rq-week__item--chemie { --subj: #17d0cf; } .rq-week__item--informatik { --subj: #0d6fb8; } .rq-week__item--deutsch { --subj: #d64545; }
+.rq-week__item--biologie { --subj: #4caf50; } .rq-week__item--physik { --subj: #5c6bc0; } .rq-week__item--geschichte { --subj: #c98a2b; }
+.rq-week__item--ethik { --subj: #8d6e63; } .rq-week__item--musik { --subj: #8e44ad; } .rq-week__item--kunst { --subj: #ec407a; }
+.rq-week__item--sport { --subj: #f57c00; } .rq-week__item--technik { --subj: #607d8b; } .rq-week__item--hauswirtschaft { --subj: #a1887f; }
+.rq-week__item--wirtschaft { --subj: #00897b; } .rq-week__item--franzoesisch { --subj: #3f51b5; } .rq-week__item--russisch { --subj: #c62828; } .rq-week__item--religion { --subj: #6d4c41; }
+.rq-week__item.rq-week__item--mathematik, .rq-week__item[class*="rq-week__item--"].is-passed { border-left: 3px solid var(--subj, var(--genius-teal)); }
 .rq-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .rq-table th, .rq-table td { text-align: left; padding: 12px 20px; border-bottom: 1px solid var(--border-default); vertical-align: middle; }
 .rq-table th { font-size: 12px; text-transform: uppercase; color: var(--text-secondary); font-weight: 500; }
