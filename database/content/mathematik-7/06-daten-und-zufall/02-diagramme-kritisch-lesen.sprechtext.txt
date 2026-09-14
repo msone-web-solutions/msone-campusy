@@ -1,0 +1,31 @@
+Diagramme erstellen und kritisch lesen.
+
+Hallo! Diagramme sehen objektiv aus, sind es aber nicht immer. Heute lernst du, das passende Diagramm zu wählen, es sauber zu zeichnen und vor allem: Tricks zu erkennen, mit denen Diagramme täuschen.
+
+Zuerst die Wahl des Diagramms. Willst du zeigen, wie groß verschiedene Kategorien sind, also vergleichen, nimmst du das Säulendiagramm. Willst du zeigen, wie sich ein Ganzes aufteilt, also Anteile, nimmst du das Kreisdiagramm. Willst du zeigen, wie sich etwas über die Zeit verändert, nimmst du das Liniendiagramm. Und im Kreisdiagramm gilt wieder: relative Häufigkeit mal dreihundertsechzig Grad ergibt den Winkel.
+
+Ein Diagramm zeichnest du so: Erstens eine Überschrift, was wird gezeigt, und die Gesamtzahl n. Zweitens die Achsen beschriften, mit Einheit. Drittens eine gleichmäßige Skala, die bei null beginnt. Viertens gleich breite Säulen mit gleichen Abständen. Und wenn nötig eine Legende.
+
+Beim Auswerten stellst du Fragen an das Diagramm: Welcher Wert ist der größte, welcher der kleinste? Wie groß ist der Unterschied? Wie ist der Trend, steigend, fallend oder gleichbleibend? Und was ist die Gesamtzahl? Ohne sie kannst du Prozente nicht in Anzahlen umrechnen.
+
+Ein Beispiel: Ein Liniendiagramm zeigt Fahrradunfälle mit Kindern in einer Stadt. Zweitausendeinundzwanzig achtundvierzig, zweitausendzweiundzwanzig einundvierzig, zweitausenddreiundzwanzig vierundvierzig, zweitausendvierundzwanzig fünfunddreißig. Der Trend ist insgesamt fallend, mit einem Anstieg im Jahr zweitausenddreiundzwanzig. Von achtundvierzig auf fünfunddreißig sind dreizehn Unfälle weniger, das sind etwa siebenundzwanzig Prozent weniger.
+
+Und jetzt die Tricks. Fünf Tricks, die du kennen solltest.
+
+Erstens: die abgeschnittene Achse. Beginnt die y-Achse nicht bei null, sehen kleine Unterschiede riesig aus. Zwei Säulen mit achtundneunzig und hundert sehen bei einer Achse von siebenundneunzig bis hunderteins aus, als wäre die eine halb so groß.
+
+Zweitens: die ungleichmäßige Skala. Wenn die Abstände auf der Achse erst Einerschritte und dann Zehnerschritte sind, wird die Kurve verzerrt.
+
+Drittens: falsche Flächen. Wird ein Wert doppelt so groß und man zeichnet das Bild doppelt so hoch und doppelt so breit, dann ist die Fläche viermal so groß. Das Auge sieht die Fläche, und das wirkt viel mehr als doppelt.
+
+Viertens: dreidimensionale Perspektive. Ein 3D-Kreisdiagramm lässt die vorderen Stücke größer aussehen als die hinteren.
+
+Fünftens: der ausgewählte Zeitraum. Wer nur die Jahre zeigt, in denen etwas gestiegen ist, verschweigt den Rest.
+
+Deine Checkliste beim Lesen: Beginnt die Achse bei null? Ist die Skala gleichmäßig? Wie groß ist n? Welcher Zeitraum? Und wer hat das Diagramm gemacht, und warum?
+
+Zum Schluss: absolut oder relativ. In Stadt A gab es zweihundert Fahrradunfälle, in Stadt B nur fünfzig. Ist B sicherer? Nicht unbedingt. Wenn A vierhunderttausend Einwohner hat und B fünfzigtausend, ist die Rate in A null Komma null fünf Prozent und in B null Komma eins Prozent. B ist relativ gesehen gefährlicher. Ohne Bezugsgröße sagen absolute Zahlen wenig.
+
+Fassen wir zusammen. Säulen zum Vergleichen, Kreis für Anteile, Linie für den Verlauf. Sauber zeichnen mit Überschrift, Beschriftung und Skala ab null. Und beim Lesen immer die Checkliste durchgehen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

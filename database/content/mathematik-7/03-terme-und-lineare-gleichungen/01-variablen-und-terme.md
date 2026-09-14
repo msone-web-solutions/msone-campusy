@@ -3,6 +3,7 @@ title: Variablen und Terme
 intro: Was eine Variable ist, was ein Term ist – und wie man den Wert eines Terms berechnet.
 curriculum_ref: "Termstrukturen erkennen und am Beispiel beschreiben; Termwerte berechnen; Grundlegende Wissensbestände: Term, Variablengrundbereich, Termstrukturen Summe, Differenz, Produkt, Quotient"
 estimated_minutes: 25
+reflect: "Erkläre, was eine Variable ist und warum man sie braucht. Gib ein Beispiel aus dem Alltag, das man mit einem Term beschreiben kann."
 ---
 ## Erklärung
 
@@ -34,6 +35,14 @@ Ein **Term** ist ein sinnvoller Rechenausdruck aus Zahlen, Variablen und Rechenz
 - x · x = **x²**
 - x : 4 schreibt man oft als Bruch **x/4**
 
+::: check
+type: single_choice
+prompt: "Wie schreibt man 5 · x in Kurzform?"
+options: ["x5", "5x", "5 + x"]
+answer: { index: 1 }
+explanation: "Zahl vor die Variable, Malzeichen weglassen: 5x."
+:::
+
 ### Termwerte berechnen
 
 Setzt man für die Variable eine Zahl ein, kann man den Term ausrechnen. Das Ergebnis heißt **Termwert**.
@@ -52,6 +61,13 @@ Am übersichtlichsten ist eine **Wertetabelle**:
 
 Tipp: Wenn du eine negative Zahl einsetzt, setze sie **in Klammern**: 3 · (−1). Das vermeidet Vorzeichenfehler.
 
+::: check
+type: numeric
+prompt: "Berechne den Termwert von 2x + 7 für x = −3."
+answer: { value: 1 }
+explanation: "2 · (−3) + 7 = −6 + 7 = 1."
+:::
+
 ### Termstrukturen: Was für ein Term ist das?
 
 Man benennt einen Term nach der **Rechenart, die zuletzt ausgeführt wird**:
@@ -65,6 +81,14 @@ Man benennt einen Term nach der **Rechenart, die zuletzt ausgeführt wird**:
 | (x + 2)² | Potenzieren | **Potenz** |
 
 Zum Beispiel ist 4 · (x + 1) ein **Produkt**, obwohl in der Klammer eine Summe steht – denn zuletzt wird multipliziert.
+
+::: check
+type: single_choice
+prompt: "Welche Termstruktur hat 3 · (x − 2)?"
+options: ["Summe", "Differenz", "Produkt"]
+answer: { index: 2 }
+explanation: "Zuletzt wird multipliziert → Produkt."
+:::
 
 ### Terme aus Texten aufstellen
 

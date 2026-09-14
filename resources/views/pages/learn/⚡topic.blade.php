@@ -5,6 +5,7 @@ use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\TopicArea;
 use App\Models\TopicProgress;
+use App\Review\ReviewPlanner;
 use App\Support\Markdown;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
@@ -23,6 +24,9 @@ new #[Title('Thema')] class extends Component
     /** explain | notebook | quiz */
     #[Url(as: 'schritt')]
     public string $step = 'explain';
+
+    /** @var array<int, int> ids of inline checks the student has answered this visit */
+    public array $answeredChecks = [];
 
     public function mount(Subject $subject, TopicArea $topicArea, Topic $topic): void
     {
@@ -78,10 +82,44 @@ new #[Title('Thema')] class extends Component
         unset($this->progress);
     }
 
+    #[On('check-answered')]
+    public function noteCheck(int $questionId): void
+    {
+        if (! in_array($questionId, $this->answeredChecks, true)) {
+            $this->answeredChecks[] = $questionId;
+        }
+    }
+
+    #[Computed]
+    public function checks(): \Illuminate\Support\Collection
+    {
+        return $this->topic->checks()->get();
+    }
+
+    #[Computed]
+    public function warmup(): \Illuminate\Support\Collection
+    {
+        return app(ReviewPlanner::class)->warmupFor($this->topic);
+    }
+
+    /**
+     * Segment i (0-based) is readable once the check that closes segment i-1 was answered.
+     */
+    public function segmentVisible(int $index): bool
+    {
+        if ($index === 0) {
+            return true;
+        }
+
+        $gate = $this->checks->firstWhere('segment', $index);
+
+        return $gate === null || in_array($gate->id, $this->answeredChecks, true);
+    }
+
     public function render(): mixed
     {
         return $this->view([
-            'explanationHtml' => Markdown::block($this->topic->explanation),
+            'segments' => array_map(fn (string $part) => Markdown::block($part), $this->topic->explanationSegments()),
             'notebookHtml' => Markdown::block($this->topic->notebook_entry),
         ]);
     }
@@ -92,7 +130,9 @@ new #[Title('Thema')] class extends Component
     <x-raque.page-banner :title="$topic->title" compact :eyebrow="'Themenfeld '.$topicArea->sort.' · Thema '.$topicArea->sort.'.'.$topic->sort" :crumbs="[['label' => 'Fächer', 'href' => route('learn.index')], ['label' => $subject->name, 'href' => route('learn.subject', $subject)], ['label' => $topicArea->name]]">
         <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;align-items:center">
             <span class="rq-badge rq-badge--on-primary"><i class="bx bx-time"></i>ca. {{ $topic->estimated_minutes }} min</span>
-            @if ($this->progress->status === ProgressStatus::Passed)
+            @if ($this->progress->status === ProgressStatus::Mastered)
+                <span class="rq-badge rq-badge--on-primary"><i class="bx bxs-shield"></i>Gesichert · {{ $this->progress->best_percent }} %</span>
+            @elseif ($this->progress->status === ProgressStatus::Passed)
                 <span class="rq-badge rq-badge--on-primary"><i class="bx bx-check-circle"></i>Bestanden · {{ $this->progress->best_percent }} %</span>
             @elseif ($this->progress->best_percent > 0)
                 <span class="rq-badge rq-badge--on-primary"><i class="bx bx-refresh"></i>Bester Versuch: {{ $this->progress->best_percent }} %</span>
@@ -116,7 +156,7 @@ new #[Title('Thema')] class extends Component
                 $done = [
                     'explain' => false,
                     'notebook' => $this->progress->notebook_confirmed_at !== null,
-                    'quiz' => $this->progress->status === ProgressStatus::Passed,
+                    'quiz' => $this->progress->status->isPassed(),
                 ];
             @endphp
             <nav aria-label="Schritte" class="rq-steps">
@@ -133,13 +173,53 @@ new #[Title('Thema')] class extends Component
 
             {{-- Step 1: Explanation --}}
             @if ($step === 'explain')
-                <article class="rq-panel">
-                    <div class="lesson-prose">{!! $explanationHtml !!}</div>
-                    <hr class="rq-divider">
-                    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:15px">
-                        <p>Alles verstanden? Dann kommt jetzt der Hefteintrag.</p>
-                        <x-raque.button icon="bx bx-pencil" wire:click="goTo('notebook')">Weiter zum Hefteintrag</x-raque.button>
+                @if ($this->warmup->isNotEmpty() && $this->topic->previousTopic())
+                    <div class="rq-warmup">
+                        <span class="rq-eyebrow" style="margin-bottom:2px">Kurz wiederholt</span>
+                        <div style="font-size:var(--fs-lead);font-weight:600">Drei Aufgaben aus „{{ $this->topic->previousTopic()->title }}“</div>
+                        <p style="font-size:14px;margin-top:4px">Was du zuletzt gelernt hast, kurz aus dem Gedächtnis holen – dann sitzt das Neue besser darauf.</p>
+                        <div class="rq-warmup__grid">
+                            @foreach ($this->warmup as $i => $wq)
+                                <livewire:inline-check :question="$wq" :label="'Wiederholung '.($i + 1)" :key="'warm-'.$wq->id" />
+                            @endforeach
+                        </div>
                     </div>
+                @endif
+
+                <article class="rq-panel">
+                    @if ($audioUrl = $topic->audioUrl())
+                        <div class="rq-audio">
+                            <div class="rq-audio__icon"><i class="bx bx-headphone"></i></div>
+                            <div class="rq-audio__body">
+                                <div class="rq-audio__title">Erklärung anhören</div>
+                                <div class="rq-muted">Lass dir das Thema vorlesen – und lies unten mit.</div>
+                                <audio controls preload="metadata" src="{{ $audioUrl }}" class="rq-audio__player">Dein Browser kann die Audiodatei nicht abspielen.</audio>
+                            </div>
+                        </div>
+                    @endif
+
+                    @php $allVisible = true; @endphp
+                    @foreach ($segments as $i => $segmentHtml)
+                        @if ($this->segmentVisible($i))
+                            <div class="lesson-prose" wire:key="seg-{{ $i }}">{!! $segmentHtml !!}</div>
+                            @php $gate = $this->checks->firstWhere('segment', $i + 1); @endphp
+                            @if ($gate)
+                                <livewire:inline-check :question="$gate" :key="'check-'.$gate->id" />
+                            @endif
+                        @else
+                            @php $allVisible = false; @endphp
+                            <div class="rq-locked" wire:key="lock-{{ $i }}"><i class="bx bx-lock-alt"></i>Beantworte die Aufgabe oben, dann geht die Erklärung weiter.</div>
+                            @break
+                        @endif
+                    @endforeach
+
+                    @if ($allVisible)
+                        <hr class="rq-divider">
+                        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:15px">
+                            <p>Alles verstanden? Dann kommt jetzt der Hefteintrag.</p>
+                            <x-raque.button icon="bx bx-pencil" wire:click="goTo('notebook')">Weiter zum Hefteintrag</x-raque.button>
+                        </div>
+                    @endif
                 </article>
             @endif
 

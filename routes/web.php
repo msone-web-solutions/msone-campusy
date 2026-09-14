@@ -8,6 +8,9 @@ Route::view('/', 'welcome')->name('home');
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::livewire('dashboard', 'pages::dashboard')->name('dashboard');
 
+    Route::livewire('ueben', 'pages::practice')->name('practice');
+    Route::livewire('eltern', 'pages::parent-dashboard')->name('parent.dashboard');
+
     Route::livewire('lernen', 'pages::learn.index')->name('learn.index');
     Route::livewire('lernen/{subject}', 'pages::learn.subject')->name('learn.subject');
     Route::livewire('lernen/{subject}/{topicArea:slug}/{topic:slug}', 'pages::learn.topic')

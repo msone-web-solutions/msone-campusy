@@ -3,6 +3,7 @@ title: Der Innenwinkelsatz im Viereck
 intro: Warum die vier Innenwinkel eines Vierecks immer 360° ergeben – mit Begründung über Dreiecke und vielen Rechenbeispielen.
 curriculum_ref: "Innenwinkelsatz bei Berechnungen und Begründungen anwenden; Aussagen über Vierecke durch Zurückführen auf Dreiecke begründen; Beweisführung am Beispiel des Satzes über die Summe der Innenwinkel im Viereck"
 estimated_minutes: 25
+reflect: "Erkläre mit der Diagonale, warum die Winkelsumme im Viereck 360° beträgt."
 ---
 ## Erklärung
 
@@ -37,6 +38,14 @@ Und die Winkel der beiden Dreiecke ergeben genau die vier Winkel des Vierecks: �
 
 Das ist ein **Beweis**: Wir haben den neuen Satz auf etwas zurückgeführt, das wir schon wissen (Winkelsumme im Dreieck). So funktioniert Mathematik.
 
+::: check
+type: numeric
+prompt: "Wie groß ist die Winkelsumme in einem Viereck?"
+options: { unit: "°" }
+answer: { value: 360 }
+explanation: "Zwei Dreiecke mit je 180°."
+:::
+
 ### Rechnen mit dem Innenwinkelsatz
 
 **Beispiel 1:** Drei Winkel sind bekannt: α = 80°, β = 95°, γ = 110°. Gesucht: δ.
@@ -55,6 +64,14 @@ Probe: 70 + 85 + 95 + 110 = 360 ✓
 
 **Beispiel 5:** Mit einer Variablen: Die Winkel eines Vierecks sind x, 2x, 3x und 4x.
 x + 2x + 3x + 4x = 360° → 10x = 360° → x = 36°. Die Winkel: 36°, 72°, 108°, 144°.
+
+::: check
+type: numeric
+prompt: "α = 100°, β = 80°, γ = 95°. Wie groß ist δ?"
+options: { unit: "°" }
+answer: { value: 85 }
+explanation: "360 − 100 − 80 − 95 = 85°."
+:::
 
 ### Sonderfall: Überstumpfe Winkel
 

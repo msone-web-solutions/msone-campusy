@@ -5,6 +5,7 @@ use App\Models\QuizAttempt;
 use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\TopicProgress;
+use App\Review\ReviewPlanner;
 use Illuminate\Support\Collection;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Title;
@@ -29,7 +30,7 @@ new #[Title('Dashboard')] class extends Component
     {
         $lastSeen = TopicProgress::query()
             ->where('user_id', auth()->id())
-            ->where('status', '!=', ProgressStatus::Passed)
+            ->whereNotIn('status', [ProgressStatus::Passed, ProgressStatus::Mastered])
             ->latest('last_seen_at')
             ->with('topic.topicArea.subject')
             ->first();
@@ -40,7 +41,13 @@ new #[Title('Dashboard')] class extends Component
 
         return $this->subjects
             ->flatMap(fn (Subject $s) => $s->topicAreas->flatMap->topics)
-            ->first(fn (Topic $t) => $t->progress->first()?->status !== ProgressStatus::Passed);
+            ->first(fn (Topic $t) => ! ($t->progress->first()?->status->isPassed() ?? false));
+    }
+
+    #[Computed]
+    public function dueCount(): int
+    {
+        return app(ReviewPlanner::class)->dueCountFor(auth()->user());
     }
 
     /**
@@ -59,7 +66,7 @@ new #[Title('Dashboard')] class extends Component
     }
 
     /**
-     * @return array{total: int, passed: int, notebooks: int, attempts: int}
+     * @return array{total: int, passed: int, mastered: int, notebooks: int, attempts: int}
      */
     #[Computed]
     public function stats(): array
@@ -69,9 +76,10 @@ new #[Title('Dashboard')] class extends Component
 
         return [
             'total' => $topics->count(),
-            'passed' => $progress->where('status', ProgressStatus::Passed)->count(),
+            'passed' => $progress->filter(fn (TopicProgress $p) => $p->status->isPassed())->count(),
+            'mastered' => $progress->where('status', ProgressStatus::Mastered)->count(),
             'notebooks' => $progress->whereNotNull('notebook_confirmed_at')->count(),
-            'attempts' => QuizAttempt::query()->where('user_id', auth()->id())->whereNotNull('finished_at')->count(),
+            'attempts' => QuizAttempt::query()->where('user_id', auth()->id())->whereNotNull('finished_at')->distinct('topic_id')->count('topic_id'),
         ];
     }
 };
@@ -85,6 +93,17 @@ new #[Title('Dashboard')] class extends Component
 
     <section class="rq-section rq-section--tight rq-section--panel">
         <div class="rq-container" style="display:grid;gap:30px">
+            @if ($this->dueCount > 0)
+                <div class="rq-card" style="padding:25px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-secondary)">
+                    <div>
+                        <span class="rq-eyebrow" style="margin-bottom:4px;color:var(--color-secondary)">Tägliche Übung</span>
+                        <h2 style="font-size:var(--fs-h3);font-weight:600;line-height:1.4">{{ $this->dueCount }} Aufgaben fällig · etwa {{ (int) ceil(min($this->dueCount, 10) * 0.6) }} Minuten</h2>
+                        <p style="margin-top:4px">Gemischt aus allem, was du schon kannst – mit Abstand wiederholen ist der stärkste Lerneffekt.</p>
+                    </div>
+                    <x-raque.button icon="bx bx-refresh" :href="route('practice')" wire:navigate>Jetzt üben</x-raque.button>
+                </div>
+            @endif
+
             @if ($this->continueTopic)
                 @php $t = $this->continueTopic; @endphp
                 <div class="rq-card" style="padding:30px 35px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;border-left:5px solid var(--color-primary)">
@@ -100,8 +119,8 @@ new #[Title('Dashboard')] class extends Component
             <div class="rq-grid rq-grid--4">
                 @foreach ([
                     ['label' => 'Themen bestanden', 'value' => $stats['passed'].' / '.$stats['total'], 'icon' => 'bx bx-check-circle'],
-                    ['label' => 'Hefteinträge', 'value' => $stats['notebooks'], 'icon' => 'bx bx-pencil'],
-                    ['label' => 'Tests gemacht', 'value' => $stats['attempts'], 'icon' => 'bx bx-task'],
+                    ['label' => 'Davon gesichert', 'value' => $stats['mastered'], 'icon' => 'bx bx-shield-quarter'],
+                    ['label' => 'Themen getestet', 'value' => $stats['attempts'], 'icon' => 'bx bx-task'],
                     ['label' => 'Fächer', 'value' => $this->subjects->count(), 'icon' => 'bx bx-book-open'],
                 ] as $tile)
                     <div class="rq-card rq-stat-tile">
@@ -118,7 +137,7 @@ new #[Title('Dashboard')] class extends Component
                         @foreach ($this->subjects as $subject)
                             @php
                                 $topics = $subject->topicAreas->flatMap->topics;
-                                $passed = $topics->filter(fn ($t) => $t->progress->first()?->status === ProgressStatus::Passed)->count();
+                                $passed = $topics->filter(fn ($t) => $t->progress->first()?->status->isPassed() ?? false)->count();
                                 $percent = $topics->isEmpty() ? 0 : (int) round($passed * 100 / $topics->count());
                             @endphp
                             <a href="{{ route('learn.subject', $subject) }}" wire:navigate wire:key="dash-subject-{{ $subject->id }}" class="rq-card rq-card--lift" style="display:block;padding:20px 25px">

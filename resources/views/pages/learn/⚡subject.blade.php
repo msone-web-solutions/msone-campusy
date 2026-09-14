@@ -27,7 +27,7 @@ new #[Title('Themen')] class extends Component
     {
         return $this->subject->topicAreas
             ->flatMap->topics
-            ->first(fn (Topic $topic) => $topic->progress->first()?->status !== ProgressStatus::Passed);
+            ->first(fn (Topic $topic) => ! ($topic->progress->first()?->status->isPassed() ?? false));
     }
 
     public function statusOf(Topic $topic): ?ProgressStatus
@@ -37,7 +37,7 @@ new #[Title('Themen')] class extends Component
 
     public function passedCount(TopicArea $area): int
     {
-        return $area->topics->filter(fn (Topic $topic) => $this->statusOf($topic) === ProgressStatus::Passed)->count();
+        return $area->topics->filter(fn (Topic $topic) => $this->statusOf($topic)?->isPassed() ?? false)->count();
     }
 };
 ?>
@@ -71,15 +71,15 @@ new #[Title('Themen')] class extends Component
                             @php $status = $this->statusOf($topic); @endphp
                             <li wire:key="topic-{{ $topic->id }}" class="rq-topic-row">
                                 <a href="{{ route('learn.topic', [$subject, $area, $topic]) }}" wire:navigate class="rq-topic">
-                                    <span @class(['rq-topic__nr', 'rq-topic__nr--done' => $status === ProgressStatus::Passed, 'rq-topic__nr--started' => $status !== null && $status !== ProgressStatus::Passed])>
-                                        @if ($status === ProgressStatus::Passed)<i class="bx bx-check" style="font-size:22px"></i>@else{{ $area->sort }}.{{ $topic->sort }}@endif
+                                    <span @class(['rq-topic__nr', 'rq-topic__nr--done' => $status?->isPassed(), 'rq-topic__nr--started' => $status !== null && ! $status->isPassed()])>
+                                        @if ($status === ProgressStatus::Mastered)<i class="bx bxs-shield" style="font-size:20px"></i>@elseif ($status?->isPassed())<i class="bx bx-check" style="font-size:22px"></i>@else{{ $area->sort }}.{{ $topic->sort }}@endif
                                     </span>
                                     <span style="min-width:0;flex:1">
                                         <span class="rq-topic__title">{{ $topic->title }}</span>
                                         <span class="rq-topic__intro">{{ $topic->intro }}</span>
                                     </span>
                                     <span class="rq-topic__side">
-                                        @if ($status)<span class="rq-badge {{ $status === ProgressStatus::Passed ? 'rq-badge--green' : 'rq-badge--red' }}">{{ $status->label() }}</span>@endif
+                                        @if ($status)<span class="rq-badge {{ $status->isPassed() ? 'rq-badge--green' : 'rq-badge--red' }}">{{ $status->label() }}</span>@endif
                                         <span><i class="bx bx-time"></i> {{ $topic->estimated_minutes }} min</span>
                                         <i class="bx bx-chevron-right" style="font-size:22px"></i>
                                     </span>

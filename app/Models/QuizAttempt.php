@@ -2,13 +2,13 @@
 
 namespace App\Models;
 
+use Carbon\CarbonInterface;
 use Database\Factories\QuizAttemptFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Support\Carbon;
 
 /**
  * @property int $id
@@ -17,10 +17,12 @@ use Illuminate\Support\Carbon;
  * @property int $score
  * @property int $max_score
  * @property bool $passed
- * @property Carbon $started_at
- * @property Carbon|null $finished_at
+ * @property int|null $confidence
+ * @property string|null $self_explanation
+ * @property CarbonInterface $started_at
+ * @property CarbonInterface|null $finished_at
  */
-#[Fillable(['user_id', 'topic_id', 'score', 'max_score', 'passed', 'started_at', 'finished_at'])]
+#[Fillable(['user_id', 'topic_id', 'score', 'max_score', 'passed', 'confidence', 'self_explanation', 'started_at', 'finished_at'])]
 class QuizAttempt extends Model
 {
     /** @use HasFactory<QuizAttemptFactory> */

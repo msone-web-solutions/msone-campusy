@@ -1,0 +1,33 @@
+Lineare Gleichungen durch Umformen lösen.
+
+Hallo! Heute lernst du das sichere Verfahren, mit dem du jede Gleichung wie drei x plus sieben gleich zweiundzwanzig lösen kannst: Schritt für Schritt mit Äquivalenzumformungen.
+
+Aus dem Waagemodell kennst du die Idee: Was du auf der einen Seite tust, musst du auch auf der anderen Seite tun. Dann bleibt die Lösung gleich. Solche Umformungen heißen Äquivalenzumformungen. Erlaubt sind vier Dinge: Auf beiden Seiten dieselbe Zahl addieren. Auf beiden Seiten dieselbe Zahl subtrahieren. Beide Seiten mit derselben Zahl multiplizieren, außer null. Und beide Seiten durch dieselbe Zahl dividieren, außer null.
+
+Den Umformungsschritt schreibst du rechts hinter einen senkrechten Strich. Das Ziel ist immer: x allein auf einer Seite. Am Ende steht dort x gleich Zahl.
+
+Erstes Beispiel: x plus acht gleich fünfzehn. Auf beiden Seiten minus acht. x gleich sieben. Probe: sieben plus acht ist fünfzehn.
+
+Zweites Beispiel: vier x gleich achtundzwanzig. Beide Seiten durch vier. x gleich sieben. Probe: vier mal sieben ist achtundzwanzig.
+
+Jetzt die Gleichungen der Form a x plus b gleich c. Hier brauchst du zwei Schritte. Erst die Zahl wegbringen, dann den Faktor. Drei x plus sieben gleich zweiundzwanzig. Beide Seiten minus sieben: drei x gleich fünfzehn. Beide Seiten durch drei: x gleich fünf. Probe: drei mal fünf plus sieben ist zweiundzwanzig.
+
+Merk dir die Reihenfolge: Erst die Strichrechnung rückgängig machen, also plus oder minus. Dann die Punktrechnung, also mal oder geteilt. Das ist genau umgekehrt zur Vorrangregel „Punkt vor Strich“, weil wir die Rechnung rückwärts aufdröseln.
+
+Noch ein Beispiel: fünf x minus neun gleich elf. Plus neun: fünf x gleich zwanzig. Durch fünf: x gleich vier.
+
+Auch negative Lösungen kommen vor: zwei x plus dreizehn gleich drei. Minus dreizehn: zwei x gleich minus zehn. Durch zwei: x gleich minus fünf. Probe: zwei mal minus fünf plus dreizehn ist minus zehn plus dreizehn, also drei.
+
+Manchmal ist die Lösung ein Bruch: vier x plus eins gleich sieben. Minus eins: vier x gleich sechs. Durch vier: x gleich sechs Viertel, gekürzt drei Halbe, also eins Komma fünf.
+
+Steht x mit Minus in der Gleichung, geht es genauso: zwanzig minus drei x gleich acht. Minus zwanzig: minus drei x gleich minus zwölf. Durch minus drei: x gleich vier. Vergiss hier das Vorzeichen nicht!
+
+Und wenn x geteilt wird: x durch fünf plus zwei gleich sechs. Minus zwei: x durch fünf gleich vier. Mal fünf: x gleich zwanzig.
+
+Manchmal musst du vorher vereinfachen. Zwei x plus fünf plus drei x gleich dreißig: Erst zusammenfassen zu fünf x plus fünf gleich dreißig. Minus fünf: fünf x gleich fünfundzwanzig. Durch fünf: x gleich fünf. Und bei drei mal die Klammer x minus zwei gleich achtzehn kannst du entweder die Klammer auflösen oder erst durch drei teilen: x minus zwei gleich sechs, also x gleich acht. Beide Wege sind richtig, nimm den kürzeren.
+
+Die typischen Fehler: die Umformung nur auf einer Seite machen, dann kippt die Waage. Beim Teilen durch eine negative Zahl das Vorzeichen vergessen. Die Reihenfolge vertauschen, das gibt unnötige Brüche. Und die Probe weglassen.
+
+Fassen wir zusammen. Äquivalenzumformungen: auf beiden Seiten dasselbe tun. Ziel: x allein. Reihenfolge bei a x plus b gleich c: erst plus oder minus rückgängig machen, dann mal oder geteilt. Und immer die Probe.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

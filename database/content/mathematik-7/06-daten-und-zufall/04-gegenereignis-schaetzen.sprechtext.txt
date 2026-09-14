@@ -1,0 +1,25 @@
+Gegenereignis, Schätzen und Deuten von Wahrscheinlichkeiten.
+
+Hallo! Zum Abschluss des Themenfelds lernst du drei Dinge: einen Trick, mit dem du schneller rechnest, wie man Wahrscheinlichkeiten schätzt, und wie man Aussagen wie „dreißig Prozent Regenwahrscheinlichkeit“ richtig versteht.
+
+Zuerst der Trick: das Gegenereignis. Zu jedem Ereignis A gibt es das Gegenereignis, gesprochen „A quer“ oder „nicht A“. Es tritt genau dann ein, wenn A nicht eintritt. Zum Ereignis „eine Sechs würfeln“ ist das Gegenereignis „keine Sechs würfeln“, also die Menge eins bis fünf. Zu „rot beim Glücksrad“ ist das Gegenereignis „nicht rot“.
+
+Da entweder A oder das Gegenereignis eintritt, gilt: Die Wahrscheinlichkeit von A plus die Wahrscheinlichkeit von nicht A ist eins. Also ist die Wahrscheinlichkeit von nicht A gleich eins minus die Wahrscheinlichkeit von A. Die Wahrscheinlichkeit für keine Sechs ist eins minus ein Sechstel, also fünf Sechstel.
+
+Warum ist das nützlich? Weil das Gegenereignis manchmal viel leichter zu zählen ist. Wie groß ist die Wahrscheinlichkeit, beim Würfeln weder die Eins noch die Zwei zu werfen? Das Gegenereignis ist „Eins oder Zwei“, mit zwei Sechsteln. Also eins minus zwei Sechstel, das sind vier Sechstel, zwei Drittel. Oder: Ein Glücksrad mit zwölf Feldern, eins davon ist der Hauptgewinn. Die Wahrscheinlichkeit für keinen Hauptgewinn ist eins minus ein Zwölftel, also elf Zwölftel.
+
+Jetzt zum Schätzen. Bei einer Reißzwecke kann man die Wahrscheinlichkeit nicht ausrechnen. Dann macht man den Versuch sehr oft und nimmt die relative Häufigkeit als Schätzwert. Eine Klasse wirft eine Reißzwecke zweihundertmal, hundertachtundzwanzigmal landet sie auf der Seite. Die Schätzung: hundertachtundzwanzig durch zweihundert, also null Komma sechs vier, vierundsechzig Prozent.
+
+Und ganz wichtig: Je öfter man den Versuch macht, desto besser wird die Schätzung. Nach zehn Würfen kann die relative Häufigkeit noch stark schwanken, nach tausend Würfen pendelt sie sich ein. Das nennt man das Gesetz der großen Zahlen. Umgekehrt gilt beim fairen Würfel: Auf lange Sicht kommt jede Zahl in etwa einem Sechstel der Fälle. Nach sechshundert Würfen also ungefähr hundertmal die Sechs. Aber eben nur ungefähr, zweiundneunzig oder hundertsieben sind völlig normal.
+
+Nun zum Deuten. „Die Regenwahrscheinlichkeit beträgt dreißig Prozent“ heißt: An Tagen mit dieser Wetterlage hat es in etwa drei von zehn Fällen geregnet. Es heißt nicht, dass es dreißig Prozent des Tages regnet. „Die Gewinnchance beträgt eins zu tausend“ heißt: Etwa eins von tausend Losen gewinnt.
+
+Und zwei Denkfehler, die du vermeiden solltest. Erstens: „Ich habe fünfmal keine Sechs gewürfelt, jetzt muss die Sechs kommen.“ Falsch! Der Würfel hat kein Gedächtnis. Die Wahrscheinlichkeit für eine Sechs ist bei jedem Wurf ein Sechstel. Zweitens: „Bei fünfzig Prozent Chance gewinne ich von zwei Spielen genau eins.“ Auch falsch. Fünfzig Prozent gilt auf lange Sicht, nicht für jedes Paar.
+
+Wenn man die Wahrscheinlichkeit kennt, kann man vorhersagen, wie oft ein Ereignis ungefähr eintritt: Wahrscheinlichkeit mal Anzahl der Versuche. Ein Glücksrad mit Gewinnwahrscheinlichkeit ein Viertel wird achtzigmal gedreht. Erwartete Gewinne: ein Viertel mal achtzig, also zwanzig.
+
+Ein Beispiel zum Schluss: Ein Losstand hat fünfhundert Lose, davon zwanzig Gewinne. Die Gewinnwahrscheinlichkeit ist zwanzig durch fünfhundert, vier Prozent. Die Wahrscheinlichkeit für eine Niete ist sechsundneunzig Prozent. Lisa kauft fünfundzwanzig Lose. Erwartete Gewinne: null Komma null vier mal fünfundzwanzig, also einer. Garantiert ist das nicht, sie kann auch null oder drei Gewinne haben.
+
+Fassen wir zusammen. Das Gegenereignis: eins minus die Wahrscheinlichkeit von A. Schätzen: relative Häufigkeit bei vielen Versuchen, und je mehr, desto besser. Erwartete Anzahl: Wahrscheinlichkeit mal Versuche. Und der Würfel hat kein Gedächtnis.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

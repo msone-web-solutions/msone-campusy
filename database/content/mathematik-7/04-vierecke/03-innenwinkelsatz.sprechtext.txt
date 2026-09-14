@@ -1,0 +1,29 @@
+Der Innenwinkelsatz im Viereck.
+
+Hallo! Heute lernst du einen Satz, der für jedes Viereck gilt, egal ob Quadrat, Trapez oder ganz schief. Und du lernst, wie man so einen Satz begründet.
+
+Der Satz lautet: In jedem Viereck beträgt die Summe der Innenwinkel dreihundertsechzig Grad. Alpha plus Beta plus Gamma plus Delta gleich dreihundertsechzig Grad.
+
+Warum ist das so? Aus Klasse sechs weißt du: Im Dreieck ist die Winkelsumme hundertachtzig Grad. Jetzt zeichne in ein beliebiges Viereck A B C D die Diagonale von A nach C. Sie teilt das Viereck in zwei Dreiecke: das Dreieck A B C und das Dreieck A C D.
+
+Im ersten Dreieck ist die Winkelsumme hundertachtzig Grad. Im zweiten auch. Zusammen sind das dreihundertsechzig Grad. Und die Winkel der beiden Dreiecke ergeben genau die vier Winkel des Vierecks: Beta und Delta bleiben ganz, Alpha und Gamma werden von der Diagonale in je zwei Teile zerlegt, die zusammen wieder Alpha beziehungsweise Gamma ergeben.
+
+Das ist ein Beweis. Wir haben den neuen Satz auf etwas zurückgeführt, das wir schon wissen. So funktioniert Mathematik.
+
+Jetzt zum Rechnen. Erstes Beispiel: Drei Winkel sind bekannt, Alpha achtzig Grad, Beta fünfundneunzig Grad, Gamma hundertzehn Grad. Delta ist dreihundertsechzig minus achtzig minus fünfundneunzig minus hundertzehn, also fünfundsiebzig Grad.
+
+Zweites Beispiel, ein Parallelogramm mit Alpha gleich fünfzig Grad. Gamma ist auch fünfzig Grad. Beta plus Delta ist dreihundertsechzig minus hundert, also zweihundertsechzig. Weil Beta gleich Delta ist, sind beide hundertdreißig Grad. Schneller geht es so: Beta ist hundertachtzig minus fünfzig, also hundertdreißig Grad.
+
+Drittes Beispiel, ein Drachen mit Alpha gleich hundert Grad und Gamma gleich sechzig Grad. Beta plus Delta ist dreihundertsechzig minus hundert minus sechzig, also zweihundert. Im Drachen ist Beta gleich Delta, also je hundert Grad.
+
+Viertes Beispiel, ein Trapez mit Alpha siebzig Grad und Beta fünfundachtzig Grad, wobei a und c parallel sind. Delta ist hundertachtzig minus Alpha, also hundertzehn Grad. Gamma ist hundertachtzig minus Beta, also fünfundneunzig Grad. Probe: siebzig plus fünfundachtzig plus fünfundneunzig plus hundertzehn ergibt dreihundertsechzig.
+
+Fünftes Beispiel mit einer Variablen: Die Winkel eines Vierecks sind x, zwei x, drei x und vier x. Zusammen zehn x gleich dreihundertsechzig Grad, also x gleich sechsunddreißig Grad. Die Winkel sind sechsunddreißig, zweiundsiebzig, hundertacht und hundertvierundvierzig Grad.
+
+Ein Sonderfall: Ein Viereck kann einen einspringenden Winkel haben, der größer als hundertachtzig Grad ist. Es sieht dann aus wie ein Pfeil. Auch dann gilt die Winkelsumme dreihundertsechzig Grad.
+
+Und noch der Außenwinkel: Er ergänzt den Innenwinkel an einer Ecke zu hundertachtzig Grad. Bei Alpha gleich achtzig Grad ist der Außenwinkel hundert Grad.
+
+Fassen wir zusammen. In jedem Viereck ist die Winkelsumme dreihundertsechzig Grad, weil eine Diagonale es in zwei Dreiecke mit je hundertachtzig Grad zerlegt. Beim Parallelogramm sind Gegenwinkel gleich und Nachbarwinkel ergänzen sich zu hundertachtzig. Beim Trapez ergänzen sich die Winkel an einem Schenkel.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

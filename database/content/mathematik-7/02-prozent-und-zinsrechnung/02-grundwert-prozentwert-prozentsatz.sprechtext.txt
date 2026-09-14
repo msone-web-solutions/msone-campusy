@@ -1,0 +1,29 @@
+Grundwert, Prozentwert und Prozentsatz.
+
+Hallo! In jeder Prozentaufgabe kommen drei Größen vor. Wenn du sie sicher erkennst, ist die halbe Aufgabe schon gelöst. Deshalb schauen wir sie uns heute ganz genau an.
+
+Die erste Größe ist der Grundwert, abgekürzt G. Der Grundwert ist das Ganze, auf das sich die Prozente beziehen. Er entspricht immer hundert Prozent. Ein Pullover kostet vierzig Euro. Die vierzig Euro sind der Grundwert.
+
+Die zweite Größe ist der Prozentsatz, abgekürzt p Prozent. Das ist der Anteil in Prozent. Auf den Pullover gibt es fünfundzwanzig Prozent Rabatt. Fünfundzwanzig Prozent ist der Prozentsatz.
+
+Die dritte Größe ist der Prozentwert, abgekürzt W. Das ist der Teil des Ganzen, der dem Prozentsatz entspricht. Fünfundzwanzig Prozent von vierzig Euro sind zehn Euro. Die zehn Euro sind der Prozentwert.
+
+Kurz gesagt: p Prozent von G sind W.
+
+Woran erkennst du den Grundwert? Er steht oft nach dem Wort „von“. Fünfundzwanzig Prozent von vierzig Euro. Oder er ist die Menge, die als Ganzes gilt: der ursprüngliche Preis, alle Schüler der Schule, der volle Tank. Der Prozentwert ist dagegen der Teil, der herauskommt: der Rabatt in Euro, die Anzahl der Schüler mit Brille, die getankten Liter.
+
+Drei Beispiele. Erstens: In einer Schule mit sechshundert Schülern tragen fünfzehn Prozent eine Brille, das sind neunzig Schüler. Der Grundwert ist sechshundert Schüler, der Prozentsatz fünfzehn Prozent, der Prozentwert neunzig Schüler.
+
+Zweitens: Von fünfzig Fragen im Test hat Jonas vierzig richtig, das sind achtzig Prozent. Grundwert fünfzig Fragen, Prozentwert vierzig Fragen, Prozentsatz achtzig Prozent.
+
+Drittens: Ein Auto verbraucht sechs Liter, das sind zwölf Prozent des Tanks. Der Tank fasst fünfzig Liter. Prozentwert sechs Liter, Prozentsatz zwölf Prozent, Grundwert fünfzig Liter.
+
+Übrigens kann der Prozentwert auch größer als der Grundwert sein, wenn der Prozentsatz über hundert Prozent liegt. Hundertzwanzig Prozent von fünfzig Euro sind sechzig Euro.
+
+Die drei Größen hängen über einen Bruch zusammen: Prozentwert durch Grundwert ist gleich p durch hundert. Beim Schul-Beispiel: neunzig durch sechshundert ist gleich fünfzehn durch hundert. Diese Gleichung ist der Schlüssel zum Rechnen im nächsten Thema.
+
+Noch ein Hinweis zu den Einheiten: Grundwert und Prozentwert haben immer dieselbe Einheit, Euro, Schüler, Liter. Der Prozentsatz hat die Einheit Prozent.
+
+Fassen wir zusammen. Der Grundwert ist das Ganze und entspricht hundert Prozent. Der Prozentsatz ist der Anteil in Prozent. Der Prozentwert ist der Teil. Und es gilt: W durch G ist gleich p durch hundert.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

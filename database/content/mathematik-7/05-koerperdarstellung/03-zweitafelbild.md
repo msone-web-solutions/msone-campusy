@@ -3,6 +3,7 @@ title: Das Zweitafelbild – Grundriss und Aufriss
 intro: Körper von oben und von vorn zeichnen, wie es Architekten und Techniker tun.
 curriculum_ref: "Prismen, Pyramiden, Kreiszylinder und Kegel im Zweitafelbild darstellen; Eckpunkte von Prismen im Grund- und Aufriss bezeichnen; senkrechte Zweitafelprojektion: Grundriss, Aufriss, Rissachse, Ordnungslinie"
 estimated_minutes: 30
+reflect: "Erkläre den Unterschied zwischen Grundriss und Aufriss. Welche Maße zeigt jede Ansicht?"
 ---
 ## Erklärung
 
@@ -18,6 +19,14 @@ Beide Bilder werden **untereinander** gezeichnet: der Aufriss oben, der Grundris
 ### Die Ordnungslinien
 
 Jeder Punkt des Körpers erscheint einmal im Aufriss und einmal im Grundriss – und zwar **genau übereinander**. Die senkrechten Hilfslinien, die beide Bilder verbinden, heißen **Ordnungslinien**. Sie werden dünn gezeichnet.
+
+::: check
+type: single_choice
+prompt: "Welche Ansicht ist der Grundriss?"
+options: ["Von vorn", "Von oben", "Von der Seite"]
+answer: { index: 1 }
+explanation: "Grundriss = von oben."
+:::
 
 ### Beispiel: Quader 5 cm × 3 cm × 2 cm (Länge × Tiefe × Höhe)
 
@@ -41,6 +50,16 @@ Jeder Punkt des Körpers erscheint einmal im Aufriss und einmal im Grundriss –
 - Beide sind **gleich breit** (5 cm) und stehen genau übereinander.
 
 Jedes Maß kommt in mindestens einer Ansicht in wahrer Größe vor.
+
+::: check
+type: gap_text
+prompt: "Ein Quader ist 6 cm lang, 2 cm tief und 4 cm hoch. Der Aufriss ist 6 cm × ___ cm, der Grundriss 6 cm × ___ cm."
+answer:
+  gaps:
+    - ["4"]
+    - ["2"]
+explanation: "Aufriss zeigt Länge und Höhe, Grundriss Länge und Tiefe."
+:::
 
 ### Eckpunkte bezeichnen
 
@@ -68,6 +87,14 @@ Im Grundriss fallen E' auf A', F' auf B' usw. – die oberen Ecken liegen genau 
 | Dreiecksprisma | Dreieck | Rechteck |
 
 Merke: Zylinder und Quader haben beide ein Rechteck als Aufriss – erst der **Grundriss** verrät, was es ist.
+
+::: check
+type: single_choice
+prompt: "Grundriss: Kreis mit Mittelpunkt, Aufriss: Dreieck. Welcher Körper?"
+options: ["Zylinder", "Kegel", "Pyramide"]
+answer: { index: 1 }
+explanation: "Kreis-Grundfläche mit Spitze: Kegel."
+:::
 
 ### Verdeckte Kanten
 

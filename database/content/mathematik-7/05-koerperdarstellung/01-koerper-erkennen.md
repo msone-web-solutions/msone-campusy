@@ -3,6 +3,7 @@ title: Körper erkennen und beschreiben
 intro: Prisma, Pyramide, Zylinder, Kegel und Kugel – woran man sie erkennt, wie ihre Teile heißen und wo sie im Alltag vorkommen.
 curriculum_ref: "Körpermodelle identifizieren, benennen und beschreiben; Realobjekte mithilfe geometrischer Begriffe beschreiben; Begriffe: Prisma, Pyramide, Kreiszylinder, Kegel, Kugel; Grundfläche, Deckfläche, Seitenflächen, Körperhöhe"
 estimated_minutes: 25
+reflect: "Erkläre, woran man Prisma, Pyramide, Zylinder und Kegel unterscheidet. Welche Frage hilft dabei?"
 ---
 ## Erklärung
 
@@ -24,6 +25,14 @@ Bisher hast du mit **Flächen** (Dreiecke, Vierecke) gearbeitet – sie sind zwe
 
 **Kugel:** Alle Punkte der Oberfläche haben denselben Abstand (den **Radius**) vom **Mittelpunkt**. Keine Ecken, keine Kanten, keine ebene Fläche.
 *Alltag: Fußball, Murmel, Erde (fast).*
+
+::: check
+type: single_choice
+prompt: "Ein Körper hat eine Kreis-Grundfläche und läuft in einer Spitze zusammen. Wie heißt er?"
+options: ["Zylinder", "Kegel", "Pyramide"]
+answer: { index: 1 }
+explanation: "Kreis + Spitze = Kegel."
+:::
 
 ### Die Teile eines Körpers
 
@@ -51,11 +60,25 @@ Wir betrachten nur **gerade** Körper: Bei ihnen steht die Höhe senkrecht auf d
 Regel für Prismen mit n-Eck als Grundfläche: n + 2 Flächen, 3n Kanten, 2n Ecken.
 Regel für Pyramiden mit n-Eck: n + 1 Flächen, 2n Kanten, n + 1 Ecken.
 
+::: check
+type: numeric
+prompt: "Wie viele Ecken hat ein Würfel?"
+answer: { value: 8 }
+explanation: "4 unten, 4 oben."
+:::
+
 ### Prisma oder Pyramide? Zylinder oder Kegel?
 
 Die Frage ist immer: **Läuft der Körper in einer Spitze zusammen?**
 - Nein, oben ist eine Deckfläche → Prisma (Vieleck) oder Zylinder (Kreis).
 - Ja, eine Spitze → Pyramide (Vieleck) oder Kegel (Kreis).
+
+::: check
+type: numeric
+prompt: "Wie viele Flächen hat eine quadratische Pyramide?"
+answer: { value: 5 }
+explanation: "1 Quadrat + 4 Dreiecke."
+:::
 
 ### Zusammengesetzte Körper
 

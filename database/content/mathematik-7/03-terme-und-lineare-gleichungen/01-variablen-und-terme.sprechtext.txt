@@ -1,0 +1,25 @@
+Variablen und Terme.
+
+Hallo! Heute beginnt ein neues Themenfeld, und es fängt mit einem Buchstaben an: dem x. Keine Sorge, das ist einfacher, als es klingt.
+
+Ein Kinoticket kostet acht Euro. Was kosten drei Tickets? Drei mal acht Euro. Und fünf Tickets? Fünf mal acht Euro. Und eine beliebige Anzahl Tickets? Für „beliebige Anzahl“ schreibt man einen Buchstaben, meistens x. Dann kosten x Tickets acht mal x Euro, kurz: acht x.
+
+Dieser Buchstabe heißt Variable. Eine Variable ist ein Platzhalter für eine Zahl. Meistens nimmt man x, aber auch a, b, n oder t sind üblich.
+
+Ein Term ist ein sinnvoller Rechenausdruck aus Zahlen, Variablen und Rechenzeichen. Zum Beispiel acht x. Oder drei a plus fünf. Oder zwei mal die Klammer n minus vier. Auch eine einzelne Zahl wie sieben ist ein Term. Kein Term ist dagegen etwas Sinnloses wie „drei plus mal fünf“. Und auch „x gleich fünf“ ist kein Term, sondern eine Gleichung.
+
+Ein paar Schreibweisen musst du kennen. Das Malzeichen zwischen Zahl und Variable lässt man weg: drei mal x schreibt man als drei x. Die Zahl steht immer vor der Variable, also drei x und nicht x drei. Eins mal x schreibt man einfach als x. x mal x ist x hoch zwei, also x Quadrat. Und x geteilt durch vier schreibt man oft als Bruch: x durch vier.
+
+Jetzt zum Rechnen. Setzt man für die Variable eine Zahl ein, kann man den Term ausrechnen. Das Ergebnis heißt Termwert. Nehmen wir den Term drei x plus fünf. Für x gleich zwei: drei mal zwei plus fünf ist elf. Für x gleich zehn: drei mal zehn plus fünf ist fünfunddreißig. Für x gleich minus eins: drei mal minus eins plus fünf ist minus drei plus fünf, also zwei.
+
+Ein Tipp: Wenn du eine negative Zahl einsetzt, setze sie in Klammern. Das vermeidet Vorzeichenfehler. Und am übersichtlichsten ist eine Wertetabelle: oben die x-Werte, unten die Termwerte.
+
+Nun zu den Termstrukturen. Man benennt einen Term nach der Rechenart, die zuletzt ausgeführt wird. Drei x plus fünf: Zuletzt wird addiert, also ist es eine Summe. Zwei a minus sieben: eine Differenz. Vier mal die Klammer x plus eins: Zuletzt wird multipliziert, also ein Produkt, obwohl in der Klammer eine Summe steht. Die Klammer n minus drei, geteilt durch zwei: ein Quotient. Und x plus zwei in Klammern hoch zwei: eine Potenz.
+
+Zum Schluss das Übersetzen von Texten in Terme. Das Doppelte von x ist zwei x. Die Hälfte von x ist x durch zwei. Um fünf vermehrt: x plus fünf. Um drei vermindert: x minus drei. Das Dreifache einer Zahl, vermehrt um vier: drei x plus vier. Die Summe aus einer Zahl und sieben, verdoppelt: zwei mal die Klammer x plus sieben. Der Nachfolger von n ist n plus eins, der Vorgänger n minus eins. Eine gerade Zahl ist zwei n, eine ungerade Zahl ist zwei n plus eins.
+
+Ein Beispiel aus dem Alltag: Ein Handytarif kostet zehn Euro Grundgebühr plus fünf Cent pro Minute. Die Kosten bei m Minuten sind zehn plus null Komma null fünf m. Für zweihundert Minuten: zehn plus null Komma null fünf mal zweihundert, das sind zwanzig Euro.
+
+Fassen wir zusammen. Eine Variable ist ein Platzhalter für eine Zahl. Ein Term ist ein Rechenausdruck mit Zahlen, Variablen und Rechenzeichen. Den Termwert bekommst du durch Einsetzen. Und die Termstruktur richtet sich nach der zuletzt ausgeführten Rechenart.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

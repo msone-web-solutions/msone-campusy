@@ -3,6 +3,7 @@ title: Diagramme erstellen und kritisch lesen
 intro: Daten passend darstellen, Diagramme richtig auswerten – und Tricks erkennen, mit denen Diagramme täuschen.
 curriculum_ref: "Häufigkeiten in Diagrammen darstellen; Informationen und Daten analysieren, interpretieren und kritisch prüfen; Grenzen der unterschiedlichen Darstellungsformen reflektieren; fächerübergreifend: Sicher und gesund durch den Straßenverkehr"
 estimated_minutes: 25
+reflect: "Beschreibe zwei Tricks, mit denen Diagramme täuschen können, und wie du sie erkennst."
 ---
 ## Erklärung
 
@@ -27,6 +28,14 @@ Beim Kreisdiagramm: relative Häufigkeit · 360° = Winkel. Bei h = 0,4 → 144�
 4. **Säulen:** gleiche Breite, gleiche Abstände, beschriftet.
 5. Wenn nötig eine **Legende** (welche Farbe bedeutet was).
 
+::: check
+type: single_choice
+prompt: "Welches Diagramm passt, um Temperaturen über eine Woche zu zeigen?"
+options: ["Kreisdiagramm", "Liniendiagramm"]
+answer: { index: 1 }
+explanation: "Verlauf über die Zeit → Liniendiagramm."
+:::
+
 ### Diagramme auswerten
 
 Beim Auswerten stellst du Fragen an das Diagramm:
@@ -37,6 +46,14 @@ Beim Auswerten stellst du Fragen an das Diagramm:
 - Was ist die **Gesamtzahl** n? (Ohne n kann man Prozente nicht in Anzahlen umrechnen.)
 
 **Beispiel:** Ein Liniendiagramm zeigt Fahrradunfälle mit Kindern in einer Stadt: 2021: 48, 2022: 41, 2023: 44, 2024: 35. Trend: insgesamt **fallend**, mit einem Anstieg 2023. Von 2021 bis 2024 sind es 13 Unfälle weniger, das sind 13/48 ≈ 27 % weniger.
+
+::: check
+type: numeric
+prompt: "Unfälle: 2023 waren es 40, 2024 sind es 30. Um wie viel Prozent gesunken? (nur die Zahl)"
+options: { unit: "%" }
+answer: { value: 25 }
+explanation: "10 weniger von 40: 10/40 = 25 %."
+:::
 
 ### Wie Diagramme täuschen können
 
@@ -53,6 +70,14 @@ Diagramme sehen objektiv aus – sind es aber nicht immer. Fünf Tricks, die du 
 **5. Ausgewählter Zeitraum.** Wer nur die Jahre zeigt, in denen etwas gestiegen ist, verschweigt den Rest.
 
 **Deine Checkliste beim Lesen:** Beginnt die Achse bei 0? Ist die Skala gleichmäßig? Wie groß ist n? Welcher Zeitraum? Wer hat das Diagramm gemacht und warum?
+
+::: check
+type: single_choice
+prompt: "Die y-Achse eines Säulendiagramms beginnt bei 90 statt bei 0. Was passiert?"
+options: ["Kleine Unterschiede wirken riesig", "Nichts – das ist egal"]
+answer: { index: 0 }
+explanation: "Eine abgeschnittene Achse übertreibt Unterschiede."
+:::
 
 ### Absolut oder relativ – was ist die Aussage?
 

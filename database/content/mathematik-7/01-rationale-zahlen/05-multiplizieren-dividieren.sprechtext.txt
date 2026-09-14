@@ -1,0 +1,27 @@
+Multiplizieren und Dividieren rationaler Zahlen.
+
+Hallo! Nach Plus und Minus kommen heute Mal und Geteilt. Die gute Nachricht: Die Regeln sind einfacher als beim Addieren. Du brauchst nur zwei Schritte.
+
+Schritt eins: Du multiplizierst die Beträge, so wie du es kennst. Schritt zwei: Du bestimmst das Vorzeichen. Und dafür gibt es eine ganz kurze Regel: Gleiche Vorzeichen ergeben Plus. Verschiedene Vorzeichen ergeben Minus.
+
+Plus drei mal plus vier ist zwölf. Minus drei mal minus vier ist auch zwölf, denn beide Vorzeichen sind gleich. Plus drei mal minus vier ist minus zwölf. Und minus drei mal plus vier ist ebenfalls minus zwölf.
+
+Jetzt die Frage, die alle stellen: Warum ergibt minus mal minus plus? Ich gebe dir zwei Erklärungen.
+
+Die erste Erklärung ist ein Muster. Schau dir diese Reihe an: Drei mal minus zwei ist minus sechs. Zwei mal minus zwei ist minus vier. Eins mal minus zwei ist minus zwei. Null mal minus zwei ist null. Jedes Mal wird der erste Faktor um eins kleiner, und das Ergebnis wird um zwei größer. Wenn das Muster weitergeht, dann muss minus eins mal minus zwei gleich zwei sein. Und minus zwei mal minus zwei gleich vier.
+
+Die zweite Erklärung sind Schulden. Minus drei mal minus fünf bedeutet: dreimal Schulden von fünf Euro wegnehmen. Wenn dir dreimal je fünf Euro Schulden erlassen werden, hast du fünfzehn Euro mehr. Also plus fünfzehn.
+
+Beim Dividieren gilt genau dieselbe Vorzeichenregel. Plus zwölf geteilt durch plus drei ist vier. Minus zwölf geteilt durch minus drei ist vier. Plus zwölf geteilt durch minus drei ist minus vier. Und minus zwölf geteilt durch plus drei ist minus vier. Die Probe: minus vier mal plus drei ist minus zwölf. Stimmt.
+
+Bei mehr als zwei Faktoren zählst du einfach die Minuszeichen. Gerade Anzahl, also null, zwei, vier Minuszeichen: Das Ergebnis ist positiv. Ungerade Anzahl, also eins, drei, fünf: Das Ergebnis ist negativ. Minus zwei mal minus drei mal minus eins: drei Minuszeichen, also negativ. Die Beträge: zwei mal drei mal eins ist sechs. Ergebnis: minus sechs. Kommt noch ein vierter Faktor minus fünf dazu, sind es vier Minuszeichen, also positiv: plus dreißig.
+
+Drei Sonderfälle. Jede Zahl mal null ergibt null. Durch null darf man niemals teilen. Und eine Zahl mal minus eins ergibt ihre Gegenzahl: Acht mal minus eins ist minus acht.
+
+Die Regeln gelten für alle rationalen Zahlen, auch für Dezimalbrüche und Brüche. Minus null Komma fünf mal sechs ist minus drei. Minus eins Komma fünf mal minus zwei ist drei. Minus drei Viertel mal acht ist minus sechs.
+
+Zum Schluss eine Sachaufgabe. Ein Tauchroboter sinkt jede Minute um zwölf Meter. Wo ist er nach fünf Minuten, wenn er an der Oberfläche startet? Fünf mal minus zwölf ist minus sechzig. Er ist auf minus sechzig Metern, also sechzig Meter unter der Oberfläche.
+
+Fassen wir zusammen. Erst die Beträge multiplizieren oder dividieren, dann das Vorzeichen bestimmen. Gleiche Vorzeichen: Plus. Verschiedene Vorzeichen: Minus. Bei vielen Faktoren: Minuszeichen zählen, gerade Anzahl positiv, ungerade Anzahl negativ.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

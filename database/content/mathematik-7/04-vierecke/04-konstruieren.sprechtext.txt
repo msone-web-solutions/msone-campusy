@@ -1,0 +1,27 @@
+Vierecke konstruieren.
+
+Hallo! Heute nimmst du Zirkel, Lineal und Geodreieck in die Hand. Du lernst, wie man Vierecke aus gegebenen Stücken zeichnet, und wie du das planst und beschreibst.
+
+Die Grundidee ist einfach: Ein Viereck wird durch eine Diagonale in zwei Dreiecke zerlegt. Und Dreiecke kannst du schon konstruieren, mit den Sätzen Seite-Seite-Seite, Seite-Winkel-Seite und Winkel-Seite-Winkel aus Klasse sechs. Deshalb konstruiert man ein Viereck meist als zwei Dreiecke nacheinander.
+
+Für ein allgemeines Viereck braucht man fünf Stücke, zum Beispiel vier Seiten und eine Diagonale. Bei besonderen Vierecken reichen weniger, weil die Eigenschaften den Rest festlegen. Ein Rechteck ist mit zwei Seiten fertig bestimmt, ein Quadrat sogar mit einer.
+
+So gehst du immer vor. Erstens: die Planfigur. Skizziere das Viereck frei Hand, beschrifte alle Ecken, trage die gegebenen Stücke farbig ein. Überlege, welches Dreieck du zuerst zeichnen kannst. Zweitens: die Konstruktion, sauber mit Lineal, Geodreieck und Zirkel. Hilfslinien dünn lassen. Drittens: die Konstruktionsbeschreibung. Jeden Schritt in einer Zeile notieren.
+
+Erstes Beispiel: ein Viereck aus vier Seiten und einer Diagonale. Gegeben sind a gleich fünf, b gleich drei, c gleich vier, d gleich vier Komma fünf und die Diagonale e von A nach C gleich sechs Zentimeter. Die Diagonale zerlegt das Viereck in die Dreiecke A B C mit a, b und e, und A C D mit c, d und e. Beides sind Seite-Seite-Seite-Dreiecke.
+
+Die Beschreibung: Zeichne die Strecke A B mit fünf Zentimetern. Kreis um A mit Radius sechs. Kreis um B mit Radius drei. Der Schnittpunkt oberhalb ist C. Kreis um A mit Radius vier Komma fünf. Kreis um C mit Radius vier. Der Schnittpunkt auf der von B abgewandten Seite ist D. Verbinde A, B, C, D.
+
+Zweites Beispiel: ein Parallelogramm aus zwei Seiten und einem Winkel. a gleich sechs, b gleich drei Komma fünf, Alpha gleich sechzig Grad. Zeichne A B mit sechs Zentimetern. Trage in A den Winkel sechzig Grad an. Auf dem freien Schenkel drei Komma fünf Zentimeter abtragen, das ist D. Dann Kreis um D mit Radius sechs und Kreis um B mit Radius drei Komma fünf, der Schnittpunkt ist C. Oder du zeichnest mit dem Geodreieck die Parallelen. Verbinde.
+
+Drittes Beispiel: eine Raute aus Seite und Diagonale. a gleich vier, e gleich sechs Zentimeter. Alle Seiten sind vier Zentimeter. Zeichne A C mit sechs Zentimetern. Kreise um A und um C mit Radius vier. Die beiden Schnittpunkte sind B unten und D oben. Verbinde.
+
+Viertes Beispiel: ein Drachen aus den Diagonalen. Zeichne die Symmetriediagonale. Markiere darauf den Punkt, wo die andere Diagonale sie schneidet. Zeichne dort die Senkrechte. Trage nach beiden Seiten die halbe Länge der zweiten Diagonale ab. Verbinde.
+
+Fünftes Beispiel: ein Trapez aus Grundseiten, Höhe und Winkel. Zeichne die lange Grundseite. Zeichne eine Parallele dazu im Abstand der Höhe, mit dem Geodreieck. Trage den Winkel an, der Schenkel schneidet die Parallele in D. Von D aus die kurze Grundseite abtragen, das ist C. Verbinde.
+
+Und wann geht es nicht? Nicht jede Vorgabe ergibt ein Viereck. In jedem Teildreieck muss die Dreiecksungleichung gelten: Jede Seite ist kürzer als die Summe der beiden anderen. Mit a gleich zwei, b gleich drei und e gleich sechs gäbe es kein Dreieck, die Kreise würden sich nicht schneiden.
+
+Fassen wir zusammen. Ein Viereck konstruierst du als zwei Dreiecke. Immer erst Planfigur, dann Konstruktion, dann Beschreibung. Bei Parallelogramm, Raute und Drachen helfen dir ihre Eigenschaften, so dass weniger Angaben reichen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

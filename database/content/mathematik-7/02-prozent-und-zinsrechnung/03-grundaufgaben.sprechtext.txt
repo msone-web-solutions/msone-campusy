@@ -1,0 +1,29 @@
+Die drei Grundaufgaben der Prozentrechnung.
+
+Hallo! Du kennst jetzt Grundwert, Prozentsatz und Prozentwert. Je nachdem, welche der drei Größen fehlt, gibt es drei Grundaufgaben. Für alle drei zeige ich dir zwei Wege: den Dreisatz über ein Prozent und die Formel. Such dir den Weg aus, der dir leichter fällt.
+
+Grundaufgabe eins: der Prozentwert ist gesucht. Wie viel sind fünfzehn Prozent von zweihundertvierzig Euro?
+
+Mit dem Dreisatz: Hundert Prozent entsprechen zweihundertvierzig Euro. Ein Prozent ist zweihundertvierzig geteilt durch hundert, also zwei Euro vierzig. Fünfzehn Prozent sind zwei Euro vierzig mal fünfzehn, also sechsunddreißig Euro.
+
+Mit der Formel: Prozentwert ist Grundwert mal p durch hundert. Zweihundertvierzig mal null Komma eins fünf ist sechsunddreißig Euro. Der Tipp: Mit dem Dezimalbruch geht es am schnellsten. Fünfzehn Prozent ist null Komma eins fünf, und damit multiplizierst du einfach.
+
+Grundaufgabe zwei: der Grundwert ist gesucht. Sechsunddreißig Euro sind fünfzehn Prozent des Preises. Wie hoch ist der ganze Preis?
+
+Dreisatz: Fünfzehn Prozent entsprechen sechsunddreißig Euro. Ein Prozent ist sechsunddreißig geteilt durch fünfzehn, also zwei Euro vierzig. Hundert Prozent sind zwei Euro vierzig mal hundert, also zweihundertvierzig Euro.
+
+Formel: Grundwert ist Prozentwert mal hundert durch p. Sechsunddreißig mal hundert durch fünfzehn ist zweihundertvierzig Euro. Und hier ein Kontrolltipp: Der Grundwert ist größer als der Prozentwert, wenn der Prozentsatz unter hundert liegt. Prüfe am Ende, ob das Ergebnis dazu passt.
+
+Grundaufgabe drei: der Prozentsatz ist gesucht. Sechsunddreißig Euro von zweihundertvierzig Euro, wie viel Prozent sind das?
+
+Formel: Prozentsatz ist Prozentwert durch Grundwert mal hundert. Sechsunddreißig durch zweihundertvierzig ist null Komma eins fünf. Mal hundert ergibt fünfzehn Prozent.
+
+Alle drei Formeln kommen aus der einen Gleichung: W durch G gleich p durch hundert. W ist G mal p durch hundert. G ist W mal hundert durch p. Und p ist W durch G mal hundert.
+
+Oft reicht der Kopf. Fünfzig Prozent ist die Hälfte. Fünfundzwanzig Prozent ein Viertel. Zehn Prozent ein Zehntel. Ein Prozent ein Hundertstel. Fünf Prozent ist die Hälfte von zehn Prozent. Und fünfzehn Prozent ist zehn Prozent plus fünf Prozent. Fünfzehn Prozent von achtzig: zehn Prozent sind acht, fünf Prozent sind vier, zusammen zwölf.
+
+Ein Beispiel zum Schluss. Von den zweiunddreißig Schülern der sieben b haben vierundzwanzig den Test bestanden. Wie viel Prozent sind durchgefallen? Bestanden: vierundzwanzig durch zweiunddreißig mal hundert ist fünfundsiebzig Prozent. Durchgefallen also hundert minus fünfundsiebzig, das sind fünfundzwanzig Prozent. Oder direkt: acht von zweiunddreißig, das ist ein Viertel, also fünfundzwanzig Prozent.
+
+Fassen wir zusammen. Drei Grundaufgaben, eine Grundgleichung. Prozentwert gesucht: Grundwert mal p durch hundert. Grundwert gesucht: Prozentwert mal hundert durch p. Prozentsatz gesucht: Prozentwert durch Grundwert mal hundert. Und der Dreisatz über ein Prozent funktioniert immer.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -3,6 +3,7 @@ title: Das Koordinatensystem mit vier Quadranten
 intro: Punkte im Koordinatensystem eintragen und ablesen – jetzt auch mit negativen Koordinaten.
 curriculum_ref: "Punkte im Koordinatensystem eintragen und Koordinaten von Punkten ablesen; Koordinatensystem mit vier Quadranten"
 estimated_minutes: 25
+reflect: "Erkläre jemandem, der noch nie ein Koordinatensystem gesehen hat, wie man den Punkt P(−2 | 3) einträgt."
 ---
 ## Erklärung
 
@@ -36,6 +37,14 @@ Die beiden Achsen teilen die Ebene in **vier Quadranten**. Man nummeriert sie **
 | III | negativ | negativ | (−3 \| −2) |
 | IV | positiv | negativ | (3 \| −2) |
 
+::: check
+type: single_choice
+prompt: "In welchem Quadranten liegt ein Punkt mit negativer x- und negativer y-Koordinate?"
+options: ["I", "II", "III", "IV"]
+answer: { index: 2 }
+explanation: "Links unten – beide Koordinaten negativ – ist der III. Quadrant."
+:::
+
 ### Punkte eintragen
 
 Ein Punkt wird mit zwei Koordinaten angegeben: **P(x | y)**. Die erste Zahl ist immer die x-Koordinate, die zweite die y-Koordinate. Merkhilfe: **„Erst laufen, dann klettern“** – erst nach rechts/links gehen (x), dann nach oben/unten (y).
@@ -55,6 +64,16 @@ Um die Koordinaten eines Punktes abzulesen, gehst du **senkrecht auf die x-Achse
 
 Beispiel: Ein Punkt liegt 4 Einheiten links vom Ursprung und 1 Einheit darunter → (−4 | −1). Das ist im III. Quadranten.
 
+::: check
+type: gap_text
+prompt: "Für P(4 | −1) gehst du vom Ursprung ___ Einheiten nach rechts und ___ Einheit nach unten."
+answer:
+  gaps:
+    - ["4"]
+    - ["1"]
+explanation: "x = 4 → 4 nach rechts, y = −1 → 1 nach unten."
+:::
+
 ### Punkte auf den Achsen
 
 Punkte **auf der x-Achse** haben y = 0, zum Beispiel (5 | 0) oder (−2 | 0).
@@ -66,6 +85,13 @@ Diese Punkte gehören zu keinem Quadranten.
 Die Punkte A(−2 | −1), B(3 | −1), C(3 | 2) und D(−2 | 2) bilden ein Rechteck.
 Wie lang ist die Seite AB? Beide Punkte haben y = −1, sie liegen also auf einer waagerechten Linie. Von x = −2 bis x = 3 sind es **5 Einheiten**.
 Wie lang ist die Seite BC? Beide haben x = 3. Von y = −1 bis y = 2 sind es **3 Einheiten**.
+
+::: check
+type: numeric
+prompt: "A(−3 | 2) und B(2 | 2) liegen auf einer waagerechten Linie. Wie lang ist AB?"
+answer: { value: 5 }
+explanation: "Von x = −3 bis x = 2 sind es 3 + 2 = 5 Einheiten."
+:::
 
 ### Wo kommt das vor?
 

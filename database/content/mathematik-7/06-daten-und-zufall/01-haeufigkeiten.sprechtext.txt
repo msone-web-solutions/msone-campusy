@@ -1,0 +1,25 @@
+Daten erheben: absolute und relative Häufigkeit.
+
+Hallo! Heute beginnt das letzte Themenfeld: Daten und Zufall. Wir fangen damit an, wie man Daten sammelt und auswertet, mit einer Umfrage in der Klasse.
+
+Bevor du Daten sammelst, klärst du drei Fragen. Erstens: Was will ich wissen? Zum Beispiel: Wie kommen die Schüler der sieben a zur Schule? Zweitens: Wen befrage ich? Alle fünfundzwanzig Schüler der sieben a. Drittens: Welche Antworten gibt es? Zu Fuß, Fahrrad, Bus, Auto.
+
+Dann sammelst du die Daten in einer Strichliste. Jeder fünfte Strich wird quer gezogen, damit man leichter zählt. Nehmen wir an, das Ergebnis ist: zu Fuß sieben, Fahrrad zehn, Bus fünf, Auto drei. Zusammen fünfundzwanzig.
+
+Die absolute Häufigkeit ist einfach die Anzahl, wie oft ein Merkmal vorkommt. Man schreibt großes H. Die absolute Häufigkeit von Fahrrad ist zehn. Die absolute Häufigkeit von Bus ist fünf. Alle absoluten Häufigkeiten zusammen ergeben die Gesamtzahl n: sieben plus zehn plus fünf plus drei ist fünfundzwanzig.
+
+Die relative Häufigkeit ist der Anteil am Ganzen: absolute Häufigkeit geteilt durch die Gesamtzahl. Man schreibt kleines h. Die relative Häufigkeit von Fahrrad ist zehn durch fünfundzwanzig, das ist zwei Fünftel, das ist null Komma vier, das sind vierzig Prozent. Bus: fünf durch fünfundzwanzig, ein Fünftel, zwanzig Prozent. Zu Fuß: sieben durch fünfundzwanzig, achtundzwanzig Prozent. Auto: zwölf Prozent.
+
+Alle relativen Häufigkeiten zusammen ergeben eins, also hundert Prozent: vierzig plus zwanzig plus achtundzwanzig plus zwölf ist hundert. Manchmal kommt durch Runden neunundneunzig oder hunderteins Prozent heraus, das ist normal.
+
+Du merkst: Die relative Häufigkeit kannst du als Bruch, Dezimalzahl oder Prozent angeben. Das ist Prozentrechnung!
+
+Warum braucht man relative Häufigkeiten überhaupt? Weil man damit verschieden große Gruppen vergleichen kann. In der sieben a fahren zehn von fünfundzwanzig mit dem Fahrrad, das sind vierzig Prozent. In der sieben b zwölf von dreißig, auch vierzig Prozent. Obwohl in der sieben b mehr Kinder Fahrrad fahren, ist der Anteil gleich. Absolute Häufigkeiten sagen „wie viele“, relative Häufigkeiten sagen „welcher Anteil“.
+
+Ein Beispiel zum Auswerten. Die sieben a hat nach dem Lieblingsfach gefragt, fünfundzwanzig Antworten: Mathe sechs, Sport neun, Kunst vier, Englisch sechs. Welches Fach ist am beliebtesten? Sport, mit neun Stimmen, also sechsunddreißig Prozent. Wie viel Prozent mögen Mathe oder Englisch am liebsten? Sechs plus sechs ist zwölf, zwölf von fünfundzwanzig sind achtundvierzig Prozent. Wie viele mögen nicht Sport am liebsten? Fünfundzwanzig minus neun ist sechzehn, das sind vierundsechzig Prozent.
+
+Und rückwärts: Bei einer Umfrage unter vierhundert Personen sagen fünfunddreißig Prozent Ja. Wie viele sind das? Null Komma drei fünf mal vierhundert ist hundertvierzig Personen.
+
+Fassen wir zusammen. Die absolute Häufigkeit ist die Anzahl. Die relative Häufigkeit ist der Anteil: absolute Häufigkeit geteilt durch die Gesamtzahl. Alle relativen Häufigkeiten zusammen ergeben hundert Prozent. Und mit relativen Häufigkeiten vergleicht man verschieden große Gruppen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -3,6 +3,7 @@ title: Zufallsversuche und Wahrscheinlichkeit
 intro: Würfel, Münze, Glücksrad – Zufallsversuche beschreiben, Ergebnisse und Ereignisse unterscheiden und Wahrscheinlichkeiten berechnen.
 curriculum_ref: "Zufallsversuche durch Angabe der Elementarereignisse beschreiben; Wahrscheinlichkeiten von einstufigen Zufallsversuchen berechnen; Zufallsversuch, Elementarereignis, Ereignis, Mengenschreibweise; gleichwahrscheinliche Elementarereignisse; Begriff Wahrscheinlichkeit P(A)"
 estimated_minutes: 30
+reflect: "Erkläre, wie man beim Würfeln die Wahrscheinlichkeit für „gerade Zahl“ berechnet, und was „günstig“ und „möglich“ bedeuten."
 ---
 ## Erklärung
 
@@ -27,6 +28,14 @@ Ein **Ereignis** ist eine Zusammenfassung von Ergebnissen – eine Frage, die mi
 - D: „eine 7“ → D = { } (**unmögliches Ereignis** – kann nie eintreten)
 - E: „Zahl kleiner als 7“ → E = {1; 2; 3; 4; 5; 6} = Ω (**sicheres Ereignis** – tritt immer ein)
 
+::: check
+type: single_choice
+prompt: "Welche Menge beschreibt beim Würfeln „mindestens 5“?"
+options: ["{5}", "{5; 6}", "{1; 2; 3; 4}"]
+answer: { index: 1 }
+explanation: "Mindestens 5 heißt 5 oder 6."
+:::
+
 ### Die Wahrscheinlichkeit
 
 Wenn alle Ergebnisse **gleich wahrscheinlich** sind (Würfel ist nicht gezinkt, Münze ist fair), heißt der Versuch **Laplace-Versuch**. Dann berechnet man die Wahrscheinlichkeit eines Ereignisses A so:
@@ -44,6 +53,13 @@ Wenn alle Ergebnisse **gleich wahrscheinlich** sind (Würfel ist nicht gezinkt, 
 
 Die Wahrscheinlichkeit ist immer eine Zahl **zwischen 0 und 1** (bzw. 0 % und 100 %). Man gibt sie als Bruch, Dezimalzahl oder Prozent an.
 
+::: check
+type: numeric
+prompt: "Wie groß ist P(gerade Zahl) beim Würfeln? (als Bruch)"
+answer: { value: "1/2" }
+explanation: "3 günstige (2, 4, 6) von 6 möglichen: 3/6 = 1/2."
+:::
+
 ### Glücksrad und Urne
 
 **Glücksrad** mit 8 gleich großen Feldern: 3 rot, 2 blau, 2 grün, 1 gelb.
@@ -53,6 +69,13 @@ P(rot) = 3/8, P(gelb) = 1/8, P(blau oder grün) = 4/8 = 1/2.
 P(rot) = 5/8, P(schwarz) = 3/8. Zusammen: 8/8 = 1 ✓
 
 **Zwei Würfel, Augensumme:** Hier sind die Ergebnisse nicht gleich wahrscheinlich! Es gibt 36 Kombinationen (1|1, 1|2 … 6|6). Augensumme 7 kommt 6-mal vor (1|6, 2|5, 3|4, 4|3, 5|2, 6|1) → P = 6/36 = 1/6. Augensumme 2 nur einmal (1|1) → P = 1/36. **Zähle immer die gleich wahrscheinlichen Grundergebnisse!**
+
+::: check
+type: numeric
+prompt: "Urne mit 3 roten und 7 blauen Kugeln. Wie groß ist P(rot) als Dezimalzahl?"
+answer: { value: 0.3 }
+explanation: "3/10 = 0,3."
+:::
 
 ### Nicht gleichwahrscheinliche Ergebnisse
 

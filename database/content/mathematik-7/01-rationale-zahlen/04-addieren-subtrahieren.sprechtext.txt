@@ -1,0 +1,35 @@
+Addieren und Subtrahieren rationaler Zahlen.
+
+Hallo! Heute lernst du, wie man mit negativen Zahlen plus und minus rechnet. Dafür stellen wir uns die Zahlen als Pfeile vor.
+
+Jede Zahl ist ein Pfeil auf der Zahlengerade. Positive Zahlen sind Pfeile nach rechts, negative Zahlen sind Pfeile nach links. Addieren heißt: Pfeile aneinanderhängen.
+
+Erstes Beispiel: plus drei plus plus vier. Start bei null, drei nach rechts, dann vier nach rechts. Ziel: sieben.
+
+Zweites Beispiel: minus drei plus minus vier. Start bei null, drei nach links, dann noch vier nach links. Ziel: minus sieben.
+
+Drittes Beispiel: plus drei plus minus vier. Drei nach rechts, dann vier nach links. Ziel: minus eins.
+
+Viertes Beispiel: minus drei plus plus vier. Drei nach links, dann vier nach rechts. Ziel: plus eins.
+
+Daraus ergeben sich zwei Regeln fürs Addieren. Regel eins, gleiche Vorzeichen: Du addierst die Beträge, und das gemeinsame Vorzeichen bleibt. Minus drei plus minus vier: drei plus vier ist sieben, das Minus bleibt, also minus sieben.
+
+Regel zwei, verschiedene Vorzeichen: Du subtrahierst die Beträge, den kleineren vom größeren, und das Vorzeichen der Zahl mit dem größeren Betrag gewinnt. Plus drei plus minus vier: vier minus drei ist eins. Die vier hat den größeren Betrag, und die vier war negativ, also minus eins.
+
+Jetzt zum Subtrahieren. Hier gibt es einen Trick, mit dem du nie mehr über „minus minus“ nachdenken musst: Eine Zahl subtrahieren heißt, ihre Gegenzahl addieren.
+
+Fünf minus plus drei ist dasselbe wie fünf plus minus drei, also zwei. Fünf minus minus drei ist dasselbe wie fünf plus plus drei, also acht. Merke: Minus vor einer Klammer mit Minus wird zu Plus.
+
+Warum ist das so? Denk an Schulden. Wenn dir jemand drei Euro Schulden wegnimmt, dann hast du danach drei Euro mehr. Schulden wegnehmen ist wie Geld dazubekommen.
+
+In der Praxis schreibt man die vielen Klammern nicht. Man vereinfacht Vorzeichen und Rechenzeichen zu einem einzigen Zeichen. Die Merkregel lautet: Gleiche Zeichen ergeben Plus, verschiedene Zeichen ergeben Minus. Plus plus wird plus. Minus minus wird plus. Plus minus wird minus. Minus plus wird minus.
+
+Ein paar Aufgaben in Kurzschreibweise. Minus sieben plus zwölf: verschiedene Vorzeichen, zwölf minus sieben ist fünf, das Plus gewinnt, also fünf. Minus sieben minus zwölf: beide negativ, Beträge addieren, also minus neunzehn. Vier minus neun: verschiedene Vorzeichen, neun minus vier ist fünf, das Minus gewinnt, also minus fünf. Minus vier minus minus neun: das wird zu minus vier plus neun, also fünf.
+
+Bei mehreren Zahlen kannst du von links nach rechts rechnen. Oder du sortierst: alle Plus-Zahlen zusammen, alle Minus-Zahlen zusammen. Minus acht plus fünf minus drei plus zehn. Die Plus-Zahlen: fünf plus zehn ist fünfzehn. Die Minus-Zahlen: minus acht minus drei ist minus elf. Fünfzehn minus elf ist vier.
+
+Noch eine Sachaufgabe: Ein U-Boot ist auf minus einhundertzwanzig Metern. Es taucht fünfundvierzig Meter tiefer und steigt dann einhundertfünfzig Meter auf. Minus einhundertzwanzig minus fünfundvierzig ist minus einhundertfünfundsechzig. Plus einhundertfünfzig ergibt minus fünfzehn. Das U-Boot ist fünfzehn Meter unter der Oberfläche. Prüfe Ergebnisse immer am Sachverhalt: Ein U-Boot kann nicht über der Wasseroberfläche schweben.
+
+Fassen wir zusammen. Gleiche Vorzeichen: Beträge addieren, Vorzeichen bleibt. Verschiedene Vorzeichen: Beträge subtrahieren, das Vorzeichen der Zahl mit dem größeren Betrag gewinnt. Subtrahieren heißt: die Gegenzahl addieren. Minus minus wird plus.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

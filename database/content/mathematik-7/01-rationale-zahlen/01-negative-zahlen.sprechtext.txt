@@ -1,0 +1,41 @@
+Negative Zahlen und die Zahlengerade.
+
+Hallo! Heute fangen wir mit einem neuen Kapitel an. Es geht um Zahlen, die kleiner sind als Null. Klingt erst mal komisch, oder? Kleiner als nichts? Aber du kennst solche Zahlen schon aus deinem Alltag. Ich zeige dir, wo.
+
+Bis jetzt hast du mit den natürlichen Zahlen gerechnet: null, eins, zwei, drei und so weiter. Und du hast mit Brüchen und Dezimalzahlen gerechnet, zum Beispiel ein Halb oder null Komma fünf. Alle diese Zahlen haben eines gemeinsam: Sie sind größer oder gleich Null.
+
+Im Alltag reicht das aber nicht aus. Stell dir vor, es ist Winter. Das Thermometer zeigt acht Grad unter Null. Wie schreibt man das? Man schreibt: minus acht Grad.
+
+Oder nimm ein Konto. Du hast zwanzig Euro auf dem Konto und gibst fünfunddreißig Euro aus. Dann bist du im Minus. Dein Kontostand ist minus fünfzehn Euro. Du hast Schulden.
+
+Noch ein Beispiel: Das Tote Meer liegt vierhundertdreißig Meter unter dem Meeresspiegel. Man schreibt: minus vierhundertdreißig Meter.
+
+Und wenn du im Kaufhaus mit dem Aufzug ins Untergeschoss fährst, steht auf dem Knopf: minus zwei.
+
+Für alles, was unter Null liegt, brauchen wir also neue Zahlen. Das sind die negativen Zahlen. Sie bekommen ein Minuszeichen davor. Minus eins, minus zwei, minus drei, minus null Komma fünf, minus sieben Komma zwei fünf.
+
+Jetzt schauen wir uns die Zahlengerade an. Die kennst du schon. Bisher hat sie bei der Null angefangen und ging nach rechts weiter: eins, zwei, drei, vier. Jetzt verlängern wir die Zahlengerade nach links. Links von der Null kommt minus eins, dann minus zwei, dann minus drei, und so weiter.
+
+Merk dir: Rechts von der Null stehen die positiven Zahlen. Links von der Null stehen die negativen Zahlen. Und die Null selbst? Die ist weder positiv noch negativ. Sie ist genau die Grenze zwischen beiden.
+
+Jetzt kommt etwas Wichtiges, worüber viele stolpern. Je weiter links eine Zahl auf der Zahlengerade liegt, desto kleiner ist sie. Das heißt: Minus vier ist kleiner als minus eins. Obwohl die Vier größer aussieht als die Eins!
+
+Denk ans Thermometer. Minus vier Grad ist kälter als minus ein Grad. Kälter bedeutet kleiner. Also ist minus vier kleiner als minus eins.
+
+Das Zeichen vor der Zahl nennt man Vorzeichen. Ein Plus bedeutet positiv: über Null, Guthaben, oberhalb. Ein Minus bedeutet negativ: unter Null, Schulden, unterhalb. Das Plus lässt man übrigens meistens weg. Statt plus fünf schreibt man einfach fünf.
+
+Achtung, hier gibt es eine kleine Falle. Das Vorzeichen Minus ist etwas anderes als das Rechenzeichen Minus. Bei der Aufgabe sieben minus drei ist das Minus ein Rechenzeichen. Es sagt: Ziehe drei ab. Beim Vorzeichen steht das Minus direkt vor der Zahl und sagt: Diese Zahl liegt links von der Null.
+
+Schauen wir uns drei Beispiele an.
+
+Erstes Beispiel: Temperaturen. Am Morgen sind es minus drei Grad. Am Mittag sind es plus fünf Grad. Wie viel ist die Temperatur gestiegen? Auf der Zahlengerade liegt minus drei drei Schritte links von der Null. Die Fünf liegt fünf Schritte rechts von der Null. Von minus drei bis fünf sind es also drei plus fünf, das sind acht Schritte. Die Temperatur ist um acht Grad gestiegen.
+
+Zweites Beispiel: der Kontostand. Lena hat minus zwölf Euro auf dem Konto. Sie hat also zwölf Euro Schulden. Jetzt bekommt sie zwanzig Euro Taschengeld. Wir starten bei minus zwölf und gehen zwanzig Schritte nach rechts. Die ersten zwölf Schritte bringen uns zur Null. Dann bleiben noch acht Schritte übrig. Der neue Kontostand ist plus acht Euro.
+
+Drittes Beispiel: Zahlen auf der Zahlengerade eintragen. Wo liegt minus zwei Komma fünf? Zwischen minus zwei und minus drei, genau in der Mitte. Und wo liegt minus null Komma fünf? Zwischen der Null und minus eins, genau in der Mitte.
+
+Zum Schluss noch ein neuer Name. Die natürlichen Zahlen, die Brüche, die negativen ganzen Zahlen und die negativen Brüche bilden zusammen die rationalen Zahlen. Das Zeichen dafür ist ein Q mit einem Doppelstrich. Das Q kommt vom lateinischen Wort Quotient, weil man jede rationale Zahl als Bruch schreiben kann.
+
+Fassen wir zusammen. Zahlen unter Null heißen negative Zahlen und haben ein Minus als Vorzeichen. Zahlen über Null heißen positive Zahlen. Die Null ist weder positiv noch negativ. Auf der Zahlengerade gilt: Je weiter links, desto kleiner. Und alle diese Zahlen zusammen heißen rationale Zahlen.
+
+Jetzt bist du dran. Schreib den Hefteintrag ab, und dann geht es zum Test. Viel Erfolg!

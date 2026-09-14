@@ -1,0 +1,27 @@
+Netze und Schrägbilder.
+
+Hallo! Heute lernst du zwei Arten, einen Körper auf Papier zu bringen. Erstens das Netz, bei dem du den Körper aufklappst. Und zweitens das Schrägbild, bei dem du ihn räumlich zeichnest.
+
+Fangen wir mit dem Netz an. Schneidet man einen Körper an einigen Kanten auf und klappt ihn flach auf den Tisch, entsteht sein Netz. Aus dem Netz kann man den Körper wieder zusammenfalten. Netze braucht man, um Verpackungen zu entwerfen oder die Oberfläche zu berechnen.
+
+Das Netz eines Würfels besteht aus sechs Quadraten. Es gibt elf verschiedene Würfelnetze, zum Beispiel das Kreuz: vier Quadrate in einer Reihe, und an das zweite Quadrat oben und unten je eins angehängt. Aber nicht jede Anordnung von sechs Quadraten ist ein Würfelnetz! Sechs Quadrate in einer Reihe lassen sich nicht zum Würfel falten. Prüfe im Kopf: Kann jede Fläche eine andere Seite werden, ohne dass zwei übereinanderliegen?
+
+Das Netz eines Quaders besteht aus sechs Rechtecken, gegenüberliegende sind gleich. Das Netz eines Dreiecksprismas: drei Rechtecke in einer Reihe, dazu zwei Dreiecke, oben und unten an einem Rechteck. Die quadratische Pyramide: ein Quadrat in der Mitte, an jeder Seite ein Dreieck, wie ein Stern.
+
+Und der Zylinder: zwei Kreise und ein Rechteck. Das Rechteck ist der abgerollte Mantel. Und jetzt aufgepasst: Die Breite dieses Rechtecks ist der Umfang des Kreises, weil sich der Mantel einmal um den Kreis wickelt. Seine Höhe ist die Körperhöhe.
+
+Jetzt zum Schrägbild. Ein Schrägbild zeigt den Körper so, dass er räumlich wirkt. Dafür gibt es vier Regeln. Erstens: Die Vorderseite zeichnest du in wahrer Größe. Alle Kanten, die nach rechts oder nach oben gehen, sind unverzerrt. Zweitens: Kanten, die nach hinten gehen, zeichnest du schräg, unter einem Winkel von fünfundvierzig Grad nach rechts oben. Drittens: Diese schrägen Kanten verkürzt du auf die Hälfte. Eine Tiefe von vier Zentimetern wird also nur zwei Zentimeter lang gezeichnet. Viertens: Verdeckte Kanten zeichnest du gestrichelt.
+
+Ein Beispiel: ein Quader, fünf Zentimeter lang, vier Zentimeter tief und drei Zentimeter hoch. Erst das vordere Rechteck: fünf Zentimeter breit, drei hoch. Dann an den vier Ecken Linien unter fünfundvierzig Grad nach rechts oben, jeweils zwei Zentimeter lang, das ist die Hälfte von vier. Die hinteren Enden verbinden, das ist das hintere Rechteck. Und die drei Kanten, die hinten links unten liegen, werden gestrichelt.
+
+Ein Tipp mit Karopapier: Fünfundvierzig Grad heißt immer ein Kästchen nach rechts und ein Kästchen nach oben.
+
+Bei einem liegenden Dreiecksprisma zeichnest du das vordere Dreieck in wahrer Größe, von jeder Ecke eine Fünfundvierzig-Grad-Kante mit halber Länge nach hinten, und verbindest das hintere Dreieck.
+
+Bei einer quadratischen Pyramide zeichnest du erst die Grundfläche als Schrägbild eines Quadrats. Die vordere Kante wahr, die Tiefenkanten schräg und halbiert. Die Grundfläche sieht dann aus wie ein Parallelogramm. Zeichne die Diagonalen der Grundfläche ein, ihr Schnittpunkt ist der Fußpunkt. Von dort geht die Höhe senkrecht nach oben in wahrer Länge, das ist die Spitze. Verbinde die Spitze mit den vier Ecken, hintere Kanten gestrichelt.
+
+Zum Schluss: Aus dem Schrägbild kannst du das Netz zeichnen und umgekehrt. Du brauchst nur die wahren Maße. Und merke: Im Schrägbild sind die schrägen Kanten halbiert, im Netz stehen die wahren Längen. Wer im Schrägbild eine zwei Zentimeter lange Schrägkante abliest, muss im Netz vier Zentimeter zeichnen.
+
+Fassen wir zusammen. Das Netz ist der aufgeklappte Körper mit allen Flächen in wahrer Größe. Das Schrägbild: Vorderseite wahr, Tiefenkanten unter fünfundvierzig Grad und halbiert, verdeckte Kanten gestrichelt.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

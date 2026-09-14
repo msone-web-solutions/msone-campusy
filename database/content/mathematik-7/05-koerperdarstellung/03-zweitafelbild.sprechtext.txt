@@ -1,0 +1,29 @@
+Das Zweitafelbild: Grundriss und Aufriss.
+
+Hallo! Heute zeichnest du Körper so, wie es Architekten und Techniker tun: nicht schräg, sondern in zwei genauen Ansichten.
+
+Das Schrägbild wirkt räumlich, aber die schrägen Kanten sind verzerrt. Wer genaue Maße braucht, zeichnet den Körper in zwei Ansichten mit wahren Maßen. Der Grundriss ist die Ansicht von oben, das, was man sieht, wenn man senkrecht hinunterschaut. Der Aufriss ist die Ansicht von vorn.
+
+Beide Bilder werden untereinander gezeichnet: der Aufriss oben, der Grundriss darunter. Dazwischen liegt die Rissachse, eine waagerechte Linie.
+
+Jeder Punkt des Körpers erscheint einmal im Aufriss und einmal im Grundriss, und zwar genau übereinander. Die senkrechten Hilfslinien, die beide Bilder verbinden, heißen Ordnungslinien. Sie werden dünn gezeichnet.
+
+Ein Beispiel: ein Quader, fünf Zentimeter lang, drei Zentimeter tief, zwei Zentimeter hoch. Der Aufriss, die Ansicht von vorn, ist ein Rechteck von fünf mal zwei Zentimetern. Er zeigt Länge und Höhe. Der Grundriss, die Ansicht von oben, ist ein Rechteck von fünf mal drei Zentimetern. Er zeigt Länge und Tiefe. Beide sind gleich breit, nämlich fünf Zentimeter, und stehen genau übereinander. Jedes Maß kommt in mindestens einer Ansicht in wahrer Größe vor.
+
+Die Eckpunkte bezeichnet man so: Die Ecken der Grundfläche heißen A, B, C, D, die Ecken darüber E, F, G, H. Im Grundriss schreibt man A Strich, B Strich und so weiter. Im Aufriss A zwei Strich, B zwei Strich. Im Grundriss fällt E Strich auf A Strich, weil die oberen Ecken genau über den unteren liegen. Im Aufriss fallen die hinteren Ecken auf die vorderen.
+
+Jetzt weitere Körper. Ein stehendes Dreiecksprisma: Der Grundriss ist das Dreieck. Der Aufriss ist ein Rechteck, so breit wie das Dreieck und so hoch wie der Körper, mit einer senkrechten Linie für die vordere Kante.
+
+Eine quadratische Pyramide: Der Grundriss ist ein Quadrat mit beiden Diagonalen, das sind die Kanten zur Spitze, von oben gesehen. Der Aufriss ist ein Dreieck, so breit wie das Quadrat und so hoch wie die Pyramide.
+
+Ein stehender Zylinder: Der Grundriss ist ein Kreis. Der Aufriss ist ein Rechteck, so breit wie der Durchmesser.
+
+Ein stehender Kegel: Der Grundriss ist ein Kreis mit einem Punkt in der Mitte, das ist die Spitze von oben. Der Aufriss ist ein Dreieck.
+
+Und hier ein wichtiger Hinweis: Zylinder und Quader haben beide ein Rechteck als Aufriss. Erst der Grundriss verrät, was es ist: Kreis beim Zylinder, Rechteck beim Quader.
+
+Auch im Zweitafelbild werden Kanten, die man aus der Blickrichtung nicht sieht, gestrichelt. Beim einfachen Quader gibt es keine, bei einem Körper mit Loch oder Stufe schon.
+
+Fassen wir zusammen. Aufriss von vorn, zeigt Breite und Höhe. Grundriss von oben, zeigt Breite und Tiefe. Aufriss oben, Grundriss darunter, dazwischen die Rissachse. Zusammengehörende Punkte liegen genau übereinander, verbunden durch Ordnungslinien. Und alle Maße sind wahr.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

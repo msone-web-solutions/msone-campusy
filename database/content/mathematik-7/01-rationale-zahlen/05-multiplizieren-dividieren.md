@@ -3,6 +3,7 @@ title: Multiplizieren und Dividieren rationaler Zahlen
 intro: Mal und geteilt mit negativen Zahlen – die Vorzeichenregeln und warum „minus mal minus“ plus ergibt.
 curriculum_ref: "Grundrechenoperationen mit rationalen Zahlen verstehen und hilfsmittelfrei ausführen"
 estimated_minutes: 25
+reflect: "Erkläre mit dem Muster oder dem Schulden-Beispiel, warum (−3) · (−5) = +15 ergibt."
 ---
 ## Erklärung
 
@@ -27,6 +28,13 @@ Kurz: **Gleiche Vorzeichen → Plus. Verschiedene Vorzeichen → Minus.**
 - (−3) · (−4) = **12**
 - (+3) · (−4) = **−12**
 - (−3) · (+4) = **−12**
+
+::: check
+type: numeric
+prompt: "Berechne: (−7) · 4"
+answer: { value: -28 }
+explanation: "Verschiedene Vorzeichen → Minus: 7 · 4 = 28 → −28."
+:::
 
 ### Warum ergibt „minus mal minus“ plus?
 
@@ -54,6 +62,13 @@ Beim Dividieren gilt **genau dieselbe Vorzeichenregel**:
 
 Probe: (−4) · (+3) = −12 ✓
 
+::: check
+type: numeric
+prompt: "Berechne: (−24) : (−6)"
+answer: { value: 4 }
+explanation: "Gleiche Vorzeichen → Plus: 24 : 6 = 4."
+:::
+
 ### Mehrere Faktoren
 
 Bei mehr als zwei Faktoren zählst du die Minuszeichen:
@@ -69,6 +84,14 @@ Beispiel: (−2) · (−3) · (−1) · (−5) = ? Vier Minuszeichen → positiv
 - Jede Zahl mal 0 ergibt 0: (−7) · 0 = 0
 - Durch 0 darf man **nie** teilen!
 - Eine Zahl mal (−1) ergibt ihre Gegenzahl: 8 · (−1) = −8
+
+::: check
+type: single_choice
+prompt: "Welches Vorzeichen hat (−1) · (−2) · (−3) · (−4) · (−5)?"
+options: ["Plus", "Minus"]
+answer: { index: 1 }
+explanation: "Fünf Minuszeichen – ungerade Anzahl – also negativ (−120)."
+:::
 
 ### Dezimalbrüche und Brüche
 

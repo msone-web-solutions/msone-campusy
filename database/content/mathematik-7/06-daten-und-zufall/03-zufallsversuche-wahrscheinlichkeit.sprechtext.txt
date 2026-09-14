@@ -1,0 +1,27 @@
+Zufallsversuche und Wahrscheinlichkeit.
+
+Hallo! Würfel, Münze, Glücksrad: Heute geht es um den Zufall, und darum, wie man ihn trotzdem berechnen kann.
+
+Ein Zufallsversuch ist ein Vorgang, bei dem man vorher nicht weiß, was herauskommt, aber alle möglichen Ergebnisse kennt. Und man kann ihn beliebig oft wiederholen. Beim Würfeln sind die möglichen Ergebnisse eins, zwei, drei, vier, fünf, sechs. Beim Münzwurf Kopf oder Zahl. Bei einem Glücksrad mit vier Farben rot, blau, grün, gelb.
+
+Die einzelnen möglichen Ergebnisse heißen Elementarereignisse. Alle zusammen bilden die Ergebnismenge, die man mit dem griechischen Buchstaben Omega bezeichnet. Beim Würfel ist Omega die Menge eins, zwei, drei, vier, fünf, sechs.
+
+Ein Ereignis ist eine Zusammenfassung von Ergebnissen. Es ist wie eine Frage, die man mit Ja oder Nein beantwortet. Man schreibt es als Menge. Das Ereignis „gerade Zahl“ ist die Menge zwei, vier, sechs. „Mindestens fünf“ ist die Menge fünf, sechs. „Zahl kleiner als drei“ ist die Menge eins, zwei. Das Ereignis „eine Sieben“ ist die leere Menge, es kann nie eintreten, das ist ein unmögliches Ereignis. Und „Zahl kleiner als sieben“ ist die ganze Ergebnismenge, es tritt immer ein, das ist ein sicheres Ereignis.
+
+Jetzt zur Wahrscheinlichkeit. Wenn alle Ergebnisse gleich wahrscheinlich sind, wenn der Würfel also nicht gezinkt und die Münze fair ist, dann heißt der Versuch Laplace-Versuch. Und dann kannst du die Wahrscheinlichkeit eines Ereignisses ganz einfach berechnen: Anzahl der günstigen Ergebnisse geteilt durch Anzahl der möglichen Ergebnisse. Günstig sind die Ergebnisse, bei denen das Ereignis eintritt. Man schreibt großes P für die Wahrscheinlichkeit.
+
+Beim Würfel gibt es sechs mögliche Ergebnisse. Die Wahrscheinlichkeit für eine gerade Zahl: drei günstige, also drei Sechstel, das ist ein Halb, also fünfzig Prozent. Mindestens fünf: zwei Sechstel, ein Drittel, etwa dreiunddreißig Prozent. Eine Sechs: ein Sechstel, etwa siebzehn Prozent. Eine Sieben: null Sechstel, null. Kleiner als sieben: sechs Sechstel, eins.
+
+Die Wahrscheinlichkeit ist also immer eine Zahl zwischen null und eins, beziehungsweise zwischen null und hundert Prozent. Man gibt sie als Bruch, Dezimalzahl oder Prozent an.
+
+Beim Glücksrad mit acht gleich großen Feldern, drei rot, zwei blau, zwei grün, eins gelb: Die Wahrscheinlichkeit für rot ist drei Achtel, für gelb ein Achtel, für blau oder grün vier Achtel, also ein Halb.
+
+Bei einer Urne mit fünf roten und drei schwarzen Kugeln, insgesamt acht: Die Wahrscheinlichkeit für rot ist fünf Achtel, für schwarz drei Achtel. Zusammen acht Achtel, also eins.
+
+Und jetzt ein Fall, in dem viele einen Fehler machen: zwei Würfel und die Augensumme. Hier sind die Ergebnisse nicht gleich wahrscheinlich! Es gibt sechsunddreißig Kombinationen. Die Augensumme sieben kommt sechsmal vor: eins und sechs, zwei und fünf, drei und vier, vier und drei, fünf und zwei, sechs und eins. Also sechs Sechsunddreißigstel, ein Sechstel. Die Augensumme zwei kommt nur einmal vor, eins und eins, also ein Sechsunddreißigstel. Zähle immer die gleich wahrscheinlichen Grundergebnisse.
+
+Bei einer Reißzwecke oder einem verbeulten Würfel sind die Ergebnisse nicht gleich wahrscheinlich. Dann kann man die Wahrscheinlichkeit nicht ausrechnen, sondern muss sie schätzen, durch viele Versuche. Das kommt im nächsten Thema.
+
+Fassen wir zusammen. Ein Zufallsversuch hat bekannte mögliche Ergebnisse, die Elementarereignisse. Ein Ereignis ist eine Menge von Ergebnissen. Beim Laplace-Versuch gilt: Wahrscheinlichkeit gleich günstige durch mögliche Ergebnisse. Sie liegt immer zwischen null und eins.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -3,6 +3,7 @@ title: Grundwert, Prozentwert und Prozentsatz
 intro: Die drei Größen der Prozentrechnung erkennen und in Sachaufgaben richtig zuordnen.
 curriculum_ref: "Grundbegriffe der Prozentrechnung in Sachverhalten zuordnen; Grundlegende Wissensbestände: Prozent, Grundwert, Prozentwert, Prozentsatz"
 estimated_minutes: 20
+reflect: "Denk dir eine eigene Prozent-Situation aus (z. B. beim Einkaufen) und benenne darin Grundwert, Prozentsatz und Prozentwert."
 ---
 ## Erklärung
 
@@ -20,6 +21,14 @@ In jeder Prozentaufgabe kommen **drei Größen** vor. Wenn du sie sicher erkenns
 *Beispiel: 25 % von 40 € sind 10 €. Die 10 € sind der Prozentwert.*
 
 Kurz gesagt: **p % von G sind W.**
+
+::: check
+type: single_choice
+prompt: "„20 % von 150 Schülern, das sind 30 Schüler.“ Was ist der Prozentwert?"
+options: ["20 %", "150 Schüler", "30 Schüler"]
+answer: { index: 2 }
+explanation: "Der Prozentwert ist der Teil: 30 Schüler."
+:::
 
 ### Woran erkennt man den Grundwert?
 
@@ -39,6 +48,14 @@ G = 50 Fragen · W = 40 Fragen · p % = 80 %
 W = 6 Liter · p % = 12 % · G = 50 Liter
 
 Merke: Der Prozentwert kann auch **größer als der Grundwert** sein, wenn der Prozentsatz über 100 % liegt: 120 % von 50 € sind 60 €.
+
+::: check
+type: single_choice
+prompt: "„Ein Pullover kostet 40 €, es gibt 10 % Rabatt.“ Welche Größe ist gesucht, wenn man den Rabatt in Euro wissen will?"
+options: ["Grundwert", "Prozentsatz", "Prozentwert"]
+answer: { index: 2 }
+explanation: "40 € ist der Grundwert, 10 % der Prozentsatz – gesucht ist der Teil in Euro: der Prozentwert (4 €)."
+:::
 
 ### Der Zusammenhang als Bruch
 

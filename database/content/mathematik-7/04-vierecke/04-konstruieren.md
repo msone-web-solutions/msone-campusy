@@ -3,6 +3,7 @@ title: Vierecke konstruieren
 intro: Mit Zirkel, Lineal und Geodreieck Vierecke aus gegebenen Stücken zeichnen – mit Planfigur und Konstruktionsbeschreibung.
 curriculum_ref: "Vierecke mit Zirkel, Lineal und Geodreieck sowie digitalem Mathematikwerkzeug konstruieren; Viereckskonstruktionen planen und Konstruktionsschritte beschreiben"
 estimated_minutes: 35
+reflect: "Erkläre, warum man ein Viereck meist als zwei Dreiecke konstruiert, und was dabei eine Planfigur ist."
 ---
 ## Erklärung
 
@@ -17,6 +18,14 @@ Für ein allgemeines Viereck braucht man **fünf Stücke** (z. B. vier Seiten un
 1. **Planfigur:** Skizziere das Viereck frei Hand, beschrifte alle Ecken, trage die gegebenen Stücke farbig ein. Überlege: Welches Dreieck kann ich zuerst zeichnen?
 2. **Konstruktion:** Mit Lineal, Geodreieck und Zirkel sauber zeichnen. Hilfslinien dünn lassen.
 3. **Konstruktionsbeschreibung:** Jeden Schritt in einer Zeile notieren.
+
+::: check
+type: single_choice
+prompt: "Was zeichnest du bei einer Konstruktionsaufgabe zuerst?"
+options: ["Die Planfigur", "Die Konstruktionsbeschreibung", "Den letzten Punkt"]
+answer: { index: 0 }
+explanation: "Erst die Planfigur – sie zeigt, welches Dreieck zuerst geht."
+:::
 
 ### Beispiel 1: Viereck aus vier Seiten und einer Diagonale
 
@@ -44,6 +53,14 @@ Beim Parallelogramm reicht das, weil gegenüberliegende Seiten parallel und glei
 4. Kreis um D mit Radius a = 6 cm und Kreis um B mit Radius b = 3,5 cm → Schnittpunkt C.
    (Oder: Parallele zu AB durch D und Parallele zu AD durch B mit dem Geodreieck – Schnittpunkt C.)
 5. Verbinde.
+
+::: check
+type: single_choice
+prompt: "Gegeben AB = 6 cm, AC = 5 cm, BC = 4 cm. Wo liegt C?"
+options: ["Schnittpunkt der Kreise um A (r = 5) und um B (r = 4)", "Schnittpunkt der Kreise um A (r = 4) und um B (r = 5)"]
+answer: { index: 0 }
+explanation: "C ist 5 cm von A und 4 cm von B entfernt."
+:::
 
 ### Beispiel 3: Raute aus Seite und Diagonale
 
@@ -74,6 +91,13 @@ Gegeben: a = 7 cm, c = 4 cm (a ∥ c), Höhe h = 3 cm, α = 70°.
 3. Trage in A den Winkel 70° an. Der Schenkel schneidet die Parallele in D.
 4. Von D aus 4 cm auf der Parallelen in Richtung B abtragen → C.
 5. Verbinde.
+
+::: check
+type: true_false
+prompt: "Mit AB = 3 cm, BC = 4 cm und AC = 9 cm lässt sich das Dreieck ABC konstruieren."
+answer: { value: false }
+explanation: "3 + 4 = 7 < 9 – Dreiecksungleichung verletzt, die Kreise schneiden sich nicht."
+:::
 
 ### Wann geht es nicht?
 

@@ -17,10 +17,9 @@ beforeEach(function () {
     $this->actingAs($this->user);
 });
 
-
 it('passes the topic when the threshold is reached', function () {
     Livewire::test('quiz-runner', ['topic' => $this->topic])
-        ->call('start')
+        ->call('start', 2)
         ->set('given', 1)->call('check')->call('next')
         ->set('given', '-1/2')->call('check')->call('next')
         ->set('given', 'false')->call('check')->call('next')
@@ -40,7 +39,7 @@ it('passes the topic when the threshold is reached', function () {
 
 it('does not pass the topic below the threshold but keeps the best score', function () {
     Livewire::test('quiz-runner', ['topic' => $this->topic])
-        ->call('start')
+        ->call('start', 2)
         ->set('given', 1)->call('check')->call('next')
         ->set('given', '0,5')->call('check')->assertSet('wasCorrect', false)->call('next')
         ->set('given', 'true')->call('check')->call('next')
@@ -56,7 +55,7 @@ it('does not pass the topic below the threshold but keeps the best score', funct
 
 it('ignores next before the answer was checked', function () {
     Livewire::test('quiz-runner', ['topic' => $this->topic])
-        ->call('start')
+        ->call('start', 2)
         ->call('next')
         ->assertSet('index', 0);
 });

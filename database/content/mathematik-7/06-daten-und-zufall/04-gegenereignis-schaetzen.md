@@ -3,6 +3,7 @@ title: Gegenereignis, Schätzen und Deuten von Wahrscheinlichkeiten
 intro: Mit dem Gegenereignis schneller rechnen, Wahrscheinlichkeiten aus vielen Versuchen schätzen und Aussagen wie „30 % Regenwahrscheinlichkeit“ richtig verstehen.
 curriculum_ref: "Wahrscheinlichkeiten schätzen und interpretieren; Gegenereignis; P(A) + P(Ā) = 1; inner- und außermathematische Anwendungsaufgaben lösen"
 estimated_minutes: 25
+reflect: "Erkläre, warum der Würfel „kein Gedächtnis“ hat, und was das Gesetz der großen Zahlen bedeutet."
 ---
 ## Erklärung
 
@@ -19,6 +20,13 @@ Da entweder A oder Ā eintritt, gilt:
 **P(A) + P(Ā) = 1** also **P(Ā) = 1 − P(A)**
 
 P(keine 6) = 1 − 1/6 = **5/6**.
+
+::: check
+type: numeric
+prompt: "P(A) = 0,25. Wie groß ist P(Ā)?"
+answer: { value: 0.75 }
+explanation: "1 − 0,25 = 0,75."
+:::
 
 ### Warum das Gegenereignis so nützlich ist
 
@@ -40,6 +48,13 @@ Wichtig: **Je öfter man den Versuch macht, desto besser wird die Schätzung.** 
 
 Umgekehrt gilt beim fairen Würfel: Auf lange Sicht kommt jede Zahl in etwa **1/6** der Fälle – nach 600 Würfen also ungefähr 100-mal die Sechs. Aber eben nur *ungefähr*: 92-mal oder 107-mal ist völlig normal.
 
+::: check
+type: numeric
+prompt: "Eine Reißzwecke landet bei 200 Würfen 140-mal auf der Seite. Schätze P(Seite) als Dezimalzahl."
+answer: { value: 0.7 }
+explanation: "140/200 = 0,7."
+:::
+
 ### Wahrscheinlichkeiten deuten
 
 „Die Regenwahrscheinlichkeit beträgt 30 %“ heißt: An Tagen mit dieser Wetterlage hat es in **etwa 3 von 10 Fällen** geregnet. Es heißt **nicht**, dass es 30 % des Tages regnet.
@@ -57,6 +72,13 @@ Wenn man P kennt, kann man vorhersagen, wie oft ein Ereignis **ungefähr** eintr
 **erwartete Anzahl ≈ P(A) · Anzahl der Versuche**
 
 Ein Glücksrad mit P(Gewinn) = 1/4 wird 80-mal gedreht. Erwartete Gewinne: 1/4 · 80 = **20**.
+
+::: check
+type: numeric
+prompt: "Ein Würfel wird 120-mal geworfen. Wie oft ist ungefähr mit einer 6 zu rechnen?"
+answer: { value: 20 }
+explanation: "1/6 · 120 = 20."
+:::
 
 ### Beispiel: Alles zusammen
 

@@ -1,0 +1,25 @@
+Umfang und Flächeninhalt von Vierecken.
+
+Hallo! Zum Abschluss der Vierecke geht es ums Messen: Wie lang ist der Rand, und wie groß ist die Fläche? Und das Schöne ist: Alle Flächenformeln kommen von einer einzigen, die du schon kennst.
+
+Zuerst der Umfang. Der Umfang ist die Länge des Randes. Du addierst einfach alle vier Seiten. Beim Parallelogramm und beim Rechteck: zwei mal die Klammer a plus b. Bei der Raute und beim Quadrat: vier a. Beim Drachen: zwei a plus zwei b.
+
+Jetzt zum Flächeninhalt. Beim Rechteck ist die Fläche a mal b, beim Quadrat a Quadrat. Das kennst du. Alle anderen Formeln entstehen durch Zerschneiden und Umlegen.
+
+Das Parallelogramm: Schneide links ein Dreieck ab und setze es rechts wieder an. Es entsteht ein Rechteck mit der Grundseite a und der Höhe h. Also: Flächeninhalt gleich a mal h, Grundseite mal Höhe. Und jetzt der wichtigste Punkt: Die Höhe h ist der senkrechte Abstand zwischen den parallelen Seiten. Nicht die schräge Seite b! Ein Beispiel: a gleich acht Zentimeter, h gleich fünf Zentimeter, b gleich sechs Zentimeter. Die Fläche ist acht mal fünf, also vierzig Quadratzentimeter. Die sechs Zentimeter brauchst du nur für den Umfang.
+
+Die Raute: Sie ist ein Parallelogramm, also gilt a mal h. Oft kennt man aber die Diagonalen e und f. Sie stehen senkrecht aufeinander und zerlegen die Raute in vier rechtwinklige Dreiecke, die zusammen ein halbes Rechteck e mal f ergeben. Also: Flächeninhalt gleich e mal f durch zwei. Beispiel: e gleich zehn, f gleich sechs. Zehn mal sechs durch zwei ist dreißig Quadratzentimeter.
+
+Der Drachen: Auch hier stehen die Diagonalen senkrecht, dieselbe Formel: e mal f durch zwei. Mit e gleich zwölf und f gleich sieben: vierundachtzig durch zwei, also zweiundvierzig Quadratzentimeter.
+
+Das Trapez mit den parallelen Seiten a und c und der Höhe h: Zwei gleiche Trapeze, eines umgedreht aneinandergelegt, ergeben ein Parallelogramm mit der Grundseite a plus c. Das Trapez ist die Hälfte davon. Also: Flächeninhalt gleich a plus c, geteilt durch zwei, mal h. Merke: Mittelwert der parallelen Seiten mal Höhe. Beispiel: a gleich neun, c gleich fünf, h gleich vier. Neun plus fünf ist vierzehn, durch zwei ist sieben, mal vier ist achtundzwanzig Quadratzentimeter.
+
+Manchmal musst du rückwärts rechnen. Ein Parallelogramm hat vierundfünfzig Quadratzentimeter und a gleich neun. Die Höhe ist Fläche durch a, also vierundfünfzig durch neun, gleich sechs Zentimeter. Ein Trapez hat vierzig Quadratzentimeter, h gleich fünf, a gleich zehn. Dann ist a plus c durch zwei gleich acht, also a plus c gleich sechzehn, also c gleich sechs Zentimeter.
+
+Zu den Einheiten: Ein Quadratmeter sind hundert Quadratdezimeter, das sind zehntausend Quadratzentimeter. Ein Quadratzentimeter sind hundert Quadratmillimeter. Ein Hektar sind zehntausend Quadratmeter. Achtung: Bei Flächen ist der Umrechnungsfaktor hundert, nicht zehn.
+
+Eine Sachaufgabe zum Schluss: Ein Grundstück hat die Form eines Trapezes. Die parallelen Seiten sind vierzig und achtundzwanzig Meter, der Abstand fünfundzwanzig Meter. Ein Quadratmeter kostet achtzig Euro. Vierzig plus achtundzwanzig ist achtundsechzig, durch zwei vierunddreißig, mal fünfundzwanzig achthundertfünfzig Quadratmeter. Mal achtzig Euro: achtundsechzigtausend Euro.
+
+Fassen wir zusammen. Umfang: alle Seiten addieren. Parallelogramm: a mal h. Raute und Drachen: e mal f durch zwei. Trapez: a plus c durch zwei mal h. Die Höhe ist immer der senkrechte Abstand. Und bei Flächeneinheiten ist der Faktor hundert.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

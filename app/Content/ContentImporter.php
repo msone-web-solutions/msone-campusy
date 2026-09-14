@@ -2,6 +2,7 @@
 
 namespace App\Content;
 
+use App\Enums\QuestionRole;
 use App\Enums\QuestionType;
 use App\Models\Question;
 use App\Models\Subject;
@@ -20,7 +21,11 @@ use Symfony\Component\Yaml\Yaml;
  *   <subject-dir>/subject.yaml
  *   <subject-dir>/<NN-area>/area.yaml
  *   <subject-dir>/<NN-area>/<NN-topic>.md          (frontmatter + "## Erklärung" + "## Hefteintrag")
- *   <subject-dir>/<NN-area>/<NN-topic>.quiz.yaml   (list of questions)
+ *   <subject-dir>/<NN-area>/<NN-topic>.quiz.yaml   (list of test questions)
+ *
+ * Inside the explanation, "::: check … :::" fences hold inline questions (YAML body).
+ * They are stored as questions with role "check" and replaced by "<!-- check:N -->"
+ * markers so the page can interleave text and practice.
  */
 class ContentImporter
 {
@@ -103,6 +108,7 @@ class ContentImporter
         [$frontmatter, $body] = $this->parseMarkdown($file->getContents(), $file->getPathname());
         [$sort, $slug] = $this->splitPrefix($file->getFilenameWithoutExtension());
         [$explanation, $notebook] = $this->splitSections($body, $file->getPathname());
+        [$explanation, $checks] = $this->extractChecks($explanation);
 
         $topic = Topic::updateOrCreate(
             ['topic_area_id' => $area->id, 'slug' => $frontmatter['slug'] ?? $slug],
@@ -111,6 +117,7 @@ class ContentImporter
                 'intro' => $frontmatter['intro'] ?? null,
                 'explanation' => $explanation,
                 'notebook_entry' => $notebook,
+                'reflect_prompt' => $frontmatter['reflect'] ?? null,
                 'curriculum_ref' => $frontmatter['curriculum_ref'] ?? null,
                 'estimated_minutes' => $frontmatter['estimated_minutes'] ?? 20,
                 'pass_percent' => $frontmatter['pass_percent'] ?? 70,
@@ -120,41 +127,89 @@ class ContentImporter
         $this->stats['topics']++;
 
         $quizFile = $file->getPath().'/'.$file->getFilenameWithoutExtension().'.quiz.yaml';
+        $testQuestions = File::exists($quizFile) ? $this->yamlList($quizFile) : [];
 
-        if (File::exists($quizFile)) {
-            $this->importQuestions($topic, $quizFile);
-        }
+        $this->importQuestions($topic, $testQuestions, $checks, $quizFile);
     }
 
-    private function importQuestions(Topic $topic, string $file): void
+    /**
+     * @param  array<int, array<string, mixed>>  $tests
+     * @param  array<int, array<string, mixed>>  $checks
+     */
+    private function importQuestions(Topic $topic, array $tests, array $checks, string $file): void
     {
-        $questions = $this->yaml($file);
         $keys = [];
+        $tests = array_values($tests);
+        $count = count($tests);
 
-        foreach (array_values($questions) as $index => $data) {
+        foreach ($tests as $index => $data) {
             $key = (string) ($data['key'] ?? 'q'.($index + 1));
             $keys[] = $key;
-            $type = QuestionType::from($data['type']);
+            $this->upsertQuestion($topic, $key, QuestionRole::Test, $data, "$file#$key", [
+                'sort' => $data['sort'] ?? $index + 1,
+                'segment' => null,
+                // Adaptive ramp: unless authored, the first third is easy, the last third hard.
+                'difficulty' => $data['difficulty'] ?? min(3, (int) floor($index * 3 / max($count, 1)) + 1),
+            ]);
+        }
 
-            $this->validateQuestion($type, $data, "$file#$key");
-
-            Question::updateOrCreate(
-                ['topic_id' => $topic->id, 'key' => $key],
-                [
-                    'type' => $type,
-                    'prompt' => $data['prompt'],
-                    'options' => $data['options'] ?? null,
-                    'answer' => $data['answer'],
-                    'explanation' => $data['explanation'] ?? null,
-                    'points' => $data['points'] ?? 1,
-                    'difficulty' => $data['difficulty'] ?? 1,
-                    'sort' => $data['sort'] ?? $index + 1,
-                ],
-            );
-            $this->stats['questions']++;
+        foreach ($checks as $index => $data) {
+            $key = 'c'.($index + 1);
+            $keys[] = $key;
+            $this->upsertQuestion($topic, $key, QuestionRole::Check, $data, "{$topic->slug}.md check #".($index + 1), [
+                'sort' => $index + 1,
+                'segment' => $index + 1,
+                'difficulty' => $data['difficulty'] ?? 1,
+            ]);
         }
 
         $topic->questions()->whereNotIn('key', $keys)->delete();
+    }
+
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array{sort: int, segment: int|null, difficulty: int}  $placement
+     */
+    private function upsertQuestion(Topic $topic, string $key, QuestionRole $role, array $data, string $where, array $placement): void
+    {
+        $type = QuestionType::from($data['type']);
+        $this->validateQuestion($type, $data, $where);
+
+        Question::updateOrCreate(
+            ['topic_id' => $topic->id, 'key' => $key],
+            [
+                'role' => $role,
+                'type' => $type,
+                'prompt' => $data['prompt'],
+                'options' => $data['options'] ?? null,
+                'answer' => $data['answer'],
+                'explanation' => $data['explanation'] ?? null,
+                'points' => $data['points'] ?? 1,
+                ...$placement,
+            ],
+        );
+        $this->stats['questions']++;
+    }
+
+    /**
+     * Pull "::: check" fences out of the explanation and leave numbered markers behind.
+     *
+     * @return array{0: string, 1: array<int, array<string, mixed>>}
+     */
+    private function extractChecks(string $explanation): array
+    {
+        $checks = [];
+        $n = 0;
+
+        $stripped = preg_replace_callback('/^::: ?check\s*\n(.*?)\n:::\s*$/ms', function (array $m) use (&$checks, &$n) {
+            $n++;
+            $data = Yaml::parse($m[1]);
+            $checks[] = is_array($data) ? $data : [];
+
+            return "<!-- check:$n -->";
+        }, $explanation);
+
+        return [trim($stripped ?? $explanation), $checks];
     }
 
     /**
@@ -224,6 +279,16 @@ class ContentImporter
         }
 
         return [0, Str::slug($name)];
+    }
+
+    /**
+     * @return array<int, array<string, mixed>>
+     */
+    private function yamlList(string $file): array
+    {
+        $data = Yaml::parseFile($file);
+
+        return is_array($data) ? array_values(array_filter($data, is_array(...))) : [];
     }
 
     /**

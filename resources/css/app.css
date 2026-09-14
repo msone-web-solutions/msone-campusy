@@ -108,3 +108,4 @@ select:focus[data-flux-control] {
 .notebook-prose table { @apply text-sm border-collapse; font-variant-numeric: tabular-nums; }
 .notebook-prose td, .notebook-prose th { border: 1px solid var(--raque-line-lilac); padding: 4px 12px; }
 .notebook-prose strong { font-weight: 700; }
+[x-cloak] { display: none !important; }

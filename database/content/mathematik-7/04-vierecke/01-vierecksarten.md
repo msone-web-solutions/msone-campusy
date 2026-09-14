@@ -3,6 +3,7 @@ title: Vierecksarten und das Haus der Vierecke
 intro: Quadrat, Rechteck, Parallelogramm, Raute, Trapez, Drachen – wie man sie erkennt und wie sie zusammenhängen.
 curriculum_ref: "Vierecksarten identifizieren, zeichnen und bezeichnen; Beziehungen zwischen den Vierecksarten beschreiben"
 estimated_minutes: 25
+reflect: "Erkläre, warum jedes Quadrat auch ein Rechteck ist, aber nicht jedes Rechteck ein Quadrat."
 ---
 ## Erklärung
 
@@ -34,6 +35,14 @@ Die Verbindungslinien gegenüberliegender Ecken heißen **Diagonalen**: e = AC u
 
 **Drachenviereck (Drachen):** **Zwei Paare benachbarter Seiten sind gleich lang** (a = d und b = c). Es ist symmetrisch zu einer Diagonale.
 
+::: check
+type: single_choice
+prompt: "Vier gleich lange Seiten, aber keine rechten Winkel – welches Viereck?"
+options: ["Quadrat", "Raute", "Rechteck"]
+answer: { index: 1 }
+explanation: "Vier gleiche Seiten ohne rechte Winkel: Raute."
+:::
+
 ### Das Haus der Vierecke
 
 Die Vierecksarten bauen aufeinander auf – je weiter oben, desto mehr Eigenschaften:
@@ -62,6 +71,13 @@ Die Vierecksarten bauen aufeinander auf – je weiter oben, desto mehr Eigenscha
 Das heißt: **Jedes Quadrat ist auch ein Rechteck** (es hat vier rechte Winkel) **und auch eine Raute** (vier gleiche Seiten) **und auch ein Parallelogramm und ein Trapez.** Aber nicht jedes Rechteck ist ein Quadrat.
 
 Auch eine Raute ist ein Drachen (zwei Paare gleicher Nachbarseiten – sogar alle vier gleich). Und damit ist auch jedes Quadrat ein Drachen.
+
+::: check
+type: true_false
+prompt: "Jedes Rechteck ist auch ein Parallelogramm."
+answer: { value: true }
+explanation: "Ein Rechteck hat zwei Paare paralleler Seiten – also ist es ein Parallelogramm (mit rechten Winkeln)."
+:::
 
 ### Beispiel: Welches Viereck ist das?
 

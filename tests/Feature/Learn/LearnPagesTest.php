@@ -1,7 +1,6 @@
 <?php
 
 use App\Enums\ProgressStatus;
-use App\Models\Question;
 use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\TopicArea;
@@ -58,4 +57,18 @@ it('creates progress when a topic is opened and records the notebook confirmatio
 
     expect($progress->status)->toBe(ProgressStatus::NotebookDone)
         ->and($progress->notebook_confirmed_at)->not->toBeNull();
+});
+
+it('shows an audio player only when a narration file exists', function () {
+    $this->actingAs($this->user);
+    $path = public_path('audio/mathematik/rationale-zahlen/negative-zahlen.mp3');
+
+    $response = $this->get(route('learn.topic', [$this->subject, $this->area, $this->topic]));
+
+    file_exists($path)
+        ? $response->assertSee('Erklärung anhören')
+        : $response->assertDontSee('Erklärung anhören');
+
+    $other = Topic::factory()->for($this->area)->create(['slug' => 'ohne-audio', 'sort' => 2]);
+    $this->get(route('learn.topic', [$this->subject, $this->area, $other]))->assertDontSee('Erklärung anhören');
 });

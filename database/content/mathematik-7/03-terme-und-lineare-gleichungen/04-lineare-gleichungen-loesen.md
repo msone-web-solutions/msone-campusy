@@ -3,6 +3,7 @@ title: Lineare Gleichungen durch Umformen lösen
 intro: Das sichere Verfahren für Gleichungen wie 3x + 7 = 22 – Schritt für Schritt mit Äquivalenzumformungen.
 curriculum_ref: "lineare Gleichungen des Typs ax + b = c mithilfe von Umformungsregeln lösen; Umformungsregeln für das Lösen von Gleichungen"
 estimated_minutes: 35
+reflect: "Erkläre, warum man bei 3x + 7 = 22 zuerst die 7 abzieht und erst dann durch 3 teilt."
 ---
 ## Erklärung
 
@@ -30,6 +31,13 @@ Probe: 7 + 8 = 15 ✓
 4x = 28 | : 4
 x = 7
 Probe: 4 · 7 = 28 ✓
+
+::: check
+type: numeric
+prompt: "Löse: 5x = 45"
+answer: { value: 9 }
+explanation: "| : 5 → x = 9."
+:::
 
 ### Gleichungen der Form ax + b = c
 
@@ -73,6 +81,13 @@ x/5 = 4 | · 5
 x = 20
 Probe: 20 : 5 + 2 = 6 ✓
 
+::: check
+type: numeric
+prompt: "Löse: 2x + 9 = 25"
+answer: { value: 8 }
+explanation: "| − 9 → 2x = 16 | : 2 → x = 8."
+:::
+
 ### Wenn vorher vereinfacht werden muss
 
 Manchmal musst du erst die Seiten zusammenfassen oder Klammern auflösen:
@@ -86,6 +101,13 @@ x = 5
 Weg A: Klammer auflösen: 3x − 6 = 18 | + 6 → 3x = 24 | : 3 → x = 8
 Weg B: Erst durch 3: x − 2 = 6 | + 2 → x = 8
 Beide Wege sind richtig – nimm den kürzeren!
+
+::: check
+type: numeric
+prompt: "Löse: 3x − 4 = −19"
+answer: { value: -5 }
+explanation: "| + 4 → 3x = −15 | : 3 → x = −5."
+:::
 
 ### Typische Fehler
 

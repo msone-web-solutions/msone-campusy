@@ -3,6 +3,7 @@ title: Die drei Grundaufgaben der Prozentrechnung
 intro: Prozentwert, Grundwert oder Prozentsatz berechnen – mit Dreisatz, Formel oder Prozentstreifen.
 curriculum_ref: "Prozentwerte, Grundwerte und Prozentsätze ohne Hilfsmittel und mit dem digitalen Mathematikwerkzeug ermitteln"
 estimated_minutes: 35
+reflect: "Erkläre den Dreisatz über 1 % an einem eigenen Beispiel: Wie berechnest du 15 % von 240 €?"
 ---
 ## Erklärung
 
@@ -23,6 +24,14 @@ Je nachdem, welche der drei Größen fehlt, gibt es **drei Grundaufgaben**. Für
 
 **Tipp:** Mit dem Dezimalbruch ist es am schnellsten: 15 % = 0,15, also 240 · 0,15.
 
+::: check
+type: numeric
+prompt: "Berechne 25 % von 80 €."
+options: { unit: "€" }
+answer: { value: 20 }
+explanation: "Ein Viertel von 80 = 20 €."
+:::
+
 ### Grundaufgabe 2: Grundwert berechnen
 
 *Gegeben: W und p %. Gesucht: G.*
@@ -37,6 +46,14 @@ Je nachdem, welche der drei Größen fehlt, gibt es **drei Grundaufgaben**. Für
 **Formel:** G = W · 100/p = 36 · 100/15 = 3600/15 = **240 €**
 
 Achtung, hier verrechnen sich viele: Der Grundwert ist **größer** als der Prozentwert (wenn p % < 100 %). Prüfe am Ende, ob das Ergebnis dazu passt!
+
+::: check
+type: numeric
+prompt: "30 € sind 20 % eines Preises. Wie hoch ist der Preis?"
+options: { unit: "€" }
+answer: { value: 150 }
+explanation: "1 % ≙ 30 : 20 = 1,50 €, 100 % ≙ 150 €."
+:::
 
 ### Grundaufgabe 3: Prozentsatz berechnen
 
@@ -58,6 +75,14 @@ Alle drei Formeln kommen aus der einen Gleichung **W/G = p/100**:
 - **W = G · p/100**
 - **G = W · 100/p**
 - **p = W/G · 100**
+
+::: check
+type: numeric
+prompt: "12 von 48 Aufgaben sind falsch. Wie viel Prozent sind das? (nur die Zahl)"
+options: { unit: "%" }
+answer: { value: 25 }
+explanation: "12/48 = 1/4 = 25 %."
+:::
 
 ### Kopfrechnen mit „schönen“ Prozentsätzen
 

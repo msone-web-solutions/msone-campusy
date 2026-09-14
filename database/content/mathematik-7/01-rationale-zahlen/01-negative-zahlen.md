@@ -3,6 +3,7 @@ title: Negative Zahlen und die Zahlengerade
 intro: Warum brauchen wir Zahlen unter Null? Temperaturen, Kontostände, Höhen – und wie man sie auf der Zahlengerade findet.
 curriculum_ref: "Notwendigkeit der Zahlenbereichserweiterung an Beispielen begründen; rationale Zahlen darstellen"
 estimated_minutes: 20
+reflect: "Erkläre in eigenen Worten, warum −4 kleiner ist als −1, obwohl die 4 größer aussieht als die 1. Nenne ein Beispiel aus dem Alltag."
 ---
 ## Erklärung
 
@@ -32,6 +33,13 @@ Die Zahlengerade kennst du schon. Bisher fing sie bei 0 an. Jetzt verlängern wi
 
 Je weiter links eine Zahl steht, desto **kleiner** ist sie. −4 ist also kleiner als −1, obwohl die „4“ größer aussieht als die „1“. Denk ans Thermometer: −4 °C ist kälter als −1 °C.
 
+::: check
+type: numeric
+prompt: "Das Thermometer zeigt 5 Grad unter Null. Schreibe die Temperatur als Zahl (ohne Einheit)."
+answer: { value: -5 }
+explanation: "Unter Null heißt negativ: −5."
+:::
+
 ### Das Vorzeichen
 
 Das Zeichen vor der Zahl heißt **Vorzeichen**:
@@ -40,6 +48,14 @@ Das Zeichen vor der Zahl heißt **Vorzeichen**:
 - **−** bedeutet *negativ* (unter Null, Schulden, unterhalb …)
 
 Achtung: Das Vorzeichen „−“ ist etwas anderes als das Rechenzeichen „minus“ in einer Aufgabe wie 7 − 3. Beim Vorzeichen steht das Minus **direkt vor der Zahl** und sagt: „Diese Zahl liegt links von der Null.“
+
+::: check
+type: single_choice
+prompt: "Welche Zahl ist kleiner: −6 oder −2?"
+options: ["−6", "−2"]
+answer: { index: 0 }
+explanation: "−6 liegt weiter links auf der Zahlengerade – also ist −6 kleiner. Denk ans Thermometer: −6 °C ist kälter."
+:::
 
 ### Beispiel 1: Temperaturen
 
@@ -55,6 +71,13 @@ Von −12 gehen wir 20 Schritte nach rechts: 12 Schritte bis zur 0, dann noch 8 
 
 Trage −2,5 ein: Die Zahl liegt zwischen −2 und −3, genau in der Mitte.
 Trage −0,5 ein: Sie liegt zwischen 0 und −1, in der Mitte.
+
+::: check
+type: numeric
+prompt: "Kontostand −7 €. Es kommen 10 € dazu. Wie ist der neue Kontostand (ohne €)?"
+answer: { value: 3 }
+explanation: "Von −7 sieben Schritte nach rechts zur 0, dann noch 3 weiter: +3."
+:::
 
 ### Alle diese Zahlen zusammen heißen „rationale Zahlen“
 

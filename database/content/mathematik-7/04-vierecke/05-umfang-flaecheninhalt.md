@@ -3,6 +3,7 @@ title: Umfang und Flächeninhalt von Vierecken
 intro: Flächenformeln für Parallelogramm, Raute, Trapez und Drachen – hergeleitet aus dem Rechteck und angewendet in Sachaufgaben.
 curriculum_ref: "Umfang und Flächeninhalt von speziellen Vierecken berechnen; Formeln für Flächeninhalt von Parallelogramm, Rhombus, Trapez, Drachenviereck; Anwendungsaufgaben lösen"
 estimated_minutes: 35
+reflect: "Erkläre mit dem Zerschneiden-und-Umlegen-Trick, warum für das Parallelogramm A = a · h gilt."
 ---
 ## Erklärung
 
@@ -37,6 +38,14 @@ Schneide links ein Dreieck ab und setze es rechts wieder an – es entsteht ein 
 
 Beispiel: a = 8 cm, h = 5 cm, b = 6 cm → A = 8 · 5 = **40 cm²**. (Die 6 cm braucht man nur für den Umfang: U = 28 cm.)
 
+::: check
+type: numeric
+prompt: "Parallelogramm mit a = 9 cm und h = 4 cm. Flächeninhalt?"
+options: { unit: "cm²" }
+answer: { value: 36 }
+explanation: "A = a · h = 9 · 4 = 36 cm²."
+:::
+
 ### Raute
 
 Eine Raute ist ein Parallelogramm, also gilt A = a · h. Oft kennt man aber die **Diagonalen** e und f. Die Diagonalen stehen senkrecht und zerlegen die Raute in vier rechtwinklige Dreiecke, die zusammen ein halbes Rechteck e · f ergeben:
@@ -52,6 +61,14 @@ Auch beim Drachen stehen die Diagonalen senkrecht – dieselbe Formel:
 **A = (e · f) / 2**
 
 Beispiel: e = 12 cm, f = 7 cm → A = 12 · 7 : 2 = **42 cm²**.
+
+::: check
+type: numeric
+prompt: "Raute mit den Diagonalen e = 10 cm und f = 8 cm. Flächeninhalt?"
+options: { unit: "cm²" }
+answer: { value: 40 }
+explanation: "A = e · f / 2 = 10 · 8 : 2 = 40 cm²."
+:::
 
 ### Trapez
 
@@ -71,6 +88,14 @@ Beispiel: a = 9 cm, c = 5 cm, h = 4 cm → A = (9 + 5) : 2 · 4 = 7 · 4 = **28 
 | Raute | A = a · h oder A = e · f / 2 | U = 4a |
 | Drachen | A = e · f / 2 | U = 2 · (a + b) |
 | Trapez | A = (a + c) / 2 · h | U = a + b + c + d |
+
+::: check
+type: numeric
+prompt: "Trapez mit a = 8 cm, c = 4 cm, h = 5 cm. Flächeninhalt?"
+options: { unit: "cm²" }
+answer: { value: 30 }
+explanation: "A = (8 + 4) : 2 · 5 = 6 · 5 = 30 cm²."
+:::
 
 ### Rückwärts rechnen
 

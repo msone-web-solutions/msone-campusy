@@ -3,6 +3,7 @@ title: Rechengesetze, Potenzen und Zahlenbereiche
 intro: Rechenvorteile nutzen, Vorrangregeln bei gemischten Aufgaben, Potenzen mit negativer Basis – und wie die Zahlenbereiche ℕ, ℤ und ℚ zusammenhängen.
 curriculum_ref: "Rechenvorteile formulieren und nutzen; rationale Zahlen potenzieren; Rechenausdrücke mit mehreren Operationen berechnen; Zahlenbereiche N, Z, Q unterscheiden; Kommutativ-, Assoziativ-, Distributivgesetz"
 estimated_minutes: 30
+reflect: "Erkläre den Unterschied zwischen (−3)² und −3². Warum kommen verschiedene Ergebnisse heraus?"
 ---
 ## Erklärung
 
@@ -32,6 +33,13 @@ Mit den Gesetzen kannst du geschickt rechnen:
 - **Zehner bilden:** (−4) · 7 · (−25) = (−4) · (−25) · 7 = 100 · 7 = **700**
 - **Ausklammern:** (−6) · 13 + (−6) · 7 = (−6) · (13 + 7) = (−6) · 20 = **−120**
 
+::: check
+type: numeric
+prompt: "Rechne geschickt: (−2) · 17 · (−5)"
+answer: { value: 170 }
+explanation: "(−2) · (−5) = 10, dann 10 · 17 = 170."
+:::
+
 ### Vorrangregeln bei gemischten Aufgaben
 
 Wenn in einer Aufgabe mehrere Rechenarten vorkommen, gilt:
@@ -44,6 +52,13 @@ Wenn in einer Aufgabe mehrere Rechenarten vorkommen, gilt:
 Beispiel: −3 + 4 · (−2) = −3 + (−8) = **−11** (erst mal, dann plus)
 Beispiel: (−3 + 4) · (−2) = 1 · (−2) = **−2** (erst Klammer)
 Beispiel: 20 : (−4) − 3 · (−2) = −5 − (−6) = −5 + 6 = **1**
+
+::: check
+type: numeric
+prompt: "Berechne: −6 + 2 · (−3)"
+answer: { value: -12 }
+explanation: "Punkt vor Strich: 2 · (−3) = −6, dann −6 − 6 = −12."
+:::
 
 ### Potenzen mit negativer Basis
 
@@ -60,6 +75,13 @@ Mit negativer Basis gilt die Regel „Minuszeichen zählen“:
 
 - (−3)² = (−3) · (−3) = **9** – die Klammer sagt: die ganze Zahl −3 wird quadriert.
 - −3² = −(3 · 3) = **−9** – ohne Klammer gehört das Minus nicht zur Basis. Es heißt: „das Negative von 3²“.
+
+::: check
+type: numeric
+prompt: "Berechne: (−4)²"
+answer: { value: 16 }
+explanation: "(−4) · (−4) = 16 – gerader Exponent, positives Ergebnis."
+:::
 
 ### Die Zahlenbereiche
 

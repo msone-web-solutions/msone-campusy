@@ -1,0 +1,27 @@
+Zinsrechnung.
+
+Hallo! Zum Abschluss des Themenfelds geht es um Geld, das Geld verdient: um Zinsen. Und die gute Nachricht vorweg: Zinsrechnung ist Prozentrechnung, nur mit neuen Namen.
+
+Was sind Zinsen? Wer Geld auf ein Sparkonto legt, leiht es der Bank. Dafür zahlt die Bank Zinsen. Wer sich Geld von der Bank leiht, also einen Kredit nimmt, muss der Bank Zinsen zahlen. Zinsen sind also der Preis fürs Geldleihen. Sie werden in Prozent pro Jahr angegeben.
+
+Jetzt die neuen Namen. Der Grundwert heißt hier Kapital, abgekürzt K. Das ist das angelegte oder geliehene Geld. Der Prozentsatz heißt Zinssatz, wieder p Prozent, und zwar pro Jahr. Und der Prozentwert heißt Zinsen, abgekürzt Z. Das ist das Geld, das dazukommt.
+
+Die Jahreszinsen berechnest du so: Zinsen ist Kapital mal p durch hundert. Zweitausendfünfhundert Euro werden zu drei Prozent angelegt. Zinsen nach einem Jahr: zweitausendfünfhundert mal null Komma null drei ist fünfundsiebzig Euro. Das Guthaben danach: zweitausendfünfhundertfünfundsiebzig Euro.
+
+Wenn das Geld nur einige Monate angelegt ist, rechnet die Bank die Jahreszinsen anteilig. Für m Monate bekommst du m Zwölftel der Jahreszinsen. Zweitausendfünfhundert Euro zu drei Prozent für acht Monate: fünfundsiebzig Euro mal acht Zwölftel. Acht Zwölftel ist zwei Drittel, und zwei Drittel von fünfundsiebzig sind fünfzig Euro.
+
+Bei Tagen rechnet die Bank mit dem Bankjahr. Das hat dreihundertsechzig Tage, jeder Monat hat dreißig Tage. Für t Tage bekommst du t Dreihundertsechzigstel der Jahreszinsen. Zweitausendfünfhundert Euro zu drei Prozent für neunzig Tage: fünfundsiebzig mal neunzig Dreihundertsechzigstel, das ist ein Viertel, also achtzehn Euro fünfundsiebzig.
+
+Wie in der Prozentrechnung kann jede Größe gesucht sein. Kapital gesucht: Bei vier Prozent gibt es hundertzwanzig Euro Jahreszinsen. Kapital ist Zinsen mal hundert durch p, also hundertzwanzig mal hundert durch vier, das sind dreitausend Euro.
+
+Zinssatz gesucht: Fünftausend Euro bringen hundertfünfundzwanzig Euro Jahreszinsen. p ist Zinsen durch Kapital mal hundert, also hundertfünfundzwanzig durch fünftausend mal hundert, das sind zwei Komma fünf Prozent.
+
+Zinszeit gesucht: Viertausend Euro zu drei Prozent bringen sechzig Euro Zinsen. Die Jahreszinsen wären hundertzwanzig Euro. Sechzig Euro sind die Hälfte, also sechs Monate.
+
+Ein Ausblick auf den Zinseszins. Lässt man die Zinsen auf dem Konto, werden sie im nächsten Jahr mitverzinst. Tausend Euro zu fünf Prozent: Nach einem Jahr tausendfünfzig Euro. Im zweiten Jahr gibt es fünf Prozent von tausendfünfzig, das sind zweiundfünfzig Euro fünfzig. Nach zwei Jahren also tausendeinhundertzwei Euro fünfzig. Das ist in Klasse acht wichtig. Hier reicht es, wenn du die Idee verstanden hast.
+
+Zum Schluss noch das Promille. Ein Promille ist ein Tausendstel, also null Komma eins Prozent. Man kennt es vom Alkoholgehalt im Blut oder von Steigungen.
+
+Fassen wir zusammen. Kapital ist der Grundwert, Zinssatz der Prozentsatz, Zinsen der Prozentwert. Jahreszinsen: Kapital mal p durch hundert. Bei Monaten: mal m durch zwölf. Bei Tagen: mal t durch dreihundertsechzig, mit dem Bankjahr von dreihundertsechzig Tagen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

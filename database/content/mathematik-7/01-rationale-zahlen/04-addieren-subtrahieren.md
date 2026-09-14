@@ -3,6 +3,7 @@ title: Addieren und Subtrahieren rationaler Zahlen
 intro: Plus und minus mit negativen Zahlen – mit dem Pfeilmodell auf der Zahlengerade und festen Rechenregeln.
 curriculum_ref: "Grundrechenoperationen mit rationalen Zahlen verstehen und hilfsmittelfrei ausführen"
 estimated_minutes: 30
+reflect: "Erkläre mit dem Schulden-Beispiel, warum 5 − (−3) dasselbe ist wie 5 + 3."
 ---
 ## Erklärung
 
@@ -31,6 +32,13 @@ Daraus ergeben sich zwei Regeln:
 (+3) + (−4) = −(4 − 3) = **−1**, weil |−4| > |+3|
 (−3) + (+4) = +(4 − 3) = **+1**, weil |+4| > |−3|
 
+::: check
+type: numeric
+prompt: "Berechne: (−4) + (+9)"
+answer: { value: 5 }
+explanation: "Verschiedene Vorzeichen: 9 − 4 = 5, das Plus gewinnt (9 hat den größeren Betrag)."
+:::
+
 ### Subtrahieren: Die Gegenzahl addieren
 
 Beim Subtrahieren gibt es einen Trick, mit dem du nie mehr über „minus minus“ nachdenken musst:
@@ -45,6 +53,13 @@ Beim Subtrahieren gibt es einen Trick, mit dem du nie mehr über „minus minus�
 Merke: **Minus vor einer Klammer mit Minus wird zu Plus:** − (−3) = + 3.
 
 Warum ist das so? Denk an Schulden: Wenn dir jemand 3 € Schulden *wegnimmt* (−(−3)), hast du danach 3 € *mehr* (+3).
+
+::: check
+type: numeric
+prompt: "Berechne: 6 − (−2)"
+answer: { value: 8 }
+explanation: "Minus minus wird plus: 6 + 2 = 8."
+:::
 
 ### Klammern weglassen – die Kurzschreibweise
 
@@ -66,6 +81,13 @@ Merkregel: **Gleiche Zeichen ergeben Plus, verschiedene Zeichen ergeben Minus.**
 - −7 − 12 = **−19** (beide negativ: Beträge addieren, Minus bleibt)
 - 4 − 9 = **−5** (verschiedene Vorzeichen: 9 − 4 = 5, Minus gewinnt)
 - −4 − (−9) = −4 + 9 = **5**
+
+::: check
+type: numeric
+prompt: "Berechne: −9 + 4"
+answer: { value: -5 }
+explanation: "9 − 4 = 5, das Minus gewinnt → −5."
+:::
 
 ### Beispiel 6: Mehrere Zahlen
 

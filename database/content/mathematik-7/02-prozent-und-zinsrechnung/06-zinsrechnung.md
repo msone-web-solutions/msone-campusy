@@ -3,6 +3,7 @@ title: Zinsrechnung
 intro: Kapital, Zinssatz, Zinsen – Zinsen für ein Jahr, für Monate und für Tage berechnen.
 curriculum_ref: "Prozentrechnung (einschließlich Zinsrechnung) in Sachbezügen anwenden; Kapital (Guthaben, Kredit), Zinsen, Zinssatz, Zinszeit (Jahre, Monate, Tage)"
 estimated_minutes: 30
+reflect: "Erkläre, was Kapital, Zinssatz und Zinsen bedeuten, und wie du die Zinsen für 6 Monate berechnest."
 ---
 ## Erklärung
 
@@ -24,6 +25,14 @@ Die Zinsrechnung ist **Prozentrechnung mit neuen Namen**:
 
 **Beispiel:** 2 500 € werden zu 3 % angelegt. Zinsen nach einem Jahr: 2500 · 0,03 = **75 €**. Guthaben danach: 2 575 €.
 
+::: check
+type: numeric
+prompt: "1 000 € werden zu 3 % angelegt. Wie viel Zinsen gibt es nach einem Jahr?"
+options: { unit: "€" }
+answer: { value: 30 }
+explanation: "1000 · 0,03 = 30 €."
+:::
+
 ### Zinsen für Monate
 
 Die Bank rechnet die Jahreszinsen anteilig: Für **m Monate** bekommt man **m/12** der Jahreszinsen.
@@ -40,6 +49,14 @@ Die Bank rechnet mit dem **Bankjahr: 360 Tage**, jeder Monat hat 30 Tage. Für *
 
 **Beispiel:** 2 500 € zu 3 % für 90 Tage: 75 € · 90/360 = 75 · 1/4 = **18,75 €**.
 
+::: check
+type: numeric
+prompt: "2 000 € zu 4 % für 3 Monate. Wie viel Zinsen sind das?"
+options: { unit: "€" }
+answer: { value: 20 }
+explanation: "Jahreszinsen 80 €, für 3 Monate ein Viertel: 20 €."
+:::
+
 ### Rückwärts rechnen
 
 Wie in der Prozentrechnung kann jede Größe gesucht sein.
@@ -49,6 +66,14 @@ Wie in der Prozentrechnung kann jede Größe gesucht sein.
 **Zinssatz gesucht:** 5 000 € bringen 125 € Jahreszinsen. p = Z/K · 100 = 125/5000 · 100 = **2,5 %**.
 
 **Zinszeit gesucht:** 4 000 € zu 3 % bringen 60 € Zinsen. Jahreszinsen wären 120 €. 60 € sind die Hälfte → **6 Monate**.
+
+::: check
+type: numeric
+prompt: "Bei 5 % gibt es 50 € Jahreszinsen. Wie viel Kapital wurde angelegt?"
+options: { unit: "€" }
+answer: { value: 1000 }
+explanation: "K = 50 · 100 : 5 = 1 000 €."
+:::
 
 ### Zinseszins – ein Ausblick
 

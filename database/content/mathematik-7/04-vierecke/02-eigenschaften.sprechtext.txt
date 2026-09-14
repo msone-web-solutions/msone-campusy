@@ -1,0 +1,23 @@
+Eigenschaften der Vierecke: Seiten, Winkel, Diagonalen, Symmetrie.
+
+Hallo! Jedes besondere Viereck hat typische Eigenschaften. Die musst du kennen, um Aufgaben zu lösen und um Vierecke zu konstruieren. Wir gehen sie in vier Gruppen durch: Seiten, Winkel, Diagonalen und Symmetrie.
+
+Zuerst die Seiten. Beim Parallelogramm sind gegenüberliegende Seiten parallel und gleich lang: a gleich c und b gleich d. Beim Rechteck genauso. Bei der Raute und beim Quadrat sind alle vier Seiten gleich lang. Beim Trapez ist ein Paar parallel, die Grundseiten. Und beim Drachen sind benachbarte Seiten paarweise gleich: a gleich d und b gleich c.
+
+Jetzt die Winkel. Beim Parallelogramm sind gegenüberliegende Winkel gleich groß: Alpha gleich Gamma, Beta gleich Delta. Und benachbarte Winkel ergänzen sich zu hundertachtzig Grad. Ein Beispiel: Ist Alpha fünfundsechzig Grad, dann ist Gamma auch fünfundsechzig Grad, und Beta und Delta sind hundertachtzig minus fünfundsechzig, also hundertfünfzehn Grad. Beim Rechteck und beim Quadrat sind alle vier Winkel neunzig Grad. Bei der Raute gilt dasselbe wie beim Parallelogramm. Beim Trapez ergänzen sich die Winkel an einem Schenkel zu hundertachtzig Grad. Und beim Drachen sind die beiden Winkel zwischen den ungleichen Seiten gleich groß, also Beta gleich Delta.
+
+Nun zu den Diagonalen, hier wird es interessant. Beim Parallelogramm halbieren sich die Diagonalen gegenseitig. Beim Rechteck halbieren sie sich und sind außerdem gleich lang. Bei der Raute halbieren sie sich und stehen senkrecht aufeinander, außerdem halbieren sie die Winkel. Beim Quadrat gilt alles zusammen: Sie halbieren sich, sind gleich lang und stehen senkrecht. Beim Drachen stehen die Diagonalen senkrecht, und die Symmetriediagonale halbiert die andere. Beim Trapez gibt es keine besondere Eigenschaft.
+
+Das ist eine gute Merkhilfe für das Haus der Vierecke: Das Quadrat hat alle Diagonaleigenschaften, weil es Rechteck und Raute zugleich ist.
+
+Zum Schluss die Symmetrie. Eine Figur ist achsensymmetrisch, wenn man sie so falten kann, dass beide Hälften aufeinanderliegen. Das Quadrat hat vier Symmetrieachsen: die zwei Diagonalen und die zwei Mittellinien. Das Rechteck hat zwei Symmetrieachsen, nämlich die Mittellinien. Achtung: Die Diagonalen eines Rechtecks sind keine Symmetrieachsen! Die Raute hat zwei Symmetrieachsen, die Diagonalen. Der Drachen hat eine, eine Diagonale. Das gleichschenklige Trapez hat eine. Und das Parallelogramm hat keine Symmetrieachse.
+
+Dafür ist das Parallelogramm punktsymmetrisch: Dreht man es um hundertachtzig Grad um den Schnittpunkt der Diagonalen, sieht es gleich aus. Das gilt auch für Rechteck, Raute und Quadrat.
+
+Diese besonderen Linien solltest du einzeichnen können: Die Diagonalen, von Ecke zu gegenüberliegender Ecke. Die Mittellinien, die die Mittelpunkte gegenüberliegender Seiten verbinden. Die Höhen, das ist der senkrechte Abstand zwischen zwei parallelen Seiten, wichtig für den Flächeninhalt. Und die Symmetrieachsen.
+
+Ein Beispiel: Ein Viereck hat Diagonalen, die gleich lang sind und sich halbieren, aber nicht senkrecht aufeinander stehen. Was ist es? Gleich lang und halbierend heißt Rechteck. Nicht senkrecht heißt kein Quadrat. Also ein Rechteck, das kein Quadrat ist.
+
+Fassen wir zusammen. Parallelogramm: Gegenseiten gleich, Gegenwinkel gleich, Diagonalen halbieren sich. Rechteck: dazu rechte Winkel und gleich lange Diagonalen. Raute: dazu gleiche Seiten und senkrechte Diagonalen. Quadrat: alles. Drachen: senkrechte Diagonalen, eine Symmetrieachse.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

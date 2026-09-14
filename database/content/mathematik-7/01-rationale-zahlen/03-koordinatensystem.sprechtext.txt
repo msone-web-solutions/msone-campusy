@@ -1,0 +1,27 @@
+Das Koordinatensystem mit vier Quadranten.
+
+Hallo! Ein Koordinatensystem kennst du schon. Zwei Zahlengeraden stehen senkrecht aufeinander. Bisher gab es darauf nur positive Zahlen. Jetzt verlängern wir beide Achsen ins Negative. Dadurch wird das Koordinatensystem viermal so groß.
+
+Zuerst der Aufbau. Die waagerechte Achse heißt x-Achse, manchmal auch Rechtsachse. Nach rechts sind die Zahlen positiv, nach links negativ. Die senkrechte Achse heißt y-Achse oder Hochachse. Nach oben positiv, nach unten negativ. Der Punkt, an dem sich beide Achsen schneiden, heißt Ursprung. Er hat die Koordinaten null und null.
+
+Die beiden Achsen teilen die Ebene in vier Bereiche. Diese Bereiche heißen Quadranten. Man nummeriert sie gegen den Uhrzeigersinn, und man beginnt rechts oben.
+
+Der erste Quadrant liegt rechts oben. Hier sind x und y positiv. Der zweite Quadrant liegt links oben. Hier ist x negativ und y positiv. Der dritte Quadrant liegt links unten. Hier sind beide Koordinaten negativ. Und der vierte Quadrant liegt rechts unten. Hier ist x positiv und y negativ.
+
+Jetzt zum Eintragen von Punkten. Ein Punkt wird mit zwei Koordinaten angegeben. Man schreibt zum Beispiel: P mit den Koordinaten minus drei und zwei. Die erste Zahl ist immer die x-Koordinate, die zweite immer die y-Koordinate. Eine gute Merkhilfe: Erst laufen, dann klettern. Erst gehst du nach rechts oder links, das ist x. Dann gehst du nach oben oder unten, das ist y.
+
+Nehmen wir den Punkt P mit minus drei und zwei. Du startest im Ursprung. Die x-Koordinate ist minus drei, also gehst du drei nach links. Die y-Koordinate ist zwei, also gehst du zwei nach oben. Dort markierst du den Punkt und schreibst ein P daneben. Der Punkt liegt im zweiten Quadranten.
+
+Noch ein Beispiel: Q mit zwei und minus vier. Zwei nach rechts, vier nach unten. Q liegt im vierten Quadranten.
+
+Umgekehrt kannst du auch die Koordinaten eines Punktes ablesen. Du gehst vom Punkt senkrecht auf die x-Achse, das ergibt x. Und du gehst waagerecht auf die y-Achse, das ergibt y. Ein Punkt, der vier Einheiten links vom Ursprung und eine Einheit darunter liegt, hat die Koordinaten minus vier und minus eins. Er liegt im dritten Quadranten.
+
+Ein Sonderfall sind Punkte auf den Achsen. Punkte auf der x-Achse haben die y-Koordinate null, zum Beispiel fünf und null oder minus zwei und null. Punkte auf der y-Achse haben die x-Koordinate null, zum Beispiel null und drei oder null und minus sechs. Diese Punkte gehören zu keinem Quadranten.
+
+Ein Beispiel mit einer Figur. Die Punkte A mit minus zwei und minus eins, B mit drei und minus eins, C mit drei und zwei und D mit minus zwei und zwei bilden ein Rechteck. Wie lang ist die Seite von A nach B? Beide Punkte haben die y-Koordinate minus eins, sie liegen also auf einer waagerechten Linie. Von x gleich minus zwei bis x gleich drei sind es fünf Einheiten. Und die Seite von B nach C? Beide haben die x-Koordinate drei. Von y gleich minus eins bis y gleich zwei sind es drei Einheiten.
+
+Wo kommt das alles vor? Bei Karten und Navigationssystemen, bei Spielfeldern in Computerspielen, bei Diagrammen mit negativen Werten wie Temperaturverläufen. Überall werden Punkte mit zwei Koordinaten beschrieben.
+
+Fassen wir zusammen. Die x-Achse ist waagerecht, die y-Achse senkrecht, der Schnittpunkt heißt Ursprung. Die vier Quadranten werden gegen den Uhrzeigersinn nummeriert, beginnend rechts oben. Ein Punkt wird mit x und y angegeben: erst laufen, dann klettern.
+
+Jetzt bist du dran. Hefteintrag abschreiben und dann zum Test. Viel Erfolg!

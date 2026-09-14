@@ -3,6 +3,7 @@ title: Prozente in Diagrammen darstellen und auswerten
 intro: Kreis-, Säulen- und Liniendiagramme lesen und selbst zeichnen – mit Prozentangaben und Winkeln.
 curriculum_ref: "Daten, insbesondere Prozentsätze, in geeigneten Diagrammen darstellen und Diagramme auswerten; Linien-, Säulen- und Kreisdiagramm"
 estimated_minutes: 25
+reflect: "Erkläre, warum 1 % im Kreisdiagramm 3,6° entspricht, und wie du daraus den Winkel für 40 % berechnest."
 ---
 ## Erklärung
 
@@ -24,6 +25,14 @@ Lieblingssport der 7a (in %)
 ```
 
 Beim Zeichnen: Achsen beschriften, gleiche Säulenbreite, gleiche Abstände, sinnvolle Skala (hier 10er-Schritte).
+
+::: check
+type: single_choice
+prompt: "Welches Diagramm zeigt am besten, wie sich die Stimmen einer Wahl auf die Kandidaten verteilen?"
+options: ["Liniendiagramm", "Kreisdiagramm"]
+answer: { index: 1 }
+explanation: "Anteile an einem Ganzen → Kreisdiagramm."
+:::
 
 ### Das Kreisdiagramm
 
@@ -47,6 +56,14 @@ So zeichnest du es: Kreis mit Zirkel, einen Radius als Startlinie, dann mit dem 
 
 Wenn keine Prozente, sondern Anzahlen gegeben sind: Erst den Anteil berechnen. 6 von 24 Kindern → 6/24 = 25 % → 90°. (Oder direkt: 360° : 24 · 6 = 90°.)
 
+::: check
+type: numeric
+prompt: "Wie viel Grad entsprechen 50 % im Kreisdiagramm?"
+options: { unit: "°" }
+answer: { value: 180 }
+explanation: "Die Hälfte von 360° = 180°."
+:::
+
 ### Das Liniendiagramm
 
 Zeigt, wie sich ein Wert **über die Zeit verändert**. Die Punkte werden mit Linien verbunden. Gut für **Entwicklungen** (Temperatur im Tagesverlauf, Akkustand, Preise über Jahre).
@@ -60,6 +77,14 @@ Akku (%)
   0 └───────────●──
     8   10  12  14 Uhr
 ```
+
+::: check
+type: numeric
+prompt: "Ein Sektor hat 36°. Wie viel Prozent sind das? (nur die Zahl)"
+options: { unit: "%" }
+answer: { value: 10 }
+explanation: "36 : 3,6 = 10 %."
+:::
 
 ### Diagramme auswerten – und kritisch lesen
 

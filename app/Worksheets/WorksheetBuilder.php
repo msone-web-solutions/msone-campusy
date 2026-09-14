@@ -2,6 +2,7 @@
 
 namespace App\Worksheets;
 
+use App\Enums\QuestionRole;
 use App\Enums\QuestionType;
 use App\Models\Question;
 use App\Models\Topic;
@@ -20,7 +21,7 @@ class WorksheetBuilder
     {
         $topic->loadMissing(['topicArea.subject', 'questions']);
 
-        $tasks = $topic->questions->values()->map(fn (Question $q, int $i) => [
+        $tasks = $topic->questions->where('role', QuestionRole::Test)->values()->map(fn (Question $q, int $i) => [
             'nr' => $i + 1,
             'points' => $q->points,
             'type' => $q->type,

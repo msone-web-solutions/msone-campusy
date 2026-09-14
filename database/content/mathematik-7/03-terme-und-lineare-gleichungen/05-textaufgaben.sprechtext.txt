@@ -1,0 +1,23 @@
+Sachaufgaben mit Gleichungen lösen.
+
+Hallo! Du kannst jetzt Gleichungen lösen. Heute lernst du, wie du aus einem Text eine Gleichung machst. Das ist der Schritt, vor dem viele Respekt haben, aber mit einem festen Plan klappt es.
+
+Der Plan hat fünf Schritte. Erstens: Verstehen. Was ist gegeben, was ist gesucht? Lies den Text zweimal. Zweitens: Variable festlegen. Schreib auf, wofür x steht, und zwar mit Einheit. Zum Beispiel: x ist das Alter von Lisa in Jahren. Drittens: Gleichung aufstellen. Übersetze den Text in eine Gleichung. Viertens: Gleichung lösen. Fünftens: Probe am Text und Antwortsatz. Passt die Lösung zur Geschichte? Schreib einen ganzen Satz mit Einheit.
+
+Der wichtigste und schwerste Schritt ist Nummer drei, das Übersetzen. Dafür ein paar Hilfen. „Ist“, „ergibt“, „beträgt“ oder „sind zusammen“ heißt: Gleichheitszeichen. „Mehr als“ oder „vermehrt um“ heißt plus. „Weniger als“ oder „vermindert um“ heißt minus. „Das Doppelte“ ist zwei x, „das Dreifache“ drei x. „Die Hälfte“ ist x durch zwei. „Fünf mehr als das Doppelte“ ist zwei x plus fünf.
+
+Erstes Beispiel, ein Zahlenrätsel: Wenn man das Dreifache einer Zahl um acht vermehrt, erhält man neunundzwanzig. Wie heißt die Zahl? Variable: x ist die gesuchte Zahl. Gleichung: drei x plus acht gleich neunundzwanzig. Lösen: drei x gleich einundzwanzig, x gleich sieben. Probe am Text: Das Dreifache von sieben ist einundzwanzig, plus acht ist neunundzwanzig. Antwort: Die Zahl heißt sieben.
+
+Zweites Beispiel, Alter: Papa ist dreimal so alt wie Ben. Zusammen sind sie achtundvierzig. Variable: x ist Bens Alter in Jahren, dann ist Papa drei x Jahre alt. Gleichung: x plus drei x gleich achtundvierzig. Lösen: vier x gleich achtundvierzig, x gleich zwölf. Probe: Ben zwölf, Papa sechsunddreißig, zusammen achtundvierzig. Antwort: Ben ist zwölf Jahre alt.
+
+Drittes Beispiel, Geld: Ein Handytarif kostet fünfzehn Euro Grundgebühr und zwanzig Cent pro Minute. Die Rechnung beträgt siebenundzwanzig Euro. Wie viele Minuten wurde telefoniert? Variable: x ist die Anzahl der Minuten. Gleichung: fünfzehn plus null Komma zwei x gleich siebenundzwanzig. Lösen: null Komma zwei x gleich zwölf, x gleich sechzig. Antwort: Es wurde sechzig Minuten telefoniert.
+
+Viertes Beispiel, Geometrie: Ein Rechteck ist fünf Zentimeter länger als breit. Der Umfang beträgt achtunddreißig Zentimeter. Variable: x ist die Breite in Zentimetern, die Länge ist x plus fünf. Gleichung: zwei mal die Klammer x plus x plus fünf gleich achtunddreißig. Lösen: zwei mal die Klammer zwei x plus fünf gleich achtunddreißig, also zwei x plus fünf gleich neunzehn, zwei x gleich vierzehn, x gleich sieben. Antwort: Das Rechteck ist sieben Zentimeter breit.
+
+Fünftes Beispiel, Verteilen: Drei Freundinnen teilen neunzig Euro. Anna bekommt zehn Euro mehr als Bea, Cem doppelt so viel wie Bea. Variable: x ist Beas Betrag. Anna: x plus zehn. Cem: zwei x. Gleichung: x plus x plus zehn plus zwei x gleich neunzig. Vier x plus zehn gleich neunzig, vier x gleich achtzig, x gleich zwanzig. Bea zwanzig, Anna dreißig, Cem vierzig Euro. Summe neunzig, passt.
+
+Und wenn die Probe am Text nicht passt? Angenommen, bei einer Altersaufgabe kommt minus drei heraus. Rechnerisch mag alles stimmen, aber ein Alter kann nicht negativ sein. Dann ist die Gleichung falsch aufgestellt, und du gehst zurück zu Schritt drei. Genau davor schützt dich die Probe am Text.
+
+Fassen wir zusammen. Fünf Schritte: verstehen, Variable festlegen, Gleichung aufstellen, lösen, Probe am Text mit Antwortsatz. Die Übersetzungshilfen kennst du jetzt. Und wenn die Lösung nicht zur Geschichte passt, war die Gleichung falsch.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

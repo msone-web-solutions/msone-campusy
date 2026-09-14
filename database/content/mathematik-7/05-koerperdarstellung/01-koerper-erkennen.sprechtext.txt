@@ -1,0 +1,29 @@
+Körper erkennen und beschreiben.
+
+Hallo! Bisher hast du mit Flächen gearbeitet: Dreiecke, Vierecke, alles flach. Jetzt geht es in den Raum. Körper haben Länge, Breite und Höhe. Heute lernst du die fünf wichtigsten kennen.
+
+Der erste Körper ist das Prisma. Grundfläche und Deckfläche sind gleiche, parallele Vielecke, zum Beispiel Dreiecke, Vierecke oder Sechsecke. Die Seitenflächen sind Rechtecke. Ein Prisma heißt nach seiner Grundfläche: Dreiecksprisma, Vierecksprisma und so weiter. Auch Quader und Würfel sind Prismen, mit rechteckiger oder quadratischer Grundfläche. Im Alltag: eine Toblerone-Packung ist ein Dreiecksprisma, ein Schuhkarton ein Quader, ein Bleistift ohne Spitze ein Sechseckprisma.
+
+Der zweite Körper ist die Pyramide. Sie hat eine Vieleck-Grundfläche, und alle Seitenflächen sind Dreiecke, die in einer Spitze zusammenlaufen. Auch sie heißt nach der Grundfläche: quadratische Pyramide, Dreieckspyramide. Die Pyramiden von Gizeh sind quadratische Pyramiden.
+
+Der dritte Körper ist der Kreiszylinder, kurz Zylinder. Grund- und Deckfläche sind gleiche, parallele Kreise, dazwischen ist eine gebogene Mantelfläche. Eine Konservendose, ein Trinkglas, ein Baumstamm.
+
+Der vierte ist der Kegel: eine Kreis-Grundfläche und eine Mantelfläche, die in einer Spitze endet. Eine Eistüte, ein Verkehrshütchen, ein Partyhut.
+
+Und der fünfte ist die Kugel. Alle Punkte der Oberfläche haben denselben Abstand vom Mittelpunkt, das ist der Radius. Keine Ecken, keine Kanten, keine ebene Fläche. Ein Fußball, eine Murmel.
+
+Jetzt zu den Teilen eines Körpers. Die Grundfläche ist die Fläche, auf der der Körper steht. Die Deckfläche liegt oben, parallel zur Grundfläche, die gibt es nur bei Prisma und Zylinder. Die Seitenflächen oder der Mantel liegen dazwischen. Bei Prisma und Pyramide sind es einzelne ebene Flächen, bei Zylinder und Kegel eine gebogene Mantelfläche. Die Körperhöhe ist der senkrechte Abstand zwischen Grundfläche und Deckfläche beziehungsweise Spitze. Kanten sind die Linien, wo zwei Flächen zusammenstoßen. Ecken sind die Punkte, wo Kanten zusammentreffen.
+
+Wir betrachten nur gerade Körper. Bei ihnen steht die Höhe senkrecht auf der Grundfläche, und die Spitze liegt genau über der Mitte.
+
+Jetzt zählen wir. Ein Würfel oder Quader hat sechs Flächen, zwölf Kanten und acht Ecken. Ein Dreiecksprisma hat fünf Flächen, neun Kanten und sechs Ecken. Eine quadratische Pyramide hat fünf Flächen, acht Kanten und fünf Ecken. Ein Zylinder hat drei Flächen, zwei Kreise und den Mantel, aber keine Ecken. Ein Kegel hat zwei Flächen und eine Ecke, die Spitze. Und die Kugel hat eine Fläche, null Kanten, null Ecken.
+
+Für Prismen mit einem n-Eck als Grundfläche gibt es eine Regel: n plus zwei Flächen, drei n Kanten, zwei n Ecken. Für Pyramiden: n plus eins Flächen, zwei n Kanten, n plus eins Ecken.
+
+Und wie unterscheidest du die Körper? Stell dir immer eine Frage: Läuft der Körper in einer Spitze zusammen? Wenn nein, wenn oben eine Deckfläche ist, dann ist es ein Prisma bei einem Vieleck oder ein Zylinder bei einem Kreis. Wenn ja, dann ist es eine Pyramide bei einem Vieleck oder ein Kegel bei einem Kreis.
+
+Viele Gegenstände bestehen aus mehreren Körpern. Ein Haus mit Satteldach ist ein Quader plus ein Dreiecksprisma. Ein Bleistift mit Spitze ist ein Sechseckprisma plus ein Kegel. Ein Turm ist ein Zylinder plus ein Kegel.
+
+Fassen wir zusammen. Prisma: Vieleck unten, gleiches Vieleck oben, Rechtecke als Seiten. Pyramide: Vieleck unten, Spitze oben. Zylinder: Kreis unten und oben. Kegel: Kreis unten, Spitze oben. Kugel: rund. Und die Frage „Spitze oder Deckfläche?“ hilft beim Erkennen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,0 +1,25 @@
+Terme vereinfachen.
+
+Hallo! Terme können lang und unübersichtlich sein. Heute lernst du, wie man sie kürzer macht: durch Zusammenfassen, Klammern auflösen und Ausklammern.
+
+Fangen wir mit dem Zusammenfassen an. Drei Äpfel plus fünf Äpfel sind acht Äpfel. Genauso: drei x plus fünf x ist acht x. Glieder mit derselben Variable heißen gleichartig. Du addierst einfach die Zahlen davor, die sogenannten Koeffizienten. Sieben a minus zwei a ist fünf a. x plus x plus x ist drei x. Vier y minus neun y ist minus fünf y.
+
+Aber: Drei Äpfel plus fünf Birnen kann man nicht zusammenfassen. Genauso bleibt drei x plus fünf y so stehen. Und drei x plus fünf bleibt auch so, denn Zahl und Variable sind nicht gleichartig. Auch x und x Quadrat sind nicht gleichartig.
+
+Bei Termen mit mehreren Gliedern sortierst du erst nach Sorten und fasst dann zusammen. Fünf x plus drei minus zwei x plus acht. Die x-Glieder: fünf x minus zwei x ist drei x. Die Zahlen: drei plus acht ist elf. Ergebnis: drei x plus elf. Achte dabei auf die Vorzeichen: Jedes Vorzeichen gehört zu dem Glied dahinter. Vier a minus sieben minus sechs a plus zwei: vier a minus sechs a ist minus zwei a, minus sieben plus zwei ist minus fünf. Ergebnis: minus zwei a minus fünf.
+
+Jetzt zum Klammern auflösen, auch Ausmultiplizieren genannt. Das Distributivgesetz kennst du: a mal die Klammer b plus c ist a mal b plus a mal c. Drei mal die Klammer x plus vier ist drei x plus zwölf. Fünf mal die Klammer zwei a minus drei ist zehn a minus fünfzehn. Minus zwei mal die Klammer x plus sechs ist minus zwei x minus zwölf. Und minus vier mal die Klammer y minus eins ist minus vier y plus vier, denn minus mal minus gibt plus.
+
+Steht nur ein Plus vor einer Klammer, kann sie einfach weg. Sieben plus die Klammer zwei x minus fünf ist sieben plus zwei x minus fünf, also zwei x plus zwei. Steht aber ein Minus vor der Klammer, drehen sich alle Vorzeichen in der Klammer um. Sieben minus die Klammer zwei x minus fünf ist sieben minus zwei x plus fünf, also minus zwei x plus zwölf. Merke: Eine Minusklammer ist wie mal minus eins.
+
+Ausklammern ist Ausmultiplizieren rückwärts. Du ziehst den gemeinsamen Faktor vor die Klammer. Sechs x plus neun: Die Drei steckt in sechs und in neun. Also drei mal die Klammer zwei x plus drei. Vier a minus zwölf ist vier mal die Klammer a minus drei. Die Probe: Klammer wieder ausmultiplizieren, es muss der Ausgangsterm herauskommen.
+
+Ein Beispiel mit allem zusammen. Vereinfache drei mal die Klammer x plus zwei minus zwei mal die Klammer x minus vier. Erst ausmultiplizieren: drei x plus sechs minus zwei x plus acht. Dann zusammenfassen: drei x minus zwei x ist x, sechs plus acht ist vierzehn. Ergebnis: x plus vierzehn.
+
+Ob das stimmt, prüfst du mit der Probe: Setze eine Zahl ein. Für x gleich eins ergibt der Originalterm drei mal drei minus zwei mal minus drei, das ist neun plus sechs, also fünfzehn. Der vereinfachte Term ergibt eins plus vierzehn, also fünfzehn. Stimmt.
+
+Noch ein Beispiel aus der Geometrie: Ein Rechteck hat die Seiten x und x plus drei. Der Umfang ist x plus x plus drei plus x plus x plus drei, zusammengefasst vier x plus sechs.
+
+Fassen wir zusammen. Gleichartige Glieder zusammenfassen, Zahlen und verschiedene Variablen bleiben getrennt. Klammern ausmultiplizieren mit dem Distributivgesetz. Bei einer Minusklammer alle Vorzeichen umdrehen. Ausklammern ist der Rückweg. Und die Probe durch Einsetzen zeigt dir, ob alles stimmt.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

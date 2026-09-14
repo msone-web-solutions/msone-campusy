@@ -3,6 +3,7 @@ title: Terme vereinfachen
 intro: Gleichartige Glieder zusammenfassen, Klammern auflösen und ausklammern – damit Terme kürzer und übersichtlicher werden.
 curriculum_ref: "Terme mit Variablen umformen; Zusammenfassen von gleichartigen Summanden, Addieren und Subtrahieren von Summen, Ausmultiplizieren, Ausklammern"
 estimated_minutes: 30
+reflect: "Erkläre mit dem Äpfel-und-Birnen-Beispiel, welche Glieder man zusammenfassen darf und welche nicht."
 ---
 ## Erklärung
 
@@ -19,6 +20,14 @@ Glieder mit **derselben Variable** heißen **gleichartig**. Man addiert einfach 
 Aber: 3 Äpfel + 5 Birnen kann man nicht zusammenfassen. Genauso: **3x + 5y** bleibt 3x + 5y. Und **3x + 5** bleibt 3x + 5 (Zahl und Variable sind nicht gleichartig).
 
 Auch x und x² sind nicht gleichartig: 2x + x² bleibt so.
+
+::: check
+type: single_choice
+prompt: "Vereinfache: 6x − 2x"
+options: ["4x", "4", "8x"]
+answer: { index: 0 }
+explanation: "Gleichartige Glieder: 6 − 2 = 4 → 4x."
+:::
 
 ### Terme mit mehreren Gliedern ordnen
 
@@ -39,6 +48,14 @@ Das **Distributivgesetz** kennst du: a · (b + c) = a · b + a · c. Mit Variabl
 - −2 · (x + 6) = −2x − 12
 - −4 · (y − 1) = −4y + 4 (Minus mal Minus gibt Plus!)
 
+::: check
+type: single_choice
+prompt: "Multipliziere aus: 4 · (x − 3)"
+options: ["4x − 3", "4x − 12", "4x + 12"]
+answer: { index: 1 }
+explanation: "4 · x = 4x und 4 · (−3) = −12."
+:::
+
 ### Plus- und Minusklammern
 
 Steht nur ein **Plus** vor der Klammer, kann sie einfach weg:
@@ -48,6 +65,14 @@ Steht ein **Minus** vor der Klammer, drehen sich **alle Vorzeichen** in der Klam
 7 − (2x − 5) = 7 − 2x + 5 = **−2x + 12**
 
 Merke: Eine Minusklammer ist wie „mal (−1)“.
+
+::: check
+type: single_choice
+prompt: "Löse die Klammer auf: 9 − (2x + 1)"
+options: ["9 − 2x + 1", "9 − 2x − 1", "9 + 2x − 1"]
+answer: { index: 1 }
+explanation: "Minusklammer: alle Vorzeichen drehen: 9 − 2x − 1 = 8 − 2x."
+:::
 
 ### Ausklammern
 

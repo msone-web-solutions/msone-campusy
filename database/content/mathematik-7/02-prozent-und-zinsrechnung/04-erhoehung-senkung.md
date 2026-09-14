@@ -3,6 +3,7 @@ title: Erhöhung und Senkung – Rabatt, Mehrwertsteuer, Brutto und Netto
 intro: Preise steigen oder sinken um einen Prozentsatz. So rechnest du mit Rabatt, Skonto, Mehrwertsteuer und Lohn.
 curriculum_ref: "Prozentrechnung in Sachbezügen anwenden; Rabatt, Skonto, Brutto, Netto, Steigerung bzw. Senkung um bzw. auf"
 estimated_minutes: 30
+reflect: "Erkläre, warum man vom Bruttopreis nicht einfach 19 % abziehen darf, um den Nettopreis zu bekommen."
 ---
 ## Erklärung
 
@@ -25,6 +26,14 @@ Du zahlst 100 % − 25 % = 75 % → 80 € · 0,75 = **60 €**.
 
 Weg 2 ist kürzer und braucht nur eine Multiplikation. Der Faktor 0,75 heißt **Prozentfaktor** (oder Wachstumsfaktor).
 
+::: check
+type: numeric
+prompt: "Ein Buch kostet 20 €. Es gibt 30 % Rabatt. Was kostet es jetzt?"
+options: { unit: "€" }
+answer: { value: 14 }
+explanation: "20 · 0,7 = 14 € (oder 30 % von 20 = 6 €, 20 − 6 = 14 €)."
+:::
+
 ### Preiserhöhung
 
 **Beispiel:** Ein Kinoticket kostet 9 € und wird um 12 % teurer.
@@ -45,6 +54,14 @@ Achtung – ein beliebter Fehler: Vom Bruttopreis darf man **nicht** einfach 19 
 
 Beim Lohn ist es ähnlich: **Bruttolohn** ist das, was im Vertrag steht; **Nettolohn** ist das, was nach Abzug von Steuern und Versicherungen ausgezahlt wird.
 
+::: check
+type: numeric
+prompt: "Netto 100 €. Wie hoch ist der Bruttopreis mit 19 % Mehrwertsteuer?"
+options: { unit: "€" }
+answer: { value: 119 }
+explanation: "100 · 1,19 = 119 €."
+:::
+
 ### Skonto
 
 **Skonto** ist ein Rabatt, den man bekommt, wenn man eine Rechnung **schnell bezahlt** (z. B. „2 % Skonto bei Zahlung innerhalb von 10 Tagen“).
@@ -57,6 +74,14 @@ Rechnung 450 €, 2 % Skonto → 450 € · 0,98 = **441 €**.
 
 42 € sind 70 % des alten Preises. Alter Preis = 42 € : 0,7 = **60 €**.
 (Dreisatz: 70 % ≙ 42 €, 1 % ≙ 0,60 €, 100 % ≙ 60 €.)
+
+::: check
+type: numeric
+prompt: "Nach 20 % Rabatt kostet ein Spiel 32 €. Was hat es vorher gekostet?"
+options: { unit: "€" }
+answer: { value: 40 }
+explanation: "32 € sind 80 %. 32 : 0,8 = 40 €."
+:::
 
 ### Zwei Änderungen nacheinander
 

@@ -1,0 +1,29 @@
+Erhöhung und Senkung: Rabatt, Mehrwertsteuer, Brutto und Netto.
+
+Hallo! Preise steigen oder sinken um einen bestimmten Prozentsatz. Heute lernst du, wie man das schnell ausrechnet, und du lernst Begriffe, die dir im Alltag ständig begegnen: Rabatt, Skonto, Mehrwertsteuer, Brutto und Netto.
+
+Zuerst ein kleiner Unterschied mit großer Wirkung: „um“ oder „auf“. Wird der Preis um zwanzig Prozent gesenkt, dann beträgt der Rabatt zwanzig Prozent, und du zahlst achtzig Prozent. Wird der Preis auf zwanzig Prozent gesenkt, dann zahlst du nur noch zwanzig Prozent. Das wäre ein Rabatt von achtzig Prozent. Lies also immer genau.
+
+Nun die Preissenkung. Eine Jacke kostet achtzig Euro, es gibt fünfundzwanzig Prozent Rabatt. Weg eins in zwei Schritten: Der Rabatt ist fünfundzwanzig Prozent von achtzig Euro, also zwanzig Euro. Der neue Preis ist achtzig minus zwanzig, also sechzig Euro.
+
+Weg zwei mit dem Prozentfaktor: Du zahlst hundert minus fünfundzwanzig, also fünfundsiebzig Prozent. Achtzig Euro mal null Komma sieben fünf ist sechzig Euro. Dieser Weg ist kürzer und braucht nur eine Multiplikation. Der Faktor null Komma sieben fünf heißt Prozentfaktor.
+
+Bei einer Preiserhöhung genauso. Ein Kinoticket kostet neun Euro und wird um zwölf Prozent teurer. Der neue Preis ist hundert plus zwölf, also hundertzwölf Prozent. Neun Euro mal eins Komma eins zwei ist zehn Euro acht.
+
+Jetzt zur Mehrwertsteuer. In Deutschland kommen auf fast alle Preise neunzehn Prozent Mehrwertsteuer dazu. Bei Lebensmitteln und Büchern sind es nur sieben Prozent. Netto ist der Preis ohne Steuer, das sind hundert Prozent. Brutto ist der Preis mit Steuer, das sind hundertneunzehn Prozent.
+
+Netto zweihundert Euro: Brutto ist zweihundert mal eins Komma eins neun, also zweihundertachtunddreißig Euro. Rückwärts: Brutto zweihundertachtunddreißig Euro, Netto ist zweihundertachtunddreißig geteilt durch eins Komma eins neun, also zweihundert Euro.
+
+Und jetzt ein sehr beliebter Fehler. Vom Bruttopreis darf man nicht einfach neunzehn Prozent abziehen! Zweihundertachtunddreißig minus neunzehn Prozent davon ergibt einhundertzweiundneunzig Euro achtundsiebzig, und das ist nicht zweihundert. Der Grundwert, also die hundert Prozent, ist der Nettopreis, nicht der Bruttopreis. Deshalb: durch eins Komma eins neun teilen.
+
+Beim Lohn ist es ähnlich: Der Bruttolohn steht im Vertrag, der Nettolohn wird ausgezahlt, nach Abzug von Steuern und Versicherungen.
+
+Skonto ist ein Rabatt, den man bekommt, wenn man eine Rechnung schnell bezahlt. Rechnung vierhundertfünfzig Euro, zwei Prozent Skonto: vierhundertfünfzig mal null Komma neun acht ist vierhunderteinundvierzig Euro.
+
+Manchmal musst du den ursprünglichen Preis zurückrechnen. Nach dreißig Prozent Rabatt kostet ein Spiel zweiundvierzig Euro. Was hat es vorher gekostet? Zweiundvierzig Euro sind siebzig Prozent des alten Preises. Zweiundvierzig geteilt durch null Komma sieben ist sechzig Euro.
+
+Zum Schluss ein Denkfehler, den viele machen. Ein Preis von hundert Euro wird erst um zehn Prozent erhöht und dann um zehn Prozent gesenkt. Ist er wieder bei hundert? Hundert mal eins Komma eins ist hundertzehn. Hundertzehn mal null Komma neun ist neunundneunzig Euro. Nein! Die zweite Änderung bezieht sich auf den neuen Grundwert, nicht auf den alten.
+
+Fassen wir zusammen. Senkung um p Prozent: mal eins minus p durch hundert. Erhöhung um p Prozent: mal eins plus p durch hundert. Brutto ist Netto mal eins Komma eins neun, Netto ist Brutto geteilt durch eins Komma eins neun. Und den alten Preis bekommst du, indem du den neuen Preis durch den Prozentfaktor teilst.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

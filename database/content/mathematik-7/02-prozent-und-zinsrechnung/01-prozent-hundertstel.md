@@ -3,6 +3,7 @@ title: Prozent heißt Hundertstel
 intro: Was „50 %“ wirklich bedeutet – und wie man zwischen Prozent, Bruch und Dezimalzahl hin- und herwechselt.
 curriculum_ref: "Grundbegriffe der Prozentrechnung am Beispiel erläutern; Prozentsätze in der Prozentschreibweise, als gemeiner Bruch und als Dezimalbruch angeben"
 estimated_minutes: 20
+reflect: "Erkläre, warum 25 %, 1/4 und 0,25 dasselbe bedeuten. Wie rechnet man von einer Schreibweise in die andere um?"
 ---
 ## Erklärung
 
@@ -28,6 +29,14 @@ Prozente sind praktisch, weil man damit **Anteile vergleichen** kann, auch wenn 
 
 100 % ist immer **das Ganze**. Mehr als 100 % geht auch: 150 % = 1,5 = das Anderthalbfache.
 
+::: check
+type: numeric
+prompt: "Wie viel Prozent sind 1/2? (nur die Zahl)"
+options: { unit: "%" }
+answer: { value: 50 }
+explanation: "1/2 = 50/100 = 50 %."
+:::
+
 ### Umwandeln
 
 **Prozent → Dezimalzahl:** durch 100 teilen (Komma zwei Stellen nach links).
@@ -42,6 +51,13 @@ Prozente sind praktisch, weil man damit **Anteile vergleichen** kann, auch wenn 
 **Prozent → Bruch:** als Hundertstel schreiben und kürzen.
 40 % = 40/100 = 2/5 · 5 % = 5/100 = 1/20
 
+::: check
+type: numeric
+prompt: "Schreibe 30 % als Dezimalzahl."
+answer: { value: 0.3 }
+explanation: "30 : 100 = 0,3."
+:::
+
 ### Prozente schätzen und darstellen
 
 Ein Prozentstreifen hilft beim Vorstellen: Ein Streifen von 0 % bis 100 % – die Hälfte ist 50 %, ein Viertel 25 %, ein Zehntel 10 %.
@@ -52,6 +68,14 @@ Ein Prozentstreifen hilft beim Vorstellen: Ein Streifen von 0 % bis 100 % – di
 █████████████████████████▌
           ≈ 55 %
 ```
+
+::: check
+type: numeric
+prompt: "Wie viel Prozent sind 3/5? (nur die Zahl)"
+options: { unit: "%" }
+answer: { value: 60 }
+explanation: "3/5 = 60/100 = 60 %."
+:::
 
 ### Beispiel: Anteile in Prozent
 

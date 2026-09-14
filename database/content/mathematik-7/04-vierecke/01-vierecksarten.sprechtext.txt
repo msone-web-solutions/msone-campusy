@@ -1,0 +1,31 @@
+Vierecksarten und das Haus der Vierecke.
+
+Hallo! Heute beginnt die Geometrie mit den Vierecken. Quadrat, Rechteck, Parallelogramm, Raute, Trapez und Drachen: Du lernst, wie man sie erkennt und wie sie zusammenhängen.
+
+Zuerst die Bezeichnungen. Ein Viereck hat vier Ecken, vier Seiten und vier Innenwinkel. Die Ecken heißen A, B, C, D. Man bezeichnet sie gegen den Uhrzeigersinn, und man beginnt links unten. Die Seiten heißen a, b, c, d: a liegt zwischen A und B, b zwischen B und C, c zwischen C und D, d zwischen D und A. Die Winkel heißen Alpha bei A, Beta bei B, Gamma bei C und Delta bei D. Die Verbindungslinien gegenüberliegender Ecken heißen Diagonalen: e von A nach C, f von B nach D.
+
+Jetzt die sechs besonderen Vierecke.
+
+Das Trapez: Mindestens ein Paar gegenüberliegender Seiten ist parallel. Diese parallelen Seiten heißen Grundseiten.
+
+Das Parallelogramm: Beide Paare gegenüberliegender Seiten sind parallel. Dann sind gegenüberliegende Seiten auch gleich lang, und gegenüberliegende Winkel sind gleich groß.
+
+Das Rechteck: ein Parallelogramm mit vier rechten Winkeln, also vier mal neunzig Grad.
+
+Die Raute, auch Rhombus genannt: ein Parallelogramm mit vier gleich langen Seiten.
+
+Das Quadrat: vier rechte Winkel und vier gleich lange Seiten. Es ist also Rechteck und Raute zugleich.
+
+Und das Drachenviereck, kurz Drachen: Zwei Paare benachbarter Seiten sind gleich lang, a gleich d und b gleich c. Es ist symmetrisch zu einer Diagonale.
+
+Diese Vierecksarten bauen aufeinander auf. Man stellt sich das wie ein Haus vor: das Haus der Vierecke. Ganz unten steht das allgemeine Viereck. Darüber Trapez und Drachen. Über dem Trapez das Parallelogramm. Darüber Rechteck und Raute. Und ganz oben, im Dach, das Quadrat. Je weiter oben, desto mehr Eigenschaften hat das Viereck.
+
+Was heißt das? Jedes Quadrat ist auch ein Rechteck, denn es hat vier rechte Winkel. Jedes Quadrat ist auch eine Raute, denn es hat vier gleiche Seiten. Und damit ist es auch ein Parallelogramm und ein Trapez. Aber umgekehrt gilt das nicht: Nicht jedes Rechteck ist ein Quadrat. Auch eine Raute ist ein Drachen, denn ihre Nachbarseiten sind paarweise gleich, sogar alle vier. Und damit ist auch jedes Quadrat ein Drachen.
+
+Ein paar Beispiele zum Erkennen. Vier gleich lange Seiten, aber keine rechten Winkel: eine Raute. Gegenüberliegende Seiten parallel und gleich lang, Winkel siebzig und hundertzehn Grad: ein Parallelogramm. Nur die Seiten a und c sind parallel: ein Trapez. a gleich d gleich drei Zentimeter, b gleich c gleich fünf Zentimeter, symmetrisch zur Diagonale: ein Drachen. Vier rechte Winkel, Seiten vier und sechs Zentimeter: ein Rechteck.
+
+Zum Zeichnen mit dem Geodreieck: Parallelen zeichnest du, indem du die Mittellinie des Geodreiecks auf die Seite legst und es verschiebst. Rechte Winkel mit der Null-Linie des Geodreiecks. Und die Ecken bezeichnest du gegen den Uhrzeigersinn.
+
+Fassen wir zusammen. Trapez: ein Paar paralleler Seiten. Parallelogramm: zwei Paare. Rechteck: vier rechte Winkel. Raute: vier gleiche Seiten. Quadrat: beides. Drachen: Nachbarseiten paarweise gleich. Und im Haus der Vierecke gilt: Jedes Quadrat ist auch Rechteck, Raute, Parallelogramm, Trapez und Drachen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

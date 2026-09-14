@@ -5,7 +5,11 @@
             @auth
                 <li><a href="{{ route('dashboard') }}" class="rq-navbar__link {{ request()->routeIs('dashboard') ? 'is-active' : '' }}" wire:navigate>Dashboard</a></li>
                 <li><a href="{{ route('learn.index') }}" class="rq-navbar__link {{ request()->routeIs('learn.*') ? 'is-active' : '' }}" wire:navigate>Fächer</a></li>
-                <li><a href="{{ route('learn.subject', 'mathematik') }}" class="rq-navbar__link {{ request()->is('lernen/mathematik*') ? 'is-active' : '' }}" wire:navigate>Mathematik</a></li>
+                @php $due = app(\App\Review\ReviewPlanner::class)->dueCountFor(auth()->user()); @endphp
+                <li><a href="{{ route('practice') }}" class="rq-navbar__link {{ request()->routeIs('practice') ? 'is-active' : '' }}" wire:navigate>Üben @if ($due > 0)<span class="rq-navbar__count">{{ $due }}</span>@endif</a></li>
+                @if (auth()->user()->isParent())
+                    <li><a href="{{ route('parent.dashboard') }}" class="rq-navbar__link {{ request()->routeIs('parent.*') ? 'is-active' : '' }}" wire:navigate>Eltern</a></li>
+                @endif
                 <li><a href="{{ route('profile.edit') }}" class="rq-navbar__link {{ request()->routeIs('profile.*', 'appearance.*', 'security.*') ? 'is-active' : '' }}" wire:navigate>Einstellungen</a></li>
             @else
                 <li><a href="{{ route('home') }}" class="rq-navbar__link {{ request()->routeIs('home') ? 'is-active' : '' }}" wire:navigate>Start</a></li>

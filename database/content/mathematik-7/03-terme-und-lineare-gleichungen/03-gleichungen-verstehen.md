@@ -3,6 +3,7 @@ title: Gleichungen verstehen – Waagemodell und Probe
 intro: Was eine Gleichung ist, was „lösen“ bedeutet und warum eine Gleichung wie eine Waage funktioniert.
 curriculum_ref: "Begriff „Gleichung“ am Beispiel erklären; Ergebnisse durch Einsetzen in die Ausgangsgleichung überprüfen; Lösbarkeit im Variablengrundbereich beurteilen; Gleichungen inhaltlich und durch Probieren lösen"
 estimated_minutes: 25
+reflect: "Erkläre das Waagemodell: Warum darf man auf beiden Seiten einer Gleichung dasselbe wegnehmen?"
 ---
 ## Erklärung
 
@@ -29,6 +30,13 @@ Viele Gleichungen kannst du im Kopf lösen, wenn du sie als Frage liest:
 - x − 4 = 10 → „Welche Zahl minus 4 ist 10?“ → **14**
 - x : 2 = 9 → „Welche Zahl geteilt durch 2 ist 9?“ → **18**
 - 20 − x = 8 → „20 minus welche Zahl ist 8?“ → **12**
+
+::: check
+type: numeric
+prompt: "Löse im Kopf: x + 6 = 15"
+answer: { value: 9 }
+explanation: "Welche Zahl plus 6 ergibt 15? → 9."
+:::
 
 ### Lösen durch Probieren
 
@@ -58,6 +66,13 @@ Nimm auf beiden Seiten 5 weg: links bleibt x, rechts bleibt 12 − 5 = 7. Also *
 
 Diese Idee ist das Herz aller Umformungsregeln: **Was du auf der einen Seite tust, musst du auf der anderen Seite auch tun.**
 
+::: check
+type: numeric
+prompt: "Auf der linken Waagschale liegen x und 3 kg, rechts 10 kg. Was wiegt x (in kg)?"
+answer: { value: 7 }
+explanation: "Auf beiden Seiten 3 kg wegnehmen: x = 7 kg."
+:::
+
 ### Die Probe – immer!
 
 Die **Probe** prüft, ob deine Lösung stimmt: Setze sie in die **ursprüngliche** Gleichung ein und rechne beide Seiten aus.
@@ -66,6 +81,13 @@ Gleichung: 2x + 3 = 15, Lösung x = 6
 Probe: linke Seite 2 · 6 + 3 = 15, rechte Seite 15. **15 = 15 ✓**
 
 Wenn beide Seiten verschieden sind, hast du dich verrechnet – dann nochmal von vorn.
+
+::: check
+type: true_false
+prompt: "x = 4 ist eine Lösung von 3x − 2 = 10."
+answer: { value: true }
+explanation: "Probe: 3 · 4 − 2 = 10 ✓"
+:::
 
 ### Nicht jede Gleichung hat eine Lösung
 

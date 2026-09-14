@@ -3,6 +3,7 @@ title: Netze und Schrägbilder
 intro: Einen Körper „aufklappen“ (Netz) und räumlich auf Papier zeichnen (Schrägbild mit 45° und halber Tiefe).
 curriculum_ref: "Prismen, Pyramiden, Kreiszylinder als Netz darstellen; Prismen und Pyramiden im Schrägbild mit α = 45° und q = 1/2 darstellen; Körperdarstellungen von einer Form in eine andere transformieren"
 estimated_minutes: 35
+reflect: "Erkläre die zwei Regeln für Schrägbilder (Winkel und Verkürzung) und warum verdeckte Kanten gestrichelt werden."
 ---
 ## Erklärung
 
@@ -49,6 +50,14 @@ Nicht jede Anordnung von 6 Quadraten ist ein Würfelnetz! Z. B. 6 Quadrate in ei
    ○
 ```
 
+::: check
+type: single_choice
+prompt: "Aus welchen Flächen besteht das Netz eines Zylinders?"
+options: ["2 Kreise + 1 Rechteck", "1 Kreis + 1 Dreieck", "6 Quadrate"]
+answer: { index: 0 }
+explanation: "Grund- und Deckkreis plus der abgerollte Mantel."
+:::
+
 ### Das Schrägbild: Räumlich zeichnen
 
 Ein Schrägbild zeigt den Körper so, dass er räumlich wirkt. Die Regeln (Kavalierprojektion):
@@ -80,6 +89,14 @@ Ein Schrägbild zeigt den Körper so, dass er räumlich wirkt. Die Regeln (Kaval
 **Dreiecksprisma (liegend):** Vorderes Dreieck in wahrer Größe, von jeder Ecke eine 45°-Kante mit halber Länge nach hinten, hinteres Dreieck verbinden.
 
 **Quadratische Pyramide:** Erst die Grundfläche als Schrägbild eines Quadrats (vorne wahre Kante, nach hinten 45° und halbiert – die Grundfläche sieht aus wie ein Parallelogramm). Diagonalen der Grundfläche einzeichnen, ihr Schnittpunkt ist der Fußpunkt. Von dort die Höhe **senkrecht nach oben** in wahrer Länge → Spitze. Spitze mit den vier Ecken verbinden, hintere Kanten stricheln.
+
+::: check
+type: numeric
+prompt: "Ein Quader ist 8 cm tief. Wie lang zeichnest du die Tiefenkante im Schrägbild (q = 1/2)?"
+options: { unit: "cm" }
+answer: { value: 4 }
+explanation: "Halbieren: 8 : 2 = 4 cm."
+:::
 
 ### Von einer Darstellung zur anderen
 

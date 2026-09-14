@@ -1,0 +1,35 @@
+Rechengesetze, Potenzen und Zahlenbereiche.
+
+Hallo! Heute schließen wir das Themenfeld ab. Es geht um drei Dinge: um die Rechengesetze und wie du damit geschickt rechnest, um Potenzen mit negativer Basis, und um die Zahlenbereiche.
+
+Zuerst die Rechengesetze. Die drei Gesetze, die du für natürliche Zahlen kennst, gelten auch für rationale Zahlen.
+
+Das Kommutativgesetz, auch Vertauschungsgesetz: Bei Addition und Multiplikation darf man die Reihenfolge tauschen. Minus drei plus sieben ist dasselbe wie sieben plus minus drei, nämlich vier.
+
+Das Assoziativgesetz, auch Verbindungsgesetz: Bei Addition und Multiplikation darf man beliebig Klammern setzen.
+
+Und das Distributivgesetz, das Verteilungsgesetz: Eine Zahl mal eine Summe ist dasselbe wie die Zahl mal jeden einzelnen Summanden. Minus vier mal die Klammer zehn plus zwei ist minus vier mal zehn plus minus vier mal zwei, also minus vierzig minus acht, also minus achtundvierzig.
+
+Achtung: Bei Subtraktion und Division darf man nicht tauschen. Fünf minus acht ist nicht dasselbe wie acht minus fünf.
+
+Mit diesen Gesetzen kannst du Rechenvorteile nutzen. Passende Zahlen zusammenfassen: Minus siebzehn plus fünfundzwanzig plus siebzehn minus fünf. Minus siebzehn und plus siebzehn heben sich auf, bleibt fünfundzwanzig minus fünf, also zwanzig. Oder Zehner bilden: Minus vier mal sieben mal minus fünfundzwanzig. Rechne zuerst minus vier mal minus fünfundzwanzig, das ist hundert. Hundert mal sieben ist siebenhundert.
+
+Jetzt zu den Vorrangregeln. Wenn mehrere Rechenarten vorkommen, gilt: Erstens Klammern, zweitens Potenzen, drittens Punktrechnung vor Strichrechnung, und sonst von links nach rechts.
+
+Minus drei plus vier mal minus zwei: Erst mal rechnen, vier mal minus zwei ist minus acht. Dann minus drei minus acht ist minus elf. Steht dagegen eine Klammer um minus drei plus vier, dann ergibt die Klammer eins, und eins mal minus zwei ist minus zwei.
+
+Nun zu den Potenzen. Eine Potenz ist eine abgekürzte Multiplikation. Zwei hoch vier ist zwei mal zwei mal zwei mal zwei, also sechzehn. Die Zwei heißt Basis, die Vier heißt Exponent.
+
+Mit negativer Basis gilt wieder: Minuszeichen zählen. Minus zwei hoch zwei ist minus zwei mal minus zwei, also vier. Gerader Exponent, positives Ergebnis. Minus zwei hoch drei ist minus zwei mal minus zwei mal minus zwei, also minus acht. Ungerader Exponent, negatives Ergebnis. Minus eins hoch hundert ist eins, minus eins hoch hundertundeins ist minus eins.
+
+Und jetzt der häufigste Fehler überhaupt. Vorsicht mit der Klammer! Steht minus drei in Klammern hoch zwei, dann wird die ganze Zahl minus drei quadriert: minus drei mal minus drei ist neun. Steht aber minus drei hoch zwei ohne Klammer, dann gehört das Minus nicht zur Basis. Es heißt: das Negative von drei hoch zwei, also minus neun. Mit Klammer neun, ohne Klammer minus neun.
+
+Zum Schluss die Zahlenbereiche. Du kennst jetzt mehrere Sorten von Zahlen, und sie bauen aufeinander auf.
+
+Die natürlichen Zahlen: null, eins, zwei, drei und so weiter. Ihr Zeichen ist ein N mit Doppelstrich. Die ganzen Zahlen: dazu kommen die negativen ganzen Zahlen, minus eins, minus zwei und so weiter. Ihr Zeichen ist ein Z mit Doppelstrich. Und die rationalen Zahlen: alle Zahlen, die man als Bruch schreiben kann, auch negative. Ihr Zeichen ist ein Q mit Doppelstrich.
+
+Jede natürliche Zahl ist auch eine ganze Zahl, und jede ganze Zahl ist auch eine rationale Zahl, denn sieben ist ja sieben Eintel. Man sagt: N ist Teilmenge von Z, und Z ist Teilmenge von Q. Minus fünf gehört zu Z und Q, aber nicht zu N. Null Komma sieben fünf gehört nur zu Q. Zwölf gehört zu allen dreien.
+
+Fassen wir zusammen. Die Rechengesetze gelten weiter und helfen beim geschickten Rechnen. Vorrang: Klammern, Potenzen, Punkt vor Strich. Bei Potenzen mit negativer Basis: gerader Exponent positiv, ungerader negativ, und aufpassen mit der Klammer. Und die Zahlenbereiche N, Z und Q stecken ineinander.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

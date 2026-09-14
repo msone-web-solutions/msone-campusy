@@ -3,6 +3,7 @@ title: Eigenschaften der Vierecke – Seiten, Winkel, Diagonalen, Symmetrie
 intro: Welches Viereck hat gleich lange Diagonalen? Welches hat Symmetrieachsen? Die Eigenschaften im Überblick.
 curriculum_ref: "Eigenschaften von speziellen Vierecken bezüglich ihrer Seiten, Diagonalen, Winkel und Symmetrie beschreiben; besondere Linien (Diagonalen, Symmetrieachsen, Mittellinien) einzeichnen"
 estimated_minutes: 25
+reflect: "Vergleiche Rechteck und Raute: Was haben ihre Diagonalen gemeinsam, was ist verschieden?"
 ---
 ## Erklärung
 
@@ -19,6 +20,14 @@ Jedes besondere Viereck hat typische Eigenschaften. Die musst du kennen, um Aufg
 | Trapez | ein Paar parallel (die Grundseiten) |
 | Drachen | **benachbarte** Seiten paarweise gleich (a = d, b = c) |
 
+::: check
+type: single_choice
+prompt: "Bei welchem Viereck sind alle vier Seiten gleich lang und die Diagonalen senkrecht, aber die Winkel nicht 90°?"
+options: ["Rechteck", "Raute", "Trapez"]
+answer: { index: 1 }
+explanation: "Das ist die Raute."
+:::
+
 ### Winkel
 
 | Viereck | Winkel |
@@ -30,6 +39,14 @@ Jedes besondere Viereck hat typische Eigenschaften. Die musst du kennen, um Aufg
 | Drachen | die beiden Winkel zwischen ungleichen Seiten sind gleich (β = δ) |
 
 **Beispiel:** In einem Parallelogramm ist α = 65°. Dann ist γ = 65° und β = δ = 180° − 65° = 115°.
+
+::: check
+type: numeric
+prompt: "In einem Parallelogramm ist α = 55°. Wie groß ist β?"
+options: { unit: "°" }
+answer: { value: 125 }
+explanation: "Benachbarte Winkel ergänzen sich zu 180°: 180 − 55 = 125°."
+:::
 
 ### Diagonalen
 
@@ -58,6 +75,13 @@ Das ist eine gute Merkhilfe für das Haus der Vierecke: Das Quadrat hat **alle**
 | Parallelogramm | **keine** |
 
 **Punktsymmetrie** – die Figur sieht nach Drehung um 180° gleich aus. Parallelogramm, Rechteck, Raute und Quadrat sind punktsymmetrisch zum Schnittpunkt der Diagonalen.
+
+::: check
+type: numeric
+prompt: "Wie viele Symmetrieachsen hat eine Raute?"
+answer: { value: 2 }
+explanation: "Die beiden Diagonalen."
+:::
 
 ### Besondere Linien einzeichnen
 

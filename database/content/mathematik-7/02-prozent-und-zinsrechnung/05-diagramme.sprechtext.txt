@@ -1,0 +1,27 @@
+Prozente in Diagrammen darstellen und auswerten.
+
+Hallo! Prozente sieht man überall in Diagrammen: bei Wahlergebnissen, Umfragen, Akkuanzeigen. Heute lernst du drei Diagrammarten kennen, wie du sie liest und wie du sie selbst zeichnest.
+
+Die erste Art ist das Säulendiagramm, manchmal auch Balkendiagramm. Jede Kategorie bekommt eine Säule, und die Höhe zeigt den Wert, zum Beispiel in Prozent. Es eignet sich gut zum Vergleichen von Kategorien. Beim Zeichnen beachtest du: Achsen beschriften, alle Säulen gleich breit, gleiche Abstände, und eine sinnvolle Skala, zum Beispiel in Zehnerschritten.
+
+Die zweite Art ist das Kreisdiagramm. Der ganze Kreis ist hundert Prozent, und das entspricht dreihundertsechzig Grad. Jeder Anteil wird zu einem Kreissektor, einem Tortenstück. Das Kreisdiagramm zeigt gut, wie sich ein Ganzes aufteilt.
+
+Zum Zeichnen musst du Prozent in Winkel umrechnen. Ein Prozent entspricht drei Komma sechs Grad, denn dreihundertsechzig geteilt durch hundert ist drei Komma sechs. Fünfzig Prozent sind hundertachtzig Grad. Fünfundzwanzig Prozent sind neunzig Grad. Zehn Prozent sind sechsunddreißig Grad.
+
+Ein Beispiel: Lieblingssport in der sieben a. Fußball zwanzig Prozent, das sind zwanzig mal drei Komma sechs, also zweiundsiebzig Grad. Schwimmen vierzig Prozent, das sind hundertvierundvierzig Grad. Reiten dreißig Prozent, hundertacht Grad. Tennis zehn Prozent, sechsunddreißig Grad. Kontrolle: zweiundsiebzig plus hundertvierundvierzig plus hundertacht plus sechsunddreißig ergibt dreihundertsechzig. Stimmt.
+
+So zeichnest du es: Kreis mit dem Zirkel, einen Radius als Startlinie, dann mit dem Geodreieck die Winkel nacheinander abtragen.
+
+Umgekehrt vom Winkel zu Prozent: den Winkel durch drei Komma sechs teilen. Ein Sektor mit vierundfünfzig Grad entspricht fünfzehn Prozent. Und wenn keine Prozente, sondern Anzahlen gegeben sind, rechnest du erst den Anteil aus. Sechs von vierundzwanzig Kindern ist ein Viertel, also fünfundzwanzig Prozent, also neunzig Grad.
+
+Die dritte Art ist das Liniendiagramm. Es zeigt, wie sich ein Wert über die Zeit verändert. Die Punkte werden mit Linien verbunden. Gut für Entwicklungen: die Temperatur im Tagesverlauf, der Akkustand, Preise über Jahre.
+
+Beim Auswerten stellst du Fragen an das Diagramm: Was ist die größte Kategorie, was die kleinste? Wie groß ist der Unterschied? Und wie viel ist das in absoluten Zahlen?
+
+Dabei musst du aufpassen. Wenn dreißig Prozent von fünfundzwanzig Kindern reiten, wären das sieben Komma fünf Kinder. Das kann nicht sein! Die Angaben im Diagramm sind gerundet. Bei kleinen Gruppen musst du das beachten.
+
+Und Vorsicht bei Tricks: Eine y-Achse, die nicht bei null beginnt, lässt kleine Unterschiede riesig aussehen. Dreidimensionale Torten verzerren die Anteile. Schau immer auf die Achsenbeschriftung.
+
+Fassen wir zusammen. Säulendiagramm zum Vergleichen, Kreisdiagramm für Anteile am Ganzen, Liniendiagramm für Veränderungen über die Zeit. Im Kreisdiagramm entspricht ein Prozent drei Komma sechs Grad. Und beim Lesen immer kritisch bleiben.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

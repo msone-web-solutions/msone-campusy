@@ -1,0 +1,23 @@
+Gleichungen verstehen: Waagemodell und Probe.
+
+Hallo! Heute geht es um Gleichungen. Du lernst, was eine Gleichung ist, was „lösen“ bedeutet, und warum eine Gleichung wie eine Waage funktioniert.
+
+Eine Gleichung besteht aus zwei Termen mit einem Gleichheitszeichen dazwischen. Zum Beispiel: x plus fünf gleich zwölf. Links steht der Term x plus fünf, rechts steht der Term zwölf. Die Gleichung behauptet: Beide Seiten haben denselben Wert.
+
+Ob das stimmt, hängt davon ab, was man für x einsetzt. Setzt du drei ein, dann ist drei plus fünf gleich acht, und das ist nicht zwölf. Die Gleichung ist falsch. Setzt du sieben ein, dann ist sieben plus fünf gleich zwölf. Die Gleichung ist wahr. Die Zahl, die die Gleichung wahr macht, heißt Lösung. Hier ist x gleich sieben die Lösung. Man schreibt die Lösungsmenge: L ist die Menge mit der Sieben.
+
+Viele Gleichungen kannst du im Kopf lösen, wenn du sie als Frage liest. x plus fünf gleich zwölf: Welche Zahl plus fünf ergibt zwölf? Sieben. Drei x gleich einundzwanzig: Drei mal welche Zahl ist einundzwanzig? Sieben. x minus vier gleich zehn: Welche Zahl minus vier ist zehn? Vierzehn. Zwanzig minus x gleich acht: Zwanzig minus welche Zahl ist acht? Zwölf.
+
+Wenn es nicht sofort klar ist, kannst du systematisch probieren. Zwei x plus drei gleich fünfzehn. Für x gleich fünf: zwei mal fünf plus drei ist dreizehn, zu klein. Für x gleich sechs: zwei mal sechs plus drei ist fünfzehn. Passt. Probieren geht bei einfachen Gleichungen, aber bei Brüchen oder großen Zahlen wird es mühsam. Deshalb lernst du im nächsten Thema ein sicheres Verfahren: das Umformen.
+
+Und dafür brauchst du das Waagemodell. Stell dir die Gleichung als Balkenwaage vor. Links liegen die Sachen der linken Seite, rechts die der rechten. Die Waage ist im Gleichgewicht. Bei x plus fünf gleich zwölf liegen links ein Päckchen x und ein Gewicht fünf, rechts ein Gewicht zwölf.
+
+Um herauszufinden, was x wiegt, nimmst du auf beiden Seiten dasselbe weg. Dann bleibt die Waage im Gleichgewicht. Nimm links und rechts fünf weg: Links bleibt x, rechts bleibt zwölf minus fünf, also sieben. Also ist x gleich sieben. Diese Idee ist das Herz aller Umformungsregeln: Was du auf der einen Seite tust, musst du auch auf der anderen Seite tun.
+
+Und jetzt etwas, das du dir für immer merken sollst: die Probe. Die Probe prüft, ob deine Lösung stimmt. Du setzt sie in die ursprüngliche Gleichung ein und rechnest beide Seiten aus. Gleichung zwei x plus drei gleich fünfzehn, Lösung x gleich sechs. Linke Seite: zwei mal sechs plus drei ist fünfzehn. Rechte Seite: fünfzehn. Fünfzehn gleich fünfzehn, die Probe stimmt. Wenn beide Seiten verschieden sind, hast du dich verrechnet, und dann geht es nochmal von vorn.
+
+Zum Schluss: Nicht jede Gleichung hat eine Lösung. Es kommt darauf an, welche Zahlen für x erlaubt sind, das ist der Grundbereich. x plus fünf gleich zwei ergibt x gleich minus drei. In den natürlichen Zahlen gibt es keine Lösung, die Lösungsmenge ist leer. In den rationalen Zahlen ist minus drei die Lösung. Und x plus eins gleich x plus zwei ist für keine Zahl wahr, die Lösungsmenge ist leer. Wenn nichts anderes gesagt ist, rechnen wir in den rationalen Zahlen.
+
+Fassen wir zusammen. Eine Gleichung besteht aus zwei Termen und einem Gleichheitszeichen. Die Lösung macht sie wahr. Lösen geht im Kopf, durch Probieren oder mit dem Waagemodell: auf beiden Seiten dasselbe tun. Und die Probe machst du immer.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

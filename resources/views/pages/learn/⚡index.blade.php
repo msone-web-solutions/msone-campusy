@@ -28,7 +28,7 @@ new #[Title('Lernen')] class extends Component
     {
         $topics = $subject->topicAreas->flatMap->topics;
         $total = $topics->count();
-        $passed = $topics->filter(fn ($topic) => $topic->progress->first()?->status === ProgressStatus::Passed)->count();
+        $passed = $topics->filter(fn ($topic) => $topic->progress->first()?->status->isPassed() ?? false)->count();
 
         return [
             'total' => $total,
