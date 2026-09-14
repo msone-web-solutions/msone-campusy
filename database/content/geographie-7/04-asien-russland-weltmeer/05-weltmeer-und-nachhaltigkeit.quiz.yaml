@@ -1,0 +1,50 @@
+- key: q1
+  type: numeric
+  prompt: "Wie viel Prozent der Erdoberfläche sind vom Weltmeer bedeckt?"
+  answer: { value: 71, tolerance: 1 }
+  options: { unit: "%" }
+  explanation: "Rund 71 % – der blaue Planet."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Ozean ist der größte?"
+  options: ["Atlantik", "Indischer Ozean", "Pazifik", "Arktischer Ozean"]
+  answer: { index: 2 }
+  explanation: "Der Pazifik ist so groß wie alle Landflächen zusammen."
+- key: q3
+  type: single_choice
+  prompt: "Die Ostsee ist ein …"
+  options: ["Randmeer", "Binnenmeer", "Ozean", "Kanal"]
+  answer: { index: 1 }
+  explanation: "Fast von Land umschlossen = Binnenmeer; die Nordsee ist ein Randmeer."
+- key: q4
+  type: single_choice
+  prompt: "Warum ist es in Norwegen milder als in Kanada auf gleicher Breite?"
+  options: ["Wegen der Berge", "Wegen des warmen Golfstroms / Nordatlantikstroms", "Wegen der Polarnacht", "Wegen des Humboldtstroms"]
+  answer: { index: 1 }
+  explanation: "Die warme Strömung heizt Westeuropa."
+- key: q5
+  type: gap_text
+  prompt: "Rund ___ % aller Waren im Welthandel reisen per Schiff. Der ___kanal verbindet Mittelmeer und Rotes Meer."
+  answer:
+    gaps:
+      - ["90"]
+      - ["Suez"]
+  explanation: "90 %; Suezkanal."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Gefahren bedrohen das Weltmeer?"
+  options: ["Überfischung", "Plastikmüll", "Versauerung durch CO₂", "Zu viele Schutzgebiete"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Schutzgebiete sind die Lösung, nicht das Problem."
+- key: q7
+  type: single_choice
+  prompt: "Was bedeutet Nachhaltigkeit?"
+  options: ["Möglichst viel Gewinn machen", "So wirtschaften, dass auch kommende Generationen gut leben können", "Nur die Natur schützen, egal was es kostet", "Nichts mehr kaufen"]
+  answer: { index: 1 }
+  explanation: "Gleichgewicht von Ökologie, Ökonomie und Sozialem."
+- key: q8
+  type: single_choice
+  prompt: "Der ökologische Fußabdruck eines Deutschen liegt bei etwa 4,5 gha, verfügbar sind 1,6 gha pro Mensch. Was folgt daraus?"
+  options: ["Deutschland lebt sparsam.", "Lebten alle so, bräuchten wir fast drei Erden.", "Deutschland hat zu viel Fläche.", "Nichts."]
+  answer: { index: 1 }
+  explanation: "4,5 : 1,6 ≈ 2,8 Erden."
