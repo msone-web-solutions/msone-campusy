@@ -10,7 +10,7 @@
         @auth
             @unless ($isParent)
                 <form class="rq-navbar__search" action="{{ route('learn.index') }}" method="get" role="search">
-                    <input type="search" name="q" placeholder="Thema suchen" aria-label="Thema suchen">
+                    <input type="search" name="q" value="{{ request()->routeIs('learn.index') ? request('q') : '' }}" placeholder="Thema suchen" aria-label="Thema suchen">
                     <button type="submit" aria-label="Suchen"><i class="bx bx-search"></i></button>
                 </form>
             @endunless

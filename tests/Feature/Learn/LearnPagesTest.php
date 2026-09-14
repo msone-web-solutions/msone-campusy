@@ -72,3 +72,28 @@ it('shows an audio player only when a narration file exists', function () {
     $other = Topic::factory()->for($this->area)->create(['slug' => 'ohne-audio', 'sort' => 2]);
     $this->get(route('learn.topic', [$this->subject, $this->area, $other]))->assertDontSee('Erklärung anhören');
 });
+
+it('searches topics by title, notebook entry, area and subject', function () {
+    $this->topic->update(['title' => 'Negative Zahlen', 'notebook_entry' => '**Zahlengerade** links von der Null']);
+    Topic::factory()->for($this->area)->create(['slug' => 'brueche', 'title' => 'Brüche', 'notebook_entry' => 'Zähler und Nenner']);
+
+    Livewire::actingAs($this->user)->test('pages::learn.index', ['q' => 'zahlengerade'])
+        ->assertSee('Negative Zahlen')
+        ->assertDontSee('Brüche')
+        ->assertSee('1 Treffer');
+
+    Livewire::actingAs($this->user)->test('pages::learn.index', ['q' => 'mathematik nenner'])
+        ->assertSee('Brüche')
+        ->assertDontSee('Negative Zahlen');
+
+    Livewire::actingAs($this->user)->test('pages::learn.index', ['q' => 'gibtesnicht'])
+        ->assertSee('Nichts gefunden')
+        ->call('clear')
+        ->assertSet('q', '')
+        ->assertSee('Mathematik – Klasse');
+
+    $this->area->update(['name' => 'Rationale Zahlen']);
+    $this->actingAs($this->user)->get(route('learn.index', ['q' => 'Rationale']))
+        ->assertOk()
+        ->assertSee('Negative Zahlen');
+});

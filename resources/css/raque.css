@@ -557,14 +557,28 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 .rq-audio__player { display: block; width: 100%; margin-top: 12px; height: 40px; accent-color: var(--genius-blue); }
 @media (max-width: 767px) { .rq-audio { flex-direction: column; } }
 
+/* ---- Suche auf /lernen ------------------------------------------- */
+.rq-search { position: relative; margin-bottom: 30px; }
+.rq-search__icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--text-muted); pointer-events: none; }
+.rq-search input { display: block; width: 100%; height: 54px; padding: 0 54px 0 50px; font-family: var(--font-sans); font-size: 16px; color: var(--text-heading); background: var(--genius-white); border: 1px solid var(--border-hairline); border-radius: var(--radius-md); outline: none; -webkit-appearance: none; appearance: none; }
+.rq-search input:focus { border-color: var(--color-primary); outline: 2px solid var(--color-primary); outline-offset: 0; }
+.rq-search input::-webkit-search-cancel-button { display: none; }
+.rq-search__clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 38px; height: 38px; border: 0; padding: 0; font-size: 22px; border-radius: var(--radius); color: var(--text-muted); background: transparent; cursor: pointer; }
+.rq-search__clear:hover { color: var(--text-heading); background: var(--genius-field-search); }
+.rq-search__results.is-loading { opacity: .5; }
+.rq-link { background: none; border: 0; padding: 0; font: inherit; font-size: 14px; font-weight: var(--fw-medium); color: var(--color-primary); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
+.rq-link:hover { text-decoration: underline; }
+
 /* ---- responsive -------------------------------------------------- */
 @media (max-width: 991px) {
     .rq-hero { grid-template-columns: 1fr; }
     .rq-hero h1 { font-size: 50px; line-height: 60px; }
     .rq-grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .rq-grid--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .rq-navbar__search { display: none; }
-    .rq-navbar__inner { gap: 15px; }
+    .rq-navbar__search { order: 4; width: 100%; }
+    .rq-navbar__nav { order: 3; width: 100%; margin-left: 0; }
+    .rq-navbar__actions { margin-left: auto; }
+    .rq-navbar__inner { gap: 15px; flex-wrap: wrap; }
     .rq-panel, .rq-notebook { padding: 20px; }
     .rq-shell__left > div { position: static; }
     .rq-section { padding: 60px 0; }
