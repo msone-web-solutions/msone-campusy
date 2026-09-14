@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was gehört zum UK, aber nicht zu Great Britain?"
+  options: ["Wales", "Scotland", "Northern Ireland", "Republic of Ireland"]
+  answer: { index: 2 }
+  explanation: "UK = Great Britain + Northern Ireland."
+- key: q2
+  type: gap_text
+  prompt: "Hauptstädte: England – ___, Northern Ireland – ___"
+  answer:
+    gaps:
+      - ["London"]
+      - ["Belfast"]
+  explanation: "London und Belfast."
+- key: q3
+  type: single_choice
+  prompt: "Welches Symbol gehört zu Schottland?"
+  options: ["rose", "thistle", "daffodil", "shamrock"]
+  answer: { index: 1 }
+  explanation: "Die Distel (thistle) ist Schottlands Symbol."
+- key: q4
+  type: single_choice
+  prompt: "Wie heißt der Fluss, an dem London liegt?"
+  options: ["the Severn", "the Thames", "the Clyde", "the Avon"]
+  answer: { index: 1 }
+  explanation: "London liegt an der Themse (the Thames)."
+- key: q5
+  type: true_false
+  prompt: "Die Republik Irland gehört zum Vereinigten Königreich."
+  answer: { value: false }
+  explanation: "Die Republik Irland ist ein eigener Staat; nur Nordirland gehört zum UK."
+- key: q6
+  type: single_choice
+  prompt: "Wo liegen die Highlands?"
+  options: ["In Wales", "In Schottland", "In Nordirland", "In Südengland"]
+  answer: { index: 1 }
+  explanation: "Die Highlands mit dem Ben Nevis liegen in Schottland."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Aussagen über das UK sind richtig?"
+  options: ["Es ist eine parlamentarische Monarchie.", "Die Währung ist der Euro.", "Es wird links gefahren.", "Seit 2020 ist es nicht mehr in der EU."]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Die Währung ist das Pfund (Pound Sterling)."
+- key: q8
+  type: single_choice
+  prompt: "Was ist der Union Jack?"
+  options: ["Der König", "Die Flagge des UK", "Die U-Bahn in London", "Ein Berg in Wales"]
+  answer: { index: 1 }
+  explanation: "Der Union Jack kombiniert die Kreuze von England, Schottland und Irland."

@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wo entstanden vor 5000 Jahren die ersten Städte und die Schrift?"
+  options: ["In der Sahara", "Im Zweistromland zwischen Euphrat und Tigris", "In Dubai", "Auf der Arabischen Halbinsel"]
+  answer: { index: 1 }
+  explanation: "Mesopotamien, das heutige Irak."
+- key: q2
+  type: multiple_choice
+  prompt: "Was prägt den Alltag im islamischen Orient?"
+  options: ["Fastenmonat Ramadan", "Freitag als Feiertag", "Schweinefleisch als Nationalgericht", "Moschee mit Minarett"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Schweinefleisch ist im Islam verboten."
+- key: q3
+  type: single_choice
+  prompt: "Wie heißt das Handelszentrum der orientalischen Stadt?"
+  options: ["Mall", "Basar (Suq)", "Forum", "Agora"]
+  answer: { index: 1 }
+  explanation: "Der Basar (Suq) liegt meist bei der großen Moschee."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Anteil der weltweiten Erdölreserven liegt etwa im Orient?"
+  options: ["Etwa 10 %", "Etwa 25 %", "Etwa die Hälfte", "Fast alles"]
+  answer: { index: 2 }
+  explanation: "Rund die Hälfte – Saudi-Arabien, Irak, Iran, Kuwait, VAE."
+- key: q5
+  type: gap_text
+  prompt: "Am Nil streiten ___ (Staudamm) und Ägypten um das Wasser. Die Kurden leben in vier Staaten ohne eigenen – eine Folge der ___grenzen."
+  answer:
+    gaps:
+      - ["Äthiopien"]
+      - ["Kolonial"]
+  explanation: "Äthiopien; Kolonialgrenzen mit dem Lineal gezogen."
+- key: q6
+  type: true_false
+  prompt: "Alle Staaten des Orients sind durch Erdöl reich geworden."
+  answer: { value: false }
+  explanation: "Länder ohne Öl wie Jemen oder Jordanien sind arm; der Reichtum ist ungleich verteilt."
+- key: q7
+  type: single_choice
+  prompt: "Welche beiden Richtungen des Islam stehen oft im Konflikt?"
+  options: ["Katholiken und Protestanten", "Sunniten und Schiiten", "Juden und Christen", "Buddhisten und Hindus"]
+  answer: { index: 1 }
+  explanation: "Sunniten (z. B. Saudi-Arabien) und Schiiten (z. B. Iran)."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet interkulturelle Kompetenz beim Blick auf den Orient?"
+  options: ["Fremde Lebensweisen als falsch bewerten", "Die eigene Lebensweise als eine von vielen sehen und vergleichen", "Nur die eigene Kultur gelten lassen", "Unterschiede ignorieren"]
+  answer: { index: 1 }
+  explanation: "Vergleichen statt verurteilen."

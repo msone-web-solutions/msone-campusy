@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie entsteht ein Erdbeben?"
+  options: ["Durch starken Wind", "Durch Spannung an verhakten Plattenrändern, die sich ruckartig löst", "Durch Regen", "Durch die Anziehung der Sonne"]
+  answer: { index: 1 }
+  explanation: "Das Gestein bricht, die Energie läuft als Wellen durch die Erde."
+- key: q2
+  type: gap_text
+  prompt: "Der Erdbebenherd in der Tiefe heißt ___, das Messgerät ___."
+  answer:
+    gaps:
+      - ["Hypozentrum"]
+      - ["Seismograph"]
+  explanation: "Hypozentrum; Seismograph."
+- key: q3
+  type: single_choice
+  prompt: "Um wie viel steigt die Energie pro Stufe der Magnitudenskala etwa?"
+  options: ["Verdoppelt sich", "Etwa 30-fach", "Etwa 10-fach", "Bleibt gleich"]
+  answer: { index: 1 }
+  explanation: "Jede Stufe bedeutet etwa die 30-fache Energie."
+- key: q4
+  type: single_choice
+  prompt: "Wie schnell rast ein Tsunami über den offenen Ozean?"
+  options: ["Etwa 8 km/h", "Etwa 80 km/h", "Bis zu 800 km/h", "Über 8000 km/h"]
+  answer: { index: 2 }
+  explanation: "Flugzeuggeschwindigkeit – dabei nur etwa 1 m hoch."
+- key: q5
+  type: single_choice
+  prompt: "Das Meer zieht sich plötzlich weit zurück. Was tust du?"
+  options: ["Muscheln sammeln", "Fotos machen", "Sofort weg vom Strand auf eine Anhöhe", "Ins Wasser gehen"]
+  answer: { index: 2 }
+  explanation: "Das ist das Warnzeichen für einen Tsunami."
+- key: q6
+  type: single_choice
+  prompt: "Warum starben in Haiti 2010 bei einem schwächeren Beben viel mehr Menschen als in Chile 2010?"
+  options: ["Haiti liegt näher am Äquator", "In Chile wird erdbebensicher gebaut, in Haiti nicht", "In Chile gab es kein Beben", "Haiti hat mehr Einwohner"]
+  answer: { index: 1 }
+  explanation: "Bauweise und Vorbereitung entscheiden über die Opferzahl."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Naturgefahren sind in Deutschland bedeutend?"
+  options: ["Hochwasser", "Tsunamis", "Stürme", "Hitze und Dürre"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Tsunamis gibt es an deutschen Küsten praktisch nicht."
+- key: q8
+  type: single_choice
+  prompt: "Was sind KATWARN und NINA?"
+  options: ["Erdbebenskalen", "Warn-Apps, die bei Gefahren wie Unwetter oder Hochwasser alarmieren", "Tsunami-Bojen", "Fernsehsender"]
+  answer: { index: 1 }
+  explanation: "Digitale Warnsysteme in Deutschland – ergänzt durch Cell Broadcast und Sirenen."

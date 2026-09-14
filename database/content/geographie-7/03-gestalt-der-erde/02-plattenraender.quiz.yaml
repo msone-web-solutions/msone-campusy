@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was entsteht, wo zwei Platten auseinanderdriften?"
+  options: ["Ein Tiefseegraben", "Ein mittelozeanischer Rücken", "Ein Faltengebirge", "Eine Verwerfung"]
+  answer: { index: 1 }
+  explanation: "Aufsteigendes Magma bildet neue Kruste – z. B. der Mittelatlantische Rücken."
+- key: q2
+  type: single_choice
+  prompt: "Warum taucht bei der Subduktion die ozeanische Platte ab?"
+  options: ["Weil sie älter ist", "Weil sie schwerer ist als die kontinentale", "Weil sie kälter ist", "Weil sie größer ist"]
+  answer: { index: 1 }
+  explanation: "Ozeanische Kruste (Basalt) ist dichter und schwerer als kontinentale (Granit)."
+- key: q3
+  type: gap_text
+  prompt: "Die Anden entstanden durch ___ der Nazca-Platte unter Südamerika. Am tiefsten Punkt der Ozeane liegt der ___graben (11 000 m)."
+  answer:
+    gaps:
+      - ["Subduktion", "Abtauchen"]
+      - ["Marianen"]
+  explanation: "Subduktion; Marianengraben."
+- key: q4
+  type: single_choice
+  prompt: "Warum gibt es im Himalaya kaum Vulkane?"
+  options: ["Weil es dort zu kalt ist", "Weil zwei Kontinente kollidieren und keine Platte abtaucht und schmilzt", "Weil der Himalaya zu hoch ist", "Weil es dort keine Erdbeben gibt"]
+  answer: { index: 1 }
+  explanation: "Ohne Subduktion entsteht kein Magma – nur Auffaltung."
+- key: q5
+  type: single_choice
+  prompt: "Was passiert an der San-Andreas-Verwerfung?"
+  options: ["Platten driften auseinander", "Eine Platte taucht ab", "Platten gleiten seitlich aneinander vorbei – Erdbeben", "Ein Vulkan bricht aus"]
+  answer: { index: 2 }
+  explanation: "Konservative Plattengrenze in Kalifornien."
+- key: q6
+  type: multiple_choice
+  prompt: "Was liegt am Pazifischen Feuerring?"
+  options: ["Die meisten aktiven Vulkane", "Viele Subduktionszonen", "Der Mittelatlantische Rücken", "Japan"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Der Mittelatlantische Rücken liegt im Atlantik."
+- key: q7
+  type: true_false
+  prompt: "Island liegt auf dem Mittelatlantischen Rücken und wird jedes Jahr breiter."
+  answer: { value: true }
+  explanation: "Etwa 2 cm pro Jahr – mit Vulkanen und heißen Quellen."
+- key: q8
+  type: single_choice
+  prompt: "Worauf achtest du zuerst, wenn du eine Profilskizze auswertest?"
+  options: ["Auf die Farben", "Auf die Pfeile, die die Bewegungsrichtung der Platten zeigen", "Auf die Überschrift", "Auf den Maßstab"]
+  answer: { index: 1 }
+  explanation: "Die Bewegungsrichtung entscheidet über den Typ der Plattengrenze."

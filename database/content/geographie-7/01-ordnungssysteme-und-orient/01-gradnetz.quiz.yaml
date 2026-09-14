@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie verlaufen Breitenkreise?"
+  options: ["Von Pol zu Pol", "Parallel zum Äquator", "Durch Greenwich", "Kreuz und quer"]
+  answer: { index: 1 }
+  explanation: "Breitenkreise = Parallelkreise, parallel zum Äquator."
+- key: q2
+  type: single_choice
+  prompt: "Durch welchen Ort verläuft der Nullmeridian?"
+  options: ["Paris", "Greenwich", "Berlin", "New York"]
+  answer: { index: 1 }
+  explanation: "Greenwich bei London, festgelegt 1884."
+- key: q3
+  type: numeric
+  prompt: "Auf wie viel Grad liegt der Nordpol?"
+  answer: { value: 90 }
+  options: { unit: "° N" }
+  explanation: "Die Pole liegen bei 90° N bzw. 90° S."
+- key: q4
+  type: gap_text
+  prompt: "Ortsangabe von Halle: 51° ___, 12° ___ (N/S und O/W)"
+  answer:
+    gaps:
+      - ["N"]
+      - ["O", "E"]
+  explanation: "51° nördlicher Breite, 12° östlicher Länge."
+- key: q5
+  type: true_false
+  prompt: "Alle Längenkreise sind gleich lang."
+  answer: { value: true }
+  explanation: "Meridiane laufen von Pol zu Pol und sind alle gleich lang; Breitenkreise werden zu den Polen kleiner."
+- key: q6
+  type: single_choice
+  prompt: "Zwischen welchen Breitenkreisen liegen die Tropen?"
+  options: ["Zwischen den Polarkreisen", "Zwischen den Wendekreisen (23,5° N und 23,5° S)", "Zwischen Äquator und Nordpol", "Zwischen 0° und 180°"]
+  answer: { index: 1 }
+  explanation: "Die Tropen liegen zwischen nördlichem und südlichem Wendekreis."
+- key: q7
+  type: single_choice
+  prompt: "Sydney liegt bei 34° S, 151° O. Was bedeutet das?"
+  options: ["Nordhalbkugel, westlich von Greenwich", "Südhalbkugel, östlich von Greenwich", "Nordhalbkugel, östlich von Greenwich", "Südhalbkugel, westlich von Greenwich"]
+  answer: { index: 1 }
+  explanation: "S = südlich des Äquators, O = östlich von Greenwich."
+- key: q8
+  type: numeric
+  prompt: "Wie viele Kilometer entspricht ungefähr ein Breitengrad?"
+  answer: { value: 111, tolerance: 5 }
+  options: { unit: "km" }
+  explanation: "40 000 km : 360° ≈ 111 km."

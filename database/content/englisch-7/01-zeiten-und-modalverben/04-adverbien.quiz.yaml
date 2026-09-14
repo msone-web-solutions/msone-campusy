@@ -1,0 +1,52 @@
+- key: q1
+  type: single_choice
+  prompt: "Adjektiv oder Adverb? „She sings ___.“"
+  options: ["beautiful", "beautifully", "beauty", "beautifuly"]
+  answer: { index: 1 }
+  explanation: "Wie singt sie? → Adverb: beautifully."
+- key: q2
+  type: gap_text
+  prompt: "Bilde das Adverb: happy → ___, good → ___, fast → ___"
+  answer:
+    gaps:
+      - ["happily"]
+      - ["well"]
+      - ["fast"]
+  explanation: "-y → -ily; good → well (Ausnahme); fast bleibt fast."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Satz ist richtig?"
+  options: ["The soup tastes well.", "The soup tastes good.", "The soup tastes goodly.", "The soup taste good."]
+  answer: { index: 1 }
+  explanation: "Nach taste steht das Adjektiv: good."
+- key: q4
+  type: single_choice
+  prompt: "„I could hardly hear you.“ – Was bedeutet „hardly“?"
+  options: ["hart", "schwer", "kaum", "laut"]
+  answer: { index: 2 }
+  explanation: "hardly = kaum. „hart arbeiten“ wäre work hard."
+- key: q5
+  type: single_choice
+  prompt: "Wo steht das Adverb richtig?"
+  options: ["She speaks fluently English.", "She fluently speaks English.", "She speaks English fluently.", "Fluently she speaks English."]
+  answer: { index: 2 }
+  explanation: "Adverb der Art und Weise nach dem Objekt: speaks English fluently."
+- key: q6
+  type: true_false
+  prompt: "„friendly“ ist ein Adverb, weil es auf -ly endet."
+  answer: { value: false }
+  explanation: "friendly, lovely, silly sind Adjektive. Adverb-Umschreibung: in a friendly way."
+- key: q7
+  type: gap_text
+  prompt: "I ___ (often) go swimming. – He ___ (always) late. (Setze always/often an die richtige Stelle mit dem Verb: „often go“ / „is always“)"
+  answer:
+    gaps:
+      - ["often go"]
+      - ["is always"]
+  explanation: "Häufigkeitsadverb vor dem Vollverb (often go), aber nach be (is always)."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Adverbien sind richtig gebildet?"
+  options: ["quickly", "terribly", "automaticly", "easyly", "fully"]
+  answer: { indexes: [0, 1, 4] }
+  explanation: "automatic → automatically, easy → easily."

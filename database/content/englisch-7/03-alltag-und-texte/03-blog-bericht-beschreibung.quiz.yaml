@@ -1,0 +1,51 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie beginnt ein Blogeintrag typischerweise?"
+  options: ["On Friday, 12 May, the class visited …", "Hi everyone! Guess what happened …", "Dear Sir or Madam,", "The picture shows …"]
+  answer: { index: 1 }
+  explanation: "Persönliche Anrede an die Leser."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Merkmale hat ein Bericht (report)?"
+  options: ["sachlich", "beantwortet W-Fragen", "viele Gefühle und Meinungen", "oft Passiv", "Frage an die Leser am Ende"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Sachlich, W-Fragen, Passiv; Gefühle und Leserfragen gehören zum Blog."
+- key: q3
+  type: gap_text
+  prompt: "Ortsangaben in einer Beschreibung: „In the ___ (Hintergrund) you can see mountains. On the ___ (links) there is a house.“"
+  answer:
+    gaps:
+      - ["background"]
+      - ["left"]
+  explanation: "in the background, on the left."
+- key: q4
+  type: single_choice
+  prompt: "Welches Verbindungswort drückt einen Gegensatz aus?"
+  options: ["because", "however", "finally", "also"]
+  answer: { index: 1 }
+  explanation: "however = jedoch."
+- key: q5
+  type: single_choice
+  prompt: "Welche Zeitform ist typisch für eine Beschreibung?"
+  options: ["simple past", "present perfect", "simple present", "will-future"]
+  answer: { index: 2 }
+  explanation: "She has got …, There is … – simple present."
+- key: q6
+  type: true_false
+  prompt: "In einem Bericht schreibt man „I think the trip was great“."
+  answer: { value: false }
+  explanation: "Ein Bericht ist sachlich – keine persönliche Meinung."
+- key: q7
+  type: gap_text
+  prompt: "Die W-Fragen eines Berichts: who, what, ___, where, ___, how"
+  answer:
+    gaps:
+      - ["when"]
+      - ["why"]
+  explanation: "who, what, when, where, why, how."
+- key: q8
+  type: single_choice
+  prompt: "Was gehört zum Korrekturlesen?"
+  options: ["Den Text löschen und neu anfangen", "Zeitformen, 3. Person -s, Rechtschreibung und Absätze prüfen", "Nur die Überschrift prüfen", "Den Text länger machen"]
+  answer: { index: 1 }
+  explanation: "Die Checkliste: Zeitformen, -s, Rechtschreibung, Großschreibung, Absätze, Ton."

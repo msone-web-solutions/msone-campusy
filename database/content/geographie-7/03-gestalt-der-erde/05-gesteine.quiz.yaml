@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Zu welcher Gesteinsfamilie gehört Basalt?"
+  options: ["Sedimentgestein", "Magmatisches Gestein (Vulkangestein)", "Metamorphes Gestein", "Keine davon"]
+  answer: { index: 1 }
+  explanation: "Basalt ist an der Oberfläche schnell erstarrte Lava."
+- key: q2
+  type: single_choice
+  prompt: "Woran erkennst du Sandstein am Handstück?"
+  options: ["Große glitzernde Kristalle", "Schwarze, glatte Oberfläche", "Sichtbare Sandkörner, raue Oberfläche, oft Schichten", "Weiße Marmorstreifen"]
+  answer: { index: 2 }
+  explanation: "Sandstein besteht aus verkitteten Sandkörnern."
+- key: q3
+  type: gap_text
+  prompt: "Granit besteht aus Quarz, ___ und Glimmer. Aus Kalk wird durch Druck und Hitze ___."
+  answer:
+    gaps:
+      - ["Feldspat"]
+      - ["Marmor"]
+  explanation: "Quarz, Feldspat, Glimmer; Marmor."
+- key: q4
+  type: single_choice
+  prompt: "Warum ist Basalt feinkörnig?"
+  options: ["Weil er in der Tiefe langsam abkühlte", "Weil er an der Oberfläche schnell erstarrte", "Weil er aus feinem Sand entstand", "Weil er sehr alt ist"]
+  answer: { index: 1 }
+  explanation: "Schnelle Abkühlung lässt keine großen Kristalle wachsen."
+- key: q5
+  type: single_choice
+  prompt: "In welchem Gestein findet man Fossilien?"
+  options: ["Granit", "Basalt", "Sandstein und andere Sedimentgesteine", "Gneis"]
+  answer: { index: 2 }
+  explanation: "Nur Ablagerungsgesteine schließen Reste von Lebewesen ein."
+- key: q6
+  type: multiple_choice
+  prompt: "Wofür wird Granit verwendet?"
+  options: ["Bordsteine", "Treppen", "Gleisschotter", "Fassaden und Küchenplatten"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Gleisschotter ist meist Basalt."
+- key: q7
+  type: single_choice
+  prompt: "Ein Handstück zischt, wenn man Salzsäure darauf tropft. Was steckt drin?"
+  options: ["Quarz", "Kalk", "Eisen", "Sand"]
+  answer: { index: 1 }
+  explanation: "Kalk reagiert mit Säure – Kalkstein oder Marmor."
+- key: q8
+  type: true_false
+  prompt: "Alte Sandsteinfiguren verwittern schneller als Granit."
+  answer: { value: true }
+  explanation: "Sandstein ist weich und wasserdurchlässig; Granit ist hart und frostfest."

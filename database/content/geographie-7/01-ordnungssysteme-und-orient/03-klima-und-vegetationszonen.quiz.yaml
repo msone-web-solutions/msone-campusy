@@ -1,0 +1,52 @@
+- key: q1
+  type: single_choice
+  prompt: "Warum ist es am Äquator heißer als an den Polen?"
+  options: ["Der Äquator ist näher an der Sonne.", "Die Sonnenstrahlen treffen dort steil auf, an den Polen flach.", "Am Äquator gibt es keine Wolken.", "Die Pole sind höher gelegen."]
+  answer: { index: 1 }
+  explanation: "Der Einstrahlungswinkel entscheidet: senkrecht = viel Energie pro Fläche."
+- key: q2
+  type: gap_text
+  prompt: "Die Tropen liegen zwischen den beiden ___ bei 23,5°. Die großen Wüsten liegen in der ___ (Klimazone)."
+  answer:
+    gaps:
+      - ["Wendekreisen"]
+      - ["Subtropen", "Passatklimazone"]
+  explanation: "Wendekreise; Subtropen / Passatklimazone."
+- key: q3
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Klima und Wetter?"
+  options: ["Kein Unterschied", "Klima = Durchschnitt über mindestens 30 Jahre, Wetter = aktueller Zustand", "Klima ist nur die Temperatur", "Wetter gibt es nur in Deutschland"]
+  answer: { index: 1 }
+  explanation: "Klima ist das langjährige Mittel."
+- key: q4
+  type: single_choice
+  prompt: "Welche Vegetation ist typisch für die subpolare Zone?"
+  options: ["Tropischer Regenwald", "Tundra", "Savanne", "Laub- und Mischwald"]
+  answer: { index: 1 }
+  explanation: "Tundra: Moose, Flechten, Zwergsträucher."
+- key: q5
+  type: single_choice
+  prompt: "Im Klimadiagramm liegt die Niederschlagssäule unter der Temperaturlinie. Der Monat ist …"
+  options: ["humid (feucht)", "arid (trocken)", "polar", "wechselfeucht"]
+  answer: { index: 1 }
+  explanation: "Säule unter der Linie = arid: die Verdunstung übersteigt den Niederschlag."
+- key: q6
+  type: single_choice
+  prompt: "Ein Klimadiagramm zeigt den kältesten Monat im Juli. Wo liegt der Ort?"
+  options: ["Nordhalbkugel", "Südhalbkugel", "Am Äquator", "Am Nordpol"]
+  answer: { index: 1 }
+  explanation: "Auf der Südhalbkugel sind die Jahreszeiten umgekehrt."
+- key: q7
+  type: multiple_choice
+  prompt: "Was kennzeichnet die Tropen?"
+  options: ["ganzjährig hohe Temperaturen", "vier Jahreszeiten", "Tageszeitenklima", "innen immerfeucht, außen wechselfeucht"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Vier Jahreszeiten gibt es in der gemäßigten Zone."
+- key: q8
+  type: gap_text
+  prompt: "Vegetation der gemäßigten Zone in Deutschland: ___- und Mischwald; nördlich davon der Nadelwald, auch ___ genannt."
+  answer:
+    gaps:
+      - ["Laub"]
+      - ["Taiga"]
+  explanation: "Laub- und Mischwald; Taiga = nördlicher Nadelwald."

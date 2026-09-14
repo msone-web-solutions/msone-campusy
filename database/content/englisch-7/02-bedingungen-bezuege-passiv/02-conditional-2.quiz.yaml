@@ -1,0 +1,51 @@
+- key: q1
+  type: gap_text
+  prompt: "If I ___ (have) more money, I ___ (buy) a new bike."
+  answer:
+    gaps:
+      - ["had"]
+      - ["would buy", "'d buy"]
+  explanation: "if + simple past, would + Infinitiv."
+- key: q2
+  type: single_choice
+  prompt: "„If I were you, I would apologise.“ – Was drückt der Satz aus?"
+  options: ["Eine Erinnerung an früher", "Einen Ratschlag („an deiner Stelle“)", "Einen Befehl", "Eine sichere Zukunft"]
+  answer: { index: 1 }
+  explanation: "If I were you = an deiner Stelle – ein Rat."
+- key: q3
+  type: single_choice
+  prompt: "Conditional I oder II? „Wenn ich fliegen könnte, würde ich nach Australien fliegen.“"
+  options: ["Conditional I – das ist realistisch", "Conditional II – das ist unwirklich", "Beides möglich", "Keins von beiden"]
+  answer: { index: 1 }
+  explanation: "Fliegen können ist unwirklich → Conditional II: If I could fly, I would …"
+- key: q4
+  type: gap_text
+  prompt: "She ___ (be) happier if she ___ (live) near the sea."
+  answer:
+    gaps:
+      - ["would be", "'d be"]
+      - ["lived"]
+  explanation: "Hauptsatz would be, if-Satz simple past lived."
+- key: q5
+  type: true_false
+  prompt: "Das simple past im if-Satz des Conditional II beschreibt etwas, das in der Vergangenheit passiert ist."
+  answer: { value: false }
+  explanation: "Es drückt Unwirklichkeit in der Gegenwart aus, keine Vergangenheit."
+- key: q6
+  type: single_choice
+  prompt: "Welcher Satz ist Conditional II?"
+  options: ["If it rains, we will stay in.", "If it rained, we would stay in.", "When it rains, we stay in.", "It rained, so we stayed in."]
+  answer: { index: 1 }
+  explanation: "if + simple past, would + Infinitiv."
+- key: q7
+  type: single_choice
+  prompt: "Welche Form von „be“ steht im Conditional II nach „he“?"
+  options: ["was", "were", "is", "be"]
+  answer: { index: 1 }
+  explanation: "If he were taller … – were für alle Personen."
+- key: q8
+  type: multiple_choice
+  prompt: "Was kann im Hauptsatz des Conditional II stehen?"
+  options: ["would", "could", "might", "will"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "would, could, might – will gehört zum Conditional I."

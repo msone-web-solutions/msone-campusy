@@ -1,0 +1,19 @@
+Das Gradnetz der Erde: Breiten- und Längenkreise.
+
+Hallo und willkommen zur ersten Geographiestunde! Heute lernst du, wie man jeden Punkt der Erde mit zwei Zahlen findet.
+
+Auf einer Kugel gibt es kein oben links. Damit man trotzdem jeden Ort eindeutig angeben kann, hat man ein gedachtes Netz über die Erde gelegt: das Gradnetz. Es besteht aus zwei Arten von Linien.
+
+Die Breitenkreise laufen parallel zum Äquator in Ost-West-Richtung um die Erde. Deshalb heißen sie auch Parallelkreise. Der Äquator ist der längste Breitenkreis, rund vierzigtausend Kilometer, und teilt die Erde in Nord- und Südhalbkugel. Er hat null Grad. Nach Norden und Süden werden die Kreise kleiner, bis zu den Polen bei neunzig Grad Nord und neunzig Grad Süd, die nur noch Punkte sind. Die geographische Breite gibt an, wie weit ein Ort nördlich oder südlich des Äquators liegt. Halle liegt bei 51 Grad Nord.
+
+Besondere Breitenkreise sind der nördliche und der südliche Wendekreis bei 23,5 Grad und die Polarkreise bei 66,5 Grad. Zwischen den Wendekreisen liegen die Tropen.
+
+Die Längenkreise, auch Meridiane genannt, laufen von Nordpol zu Südpol. Sie sind alle gleich lang und treffen sich an den Polen. Der Nullmeridian mit null Grad geht durch Greenwich bei London. Man hat ihn 1884 festgelegt, anders als der Äquator ist er nicht von der Natur vorgegeben. Von Greenwich zählt man 180 Grad nach Osten, das ist die östliche Länge, und 180 Grad nach Westen, die westliche Länge. Bei 180 Grad liegt die Datumsgrenze im Pazifik. Die geographische Länge gibt an, wie weit ein Ort östlich oder westlich von Greenwich liegt. Halle liegt bei 12 Grad Ost.
+
+Einen Ort gibt man immer so an: erst Breite, dann Länge. Halle an der Saale: 51 Grad Nord, 12 Grad Ost. New York: 41 Grad Nord, 74 Grad West. Sydney: 34 Grad Süd, 151 Grad Ost. Mit Minuten wird es genauer, ein Grad hat sechzig Minuten. Ein Breitengrad entspricht etwa 111 Kilometern. Halle liegt also rund 5660 Kilometer nördlich des Äquators.
+
+So findest du einen Ort im Atlas: Erstens im Register nachschlagen, dort stehen Seite, Planquadrat und oft die Koordinaten. Zweitens auf der Karte den Breitengrad am Rand suchen, waagerecht, dann den Längengrad, senkrecht. Drittens: Wo sich beide Linien kreuzen, liegt der Ort. Navigationsgeräte machen genau das, mit Satelliten.
+
+Fassen wir zusammen: Breitenkreise parallel zum Äquator, null Grad am Äquator, neunzig Grad an den Polen. Längenkreise von Pol zu Pol, null Grad in Greenwich, je 180 Grad nach Ost und West. Ortsangabe: erst Breite, dann Länge.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

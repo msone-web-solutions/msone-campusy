@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Räume gehören zum Orient?"
+  options: ["Nordafrika, Arabische Halbinsel, Vorderasien", "Südafrika und Australien", "Nur Ägypten", "Indien und China"]
+  answer: { index: 0 }
+  explanation: "Orient = Morgenland: Nordafrika bis Vorderasien."
+- key: q2
+  type: numeric
+  prompt: "Ab wie wenig Niederschlag pro Jahr spricht man von einer Wüste? (weniger als … mm)"
+  answer: { value: 250 }
+  options: { unit: "mm" }
+  explanation: "Unter 250 mm im Jahr."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Wüstentyp macht den größten Teil der Sahara aus?"
+  options: ["Sandwüste (Erg)", "Felswüste (Hamada)", "Salzwüste", "Eiswüste"]
+  answer: { index: 1 }
+  explanation: "Nur etwa 20 % der Sahara sind Sandwüste; der Großteil ist Fels- und Kieswüste."
+- key: q4
+  type: single_choice
+  prompt: "Warum wird es in der Wüste nachts so kalt?"
+  options: ["Weil die Sonne untergeht und Wolken fehlen, die die Wärme halten", "Weil es nachts regnet", "Weil der Sand Kälte speichert", "Weil Wind aus der Antarktis weht"]
+  answer: { index: 0 }
+  explanation: "Ohne Wolken strahlt die Wärme ungehindert ab – große Tagesschwankung."
+- key: q5
+  type: gap_text
+  prompt: "Oasentypen: Das Niltal ist eine ___oase. Wo Grundwasser von selbst austritt, spricht man von einer ___oase."
+  answer:
+    gaps:
+      - ["Fluss"]
+      - ["Quell"]
+  explanation: "Flussoase, Quelloase."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet Stockwerkanbau in der Oase?"
+  options: ["Häuser mit mehreren Etagen", "Dattelpalmen oben, Obstbäume darunter, Gemüse am Boden", "Anbau auf Terrassen am Berg", "Anbau in Gewächshäusern"]
+  answer: { index: 1 }
+  explanation: "Drei Stockwerke nutzen Fläche und Schatten doppelt."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Probleme entstehen durch moderne Wüstennutzung?"
+  options: ["Versalzung der Böden", "fossiles Grundwasser wird aufgebraucht", "zu viel Regen", "Desertifikation durch Überweidung"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Versalzung, endliches fossiles Wasser, Desertifikation."
+- key: q8
+  type: true_false
+  prompt: "Die Passatwinde wehen von den Wendekreisen Richtung Äquator und bringen viel Regen in die Wüsten."
+  answer: { value: false }
+  explanation: "Die Passate wehen trocken Richtung Äquator; an den Wendekreisen sinkt Luft ab und es bleibt trocken."

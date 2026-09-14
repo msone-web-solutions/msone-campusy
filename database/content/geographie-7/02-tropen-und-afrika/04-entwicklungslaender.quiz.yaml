@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Ländergruppe liegt zwischen Entwicklungs- und Industrieländern?"
+  options: ["Kolonien", "Schwellenländer", "Ölstaaten", "Inselstaaten"]
+  answer: { index: 1 }
+  explanation: "Schwellenländer wie China, Brasilien, Indien."
+- key: q2
+  type: gap_text
+  prompt: "Das BIP pro ___ ist in Entwicklungsländern niedrig. Der ___ kombiniert Einkommen, Lebenserwartung und Bildung zu einer Zahl zwischen 0 und 1."
+  answer:
+    gaps:
+      - ["Kopf"]
+      - ["HDI", "Human Development Index"]
+  explanation: "BIP pro Kopf; HDI."
+- key: q3
+  type: single_choice
+  prompt: "Niger hat etwa 6,5 Kinder pro Frau. Was folgt daraus?"
+  options: ["Die Bevölkerung schrumpft.", "Die Bevölkerung wächst schnell und ist sehr jung.", "Die Lebenserwartung steigt.", "Es gibt weniger Schulen nötig."]
+  answer: { index: 1 }
+  explanation: "Hohes Bevölkerungswachstum, die Hälfte unter 15 Jahren."
+- key: q4
+  type: single_choice
+  prompt: "Ein Land hat ein hohes Gesamt-BIP, aber 220 Millionen Einwohner. Was musst du beim Vergleich beachten?"
+  options: ["Nichts, das Land ist reich.", "Das BIP pro Kopf berechnen.", "Die Fläche des Landes.", "Die Hauptstadt."]
+  answer: { index: 1 }
+  explanation: "Pro Kopf zeigt, was auf den Einzelnen entfällt."
+- key: q5
+  type: single_choice
+  prompt: "Welche Maßnahme senkt Kinderzahl und Armut am wirksamsten?"
+  options: ["Lebensmittelspenden", "Bildung, besonders für Mädchen", "Straßenbau", "Militärhilfe"]
+  answer: { index: 1 }
+  explanation: "Bildung von Mädchen hat den größten Effekt."
+- key: q6
+  type: single_choice
+  prompt: "Was ist ein Mikrokredit?"
+  options: ["Ein Kredit für Großkonzerne", "Ein kleines Darlehen, z. B. für eine Nähmaschine, oft an Frauen", "Ein Kredit der Weltbank an Staaten", "Ein Kredit für Studenten in Deutschland"]
+  answer: { index: 1 }
+  explanation: "Kleine Beträge, hohe Rückzahlquote, Start in die Selbstständigkeit."
+- key: q7
+  type: true_false
+  prompt: "Lebensmittel abzuwerfen ist die beste dauerhafte Hilfe, weil sofort alle satt werden."
+  answer: { value: false }
+  explanation: "Es hilft kurzfristig, kann aber den Markt der einheimischen Bauern zerstören – Hilfe zur Selbsthilfe wirkt dauerhaft."
+- key: q8
+  type: multiple_choice
+  prompt: "Woran erkennt man ein gutes Projekt der Hilfe zur Selbsthilfe?"
+  options: ["Die Menschen vor Ort entscheiden mit.", "Es läuft ohne Helfer weiter.", "Es passt zu Klima und Kultur.", "Es braucht dauerhaft Spenden aus Europa."]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Dauerhafte Abhängigkeit von Spenden ist das Gegenteil von Selbsthilfe."

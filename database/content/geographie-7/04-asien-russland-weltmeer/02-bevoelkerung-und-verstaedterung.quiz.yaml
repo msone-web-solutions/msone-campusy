@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Land ist seit 2023 das bevölkerungsreichste der Erde?"
+  options: ["China", "Indien", "USA", "Indonesien"]
+  answer: { index: 1 }
+  explanation: "Indien hat China überholt; China schrumpft."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Kinder pro Frau halten eine Bevölkerung langfristig stabil?"
+  answer: { value: 2.1, tolerance: 0.1 }
+  explanation: "Etwa 2,1 – jedes Elternpaar wird ersetzt, plus Ausgleich für Kindersterblichkeit."
+- key: q3
+  type: single_choice
+  prompt: "Welche Form hat die Bevölkerungspyramide eines Landes mit vielen Kindern und wenigen Alten?"
+  options: ["Urnenform", "Glockenform", "Pyramidenform mit breiter Basis", "Rechteck"]
+  answer: { index: 2 }
+  explanation: "Breite Basis = viele junge Menschen, z. B. Pakistan."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Folgen hatte Chinas Ein-Kind-Politik?"
+  options: ["Weniger Geburten", "Männerüberschuss", "Schnelle Überalterung", "Stark wachsende junge Bevölkerung"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Die Bevölkerung altert und schrumpft heute."
+- key: q5
+  type: single_choice
+  prompt: "Was ist ein Schwellenland?"
+  options: ["Ein Land ohne Industrie", "Ein Land mit stark wachsender Industrie, das den Sprung zum Industrieland noch nicht ganz geschafft hat", "Ein Land an der Küste", "Ein Land mit hohem BIP wie Japan"]
+  answer: { index: 1 }
+  explanation: "China, Indien, Vietnam sind Schwellenländer."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet Verstädterung?"
+  options: ["Städte werden schöner", "Der Anteil der Bevölkerung, der in Städten lebt, wächst", "Städte werden abgerissen", "Menschen ziehen aufs Land"]
+  answer: { index: 1 }
+  explanation: "Landflucht und natürliches Wachstum lassen Städte wachsen."
+- key: q7
+  type: single_choice
+  prompt: "Welche Stadt ist die größte Metropolregion der Welt?"
+  options: ["Delhi", "Shanghai", "Tokio", "Mumbai"]
+  answer: { index: 2 }
+  explanation: "Tokio mit rund 37 Millionen Menschen."
+- key: q8
+  type: gap_text
+  prompt: "Elendsviertel in Megastädten heißen ___; die starke Luftverschmutzung z. B. in Delhi nennt man ___."
+  answer:
+    gaps:
+      - ["Slums"]
+      - ["Smog"]
+  explanation: "Slums; Smog."

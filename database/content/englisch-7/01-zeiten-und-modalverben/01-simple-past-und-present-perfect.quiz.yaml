@@ -1,0 +1,52 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Zeitform passt? „They ___ to Spain two years ago.“"
+  options: ["have gone", "went", "have been", "go"]
+  answer: { index: 1 }
+  explanation: "„two years ago“ nennt einen Zeitpunkt → simple past: went."
+- key: q2
+  type: single_choice
+  prompt: "Welche Zeitform passt? „I ___ my keys – I can't open the door!“"
+  options: ["lost", "have lost", "was losing", "lose"]
+  answer: { index: 1 }
+  explanation: "Das Ergebnis zählt jetzt (die Tür geht nicht auf) → present perfect: have lost."
+- key: q3
+  type: gap_text
+  prompt: "Have you ___ (ever / be) to London? – Yes, I ___ (go) there in 2023."
+  answer:
+    gaps:
+      - ["ever been"]
+      - ["went"]
+  explanation: "Erfahrung → present perfect (ever been); Jahreszahl → simple past (went)."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Signalwörter gehören zum present perfect?"
+  options: ["yesterday", "just", "yet", "ago", "already"]
+  answer: { indexes: [1, 2, 4] }
+  explanation: "just, yet und already → present perfect; yesterday und ago → simple past."
+- key: q5
+  type: true_false
+  prompt: "„I have seen him yesterday.“ ist korrektes Englisch."
+  answer: { value: false }
+  explanation: "Mit „yesterday“ muss es simple past sein: I saw him yesterday."
+- key: q6
+  type: single_choice
+  prompt: "Wo steht „yet“ im Satz?"
+  options: ["Am Satzanfang", "Zwischen have und dem Partizip", "Am Satzende, in Fragen und Verneinungen", "Vor dem Subjekt"]
+  answer: { index: 2 }
+  explanation: "They haven't arrived yet. – Have you finished yet?"
+- key: q7
+  type: gap_text
+  prompt: "3. Form (past participle): go → ___, write → ___, be → ___"
+  answer:
+    gaps:
+      - ["gone"]
+      - ["written"]
+      - ["been"]
+  explanation: "go – went – gone; write – wrote – written; be – was/were – been."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet „She's eaten“?"
+  options: ["She is eaten", "She has eaten", "She was eating", "She eats"]
+  answer: { index: 1 }
+  explanation: "Vor einem Partizip (eaten) steht 's für „has“."

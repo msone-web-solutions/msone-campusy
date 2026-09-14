@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Wo gibt es tropischen Regenwald?"
+  options: ["Kongobecken", "Amazonasbecken", "Sahara", "Südostasien"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Die Sahara ist Wüste."
+- key: q2
+  type: numeric
+  prompt: "Wie viel Niederschlag fällt im tropischen Regenwald mindestens pro Jahr? (in mm, mehr als …)"
+  answer: { value: 2000 }
+  options: { unit: "mm" }
+  explanation: "Über 2000 mm, in jedem Monat humid."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet Tageszeitenklima?"
+  options: ["Das Wetter ändert sich jede Stunde.", "Der Unterschied zwischen Tag und Nacht ist größer als zwischen den Jahreszeiten.", "Es gibt nur tagsüber Klima.", "Es regnet nur nachts."]
+  answer: { index: 1 }
+  explanation: "Jeder Tag läuft ähnlich ab; Jahreszeiten gibt es nicht."
+- key: q4
+  type: single_choice
+  prompt: "In welchem Stockwerk des Regenwalds leben die meisten Tiere?"
+  options: ["Bodenschicht", "Krautschicht", "Kronendach", "Überständer"]
+  answer: { index: 2 }
+  explanation: "Im dichten Kronendach in 30–40 m Höhe."
+- key: q5
+  type: single_choice
+  prompt: "Warum ist der Boden des Regenwalds nährstoffarm?"
+  options: ["Weil es zu kalt ist", "Weil die Nährstoffe in der Biomasse stecken und der Regen den Boden auswäscht", "Weil niemand düngt", "Weil zu viele Tiere ihn fressen"]
+  answer: { index: 1 }
+  explanation: "Kurzgeschlossener Kreislauf: Nährstoffe wandern sofort zurück in die Pflanzen."
+- key: q6
+  type: gap_text
+  prompt: "Traditionelle Landwirtschaft im Regenwald: ___feldbau mit ___rodung."
+  answer:
+    gaps:
+      - ["Wander"]
+      - ["Brand"]
+  explanation: "Wanderfeldbau (shifting cultivation) mit Brandrodung."
+- key: q7
+  type: true_false
+  prompt: "Nach dem Abholzen des Regenwalds lässt sich der Boden dauerhaft für Ackerbau nutzen."
+  answer: { value: false }
+  explanation: "Nach 2–3 Ernten sind die Nährstoffe weg, der Laterit verhärtet."
+- key: q8
+  type: single_choice
+  prompt: "Wie erkennt man Rodungen auf Satellitenbildern?"
+  options: ["Als dunkelgrünes Band", "Als Fischgrätenmuster oder braune Flecken", "Als blaue Punkte", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Straßen mit Seitenwegen bilden ein Fischgrätenmuster."

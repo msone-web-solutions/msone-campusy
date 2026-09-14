@@ -1,0 +1,17 @@
+Klima- und Vegetationszonen, und wie man Klimadiagramme liest.
+
+Hallo! Heute geht es darum, warum die Erde in Klimagürtel gegliedert ist und was ein Klimadiagramm verrät.
+
+Die Sonne scheint nicht überall gleich stark. Am Äquator treffen die Strahlen fast senkrecht auf, viel Energie auf kleiner Fläche. Zu den Polen hin fallen sie flach ein, dieselbe Energie verteilt sich auf eine große Fläche, und sie muss länger durch die Atmosphäre. Dazu kommt: An den Polen ist im Winter monatelang Nacht. Der Einstrahlungswinkel bestimmt also die Temperatur, und die Temperatur zusammen mit dem Niederschlag das Klima. Klima ist der durchschnittliche Wetterverlauf über mindestens dreißig Jahre. Wetter ist, was heute passiert.
+
+Die Klimazonen liegen wie Gürtel um die Erde, spiegelbildlich auf beiden Halbkugeln. Die Tropen um den Äquator, zwischen den Wendekreisen: ganzjährig heiß, keine Jahreszeiten, sondern Tageszeitenklima. Innen immerfeucht, außen wechselfeucht mit Regen- und Trockenzeit. Die Subtropen um die Wendekreise, auch Passatklimazone: heiße, trockene Sommer, hier liegen die großen Wüsten wie die Sahara, und das Mittelmeerklima. Die gemäßigte Zone zwischen etwa vierzig und sechzig Grad: vier Jahreszeiten, mäßig warm, ganzjährig Niederschlag, hier liegt Deutschland. Die subpolare Zone: kurze kühle Sommer, lange kalte Winter, Tundra. Und die polare Zone um die Pole: ganzjährig frostig, Eis, Polartag und Polarnacht.
+
+Die Vegetationszonen folgen dem Klima, weil Pflanzen Wärme und Wasser brauchen. Vom Äquator aus: tropischer Regenwald, dann Feuchtsavanne, Trockensavanne, Dornsavanne, immer trockener, dann Wüste, dann Hartlaubgewächse am Mittelmeer, Laub- und Mischwald in Deutschland, Steppe, wo es trockener ist, nördlicher Nadelwald, die Taiga, Tundra mit Moosen und Flechten, und schließlich Eiswüste.
+
+Jetzt zum Klimadiagramm. Es zeigt für einen Ort die Monatsmittel von Temperatur, als rote Linie mit der Skala links in Grad Celsius, und Niederschlag, als blaue Säulen mit der Skala rechts in Millimetern, von Januar bis Dezember. Im Kopf stehen Ort, Höhe, Jahresmitteltemperatur und Jahresniederschlag.
+
+So wertest du es aus. Erstens die Temperatur: Wie hoch ist das Jahresmittel? Wie groß ist die Jahresschwankung, also wärmster minus kältester Monat? Kleine Schwankung heißt Tropen oder Meeresnähe, große Schwankung heißt Kontinent oder hohe Breite. Zweitens der Niederschlag: Wie viel im Jahr? Gleichmäßig verteilt oder mit Regen- und Trockenzeit? Drittens die ariden Monate: Liegt die blaue Säule unter der roten Linie, ist der Monat trocken, arid. Liegt sie darüber, ist er feucht, humid. Viertens die Halbkugel: Ist es im Juli am kältesten, liegt der Ort auf der Südhalbkugel. Fünftens zuordnen: Temperatur plus Niederschlag ergibt die Klimazone, und die Klimazone die Vegetation.
+
+Fassen wir zusammen: Der Einstrahlungswinkel macht den Äquator heiß und die Pole kalt. Fünf Klimazonen von den Tropen bis zur Polarzone, die Vegetation folgt. Im Klimadiagramm: rote Linie Temperatur, blaue Säulen Niederschlag, Säule unter Linie heißt trocken.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

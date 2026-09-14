@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist die Vergangenheit von „must“?"
+  options: ["musted", "had to", "must have", "was must"]
+  answer: { index: 1 }
+  explanation: "must hat keine Vergangenheit – Ersatzform: had to."
+- key: q2
+  type: gap_text
+  prompt: "When I was three I ___ (can / not) read. Now I ___ (can) read English books."
+  answer:
+    gaps:
+      - ["couldn't", "wasn't able to", "was not able to", "could not"]
+      - ["can", "am able to"]
+  explanation: "Vergangenheit: couldn't / wasn't able to; Präsens: can."
+- key: q3
+  type: single_choice
+  prompt: "„You mustn't open the window.“ bedeutet:"
+  options: ["Du musst das Fenster nicht öffnen.", "Du darfst das Fenster nicht öffnen.", "Du kannst das Fenster nicht öffnen.", "Du solltest das Fenster öffnen."]
+  answer: { index: 1 }
+  explanation: "mustn't = Verbot (nicht dürfen)."
+- key: q4
+  type: single_choice
+  prompt: "„Du brauchst kein Geschenk mitzubringen.“"
+  options: ["You mustn't bring a present.", "You can't bring a present.", "You needn't bring a present.", "You may not bring a present."]
+  answer: { index: 2 }
+  explanation: "nicht müssen / nicht nötig = needn't oder don't have to."
+- key: q5
+  type: true_false
+  prompt: "Nach einem Modalverb steht der Infinitiv ohne „to“: „She must to go.“ ist deshalb falsch."
+  answer: { value: true }
+  explanation: "Richtig ist: She must go."
+- key: q6
+  type: gap_text
+  prompt: "Next year you ___ (may) drive a moped. (Zukunft)"
+  answer:
+    gaps:
+      - ["will be allowed to", "'ll be allowed to"]
+  explanation: "Zukunft von may = will be allowed to."
+- key: q7
+  type: single_choice
+  prompt: "Welche Bitte ist am höflichsten?"
+  options: ["Give me the salt.", "Can you give me the salt?", "Could you give me the salt, please?", "Salt!"]
+  answer: { index: 2 }
+  explanation: "could + please ist höflicher als can."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Sätze sind korrekt?"
+  options: ["He cans swim.", "He can swim.", "Do you can swim?", "Can you swim?", "We had to leave early."]
+  answer: { indexes: [1, 3, 4] }
+  explanation: "Kein -s, keine Umschreibung mit do; had to ist die richtige Vergangenheit von must."

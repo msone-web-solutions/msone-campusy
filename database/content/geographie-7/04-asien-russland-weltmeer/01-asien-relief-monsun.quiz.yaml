@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Länder gehören zu Südasien?"
+  options: ["Indien", "Japan", "Bangladesch", "Pakistan"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Japan liegt in Ostasien."
+- key: q2
+  type: single_choice
+  prompt: "Wie entstand der Himalaya?"
+  options: ["Durch Vulkanausbrüche", "Durch die Kollision der Indischen mit der Eurasischen Platte", "Durch Gletscher", "Durch den Monsun"]
+  answer: { index: 1 }
+  explanation: "Zwei Kontinente stießen zusammen und falteten das Gebirge auf."
+- key: q3
+  type: single_choice
+  prompt: "Was ist der Monsun?"
+  options: ["Ein Fluss in Indien", "Ein Wind, der halbjährlich seine Richtung wechselt", "Ein Wirbelsturm", "Eine Wüste"]
+  answer: { index: 1 }
+  explanation: "Monsun = Jahreszeitenwind."
+- key: q4
+  type: gap_text
+  prompt: "Im Sommer heizt sich das Land auf, ein ___druckgebiet entsteht und feuchte Luft strömt vom ___ heran."
+  answer:
+    gaps:
+      - ["Tief"]
+      - ["Ozean", "Meer"]
+  explanation: "Tiefdruck über dem heißen Land, feuchte Luft vom Ozean."
+- key: q5
+  type: single_choice
+  prompt: "Welchen Anteil des Jahresniederschlags bringt der Sommermonsun in Indien etwa?"
+  options: ["10 %", "30 %", "50 %", "80 %"]
+  answer: { index: 3 }
+  explanation: "Rund 80 % in wenigen Monaten."
+- key: q6
+  type: single_choice
+  prompt: "Warum ist Bangladesch von Überschwemmungen besonders bedroht?"
+  options: ["Es liegt im Gebirge", "Ganges und Brahmaputra münden dort und das Land liegt kaum über dem Meer", "Es hat keinen Monsun", "Es ist eine Wüste"]
+  answer: { index: 1 }
+  explanation: "Flachland im Mündungsgebiet großer Flüsse plus Zyklone."
+- key: q7
+  type: single_choice
+  prompt: "Wie heißen tropische Wirbelstürme im Westpazifik?"
+  options: ["Hurrikane", "Taifune", "Zyklone", "Tornados"]
+  answer: { index: 1 }
+  explanation: "Taifun im Pazifik, Zyklon im Indischen Ozean, Hurrikan in Amerika."
+- key: q8
+  type: true_false
+  prompt: "Der Himalaya hält kalte Luft aus Sibirien von Indien fern."
+  answer: { value: true }
+  explanation: "Er wirkt als Klimamauer."

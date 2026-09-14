@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen endogenen und exogenen Kräften?"
+  options: ["Endogene tragen ab, exogene bauen auf", "Endogene bauen (von innen) auf, exogene tragen (von außen) ab", "Beide bauen auf", "Kein Unterschied"]
+  answer: { index: 1 }
+  explanation: "Tektonik hebt Gebirge, Wasser/Eis/Wind tragen sie ab."
+- key: q2
+  type: gap_text
+  prompt: "Der Kreislauf: Verwitterung → ___ → Transport → ___"
+  answer:
+    gaps:
+      - ["Abtragung", "Erosion"]
+      - ["Ablagerung", "Sedimentation"]
+  explanation: "Verwitterung, Abtragung, Transport, Ablagerung."
+- key: q3
+  type: single_choice
+  prompt: "Warum sprengt gefrierendes Wasser Gestein?"
+  options: ["Weil es schwerer wird", "Weil es sich beim Gefrieren um etwa 9 % ausdehnt", "Weil es heiß wird", "Weil es verdunstet"]
+  answer: { index: 1 }
+  explanation: "Frostsprengung – typisch im Hochgebirge."
+- key: q4
+  type: single_choice
+  prompt: "Wie entstehen Tropfsteinhöhlen?"
+  options: ["Durch Frostsprengung", "Durch Wind", "Durch chemische Verwitterung: Regenwasser löst Kalk", "Durch Gletscher"]
+  answer: { index: 2 }
+  explanation: "Kohlensäurehaltiges Wasser löst Kalkgestein."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Formen schafft fließendes Wasser?"
+  options: ["V-Täler", "Mäander", "Moränen", "Delta"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Moränen sind Gletscherablagerungen."
+- key: q6
+  type: single_choice
+  prompt: "Welche Talform hinterlassen Gletscher?"
+  options: ["V-Tal", "U-Tal (Trogtal)", "Schlucht", "Delta"]
+  answer: { index: 1 }
+  explanation: "Gletscher hobeln breite U-Täler."
+- key: q7
+  type: single_choice
+  prompt: "Woraus entstand der fruchtbare Löss der Magdeburger Börde?"
+  options: ["Aus Vulkanasche", "Aus vom Wind abgelagertem Eiszeit-Staub", "Aus Meeressand", "Aus Flussschlamm"]
+  answer: { index: 1 }
+  explanation: "Wind trug feinen Staub aus den eiszeitlichen Schotterflächen heran."
+- key: q8
+  type: true_false
+  prompt: "Der Mensch kann die Bodenerosion durch Abholzung und Ackerbau am Hang stark beschleunigen."
+  answer: { value: true }
+  explanation: "Ohne Pflanzendecke ist der Boden schutzlos."

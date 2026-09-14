@@ -1,0 +1,54 @@
+- key: q1
+  type: gap_text
+  prompt: "She enjoys ___ (dance). – He gave up ___ (smoke)."
+  answer:
+    gaps:
+      - ["dancing"]
+      - ["smoking"]
+  explanation: "Nach enjoy und give up steht das Gerund."
+- key: q2
+  type: single_choice
+  prompt: "„I'm good ___ maths.“"
+  options: ["at", "in", "on", "for"]
+  answer: { index: 0 }
+  explanation: "good at + Nomen/Gerund."
+- key: q3
+  type: gap_text
+  prompt: "Thanks for ___ (help) me. – She left without ___ (say) a word."
+  answer:
+    gaps:
+      - ["helping"]
+      - ["saying"]
+  explanation: "Nach Präpositionen (for, without) steht das Gerund."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Satz ist richtig?"
+  options: ["Swim is fun.", "Swimming is fun.", "To swimming is fun.", "Swims is fun."]
+  answer: { index: 1 }
+  explanation: "Gerund als Subjekt: Swimming is fun."
+- key: q5
+  type: single_choice
+  prompt: "„I would like ___ a doctor.“"
+  options: ["being", "to be", "be", "to being"]
+  answer: { index: 1 }
+  explanation: "Nach would like steht der Infinitiv mit to."
+- key: q6
+  type: multiple_choice
+  prompt: "Nach welchen Verben steht das Gerund?"
+  options: ["enjoy", "want", "don't mind", "decide", "keep"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "enjoy, don't mind, keep + -ing; want und decide + to."
+- key: q7
+  type: true_false
+  prompt: "„I'm looking forward to see you.“ ist korrekt."
+  answer: { value: false }
+  explanation: "look forward to + Gerund: looking forward to seeing you."
+- key: q8
+  type: gap_text
+  prompt: "Bilde die -ing-Form: make → ___, run → ___, lie → ___"
+  answer:
+    gaps:
+      - ["making"]
+      - ["running"]
+      - ["lying"]
+  explanation: "stummes e fällt weg; Konsonant verdoppelt; ie → y."

@@ -1,0 +1,48 @@
+- key: q1
+  type: numeric
+  prompt: "Wie viele Zeitzonen hat die Erde?"
+  answer: { value: 24 }
+  explanation: "24 Zonen à 15°."
+- key: q2
+  type: single_choice
+  prompt: "Warum geht die Sonne im Osten früher auf?"
+  options: ["Weil die Erde sich von West nach Ost dreht", "Weil der Osten näher an der Sonne ist", "Weil es im Osten wärmer ist", "Weil Greenwich im Osten liegt"]
+  answer: { index: 0 }
+  explanation: "Die Drehrichtung der Erde bringt den Osten zuerst ins Sonnenlicht."
+- key: q3
+  type: single_choice
+  prompt: "In Halle ist es 10:00 Uhr (UTC+1). Wie spät ist es in Peking (UTC+8)?"
+  options: ["03:00", "17:00", "18:00", "02:00"]
+  answer: { index: 1 }
+  explanation: "7 Zonen östlich → 10 + 7 = 17 Uhr."
+- key: q4
+  type: single_choice
+  prompt: "In Halle ist es 08:00 Uhr (UTC+1). Wie spät ist es in New York (UTC−5)?"
+  options: ["14:00", "02:00", "13:00", "03:00"]
+  answer: { index: 1 }
+  explanation: "6 Zonen westlich → 8 − 6 = 2 Uhr."
+- key: q5
+  type: true_false
+  prompt: "Zeitzonengrenzen verlaufen immer exakt entlang der Längengrade."
+  answer: { value: false }
+  explanation: "In der Praxis folgen sie meist Staatsgrenzen – deshalb sind sie gezackt."
+- key: q6
+  type: single_choice
+  prompt: "Wo liegt die Datumsgrenze?"
+  options: ["Am Nullmeridian in Greenwich", "Bei 180° im Pazifik", "Am Äquator", "Bei 90° Ost"]
+  answer: { index: 1 }
+  explanation: "Gegenüber von Greenwich, bei 180°."
+- key: q7
+  type: single_choice
+  prompt: "Man überquert die Datumsgrenze von Alaska Richtung Sibirien (nach Westen). Was passiert?"
+  options: ["Der Tag wiederholt sich.", "Das Datum springt einen Tag vor.", "Die Uhr bleibt stehen.", "Nichts."]
+  answer: { index: 1 }
+  explanation: "Nach Westen über die Datumsgrenze: + 1 Tag."
+- key: q8
+  type: gap_text
+  prompt: "Deutschland: Winterzeit MEZ = UTC + ___, Sommerzeit MESZ = UTC + ___"
+  answer:
+    gaps:
+      - ["1"]
+      - ["2"]
+  explanation: "MEZ = UTC+1, MESZ = UTC+2."

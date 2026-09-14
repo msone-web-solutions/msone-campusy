@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Wendung eröffnet ein Gespräch?"
+  options: ["It was nice talking to you.", "Lovely weather, isn't it?", "Take care!", "Let's keep in touch."]
+  answer: { index: 1 }
+  explanation: "Small talk über das Wetter ist ein typischer Gesprächsanfang."
+- key: q2
+  type: single_choice
+  prompt: "Du hast etwas nicht verstanden. Was sagst du?"
+  options: ["Sorry to interrupt.", "Could you say that again, please?", "Me neither.", "Anyway, I'd better go."]
+  answer: { index: 1 }
+  explanation: "Could you say that again? = Kannst du das noch mal sagen?"
+- key: q3
+  type: gap_text
+  prompt: "„I'm really ___ football.“ (= ich stehe total auf Fußball) – „Would you ___ closing the door?“"
+  answer:
+    gaps:
+      - ["into", "keen on"]
+      - ["mind"]
+  explanation: "to be into / keen on something; Would you mind + -ing."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Satz beendet ein Gespräch höflich?"
+  options: ["Bye, I'm bored.", "Well, I have to go now. It was nice talking to you.", "Stop talking.", "Why are you still here?"]
+  answer: { index: 1 }
+  explanation: "Das Ende wird angekündigt und freundlich abgeschlossen."
+- key: q5
+  type: single_choice
+  prompt: "Du willst an jemandem vorbeigehen. Was sagst du?"
+  options: ["Sorry.", "Excuse me.", "Nice to meet you.", "Take care."]
+  answer: { index: 1 }
+  explanation: "Excuse me = jemanden ansprechen oder vorbeigehen; Sorry = sich entschuldigen."
+- key: q6
+  type: multiple_choice
+  prompt: "Womit zeigst du Interesse und hältst das Gespräch am Laufen?"
+  options: ["Really?", "Tell me more about it.", "Bye!", "And then?"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Nachfragen zeigt Interesse; Bye beendet das Gespräch."
+- key: q7
+  type: gap_text
+  prompt: "Meinung mit Begründung: „I think the film is great ___ the actors are brilliant.“"
+  answer:
+    gaps:
+      - ["because"]
+  explanation: "because verknüpft Meinung und Begründung."
+- key: q8
+  type: true_false
+  prompt: "„Me neither.“ ist die passende Zustimmung zu „I don't like horror films.“"
+  answer: { value: true }
+  explanation: "Bei verneinten Aussagen: Me neither. Bei bejahten: Me too."

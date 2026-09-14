@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Was kennzeichnet die Zone des tropischen Wechselklimas?"
+  options: ["Vier Jahreszeiten", "Regenzeit und Trockenzeit bei ganzjähriger Wärme", "Ganzjährig Regen", "Ganzjährig Trockenheit"]
+  answer: { index: 1 }
+  explanation: "Wechselfeucht: der Regen kommt nur in einem Teil des Jahres."
+- key: q2
+  type: single_choice
+  prompt: "Welche Savanne hat die längste Regenzeit?"
+  options: ["Dornsavanne", "Trockensavanne", "Feuchtsavanne", "Alle gleich"]
+  answer: { index: 2 }
+  explanation: "Feuchtsavanne: 7–9 Monate Regen, nahe am Regenwald."
+- key: q3
+  type: gap_text
+  prompt: "Der typische Baum der Trockensavanne ist der ___ (Affenbrotbaum). Der Sahel liegt ___ der Sahara."
+  answer:
+    gaps:
+      - ["Baobab"]
+      - ["südlich"]
+  explanation: "Baobab; südlich."
+- key: q4
+  type: single_choice
+  prompt: "Was bedeutet Desertifikation?"
+  options: ["Das Anlegen von Oasen", "Die Ausbreitung der Wüste durch Übernutzung", "Die Bewässerung der Wüste", "Ein Sandsturm"]
+  answer: { index: 1 }
+  explanation: "Wüstenbildung durch Zusammenwirken von Natur und Mensch."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche menschlichen Ursachen tragen zur Desertifikation bei?"
+  options: ["Überweidung", "Brennholzeinschlag", "Aufforstung", "Übernutzung der Äcker ohne Brache"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Aufforstung ist eine Gegenmaßnahme."
+- key: q6
+  type: single_choice
+  prompt: "Welches Glied fehlt in der Kette? Überweidung → Boden ohne Pflanzendecke → ___ → Wüste wächst"
+  options: ["Bodenerosion", "Aufforstung", "Regenzeit", "Stockwerkbau"]
+  answer: { index: 0 }
+  explanation: "Ohne Wurzeln trägt Wind und Starkregen den Boden ab."
+- key: q7
+  type: single_choice
+  prompt: "Was ist die „Große Grüne Mauer“?"
+  options: ["Eine Stadtmauer in Mali", "Ein geplanter 8000 km langer Baumgürtel durch den Sahel", "Ein Staudamm am Niger", "Ein Nationalpark in Kenia"]
+  answer: { index: 1 }
+  explanation: "Aufforstung gegen die Ausbreitung der Wüste."
+- key: q8
+  type: true_false
+  prompt: "Im Klimadiagramm der Savanne verteilt sich der Regen gleichmäßig über alle Monate."
+  answer: { value: false }
+  explanation: "Der Regen konzentriert sich auf wenige Monate; die übrigen sind arid."

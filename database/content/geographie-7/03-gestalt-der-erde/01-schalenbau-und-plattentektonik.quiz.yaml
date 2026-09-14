@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Schale der Erde ist die dünnste?"
+  options: ["Erdkern", "Erdmantel", "Erdkruste", "Alle gleich"]
+  answer: { index: 2 }
+  explanation: "Die Kruste ist nur 5–70 km dick."
+- key: q2
+  type: numeric
+  prompt: "Wie tief ist es bis zum Erdmittelpunkt? (in km)"
+  answer: { value: 6371, tolerance: 30 }
+  options: { unit: "km" }
+  explanation: "Rund 6371 km."
+- key: q3
+  type: single_choice
+  prompt: "Woher weiß man, wie die Erde innen aufgebaut ist?"
+  options: ["Aus Bohrungen bis zum Kern", "Aus der Ausbreitung von Erdbebenwellen", "Aus Satellitenbildern", "Aus Vulkanasche"]
+  answer: { index: 1 }
+  explanation: "Das tiefste Bohrloch ist nur 12 km; Erdbebenwellen verraten den Rest."
+- key: q4
+  type: single_choice
+  prompt: "Wie heißt der Urkontinent, den Wegener annahm?"
+  options: ["Atlantis", "Pangäa", "Gondwana", "Laurasia"]
+  answer: { index: 1 }
+  explanation: "Pangäa vor ca. 250 Millionen Jahren."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Beweise hatte Wegener für die Kontinentaldrift?"
+  options: ["Küsten passen wie Puzzleteile", "gleiche Fossilien beiderseits des Atlantiks", "GPS-Messungen", "gleiche Gesteine und Eiszeitspuren"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "GPS gab es 1912 noch nicht – es bestätigt die Drift heute."
+- key: q6
+  type: gap_text
+  prompt: "Kruste und oberster Mantel bilden zusammen die ___. Kräfte aus dem Erdinneren heißen ___."
+  answer:
+    gaps:
+      - ["Lithosphäre"]
+      - ["endogen"]
+  explanation: "Lithosphäre; endogen."
+- key: q7
+  type: single_choice
+  prompt: "Wie schnell bewegen sich die Platten?"
+  options: ["2–10 mm pro Jahr", "2–10 cm pro Jahr", "2–10 m pro Jahr", "2–10 km pro Jahr"]
+  answer: { index: 1 }
+  explanation: "Etwa so schnell wie Fingernägel wachsen."
+- key: q8
+  type: true_false
+  prompt: "Der Atlantik wird jedes Jahr einige Zentimeter breiter."
+  answer: { value: true }
+  explanation: "Europa und Amerika entfernen sich um 2–3 cm pro Jahr."

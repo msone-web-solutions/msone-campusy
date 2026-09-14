@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "In welchem „Year“ ist ein 13-jähriger englischer Schüler?"
+  options: ["Year 6", "Year 7", "Year 8", "Year 13"]
+  answer: { index: 2 }
+  explanation: "Unsere Klasse 7 entspricht Year 8."
+- key: q2
+  type: gap_text
+  prompt: "Mit 16 schreiben englische Schüler die ___, mit 18 die ___."
+  answer:
+    gaps:
+      - ["GCSE", "GCSEs"]
+      - ["A-levels", "A levels"]
+  explanation: "GCSE (16) und A-levels (18)."
+- key: q3
+  type: true_false
+  prompt: "„Public schools“ in England sind kostenlose staatliche Schulen."
+  answer: { value: false }
+  explanation: "Public schools sind teure Privatschulen; kostenlose Schulen heißen state schools."
+- key: q4
+  type: single_choice
+  prompt: "Woran erinnert Bonfire Night?"
+  options: ["An den Sieg über Napoleon", "An Guy Fawkes, der 1605 das Parlament sprengen wollte", "An die Krönung der Königin", "An das Ende des Zweiten Weltkriegs"]
+  answer: { index: 1 }
+  explanation: "„Remember, remember the fifth of November.“"
+- key: q5
+  type: single_choice
+  prompt: "Was tragen viele Briten am 11. November?"
+  options: ["Einen Kilt", "Eine rote Mohnblüte (poppy)", "Eine Papierkrone", "Ein Kleeblatt"]
+  answer: { index: 1 }
+  explanation: "Remembrance Day – die poppy erinnert an die Kriegstoten."
+- key: q6
+  type: multiple_choice
+  prompt: "Was ist typisch für den britischen Alltag?"
+  options: ["Anstehen (queuing)", "Tee mit Milch", "Rechtsverkehr", "fish and chips"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Im UK wird links gefahren."
+- key: q7
+  type: single_choice
+  prompt: "Was ist ein „form tutor“?"
+  options: ["Der Schulleiter", "Der Klassenlehrer", "Der Hausmeister", "Ein Nachhilfelehrer"]
+  answer: { index: 1 }
+  explanation: "form tutor = Klassenlehrer; head teacher = Schulleiter."
+- key: q8
+  type: single_choice
+  prompt: "Was bedeutet interkulturelle Kompetenz beim Vergleich von Schulsystemen?"
+  options: ["Das eigene System ist immer besser.", "Unterschiede erkennen und verstehen, ohne zu bewerten.", "Das andere System übernehmen.", "Unterschiede ignorieren."]
+  answer: { index: 1 }
+  explanation: "Vergleichen, nicht bewerten."

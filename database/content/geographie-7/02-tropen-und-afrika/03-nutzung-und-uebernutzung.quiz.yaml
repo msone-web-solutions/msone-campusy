@@ -1,0 +1,49 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Produkte stammen typischerweise aus den Tropen?"
+  options: ["Kakao", "Palmöl", "Weizen", "Kaffee"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Weizen wächst in der gemäßigten Zone."
+- key: q2
+  type: single_choice
+  prompt: "Welche zwei Länder liefern rund 60 % der Kakao-Welternte?"
+  options: ["Brasilien und Indien", "Elfenbeinküste und Ghana", "Indonesien und Malaysia", "Kenia und Äthiopien"]
+  answer: { index: 1 }
+  explanation: "Westafrika ist das Kakao-Zentrum der Welt."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet Monowirtschaft?"
+  options: ["Ein Betrieb baut nur eine Pflanze an", "Ein ganzes Land hängt wirtschaftlich von einem Produkt ab", "Ein Land hat nur eine Fabrik", "Ein Bauer verkauft an nur einen Händler"]
+  answer: { index: 1 }
+  explanation: "Beispiel: Sambia und das Kupfer."
+- key: q4
+  type: single_choice
+  prompt: "Warum ist Monowirtschaft riskant?"
+  options: ["Weil das Produkt zu billig ist", "Weil ein Preissturz am Weltmarkt das ganze Land trifft", "Weil zu viele Menschen arbeiten", "Weil der Boden zu fruchtbar wird"]
+  answer: { index: 1 }
+  explanation: "Dazu Schädlingsrisiko und fehlende eigene Nahrungsproduktion."
+- key: q5
+  type: gap_text
+  prompt: "Palmölplantagen zerstören vor allem den Regenwald in ___ und Malaysia. Regenwald ist der größte ___speicher an Land."
+  answer:
+    gaps:
+      - ["Indonesien"]
+      - ["Kohlenstoff", "CO2", "CO₂"]
+  explanation: "Indonesien; Kohlenstoffspeicher."
+- key: q6
+  type: true_false
+  prompt: "Rohstoffe aus den Tropen werden meist unverarbeitet exportiert – der Gewinn aus der Verarbeitung entsteht in Industrieländern."
+  answer: { value: true }
+  explanation: "Kakaobohnen raus, Schokolade wird in Europa hergestellt."
+- key: q7
+  type: single_choice
+  prompt: "Was ist Agroforst?"
+  options: ["Abholzen für Ackerland", "Anbau von Kakao oder Kaffee im Schatten von Bäumen statt in Monokultur", "Ein Forstamt", "Aufforstung mit nur einer Baumart"]
+  answer: { index: 1 }
+  explanation: "Der Boden bleibt geschützt, Artenvielfalt bleibt höher."
+- key: q8
+  type: single_choice
+  prompt: "Eine Online-Aktion verspricht: „Ein Klick pflanzt einen Baum.“ Wie bewertest du sie sinnvoll?"
+  options: ["Sofort mitmachen, klingt gut", "Prüfen, wer dahintersteht, wohin das Geld fließt und ob es Berichte gibt", "Ignorieren, alles Betrug", "Nur mitmachen, wenn Freunde es tun"]
+  answer: { index: 1 }
+  explanation: "Aktionen zur Raumbewahrung kritisch prüfen."

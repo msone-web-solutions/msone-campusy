@@ -1,0 +1,52 @@
+- key: q1
+  type: gap_text
+  prompt: "Tom has played the guitar ___ he was eight. He has had this guitar ___ six months."
+  answer:
+    gaps:
+      - ["since"]
+      - ["for"]
+  explanation: "since + Zeitpunkt (he was eight), for + Zeitraum (six months)."
+- key: q2
+  type: single_choice
+  prompt: "Welche Übersetzung ist richtig? „Ich lerne seit drei Jahren Englisch.“"
+  options: ["I learn English since three years.", "I have learnt English for three years.", "I am learning English since three years.", "I learnt English for three years."]
+  answer: { index: 1 }
+  explanation: "Bis heute andauernd → present perfect; Zeitraum → for."
+- key: q3
+  type: single_choice
+  prompt: "„Have you ___ eaten insects?“ – „No, I have ___ tried them.“"
+  options: ["never / ever", "ever / never", "yet / already", "just / yet"]
+  answer: { index: 1 }
+  explanation: "ever in der Frage (jemals), never in der Antwort (noch nie)."
+- key: q4
+  type: true_false
+  prompt: "„I haven't never been to Paris.“ ist korrekt."
+  answer: { value: false }
+  explanation: "never enthält schon die Verneinung: I have never been to Paris."
+- key: q5
+  type: single_choice
+  prompt: "Wo steht „yet“?"
+  options: ["I have yet done it.", "I yet have done it.", "I haven't done it yet.", "Yet I have done it."]
+  answer: { index: 2 }
+  explanation: "yet steht am Satzende in Verneinungen und Fragen."
+- key: q6
+  type: single_choice
+  prompt: "„Anna has gone to Spain.“ bedeutet:"
+  options: ["Anna war in Spanien und ist zurück.", "Anna ist in Spanien und noch dort.", "Anna fährt morgen nach Spanien.", "Anna mag Spanien."]
+  answer: { index: 1 }
+  explanation: "has gone to = ist hingefahren und noch dort; has been to = war dort und ist zurück."
+- key: q7
+  type: gap_text
+  prompt: "Ordne zu: gerade eben = ___, schon = ___, bisher = so ___"
+  answer:
+    gaps:
+      - ["just"]
+      - ["already"]
+      - ["far"]
+  explanation: "just – already – so far."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Ausdrücke passen zu „for“?"
+  options: ["two weeks", "Monday", "a long time", "2021", "ages"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "for + Zeitraum: two weeks, a long time, ages. Monday und 2021 sind Zeitpunkte → since."

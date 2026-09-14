@@ -1,0 +1,52 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie viele Staaten haben die USA?"
+  options: ["48", "50", "52", "13"]
+  answer: { index: 1 }
+  explanation: "50 Staaten – 48 zusammenhängende plus Alaska und Hawaii."
+- key: q2
+  type: single_choice
+  prompt: "Wofür stehen die 13 Streifen der US-Flagge?"
+  options: ["Für die 13 größten Städte", "Für die 13 Gründungskolonien", "Für 13 Präsidenten", "Für 13 Zeitzonen"]
+  answer: { index: 1 }
+  explanation: "13 Kolonien erklärten 1776 die Unabhängigkeit."
+- key: q3
+  type: gap_text
+  prompt: "Hollywood liegt in ___ (Stadt), die Golden Gate Bridge in ___."
+  answer:
+    gaps:
+      - ["Los Angeles"]
+      - ["San Francisco"]
+  explanation: "Beide in California."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Fluss hat den Grand Canyon gegraben?"
+  options: ["Mississippi", "Colorado River", "Hudson River", "Rio Grande"]
+  answer: { index: 1 }
+  explanation: "Der Colorado River – über Millionen Jahre."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Sehenswürdigkeiten liegen in New York City?"
+  options: ["Statue of Liberty", "Golden Gate Bridge", "Times Square", "Central Park"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Die Golden Gate Bridge steht in San Francisco."
+- key: q6
+  type: true_false
+  prompt: "Wenn es in New York 12 Uhr ist, ist es in Los Angeles 15 Uhr."
+  answer: { value: false }
+  explanation: "Los Angeles liegt drei Zeitzonen westlich: dort ist es erst 9 Uhr."
+- key: q7
+  type: single_choice
+  prompt: "Welcher Staat ist der größte?"
+  options: ["Texas", "California", "Alaska", "Florida"]
+  answer: { index: 2 }
+  explanation: "Alaska ist der größte, Texas der zweitgrößte Staat."
+- key: q8
+  type: gap_text
+  prompt: "American English: Herbst = ___, Aufzug = ___, Ferien = ___"
+  answer:
+    gaps:
+      - ["fall"]
+      - ["elevator"]
+      - ["vacation"]
+  explanation: "BE: autumn, lift, holiday."

@@ -1,0 +1,51 @@
+- key: q1
+  type: single_choice
+  prompt: "Du möchtest ein Kleidungsstück anprobieren. Was sagst du?"
+  options: ["Can I take it on?", "Can I try it on?", "Can I have it on?", "Can I look it on?"]
+  answer: { index: 1 }
+  explanation: "try on = anprobieren."
+- key: q2
+  type: gap_text
+  prompt: "„A ___ ticket to London, please.“ (hin und zurück) – „Which ___ does the train leave from?“"
+  answer:
+    gaps:
+      - ["return"]
+      - ["platform"]
+  explanation: "return ticket = Rückfahrkarte; platform = Bahnsteig."
+- key: q3
+  type: single_choice
+  prompt: "Der Arzt fragt „What's the matter?“. Was bedeutet das?"
+  options: ["Wie heißen Sie?", "Was fehlt Ihnen?", "Wie alt sind Sie?", "Was kostet das?"]
+  answer: { index: 1 }
+  explanation: "What's the matter? = Was ist los? / Was fehlt Ihnen?"
+- key: q4
+  type: single_choice
+  prompt: "Welche Reihenfolge ist bei einer Beschwerde sinnvoll?"
+  options: ["Manager verlangen – schimpfen – gehen", "Problem nennen – Beleg zeigen – Lösung fordern", "Geld verlangen – Problem nennen", "Ware wegwerfen – neue kaufen"]
+  answer: { index: 1 }
+  explanation: "Höflich und bestimmt: Problem, Beleg, Lösung."
+- key: q5
+  type: gap_text
+  prompt: "„I've got a sore ___.“ (Halsschmerzen) – „Take these ___ twice a day.“"
+  answer:
+    gaps:
+      - ["throat"]
+      - ["tablets", "pills"]
+  explanation: "sore throat = Halsschmerzen; tablets = Tabletten."
+- key: q6
+  type: single_choice
+  prompt: "„Eat in or take away?“ fragt man …"
+  options: ["im Kino", "im Café oder Imbiss", "beim Arzt", "am Bahnhof"]
+  answer: { index: 1 }
+  explanation: "Hier essen oder mitnehmen? – im Café/Imbiss."
+- key: q7
+  type: single_choice
+  prompt: "Jemand fragt nach dem Weg. Welche Antwort ist richtig formuliert?"
+  options: ["Go straight on and turn left at the traffic lights.", "Go straight and turn at left the lights.", "Straight go on, left turn.", "You go on straight and at lights turn left you."]
+  answer: { index: 0 }
+  explanation: "Go straight on, then turn left at the traffic lights."
+- key: q8
+  type: true_false
+  prompt: "„I'd like my money back.“ ist eine höfliche Art, eine Rückerstattung zu verlangen."
+  answer: { value: true }
+  explanation: "I'd like = ich hätte gern – höflich und klar."

@@ -1,0 +1,51 @@
+- key: q1
+  type: gap_text
+  prompt: "Feldnamen: Geburtsdatum = date of ___; Postleitzahl (BE) = ___"
+  answer:
+    gaps:
+      - ["birth"]
+      - ["postcode", "post code"]
+  explanation: "date of birth; postcode (BE) / zip code (AE)."
+- key: q2
+  type: single_choice
+  prompt: "Ein Sternchen (*) neben einem Feld bedeutet:"
+  options: ["Das Feld ist optional.", "Das Feld ist ein Pflichtfeld.", "Das Feld ist fehlerhaft.", "Hier kommt die Unterschrift hin."]
+  answer: { index: 1 }
+  explanation: "* = required field."
+- key: q3
+  type: single_choice
+  prompt: "Wie schreibt man den 5. März 2013 im britischen Datumsformat?"
+  options: ["03/05/2013", "05/03/2013", "2013/05/03", "5.3.13"]
+  answer: { index: 1 }
+  explanation: "BE: Tag/Monat/Jahr → 05/03/2013."
+- key: q4
+  type: multiple_choice
+  prompt: "Was solltest du nie ohne Rücksprache mit den Eltern in ein Online-Formular eintragen?"
+  options: ["Passwörter", "deinen Vornamen", "Kontodaten", "die Ausweisnummer"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Passwörter, Kontodaten und Ausweisnummern sind tabu."
+- key: q5
+  type: single_choice
+  prompt: "Welche Frage ist eine offene Frage?"
+  options: ["Do you like football?", "Are you from Halle?", "What do you like about football?", "Can you swim?"]
+  answer: { index: 2 }
+  explanation: "W-Fragen lassen sich nicht mit Ja/Nein beantworten."
+- key: q6
+  type: gap_text
+  prompt: "Bilde die Frage: „Where ___ you grow up?“ – „How ___ have you lived here?“"
+  answer:
+    gaps:
+      - ["did"]
+      - ["long"]
+  explanation: "Where did you grow up? – How long have you lived here?"
+- key: q7
+  type: single_choice
+  prompt: "Womit beendet man ein Interview höflich?"
+  options: ["That's all, bye.", "Thank you very much for the interview.", "Stop.", "Finished!"]
+  answer: { index: 1 }
+  explanation: "Ein Dank zum Abschluss gehört dazu."
+- key: q8
+  type: true_false
+  prompt: "„Tick the box“ heißt: das Kästchen ankreuzen."
+  answer: { value: true }
+  explanation: "tick = Häkchen setzen."

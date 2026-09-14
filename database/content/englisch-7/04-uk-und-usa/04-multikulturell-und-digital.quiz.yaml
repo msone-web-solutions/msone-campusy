@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bedeutet „melting pot“?"
+  options: ["Ein Kochtopf", "Alle Einwanderer verschmelzen zu einer Kultur", "Jeder lebt für sich", "Ein Stadtteil von New York"]
+  answer: { index: 1 }
+  explanation: "Schmelztiegel – im Gegensatz zur salad bowl."
+- key: q2
+  type: gap_text
+  prompt: "Englisch: Vorurteil = ___, Vielfalt = ___"
+  answer:
+    gaps:
+      - ["prejudice"]
+      - ["diversity"]
+  explanation: "prejudice – diversity."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche vier Grundfunktionen haben Medien?"
+  options: ["Information", "Unterhaltung", "Bildung", "Werbung", "Schlaf"]
+  answer: { indexes: [0, 1, 2, 3] }
+  explanation: "Information, Unterhaltung, Bildung, Werbung."
+- key: q4
+  type: single_choice
+  prompt: "Welche Chatregel schützt deine Daten?"
+  options: ["Alles in Großbuchstaben schreiben", "Einen Username statt des vollen Namens benutzen", "Fremde treffen", "Fotos von Freunden posten"]
+  answer: { index: 1 }
+  explanation: "Username statt Klarname, keine Adresse, keine Fotos ohne Erlaubnis."
+- key: q5
+  type: true_false
+  prompt: "Nach 1945 kamen viele Einwanderer aus früheren Kolonien wie Indien und Jamaika ins UK."
+  answer: { value: true }
+  explanation: "Das prägt die britische Gesellschaft bis heute."
+- key: q6
+  type: single_choice
+  prompt: "Du entdeckst eine unglaubliche Nachricht auf Social Media. Was tust du zuerst?"
+  options: ["Sofort teilen", "Quelle und Datum prüfen und schauen, ob es das woanders gibt", "Kommentieren", "Screenshot machen"]
+  answer: { index: 1 }
+  explanation: "Check before you share – fake news erkennen."
+- key: q7
+  type: single_choice
+  prompt: "Was heißt „Would you say it to their face?“ im Zusammenhang mit Chatregeln?"
+  options: ["Sprich nur persönlich.", "Schreib nichts, was du der Person nicht ins Gesicht sagen würdest.", "Zeige immer dein Gesicht im Profil.", "Sag Fremden deinen Namen."]
+  answer: { index: 1 }
+  explanation: "Think before you post."
+- key: q8
+  type: gap_text
+  prompt: "Wenn online etwas komisch ist: „Tell an ___.“"
+  answer:
+    gaps:
+      - ["adult"]
+  explanation: "Eltern, Lehrer oder die Meldefunktion einschalten."

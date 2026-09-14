@@ -1,0 +1,49 @@
+- key: q1
+  type: single_choice
+  prompt: "„The man ___ lives next door is a doctor.“"
+  options: ["which", "who", "whose", "where"]
+  answer: { index: 1 }
+  explanation: "Person → who."
+- key: q2
+  type: single_choice
+  prompt: "„This is the laptop ___ I use for school.“"
+  options: ["who", "which", "whose", "where"]
+  answer: { index: 1 }
+  explanation: "Ding → which (oder that)."
+- key: q3
+  type: single_choice
+  prompt: "„Is that the girl ___ bike was stolen?“"
+  options: ["who", "which", "whose", "that"]
+  answer: { index: 2 }
+  explanation: "Besitz → whose."
+- key: q4
+  type: multiple_choice
+  prompt: "In welchen Sätzen darf das Relativpronomen wegfallen?"
+  options: ["The film which we watched was boring.", "The boy who broke the window ran away.", "The pizza that I ordered was cold.", "The woman who lives upstairs is loud."]
+  answer: { indexes: [0, 2] }
+  explanation: "Nach which/that folgt we bzw. I → Objekt → weglassbar. Nach who folgt ein Verb → Subjekt → Pflicht."
+- key: q5
+  type: gap_text
+  prompt: "Verbinde ohne Relativpronomen: „That's the song. I like it.“ → That's the song ___ ___."
+  answer:
+    gaps:
+      - ["I"]
+      - ["like"]
+  explanation: "That's the song I like. – das „it“ fällt weg."
+- key: q6
+  type: true_false
+  prompt: "Vor einem notwendigen Relativsatz steht im Englischen ein Komma."
+  answer: { value: false }
+  explanation: "Kein Komma: The man who called was my uncle."
+- key: q7
+  type: single_choice
+  prompt: "Welcher Satz ist falsch?"
+  options: ["The cake which my mum made was delicious.", "The cake my mum made was delicious.", "The cake which my mum made it was delicious.", "The cake that my mum made was delicious."]
+  answer: { index: 2 }
+  explanation: "Das Objekt darf nicht doppelt genannt werden (which … it)."
+- key: q8
+  type: single_choice
+  prompt: "„This is the town ___ I grew up.“"
+  options: ["which", "who", "where", "whose"]
+  answer: { index: 2 }
+  explanation: "Ort → where."

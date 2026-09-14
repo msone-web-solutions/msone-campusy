@@ -1,0 +1,50 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Übersetzen und Sprachmittlung?"
+  options: ["Kein Unterschied", "Sprachmittlung gibt nur das situationsrelevante Wichtige sinngemäß wieder", "Übersetzen ist mündlich, Sprachmittlung schriftlich", "Sprachmittlung ist immer länger"]
+  answer: { index: 1 }
+  explanation: "Mediation = Inhalt sinngemäß und passend zur Situation vermitteln."
+- key: q2
+  type: single_choice
+  prompt: "Ein deutscher Fahrplan-Aushang: „Wegen Bauarbeiten fährt der Bus 22 bis Freitag nicht. Bitte Linie 24 benutzen.“ Dein englischer Gast will zum Bahnhof. Was sagst du?"
+  options: ["The bus doesn't go.", "Bus 22 isn't running until Friday because of roadworks – take bus 24 instead.", "Because of construction works line twenty-two is cancelled until Friday, please use line twenty-four, thank you for your understanding."]
+  answer: { index: 1 }
+  explanation: "Kurz, klar, mit der wichtigen Alternative. Antwort 1 ist zu wenig, Antwort 3 unnötig wörtlich."
+- key: q3
+  type: gap_text
+  prompt: "Dir fehlt das Wort „Rasenmäher“. Umschreibung: „It's a ___ you use to cut the grass.“"
+  answer:
+    gaps:
+      - ["machine", "thing", "tool"]
+  explanation: "Umschreiben mit Oberbegriff und Zweck."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Strategien helfen, wenn ein Wort fehlt?"
+  options: ["umschreiben", "schweigen", "ein Beispiel geben", "das Gegenteil nennen", "auf Deutsch weiterreden"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Umschreiben, Beispiel, Gegenteil – nicht stecken bleiben."
+- key: q5
+  type: single_choice
+  prompt: "Wie erklärst du „Abitur“ einem englischen Gast?"
+  options: ["Abitur.", "It's the final exam at the end of school, like your A-levels.", "It's a German word.", "It's a school."]
+  answer: { index: 1 }
+  explanation: "Deutsche Besonderheiten kurz erklären und vergleichen."
+- key: q6
+  type: gap_text
+  prompt: "Vermitteln im Gespräch: „She ___ that the museum closes at five.“ – „He ___ to know if there is a discount.“"
+  answer:
+    gaps:
+      - ["says"]
+      - ["wants"]
+  explanation: "She says that … – He wants to know if …"
+- key: q7
+  type: true_false
+  prompt: "Bei der Sprachmittlung muss man jedes Wort des Textes verstehen."
+  answer: { value: false }
+  explanation: "Skimming und Scanning reichen: die Hauptaussagen finden."
+- key: q8
+  type: single_choice
+  prompt: "Was ist der erste Schritt bei einer Sprachmittlung?"
+  options: ["Sofort losübersetzen", "Klären, wer welche Information wofür braucht", "Ein Wörterbuch holen", "Den Text abschreiben"]
+  answer: { index: 1 }
+  explanation: "Die Situation bestimmt, was wichtig ist."

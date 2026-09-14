@@ -1,0 +1,54 @@
+- key: q1
+  type: gap_text
+  prompt: "Cars ___ (produce) in Wolfsburg. – The letter ___ (send) yesterday."
+  answer:
+    gaps:
+      - ["are produced"]
+      - ["was sent"]
+  explanation: "Mehrzahl simple present: are produced; simple past: was sent."
+- key: q2
+  type: single_choice
+  prompt: "Setze ins Passiv: „Somebody stole my bike.“"
+  options: ["My bike is stolen.", "My bike was stolen.", "Somebody was stolen my bike.", "My bike stole."]
+  answer: { index: 1 }
+  explanation: "stole (simple past) → was stolen; „by somebody“ lässt man weg."
+- key: q3
+  type: single_choice
+  prompt: "Wann benutzt man das Passiv?"
+  options: ["Wenn der Täter besonders wichtig ist", "Wenn der Täter unwichtig, unbekannt oder selbstverständlich ist", "Nur in Fragen", "Nur in der Vergangenheit"]
+  answer: { index: 1 }
+  explanation: "Im Passiv steht das Ergebnis im Mittelpunkt, nicht der Täter."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Satz ist Aktiv?"
+  options: ["The cake was eaten by the dog.", "The dog ate the cake.", "The cake is eaten.", "The cake has been eaten."]
+  answer: { index: 1 }
+  explanation: "The dog ate the cake – der Täter (dog) ist Subjekt."
+- key: q5
+  type: gap_text
+  prompt: "Setze ins Passiv: „The teacher corrects the tests.“ → The tests ___ ___ by the teacher."
+  answer:
+    gaps:
+      - ["are"]
+      - ["corrected"]
+  explanation: "Mehrzahl + simple present → are corrected."
+- key: q6
+  type: true_false
+  prompt: "Im Passiv wird der Täter immer mit „by“ genannt."
+  answer: { value: false }
+  explanation: "Nur wenn die Information wichtig ist; „by someone“ lässt man weg."
+- key: q7
+  type: single_choice
+  prompt: "„The homework ___ by Monday.“"
+  options: ["must do", "must be done", "must done", "must be do"]
+  answer: { index: 1 }
+  explanation: "Modalverb + be + 3. Form: must be done."
+- key: q8
+  type: gap_text
+  prompt: "3. Form: write → ___, build → ___, speak → ___"
+  answer:
+    gaps:
+      - ["written"]
+      - ["built"]
+      - ["spoken"]
+  explanation: "write – wrote – written; build – built – built; speak – spoke – spoken."

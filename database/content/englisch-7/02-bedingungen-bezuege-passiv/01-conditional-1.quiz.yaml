@@ -1,0 +1,52 @@
+- key: q1
+  type: gap_text
+  prompt: "If you ___ (eat) too much, you ___ (feel) sick."
+  answer:
+    gaps:
+      - ["eat"]
+      - ["will feel", "'ll feel"]
+  explanation: "if + simple present, will + Infinitiv."
+- key: q2
+  type: single_choice
+  prompt: "Welcher Satz ist falsch?"
+  options: ["If she calls, I will answer.", "I will answer if she calls.", "If she will call, I will answer.", "If she doesn't call, I won't answer."]
+  answer: { index: 2 }
+  explanation: "Im if-Satz steht nie will."
+- key: q3
+  type: gap_text
+  prompt: "Tom ___ (not / pass) the test if he ___ (not / study)."
+  answer:
+    gaps:
+      - ["won't pass", "will not pass"]
+      - ["doesn't study", "does not study"]
+  explanation: "Hauptsatz: won't pass; if-Satz: doesn't study."
+- key: q4
+  type: single_choice
+  prompt: "„Unless you hurry, you'll miss the train.“ bedeutet:"
+  options: ["Wenn du dich beeilst, verpasst du den Zug.", "Wenn du dich nicht beeilst, verpasst du den Zug.", "Beeil dich nicht, der Zug ist weg.", "Du verpasst den Zug sowieso."]
+  answer: { index: 1 }
+  explanation: "unless = if … not."
+- key: q5
+  type: true_false
+  prompt: "Steht der if-Satz am Anfang, wird ein Komma gesetzt."
+  answer: { value: true }
+  explanation: "If I have time, I will call you. – I will call you if I have time."
+- key: q6
+  type: single_choice
+  prompt: "Welches Wort passt? „___ I'm 18, I'll get my driving licence.“ (das passiert sicher)"
+  options: ["If", "When", "Unless", "Because"]
+  answer: { index: 1 }
+  explanation: "when für Sicheres, if für Mögliches."
+- key: q7
+  type: multiple_choice
+  prompt: "Was kann im Hauptsatz eines Conditional I stehen?"
+  options: ["will + Infinitiv", "ein Modalverb (can, must)", "eine Aufforderung", "simple past"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "will, Modalverben und Aufforderungen sind möglich; simple past gehört zum Conditional II."
+- key: q8
+  type: gap_text
+  prompt: "If you see Anna, ___ (tell) her I'm here."
+  answer:
+    gaps:
+      - ["tell"]
+  explanation: "Aufforderung im Hauptsatz: tell her."

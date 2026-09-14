@@ -1,0 +1,53 @@
+- key: q1
+  type: gap_text
+  prompt: "It's hot today, ___ ___?"
+  answer:
+    gaps:
+      - ["isn't"]
+      - ["it"]
+  explanation: "It's = it is → isn't it?"
+- key: q2
+  type: gap_text
+  prompt: "You don't like fish, ___ ___?"
+  answer:
+    gaps:
+      - ["do"]
+      - ["you"]
+  explanation: "Verneinte Aussage → bejahter tag: do you?"
+- key: q3
+  type: single_choice
+  prompt: "„Sarah plays the piano, …“"
+  options: ["isn't she?", "doesn't she?", "don't she?", "plays she?"]
+  answer: { index: 1 }
+  explanation: "Vollverb in der 3. Person → doesn't she?"
+- key: q4
+  type: single_choice
+  prompt: "„They went to Rome last year, …“"
+  options: ["didn't they?", "don't they?", "weren't they?", "haven't they?"]
+  answer: { index: 0 }
+  explanation: "went = simple past mit Vollverb → didn't they?"
+- key: q5
+  type: single_choice
+  prompt: "„I'm right, …“"
+  options: ["amn't I?", "am I not?", "aren't I?", "don't I?"]
+  answer: { index: 2 }
+  explanation: "Nach I am lautet der tag aren't I?"
+- key: q6
+  type: single_choice
+  prompt: "„Let's start, …“"
+  options: ["shall we?", "will we?", "don't we?", "let we?"]
+  answer: { index: 0 }
+  explanation: "Nach Let's folgt shall we?"
+- key: q7
+  type: true_false
+  prompt: "Wenn die Stimme beim question tag fällt, ist man sich sicher und sucht nur Zustimmung."
+  answer: { value: true }
+  explanation: "Fallende Stimme = Zustimmung suchen; steigende Stimme = echte Frage."
+- key: q8
+  type: gap_text
+  prompt: "He won't be late, ___ ___?"
+  answer:
+    gaps:
+      - ["will"]
+      - ["he"]
+  explanation: "won't (verneint) → bejahter tag: will he?"
