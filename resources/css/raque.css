@@ -189,10 +189,10 @@
 
 /* ---- ground ------------------------------------------------------ */
 .rq { font-family: var(--font-sans); font-size: var(--fs-base); line-height: var(--lh-base); color: var(--text-body); background: var(--surface-page); -webkit-font-smoothing: antialiased; }
-.rq a { color: inherit; text-decoration: none; transition: var(--transition); }
-.rq a:hover { color: var(--color-primary); }
-.rq p { margin: 0; font-family: var(--font-sans); font-size: var(--fs-base); line-height: var(--lh-base); color: var(--text-body); }
-.rq h1, .rq h2, .rq h3, .rq h4 { margin: 0; font-family: var(--font-sans); color: var(--text-heading); }
+:where(.rq) a { color: inherit; text-decoration: none; transition: var(--transition); }
+:where(.rq) a:hover { color: var(--color-primary); }
+:where(.rq) p { margin: 0; font-family: var(--font-sans); font-size: var(--fs-base); line-height: var(--lh-base); color: var(--text-body); }
+:where(.rq) h1, :where(.rq) h2, :where(.rq) h3, :where(.rq) h4 { margin: 0; font-family: var(--font-sans); color: var(--text-heading); }
 .rq-container { max-width: var(--container-xl); margin: 0 auto; padding: 0 15px; }
 .rq main { min-height: 60vh; }
 
@@ -219,7 +219,7 @@
 .rq-navbar__nav { list-style: none; margin: 0 0 0 auto; padding: 0; display: flex; align-items: center; flex-wrap: wrap; min-width: 0; }
 .rq-navbar__link { position: relative; display: inline-flex; align-items: center; padding: 7px 15px 10px; font-size: var(--fs-nav); font-weight: var(--fw-medium); line-height: 21px; color: var(--genius-white); text-transform: uppercase; border-radius: var(--radius); z-index: 1; white-space: nowrap; }
 .rq-navbar__link::before { content: ''; position: absolute; inset: 0; border-radius: var(--radius); background-image: var(--gradient); background-size: var(--gradient-size); opacity: 0; transition: var(--transition); z-index: -1; }
-.rq-navbar__link:hover, .rq-navbar__link.is-active { color: var(--genius-white); }
+.rq-navbar__link:hover, .rq-navbar__link.is-active, .rq-navbar__login:hover, .rq-crumbs a:hover, .rq-footer__links a:hover, .rq-footer__legal a:hover { color: var(--genius-white); }
 .rq-navbar__link:hover::before, .rq-navbar__link.is-active::before { opacity: 1; }
 .rq-navbar__link i { display: none; }
 .rq-navbar__actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
