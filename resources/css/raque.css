@@ -205,7 +205,6 @@
 /* ---- site header: transparent, overlays the page top ------------ */
 .rq-topbar { display: none; }
 .rq-navbar { position: relative; z-index: 30; background: var(--genius-hero); }
-.rq-navbar::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
 .rq-navbar > .rq-container { position: relative; }
 .rq-navbar__inner { display: flex; align-items: center; gap: var(--space-30); padding: 25px 0; }
 .rq-navbar__brand { flex-shrink: 0; font-size: 22px; font-weight: var(--fw-bold); color: var(--genius-white); text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; letter-spacing: .5px; }
@@ -215,12 +214,13 @@
 .rq-navbar__search input { display: block; width: 100%; height: var(--field-height-sm); padding: 0 46px 0 15px; font-family: var(--font-sans); font-size: var(--fs-meta); color: var(--text-heading); background: var(--genius-field-search); border: 0; border-radius: var(--radius-md); outline: none; }
 .rq-navbar__search input:focus { outline: 2px solid var(--color-primary); outline-offset: 0; }
 .rq-navbar__search input::placeholder { color: var(--text-muted); }
-.rq-navbar__search button { position: absolute; right: 4px; top: 4px; width: 34px; height: 34px; border: 0; padding: 0; font-size: 16px; border-radius: var(--radius); color: var(--genius-white); background-image: var(--gradient); background-size: var(--gradient-size); cursor: pointer; }
+.rq-navbar__search button { position: absolute; right: 4px; top: 4px; width: 34px; height: 34px; border: 0; padding: 0; font-size: 16px; border-radius: var(--radius); color: var(--genius-white); background: var(--genius-teal); cursor: pointer; }
 .rq-navbar__nav { list-style: none; margin: 0 0 0 auto; padding: 0; display: flex; align-items: center; flex-wrap: wrap; min-width: 0; }
 .rq-navbar__link { position: relative; display: inline-flex; align-items: center; padding: 7px 15px 10px; font-size: var(--fs-nav); font-weight: var(--fw-medium); line-height: 21px; color: var(--genius-white); text-transform: uppercase; border-radius: var(--radius); z-index: 1; white-space: nowrap; }
 .rq-navbar__link::before { content: ''; position: absolute; inset: 0; border-radius: var(--radius); background-image: var(--gradient); background-size: var(--gradient-size); opacity: 0; transition: var(--transition); z-index: -1; }
 .rq-navbar__link:hover, .rq-navbar__link.is-active, .rq-navbar__login:hover, .rq-crumbs a:hover, .rq-footer__links a:hover, .rq-footer__legal a:hover { color: var(--genius-white); }
-.rq-navbar__link:hover::before, .rq-navbar__link.is-active::before { opacity: 1; }
+.rq-navbar__link:hover::before { opacity: 1; }
+.rq-navbar__link.is-active { box-shadow: inset 0 -2px 0 var(--genius-teal); border-radius: 0; }
 .rq-navbar__link i { display: none; }
 .rq-navbar__actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .rq-navbar__count { display: inline-flex; align-items: center; justify-content: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: var(--radius-chip); background: var(--genius-trend); color: #fff; font-size: 11px; font-weight: var(--fw-bold); margin-left: 6px; line-height: 1; }
@@ -275,7 +275,7 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 .rq-section--tight { padding: var(--section-pad-y-compact) 0; }
 .rq-section--panel { background: var(--surface-alt); }
 .rq-section--primary { background: var(--genius-hero); padding: 80px 0; position: relative; }
-.rq-section--primary::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
+.rq-section--primary::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 85% 20%, rgba(255, 255, 255, .08), transparent 45%); }
 .rq-section--primary > * { position: relative; }
 
 .rq-eyebrow { display: block; font-size: var(--fs-base); font-weight: var(--fw-regular); line-height: var(--lh-base); text-transform: uppercase; color: var(--text-eyebrow); margin-bottom: 10px; }
@@ -298,8 +298,8 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 
 /* ---- hero (landing): illustration ground continuing the header band ---- */
 .rq-hero-band { position: relative; background: var(--genius-hero); padding: 90px 0 110px; overflow: hidden; }
-.rq-hero-band::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
-.rq-hero-band::after { content: ''; position: absolute; right: -8%; bottom: -30%; width: 55%; aspect-ratio: 1; border-radius: 50%; background: rgba(255, 255, 255, .07); }
+.rq-hero-band::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 15%, rgba(255, 255, 255, .12), transparent 45%), radial-gradient(ellipse at 0% 110%, rgba(0, 0, 0, .2), transparent 50%); }
+.rq-hero-band::after { content: ''; position: absolute; left: -10%; right: -10%; bottom: -90px; height: 160px; border-radius: 50% 50% 0 0 / 100% 100% 0 0; background: var(--genius-white); opacity: .12; }
 .rq-hero-band > .rq-container { position: relative; z-index: 2; }
 .rq-hero-band .rq-eyebrow--tracked { color: rgba(255, 255, 255, .8); }
 .rq-hero-band .rq-eyebrow--tracked::before, .rq-hero-band .rq-eyebrow--tracked::after { background: var(--genius-white); box-shadow: 14px 0 0 var(--genius-white); }
@@ -334,7 +334,7 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 .rq-card__body { padding: 20px 25px 25px; }
 
 /* profile card: teacher-style portrait in a gradient ring */
-.rq-profile__cover { padding-top: 40px; background-image: var(--gradient); background-size: var(--gradient-size); border-radius: var(--radius) var(--radius) 0 0; }
+.rq-profile__cover { padding-top: 40px; background: var(--genius-hero); border-radius: var(--radius) var(--radius) 0 0; }
 .rq-profile__avatar { margin: 0 auto -45px; width: var(--avatar-xxl); height: var(--avatar-xxl); border-radius: var(--radius-round); border: 5px solid transparent; background: var(--gradient-border) border-box; position: relative; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: var(--fw-bold); color: var(--text-heading); }
 .rq-profile__avatar::before { content: ''; position: absolute; inset: 0; border-radius: var(--radius-round); background: var(--genius-white); z-index: -1; }
 .rq-profile__head { padding: 60px 25px 15px; text-align: center; }
@@ -372,7 +372,7 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 /* banner card: gradient band */
 .rq-banner-card { padding: 0; overflow: hidden; }
 .rq-banner-card__inner { position: relative; border-radius: var(--radius); overflow: hidden; background: var(--genius-hero); min-height: 220px; }
-.rq-banner-card__inner::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
+.rq-banner-card__inner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 85% 15%, rgba(255, 255, 255, .12), transparent 45%); }
 .rq-banner-card__overlay { position: relative; padding: 30px 25px; display: flex; flex-direction: column; justify-content: flex-end; min-height: 220px; }
 .rq-banner-card__eyebrow { display: block; margin-bottom: 10px; font-size: var(--fs-sm); font-weight: var(--fw-bold); text-transform: uppercase; color: var(--genius-white); letter-spacing: 1px; }
 .rq-banner-card h4 { font-size: var(--fs-card-title); font-weight: var(--fw-light); color: var(--genius-white); line-height: var(--lh-card-title); margin-bottom: 20px; }
@@ -388,7 +388,7 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 
 .rq-course { display: flex; flex-direction: column; background: transparent; }
 .rq-course__media { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; background: var(--genius-hero); }
-.rq-course__media::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; transition: transform var(--transition); }
+.rq-course__media::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 20%, rgba(255, 255, 255, .12), transparent 45%); transition: transform var(--transition); }
 .rq-course:hover .rq-course__media::before { transform: scale(1.06); }
 .rq-course__media i { position: relative; font-size: 64px; color: var(--genius-white); }
 .rq-course__body { padding: 20px 0 15px; flex: 1; }
@@ -420,15 +420,14 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 .rq-testimonial p strong { font-weight: var(--fw-bold); }
 
 .rq-cta { background: var(--genius-hero); padding: 100px 0; position: relative; }
-.rq-cta::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
+.rq-cta::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 85% 20%, rgba(255, 255, 255, .08), transparent 45%); }
 .rq-cta__inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 30px; flex-wrap: wrap; }
 .rq-cta h2 { max-width: 700px; font-size: var(--fs-section); font-weight: var(--fw-light); line-height: var(--lh-section); color: var(--genius-white); text-wrap: balance; }
 .rq-cta h2 strong { font-weight: var(--fw-bold); }
 
 /* ---- page top: coloured band the header overlays ----------------- */
 .rq-page-banner { position: relative; width: 100%; min-height: 280px; background: var(--genius-hero); overflow: hidden; }
-.rq-page-banner::before { content: ''; position: absolute; inset: 0; background-image: var(--gradient); background-size: var(--gradient-size); opacity: .85; }
-.rq-page-banner::after { content: ''; position: absolute; right: -10%; top: -40%; width: 60%; aspect-ratio: 1; border-radius: 50%; background: rgba(255, 255, 255, .06); }
+.rq-page-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 85% 20%, rgba(255, 255, 255, .10), transparent 45%), radial-gradient(ellipse at 10% 110%, rgba(0, 0, 0, .18), transparent 50%); }
 .rq-page-banner .rq-container { position: relative; z-index: 2; display: flex; flex-direction: column; padding-top: 50px; padding-bottom: 60px; }
 .rq-page-banner h1 { font-size: var(--fs-display-sm); font-weight: var(--fw-thin); line-height: var(--lh-display-sm); color: var(--genius-white); margin: 6px 0 0; text-wrap: balance; order: 2; }
 .rq-page-banner h1 strong { font-weight: var(--fw-bold); }
