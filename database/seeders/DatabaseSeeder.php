@@ -18,18 +18,20 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Ohne Factory, damit der Seeder auch ohne Dev-Abhängigkeiten (Faker) in Produktion läuft.
-        $parent = User::query()->firstOrCreate(['email' => 'eltern@example.com'], [
+        $parent = User::query()->firstOrCreate(['email' => 'dad@msone.cloud'], [
             'name' => 'Sarah Schneider',
             'role' => UserRole::Parent,
             'password' => 'password',
+            'must_change_password' => true,
             'email_verified_at' => now(),
         ]);
 
-        User::query()->firstOrCreate(['email' => 'alexa@example.com'], [
+        User::query()->firstOrCreate(['email' => 'alexa@msone.cloud'], [
             'name' => 'Alexa Schneider',
             'role' => UserRole::Student,
             'parent_id' => $parent->id,
             'password' => 'password',
+            'must_change_password' => true,
             'email_verified_at' => now(),
         ]);
 
