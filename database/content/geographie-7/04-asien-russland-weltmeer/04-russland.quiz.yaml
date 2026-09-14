@@ -1,0 +1,48 @@
+- key: q1
+  type: numeric
+  prompt: "Über wie viele Zeitzonen erstreckt sich Russland?"
+  answer: { value: 11 }
+  explanation: "Elf Zeitzonen von der Ostsee bis zum Pazifik."
+- key: q2
+  type: single_choice
+  prompt: "Welches Gebirge trennt den europäischen vom asiatischen Teil Russlands?"
+  options: ["Kaukasus", "Ural", "Altai", "Alpen"]
+  answer: { index: 1 }
+  explanation: "Der Ural – östlich davon liegt Sibirien."
+- key: q3
+  type: single_choice
+  prompt: "Welche Vegetation hat die Tundra?"
+  options: ["Nadelwald", "Moose, Flechten, Zwergsträucher – keine Bäume", "Gras und Schwarzerde", "Laubwald"]
+  answer: { index: 1 }
+  explanation: "Der Sommer ist zu kurz und kalt für Bäume."
+- key: q4
+  type: gap_text
+  prompt: "Der ganzjährig gefrorene Boden heißt ___. Der größte Wald der Erde ist die ___."
+  answer:
+    gaps:
+      - ["Dauerfrostboden", "Permafrost", "Permafrostboden"]
+      - ["Taiga"]
+  explanation: "Dauerfrostboden (Permafrost); Taiga."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Ressourcen machen Russland reich?"
+  options: ["Erdgas", "Erdöl", "Kakao", "Nickel und Diamanten"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Kakao wächst in den Tropen."
+- key: q6
+  type: single_choice
+  prompt: "Was ist die Transsibirische Eisenbahn?"
+  options: ["Eine U-Bahn in Moskau", "Die 9300 km lange Bahnstrecke von Moskau nach Wladiwostok", "Eine Pipeline", "Ein Schiff"]
+  answer: { index: 1 }
+  explanation: "Seit 1916 die Lebensader Sibiriens."
+- key: q7
+  type: single_choice
+  prompt: "Warum ist das Auftauen des Permafrosts ein Teufelskreis?"
+  options: ["Weil es dann regnet", "Weil Methan entweicht, das den Klimawandel weiter anheizt", "Weil Bäume wachsen", "Weil die Flüsse zufrieren"]
+  answer: { index: 1 }
+  explanation: "Mehr Wärme → mehr Tauen → mehr Methan → mehr Wärme."
+- key: q8
+  type: true_false
+  prompt: "Russland ist wie ein Ölstaat stark vom Export von Öl und Gas abhängig."
+  answer: { value: true }
+  explanation: "Über die Hälfte der Exporteinnahmen – eine Form der Monowirtschaft."
