@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Ein Körper hat eine sechseckige Grundfläche, eine gleiche Deckfläche und rechteckige Seitenflächen. Wie heißt er?"
+  options: ["Sechseckpyramide", "Sechseckprisma", "Zylinder", "Würfel"]
+  answer: { index: 1 }
+  explanation: "Vieleck-Grundfläche + gleiche Deckfläche + Rechtecke = Prisma."
+- key: q2
+  type: single_choice
+  prompt: "Eine Eistüte hat die Form eines …"
+  options: ["Zylinders", "Kegels", "Pyramide", "Prismas"]
+  answer: { index: 1 }
+  explanation: "Kreisförmige Öffnung und eine Spitze: Kegel."
+- key: q3
+  type: numeric
+  prompt: "Wie viele Kanten hat ein Quader?"
+  answer: { value: 12 }
+  explanation: "4 unten, 4 oben, 4 senkrechte = 12."
+- key: q4
+  type: numeric
+  prompt: "Wie viele Ecken hat eine quadratische Pyramide?"
+  answer: { value: 5 }
+  explanation: "4 Ecken der Grundfläche + 1 Spitze = 5."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Flächen hat ein Dreiecksprisma?"
+  answer: { value: 5 }
+  explanation: "2 Dreiecke (Grund- und Deckfläche) + 3 Rechtecke = 5."
+- key: q6
+  type: true_false
+  prompt: "Ein Würfel ist ein Prisma."
+  answer: { value: true }
+  explanation: "Quadratische Grundfläche, gleiche Deckfläche, rechteckige (hier quadratische) Seitenflächen – ein Prisma."
+- key: q7
+  type: single_choice
+  prompt: "Welcher Körper hat keine einzige Ecke und keine Kante?"
+  options: ["Zylinder", "Kegel", "Kugel", "Pyramide"]
+  answer: { index: 2 }
+  explanation: "Die Kugel hat nur eine gebogene Oberfläche."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Körper laufen in einer Spitze zusammen?"
+  options: ["Prisma", "Pyramide", "Zylinder", "Kegel", "Kugel"]
+  answer: { indexes: [1, 3] }
+  explanation: "Pyramide (Vieleck-Grundfläche) und Kegel (Kreis-Grundfläche) haben eine Spitze."
+- key: q9
+  type: single_choice
+  prompt: "Ein Haus besteht aus einem quaderförmigen Unterbau und einem Satteldach. Aus welchen Körpern ist es zusammengesetzt?"
+  options: ["Quader + Pyramide", "Quader + Dreiecksprisma", "Quader + Kegel", "Zylinder + Kegel"]
+  answer: { index: 1 }
+  explanation: "Ein Satteldach ist ein liegendes Dreiecksprisma."
+- key: q10
+  type: gap_text
+  prompt: "Der senkrechte Abstand zwischen Grundfläche und Deckfläche heißt ___. Bei Zylinder und Kegel heißt die gebogene Seitenfläche ___."
+  answer:
+    gaps:
+      - ["Körperhöhe", "Höhe"]
+      - ["Mantel", "Mantelfläche"]
+  explanation: "Körperhöhe h und Mantelfläche."
+- key: q11
+  type: numeric
+  prompt: "Wie viele Kanten hat ein Prisma mit einem Fünfeck als Grundfläche?"
+  answer: { value: 15 }
+  explanation: "3 · 5 = 15 (5 unten, 5 oben, 5 senkrecht)."
+- key: q12
+  type: single_choice
+  prompt: "Was unterscheidet einen Zylinder von einem Prisma?"
+  options:
+    - "Der Zylinder hat eine Spitze."
+    - "Beim Zylinder sind Grund- und Deckfläche Kreise, beim Prisma Vielecke."
+    - "Der Zylinder hat keine Deckfläche."
+  answer: { index: 1 }
+  explanation: "Beide haben Grund- und Deckfläche, aber beim Zylinder sind es Kreise und die Seitenfläche ist gebogen."

@@ -1,0 +1,73 @@
+- key: q1
+  type: numeric
+  prompt: "Aus wie vielen Quadraten besteht das Netz eines Würfels?"
+  answer: { value: 6 }
+  explanation: "Ein Würfel hat 6 Flächen."
+- key: q2
+  type: single_choice
+  prompt: "Aus welchen Flächen besteht das Netz eines Dreiecksprismas?"
+  options: ["3 Dreiecke + 2 Rechtecke", "2 Dreiecke + 3 Rechtecke", "1 Dreieck + 3 Rechtecke", "5 Dreiecke"]
+  answer: { index: 1 }
+  explanation: "Grund- und Deckfläche sind Dreiecke, die 3 Seitenflächen Rechtecke."
+- key: q3
+  type: single_choice
+  prompt: "Aus welchen Flächen besteht das Netz eines Zylinders?"
+  options: ["2 Kreise + 1 Rechteck", "1 Kreis + 1 Dreieck", "2 Kreise + 1 Kreisring", "1 Kreis + 1 Rechteck"]
+  answer: { index: 0 }
+  explanation: "Grund- und Deckkreis plus der abgerollte Mantel (Rechteck)."
+- key: q4
+  type: single_choice
+  prompt: "Wie breit ist das Mantelrechteck im Netz eines Zylinders?"
+  options: ["So breit wie der Durchmesser", "So breit wie der Radius", "So breit wie der Umfang des Kreises", "So breit wie die Höhe"]
+  answer: { index: 2 }
+  explanation: "Der Mantel wickelt sich einmal um den Kreis – seine Breite ist der Kreisumfang."
+- key: q5
+  type: true_false
+  prompt: "Sechs Quadrate in einer Reihe bilden ein Würfelnetz."
+  answer: { value: false }
+  explanation: "Das lässt sich nicht zum Würfel falten – Flächen würden übereinanderliegen."
+- key: q6
+  type: numeric
+  prompt: "Unter welchem Winkel werden im Schrägbild die Kanten nach hinten gezeichnet?"
+  options: { unit: "°" }
+  answer: { value: 45 }
+  explanation: "α = 45° nach rechts oben."
+- key: q7
+  type: numeric
+  prompt: "Ein Quader ist 6 cm tief. Wie lang zeichnet man die Tiefenkante im Schrägbild (q = 1/2)?"
+  options: { unit: "cm" }
+  answer: { value: 3 }
+  explanation: "Schräge Kanten werden halbiert: 6 : 2 = 3 cm."
+- key: q8
+  type: numeric
+  prompt: "Im Schrägbild ist eine Tiefenkante 2,5 cm lang gezeichnet. Wie lang ist die Kante wirklich?"
+  options: { unit: "cm" }
+  answer: { value: 5 }
+  explanation: "Im Schrägbild halbiert → wirklich doppelt so lang: 5 cm."
+- key: q9
+  type: single_choice
+  prompt: "Wie werden verdeckte Kanten im Schrägbild gezeichnet?"
+  options: ["Gar nicht", "Gestrichelt", "Dicker", "Rot"]
+  answer: { index: 1 }
+  explanation: "Verdeckte Kanten werden gestrichelt."
+- key: q10
+  type: single_choice
+  prompt: "Welche Kanten eines Quaders werden im Schrägbild in wahrer Länge gezeichnet?"
+  options:
+    - "Alle Kanten"
+    - "Nur die Kanten nach hinten"
+    - "Die Kanten der Vorderseite (nach rechts und nach oben)"
+  answer: { index: 2 }
+  explanation: "Nur die Tiefenkanten werden schräg und halbiert gezeichnet; Breite und Höhe bleiben wahr."
+- key: q11
+  type: single_choice
+  prompt: "Aus welchen Flächen besteht das Netz einer quadratischen Pyramide?"
+  options: ["1 Quadrat + 4 Dreiecke", "1 Quadrat + 4 Rechtecke", "2 Quadrate + 4 Dreiecke", "4 Dreiecke"]
+  answer: { index: 0 }
+  explanation: "Grundfläche Quadrat, 4 dreieckige Seitenflächen zur Spitze."
+- key: q12
+  type: single_choice
+  prompt: "Wie sieht die Grundfläche einer quadratischen Pyramide im Schrägbild aus?"
+  options: ["Wie ein Quadrat", "Wie ein Parallelogramm", "Wie ein Dreieck", "Wie ein Kreis"]
+  answer: { index: 1 }
+  explanation: "Die vordere Kante ist wahr, die Tiefenkanten schräg und halbiert – das ergibt ein Parallelogramm."

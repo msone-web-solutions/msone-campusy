@@ -1,0 +1,73 @@
+- key: q1
+  type: single_choice
+  prompt: "Das Thermometer zeigt 6 Grad unter Null. Wie schreibt man diese Temperatur?"
+  options: ["6 °C", "−6 °C", "0,6 °C", "+6 °C"]
+  answer: { index: 1 }
+  explanation: "„Unter Null“ heißt negativ. Das Vorzeichen Minus zeigt das an: −6 °C."
+
+- key: q2
+  type: true_false
+  prompt: "Die Zahl 0 ist eine negative Zahl."
+  answer: { value: false }
+  explanation: "Die Null ist weder positiv noch negativ – sie ist die Grenze zwischen beiden."
+
+- key: q3
+  type: single_choice
+  prompt: "Welche Zahl liegt auf der Zahlengerade am weitesten links?"
+  options: ["−1", "−7", "0", "3"]
+  answer: { index: 1 }
+  explanation: "Negative Zahlen liegen links von der Null. Von den negativen Zahlen liegt −7 weiter links als −1."
+
+- key: q4
+  type: numeric
+  prompt: "Tim hat 15 € Schulden. Schreibe seinen Kontostand als Zahl (ohne €)."
+  answer: { value: -15 }
+  explanation: "Schulden sind negativ: −15."
+
+- key: q5
+  type: single_choice
+  prompt: "Welche Zahl liegt auf der Zahlengerade genau in der Mitte zwischen −3 und −4?"
+  options: ["−3,5", "−2,5", "3,5", "−4,5"]
+  answer: { index: 0 }
+  explanation: "Zwischen −3 und −4 liegt −3,5 – so wie 3,5 zwischen 3 und 4 liegt."
+
+- key: q6
+  type: multiple_choice
+  prompt: "Welche der folgenden Angaben werden mit einer negativen Zahl geschrieben?"
+  options:
+    - "Ein Guthaben von 50 €"
+    - "Eine Temperatur von 4 Grad unter Null"
+    - "Das Untergeschoss 2 eines Kaufhauses"
+    - "Ein Berg, der 800 m über dem Meeresspiegel liegt"
+    - "Ein Taucher, der 12 m unter der Wasseroberfläche ist"
+  answer: { indexes: [1, 2, 4] }
+  explanation: "Alles „unter“ einem Nullpunkt ist negativ: −4 °C, Untergeschoss −2, Tiefe −12 m. Guthaben und Berge über dem Meer sind positiv."
+
+- key: q7
+  type: numeric
+  prompt: "Morgens sind es −5 °C, mittags +7 °C. Um wie viel Grad ist die Temperatur gestiegen?"
+  options: { unit: "°C" }
+  answer: { value: 12 }
+  explanation: "Von −5 bis 0 sind es 5 Schritte, von 0 bis 7 noch 7 Schritte: zusammen 12 °C."
+
+- key: q8
+  type: gap_text
+  prompt: "Zahlen rechts von der Null heißen ___ Zahlen, Zahlen links von der Null heißen ___ Zahlen."
+  answer:
+    gaps:
+      - ["positive", "positiv"]
+      - ["negative", "negativ"]
+  explanation: "Rechts von der Null: positive Zahlen. Links von der Null: negative Zahlen."
+
+- key: q9
+  type: single_choice
+  prompt: "Lena hat −12 € auf dem Konto und bekommt 20 € Taschengeld. Wie ist der neue Kontostand?"
+  options: ["−32 €", "−8 €", "+8 €", "+32 €"]
+  answer: { index: 2 }
+  explanation: "Von −12 gehen wir 20 Schritte nach rechts: 12 Schritte bis zur 0 und 8 weiter → +8 €."
+
+- key: q10
+  type: true_false
+  prompt: "−9 ist kleiner als −2."
+  answer: { value: true }
+  explanation: "−9 liegt weiter links auf der Zahlengerade als −2, also ist −9 kleiner. Denk ans Thermometer: −9 °C ist kälter."

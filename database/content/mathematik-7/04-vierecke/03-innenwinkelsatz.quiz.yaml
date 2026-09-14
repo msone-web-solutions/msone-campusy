@@ -1,0 +1,74 @@
+- key: q1
+  type: numeric
+  prompt: "Wie groß ist die Summe der Innenwinkel in jedem Viereck?"
+  options: { unit: "°" }
+  answer: { value: 360 }
+  explanation: "Zwei Dreiecke à 180° = 360°."
+- key: q2
+  type: numeric
+  prompt: "In einem Viereck sind α = 90°, β = 75° und γ = 120°. Wie groß ist δ?"
+  options: { unit: "°" }
+  answer: { value: 75 }
+  explanation: "360 − 90 − 75 − 120 = 75°."
+- key: q3
+  type: numeric
+  prompt: "In einem Parallelogramm ist β = 40°. Wie groß ist α?"
+  options: { unit: "°" }
+  answer: { value: 140 }
+  explanation: "Benachbarte Winkel ergänzen sich zu 180°: 180 − 40 = 140°."
+- key: q4
+  type: numeric
+  prompt: "In einem Drachen sind α = 120° und γ = 80° (α und γ liegen auf der Symmetrieachse). Wie groß ist β?"
+  options: { unit: "°" }
+  answer: { value: 80 }
+  explanation: "β + δ = 360 − 120 − 80 = 160°, β = δ → β = 80°."
+- key: q5
+  type: numeric
+  prompt: "Die Winkel eines Vierecks sind x, x + 20°, x + 40° und x + 60°. Wie groß ist x?"
+  options: { unit: "°" }
+  answer: { value: 60 }
+  explanation: "4x + 120 = 360 → 4x = 240 → x = 60°."
+- key: q6
+  type: single_choice
+  prompt: "Womit begründet man den Innenwinkelsatz im Viereck?"
+  options:
+    - "Mit der Winkelsumme im Dreieck: Eine Diagonale zerlegt das Viereck in zwei Dreiecke."
+    - "Mit den vier rechten Winkeln im Quadrat."
+    - "Man misst viele Vierecke nach."
+  answer: { index: 0 }
+  explanation: "Zwei Dreiecke mit je 180° ergeben 360°. Nachmessen ist kein Beweis, und das Quadrat ist nur ein Sonderfall."
+- key: q7
+  type: numeric
+  prompt: "In einem Trapez (a ∥ c) sind α = 65° und β = 80°. Wie groß ist γ?"
+  options: { unit: "°" }
+  answer: { value: 100 }
+  explanation: "β + γ = 180° → γ = 100°."
+- key: q8
+  type: true_false
+  prompt: "Ein Viereck kann drei rechte Winkel und einen Winkel von 100° haben."
+  answer: { value: false }
+  explanation: "3 · 90 + 100 = 370° ≠ 360°. Drei rechte Winkel erzwingen einen vierten rechten Winkel."
+- key: q9
+  type: numeric
+  prompt: "Ein Viereck hat die Winkel 45°, 135° und 45°. Wie groß ist der vierte Winkel?"
+  options: { unit: "°" }
+  answer: { value: 135 }
+  explanation: "360 − 45 − 135 − 45 = 135°. (Das ist ein Parallelogramm.)"
+- key: q10
+  type: numeric
+  prompt: "Der Innenwinkel α beträgt 110°. Wie groß ist der Außenwinkel bei A?"
+  options: { unit: "°" }
+  answer: { value: 70 }
+  explanation: "Innen- und Außenwinkel ergänzen sich zu 180°."
+- key: q11
+  type: numeric
+  prompt: "Die Winkel eines Vierecks verhalten sich wie 1 : 2 : 3 : 6. Wie groß ist der größte Winkel?"
+  options: { unit: "°" }
+  answer: { value: 180 }
+  explanation: "12 Teile = 360°, ein Teil = 30°, der größte Winkel = 6 · 30° = 180°. (Ein entarteter Fall – die Ecke liegt auf einer Geraden.)"
+- key: q12
+  type: single_choice
+  prompt: "In einem Viereck sind alle vier Winkel gleich groß. Wie groß ist jeder?"
+  options: ["45°", "60°", "90°", "120°"]
+  answer: { index: 2 }
+  explanation: "360° : 4 = 90°. Das Viereck ist ein Rechteck (oder Quadrat)."

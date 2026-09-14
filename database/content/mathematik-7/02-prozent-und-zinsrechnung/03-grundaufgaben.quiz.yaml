@@ -1,0 +1,69 @@
+- key: q1
+  type: numeric
+  prompt: "Berechne 20 % von 350 €."
+  options: { unit: "€" }
+  answer: { value: 70 }
+  explanation: "10 % von 350 = 35, also 20 % = 70 €."
+- key: q2
+  type: numeric
+  prompt: "Berechne 12 % von 250 kg."
+  options: { unit: "kg" }
+  answer: { value: 30 }
+  explanation: "250 · 0,12 = 30 kg."
+- key: q3
+  type: numeric
+  prompt: "45 € sind 30 % des Preises. Wie hoch ist der ganze Preis?"
+  options: { unit: "€" }
+  answer: { value: 150 }
+  explanation: "1 % ≙ 45 : 30 = 1,50 €, 100 % ≙ 150 €."
+- key: q4
+  type: numeric
+  prompt: "18 von 72 Schülern sind krank. Wie viel Prozent sind das? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 25 }
+  explanation: "18/72 = 1/4 = 25 %."
+- key: q5
+  type: numeric
+  prompt: "Ein Tank fasst 60 Liter. Er ist zu 35 % gefüllt. Wie viele Liter sind im Tank?"
+  options: { unit: "l" }
+  answer: { value: 21 }
+  explanation: "60 · 0,35 = 21 Liter."
+- key: q6
+  type: numeric
+  prompt: "In einer Umfrage antworten 84 Personen mit „Ja“, das sind 70 %. Wie viele Personen wurden befragt?"
+  answer: { value: 120 }
+  explanation: "1 % ≙ 84 : 70 = 1,2 Personen, 100 % ≙ 120 Personen."
+- key: q7
+  type: numeric
+  prompt: "Ein Handy kostet 400 €. Im Angebot kostet es 340 €. Wie viel Prozent des ursprünglichen Preises sind das? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 85 }
+  explanation: "340/400 · 100 = 85 %."
+- key: q8
+  type: single_choice
+  prompt: "Welche Rechnung ergibt 7 % von 900?"
+  options: ["900 · 7", "900 : 7", "900 · 0,07", "900 : 0,07"]
+  answer: { index: 2 }
+  explanation: "7 % = 0,07, also 900 · 0,07 = 63."
+- key: q9
+  type: numeric
+  prompt: "Berechne im Kopf: 15 % von 60."
+  answer: { value: 9 }
+  explanation: "10 % = 6, 5 % = 3, zusammen 15 % = 9."
+- key: q10
+  type: single_choice
+  prompt: "„25 % von einer Zahl sind 12.“ Welche Zahl ist gesucht und wie groß ist sie?"
+  options: ["Der Prozentwert, 3", "Der Grundwert, 48", "Der Grundwert, 3", "Der Prozentsatz, 48"]
+  answer: { index: 1 }
+  explanation: "Gesucht ist das Ganze: G = 12 · 100 : 25 = 48. Probe: 25 % von 48 = 12 ✓"
+- key: q11
+  type: numeric
+  prompt: "Von 40 Fragen hat Nele 34 richtig. Wie viel Prozent hat sie falsch? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 15 }
+  explanation: "6 Fragen falsch: 6/40 = 15/100 = 15 %."
+- key: q12
+  type: numeric
+  prompt: "Berechne 150 % von 80."
+  answer: { value: 120 }
+  explanation: "150 % = 1,5, also 80 · 1,5 = 120."

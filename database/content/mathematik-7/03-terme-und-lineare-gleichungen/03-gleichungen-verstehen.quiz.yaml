@@ -1,0 +1,68 @@
+- key: q1
+  type: numeric
+  prompt: "Löse im Kopf: x + 9 = 23"
+  answer: { value: 14 }
+  explanation: "Welche Zahl plus 9 ergibt 23? → 14."
+- key: q2
+  type: numeric
+  prompt: "Löse im Kopf: 4x = 36"
+  answer: { value: 9 }
+  explanation: "4 mal 9 ist 36."
+- key: q3
+  type: numeric
+  prompt: "Löse im Kopf: x − 7 = −2"
+  answer: { value: 5 }
+  explanation: "5 − 7 = −2 ✓"
+- key: q4
+  type: numeric
+  prompt: "Löse im Kopf: 30 − x = 18"
+  answer: { value: 12 }
+  explanation: "30 − 12 = 18 ✓"
+- key: q5
+  type: numeric
+  prompt: "Löse durch Probieren: 3x + 4 = 25"
+  answer: { value: 7 }
+  explanation: "3 · 7 + 4 = 25 ✓"
+- key: q6
+  type: single_choice
+  prompt: "Welche Zahl ist eine Lösung der Gleichung 5x − 2 = 18?"
+  options: ["3", "4", "5", "16"]
+  answer: { index: 1 }
+  explanation: "5 · 4 − 2 = 18 ✓"
+- key: q7
+  type: true_false
+  prompt: "Bei der Probe setzt man die Lösung in die ursprüngliche Gleichung ein."
+  answer: { value: true }
+  explanation: "Nur so prüft man, ob auch die Umformungen richtig waren."
+- key: q8
+  type: single_choice
+  prompt: "Tim behauptet: x = 6 ist die Lösung von 2x − 5 = 9. Was ergibt die Probe?"
+  options: ["7 = 9, also falsch", "9 = 9, also richtig", "12 = 9, also falsch"]
+  answer: { index: 0 }
+  explanation: "2 · 6 − 5 = 7 ≠ 9. Die richtige Lösung ist x = 7."
+- key: q9
+  type: single_choice
+  prompt: "Welche Lösungsmenge hat x + 8 = 3 im Bereich der natürlichen Zahlen ℕ?"
+  options: ["L = {5}", "L = {−5}", "L = { } (keine Lösung)"]
+  answer: { index: 2 }
+  explanation: "x = −5 ist keine natürliche Zahl. In ℕ gibt es keine Lösung."
+- key: q10
+  type: single_choice
+  prompt: "Welche Lösungsmenge hat x + 3 = x + 5?"
+  options: ["L = {2}", "L = { } (keine Lösung)", "L = ℚ (alle Zahlen)"]
+  answer: { index: 1 }
+  explanation: "Eine Zahl plus 3 kann nie gleich derselben Zahl plus 5 sein. Keine Lösung."
+- key: q11
+  type: single_choice
+  prompt: "Auf der linken Waagschale liegen x und 4 kg, rechts 11 kg. Die Waage ist im Gleichgewicht. Was wiegt x?"
+  options: ["4 kg", "7 kg", "11 kg", "15 kg"]
+  answer: { index: 1 }
+  explanation: "Nimm auf beiden Seiten 4 kg weg: x = 11 − 4 = 7 kg."
+- key: q12
+  type: gap_text
+  prompt: "Eine Gleichung besteht aus zwei ___ und einem Gleichheitszeichen. Die Zahl, die sie wahr macht, heißt ___."
+  answer:
+    gaps:
+      - ["Termen", "Terme"]
+      - ["Lösung"]
+  explanation: "Zwei Terme, verbunden durch =. Die Zahl, die die Gleichung wahr macht, ist die Lösung."

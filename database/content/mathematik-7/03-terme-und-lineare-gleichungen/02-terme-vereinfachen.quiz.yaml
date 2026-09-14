@@ -1,0 +1,70 @@
+- key: q1
+  type: single_choice
+  prompt: "Vereinfache: 4x + 7x"
+  options: ["11x", "11x²", "28x", "4x + 7x lässt sich nicht vereinfachen"]
+  answer: { index: 0 }
+  explanation: "Gleichartige Glieder: 4 + 7 = 11 → 11x."
+- key: q2
+  type: single_choice
+  prompt: "Vereinfache: 9a − 3 − 5a + 8"
+  options: ["4a + 5", "4a − 11", "14a + 5", "4a + 11"]
+  answer: { index: 0 }
+  explanation: "9a − 5a = 4a und −3 + 8 = 5 → 4a + 5."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Term lässt sich nicht weiter vereinfachen?"
+  options: ["2x + 3x", "2x + 3y", "x + x", "5a − a"]
+  answer: { index: 1 }
+  explanation: "x und y sind verschiedene Variablen – 2x + 3y bleibt so."
+- key: q4
+  type: single_choice
+  prompt: "Multipliziere aus: 5 · (2x − 3)"
+  options: ["10x − 3", "10x − 15", "7x − 8", "10x + 15"]
+  answer: { index: 1 }
+  explanation: "5 · 2x = 10x und 5 · (−3) = −15."
+- key: q5
+  type: single_choice
+  prompt: "Multipliziere aus: −3 · (a − 4)"
+  options: ["−3a − 12", "−3a + 12", "3a − 12", "−3a − 4"]
+  answer: { index: 1 }
+  explanation: "−3 · a = −3a und −3 · (−4) = +12."
+- key: q6
+  type: single_choice
+  prompt: "Löse die Klammer auf: 10 − (3x − 2)"
+  options: ["10 − 3x − 2", "7x − 2", "10 − 3x + 2", "13x − 2"]
+  answer: { index: 2 }
+  explanation: "Minusklammer: alle Vorzeichen drehen: 10 − 3x + 2 = 12 − 3x."
+- key: q7
+  type: single_choice
+  prompt: "Klammere aus: 8x + 12"
+  options: ["4 · (2x + 3)", "8 · (x + 12)", "2 · (4x + 12)", "4 · (2x + 12)"]
+  answer: { index: 0 }
+  explanation: "4 ist der größte gemeinsame Faktor: 4 · (2x + 3). Probe: 8x + 12 ✓"
+- key: q8
+  type: single_choice
+  prompt: "Vereinfache: 2 · (x + 5) + 3 · (x − 1)"
+  options: ["5x + 7", "5x + 4", "6x + 7", "5x + 13"]
+  answer: { index: 0 }
+  explanation: "2x + 10 + 3x − 3 = 5x + 7."
+- key: q9
+  type: numeric
+  prompt: "Vereinfache 4 · (x + 3) − 2x und berechne dann den Termwert für x = 5."
+  answer: { value: 22 }
+  explanation: "4x + 12 − 2x = 2x + 12. Für x = 5: 10 + 12 = 22."
+- key: q10
+  type: single_choice
+  prompt: "Ein Rechteck hat die Seiten x und 2x + 1. Welcher Term beschreibt den Umfang?"
+  options: ["3x + 1", "6x + 2", "2x² + x", "6x + 1"]
+  answer: { index: 1 }
+  explanation: "U = 2 · (x + 2x + 1) = 2 · (3x + 1) = 6x + 2."
+- key: q11
+  type: true_false
+  prompt: "2x + x² lässt sich zu 3x² zusammenfassen."
+  answer: { value: false }
+  explanation: "x und x² sind nicht gleichartig – der Term bleibt 2x + x²."
+- key: q12
+  type: single_choice
+  prompt: "Vereinfache: 6y − (2y + 5) + 3"
+  options: ["4y − 2", "8y + 8", "4y + 8", "4y − 8"]
+  answer: { index: 0 }
+  explanation: "6y − 2y − 5 + 3 = 4y − 2."

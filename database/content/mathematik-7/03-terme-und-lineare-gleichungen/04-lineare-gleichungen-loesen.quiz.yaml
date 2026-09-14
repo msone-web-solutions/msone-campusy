@@ -1,0 +1,70 @@
+- key: q1
+  type: numeric
+  prompt: "Löse: x + 14 = 31"
+  answer: { value: 17 }
+  explanation: "| − 14 → x = 17."
+- key: q2
+  type: numeric
+  prompt: "Löse: 6x = 54"
+  answer: { value: 9 }
+  explanation: "| : 6 → x = 9."
+- key: q3
+  type: numeric
+  prompt: "Löse: 4x + 5 = 33"
+  answer: { value: 7 }
+  explanation: "| − 5 → 4x = 28 | : 4 → x = 7."
+- key: q4
+  type: numeric
+  prompt: "Löse: 7x − 10 = 39"
+  answer: { value: 7 }
+  explanation: "| + 10 → 7x = 49 | : 7 → x = 7."
+- key: q5
+  type: numeric
+  prompt: "Löse: 3x + 20 = 5"
+  answer: { value: -5 }
+  explanation: "| − 20 → 3x = −15 | : 3 → x = −5."
+- key: q6
+  type: numeric
+  prompt: "Löse: 25 − 2x = 7"
+  answer: { value: 9 }
+  explanation: "| − 25 → −2x = −18 | : (−2) → x = 9."
+- key: q7
+  type: numeric
+  prompt: "Löse: x/4 − 3 = 2"
+  answer: { value: 20 }
+  explanation: "| + 3 → x/4 = 5 | · 4 → x = 20."
+- key: q8
+  type: numeric
+  prompt: "Löse: 8x + 3 = 9 (Ergebnis als Bruch oder Dezimalzahl)"
+  answer: { value: "3/4" }
+  explanation: "| − 3 → 8x = 6 | : 8 → x = 6/8 = 3/4 = 0,75."
+- key: q9
+  type: single_choice
+  prompt: "Welcher erste Umformungsschritt ist bei 5x − 12 = 23 am sinnvollsten?"
+  options: ["| : 5", "| + 12", "| − 12", "| · 5"]
+  answer: { index: 1 }
+  explanation: "Erst die Strichrechnung rückgängig machen: | + 12 ergibt 5x = 35."
+- key: q10
+  type: numeric
+  prompt: "Löse: 3x + 4 + 2x = 29"
+  answer: { value: 5 }
+  explanation: "Zusammenfassen: 5x + 4 = 29 | − 4 → 5x = 25 → x = 5."
+- key: q11
+  type: numeric
+  prompt: "Löse: 4 · (x + 3) = 32"
+  answer: { value: 5 }
+  explanation: "| : 4 → x + 3 = 8 | − 3 → x = 5 (oder ausmultiplizieren: 4x + 12 = 32)."
+- key: q12
+  type: single_choice
+  prompt: "Mara löst 2x + 6 = 20 so: „2x + 6 = 20 | : 2 → x + 6 = 10 → x = 4“. Wo ist der Fehler?"
+  options:
+    - "Man darf nicht durch 2 teilen."
+    - "Beim Teilen durch 2 muss auch die 6 halbiert werden: x + 3 = 10, also x = 7."
+    - "Es gibt keinen Fehler, x = 4 ist richtig."
+  answer: { index: 1 }
+  explanation: "Die Umformung muss für die ganze Seite gelten: (2x + 6) : 2 = x + 3. Richtig: x = 7. Probe: 2 · 7 + 6 = 20 ✓"
+- key: q13
+  type: true_false
+  prompt: "Beide Seiten einer Gleichung mit 0 zu multiplizieren ist eine erlaubte Äquivalenzumformung."
+  answer: { value: false }
+  explanation: "Mal 0 macht aus jeder Gleichung 0 = 0 – die Lösung geht verloren. Multiplizieren und Dividieren nur mit Zahlen ≠ 0."

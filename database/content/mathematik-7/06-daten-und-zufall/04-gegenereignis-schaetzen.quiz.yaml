@@ -1,0 +1,68 @@
+- key: q1
+  type: numeric
+  prompt: "P(A) = 0,3. Wie groß ist P(Ā)?"
+  answer: { value: 0.7 }
+  explanation: "1 − 0,3 = 0,7."
+- key: q2
+  type: numeric
+  prompt: "Wie groß ist die Wahrscheinlichkeit, beim Würfeln keine 5 zu werfen? (als Bruch)"
+  answer: { value: "5/6" }
+  explanation: "1 − 1/6 = 5/6."
+- key: q3
+  type: single_choice
+  prompt: "A: „eine gerade Zahl würfeln“. Was ist das Gegenereignis Ā?"
+  options: ["„eine ungerade Zahl würfeln“", "„eine 6 würfeln“", "„keine Zahl würfeln“", "„eine gerade Zahl würfeln“"]
+  answer: { index: 0 }
+  explanation: "Nicht gerade = ungerade: Ā = {1; 3; 5}."
+- key: q4
+  type: numeric
+  prompt: "Ein Glücksrad hat 20 Felder, 3 davon sind Gewinnfelder. Wie groß ist P(kein Gewinn) in Prozent? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 85 }
+  explanation: "P(Gewinn) = 3/20 = 15 %, also P(kein Gewinn) = 85 %."
+- key: q5
+  type: numeric
+  prompt: "Eine Reißzwecke wird 500-mal geworfen und landet 310-mal auf der Seite. Schätze P(Seite) als Dezimalzahl."
+  answer: { value: 0.62 }
+  explanation: "310/500 = 0,62."
+- key: q6
+  type: single_choice
+  prompt: "Wie wird die Schätzung einer Wahrscheinlichkeit durch relative Häufigkeiten genauer?"
+  options: ["Durch weniger Versuche", "Durch mehr Versuche", "Durch schnelleres Werfen", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Gesetz der großen Zahlen: Je mehr Versuche, desto näher liegt h(A) bei P(A)."
+- key: q7
+  type: numeric
+  prompt: "Ein fairer Würfel wird 300-mal geworfen. Wie oft ist ungefähr mit einer 2 zu rechnen?"
+  answer: { value: 50 }
+  explanation: "1/6 · 300 = 50."
+- key: q8
+  type: single_choice
+  prompt: "Tim hat 4-mal hintereinander Zahl geworfen. Wie groß ist die Wahrscheinlichkeit, beim 5. Wurf Kopf zu werfen?"
+  options: ["Größer als 1/2, weil Kopf „dran“ ist", "Genau 1/2", "Kleiner als 1/2"]
+  answer: { index: 1 }
+  explanation: "Die Münze hat kein Gedächtnis. Jeder Wurf: P(Kopf) = 1/2."
+- key: q9
+  type: single_choice
+  prompt: "Was bedeutet „Regenwahrscheinlichkeit 40 %“?"
+  options:
+    - "Es regnet 40 % des Tages."
+    - "In etwa 4 von 10 Fällen mit dieser Wetterlage regnet es."
+    - "40 % des Landes bekommen Regen."
+  answer: { index: 1 }
+  explanation: "Die Wahrscheinlichkeit beschreibt, wie oft es bei solchen Vorhersagen tatsächlich regnet."
+- key: q10
+  type: numeric
+  prompt: "Bei einer Tombola gibt es 800 Lose, davon 40 Gewinne. Paul kauft 60 Lose. Mit wie vielen Gewinnen kann er ungefähr rechnen?"
+  answer: { value: 3 }
+  explanation: "P(Gewinn) = 40/800 = 0,05. 0,05 · 60 = 3."
+- key: q11
+  type: true_false
+  prompt: "P(A) + P(Ā) ist immer gleich 1."
+  answer: { value: true }
+  explanation: "Entweder tritt A ein oder nicht – zusammen ist das sicher."
+- key: q12
+  type: numeric
+  prompt: "Zwei Würfel werden geworfen. Wie groß ist P(Augensumme nicht 12)? (als Bruch)"
+  answer: { value: "35/36" }
+  explanation: "P(Summe 12) = 1/36 (nur 6|6). Gegenereignis: 1 − 1/36 = 35/36."

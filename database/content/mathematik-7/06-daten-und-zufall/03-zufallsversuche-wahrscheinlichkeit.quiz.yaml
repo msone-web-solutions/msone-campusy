@@ -1,0 +1,69 @@
+- key: q1
+  type: numeric
+  prompt: "Wie groß ist die Wahrscheinlichkeit, mit einem Würfel eine 3 zu werfen? (als Bruch)"
+  answer: { value: "1/6" }
+  explanation: "1 günstiges von 6 möglichen Ergebnissen: 1/6."
+- key: q2
+  type: numeric
+  prompt: "Wie groß ist die Wahrscheinlichkeit, mit einem Würfel eine Zahl größer als 4 zu werfen? (als Bruch)"
+  answer: { value: "1/3" }
+  explanation: "Günstig: 5 und 6 → 2/6 = 1/3."
+- key: q3
+  type: single_choice
+  prompt: "Welche Menge beschreibt beim Würfeln das Ereignis „ungerade Zahl“?"
+  options: ["{1; 3; 5}", "{2; 4; 6}", "{1; 2; 3}", "{5}"]
+  answer: { index: 0 }
+  explanation: "Die ungeraden Augenzahlen sind 1, 3 und 5."
+- key: q4
+  type: numeric
+  prompt: "Ein Glücksrad hat 10 gleich große Felder: 4 rot, 3 blau, 2 grün, 1 gelb. Wie groß ist P(blau) in Prozent? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 30 }
+  explanation: "3/10 = 30 %."
+- key: q5
+  type: numeric
+  prompt: "In einer Urne sind 4 weiße und 6 schwarze Kugeln. Wie groß ist P(weiß)? (als Dezimalzahl)"
+  answer: { value: 0.4 }
+  explanation: "4/10 = 0,4."
+- key: q6
+  type: single_choice
+  prompt: "Wie groß ist die Wahrscheinlichkeit eines unmöglichen Ereignisses?"
+  options: ["0", "0,5", "1", "Das hängt vom Versuch ab"]
+  answer: { index: 0 }
+  explanation: "Ein unmögliches Ereignis tritt nie ein: P = 0."
+- key: q7
+  type: single_choice
+  prompt: "Welches Ereignis ist beim Würfeln ein sicheres Ereignis?"
+  options: ["„gerade Zahl“", "„Zahl zwischen 1 und 6“", "„eine 6“", "„eine 0“"]
+  answer: { index: 1 }
+  explanation: "Jede Augenzahl liegt zwischen 1 und 6 – das Ereignis tritt immer ein, P = 1."
+- key: q8
+  type: true_false
+  prompt: "Beim Werfen von zwei Würfeln ist die Augensumme 7 genauso wahrscheinlich wie die Augensumme 12."
+  answer: { value: false }
+  explanation: "Summe 7: 6 Kombinationen (1|6, 2|5, 3|4, 4|3, 5|2, 6|1), Summe 12 nur eine (6|6). P(7) = 6/36, P(12) = 1/36."
+- key: q9
+  type: numeric
+  prompt: "Zwei Würfel werden geworfen. Wie groß ist P(Augensumme 4)? (als Bruch mit Nenner 36 oder gekürzt)"
+  answer: { value: "1/12" }
+  explanation: "Kombinationen 1|3, 2|2, 3|1 → 3/36 = 1/12."
+- key: q10
+  type: single_choice
+  prompt: "Was ist wahrscheinlicher: Kopf beim Münzwurf (1/2) oder rot beim Glücksrad mit 5 von 8 roten Feldern (5/8)?"
+  options: ["Kopf beim Münzwurf", "Rot beim Glücksrad", "Beides gleich"]
+  answer: { index: 1 }
+  explanation: "5/8 = 0,625 > 0,5."
+- key: q11
+  type: gap_text
+  prompt: "Ein Zufallsversuch, bei dem alle Ergebnisse gleich wahrscheinlich sind, heißt ___-Versuch. Die Menge aller Ergebnisse heißt ___."
+  answer:
+    gaps:
+      - ["Laplace"]
+      - ["Ergebnismenge", "Omega", "Ω"]
+  explanation: "Laplace-Versuch; die Ergebnismenge Ω."
+- key: q12
+  type: single_choice
+  prompt: "Bei welchem Versuch sind die Ergebnisse nicht gleich wahrscheinlich?"
+  options: ["Fairer Würfel", "Faire Münze", "Reißzwecke werfen (Kopf oder Seite)", "Glücksrad mit gleich großen Feldern"]
+  answer: { index: 2 }
+  explanation: "Bei der Reißzwecke hängt es von der Form ab – die Wahrscheinlichkeit muss durch Versuche geschätzt werden."

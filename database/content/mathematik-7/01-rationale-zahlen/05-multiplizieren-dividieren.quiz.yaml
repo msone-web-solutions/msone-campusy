@@ -1,0 +1,75 @@
+- key: q1
+  type: numeric
+  prompt: "Berechne: (−6) · (−7)"
+  answer: { value: 42 }
+  explanation: "Gleiche Vorzeichen → Plus: 6 · 7 = 42."
+
+- key: q2
+  type: numeric
+  prompt: "Berechne: (−8) · 5"
+  answer: { value: -40 }
+  explanation: "Verschiedene Vorzeichen → Minus: 8 · 5 = 40 → −40."
+
+- key: q3
+  type: numeric
+  prompt: "Berechne: (−45) : 9"
+  answer: { value: -5 }
+  explanation: "Verschiedene Vorzeichen → Minus: 45 : 9 = 5 → −5."
+
+- key: q4
+  type: numeric
+  prompt: "Berechne: (−36) : (−4)"
+  answer: { value: 9 }
+  explanation: "Gleiche Vorzeichen → Plus: 36 : 4 = 9."
+
+- key: q5
+  type: single_choice
+  prompt: "Welches Vorzeichen hat das Ergebnis von (−2) · (−5) · (−3)?"
+  options: ["Plus", "Minus", "Das Ergebnis ist 0"]
+  answer: { index: 1 }
+  explanation: "Drei Minuszeichen (ungerade Anzahl) → das Ergebnis ist negativ: −30."
+
+- key: q6
+  type: numeric
+  prompt: "Berechne: (−2) · (−2) · (−2) · (−2)"
+  answer: { value: 16 }
+  explanation: "Vier Minuszeichen (gerade Anzahl) → positiv: 2 · 2 · 2 · 2 = 16."
+
+- key: q7
+  type: numeric
+  prompt: "Berechne: (−0,5) · 8"
+  answer: { value: -4 }
+  explanation: "0,5 · 8 = 4, verschiedene Vorzeichen → −4."
+
+- key: q8
+  type: numeric
+  prompt: "Berechne: (−3/4) · (−4)"
+  answer: { value: 3 }
+  explanation: "3/4 · 4 = 3, gleiche Vorzeichen → +3."
+
+- key: q9
+  type: true_false
+  prompt: "Das Produkt aus einer positiven und einer negativen Zahl ist immer negativ."
+  answer: { value: true }
+  explanation: "Verschiedene Vorzeichen ergeben immer Minus (außer wenn ein Faktor 0 ist – dann ist das Ergebnis 0)."
+
+- key: q10
+  type: numeric
+  prompt: "Ein Bergsteiger steigt 4 Stunden lang jede Stunde 150 m ab. Wie verändert sich seine Höhe insgesamt? (Gib die Veränderung als rationale Zahl in m an.)"
+  options: { unit: "m" }
+  answer: { value: -600 }
+  explanation: "4 · (−150) = −600. Die Höhe verringert sich um 600 m."
+
+- key: q11
+  type: multiple_choice
+  prompt: "Welche Rechnungen ergeben 24?"
+  options: ["(−4) · (−6)", "(−4) · 6", "(−48) : (−2)", "48 : (−2)", "(−2) · (−3) · (−4)"]
+  answer: { indexes: [0, 2] }
+  explanation: "(−4)·(−6) = 24 ✓, (−48):(−2) = 24 ✓. Die anderen ergeben −24."
+
+- key: q12
+  type: single_choice
+  prompt: "Welche Rechnung ist nicht erlaubt?"
+  options: ["0 : (−5)", "(−5) : 0", "(−5) · 0", "0 · 0"]
+  answer: { index: 1 }
+  explanation: "Durch 0 darf man nie teilen. 0 : (−5) = 0 ist dagegen erlaubt."

@@ -1,0 +1,70 @@
+- key: q1
+  type: numeric
+  prompt: "Berechne den Termwert von 4x − 3 für x = 5."
+  answer: { value: 17 }
+  explanation: "4 · 5 − 3 = 20 − 3 = 17."
+- key: q2
+  type: numeric
+  prompt: "Berechne den Termwert von 2a + 9 für a = −4."
+  answer: { value: 1 }
+  explanation: "2 · (−4) + 9 = −8 + 9 = 1."
+- key: q3
+  type: numeric
+  prompt: "Berechne den Termwert von 3 · (n − 2) für n = 7."
+  answer: { value: 15 }
+  explanation: "3 · (7 − 2) = 3 · 5 = 15."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Term beschreibt „das Dreifache einer Zahl, vermindert um 6“?"
+  options: ["3x + 6", "3x − 6", "3 · (x − 6)", "x − 6 · 3"]
+  answer: { index: 1 }
+  explanation: "Dreifache: 3x, dann um 6 vermindert: 3x − 6."
+- key: q5
+  type: single_choice
+  prompt: "Welcher Term beschreibt „die Summe aus einer Zahl und 4, verdoppelt“?"
+  options: ["2x + 4", "x + 8", "2 · (x + 4)", "2x · 4"]
+  answer: { index: 2 }
+  explanation: "Erst die Summe (x + 4), dann verdoppeln: 2 · (x + 4)."
+- key: q6
+  type: single_choice
+  prompt: "Welche Termstruktur hat 5 · (a + 3)?"
+  options: ["Summe", "Differenz", "Produkt", "Quotient"]
+  answer: { index: 2 }
+  explanation: "Zuletzt wird multipliziert (5 mal die Klammer) → Produkt."
+- key: q7
+  type: single_choice
+  prompt: "Welche Termstruktur hat 2x − 9?"
+  options: ["Summe", "Differenz", "Produkt", "Quotient"]
+  answer: { index: 1 }
+  explanation: "Zuletzt wird subtrahiert → Differenz."
+- key: q8
+  type: single_choice
+  prompt: "Wie schreibt man x · 7 in Kurzform?"
+  options: ["x7", "7x", "7 + x", "x^7"]
+  answer: { index: 1 }
+  explanation: "Die Zahl steht vor der Variable, das Malzeichen fällt weg: 7x."
+- key: q9
+  type: numeric
+  prompt: "Ein Taxi kostet 4 € Grundpreis plus 2 € pro Kilometer. Der Term für k Kilometer ist 4 + 2k. Wie viel kostet eine Fahrt von 12 km?"
+  options: { unit: "€" }
+  answer: { value: 28 }
+  explanation: "4 + 2 · 12 = 4 + 24 = 28 €."
+- key: q10
+  type: multiple_choice
+  prompt: "Welche Ausdrücke sind Terme?"
+  options: ["4x + 1", "x = 3", "2 · (a − b)", "5 + · 3", "12"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "x = 3 ist eine Gleichung, 5 + · 3 ergibt keinen Sinn. 4x + 1, 2 · (a − b) und 12 sind Terme."
+- key: q11
+  type: gap_text
+  prompt: "Der Nachfolger von n ist ___ und eine gerade Zahl schreibt man als ___."
+  answer:
+    gaps:
+      - ["n + 1", "n+1"]
+      - ["2n", "2 · n", "2*n"]
+  explanation: "Nachfolger: n + 1. Gerade Zahl: 2n (das Doppelte einer natürlichen Zahl)."
+- key: q12
+  type: numeric
+  prompt: "Berechne den Termwert von x² + 1 für x = −3."
+  answer: { value: 10 }
+  explanation: "(−3)² + 1 = 9 + 1 = 10."

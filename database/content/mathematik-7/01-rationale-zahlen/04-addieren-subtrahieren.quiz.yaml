@@ -1,0 +1,78 @@
+- key: q1
+  type: numeric
+  prompt: "Berechne: (−5) + (−8)"
+  answer: { value: -13 }
+  explanation: "Gleiche Vorzeichen: Beträge addieren (5 + 8 = 13), Minus bleibt → −13."
+
+- key: q2
+  type: numeric
+  prompt: "Berechne: (+6) + (−9)"
+  answer: { value: -3 }
+  explanation: "Verschiedene Vorzeichen: 9 − 6 = 3, das Minus gewinnt (9 hat den größeren Betrag) → −3."
+
+- key: q3
+  type: numeric
+  prompt: "Berechne: −4 + 11"
+  answer: { value: 7 }
+  explanation: "11 − 4 = 7, das Plus gewinnt, weil 11 den größeren Betrag hat → 7."
+
+- key: q4
+  type: numeric
+  prompt: "Berechne: 3 − (−7)"
+  answer: { value: 10 }
+  explanation: "Minus minus wird plus: 3 + 7 = 10."
+
+- key: q5
+  type: numeric
+  prompt: "Berechne: −6 − 9"
+  answer: { value: -15 }
+  explanation: "Beide negativ: Beträge addieren, Minus bleibt → −15."
+
+- key: q6
+  type: single_choice
+  prompt: "Welche Umformung ist richtig?"
+  options:
+    - "8 − (−2) = 8 − 2"
+    - "8 − (−2) = 8 + 2"
+    - "8 + (−2) = 8 + 2"
+    - "8 − (+2) = 8 + 2"
+  answer: { index: 1 }
+  explanation: "Eine negative Zahl subtrahieren heißt, ihre Gegenzahl addieren: 8 − (−2) = 8 + 2 = 10."
+
+- key: q7
+  type: numeric
+  prompt: "Berechne: −12 + 5 − 8 + 20"
+  answer: { value: 5 }
+  explanation: "Plus-Zahlen: 5 + 20 = 25. Minus-Zahlen: −12 − 8 = −20. Dann 25 − 20 = 5."
+
+- key: q8
+  type: numeric
+  prompt: "Morgens −6 °C, bis mittags steigt die Temperatur um 9 °C, bis abends fällt sie um 4 °C. Wie viel Grad sind es abends?"
+  options: { unit: "°C" }
+  answer: { value: -1 }
+  explanation: "−6 + 9 = 3, dann 3 − 4 = −1 °C."
+
+- key: q9
+  type: numeric
+  prompt: "Berechne: −2,5 + 4"
+  answer: { value: 1.5 }
+  explanation: "4 − 2,5 = 1,5, das Plus gewinnt → 1,5."
+
+- key: q10
+  type: single_choice
+  prompt: "Kontostand −30 €. Es kommen 50 € dazu, dann werden 25 € abgebucht. Wie hoch ist der Kontostand?"
+  options: ["−5 €", "5 €", "−55 €", "45 €"]
+  answer: { index: 0 }
+  explanation: "−30 + 50 = 20, dann 20 − 25 = −5 €."
+
+- key: q11
+  type: true_false
+  prompt: "Die Summe zweier negativer Zahlen ist immer negativ."
+  answer: { value: true }
+  explanation: "Zwei Pfeile nach links ergeben einen längeren Pfeil nach links – das Ergebnis ist immer negativ."
+
+- key: q12
+  type: numeric
+  prompt: "Berechne: −3/4 + 1/4"
+  answer: { value: "-1/2" }
+  explanation: "Verschiedene Vorzeichen: 3/4 − 1/4 = 2/4 = 1/2, das Minus gewinnt → −1/2 (= −0,5)."

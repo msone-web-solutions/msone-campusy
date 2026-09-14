@@ -1,0 +1,77 @@
+- key: q1
+  type: numeric
+  prompt: "Berechne: (−3)²"
+  answer: { value: 9 }
+  explanation: "(−3) · (−3) = 9. Gerader Exponent → positiv."
+
+- key: q2
+  type: numeric
+  prompt: "Berechne: −3²"
+  answer: { value: -9 }
+  explanation: "Ohne Klammer gehört das Minus nicht zur Basis: −(3 · 3) = −9."
+
+- key: q3
+  type: numeric
+  prompt: "Berechne: (−2)⁵"
+  answer: { value: -32 }
+  explanation: "Ungerader Exponent → negativ: 2⁵ = 32 → −32."
+
+- key: q4
+  type: numeric
+  prompt: "Berechne: −5 + 3 · (−4)"
+  answer: { value: -17 }
+  explanation: "Punkt vor Strich: 3 · (−4) = −12, dann −5 − 12 = −17."
+
+- key: q5
+  type: numeric
+  prompt: "Berechne: (−5 + 3) · (−4)"
+  answer: { value: 8 }
+  explanation: "Erst die Klammer: −5 + 3 = −2, dann (−2) · (−4) = 8."
+
+- key: q6
+  type: numeric
+  prompt: "Rechne geschickt: (−8) · 13 · (−125)"
+  answer: { value: 13000 }
+  explanation: "(−8) · (−125) = 1000, dann 1000 · 13 = 13 000."
+
+- key: q7
+  type: single_choice
+  prompt: "Welches Rechengesetz wurde hier benutzt? (−6) · (20 + 3) = (−6) · 20 + (−6) · 3"
+  options: ["Kommutativgesetz", "Assoziativgesetz", "Distributivgesetz"]
+  answer: { index: 2 }
+  explanation: "Eine Zahl wird auf die Summanden in der Klammer verteilt → Distributivgesetz."
+
+- key: q8
+  type: multiple_choice
+  prompt: "Zu welchen Zahlenbereichen gehört die Zahl −4?"
+  options: ["ℕ (natürliche Zahlen)", "ℤ (ganze Zahlen)", "ℚ (rationale Zahlen)"]
+  answer: { indexes: [1, 2] }
+  explanation: "−4 ist eine negative ganze Zahl: sie gehört zu ℤ und damit auch zu ℚ, aber nicht zu ℕ."
+
+- key: q9
+  type: multiple_choice
+  prompt: "Welche Zahlen gehören zu ℤ (ganze Zahlen)?"
+  options: ["−7", "0", "2,5", "−1/2", "100"]
+  answer: { indexes: [0, 1, 4] }
+  explanation: "Ganze Zahlen haben keinen Bruchteil: −7, 0 und 100. 2,5 und −1/2 sind nur rationale Zahlen."
+
+- key: q10
+  type: true_false
+  prompt: "Jede natürliche Zahl ist auch eine rationale Zahl."
+  answer: { value: true }
+  explanation: "ℕ ⊂ ℤ ⊂ ℚ – zum Beispiel ist 7 = 7/1 eine rationale Zahl."
+
+- key: q11
+  type: numeric
+  prompt: "Berechne: 18 : (−3) − (−2) · 4"
+  answer: { value: 2 }
+  explanation: "18 : (−3) = −6 und (−2) · 4 = −8. Dann −6 − (−8) = −6 + 8 = 2."
+
+- key: q12
+  type: gap_text
+  prompt: "Bei einer Potenz mit negativer Basis ist das Ergebnis bei geradem Exponenten ___ und bei ungeradem Exponenten ___."
+  answer:
+    gaps:
+      - ["positiv", "plus"]
+      - ["negativ", "minus"]
+  explanation: "Gerade Anzahl Minuszeichen → positiv, ungerade Anzahl → negativ."

@@ -1,0 +1,75 @@
+- key: q1
+  type: numeric
+  prompt: "Ein Parallelogramm hat die Grundseite a = 12 cm und die Höhe h = 5 cm. Berechne den Flächeninhalt."
+  options: { unit: "cm²" }
+  answer: { value: 60 }
+  explanation: "A = a · h = 12 · 5 = 60 cm²."
+- key: q2
+  type: numeric
+  prompt: "Ein Parallelogramm hat a = 10 cm, b = 7 cm und h = 6 cm. Berechne den Umfang."
+  options: { unit: "cm" }
+  answer: { value: 34 }
+  explanation: "U = 2 · (10 + 7) = 34 cm. Die Höhe spielt beim Umfang keine Rolle."
+- key: q3
+  type: numeric
+  prompt: "Ein Parallelogramm hat a = 10 cm, b = 7 cm und h = 6 cm. Berechne den Flächeninhalt."
+  options: { unit: "cm²" }
+  answer: { value: 60 }
+  explanation: "A = a · h = 10 · 6 = 60 cm². Nicht a · b!"
+- key: q4
+  type: numeric
+  prompt: "Eine Raute hat die Diagonalen e = 14 cm und f = 8 cm. Berechne den Flächeninhalt."
+  options: { unit: "cm²" }
+  answer: { value: 56 }
+  explanation: "A = e · f / 2 = 14 · 8 : 2 = 56 cm²."
+- key: q5
+  type: numeric
+  prompt: "Ein Drachen hat die Diagonalen e = 9 cm und f = 6 cm. Berechne den Flächeninhalt."
+  options: { unit: "cm²" }
+  answer: { value: 27 }
+  explanation: "A = 9 · 6 : 2 = 27 cm²."
+- key: q6
+  type: numeric
+  prompt: "Ein Trapez hat die parallelen Seiten a = 11 cm und c = 7 cm und die Höhe h = 6 cm. Berechne den Flächeninhalt."
+  options: { unit: "cm²" }
+  answer: { value: 54 }
+  explanation: "A = (11 + 7) : 2 · 6 = 9 · 6 = 54 cm²."
+- key: q7
+  type: numeric
+  prompt: "Ein Parallelogramm hat den Flächeninhalt 72 cm² und die Grundseite 8 cm. Wie groß ist die Höhe?"
+  options: { unit: "cm" }
+  answer: { value: 9 }
+  explanation: "h = A : a = 72 : 8 = 9 cm."
+- key: q8
+  type: numeric
+  prompt: "Ein Trapez hat A = 50 cm², h = 5 cm und a = 12 cm. Wie lang ist die Seite c?"
+  options: { unit: "cm" }
+  answer: { value: 8 }
+  explanation: "(12 + c) : 2 · 5 = 50 → (12 + c) : 2 = 10 → 12 + c = 20 → c = 8 cm."
+- key: q9
+  type: single_choice
+  prompt: "Was ist die Höhe eines Parallelogramms?"
+  options:
+    - "Die schräge Seite b"
+    - "Der senkrechte Abstand zwischen den parallelen Seiten"
+    - "Die Diagonale"
+  answer: { index: 1 }
+  explanation: "Die Höhe steht senkrecht auf der Grundseite."
+- key: q10
+  type: numeric
+  prompt: "Wie viele cm² sind 3 m²?"
+  options: { unit: "cm²" }
+  answer: { value: 30000 }
+  explanation: "1 m² = 10 000 cm², also 3 m² = 30 000 cm²."
+- key: q11
+  type: numeric
+  prompt: "Ein Grundstück hat die Form eines Trapezes mit den parallelen Seiten 30 m und 20 m und dem Abstand 16 m. Ein Quadratmeter kostet 50 €. Was kostet das Grundstück?"
+  options: { unit: "€" }
+  answer: { value: 20000 }
+  explanation: "A = (30 + 20) : 2 · 16 = 400 m². 400 · 50 = 20 000 €."
+- key: q12
+  type: numeric
+  prompt: "Eine Raute hat die Seitenlänge 5 cm und die Diagonalen 8 cm und 6 cm. Berechne den Umfang."
+  options: { unit: "cm" }
+  answer: { value: 20 }
+  explanation: "U = 4 · a = 4 · 5 = 20 cm."

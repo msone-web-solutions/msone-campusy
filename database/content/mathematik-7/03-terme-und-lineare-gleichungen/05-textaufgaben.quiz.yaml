@@ -1,0 +1,73 @@
+- key: q1
+  type: numeric
+  prompt: "Wenn man das Vierfache einer Zahl um 6 vermindert, erhält man 30. Wie heißt die Zahl?"
+  answer: { value: 9 }
+  explanation: "4x − 6 = 30 → 4x = 36 → x = 9."
+- key: q2
+  type: single_choice
+  prompt: "„Eine Zahl, vermehrt um das Doppelte der Zahl, ergibt 27.“ Welche Gleichung passt?"
+  options: ["x + 2 = 27", "x + 2x = 27", "2x = 27", "x · 2x = 27"]
+  answer: { index: 1 }
+  explanation: "Die Zahl (x) plus ihr Doppeltes (2x): x + 2x = 27, also x = 9."
+- key: q3
+  type: numeric
+  prompt: "Mia ist 4 Jahre älter als Tom. Zusammen sind sie 22 Jahre alt. Wie alt ist Tom?"
+  options: { unit: "Jahre" }
+  answer: { value: 9 }
+  explanation: "x + (x + 4) = 22 → 2x = 18 → x = 9. Tom ist 9, Mia 13."
+- key: q4
+  type: numeric
+  prompt: "Ein Kinobesuch kostet 8 € Eintritt plus 1,50 € pro Getränk. Lea zahlt 12,50 €. Wie viele Getränke hat sie gekauft?"
+  answer: { value: 3 }
+  explanation: "8 + 1,5x = 12,5 → 1,5x = 4,5 → x = 3."
+- key: q5
+  type: numeric
+  prompt: "Ein Rechteck ist doppelt so lang wie breit. Der Umfang beträgt 54 cm. Wie breit ist es?"
+  options: { unit: "cm" }
+  answer: { value: 9 }
+  explanation: "2 · (x + 2x) = 54 → 6x = 54 → x = 9 cm (Länge 18 cm)."
+- key: q6
+  type: numeric
+  prompt: "Drei aufeinanderfolgende Zahlen haben die Summe 63. Wie heißt die kleinste?"
+  answer: { value: 20 }
+  explanation: "x + (x + 1) + (x + 2) = 63 → 3x + 3 = 63 → x = 20. Die Zahlen: 20, 21, 22."
+- key: q7
+  type: single_choice
+  prompt: "„Ein Vater ist 30 Jahre älter als sein Sohn und viermal so alt wie er.“ Welche Gleichung passt, wenn x das Alter des Sohnes ist?"
+  options: ["x + 30 = 4", "4x = x + 30", "x + 4 = 30", "4x + 30 = x"]
+  answer: { index: 1 }
+  explanation: "Alter des Vaters auf zwei Arten: x + 30 und 4x. Also 4x = x + 30 → x = 10."
+- key: q8
+  type: numeric
+  prompt: "In einer Klasse sind 5 Mädchen mehr als Jungen. Insgesamt sind es 27 Kinder. Wie viele Jungen sind es?"
+  answer: { value: 11 }
+  explanation: "x + (x + 5) = 27 → 2x = 22 → x = 11 Jungen, 16 Mädchen."
+- key: q9
+  type: numeric
+  prompt: "Paul spart jede Woche 7 €. Er hat schon 25 € und möchte 116 € für ein Spiel. Nach wie vielen Wochen hat er genug?"
+  options: { unit: "Wochen" }
+  answer: { value: 13 }
+  explanation: "25 + 7x = 116 → 7x = 91 → x = 13."
+- key: q10
+  type: single_choice
+  prompt: "Bei einer Aufgabe über die Anzahl von Kindern ergibt die Gleichung x = 7,5. Was bedeutet das?"
+  options:
+    - "Es sind 7,5 Kinder."
+    - "Die Gleichung ist wahrscheinlich falsch aufgestellt – die Probe am Text passt nicht."
+    - "Man rundet auf 8 Kinder."
+  answer: { index: 1 }
+  explanation: "Eine Anzahl von Kindern muss eine natürliche Zahl sein. Ein halbes Kind zeigt: Zurück zu Schritt 3, Gleichung prüfen."
+- key: q11
+  type: numeric
+  prompt: "Anna, Ben und Cara teilen 120 €. Ben bekommt doppelt so viel wie Anna, Cara bekommt 20 € mehr als Anna. Wie viel bekommt Anna?"
+  options: { unit: "€" }
+  answer: { value: 25 }
+  explanation: "x + 2x + (x + 20) = 120 → 4x + 20 = 120 → x = 25. Anna 25 €, Ben 50 €, Cara 45 €."
+- key: q12
+  type: gap_text
+  prompt: "Schritt 2 beim Lösen einer Sachaufgabe: die ___ festlegen. Schritt 5: die Probe am ___ machen."
+  answer:
+    gaps:
+      - ["Variable"]
+      - ["Text"]
+  explanation: "Variable festlegen (x = …), am Ende Probe am Text und Antwortsatz."

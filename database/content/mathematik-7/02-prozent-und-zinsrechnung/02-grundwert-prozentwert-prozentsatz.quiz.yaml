@@ -1,0 +1,64 @@
+- key: q1
+  type: single_choice
+  prompt: "„30 % von 200 Schülern fahren mit dem Bus, das sind 60 Schüler.“ Was ist der Grundwert?"
+  options: ["30 %", "200 Schüler", "60 Schüler"]
+  answer: { index: 1 }
+  explanation: "Der Grundwert ist das Ganze – alle 200 Schüler (100 %)."
+- key: q2
+  type: single_choice
+  prompt: "„30 % von 200 Schülern fahren mit dem Bus, das sind 60 Schüler.“ Was ist der Prozentwert?"
+  options: ["30 %", "200 Schüler", "60 Schüler"]
+  answer: { index: 2 }
+  explanation: "Der Prozentwert ist der Teil: 60 Schüler."
+- key: q3
+  type: single_choice
+  prompt: "Ein Fahrrad kostet 500 €. Beim Kauf gibt es 15 % Rabatt, also 75 € weniger. Was ist der Prozentsatz?"
+  options: ["500 €", "75 €", "15 %"]
+  answer: { index: 2 }
+  explanation: "Der Prozentsatz ist die Angabe in Prozent: 15 %."
+- key: q4
+  type: true_false
+  prompt: "Der Grundwert entspricht immer 100 %."
+  answer: { value: true }
+  explanation: "Der Grundwert ist das Ganze, und das Ganze ist 100 %."
+- key: q5
+  type: gap_text
+  prompt: "„Von 80 Äpfeln sind 20 faul, das sind 25 %.“ Grundwert: ___ Äpfel, Prozentwert: ___ Äpfel, Prozentsatz: ___ %"
+  answer:
+    gaps:
+      - ["80"]
+      - ["20"]
+      - ["25"]
+  explanation: "Das Ganze (80 Äpfel) ist der Grundwert, der Teil (20 Äpfel) der Prozentwert, 25 % der Prozentsatz."
+- key: q6
+  type: true_false
+  prompt: "Grundwert und Prozentwert haben immer dieselbe Einheit."
+  answer: { value: true }
+  explanation: "Beide sind Mengen derselben Art (Euro, Schüler, Liter …). Nur der Prozentsatz hat die Einheit %."
+- key: q7
+  type: single_choice
+  prompt: "Welche Aussage ist richtig?"
+  options:
+    - "Der Prozentwert ist immer kleiner als der Grundwert."
+    - "Der Prozentwert kann größer als der Grundwert sein, wenn der Prozentsatz über 100 % liegt."
+    - "Der Grundwert ist immer die kleinste Zahl in der Aufgabe."
+  answer: { index: 1 }
+  explanation: "120 % von 50 € sind 60 € – der Prozentwert ist dann größer als der Grundwert."
+- key: q8
+  type: single_choice
+  prompt: "Welche Gleichung beschreibt den Zusammenhang der drei Größen?"
+  options: ["W/G = p/100", "G/W = p/100", "W · G = p", "W + G = 100"]
+  answer: { index: 0 }
+  explanation: "Der Prozentwert geteilt durch den Grundwert ergibt den Anteil p/100."
+- key: q9
+  type: single_choice
+  prompt: "„Lisa hat 60 % ihrer 25 Vokabeln gelernt.“ Welche Größe fehlt in der Aufgabe (ist gesucht)?"
+  options: ["Der Grundwert", "Der Prozentsatz", "Der Prozentwert"]
+  answer: { index: 2 }
+  explanation: "Grundwert (25 Vokabeln) und Prozentsatz (60 %) sind gegeben, gesucht ist der Teil – der Prozentwert (15 Vokabeln)."
+- key: q10
+  type: single_choice
+  prompt: "„Max hat 12 von 48 Aufgaben gelöst. Wie viel Prozent sind das?“ Was ist gesucht?"
+  options: ["Der Grundwert", "Der Prozentsatz", "Der Prozentwert"]
+  answer: { index: 1 }
+  explanation: "Gegeben sind Teil (12) und Ganzes (48), gesucht ist der Anteil in Prozent: der Prozentsatz (25 %)."

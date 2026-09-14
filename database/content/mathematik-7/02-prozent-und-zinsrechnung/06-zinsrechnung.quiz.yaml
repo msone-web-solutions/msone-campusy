@@ -1,0 +1,74 @@
+- key: q1
+  type: numeric
+  prompt: "Wie viel Zinsen bringen 4 000 € bei 2 % Zinssatz in einem Jahr?"
+  options: { unit: "€" }
+  answer: { value: 80 }
+  explanation: "4000 · 0,02 = 80 €."
+- key: q2
+  type: numeric
+  prompt: "1 800 € werden zu 5 % angelegt. Wie viel Zinsen gibt es nach 6 Monaten?"
+  options: { unit: "€" }
+  answer: { value: 45 }
+  explanation: "Jahreszinsen 90 €, für 6 Monate die Hälfte: 45 €."
+- key: q3
+  type: numeric
+  prompt: "6 000 € zu 3 % für 120 Tage. Wie viel Zinsen sind das?"
+  options: { unit: "€" }
+  answer: { value: 60 }
+  explanation: "Jahreszinsen 180 €, 120/360 = 1/3 davon: 60 €."
+- key: q4
+  type: numeric
+  prompt: "Bei 4 % Zinsen bekommt Tom 100 € Jahreszinsen. Wie viel Geld hat er angelegt?"
+  options: { unit: "€" }
+  answer: { value: 2500 }
+  explanation: "K = 100 · 100 : 4 = 2 500 €."
+- key: q5
+  type: numeric
+  prompt: "8 000 € bringen 200 € Jahreszinsen. Wie hoch ist der Zinssatz? (nur die Zahl, mit Komma)"
+  options: { unit: "%" }
+  answer: { value: 2.5 }
+  explanation: "200/8000 · 100 = 2,5 %."
+- key: q6
+  type: single_choice
+  prompt: "Mit wie vielen Tagen rechnet die Bank für ein Jahr?"
+  options: ["365", "360", "366", "300"]
+  answer: { index: 1 }
+  explanation: "Im Bankjahr hat jeder Monat 30 Tage, das Jahr also 360 Tage."
+- key: q7
+  type: gap_text
+  prompt: "In der Zinsrechnung heißt der Grundwert ___ und der Prozentwert ___."
+  answer:
+    gaps:
+      - ["Kapital"]
+      - ["Zinsen", "Zins"]
+  explanation: "Kapital = Grundwert, Zinsen = Prozentwert, Zinssatz = Prozentsatz."
+- key: q8
+  type: numeric
+  prompt: "Lena hat 500 € auf dem Sparkonto bei 2 % Zinsen. Wie viel Geld ist nach einem Jahr auf dem Konto (Kapital + Zinsen)?"
+  options: { unit: "€" }
+  answer: { value: 510 }
+  explanation: "Zinsen 10 €, zusammen 510 €."
+- key: q9
+  type: numeric
+  prompt: "Ein Kredit über 3 000 € kostet 6 % Zinsen pro Jahr. Wie viel Zinsen fallen in 4 Monaten an?"
+  options: { unit: "€" }
+  answer: { value: 60 }
+  explanation: "Jahreszinsen 180 €, 4/12 = 1/3 davon: 60 €."
+- key: q10
+  type: numeric
+  prompt: "2 000 € werden 2 Jahre lang zu 10 % mit Zinseszins angelegt. Wie hoch ist das Guthaben nach 2 Jahren?"
+  options: { unit: "€" }
+  answer: { value: 2420 }
+  explanation: "2000 · 1,1 = 2200, dann 2200 · 1,1 = 2420 €."
+- key: q11
+  type: numeric
+  prompt: "2 400 € zu 5 % bringen 40 € Zinsen. Wie viele Monate war das Geld angelegt?"
+  options: { unit: "Monate" }
+  answer: { value: 4 }
+  explanation: "Jahreszinsen 120 €. 40 € sind ein Drittel davon: 12 : 3 = 4 Monate."
+- key: q12
+  type: numeric
+  prompt: "Wie viel Prozent sind 8 ‰? (nur die Zahl, mit Komma)"
+  options: { unit: "%" }
+  answer: { value: 0.8 }
+  explanation: "1 ‰ = 0,1 %, also 8 ‰ = 0,8 %."

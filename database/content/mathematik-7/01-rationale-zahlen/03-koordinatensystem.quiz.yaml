@@ -1,0 +1,68 @@
+- key: q1
+  type: single_choice
+  prompt: "In welchem Quadranten liegt der Punkt P(−4 | 3)?"
+  options: ["I", "II", "III", "IV"]
+  answer: { index: 1 }
+  explanation: "x ist negativ (links), y ist positiv (oben) → II. Quadrant."
+
+- key: q2
+  type: single_choice
+  prompt: "In welchem Quadranten liegt der Punkt Q(5 | −2)?"
+  options: ["I", "II", "III", "IV"]
+  answer: { index: 3 }
+  explanation: "x positiv (rechts), y negativ (unten) → IV. Quadrant."
+
+- key: q3
+  type: gap_text
+  prompt: "Ein Punkt liegt 2 Einheiten links vom Ursprung und 5 Einheiten unterhalb. Seine Koordinaten sind ( ___ | ___ )."
+  answer:
+    gaps:
+      - ["-2"]
+      - ["-5"]
+  explanation: "Links = negative x-Koordinate, unten = negative y-Koordinate: (−2 | −5)."
+
+- key: q4
+  type: true_false
+  prompt: "Bei P(x | y) steht die erste Zahl für die y-Achse."
+  answer: { value: false }
+  explanation: "Die erste Zahl ist immer die x-Koordinate: „Erst laufen (x), dann klettern (y).“"
+
+- key: q5
+  type: single_choice
+  prompt: "Welcher Punkt liegt auf der y-Achse?"
+  options: ["(3 | 0)", "(0 | −4)", "(−2 | −2)", "(1 | 1)"]
+  answer: { index: 1 }
+  explanation: "Punkte auf der y-Achse haben x = 0, also (0 | −4)."
+
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Punkte liegen im III. Quadranten?"
+  options: ["(−1 | −6)", "(−3 | 4)", "(−0,5 | −0,5)", "(2 | −2)", "(−7 | −1)"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Im III. Quadranten sind beide Koordinaten negativ: (−1 | −6), (−0,5 | −0,5) und (−7 | −1)."
+
+- key: q7
+  type: numeric
+  prompt: "A(−2 | 3) und B(4 | 3) liegen auf einer waagerechten Linie. Wie lang ist die Strecke AB (in Einheiten)?"
+  answer: { value: 6 }
+  explanation: "Von x = −2 bis x = 4 sind es 2 + 4 = 6 Einheiten."
+
+- key: q8
+  type: numeric
+  prompt: "C(1 | −5) und D(1 | 2) liegen auf einer senkrechten Linie. Wie lang ist die Strecke CD (in Einheiten)?"
+  answer: { value: 7 }
+  explanation: "Von y = −5 bis y = 2 sind es 5 + 2 = 7 Einheiten."
+
+- key: q9
+  type: single_choice
+  prompt: "Wie heißt der Schnittpunkt der beiden Achsen?"
+  options: ["Mittelpunkt", "Ursprung", "Nullpunkt der x-Achse", "Quadrant"]
+  answer: { index: 1 }
+  explanation: "Der Schnittpunkt heißt Ursprung und hat die Koordinaten (0 | 0)."
+
+- key: q10
+  type: single_choice
+  prompt: "Der Punkt P(3 | −1) wird an der x-Achse gespiegelt. Welche Koordinaten hat der Spiegelpunkt?"
+  options: ["(−3 | −1)", "(3 | 1)", "(−3 | 1)", "(−1 | 3)"]
+  answer: { index: 1 }
+  explanation: "Beim Spiegeln an der x-Achse bleibt x gleich, y wechselt das Vorzeichen: (3 | 1)."

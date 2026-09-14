@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie konstruiert man meistens ein allgemeines Viereck?"
+  options:
+    - "Als zwei Dreiecke nacheinander, getrennt durch eine Diagonale"
+    - "Man zeichnet erst alle vier Winkel"
+    - "Man rät die Form und misst nach"
+  answer: { index: 0 }
+  explanation: "Die Diagonale zerlegt das Viereck in zwei Dreiecke, die man mit SSS, SWS oder WSW konstruiert."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Stücke (Seiten, Winkel, Diagonalen) braucht man mindestens, um ein allgemeines Viereck eindeutig zu konstruieren?"
+  answer: { value: 5 }
+  explanation: "Zwei Dreiecke brauchen je 3 Stücke, die Diagonale zählt für beide: 3 + 3 − 1 = 5."
+- key: q3
+  type: single_choice
+  prompt: "Was ist der erste Schritt bei jeder Konstruktionsaufgabe?"
+  options: ["Den Zirkel einstellen", "Eine Planfigur skizzieren", "Die Konstruktionsbeschreibung schreiben"]
+  answer: { index: 1 }
+  explanation: "Erst die Planfigur mit den gegebenen Stücken – dann weiß man, welches Dreieck zuerst geht."
+- key: q4
+  type: single_choice
+  prompt: "Gegeben: AB = 5 cm, AC = 6 cm, BC = 3 cm. Wie findet man Punkt C?"
+  options:
+    - "Kreis um A mit r = 6 cm und Kreis um B mit r = 3 cm schneiden"
+    - "Kreis um A mit r = 3 cm und Kreis um B mit r = 6 cm schneiden"
+    - "Winkel von 60° in A antragen"
+  answer: { index: 0 }
+  explanation: "C liegt 6 cm von A entfernt (Kreis um A, r = 6) und 3 cm von B (Kreis um B, r = 3)."
+- key: q5
+  type: single_choice
+  prompt: "Welche Angaben reichen aus, um ein Parallelogramm eindeutig zu konstruieren?"
+  options: ["Eine Seite", "Zwei Seiten und der eingeschlossene Winkel", "Zwei Seiten", "Alle vier Winkel"]
+  answer: { index: 1 }
+  explanation: "Zwei Seiten und der Winkel dazwischen – der Rest folgt aus der Parallelität."
+- key: q6
+  type: single_choice
+  prompt: "Eine Raute soll aus a = 5 cm und e = 8 cm konstruiert werden. Welche Kreise zeichnet man nach der Diagonale AC?"
+  options:
+    - "Kreise um A und C mit r = 5 cm"
+    - "Kreise um A und C mit r = 8 cm"
+    - "Kreis um A mit r = 5 cm und um C mit r = 8 cm"
+  answer: { index: 0 }
+  explanation: "Alle Seiten sind 5 cm – B und D liegen 5 cm von A und von C entfernt."
+- key: q7
+  type: true_false
+  prompt: "Mit a = 2 cm, b = 3 cm und Diagonale e = 6 cm lässt sich das Dreieck ABC konstruieren."
+  answer: { value: false }
+  explanation: "2 + 3 = 5 < 6 – die Dreiecksungleichung ist verletzt, die Kreise schneiden sich nicht."
+- key: q8
+  type: single_choice
+  prompt: "Wie zeichnet man eine Parallele zu AB im Abstand 3 cm?"
+  options:
+    - "Mittellinie des Geodreiecks auf AB legen, bei 3 cm die Linie ziehen"
+    - "Kreis um A mit r = 3 cm"
+    - "Winkel von 90° in B antragen und 3 cm abtragen, dann frei Hand weiter"
+  answer: { index: 0 }
+  explanation: "Das Geodreieck hat parallele Linien mit Abstandsangaben – Mittellinie auf AB und bei 3 cm zeichnen."
+- key: q9
+  type: multiple_choice
+  prompt: "Welche Werkzeuge gehören zu einer Konstruktion?"
+  options: ["Zirkel", "Lineal", "Geodreieck", "Taschenrechner", "Radiergummi für Hilfslinien"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Zirkel, Lineal und Geodreieck. Hilfslinien bleiben dünn stehen – nicht wegradieren."
+- key: q10
+  type: gap_text
+  prompt: "Bei einem Drachen zeichnet man zuerst die Symmetriediagonale, dann in einem Punkt darauf die ___ und trägt nach beiden Seiten die ___ der anderen Diagonale ab."
+  answer:
+    gaps:
+      - ["Senkrechte"]
+      - ["Hälfte", "Haelfte", "halbe Länge"]
+  explanation: "Die Diagonalen stehen senkrecht; die Symmetriediagonale halbiert die andere."

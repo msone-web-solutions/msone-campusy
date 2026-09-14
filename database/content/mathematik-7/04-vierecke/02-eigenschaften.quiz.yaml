@@ -1,0 +1,74 @@
+- key: q1
+  type: numeric
+  prompt: "In einem Parallelogramm ist α = 72°. Wie groß ist β?"
+  options: { unit: "°" }
+  answer: { value: 108 }
+  explanation: "Benachbarte Winkel ergänzen sich zu 180°: 180 − 72 = 108°."
+- key: q2
+  type: numeric
+  prompt: "In einem Parallelogramm ist α = 72°. Wie groß ist γ?"
+  options: { unit: "°" }
+  answer: { value: 72 }
+  explanation: "Gegenüberliegende Winkel sind gleich groß."
+- key: q3
+  type: single_choice
+  prompt: "Bei welchem Viereck sind die Diagonalen gleich lang, halbieren sich, stehen aber nicht senkrecht aufeinander?"
+  options: ["Raute", "Rechteck (kein Quadrat)", "Quadrat", "Drachen"]
+  answer: { index: 1 }
+  explanation: "Gleich lang und halbierend = Rechteck. Senkrecht wären sie nur beim Quadrat."
+- key: q4
+  type: numeric
+  prompt: "Wie viele Symmetrieachsen hat ein Quadrat?"
+  answer: { value: 4 }
+  explanation: "Zwei Diagonalen und zwei Mittellinien."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Symmetrieachsen hat ein Rechteck, das kein Quadrat ist?"
+  answer: { value: 2 }
+  explanation: "Die beiden Mittellinien. Die Diagonalen sind keine Symmetrieachsen."
+- key: q6
+  type: true_false
+  prompt: "Die Diagonalen eines Rechtecks sind Symmetrieachsen."
+  answer: { value: false }
+  explanation: "Faltet man ein Rechteck an der Diagonale, liegen die Hälften nicht aufeinander. Nur beim Quadrat sind die Diagonalen Symmetrieachsen."
+- key: q7
+  type: multiple_choice
+  prompt: "Bei welchen Vierecken stehen die Diagonalen senkrecht aufeinander?"
+  options: ["Rechteck", "Raute", "Quadrat", "Drachen", "Parallelogramm"]
+  answer: { indexes: [1, 2, 3] }
+  explanation: "Raute, Quadrat und Drachen haben senkrechte Diagonalen."
+- key: q8
+  type: single_choice
+  prompt: "Welches Viereck hat keine Symmetrieachse, ist aber punktsymmetrisch?"
+  options: ["Drachen", "Parallelogramm", "gleichschenkliges Trapez", "Raute"]
+  answer: { index: 1 }
+  explanation: "Das Parallelogramm ist nur punktsymmetrisch zum Diagonalenschnittpunkt."
+- key: q9
+  type: numeric
+  prompt: "In einem Trapez mit den parallelen Seiten a und c ist α = 110°. Wie groß ist δ (am selben Schenkel)?"
+  options: { unit: "°" }
+  answer: { value: 70 }
+  explanation: "Winkel an einem Schenkel ergänzen sich zu 180°: 180 − 110 = 70°."
+- key: q10
+  type: single_choice
+  prompt: "Bei einer Raute sind die Diagonalen e = 8 cm und f = 6 cm. Was gilt für ihren Schnittpunkt?"
+  options:
+    - "Er teilt e in 4 cm und 4 cm und f in 3 cm und 3 cm."
+    - "Er teilt e in 6 cm und 2 cm."
+    - "Er liegt auf einer Ecke."
+  answer: { index: 0 }
+  explanation: "Die Diagonalen einer Raute halbieren sich gegenseitig."
+- key: q11
+  type: gap_text
+  prompt: "Die Linie, die die Mittelpunkte zweier gegenüberliegender Seiten verbindet, heißt ___. Der senkrechte Abstand zweier paralleler Seiten heißt ___."
+  answer:
+    gaps:
+      - ["Mittellinie"]
+      - ["Höhe"]
+  explanation: "Mittellinie verbindet Seitenmitten, die Höhe ist der senkrechte Abstand paralleler Seiten."
+- key: q12
+  type: single_choice
+  prompt: "In einem Drachen ABCD ist AC die Symmetrieachse. Welche Winkel sind gleich groß?"
+  options: ["α und γ", "β und δ", "α und β", "alle vier"]
+  answer: { index: 1 }
+  explanation: "Die Winkel, die von der Symmetrieachse nicht halbiert werden (β und δ), sind gleich groß."

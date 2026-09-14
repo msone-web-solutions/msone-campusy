@@ -1,0 +1,64 @@
+- key: q1
+  type: single_choice
+  prompt: "Ein Viereck hat vier gleich lange Seiten, aber keine rechten Winkel. Wie heißt es?"
+  options: ["Quadrat", "Rechteck", "Raute", "Trapez"]
+  answer: { index: 2 }
+  explanation: "Vier gleiche Seiten ohne rechte Winkel: Raute (Rhombus)."
+- key: q2
+  type: single_choice
+  prompt: "Bei einem Viereck sind nur zwei gegenüberliegende Seiten parallel. Wie heißt es?"
+  options: ["Parallelogramm", "Trapez", "Drachen", "Raute"]
+  answer: { index: 1 }
+  explanation: "Ein Paar paralleler Seiten: Trapez."
+- key: q3
+  type: true_false
+  prompt: "Jedes Quadrat ist auch ein Rechteck."
+  answer: { value: true }
+  explanation: "Ein Quadrat hat vier rechte Winkel – das ist die Bedingung für ein Rechteck."
+- key: q4
+  type: true_false
+  prompt: "Jedes Rechteck ist auch ein Quadrat."
+  answer: { value: false }
+  explanation: "Ein Rechteck mit den Seiten 4 cm und 6 cm ist kein Quadrat."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Vierecke sind immer auch Parallelogramme?"
+  options: ["Quadrat", "Rechteck", "Raute", "Trapez", "Drachen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Quadrat, Rechteck und Raute haben zwei Paare paralleler Seiten. Trapez und Drachen im Allgemeinen nicht."
+- key: q6
+  type: single_choice
+  prompt: "In welcher Reihenfolge werden die Ecken eines Vierecks bezeichnet?"
+  options: ["Im Uhrzeigersinn, beginnend oben links", "Gegen den Uhrzeigersinn, beginnend links unten", "Beliebig"]
+  answer: { index: 1 }
+  explanation: "A links unten, dann B, C, D gegen den Uhrzeigersinn."
+- key: q7
+  type: single_choice
+  prompt: "Ein Viereck hat a = d = 4 cm und b = c = 7 cm und ist symmetrisch zur Diagonale AC. Wie heißt es?"
+  options: ["Parallelogramm", "Trapez", "Drachen", "Rechteck"]
+  answer: { index: 2 }
+  explanation: "Zwei Paare gleich langer Nachbarseiten und Symmetrie zu einer Diagonale: Drachenviereck."
+- key: q8
+  type: gap_text
+  prompt: "Die Verbindungslinie von A nach C heißt ___ e, die von B nach D heißt Diagonale ___."
+  answer:
+    gaps:
+      - ["Diagonale"]
+      - ["f"]
+  explanation: "Die Diagonalen heißen e = AC und f = BD."
+- key: q9
+  type: single_choice
+  prompt: "Welches Viereck ist gleichzeitig Rechteck und Raute?"
+  options: ["Parallelogramm", "Quadrat", "Drachen", "Trapez"]
+  answer: { index: 1 }
+  explanation: "Vier rechte Winkel (Rechteck) und vier gleiche Seiten (Raute) = Quadrat."
+- key: q10
+  type: multiple_choice
+  prompt: "Welche Aussagen sind richtig?"
+  options:
+    - "Jede Raute ist ein Drachen."
+    - "Jedes Trapez ist ein Parallelogramm."
+    - "Jedes Parallelogramm ist ein Trapez."
+    - "Jedes Quadrat ist eine Raute."
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Raute: alle Nachbarseiten gleich → Drachen ✓. Parallelogramm hat (sogar zwei) parallele Seitenpaare → Trapez ✓. Quadrat: vier gleiche Seiten → Raute ✓. Ein Trapez mit nur einem parallelen Paar ist kein Parallelogramm."

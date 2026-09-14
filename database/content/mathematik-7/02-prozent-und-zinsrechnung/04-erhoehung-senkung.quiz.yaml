@@ -1,0 +1,71 @@
+- key: q1
+  type: numeric
+  prompt: "Ein Rucksack kostet 60 €. Es gibt 15 % Rabatt. Was kostet er jetzt?"
+  options: { unit: "€" }
+  answer: { value: 51 }
+  explanation: "60 · 0,85 = 51 € (oder 15 % von 60 = 9 €, 60 − 9 = 51 €)."
+- key: q2
+  type: numeric
+  prompt: "Die Miete von 500 € wird um 4 % erhöht. Wie hoch ist die neue Miete?"
+  options: { unit: "€" }
+  answer: { value: 520 }
+  explanation: "500 · 1,04 = 520 €."
+- key: q3
+  type: single_choice
+  prompt: "Mit welchem Faktor multipliziert man, wenn ein Preis um 30 % gesenkt wird?"
+  options: ["0,3", "0,7", "1,3", "1,7"]
+  answer: { index: 1 }
+  explanation: "100 % − 30 % = 70 % = 0,7."
+- key: q4
+  type: numeric
+  prompt: "Ein Laptop kostet 800 € netto. Wie hoch ist der Bruttopreis mit 19 % Mehrwertsteuer?"
+  options: { unit: "€" }
+  answer: { value: 952 }
+  explanation: "800 · 1,19 = 952 €."
+- key: q5
+  type: numeric
+  prompt: "Ein Fernseher kostet 595 € brutto (inkl. 19 % MwSt.). Wie hoch ist der Nettopreis?"
+  options: { unit: "€" }
+  answer: { value: 500 }
+  explanation: "Brutto : 1,19 = 595 : 1,19 = 500 €."
+- key: q6
+  type: true_false
+  prompt: "Um vom Bruttopreis auf den Nettopreis zu kommen, zieht man 19 % vom Bruttopreis ab."
+  answer: { value: false }
+  explanation: "Der Nettopreis ist der Grundwert (100 %). Man muss durch 1,19 teilen, nicht 19 % vom Brutto abziehen."
+- key: q7
+  type: numeric
+  prompt: "Nach 20 % Rabatt kostet eine Hose 36 €. Was hat sie vorher gekostet?"
+  options: { unit: "€" }
+  answer: { value: 45 }
+  explanation: "36 € sind 80 %. 36 : 0,8 = 45 €."
+- key: q8
+  type: numeric
+  prompt: "Eine Rechnung über 1 200 € wird mit 3 % Skonto bezahlt. Wie viel wird überwiesen?"
+  options: { unit: "€" }
+  answer: { value: 1164 }
+  explanation: "1200 · 0,97 = 1164 €."
+- key: q9
+  type: single_choice
+  prompt: "„Der Preis wurde auf 40 % gesenkt.“ Wie hoch ist der Rabatt?"
+  options: ["40 %", "60 %", "140 %"]
+  answer: { index: 1 }
+  explanation: "Man zahlt nur noch 40 %, also wurden 60 % nachgelassen."
+- key: q10
+  type: numeric
+  prompt: "Ein Preis von 200 € wird erst um 50 % erhöht und dann um 50 % gesenkt. Wie hoch ist der Preis am Ende?"
+  options: { unit: "€" }
+  answer: { value: 150 }
+  explanation: "200 · 1,5 = 300, dann 300 · 0,5 = 150 €. Die Senkung bezieht sich auf den neuen Grundwert."
+- key: q11
+  type: numeric
+  prompt: "Ein Verein hatte 250 Mitglieder, jetzt sind es 290. Um wie viel Prozent ist die Mitgliederzahl gestiegen? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 16 }
+  explanation: "Zuwachs 40 Mitglieder. 40/250 · 100 = 16 %."
+- key: q12
+  type: numeric
+  prompt: "Ein Buch kostet 20 € netto. Auf Bücher gilt 7 % Mehrwertsteuer. Wie hoch ist der Bruttopreis? (mit Komma)"
+  options: { unit: "€" }
+  answer: { value: 21.4 }
+  explanation: "20 · 1,07 = 21,40 €."

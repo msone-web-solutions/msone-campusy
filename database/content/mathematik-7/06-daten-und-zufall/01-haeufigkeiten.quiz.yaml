@@ -1,0 +1,68 @@
+- key: q1
+  type: numeric
+  prompt: "In einer Klasse mit 24 Kindern haben 6 eine Brille. Wie groß ist die relative Häufigkeit in Prozent? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 25 }
+  explanation: "6 : 24 = 0,25 = 25 %."
+- key: q2
+  type: numeric
+  prompt: "Von 40 Würfen zeigt der Würfel 7-mal eine Sechs. Wie groß ist die absolute Häufigkeit H(Sechs)?"
+  answer: { value: 7 }
+  explanation: "Die absolute Häufigkeit ist die Anzahl: 7."
+- key: q3
+  type: numeric
+  prompt: "Von 40 Würfen zeigt der Würfel 7-mal eine Sechs. Wie groß ist die relative Häufigkeit h(Sechs)? (als Dezimalzahl)"
+  answer: { value: 0.175 }
+  explanation: "7 : 40 = 0,175 = 17,5 %."
+- key: q4
+  type: single_choice
+  prompt: "Was ergeben alle relativen Häufigkeiten einer Erhebung zusammen?"
+  options: ["Die Gesamtzahl n", "1 bzw. 100 %", "0", "Das kommt darauf an"]
+  answer: { index: 1 }
+  explanation: "Die Anteile aller Merkmale ergeben das Ganze: 100 %."
+- key: q5
+  type: numeric
+  prompt: "Bei einer Umfrage unter 300 Personen antworten 45 % mit „Ja“. Wie viele Personen sind das?"
+  answer: { value: 135 }
+  explanation: "H = 0,45 · 300 = 135."
+- key: q6
+  type: single_choice
+  prompt: "Klasse 7a: 8 von 20 spielen ein Instrument. Klasse 7b: 9 von 30. In welcher Klasse ist der Anteil größer?"
+  options: ["7a", "7b", "Der Anteil ist gleich"]
+  answer: { index: 0 }
+  explanation: "7a: 8/20 = 40 %. 7b: 9/30 = 30 %. Obwohl die 7b mehr Musiker hat, ist der Anteil in der 7a größer."
+- key: q7
+  type: gap_text
+  prompt: "Die Anzahl, wie oft ein Merkmal vorkommt, heißt ___ Häufigkeit. Der Anteil am Ganzen heißt ___ Häufigkeit."
+  answer:
+    gaps:
+      - ["absolute"]
+      - ["relative"]
+  explanation: "H = absolute Häufigkeit (Anzahl), h = relative Häufigkeit (Anteil)."
+- key: q8
+  type: numeric
+  prompt: "Lieblingsfarbe in der 7c (n = 25): Blau 8, Rot 5, Grün 7, Gelb 5. Wie viel Prozent nennen Blau oder Grün? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 60 }
+  explanation: "(8 + 7) : 25 = 15 : 25 = 0,6 = 60 %."
+- key: q9
+  type: multiple_choice
+  prompt: "Was gehört zur Planung einer Datenerhebung?"
+  options: ["Die Frage festlegen", "Die befragte Gruppe festlegen", "Die möglichen Antworten festlegen", "Das Ergebnis vorher festlegen"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Frage, Gruppe und Antwortmöglichkeiten – das Ergebnis kennt man erst nach der Erhebung."
+- key: q10
+  type: numeric
+  prompt: "In einer Strichliste stehen bei „Bus“ zwei volle Fünferblöcke und drei einzelne Striche. Wie groß ist H(Bus)?"
+  answer: { value: 13 }
+  explanation: "2 · 5 + 3 = 13."
+- key: q11
+  type: numeric
+  prompt: "Bei einer Erhebung mit n = 50 ist h(A) = 0,3. Wie groß ist H(A)?"
+  answer: { value: 15 }
+  explanation: "H = 0,3 · 50 = 15."
+- key: q12
+  type: true_false
+  prompt: "Die relative Häufigkeit kann größer als 1 sein."
+  answer: { value: false }
+  explanation: "Ein Anteil am Ganzen ist höchstens 1 (= 100 %), wenn alle das Merkmal haben."

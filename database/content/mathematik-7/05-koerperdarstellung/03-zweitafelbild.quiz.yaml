@@ -1,0 +1,76 @@
+- key: q1
+  type: single_choice
+  prompt: "Was zeigt der Grundriss?"
+  options: ["Die Ansicht von vorn", "Die Ansicht von oben", "Die Ansicht von der Seite", "Das Schrägbild"]
+  answer: { index: 1 }
+  explanation: "Grundriss = von oben, Aufriss = von vorn."
+- key: q2
+  type: single_choice
+  prompt: "Wie heißt die waagerechte Linie zwischen Aufriss und Grundriss?"
+  options: ["Ordnungslinie", "Rissachse", "Höhenlinie", "Diagonale"]
+  answer: { index: 1 }
+  explanation: "Die Rissachse trennt die beiden Ansichten."
+- key: q3
+  type: single_choice
+  prompt: "Wozu dienen die Ordnungslinien?"
+  options:
+    - "Sie verbinden zusammengehörende Punkte in Aufriss und Grundriss senkrecht."
+    - "Sie zeigen die Höhe des Körpers."
+    - "Sie sind die Symmetrieachsen."
+  answer: { index: 0 }
+  explanation: "Jeder Punkt liegt in beiden Rissen genau übereinander – die Ordnungslinie zeigt das."
+- key: q4
+  type: single_choice
+  prompt: "Ein stehender Zylinder: Wie sieht sein Grundriss aus?"
+  options: ["Rechteck", "Kreis", "Dreieck", "Quadrat"]
+  answer: { index: 1 }
+  explanation: "Von oben sieht man den Kreis der Deckfläche."
+- key: q5
+  type: single_choice
+  prompt: "Ein stehender Zylinder: Wie sieht sein Aufriss aus?"
+  options: ["Rechteck", "Kreis", "Dreieck", "Oval"]
+  answer: { index: 0 }
+  explanation: "Von vorn sieht man ein Rechteck: Breite = Durchmesser, Höhe = Körperhöhe."
+- key: q6
+  type: single_choice
+  prompt: "Ein Körper hat als Grundriss ein Quadrat mit beiden Diagonalen und als Aufriss ein Dreieck. Welcher Körper ist das?"
+  options: ["Würfel", "Kegel", "Quadratische Pyramide", "Dreiecksprisma"]
+  answer: { index: 2 }
+  explanation: "Die Diagonalen sind die Kanten zur Spitze von oben; von vorn ein Dreieck."
+- key: q7
+  type: single_choice
+  prompt: "Ein Körper hat als Grundriss einen Kreis mit Mittelpunkt und als Aufriss ein Dreieck. Welcher Körper?"
+  options: ["Zylinder", "Kegel", "Kugel", "Pyramide"]
+  answer: { index: 1 }
+  explanation: "Kreis-Grundfläche + Spitze (der Punkt in der Mitte) = Kegel."
+- key: q8
+  type: gap_text
+  prompt: "Ein Quader ist 6 cm lang, 4 cm tief und 3 cm hoch. Sein Aufriss ist ein Rechteck von 6 cm × ___ cm, sein Grundriss ein Rechteck von 6 cm × ___ cm."
+  answer:
+    gaps:
+      - ["3"]
+      - ["4"]
+  explanation: "Aufriss zeigt Länge und Höhe (6 × 3), Grundriss Länge und Tiefe (6 × 4)."
+- key: q9
+  type: single_choice
+  prompt: "Wie bezeichnet man den Punkt A im Aufriss?"
+  options: ["A", "A'", "A''", "A₂"]
+  answer: { index: 2 }
+  explanation: "Grundriss A' (ein Strich), Aufriss A'' (zwei Striche)."
+- key: q10
+  type: true_false
+  prompt: "Im Zweitafelbild sind alle Maße in wahrer Größe zu sehen."
+  answer: { value: true }
+  explanation: "Das ist der Vorteil gegenüber dem Schrägbild – nichts wird verkürzt oder verzerrt."
+- key: q11
+  type: single_choice
+  prompt: "Zylinder und Quader haben beide ein Rechteck als Aufriss. Woran unterscheidet man sie im Zweitafelbild?"
+  options: ["Am Grundriss: Kreis beim Zylinder, Rechteck beim Quader", "An der Rissachse", "Gar nicht"]
+  answer: { index: 0 }
+  explanation: "Erst der Grundriss zeigt die Form der Grundfläche."
+- key: q12
+  type: single_choice
+  prompt: "Wo liegt im Grundriss eines Quaders der Punkt E (die Ecke über A)?"
+  options: ["Neben A'", "Genau auf A' (E' = A')", "Auf der Rissachse"]
+  answer: { index: 1 }
+  explanation: "Von oben gesehen liegen obere und untere Ecke genau übereinander – im Grundriss fallen sie zusammen."
