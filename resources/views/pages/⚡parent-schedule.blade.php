@@ -26,6 +26,10 @@ new #[Title('Stundenplan einstellen')] class extends Component
 
     public int $break_minutes = 20;
 
+    public int $weekly_goal_blocks = 12;
+
+    public int $backlog_alert_blocks = 3;
+
     /** @var list<int> */
     public array $school_days = [1, 2, 3, 4, 5];
 
@@ -44,6 +48,8 @@ new #[Title('Stundenplan einstellen')] class extends Component
         $this->blocks_per_day = $settings->blocks_per_day;
         $this->lesson_minutes = $settings->lesson_minutes;
         $this->break_minutes = $settings->break_minutes;
+        $this->weekly_goal_blocks = $settings->weekly_goal_blocks;
+        $this->backlog_alert_blocks = $settings->backlog_alert_blocks;
         $this->school_days = array_map('intval', $settings->school_days);
         $this->subject_weights = $this->subjects->mapWithKeys(fn (Subject $s) => [$s->slug => $settings->weightFor($s)])->all();
     }
@@ -80,6 +86,8 @@ new #[Title('Stundenplan einstellen')] class extends Component
             'blocks_per_day' => ['required', 'integer', 'between:1,5'],
             'lesson_minutes' => ['required', 'integer', 'between:45,120'],
             'break_minutes' => ['required', 'integer', 'between:5,45'],
+            'weekly_goal_blocks' => ['required', 'integer', 'between:0,40'],
+            'backlog_alert_blocks' => ['required', 'integer', 'between:0,30'],
             'school_days' => ['required', 'array', 'min:1'],
             'school_days.*' => ['integer', 'between:1,7'],
             'subject_weights' => ['array'],
@@ -94,6 +102,8 @@ new #[Title('Stundenplan einstellen')] class extends Component
             'blocks_per_day' => $validated['blocks_per_day'],
             'lesson_minutes' => $validated['lesson_minutes'],
             'break_minutes' => $validated['break_minutes'],
+            'weekly_goal_blocks' => $validated['weekly_goal_blocks'],
+            'backlog_alert_blocks' => $validated['backlog_alert_blocks'],
             'school_days' => array_values(array_map('intval', $validated['school_days'])),
             'subject_weights' => array_map('intval', $validated['subject_weights'] ?? []),
         ]);
@@ -126,6 +136,17 @@ new #[Title('Stundenplan einstellen')] class extends Component
                         <flux:input wire:model="blocks_per_day" type="number" min="1" max="5" label="Doppelstunden pro Tag" />
                         <flux:input wire:model="lesson_minutes" type="number" min="45" max="120" step="5" label="Länge einer Doppelstunde (min)" />
                         <flux:input wire:model="break_minutes" type="number" min="5" max="45" step="5" label="Bewegungspause (min)" />
+                    </div>
+
+                    <div class="rq-grid rq-grid--2">
+                        <div>
+                            <flux:input wire:model="weekly_goal_blocks" type="number" min="0" max="40" label="Wochenziel (Blöcke pro Woche)" />
+                            <p style="font-size:12px;margin-top:4px">0 = kein Wochenziel. Richtwert: Schultage × Blöcke pro Tag.</p>
+                        </div>
+                        <div>
+                            <flux:input wire:model="backlog_alert_blocks" type="number" min="0" max="30" label="Erinnerung per E-Mail ab … Blöcken Rückstand" />
+                            <p style="font-size:12px;margin-top:4px">0 = keine Erinnerung. Sonst täglich um 17 Uhr, höchstens eine Mail pro Tag.</p>
+                        </div>
                     </div>
 
                     <div>

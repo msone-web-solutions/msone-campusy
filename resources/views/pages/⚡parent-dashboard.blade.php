@@ -55,6 +55,7 @@ new #[Title('Elternübersicht')] class extends Component
             'streak' => $streak,
             'recent' => $attempts->take(5),
             'pace' => Curriculum::for($child)->pace(now()),
+            'week' => Curriculum::for($child)->weekProgress(now()),
         ];
     }
 };
@@ -88,6 +89,7 @@ new #[Title('Elternübersicht')] class extends Component
                             <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px"><span>Ist {{ $pace['percent_done'] }} %</span><span class="rq-muted">Soll {{ $pace['percent_expected'] }} %</span></div>
                             <div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div>
                         </div>
+                        <x-raque.week-goal :week="$r['week']" compact style="flex:1;min-width:200px" />
                         <span class="rq-muted">Voraussichtlich fertig: <strong style="color:var(--text-heading)">{{ $pace['finish_date']?->format('d.m.Y') ?? '–' }}</strong></span>
                         <x-raque.button size="sm" variant="outline" icon="bx bx-cog" :href="route('parent.schedule', $child)" wire:navigate>Stundenplan einstellen</x-raque.button>
                     </div>

@@ -1,0 +1,30 @@
+:root{
+/* --- radii: 4px is the house default. Nothing is a pill; circles are true circles. --- */
+--radius:4px;            /* buttons, cards, images, sub-menu, fields, tabs */
+--radius-chip:3px;       /* .trend-badge, .course-viewer chips */
+--radius-md:5px;         /* search input, testimonial block */
+--radius-lg:10px;        /* .events-date tile */
+--radius-addr:40px;      /* .address-icon */
+--radius-circle:100%;    /* play button, cart button, teacher ring, list bullet */
+
+/* --- THE defining feature: one left-to-right gradient, reused everywhere.
+       Note the 51% midpoint and the repeated start colour — it is authored to be
+       animated by sliding background-position, not to read as a simple two-stop blend. --- */
+--gradient:linear-gradient(to right,#01a6fd 0%,#17d0cf 51%,#01a6fd 100%); /* @kind color */
+--gradient-size:200% auto;                 /* @kind other */
+--gradient-border:linear-gradient(69deg,#10abff,#1beabd); /* @kind color */
+--gradient-text:linear-gradient(to right,#01a6fd 0%,#17d0cf 100%);
+--gradient-opacity:.9;                     /* @kind other */
+
+/* --- elevation. Genius is an almost shadowless design: one dropdown shadow. --- */
+--shadow-menu:0 5px 10px 0 rgba(83,82,82,.1);
+
+/* --- borders --- */
+--border-width:1px;          /* @kind spacing */
+--border-width-button:2px;   /* @kind spacing */
+--border-width-addr:4px;     /* @kind spacing */
+
+/* --- motion --- */
+--transition:.3s ease-in-out;          /* @kind other */
+--transition-gradient:background 1s ease-out; /* @kind other */
+}

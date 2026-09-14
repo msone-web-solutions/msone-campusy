@@ -54,6 +54,15 @@ new #[Title('Dashboard')] class extends Component
         return Curriculum::for(auth()->user())->pace(now());
     }
 
+    /**
+     * @return array{goal: int, done_blocks: float, done_minutes: int, percent: int, reached: bool, topics: int}
+     */
+    #[Computed]
+    public function week(): array
+    {
+        return Curriculum::for(auth()->user())->weekProgress(now());
+    }
+
     #[Computed]
     public function dueCount(): int
     {
@@ -119,6 +128,10 @@ new #[Title('Dashboard')] class extends Component
                 ]"
                 footer="Zum Stundenplan"
                 :footer-href="route('school-day')" />
+
+            <x-raque.card title="Diese Woche" pad>
+                <x-raque.week-goal :week="$this->week" />
+            </x-raque.card>
 
             <x-raque.card title="Fortschritt je Fach">
                 @foreach ($this->subjects as $subject)

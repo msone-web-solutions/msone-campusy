@@ -1,0 +1,61 @@
+:root{
+/* --- the mb/mt utility steps the source ships --- */
+--space-5:5px;
+--space-8:8px;
+--space-10:10px;
+--space-15:15px;
+--space-20:20px;
+--space-25:25px;
+--space-30:30px;
+--space-35:35px;
+--space-45:45px;
+--space-55:55px;
+--space-60:60px;
+--space-65:65px;
+
+/* --- section rhythm. Genius pads generously and unevenly. --- */
+--section-pad:125px;         /* the standard band */
+--section-pad-teacher:105px;
+--section-pad-faq:110px;
+--section-pad-product:100px;
+--section-pad-sponsor:60px;
+
+/* --- layout --- */
+--container:1170px;
+--gutter:30px;
+--measure-testimonial:850px;
+--search-width:700px;
+--subscribe-width:735px;
+
+/* --- component padding --- */
+--pad-button:0 25px;
+--pad-card-text:20px 25px 30px;   /* .best-course-text */
+--pad-teacher:20px 30px 30px;
+--pad-product:25px 20px;
+--pad-submenu:15px;
+--pad-field:15px;
+--pad-chip:5px 15px;
+--pad-nav-link:7px 15px 10px;
+
+/* --- control sizes --- */
+--h-button:56px;         /* .genius-btn incl. its 2px border */
+--h-control:60px;        /* .nws-button button, search input */
+--h-field:50px;          /* .contact-info input */
+--h-textarea:100px;
+--h-chip:30px;
+--h-circle:40px;         /* play button, add-to-cart */
+--h-addr-icon:60px;
+--w-course-card:370px;
+--w-news-thumb:120px;
+--w-event-date:95px;
+--h-event-date:84px;
+--w-sponsor:180px;
+--w-submenu:300px;
+--ring-teacher:210px;    /* the gradient ring behind a teacher portrait */
+
+/* --- decorative rules --- */
+--rule-section:50px;     /* .section-title-2 h2::after width */
+--rule-card:50px;        /* .course-title::after width */
+--rule-divider:1px;
+--bar-faq:3px;
+}

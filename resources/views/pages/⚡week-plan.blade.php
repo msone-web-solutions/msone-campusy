@@ -63,6 +63,7 @@ new #[Title('Wochenplan')] class extends Component
                         <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px"><span>Ist: <strong>{{ $pace['percent_done'] }} %</strong></span><span class="rq-muted">Soll heute: {{ $pace['percent_expected'] }} %</span></div>
                         <div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div>
                     </div>
+                    <x-raque.week-goal :week="$week['week_progress']" compact style="flex:1;min-width:200px" />
                     <div class="rq-week__kpis">
                         <div><span class="rq-muted">Offene Blöcke</span><strong>{{ $pace['remaining_blocks'] }}</strong></div>
                         <div><span class="rq-muted">Schultage bis fertig</span><strong>{{ $pace['school_days_left'] }}</strong></div>

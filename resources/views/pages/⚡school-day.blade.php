@@ -155,6 +155,8 @@ new #[Title('Dein Schultag')] class extends Component
                         <div class="rq-progress rq-pace" style="height:10px"><span class="rq-pace__soll" style="width:{{ $pace['percent_expected'] }}%"></span><span class="rq-pace__ist" style="width:{{ $pace['percent_done'] }}%"></span></div>
                     </div>
 
+                    <x-raque.week-goal :week="$plan['week']" />
+
                     <ul class="rq-profile__stats" style="padding:0">
                         <li><span>Heute geschafft</span><span>{{ $plan['lessons_done'] }} / {{ $plan['lessons_total'] }} Blöcke</span></li>
                         <li><span>Offene Blöcke gesamt</span><span>{{ $pace['remaining_blocks'] }}</span></li>

@@ -24,7 +24,7 @@ use Illuminate\Support\Collection;
 class WeekPlanner
 {
     /**
-     * @return array{week_start: CarbonInterface, days: list<Day>, pace: Pace, outlook: Collection<int, array{subject: Subject, total: int, passed: int, open: int, minutes_open: int, finish_date: ?CarbonImmutable}>, finish_date: ?CarbonInterface}
+     * @return array{week_start: CarbonInterface, days: list<Day>, pace: Pace, outlook: Collection<int, array{subject: Subject, total: int, passed: int, open: int, minutes_open: int, finish_date: ?CarbonImmutable}>, finish_date: ?CarbonInterface, week_progress: array{goal: int, done_blocks: float, done_minutes: int, percent: int, reached: bool, topics: int}}
      */
     public function weekFor(User $user, CarbonInterface $today, int $weekOffset = 0): array
     {
@@ -59,6 +59,7 @@ class WeekPlanner
             'pace' => $pace,
             'outlook' => $curriculum->subjectOutlook($today),
             'finish_date' => $pace['finish_date'],
+            'week_progress' => $curriculum->weekProgress($today),
         ];
     }
 }

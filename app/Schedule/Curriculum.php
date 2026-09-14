@@ -296,6 +296,29 @@ class Curriculum
     }
 
     /**
+     * Wochenziel: Lernminuten der in dieser Woche bestandenen Themen, umgerechnet in Blöcke.
+     *
+     * @return array{goal: int, done_blocks: float, done_minutes: int, percent: int, reached: bool, topics: int}
+     */
+    public function weekProgress(CarbonInterface $today): array
+    {
+        $weekStart = CarbonImmutable::instance($today)->startOfWeek();
+        $passed = $this->progress->filter(fn (TopicProgress $p) => $p->passed_at !== null && $p->passed_at->gte($weekStart));
+        $minutes = (int) $this->topics->whereIn('id', $passed->pluck('topic_id'))->sum(fn (Topic $t) => max(10, (int) $t->estimated_minutes));
+        $blocks = round($minutes / $this->settings->capacity(), 1);
+        $goal = $this->settings->weekly_goal_blocks;
+
+        return [
+            'goal' => $goal,
+            'done_blocks' => $blocks,
+            'done_minutes' => $minutes,
+            'percent' => $goal > 0 ? min(100, (int) round($blocks * 100 / $goal)) : 100,
+            'reached' => $goal > 0 && $blocks >= $goal,
+            'topics' => $passed->count(),
+        ];
+    }
+
+    /**
      * Themen, die an einem vergangenen Tag bestanden wurden.
      *
      * @return Collection<int, Topic>

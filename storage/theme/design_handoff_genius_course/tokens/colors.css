@@ -1,0 +1,57 @@
+:root{
+/* --- the two brand hues. Genius never uses either as a flat fill on a
+       large surface: they exist to be blended into the house gradient. --- */
+--genius-blue:#01a6fd;
+--genius-teal:#17d0cf;
+
+/* --- gradient stops used by the two authored gradients --- */
+--genius-blue-alt:#10abff;   /* .gradient-bdr start */
+--genius-teal-alt:#1beabd;   /* .gradient-bdr end */
+
+/* --- ink --- */
+--genius-ink:#333333;        /* every heading, and strong body text */
+--genius-body:#777777;       /* the body element's own colour */
+--genius-muted:#989898;      /* meta, timestamps, separators, designations */
+--genius-white:#ffffff;
+
+/* --- accents, each with exactly one job --- */
+--genius-star:#ffc926;       /* rating stars */
+--genius-trend:#ff5c26;      /* inline "TRENDING" badge */
+--genius-trend-alt:#ff5a00;  /* corner trend ribbon on the best-course card */
+--genius-tab:#006dad;        /* inactive FAQ tab */
+--genius-quote:#125693;      /* the decorative quote glyph */
+--genius-faq-body:#67a0c9;   /* FAQ answer text, on the photographic FAQ ground */
+--genius-subtitle:#a9a3a3;   /* hero eyebrow */
+
+/* --- surfaces --- */
+--genius-surface:#f7f7f7;    /* the alternating section ground, also chip fill */
+--genius-product:#f1f1f3;    /* product card ground */
+--genius-field:#eeeeee;      /* form field ground */
+--genius-field-search:#f9f9f9;/* search field ground */
+--genius-line:#cccccc;       /* hairlines and dividers */
+--genius-scrim:rgba(0,0,0,.65);      /* image hover scrim */
+--genius-veil:rgba(255,255,255,.78); /* textarea over a photo */
+
+/* --- semantic aliases --- */
+--color-primary:var(--genius-teal);
+--color-primary-alt:var(--genius-blue);
+--color-rating:var(--genius-star);
+--color-trend:var(--genius-trend);
+
+--text-heading:var(--genius-ink);
+--text-body:var(--genius-body);
+--text-muted:var(--genius-muted);
+--text-on-dark:var(--genius-white);
+--text-eyebrow:var(--genius-subtitle);
+--text-category:var(--genius-teal);
+
+--surface-page:var(--genius-white);
+--surface-alt:var(--genius-surface);
+--surface-card:var(--genius-white);
+--surface-product:var(--genius-product);
+--surface-chip:var(--genius-surface);
+--surface-field:var(--genius-field);
+
+--border-default:var(--genius-line);
+--border-button:var(--genius-teal);
+}

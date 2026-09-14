@@ -51,7 +51,8 @@ class DayPlanner
     /**
      * @return array{
      *     date: CarbonInterface, is_school_day: bool, blocks: list<Block>, due: int,
-     *     settings: ScheduleSetting, pace: Pace, lessons_total: int, lessons_done: int, first_open: ?int, day_end: int
+     *     settings: ScheduleSetting, pace: Pace, week: array{goal: int, done_blocks: float, done_minutes: int, percent: int, reached: bool, topics: int},
+     *     lessons_total: int, lessons_done: int, first_open: ?int, day_end: int
      * }
      */
     public function planFor(User $user, CarbonInterface $date): array
@@ -106,6 +107,7 @@ class DayPlanner
             'due' => $this->reviews->dueCountFor($user),
             'settings' => $settings,
             'pace' => $curriculum->pace($today),
+            'week' => $curriculum->weekProgress($today),
             'lessons_total' => $perDay,
             'lessons_done' => $lessonsDone,
             'first_open' => $firstOpen,

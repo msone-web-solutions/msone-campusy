@@ -1,0 +1,47 @@
+:root{
+--font-sans:'Roboto',sans-serif;
+
+/* --- weights. Genius leans on the extremes: 100 for display, 700 for emphasis. --- */
+--fw-thin:100; /* @kind font */
+--fw-light:300; /* @kind font */
+--fw-regular:400; /* @kind font */
+--fw-medium:500; /* @kind font */
+--fw-bold:700; /* @kind font */
+
+/* --- sizes, as authored --- */
+--fs-display:90px;      /* .section-title h2 — the hero headline */
+--fs-display-sm:70px;   /* .secoud-title */
+--fs-quote-mark:70px;   /* the eyebrow's flanking dots */
+--fs-event-date:50px;   /* .event-date numeral */
+--fs-section:38px;      /* .section-title-2 h2 — every band heading */
+--fs-counter:30px;      /* .counter-count */
+--fs-accordion:26px;    /* .panel-title */
+--fs-quote:25px;        /* .student-qoute p */
+--fs-h4:24px;
+--fs-card-title:22px;   /* .course-title h3, and .about-us-text p */
+--fs-submit:18px;       /* .nws-button button */
+--fs-title-sm:18px;     /* .latest-title, .teacher-name, .category-title h4 */
+--fs-base:16px;         /* the body element */
+--fs-nav:15px;          /* .nav-menu a, .log-in a */
+--fs-meta:14px;         /* .course-category, .date-meta, .course-viewer */
+--fs-sm:13px;           /* .teacher-designation, .st-name, .events-date */
+--fs-xs:12px;           /* .course-details-btn, .price-start, .trend-badge-2 */
+--fs-xxs:11px;          /* .trend-badge */
+
+/* --- line heights: absolute values throughout, not ratios --- */
+--lh-display:108px; /* @kind font */
+--lh-display-sm:84px; /* @kind font */
+--lh-section:45.6px; /* @kind font */
+--lh-quote:35px; /* @kind font */
+--lh-accordion:36.4px; /* @kind font */
+--lh-card-title:30px; /* @kind font */
+--lh-base:22.4px; /* @kind font */
+--lh-body-lg:30.8px; /* @kind font */
+--lh-button:52px; /* @kind font */
+--lh-control:60px; /* @kind font */
+--lh-circle:40px; /* @kind font */
+--lh-chip:30px; /* @kind font */
+
+/* --- the hero eyebrow is the only letter-spaced text in the system --- */
+--tracking-eyebrow:7px; /* @kind font */
+}

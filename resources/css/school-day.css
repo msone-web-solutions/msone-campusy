@@ -327,3 +327,4 @@
 .rq-table th, .rq-table td { text-align: left; padding: 12px 20px; border-bottom: 1px solid var(--border-default); vertical-align: middle; }
 .rq-table th { font-size: 12px; text-transform: uppercase; color: var(--text-secondary); font-weight: 500; }
 .rq-table tbody tr:last-child td { border-bottom: 0; }
+.rq-weekgoal.is-reached { color: #5a8f2b; }
