@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Algorithmus?"
+  options: ["Ein Computer", "Eine eindeutige Schritt-für-Schritt-Anleitung", "Ein Video", "Eine Werbung"]
+  answer: { index: 1 }
+  explanation: "Wie ein Rezept oder ein Programm."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche Daten nutzt ein Empfehlungsalgorithmus?"
+  options: ["Was du anschaust", "Wie lange du schaust", "Was du likest und teilst", "Deine Schulnoten", "Zu welcher Uhrzeit du online bist"]
+  answer: { indexes: [0, 1, 2, 4] }
+  explanation: "Alles, was du auf der Plattform tust – Schulnoten kennt er nicht."
+- key: q3
+  type: single_choice
+  prompt: "Was bedeutet Mustererkennung?"
+  options: ["Bilder von Mustern anzeigen", "In großen Datenmengen Regelmäßigkeiten finden, um Vorhersagen zu treffen", "Stoffmuster nähen", "Passwörter erkennen"]
+  answer: { index: 1 }
+  explanation: "„Wer A schaut, schaut meist auch B.“"
+- key: q4
+  type: single_choice
+  prompt: "Was ist eine Filterblase?"
+  options: ["Ein Wasserfilter", "Ein Zustand, in dem man nur noch Inhalte sieht, die zur eigenen Sicht passen", "Eine Sperre für Kinder", "Ein Bildfilter"]
+  answer: { index: 1 }
+  explanation: "Der Feed wird immer enger."
+- key: q5
+  type: single_choice
+  prompt: "Welche Inhalte bekommen durch den Algorithmus oft mehr Reichweite?"
+  options: ["Sachliche, ausgewogene Beiträge", "Inhalte, die starke Gefühle wie Wut oder Empörung auslösen", "Lange Texte", "Alte Videos"]
+  answer: { index: 1 }
+  explanation: "Emotionen halten länger – deshalb werden sie bevorzugt."
+- key: q6
+  type: true_false
+  prompt: "Der Feed zeigt einen neutralen Ausschnitt dessen, was gerade im Internet passiert."
+  answer: { value: false }
+  explanation: "Er zeigt eine Auswahl, die auf dich zugeschnitten ist."
+- key: q7
+  type: single_choice
+  prompt: "Was ist eine Echokammer?"
+  options: ["Ein Raum mit Hall", "Eine Gruppe, in der sich Gleichgesinnte gegenseitig bestätigen und Widerspruch fehlt", "Ein Musik-Effekt", "Eine Werbeform"]
+  answer: { index: 1 }
+  explanation: "Verstärkt die Filterblase."
+- key: q8
+  type: multiple_choice
+  prompt: "Was hilft gegen die Filterblase?"
+  options: ["Bewusst nach Themen suchen statt nur scrollen", "Mehrere Nachrichtenquellen nutzen", "Nur noch den Feed nutzen", "Empfehlungsverlauf zurücksetzen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Aktiv auswählen statt passiv konsumieren."
+- key: q9
+  type: single_choice
+  prompt: "Womit verdienen Social-Media-Plattformen ihr Geld?"
+  options: ["Mit Mitgliedsbeiträgen", "Mit Werbung – je länger du bleibst, desto mehr", "Mit dem Verkauf von Videos", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Deine Aufmerksamkeit ist das Produkt."
+- key: q10
+  type: single_choice
+  prompt: "Mia und Ben aus derselben Klasse haben völlig verschiedene Feeds. Warum?"
+  options: ["Weil sie verschiedene Handys haben", "Weil der Algorithmus für jeden aus dessen Verhalten eine eigene Auswahl trifft", "Weil Ben älter ist", "Zufall"]
+  answer: { index: 1 }
+  explanation: "Jeder Feed ist ein Bild seines Nutzers."
+- key: q11
+  type: single_choice
+  prompt: "Welche Frage hilft beim kritischen Umgang mit dem Feed?"
+  options: ["Wie viele Likes hat das?", "Warum sehe ich das gerade und wer verdient daran?", "Wie lang ist das Video?", "Wer hat es zuerst gepostet?"]
+  answer: { index: 1 }
+  explanation: "Nach Absicht und Interesse fragen."
+- key: q12
+  type: single_choice
+  prompt: "Was ist ein algorithmisches Entscheidungssystem?"
+  options: ["Ein Mensch, der entscheidet", "Ein Programm, das automatisch Entscheidungen trifft, z. B. welches Video gezeigt wird", "Ein Taschenrechner", "Eine Abstimmung"]
+  answer: { index: 1 }
+  explanation: "Automatische Entscheidungen auf Basis von Daten und Mustern."

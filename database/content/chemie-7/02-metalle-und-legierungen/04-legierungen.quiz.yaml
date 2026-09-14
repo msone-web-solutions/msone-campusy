@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist eine Legierung?"
+  options: ["Eine Verbindung aus zwei Metallen", "Ein homogenes Gemisch aus mindestens zwei Metallen", "Ein reines Metall", "Ein Metallerz"]
+  answer: { index: 1 }
+  explanation: "Legierungen entstehen durch Zusammenschmelzen – ein homogenes Gemisch."
+- key: q2
+  type: single_choice
+  prompt: "Bronze besteht aus …"
+  options: ["Kupfer und Zink", "Kupfer und Zinn", "Eisen und Kohlenstoff", "Gold und Silber"]
+  answer: { index: 1 }
+  explanation: "Bronze = Kupfer + Zinn."
+- key: q3
+  type: single_choice
+  prompt: "Messing besteht aus …"
+  options: ["Kupfer und Zink", "Kupfer und Zinn", "Zinn und Blei", "Eisen und Chrom"]
+  answer: { index: 0 }
+  explanation: "Messing = Kupfer + Zink, goldgelb."
+- key: q4
+  type: single_choice
+  prompt: "Was macht aus weichem Eisen harten Stahl?"
+  options: ["Zusatz von Zink", "Zusatz von wenig Kohlenstoff", "Zusatz von Gold", "Erhitzen ohne Zusatz"]
+  answer: { index: 1 }
+  explanation: "Unter 2 % Kohlenstoff machen Eisen hart und zäh."
+- key: q5
+  type: single_choice
+  prompt: "Warum ist eine Legierung meist härter als die reinen Metalle?"
+  options: ["Weil sie schwerer ist", "Weil fremde Atome im Gitter das Verschieben der Schichten erschweren", "Weil sie mehr Elektronen hat", "Weil sie kälter ist"]
+  answer: { index: 1 }
+  explanation: "Andere Atomgrößen blockieren das Gleiten der Schichten."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet „18/10“ auf Edelstahlbesteck?"
+  options: ["18 % Gold, 10 % Silber", "18 % Chrom, 10 % Nickel", "18 cm lang, 10 g schwer", "18 % Zinn, 10 % Zink"]
+  answer: { index: 1 }
+  explanation: "Chrom und Nickel machen Stahl rostfrei."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Ziele verfolgt man mit dem Legieren?"
+  options: ["Härte erhöhen", "Rostschutz", "Schmelztemperatur senken", "Aus Metall ein Nichtmetall machen", "Farbe ändern"]
+  answer: { indexes: [0, 1, 2, 4] }
+  explanation: "Härte, Korrosionsschutz, Schmelztemperatur, Farbe, Kosten – aber ein Metall bleibt ein Metall."
+- key: q8
+  type: true_false
+  prompt: "In den 10-, 20- und 50-Cent-Münzen („Nordisches Gold“) ist echtes Gold enthalten."
+  answer: { value: false }
+  explanation: "Nordisches Gold ist eine Legierung aus Kupfer, Aluminium, Zink und Zinn – ohne Gold."
+- key: q9
+  type: single_choice
+  prompt: "Warum wird Schmuck aus 585er Gold und nicht aus reinem Gold gemacht?"
+  options: ["Reines Gold ist zu weich", "Reines Gold rostet", "Reines Gold ist nicht glänzend", "Reines Gold ist giftig"]
+  answer: { index: 0 }
+  explanation: "58,5 % Gold plus Silber und Kupfer sind härter und haltbarer."
+- key: q10
+  type: single_choice
+  prompt: "Welche Legierung hat eine besonders niedrige Schmelztemperatur und wird in der Elektronik zum Verbinden verwendet?"
+  options: ["Bronze", "Stahl", "Lötzinn", "Messing"]
+  answer: { index: 2 }
+  explanation: "Lötzinn schmilzt schon bei etwa 180–230 °C."
+- key: q11
+  type: single_choice
+  prompt: "Gusseisen enthält mehr Kohlenstoff als Stahl. Welche Folge hat das?"
+  options: ["Es ist weicher", "Es ist hart, aber spröde", "Es rostet nicht", "Es leitet besser"]
+  answer: { index: 1 }
+  explanation: "2–4 % Kohlenstoff: hart und gut gießbar, aber bricht bei Schlägen."
+- key: q12
+  type: single_choice
+  prompt: "Warum sind Legierungen schwerer zu recyceln als reine Metalle?"
+  options: ["Weil sie schwerer sind", "Weil man die Bestandteile wieder trennen muss", "Weil sie nicht schmelzen", "Weil sie giftig sind"]
+  answer: { index: 1 }
+  explanation: "Schrott muss nach Legierungen sortiert werden."

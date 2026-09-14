@@ -1,6 +1,6 @@
 ---
-title: Netze und Schrägbilder
-intro: Einen Körper „aufklappen“ (Netz) und räumlich auf Papier zeichnen (Schrägbild mit 45° und halber Tiefe).
+title: "Netze und Schrägbilder"
+intro: "Einen Körper „aufklappen“ (Netz) und räumlich auf Papier zeichnen (Schrägbild mit 45° und halber Tiefe)."
 curriculum_ref: "Prismen, Pyramiden, Kreiszylinder als Netz darstellen; Prismen und Pyramiden im Schrägbild mit α = 45° und q = 1/2 darstellen; Körperdarstellungen von einer Form in eine andere transformieren"
 estimated_minutes: 35
 reflect: "Erkläre die zwei Regeln für Schrägbilder (Winkel und Verkürzung) und warum verdeckte Kanten gestrichelt werden."

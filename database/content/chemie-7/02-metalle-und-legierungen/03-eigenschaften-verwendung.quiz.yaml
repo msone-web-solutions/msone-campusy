@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Warum baut man Flugzeuge aus Aluminium und nicht aus Eisen?"
+  options: ["Aluminium glänzt schöner", "Aluminium ist viel leichter und rostet nicht", "Aluminium ist magnetisch", "Aluminium ist billiger"]
+  answer: { index: 1 }
+  explanation: "Dichte 2,7 statt 7,9 g/cm³ und eine schützende Oxidschicht."
+- key: q2
+  type: single_choice
+  prompt: "Welches Metall ist das meistverwendete der Welt?"
+  options: ["Kupfer", "Aluminium", "Eisen", "Gold"]
+  answer: { index: 2 }
+  explanation: "Eisen (als Stahl) – günstig, fest, in riesigen Mengen verfügbar."
+- key: q3
+  type: single_choice
+  prompt: "Was ist Patina?"
+  options: ["Rost auf Eisen", "Die grüne Schutzschicht auf Kupfer", "Eine Legierung", "Die Oxidschicht auf Aluminium"]
+  answer: { index: 1 }
+  explanation: "Patina bildet sich auf Kupfer an feuchter Luft – grün und schützend."
+- key: q4
+  type: single_choice
+  prompt: "Warum werden Zäune und Dachrinnen verzinkt?"
+  options: ["Damit sie schöner aussehen", "Als Rostschutz für das Eisen darunter", "Damit sie leichter werden", "Damit sie Strom leiten"]
+  answer: { index: 1 }
+  explanation: "Die Zinkschicht schützt das Eisen vor Rost."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Metalle sind Edelmetalle?"
+  options: ["Gold", "Zink", "Silber", "Platin", "Eisen"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Gold, Silber, Platin reagieren kaum. Zink und Eisen sind unedel."
+- key: q6
+  type: single_choice
+  prompt: "Warum sind Kontakte in Handys oft mit Gold beschichtet?"
+  options: ["Weil Gold teuer aussieht", "Weil Gold nicht korrodiert und deshalb dauerhaft gut leitet", "Weil Gold magnetisch ist", "Weil Gold sehr hart ist"]
+  answer: { index: 1 }
+  explanation: "Gold bleibt blank – der Kontakt bleibt leitfähig."
+- key: q7
+  type: single_choice
+  prompt: "Welches Metall wird für Autobatterien und Strahlenschutz verwendet, ist aber giftig?"
+  options: ["Zinn", "Blei", "Magnesium", "Titan"]
+  answer: { index: 1 }
+  explanation: "Blei – sehr dicht und weich, aber giftig."
+- key: q8
+  type: single_choice
+  prompt: "Welches Metall brennt mit grellweißer Flamme und wird in Wunderkerzen verwendet?"
+  options: ["Kupfer", "Magnesium", "Blei", "Silber"]
+  answer: { index: 1 }
+  explanation: "Magnesium verbrennt mit sehr hellem Licht."
+- key: q9
+  type: single_choice
+  prompt: "Hochspannungsleitungen sind aus Aluminium, obwohl Kupfer besser leitet. Warum?"
+  options: ["Aluminium leitet doch besser", "Aluminium ist viel leichter – bei kilometerlangen Leitungen entscheidend", "Kupfer ist verboten", "Aluminium ist magnetisch"]
+  answer: { index: 1 }
+  explanation: "Bei langen Leitungen zählt das Gewicht; Aluminium ist dreimal leichter."
+- key: q10
+  type: single_choice
+  prompt: "Konservendosen bestehen aus Weißblech. Was ist das?"
+  options: ["Reines Zinn", "Verzinntes Eisen", "Aluminium", "Verzinktes Eisen"]
+  answer: { index: 1 }
+  explanation: "Weißblech = Eisenblech mit dünner Zinnschicht (ungiftig)."
+- key: q11
+  type: true_false
+  prompt: "Das Recycling von Aluminium spart etwa 95 % der Energie gegenüber der Herstellung aus Erz."
+  answer: { value: true }
+  explanation: "Die Herstellung aus Erz braucht sehr viel Strom – Recycling lohnt sich besonders."
+- key: q12
+  type: single_choice
+  prompt: "Welches Metall ist leicht, rostfrei und körperverträglich und wird für Implantate verwendet?"
+  options: ["Blei", "Titan", "Zink", "Kupfer"]
+  answer: { index: 1 }
+  explanation: "Titan – leicht, fest, rostfrei, vom Körper gut vertragen."

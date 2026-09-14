@@ -1,0 +1,23 @@
+Daten mit Diagrammen visualisieren.
+
+Hallo! Eine Tabelle mit dreißig Zahlen liest niemand gern. Ein Diagramm zeigt auf einen Blick: Was ist am größten? Wie ist die Entwicklung? Wie verteilt sich das Ganze? Aus Mathe kennst du die Diagrammarten. Heute lernst du, sie mit dem Computer aus echten Daten zu erzeugen.
+
+Zuerst: Welches Diagramm passt wann? Das Säulendiagramm, senkrecht, und das Balkendiagramm, waagerecht, vergleichen Werte verschiedener Kategorien: Lieblingssport in der Klasse, Umsatz pro Monat, Einwohner pro Stadt. Balken sind praktisch, wenn die Kategorienamen lang sind. Das Kreisdiagramm zeigt, wie sich ein Ganzes in Anteile aufteilt: Wahlergebnis, Zusammensetzung der Luft, Ausgaben des Taschengelds. Es ist nur sinnvoll, wenn die Teile zusammen hundert Prozent ergeben, und mit höchstens fünf oder sechs Teilen. Das Liniendiagramm zeigt eine Entwicklung über die Zeit: Temperatur im Jahresverlauf, Punktestand pro Spieltag.
+
+Falsch wäre ein Kreisdiagramm für Monatstemperaturen, denn die ergeben kein Ganzes, oder ein Liniendiagramm für Lieblingssportarten, denn da gibt es keine zeitliche Reihenfolge.
+
+So erstellst du ein Diagramm. Erstens: Daten vorbereiten. Kategorien in einer Spalte, Werte daneben, Überschriften in der ersten Zeile, keine leeren Zeilen dazwischen. Zweitens: den Bereich markieren, mit Überschriften und Werten. Drittens: Einfügen, Diagramm, und den Typ wählen. Das Programm zeichnet einen Vorschlag. Viertens: beschriften. Diagrammtitel, Achsentitel mit Einheit, gegebenenfalls Legende und Datenbeschriftung, also die Werte an den Säulen oder die Prozente an den Kreissektoren. Fünftens: prüfen. Beginnt die Y-Achse bei null? Sind die Farben unterscheidbar? Ist alles lesbar?
+
+Das Diagramm ist mit den Daten verknüpft. Änderst du eine Zahl in der Tabelle, ändert sich das Diagramm automatisch.
+
+Ein Diagramm ohne Titel und Achsenbeschriftung ist wertlos, denn niemand weiß, was gezeigt wird. Pflicht sind: ein Titel, zum Beispiel „Lieblingssport der Klasse sieben b, n gleich fünfundzwanzig“. Achsentitel mit Einheit, wie „Anzahl Schüler“ oder „Temperatur in Grad Celsius“. Eine Legende, wenn es mehrere Datenreihen gibt, etwa Jungen und Mädchen als zwei Säulen nebeneinander. Und Quelle und Datum, wenn die Daten von woanders stammen.
+
+Nicht jede Tabelle taugt für jede Auswertung. Frag dich vorher: Sind die Daten vollständig? Sind sie vergleichbar, gleiche Einheit, gleicher Zeitraum? Reicht die Menge? Bei vier Befragten sagt „fünfzig Prozent mögen Fußball“ wenig. Und passen die Daten zur Frage?
+
+Ein Beispiel: Die Klasse sieben b hat gefragt: Wie kommst du zur Schule? Fünfundzwanzig Antworten. In Spalte A stehen die Verkehrsmittel: zu Fuß, Rad, Bus, Auto. In Spalte B die Anzahl: sieben, zehn, fünf, drei. Bereich A eins bis B fünf markieren, Kreisdiagramm mit Prozent-Beschriftung: Rad vierzig Prozent, zu Fuß achtundzwanzig, Bus zwanzig, Auto zwölf. Titel: Schulweg der sieben b, n gleich fünfundzwanzig. Fertig. Und wenn morgen jemand vom Auto aufs Rad wechselt, änderst du nur die Zahl.
+
+Auch selbst gemachte Diagramme können täuschen. Eine Y-Achse, die bei zwanzig statt null beginnt, macht aus einem kleinen Unterschied einen großen. Dreidimensionale Diagramme verzerren. Prüfe deine Diagramme so kritisch wie fremde.
+
+Fassen wir zusammen: Säulen zum Vergleichen, Kreis für Anteile, Linie für den Verlauf. Daten vorbereiten, markieren, einfügen, beschriften, prüfen. Titel mit n, Achsen mit Einheit, Legende bei mehreren Reihen. Und Daten vorher auf Vollständigkeit, Vergleichbarkeit und Menge prüfen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

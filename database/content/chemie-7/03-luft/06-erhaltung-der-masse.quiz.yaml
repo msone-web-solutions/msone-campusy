@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie lautet das Gesetz von der Erhaltung der Masse?"
+  options: ["Bei einer Reaktion nimmt die Masse immer zu", "Die Masse der Ausgangsstoffe ist gleich der Masse der Produkte", "Die Masse nimmt beim Verbrennen ab", "Gase haben keine Masse"]
+  answer: { index: 1 }
+  explanation: "Masse der Edukte = Masse der Produkte."
+- key: q2
+  type: single_choice
+  prompt: "Wer hat das Gesetz um 1780 durch Wiegen in geschlossenen Gefäßen gefunden?"
+  options: ["Demokrit", "Lavoisier", "Mendelejew", "Boyle"]
+  answer: { index: 1 }
+  explanation: "Antoine Lavoisier."
+- key: q3
+  type: numeric
+  prompt: "24 g Magnesium verbrennen zu 40 g Magnesiumoxid. Wie viel Gramm Sauerstoff wurden gebunden?"
+  options: { unit: "g" }
+  answer: { value: 16 }
+  explanation: "40 − 24 = 16 g."
+- key: q4
+  type: numeric
+  prompt: "12 g Kohlenstoff verbrennen mit 32 g Sauerstoff. Wie viel Gramm Kohlenstoffdioxid entstehen?"
+  options: { unit: "g" }
+  answer: { value: 44 }
+  explanation: "12 + 32 = 44 g."
+- key: q5
+  type: single_choice
+  prompt: "Warum wird Eisenwolle beim Verbrennen an der Luft schwerer?"
+  options: ["Weil sie Wasser aufnimmt", "Weil sie Sauerstoff aus der Luft bindet", "Weil sie sich zusammenzieht", "Weil Ruß entsteht"]
+  answer: { index: 1 }
+  explanation: "Eisen + Sauerstoff → Eisenoxid; der gebundene Sauerstoff wiegt."
+- key: q6
+  type: single_choice
+  prompt: "Nach dem Versuch im geschlossenen Kolben zischt beim Öffnen Luft hinein. Warum?"
+  options: ["Weil das Gefäß heiß ist", "Weil Sauerstoff im Kolben verbraucht wurde und Unterdruck herrscht", "Weil Kohlenstoffdioxid entwichen ist", "Weil der Kolben leichter geworden ist"]
+  answer: { index: 1 }
+  explanation: "Der verbrauchte Sauerstoff hinterlässt Unterdruck."
+- key: q7
+  type: single_choice
+  prompt: "Warum bleibt die Masse bei einer chemischen Reaktion gleich? (Teilchenmodell)"
+  options: ["Weil die Atome nur neu verknüpft werden und keins verschwindet", "Weil die Atome schrumpfen", "Weil neue Atome entstehen", "Weil Energie zu Masse wird"]
+  answer: { index: 0 }
+  explanation: "Gleiche Atome vorher und nachher = gleiche Masse."
+- key: q8
+  type: true_false
+  prompt: "Beim Verbrennen von Holz wird Masse vernichtet."
+  answer: { value: false }
+  explanation: "Die Masse steckt in den entwichenen Gasen (CO₂, Wasserdampf)."
+- key: q9
+  type: numeric
+  prompt: "50 g Holz verbrennen mit 65 g Sauerstoff, 1 g Asche bleibt. Wie viel Gramm Gase sind entwichen?"
+  options: { unit: "g" }
+  answer: { value: 114 }
+  explanation: "50 + 65 = 115 g gesamt, minus 1 g Asche = 114 g."
+- key: q10
+  type: single_choice
+  prompt: "Welcher Zusammenhang besteht zwischen dem Gesetz und Reaktionsgleichungen?"
+  options: ["Keiner", "Ausgeglichene Gleichungen haben auf beiden Seiten gleich viele Atome – das ist das Gesetz in Formeln", "Gleichungen gelten nur für Gase", "Das Gesetz gilt nur für Metalle"]
+  answer: { index: 1 }
+  explanation: "2 Mg + O₂ → 2 MgO: 2 Mg und 2 O auf beiden Seiten."
+- key: q11
+  type: single_choice
+  prompt: "Ein Stoff wird bei einer Reaktion an der Luft leichter. Was ist passiert?"
+  options: ["Ein Gas wurde gebunden", "Ein Gas ist entwichen", "Atome sind verschwunden", "Der Stoff ist geschmolzen"]
+  answer: { index: 1 }
+  explanation: "Leichter = Gas entwichen; schwerer = Gas gebunden."
+- key: q12
+  type: numeric
+  prompt: "Aus 1 Liter Benzin (ca. 0,75 kg) entstehen etwa 2,3 kg Kohlenstoffdioxid. Wie viel kg Sauerstoff aus der Luft wurden ungefähr gebunden? (mit Komma, Wasser vernachlässigt)"
+  options: { unit: "kg" }
+  answer: { value: 1.55, tolerance: 0.1 }
+  explanation: "2,3 − 0,75 ≈ 1,55 kg – deshalb wiegt das Abgas mehr als der Sprit."

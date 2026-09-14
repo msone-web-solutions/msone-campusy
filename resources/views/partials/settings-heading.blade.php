@@ -1,1 +1,1 @@
-<x-raque.page-banner title="Einstellungen" compact :crumbs="[['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Einstellungen']]" />
+<x-raque.page-banner title="Einstellungen" compact :crumbs="[auth()->user()->isParent() ? ['label' => 'Wochenbericht', 'href' => route('parent.dashboard')] : ['label' => 'Dashboard', 'href' => route('dashboard')], ['label' => 'Einstellungen']]" />

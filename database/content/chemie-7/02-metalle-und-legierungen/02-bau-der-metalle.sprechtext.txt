@@ -1,0 +1,23 @@
+Der Bau der Metalle: Teilchen, Metallbindung, Periodensystem.
+
+Hallo! Warum leiten Metalle Strom, und warum kann man sie biegen? Die Antwort steckt im Aufbau aus winzigen Teilchen.
+
+Alle Stoffe bestehen aus Atomen. Sie sind so klein, dass in einem Stecknadelkopf mehr Eisenatome stecken als Menschen auf der Erde leben. Weil man sie nicht sehen kann, arbeitet die Chemie mit Modellen: Wir stellen uns Atome als kleine Kugeln vor.
+
+Ein chemisches Element ist ein Stoff, der aus einer einzigen Atomsorte besteht. Eisen besteht nur aus Eisenatomen. Jedes Element hat ein Symbol aus einem oder zwei Buchstaben, oft vom lateinischen Namen. Eisen ist F E, von ferrum. Kupfer ist C U, von cuprum. Gold ist A U, von aurum. Silber ist A G, von argentum. Aluminium A L, Zink Z N, Blei P B, Natrium N A, Magnesium M G, Sauerstoff O, Wasserstoff H. Der erste Buchstabe ist immer groß, der zweite klein.
+
+Wie sind die Teilchen im Metall angeordnet? Dicht gepackt in einem regelmäßigen Muster, wie Orangen in einer Kiste. Diese Anordnung heißt Metallgitter. Deshalb sind Metalle fest und haben eine hohe Dichte.
+
+Und warum halten die Atome zusammen? Jedes Atom hat einen positiv geladenen Kern und negativ geladene Elektronen in der Hülle. Metallatome halten ihre äußeren Elektronen nur locker fest. Im Gitter geben alle Atome diese Außenelektronen ab. Zurück bleiben positiv geladene Metall-Ionen an festen Plätzen, und die abgegebenen Elektronen bewegen sich frei dazwischen, wie ein Gas. Man nennt das Elektronengas. Die Anziehung zwischen den positiven Ionen und dem negativen Elektronengas hält das Metall zusammen. Das ist die Metallbindung.
+
+Dieses Modell erklärt alle Metalleigenschaften. Elektrische Leitfähigkeit: Die freien Elektronen wandern durch das Metall, und Strom ist nichts anderes als wandernde Elektronen. Wärmeleitfähigkeit: Die beweglichen Elektronen transportieren Wärme. Verformbarkeit: Verschiebt man die Ionenschichten gegeneinander, bleibt das Elektronengas dazwischen und hält alles zusammen. Das Metall bricht nicht, es verbiegt sich. Bei einem Salzkristall dagegen stoßen sich beim Verschieben gleiche Ladungen ab, und der Kristall zerspringt. Und der Glanz: Das Elektronengas reflektiert das Licht.
+
+Jetzt zum Periodensystem der Elemente, kurz PSE. Alle hundertachtzehn Elemente stehen darin, geordnet nach steigender Ordnungszahl, das ist die Anzahl der Protonen im Kern. Die waagerechten Zeilen heißen Perioden, die senkrechten Spalten heißen Gruppen. Elemente einer Gruppe haben ähnliche Eigenschaften.
+
+Die Metalle stehen links und in der Mitte, die Nichtmetalle rechts oben. Eine Treppenlinie trennt beide Bereiche, und die Elemente auf der Linie, wie Silicium, sind Halbmetalle. Ganz links stehen die Alkalimetalle, Gruppe eins: Lithium, Natrium, Kalium. Sehr weich, sehr unedel, sie reagieren heftig mit Wasser. Daneben die Erdalkalimetalle, Gruppe zwei: Magnesium, Calcium. In der Mitte die Übergangsmetalle, die typischen Metalle wie Eisen, Kupfer, Zink, Gold und Silber. Je weiter links und unten ein Metall steht, desto leichter gibt es seine Außenelektronen ab, desto unedler ist es.
+
+Das Periodensystem musst du nicht auswendig lernen, aber lesen können: Symbol, Name, Ordnungszahl, Metall oder Nichtmetall. Und in der Formelsammlung findest du zu jedem Element Dichte, Schmelz- und Siedetemperatur.
+
+Fassen wir zusammen: Elemente bestehen aus einer Atomsorte und haben Symbole. Im Metallgitter sitzen positive Metall-Ionen, dazwischen das frei bewegliche Elektronengas. Das erklärt Leitfähigkeit, Verformbarkeit und Glanz. Und im Periodensystem stehen die Metalle links und in der Mitte.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,0 +1,31 @@
+Stoffgemische trennen.
+
+Hallo! Heute geht es um die Frage, wie man ein Gemisch wieder in seine Reinstoffe zerlegt. Das Prinzip ist immer dasselbe: Man sucht eine Eigenschaft, in der sich die Bestandteile unterscheiden. Teilchengröße, Dichte, Löslichkeit, Siedetemperatur oder Magnetisierbarkeit. Genau diesen Unterschied nutzt das Trennverfahren. Und wichtig: Beim Trennen entstehen keine neuen Stoffe. Die Bestandteile werden nur sortiert. Trennverfahren sind physikalische Vorgänge.
+
+Schauen wir uns die wichtigsten Verfahren an.
+
+Das Sieben nutzt die Teilchengröße. Kleine Körner fallen durch, große bleiben liegen. Sand von Kies trennen, Mehl sieben.
+
+Das Filtrieren nutzt Löslichkeit und Teilchengröße. Ein unlöslicher Feststoff bleibt im Filterpapier zurück, das ist der Rückstand. Die Flüssigkeit läuft durch, das ist das Filtrat. So trennt man Sand aus Wasser, so kocht man Kaffee. Aber Achtung: Gelöste Stoffe wie Salz gehen mit durch. Filtrieren trennt keine Lösungen!
+
+Sedimentieren und Dekantieren nutzen die Dichte. Schwere Teilchen sinken zu Boden, dann gießt man die Flüssigkeit vorsichtig ab.
+
+Das Magnetscheiden nutzt die Magnetisierbarkeit. Ein Magnet zieht Eisen aus dem Gemisch, zum Beispiel Eisenspäne aus Sand oder auf dem Schrottplatz.
+
+Das Eindampfen nutzt die Siedetemperatur. Man erhitzt eine Lösung, das Wasser verdampft, der gelöste Feststoff bleibt zurück. So gewinnt man Salz aus Meerwasser. Der Nachteil: Das Wasser ist weg.
+
+Das Destillieren nutzt ebenfalls die Siedetemperatur, aber man fängt den Dampf wieder auf. Die Lösung wird im Kolben erhitzt, der Dampf steigt auf, wird im Kühler abgekühlt und kondensiert. Das reine Lösungsmittel tropft als Destillat in die Vorlage. Der gelöste Stoff bleibt im Kolben. So gewinnt man destilliertes Wasser, oder man trennt Alkohol, der bei achtundsiebzig Grad siedet, von Wasser, das bei hundert Grad siedet.
+
+Das Extrahieren nutzt die Löslichkeit: Ein Lösungsmittel holt einen Stoff aus dem Gemisch heraus. Tee aufbrühen ist Extrahieren. Das heiße Wasser löst Aroma und Farbstoffe aus den Blättern.
+
+Und die Chromatographie: Ein Tropfen schwarzer Filzstifttinte auf Filterpapier, das in Wasser taucht. Das Wasser wandert nach oben und nimmt die Farbstoffe verschieden weit mit. Aus Schwarz werden Blau, Rot und Gelb. So erkennt man, dass Schwarz ein Gemisch ist.
+
+Die Destillationsapparatur solltest du aufbauen können. Von links nach rechts: der Rundkolben mit dem Gemisch und Siedesteinchen gegen das Aufkochen, darüber das Thermometer, dann der Liebigkühler, ein Glasrohr mit Kühlmantel, durch den kaltes Wasser fließt. Das Kühlwasser läuft unten rein und oben raus, damit der Mantel voll ist. Und am Ende die Vorlage, in die das Destillat tropft. Am Thermometer siehst du, was gerade übergeht: Bleibt es bei achtundsiebzig Grad, destilliert Alkohol. Steigt es auf hundert, kommt Wasser.
+
+Oft braucht man mehrere Verfahren nacheinander. Nehmen wir ein Gemisch aus Sand, Salz und Eisenspänen. Erstens: Magnetscheiden, die Eisenspäne herausziehen. Zweitens: Wasser dazu und umrühren. Das Salz löst sich, der Sand nicht. Drittens: Filtrieren. Der Sand bleibt im Filter, das Salzwasser läuft durch. Viertens: Eindampfen. Das Salz bleibt zurück. Alle drei Stoffe sind getrennt, ohne dass ein neuer entstanden ist.
+
+Trennverfahren findest du überall: in der Kläranlage, im Kaffeefilter, in Salzgärten, in der Erdölraffinerie, auf dem Schrottplatz und im Staubsauger.
+
+Fassen wir zusammen: Trennverfahren nutzen Unterschiede in den Eigenschaften. Sieben, Filtrieren, Sedimentieren, Magnetscheiden, Eindampfen, Destillieren, Extrahieren, Chromatographie. Und Filtrieren trennt keine Lösungen, dafür braucht man Eindampfen oder Destillieren.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

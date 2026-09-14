@@ -1,0 +1,25 @@
+Sauerstoff: Eigenschaften, Darstellung und Nachweis.
+
+Hallo! Heute steht das Gas im Mittelpunkt, ohne das nichts brennt und niemand atmet: Sauerstoff.
+
+Der Steckbrief: Symbol O, als Gas O zwei, denn zwei Sauerstoffatome bilden ein Molekül. Farblos, geruchlos, geschmacklos. Etwas schwerer als Luft. Siedetemperatur minus hundertdreiundachtzig Grad, flüssiger Sauerstoff ist hellblau. Schlecht in Wasser löslich, aber genug, damit Fische atmen können. Und vor allem: brandfördernd. Sauerstoff unterhält die Verbrennung, brennt aber selbst nicht. Auf Sauerstoffflaschen steht deshalb das Piktogramm Flamme über Kreis. Öl und Fett dürfen nie an Sauerstoffventile kommen, sie entzünden sich sonst von selbst.
+
+Wie stellt man Sauerstoff im Labor her? Aus Wasserstoffperoxid. Diese Lösung zerfällt langsam in Wasser und Sauerstoff. Gibt man ein wenig Braunstein dazu, geht es schnell. Braunstein ist ein Katalysator: Er beschleunigt die Reaktion, ohne selbst verbraucht zu werden. Die Wortgleichung lautet: Wasserstoffperoxid reagiert zu Wasser und Sauerstoff. Das Gas fängt man in einem Reagenzglas auf.
+
+In der Technik gewinnt man Sauerstoff aus verflüssigter Luft. Die Luft wird auf minus zweihundert Grad gekühlt und dann langsam erwärmt. Stickstoff siedet zuerst bei minus hundertsechsundneunzig Grad, Sauerstoff bleibt zurück. Das ist eine Destillation, ein Trennverfahren aus Themenfeld eins.
+
+In der Natur produzieren Pflanzen, Algen und Cyanobakterien Sauerstoff bei der Fotosynthese aus Kohlenstoffdioxid und Wasser. Fast der gesamte Sauerstoff der Luft stammt daher.
+
+Der Nachweis ist die Glimmspanprobe. Ein glimmender Holzspan wird in das Gas gehalten. In reinem Sauerstoff flammt er sofort hell auf. In Luft glimmt er nur weiter, in Stickstoff oder Kohlenstoffdioxid erlischt er.
+
+In Luft brennt alles gebremst, weil vier Fünftel Stickstoff im Weg sind. In reinem Sauerstoff geht es heftig. Eisenwolle glüht in Luft nur, in Sauerstoff sprüht sie funkelnd wie eine Wunderkerze. Schwefel brennt in Luft mit schwacher blauer Flamme, in Sauerstoff leuchtend blau. Holzkohle glüht in Luft, in Sauerstoff leuchtet sie grellweiß. Deshalb ist Sauerstoff in Werkstätten und Krankenhäusern so gefährlich, und beim Schweißen so nützlich: Die Flamme erreicht dreitausend Grad.
+
+Jetzt zum Verbrennungsdreieck. Damit etwas brennt, müssen drei Dinge zusammenkommen: ein brennbarer Stoff, Sauerstoff und die Entzündungstemperatur. Jeder Stoff hat seine eigene. Papier etwa hundertachtzig Grad, Holz etwa dreihundert Grad. Fehlt eines der drei, erlischt das Feuer. Genau so arbeiten Löschmethoden. Wasser kühlt unter die Entzündungstemperatur. Löschdecke, Sand, Schaum und Kohlenstoffdioxid-Löscher nehmen den Sauerstoff weg, sie ersticken das Feuer. Oder man entfernt den brennbaren Stoff: Gashahn zudrehen, Brandschneise im Wald.
+
+Und ganz wichtig: Fettbrände nie mit Wasser löschen! Das Wasser verdampft schlagartig und schleudert brennendes Fett heraus. Deckel drauf oder Löschdecke.
+
+Verbrennen heißt chemisch: Der Stoff reagiert mit Sauerstoff. Das nennt man Oxidation, das Thema der nächsten Lektionen.
+
+Fassen wir zusammen: Sauerstoff ist brandfördernd und lebensnotwendig. Im Labor stellt man ihn aus Wasserstoffperoxid mit dem Katalysator Braunstein her, in der Technik aus verflüssigter Luft, in der Natur macht es die Fotosynthese. Der Nachweis ist die Glimmspanprobe. Und das Verbrennungsdreieck: Brennstoff, Sauerstoff, Entzündungstemperatur.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

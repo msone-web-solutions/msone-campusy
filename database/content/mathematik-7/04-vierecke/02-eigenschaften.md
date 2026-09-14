@@ -1,6 +1,6 @@
 ---
-title: Eigenschaften der Vierecke – Seiten, Winkel, Diagonalen, Symmetrie
-intro: Welches Viereck hat gleich lange Diagonalen? Welches hat Symmetrieachsen? Die Eigenschaften im Überblick.
+title: "Eigenschaften der Vierecke – Seiten, Winkel, Diagonalen, Symmetrie"
+intro: "Welches Viereck hat gleich lange Diagonalen? Welches hat Symmetrieachsen? Die Eigenschaften im Überblick."
 curriculum_ref: "Eigenschaften von speziellen Vierecken bezüglich ihrer Seiten, Diagonalen, Winkel und Symmetrie beschreiben; besondere Linien (Diagonalen, Symmetrieachsen, Mittellinien) einzeichnen"
 estimated_minutes: 25
 reflect: "Vergleiche Rechteck und Raute: Was haben ihre Diagonalen gemeinsam, was ist verschieden?"

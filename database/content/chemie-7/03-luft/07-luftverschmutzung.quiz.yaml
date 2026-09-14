@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Welcher Schadstoff entsteht bei unvollständiger Verbrennung und ist geruchlos, aber giftig?"
+  options: ["Kohlenstoffdioxid", "Kohlenstoffmonoxid", "Schwefeldioxid", "Ozon"]
+  answer: { index: 1 }
+  explanation: "CO blockiert den Sauerstofftransport im Blut."
+- key: q2
+  type: single_choice
+  prompt: "Wodurch wurde Schwefeldioxid aus Kraftwerken stark reduziert?"
+  options: ["Durch Katalysatoren", "Durch Rauchgasentschwefelung", "Durch Partikelfilter", "Durch Umweltzonen"]
+  answer: { index: 1 }
+  explanation: "Rauchgasentschwefelung wäscht SO₂ aus den Abgasen."
+- key: q3
+  type: single_choice
+  prompt: "Welches Gas ist kein Gift, aber ein Treibhausgas?"
+  options: ["Kohlenstoffmonoxid", "Kohlenstoffdioxid", "Schwefeldioxid", "Stickstoffdioxid"]
+  answer: { index: 1 }
+  explanation: "CO₂ ist ungiftig, aber es verstärkt den Treibhauseffekt."
+- key: q4
+  type: single_choice
+  prompt: "Was bewirken Treibhausgase?"
+  options: ["Sie lassen Sonnenlicht nicht durch", "Sie halten Wärme zurück, die die Erde abstrahlt", "Sie kühlen die Erde", "Sie zerstören Ozon"]
+  answer: { index: 1 }
+  explanation: "Wie das Glas eines Gewächshauses."
+- key: q5
+  type: true_false
+  prompt: "Ohne den natürlichen Treibhauseffekt wäre es auf der Erde etwa −18 °C kalt."
+  answer: { value: true }
+  explanation: "Der natürliche Treibhauseffekt ist lebenswichtig – nur der zusätzliche ist das Problem."
+- key: q6
+  type: single_choice
+  prompt: "Wo befindet sich die schützende Ozonschicht?"
+  options: ["Am Boden", "In 15–30 km Höhe", "Im Meer", "Im Weltall"]
+  answer: { index: 1 }
+  explanation: "Die Ozonschicht in der Stratosphäre fängt UV-Strahlung ab."
+- key: q7
+  type: single_choice
+  prompt: "Aus wie vielen Sauerstoffatomen besteht ein Ozonmolekül?"
+  options: ["1", "2", "3", "4"]
+  answer: { index: 2 }
+  explanation: "O₃ – drei Atome."
+- key: q8
+  type: single_choice
+  prompt: "Welcher Vertrag verbot 1987 die FCKW?"
+  options: ["Kyoto-Protokoll", "Montreal-Protokoll", "Pariser Abkommen", "Genfer Konvention"]
+  answer: { index: 1 }
+  explanation: "Das Montreal-Protokoll – ein Erfolg internationaler Zusammenarbeit."
+- key: q9
+  type: multiple_choice
+  prompt: "Welche Maßnahmen verringern Luftschadstoffe aus dem Verkehr?"
+  options: ["Katalysator", "Partikelfilter", "Mehr Holzöfen", "Rad und Bahn statt Auto", "Tempolimit"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Holzöfen erzeugen selbst Feinstaub."
+- key: q10
+  type: single_choice
+  prompt: "Warum darf man in geschlossenen Räumen nicht mit Holzkohle grillen?"
+  options: ["Wegen des Rauchs", "Weil giftiges Kohlenstoffmonoxid entsteht", "Wegen des Feinstaubs", "Weil Kohle stinkt"]
+  answer: { index: 1 }
+  explanation: "Bei zu wenig Sauerstoff entsteht CO – geruchlos und tödlich."
+- key: q11
+  type: numeric
+  prompt: "Der CO₂-Anteil der Luft ist von 0,028 % auf 0,042 % gestiegen. Um wie viel Prozent ist er gewachsen? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 50 }
+  explanation: "0,014 mehr von 0,028 = 50 % Zuwachs."
+- key: q12
+  type: single_choice
+  prompt: "Ozon am Boden (Sommersmog) ist …"
+  options: ["nützlich, es schützt vor UV", "ein Reizgas, das Atemwege schädigt", "ein Treibhausgas ohne Wirkung auf Menschen", "dasselbe wie Sauerstoff"]
+  answer: { index: 1 }
+  explanation: "Oben schützt Ozon, unten reizt es die Lunge."

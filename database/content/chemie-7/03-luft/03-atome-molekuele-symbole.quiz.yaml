@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Was bestimmt, zu welchem Element ein Atom gehört?"
+  options: ["Seine Größe", "Die Anzahl der Protonen im Kern", "Seine Farbe", "Die Anzahl der Neutronen"]
+  answer: { index: 1 }
+  explanation: "Die Protonenzahl = Ordnungszahl. 8 Protonen = Sauerstoff."
+- key: q2
+  type: single_choice
+  prompt: "Was ist ein Molekül?"
+  options: ["Ein einzelnes Atom", "Ein Teilchen aus mindestens zwei fest verbundenen Atomen", "Ein Metallgitter", "Ein Elektron"]
+  answer: { index: 1 }
+  explanation: "Atome teilen sich Elektronenpaare (Atombindung) und bilden Moleküle."
+- key: q3
+  type: single_choice
+  prompt: "Wie heißt die Bindung, bei der sich Atome Elektronenpaare teilen?"
+  options: ["Metallbindung", "Atombindung", "Ionenbindung", "Wasserstoffbrücke"]
+  answer: { index: 1 }
+  explanation: "Atombindung = Elektronenpaarbindung, z. B. im O₂-Molekül."
+- key: q4
+  type: numeric
+  prompt: "Wie viele Atome insgesamt hat ein Wassermolekül H₂O?"
+  answer: { value: 3 }
+  explanation: "2 Wasserstoff + 1 Sauerstoff = 3 Atome."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Sauerstoffatome stecken in 4 CO₂?"
+  answer: { value: 8 }
+  explanation: "4 Moleküle mal 2 O-Atome = 8."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet der Unterschied zwischen 2 O und O₂?"
+  options: ["Kein Unterschied", "2 O sind zwei einzelne Atome, O₂ ist ein Molekül aus zwei Atomen", "O₂ ist schwerer", "2 O ist eine Verbindung"]
+  answer: { index: 1 }
+  explanation: "Koeffizient zählt Teilchen, Index zählt Atome im Teilchen."
+- key: q7
+  type: gap_text
+  prompt: "Symbole: Stickstoff ___, Kohlenstoff ___, Schwefel ___."
+  answer:
+    gaps:
+      - ["N"]
+      - ["C"]
+      - ["S"]
+  explanation: "N, C, S."
+- key: q8
+  type: single_choice
+  prompt: "Wie heißt die Verbindung CO?"
+  options: ["Kohlenstoffdioxid", "Kohlenstoffmonoxid", "Cobalt", "Kohlensäure"]
+  answer: { index: 1 }
+  explanation: "Ein O-Atom → mon-oxid. CO ist giftig, CO₂ ist Kohlenstoffdioxid."
+- key: q9
+  type: single_choice
+  prompt: "Welche Formel hat Magnesiumoxid?"
+  options: ["Mg₂O", "MgO₂", "MgO", "Mo"]
+  answer: { index: 2 }
+  explanation: "Ein Magnesium- und ein Sauerstoffatom: MgO."
+- key: q10
+  type: true_false
+  prompt: "Stickstoff und Sauerstoff sind Metalle."
+  answer: { value: false }
+  explanation: "Beides Nichtmetalle: gasförmig, nicht leitend, rechts oben im PSE."
+- key: q11
+  type: single_choice
+  prompt: "Wie viele Elektronenpaare teilen sich die beiden Atome im Stickstoffmolekül N₂?"
+  options: ["Eins", "Zwei", "Drei", "Vier"]
+  answer: { index: 2 }
+  explanation: "Dreifachbindung – deshalb so reaktionsträge."
+- key: q12
+  type: single_choice
+  prompt: "Fe₂O₃ ist die Formel von Rost. Wie viele Atome enthält ein Teilchen?"
+  options: ["2", "3", "5", "6"]
+  answer: { index: 2 }
+  explanation: "2 Eisen + 3 Sauerstoff = 5 Atome."

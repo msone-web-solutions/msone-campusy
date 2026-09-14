@@ -1,0 +1,19 @@
+Fehler finden, Programme verbessern und dokumentieren.
+
+Hallo! Jedes Programm hat Fehler. Die Frage ist nur, wie man sie findet. Der Begriff „Bug“, also Käfer, für Programmfehler ist übrigens alt: Neunzehnhundertsiebenundvierzig fand man in einem Röhrencomputer tatsächlich eine Motte, die einen Kontakt blockierte. Seitdem heißt Fehlersuche „Debugging“. Auch Profis machen Fehler. Der Unterschied ist, dass sie systematisch suchen.
+
+Es gibt drei Arten von Fehlern. Erstens Syntaxfehler: Das Programm ist falsch geschrieben, in Textsprachen etwa eine fehlende Klammer. Blocksprachen verhindern das meist, weil unpassende Bausteine nicht zusammenstecken. Zweitens Laufzeitfehler: Das Programm startet, stürzt aber ab, zum Beispiel bei einer Division durch null. Drittens Logikfehler: Das Programm läuft, tut aber das Falsche. Die Figur dreht sich in die falsche Richtung, die Punkte werden doppelt gezählt, die Grenze ist um eins daneben. Das sind die häufigsten und die schwersten Fehler, denn der Computer meldet nichts. Er macht genau, was du gesagt hast, nur nicht, was du wolltest.
+
+Jetzt die Strategien der Fehlersuche. Die wichtigste: Zwischenschritte ausgeben. Lass das Programm an verschiedenen Stellen Werte anzeigen, sage punkte, sage i. So siehst du, wo der Wert zum ersten Mal falsch ist. Zweitens: schrittweise ausführen. Programm langsam laufen lassen und beobachten. Drittens: eingrenzen. Die Hälfte des Programms abklemmen. Ist der Fehler noch da? Dann steckt er in der anderen Hälfte. Wieder halbieren. Viertens: Trial and Error, Versuch und Irrtum. Etwas ändern, testen, beobachten. Aber immer nur eine Änderung auf einmal, sonst weißt du nicht, was geholfen hat. Fünftens: mit Grenzwerten testen. Null, eins, negative Zahlen, sehr große Zahlen, leere Eingabe. Dort verstecken sich die meisten Logikfehler. Und sechstens: erklären. Erkläre dein Programm Zeile für Zeile jemand anderem, oder einer Gummiente auf dem Schreibtisch. Beim lauten Erklären fällt einem der Fehler oft selbst auf.
+
+Ein Programm, das funktioniert, ist nicht automatisch gut. Optimieren heißt: kürzer, lesbarer, schneller. Vier gleiche Befehle werden eine Schleife. Mehrfach der gleiche Block wird ein Unterprogramm. Eine Variable namens x bekommt einen sprechenden Namen wie punkte. Und feste Zahlen im Code, sogenannte magische Zahlen, werden zu benannten Variablen wie maxLeben gleich drei.
+
+Wie beurteilt man fremde Lösungen? Mit vier Fragen: Ist sie richtig, auch bei Grenzwerten? Ist sie verständlich, mit guten Namen und Unterprogrammen? Ist sie kurz, ohne Wiederholungen? Und ist sie änderbar, kann man leicht etwas hinzufügen? Meist ist das lesbarere Programm das bessere, auch wenn es zwei Zeilen länger ist.
+
+Nun zur Dokumentation. Sie erklärt, was ein Programm tut und wie. Sie besteht aus Kommentaren im Code, kurzen Notizen an schwierigen Stellen. Aus einer Beschreibung: Was macht das Programm, wie bedient man es, welche Unterprogramme gibt es, was funktioniert noch nicht. Und aus sprechenden Namen, denn die beste Dokumentation ist Code, der sich selbst erklärt. Warum das wichtig ist? Wer dein Programm nach drei Monaten öffnet, versteht es sonst nicht. Und dieser Jemand bist oft du selbst.
+
+Zum Schluss das Präsentieren. Ein Projekt ist erst fertig, wenn andere es verstehen. Eine gute Präsentation: Erstens, was war die Aufgabe? Zweitens, wie habe ich sie zerlegt? Drittens, die Vorführung. Viertens, welche Fehler gab es und wie habe ich sie gefunden? Fünftens, was würde ich verbessern? Punkt vier ist kein Makel, er zeigt, dass du systematisch gearbeitet hast.
+
+Fassen wir zusammen: Syntax-, Laufzeit- und Logikfehler. Fehlersuche durch Zwischenschritte ausgeben, eingrenzen, Trial and Error mit einer Änderung, Grenzwerte testen, erklären. Optimieren durch Schleifen, Unterprogramme und gute Namen. Und dokumentieren, für andere und für dich.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

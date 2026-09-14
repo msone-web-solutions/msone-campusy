@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist verlustfreie Kompression?"
+  options: ["Daten werden weggeworfen", "Daten werden geschickter gespeichert, das Original ist exakt wiederherstellbar", "Das Bild wird kleiner skaliert", "Das Bild wird schwarz-weiß"]
+  answer: { index: 1 }
+  explanation: "Z. B. „8 × weiß“ statt acht Einträge."
+- key: q2
+  type: single_choice
+  prompt: "Welches Format komprimiert verlustbehaftet?"
+  options: ["PNG", "JPG", "SVG", "BMP"]
+  answer: { index: 1 }
+  explanation: "JPG lässt unauffällige Details weg."
+- key: q3
+  type: single_choice
+  prompt: "Was sind Artefakte?"
+  options: ["Alte Fotos", "Sichtbare Fehler wie Klötzchen und Farbstufen bei starker Kompression", "Metadaten", "Vektorformen"]
+  answer: { index: 1 }
+  explanation: "Artefakte entstehen, wenn zu viel Information weggelassen wurde."
+- key: q4
+  type: single_choice
+  prompt: "Ein Logo mit transparentem Hintergrund für eine Webseite – welches Pixelformat?"
+  options: ["JPG", "PNG", "MP4", "TIFF"]
+  answer: { index: 1 }
+  explanation: "PNG unterstützt Transparenz und ist verlustfrei."
+- key: q5
+  type: single_choice
+  prompt: "Ein Urlaubsfoto soll per Messenger verschickt werden – welches Format ist sinnvoll?"
+  options: ["BMP", "JPG", "SVG", "GIF"]
+  answer: { index: 1 }
+  explanation: "JPG: klein, 16,7 Mio. Farben, ideal für Fotos."
+- key: q6
+  type: single_choice
+  prompt: "Welches Format kann nur 256 Farben, aber Animationen?"
+  options: ["JPG", "PNG", "GIF", "SVG"]
+  answer: { index: 2 }
+  explanation: "GIF."
+- key: q7
+  type: single_choice
+  prompt: "Was passiert beim Vergrößern einer Pixelgrafik im Bildprogramm?"
+  options: ["Neue Details entstehen", "Das Programm erfindet Pixel – das Bild wird unscharf", "Es wird zur Vektorgrafik", "Die Datei wird kleiner"]
+  answer: { index: 1 }
+  explanation: "Verkleinern geht immer, vergrößern kostet Schärfe."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Werkzeuge gehören zur Bildbearbeitung?"
+  options: ["Zuschneiden", "Drehen", "Helligkeit/Kontrast", "Summe berechnen", "Retusche"]
+  answer: { indexes: [0, 1, 2, 4] }
+  explanation: "Summe berechnen gehört zur Tabellenkalkulation."
+- key: q9
+  type: single_choice
+  prompt: "Warum sollte man das Originalbild aufheben?"
+  options: ["Weil es größer ist", "Weil jede Bearbeitung und jedes JPG-Speichern Information verliert", "Weil es Pflicht ist", "Weil es schöner ist"]
+  answer: { index: 1 }
+  explanation: "Vom Original kann man immer neu starten."
+- key: q10
+  type: single_choice
+  prompt: "Was ist eine Bild-Rückwärtssuche?"
+  options: ["Ein Bild rückwärts abspielen", "Mit einem Bild suchen, wo es sonst im Internet vorkommt", "Ein Bild spiegeln", "Ein Bild löschen"]
+  answer: { index: 1 }
+  explanation: "So findet man Original und ursprünglichen Zusammenhang."
+- key: q11
+  type: single_choice
+  prompt: "Was ist ein Deepfake?"
+  options: ["Ein sehr tiefes Foto", "Ein mit KI gefälschtes Bild oder Video, das echt wirkt", "Ein komprimiertes Bild", "Ein Vektorbild"]
+  answer: { index: 1 }
+  explanation: "KI erzeugt täuschend echte Fälschungen."
+- key: q12
+  type: single_choice
+  prompt: "Ein Nachrichtenfoto wurde so zugeschnitten, dass eine Person fehlt und die Szene anders wirkt. Wie bewertest du das?"
+  options: ["Verbesserung – Zuschneiden ist immer erlaubt", "Verfälschung – der Inhalt und die Aussage wurden verändert", "Egal", "Kompression"]
+  answer: { index: 1 }
+  explanation: "In Nachrichten darf der Inhalt nicht verändert werden."

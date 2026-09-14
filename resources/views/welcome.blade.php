@@ -4,7 +4,6 @@
     $topicCount = \App\Models\Topic::count();
     $questionCount = \App\Models\Question::count();
     $minutes = \App\Models\Topic::sum('estimated_minutes');
-    $mathe = $subjects->firstWhere('slug', 'mathematik');
 @endphp
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -23,7 +22,7 @@
                 <h1>Der komplette Lehrplan der 7. Klasse – Thema für Thema erklärt</h1>
                 <p>Campusy ist der Lehrer zu Hause: Jedes Thema wird Schritt für Schritt erklärt, der Hefteintrag steht fertig zum Abschreiben bereit, und ein interaktiver Test am Ende zeigt, ob alles sitzt. Aufgebaut nach dem gültigen Fachlehrplan Sekundarschule Sachsen-Anhalt.</p>
                 <div style="display:flex;gap:15px;flex-wrap:wrap">
-                    <x-raque.button :href="auth()->check() ? route('learn.index') : route('register')" icon="bx bx-book-open" wire:navigate>Alle Fächer ansehen</x-raque.button>
+                    <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('register')" icon="bx bx-book-open" wire:navigate>{{ auth()->check() && auth()->user()->isParent() ? 'Zum Wochenbericht' : 'Alle Fächer ansehen' }}</x-raque.button>
                     @guest
                         <x-raque.button :href="route('login')" variant="outline" wire:navigate>Login</x-raque.button>
                     @endguest
@@ -63,30 +62,36 @@
         </div>
     </section>
 
-    {{-- Subject / area grid --}}
+    {{-- Subject grid --}}
     <section class="rq-section rq-section--panel" id="faecher">
         <div class="rq-container">
-            <x-raque.section-title eyebrow="Fächer entdecken" title="Die Themenfelder der 7. Klasse">Im Proof of Concept ist Mathematik vollständig ausgearbeitet – weitere Fächer folgen im selben Aufbau.</x-raque.section-title>
+            <x-raque.section-title eyebrow="Fächer entdecken" title="Drei Fächer, ein Aufbau">Jedes Thema folgt dem gleichen Weg: Erklärung, Hefteintrag, Test – nach dem Lehrplan von Sachsen-Anhalt in der Reihenfolge, wie die Schule sie prüft.</x-raque.section-title>
             <div class="rq-grid rq-grid--3">
-                @if ($mathe)
-                    @foreach ($mathe->topicAreas->take(6) as $area)
-                        @php $areaQuestions = \App\Models\Question::whereIn('topic_id', $area->topics->pluck('id'))->count(); @endphp
-                        <x-raque.course-card
-                            :title="$area->name"
-                            :href="auth()->check() ? route('learn.subject', $mathe) : route('login')"
-                            :category="$mathe->name"
-                            author="Klasse 7 · Sekundarschule"
-                            :price="'TF '.$area->sort"
-                            :icon="['bx bx-plus-circle', 'bx bx-pie-chart-alt-2', 'bx bx-math', 'bx bx-shape-square', 'bx bx-cube', 'bx bx-bar-chart-alt-2'][$area->sort - 1] ?? 'bx bx-book-open'"
-                            :meta="[
-                                ['icon' => 'bx bx-book', 'label' => $area->topics->count().' Themen'],
-                                ['icon' => 'bx bx-task', 'label' => $areaQuestions.' Aufgaben'],
-                                ['icon' => 'bx bx-time', 'label' => round($area->topics->sum('estimated_minutes') / 60, 1).' Std.'],
-                            ]">
-                            <p style="font-size:14px">{{ $area->description }}</p>
-                        </x-raque.course-card>
-                    @endforeach
-                @endif
+                @foreach ($subjects as $subject)
+                    @php
+                        $subjectTopics = $subject->topicAreas->flatMap->topics;
+                        $subjectQuestions = \App\Models\Question::whereIn('topic_id', $subjectTopics->pluck('id'))->count();
+                        $subjectIcon = ['mathematik' => 'bx bx-math', 'chemie' => 'bx bx-test-tube', 'informatik' => 'bx bx-code-alt'][$subject->slug] ?? 'bx bx-book-open';
+                    @endphp
+                    <x-raque.course-card
+                        :title="$subject->name"
+                        :href="auth()->check() ? route('learn.subject', $subject) : route('login')"
+                        category="Klasse 7"
+                        author="Sekundarschule Sachsen-Anhalt"
+                        :price="$subject->topic_areas_count.' Themenfelder'"
+                        :icon="$subjectIcon"
+                        :meta="[
+                            ['icon' => 'bx bx-book', 'label' => $subjectTopics->count().' Themen'],
+                            ['icon' => 'bx bx-task', 'label' => $subjectQuestions.' Aufgaben'],
+                            ['icon' => 'bx bx-time', 'label' => round($subjectTopics->sum('estimated_minutes') / 60, 1).' Std.'],
+                        ]">
+                        <ul style="font-size:14px;margin:0;padding-left:18px;display:grid;gap:4px">
+                            @foreach ($subject->topicAreas as $area)
+                                <li>{{ $area->name }}</li>
+                            @endforeach
+                        </ul>
+                    </x-raque.course-card>
+                @endforeach
             </div>
         </div>
     </section>
@@ -94,7 +99,7 @@
     {{-- Stats band --}}
     <section class="rq-section--primary">
         <div class="rq-container rq-grid rq-grid--4">
-            <x-raque.fun-fact :value="$subjects->count()" suffix="" label="Fach im Proof of Concept" />
+            <x-raque.fun-fact :value="$subjects->count()" suffix="" label="Fächer nach Lehrplan" />
             <x-raque.fun-fact :value="$areaCount" suffix="" label="Themenfelder nach Lehrplan" />
             <x-raque.fun-fact :value="$topicCount" suffix="" label="Themen mit Erklärung, Hefteintrag und Test" />
             <x-raque.fun-fact :value="$questionCount" suffix="+" label="Aufgaben mit Feedback" />
@@ -113,8 +118,8 @@
         </div>
     </section>
 
-    <x-raque.cta-banner title="Heute mit Mathematik anfangen – der erste Test wartet schon">
-        <x-raque.button :href="auth()->check() ? route('learn.subject', 'mathematik') : route('register')" variant="on-primary" wire:navigate>Kostenlos starten</x-raque.button>
+    <x-raque.cta-banner title="Heute anfangen – der erste Test wartet schon">
+        <x-raque.button :href="auth()->check() ? (auth()->user()->isParent() ? route('parent.dashboard') : route('learn.index')) : route('register')" variant="on-primary" wire:navigate>Kostenlos starten</x-raque.button>
     </x-raque.cta-banner>
 
     <x-raque.footer />

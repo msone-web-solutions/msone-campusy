@@ -1,0 +1,23 @@
+Bedingte Anweisungen und Verzweigungen.
+
+Hallo! Wenn es regnet, nimm den Schirm mit. Das ist eine Entscheidung mit einer Bedingung, es regnet, und einer Anweisung, Schirm mitnehmen. Programme treffen ständig solche Entscheidungen. Ist das Passwort richtig? Hat der Spieler noch Leben? Heute lernst du, wie das geht.
+
+Der einfachste Baustein ist die bedingte Anweisung: falls Bedingung, dann Anweisungen. Die Anweisungen werden nur ausgeführt, wenn die Bedingung wahr ist. Ist sie falsch, passiert nichts, und das Programm macht danach weiter. Zum Beispiel: Falls punkte größer als hundert, dann sage „Neuer Rekord“. In Textsprachen heißt das „if“.
+
+Oft soll auch etwas passieren, wenn die Bedingung nicht zutrifft. Dafür gibt es den Sonst-Zweig. Falls alter größer oder gleich achtzehn, dann sage „Du darfst wählen“, sonst sage „Du darfst noch nicht wählen“. Genau einer der beiden Zweige wird ausgeführt, nie beide, nie keiner. Das ist eine Verzweigung, in Textsprachen „if-else“, weil sich der Programmweg gabelt.
+
+Eine Bedingung ist immer ein Ausdruck, der wahr oder falsch ergibt, also ein boolean. Meist ist es ein Vergleich. Nehmen wir x gleich sieben. Dann ist „x gleich sieben“ wahr. „x größer als fünf“ ist wahr. „x kleiner als fünf“ ist falsch. „x größer oder gleich sieben“ ist wahr. „x kleiner oder gleich sechs“ ist falsch. Auch Texte kann man vergleichen: antwort gleich „ja“.
+
+Bedingungen lassen sich verknüpfen. Mit „und“ müssen beide Teile wahr sein: alter größer gleich zwölf und alter kleiner gleich sechzehn, das ist wahr für zwölf bis sechzehn. Mit „oder“ reicht ein Teil: taste gleich kleines a oder taste gleich großes A. Und „nicht“ kehrt den Wahrheitswert um: nicht leben gleich null ist wahr, solange noch Leben da sind.
+
+Ein Beispiel: der Eintritt im Freibad. Falls alter kleiner als sechs oder alter größer als siebzig, dann sage „Eintritt frei“, sonst sage „Eintritt drei Euro“.
+
+Manchmal gibt es mehr als zwei Möglichkeiten. Dann steckt man eine Verzweigung in den Sonst-Zweig der vorherigen. Falls temperatur größer als fünfundzwanzig, dann sage „Heiß, ab ins Freibad“. Sonst: Falls temperatur größer als fünfzehn, dann sage „Angenehm“. Sonst sage „Kalt, Jacke anziehen“. Das Programm prüft von oben nach unten und nimmt den ersten zutreffenden Fall. Bei zwanzig Grad: Die erste Bedingung ist falsch, die zweite wahr, also „Angenehm“.
+
+Und jetzt ein typischer Fehler: die Grenzen. Falls note kleiner als vier, dann sage „bestanden“. Ist die Note vier dann bestanden? Nein! Denn vier kleiner als vier ist falsch. Richtig wäre: note kleiner oder gleich vier. Prüfe Bedingungen immer am Grenzwert.
+
+Ein Beispiel zum Schluss, ein Zahlenratespiel. Frage nach einem Tipp. Falls tipp gleich geheimzahl, dann sage „Richtig“. Sonst: Falls tipp kleiner als geheimzahl, dann sage „Zu klein“, sonst sage „Zu groß“. Drei Fälle, klar getrennt. Mit einer Schleife, dem nächsten Thema, wird daraus ein echtes Spiel.
+
+Fassen wir zusammen: Die bedingte Anweisung, falls dann, führt etwas nur aus, wenn die Bedingung wahr ist. Die Verzweigung, falls dann sonst, führt genau einen von zwei Zweigen aus. Bedingungen sind Vergleiche, verknüpft mit und, oder, nicht. Und prüfe immer die Grenzen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

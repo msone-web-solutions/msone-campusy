@@ -1,0 +1,73 @@
+- key: q1
+  type: single_choice
+  prompt: "Womit beginnt jede Formel?"
+  options: ["Mit #", "Mit =", "Mit +", "Mit einem Buchstaben"]
+  answer: { index: 1 }
+  explanation: "Das Gleichheitszeichen kennzeichnet eine Formel."
+- key: q2
+  type: numeric
+  prompt: "Was zeigt eine Zelle mit „=(3+5)*2“?"
+  answer: { value: 16 }
+  explanation: "Klammer zuerst: 8 · 2 = 16."
+- key: q3
+  type: single_choice
+  prompt: "Welche Formel addiert die Zellen A1 bis A20?"
+  options: ["=A1+A20", "=SUMME(A1:A20)", "=SUMME(A1;A20)", "=ADD(A1-A20)"]
+  answer: { index: 1 }
+  explanation: "SUMME mit dem Bereich A1:A20."
+- key: q4
+  type: single_choice
+  prompt: "Welche Funktion findet die beste (kleinste) Note in B2:B30?"
+  options: ["=MAX(B2:B30)", "=MIN(B2:B30)", "=MITTELWERT(B2:B30)", "=ANZAHL(B2:B30)"]
+  answer: { index: 1 }
+  explanation: "Die kleinste Zahl = MIN."
+- key: q5
+  type: single_choice
+  prompt: "Warum schreibt man in Formeln Zellbezüge statt Zahlen?"
+  options: ["Weil es schöner aussieht", "Weil die Tabelle automatisch neu rechnet, wenn sich die Zelle ändert", "Weil Zahlen nicht erlaubt sind", "Weil es schneller tippt"]
+  answer: { index: 1 }
+  explanation: "Ändert sich B2, stimmt das Ergebnis trotzdem."
+- key: q6
+  type: single_choice
+  prompt: "In D2 steht „=B2*C2“. Nach dem Autoausfüllen nach unten steht in D7 …"
+  options: ["=B2*C2", "=B7*C7", "=D7", "=B2*C7"]
+  answer: { index: 1 }
+  explanation: "Relative Bezüge werden angepasst."
+- key: q7
+  type: single_choice
+  prompt: "Wozu dient das Dollarzeichen in $B$1?"
+  options: ["Es formatiert als Währung", "Es fixiert den Bezug beim Ausfüllen (absoluter Bezug)", "Es löscht die Zelle", "Es macht die Zelle fett"]
+  answer: { index: 1 }
+  explanation: "Absoluter Bezug: $B$1 bleibt beim Kopieren stehen."
+- key: q8
+  type: single_choice
+  prompt: "Du tippst 5 und 10 in zwei Zellen, markierst beide und ziehst das Ausfüllkästchen. Was folgt?"
+  options: ["5, 10, 5, 10", "15, 20, 25", "10, 10, 10", "5, 5, 5"]
+  answer: { index: 1 }
+  explanation: "Das Programm erkennt die Reihe mit Schritt 5."
+- key: q9
+  type: single_choice
+  prompt: "Was macht die bedingte Formatierung?"
+  options: ["Sie rechnet Summen", "Sie färbt Zellen automatisch je nach Inhalt", "Sie sortiert", "Sie druckt"]
+  answer: { index: 1 }
+  explanation: "Z. B. Noten schlechter als 4 rot."
+- key: q10
+  type: single_choice
+  prompt: "Was zeigt =RUNDEN(2,4286;1)?"
+  options: ["2", "2,4", "2,43", "2,5"]
+  answer: { index: 1 }
+  explanation: "Auf eine Dezimalstelle gerundet: 2,4."
+- key: q11
+  type: gap_text
+  prompt: "Ein Bezug wie B2, der sich beim Ausfüllen verschiebt, heißt ___; ein Bezug wie $B$1, der fest bleibt, heißt ___."
+  answer:
+    gaps:
+      - ["relativ", "relativer Bezug"]
+      - ["absolut", "absoluter Bezug"]
+  explanation: "Relativ verschiebt sich, absolut bleibt."
+- key: q12
+  type: single_choice
+  prompt: "Was ist ein Datenbalken bei der bedingten Formatierung?"
+  options: ["Eine Formel", "Ein Balken in der Zelle, dessen Länge dem Wert entspricht", "Eine Sortierung", "Ein Diagrammtyp"]
+  answer: { index: 1 }
+  explanation: "So sieht man Größenverhältnisse direkt in der Tabelle."

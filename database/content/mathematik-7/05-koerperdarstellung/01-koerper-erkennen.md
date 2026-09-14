@@ -1,6 +1,6 @@
 ---
-title: Körper erkennen und beschreiben
-intro: Prisma, Pyramide, Zylinder, Kegel und Kugel – woran man sie erkennt, wie ihre Teile heißen und wo sie im Alltag vorkommen.
+title: "Körper erkennen und beschreiben"
+intro: "Prisma, Pyramide, Zylinder, Kegel und Kugel – woran man sie erkennt, wie ihre Teile heißen und wo sie im Alltag vorkommen."
 curriculum_ref: "Körpermodelle identifizieren, benennen und beschreiben; Realobjekte mithilfe geometrischer Begriffe beschreiben; Begriffe: Prisma, Pyramide, Kreiszylinder, Kegel, Kugel; Grundfläche, Deckfläche, Seitenflächen, Körperhöhe"
 estimated_minutes: 25
 reflect: "Erkläre, woran man Prisma, Pyramide, Zylinder und Kegel unterscheidet. Welche Frage hilft dabei?"

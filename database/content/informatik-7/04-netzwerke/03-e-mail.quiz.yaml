@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Adresse passt für eine Bewerbung um ein Praktikum?"
+  options: ["sweetkitty2013@…", "mia.schneider@…", "gamerboy_xxl@…", "hallo123@…"]
+  answer: { index: 1 }
+  explanation: "Vor- und Nachname wirken seriös."
+- key: q2
+  type: single_choice
+  prompt: "Was bedeutet CC?"
+  options: ["Hauptempfänger", "Kopie zur Kenntnis – sichtbar für alle", "Blindkopie – unsichtbar", "Anhang"]
+  answer: { index: 1 }
+  explanation: "Carbon Copy: mitlesen, sichtbar."
+- key: q3
+  type: single_choice
+  prompt: "Wann muss man BCC verwenden?"
+  options: ["Nie", "Bei Mails an viele Empfänger, die sich nicht kennen – damit niemand fremde Adressen sieht", "Nur bei Anhängen", "Bei jeder Mail"]
+  answer: { index: 1 }
+  explanation: "Datenschutz: Adressen nicht weitergeben."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Betreff ist gut?"
+  options: ["Hallo", "(leer)", "Frage zur Mathe-Hausaufgabe (7b)", "Wichtig!!!"]
+  answer: { index: 2 }
+  explanation: "Kurz, konkret, sagt, worum es geht."
+- key: q5
+  type: single_choice
+  prompt: "Was ist eine Signatur?"
+  options: ["Die Unterschrift mit Stift", "Ein Textblock mit Name und Kontakt, der automatisch unter jeder Mail steht", "Ein Passwort", "Der Betreff"]
+  answer: { index: 1 }
+  explanation: "Einmal in den Einstellungen festgelegt."
+- key: q6
+  type: single_choice
+  prompt: "Was heißt „adressatengerechte Signatur“?"
+  options: ["Möglichst lang", "Passend zum Empfänger: Schule anders als Freunde", "Mit Bild", "Mit Spruch"]
+  answer: { index: 1 }
+  explanation: "Für die Schule Name und Klasse, für Freunde nur der Name."
+- key: q7
+  type: single_choice
+  prompt: "Wie sollte ein Anhang für ein Referat heißen?"
+  options: ["Dokument1.docx", "Referat_Vulkane_Mia.pdf", "neu.pdf", "asdf.doc"]
+  answer: { index: 1 }
+  explanation: "Sinnvoller Name, PDF-Format."
+- key: q8
+  type: single_choice
+  prompt: "Was ist Spam?"
+  options: ["Eine wichtige Mail", "Unerwünschte Massenmails wie Werbung", "Ein Anhang", "Eine Signatur"]
+  answer: { index: 1 }
+  explanation: "Nicht öffnen, nicht antworten, als Spam markieren."
+- key: q9
+  type: single_choice
+  prompt: "Warum sollte man auf Spam nicht antworten?"
+  options: ["Weil es unhöflich ist", "Weil man damit bestätigt, dass die Adresse aktiv ist – es folgt noch mehr Spam", "Weil es Geld kostet", "Man sollte antworten"]
+  answer: { index: 1 }
+  explanation: "Antworten macht die Adresse wertvoller für Spammer."
+- key: q10
+  type: multiple_choice
+  prompt: "Welche Merkmale deuten auf Phishing hin?"
+  options: ["Absenderadresse passt nicht zur Firma", "Drohung mit Kontosperrung", "Persönliche Anrede mit vollem Namen", "Link führt zu einer fremden Adresse", "Unerwarteter Anhang"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Eine persönliche Anrede allein ist kein Warnzeichen."
+- key: q11
+  type: single_choice
+  prompt: "Wie prüft man, wohin ein Link in einer Mail wirklich führt?"
+  options: ["Draufklicken", "Maus darüberhalten – die echte Adresse wird angezeigt", "Die Mail ausdrucken", "Gar nicht möglich"]
+  answer: { index: 1 }
+  explanation: "Der angezeigte Text und das Ziel können verschieden sein."
+- key: q12
+  type: single_choice
+  prompt: "Wie sortiert man Mails eines bestimmten Absenders automatisch in einen Ordner?"
+  options: ["Mit einer Regel / einem Filter", "Mit der Signatur", "Mit BCC", "Mit der Abwesenheitsnotiz"]
+  answer: { index: 0 }
+  explanation: "Regeln erledigen das Einsortieren automatisch."

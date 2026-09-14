@@ -1,6 +1,6 @@
 ---
-title: Daten erheben – absolute und relative Häufigkeit
-intro: Eine Umfrage planen, Daten in einer Strichliste sammeln und mit absoluten und relativen Häufigkeiten auswerten.
+title: "Daten erheben – absolute und relative Häufigkeit"
+intro: "Eine Umfrage planen, Daten in einer Strichliste sammeln und mit absoluten und relativen Häufigkeiten auswerten."
 curriculum_ref: "Datenerhebungen planen und ausführen; Häufigkeiten berechnen; Daten unter Verwendung von Häufigkeiten auswerten; absolute Häufigkeit H(A), relative Häufigkeit h(A)"
 estimated_minutes: 25
 reflect: "Erkläre den Unterschied zwischen absoluter und relativer Häufigkeit. Wann braucht man die relative?"

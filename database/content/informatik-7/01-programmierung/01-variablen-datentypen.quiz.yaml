@@ -1,0 +1,73 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist eine Variable?"
+  options: ["Ein Fehler im Programm", "Ein benannter Speicherplatz für einen Wert, den man ändern kann", "Ein Baustein zur Ausgabe", "Eine Programmiersprache"]
+  answer: { index: 1 }
+  explanation: "Beschriftete Schachtel: Name + Wert."
+- key: q2
+  type: gap_text
+  prompt: "EVA-Prinzip: ___ → Verarbeitung → ___"
+  answer:
+    gaps:
+      - ["Eingabe"]
+      - ["Ausgabe"]
+  explanation: "Eingabe, Verarbeitung, Ausgabe."
+- key: q3
+  type: single_choice
+  prompt: "Welcher Datentyp passt zum Alter 13?"
+  options: ["int", "float", "string", "boolean"]
+  answer: { index: 0 }
+  explanation: "Ganze Zahl = int."
+- key: q4
+  type: single_choice
+  prompt: "Welcher Datentyp passt zu „Hat die Aufgabe erledigt: ja“?"
+  options: ["int", "float", "string", "boolean"]
+  answer: { index: 3 }
+  explanation: "Wahr/falsch = boolean."
+- key: q5
+  type: single_choice
+  prompt: "Warum ist die Postleitzahl „06108“ besser ein string als ein int?"
+  options: ["Weil sie zu lang ist", "Weil die führende Null erhalten bleiben muss und man nicht damit rechnet", "Weil Zahlen keine Nullen enthalten dürfen", "Weil Texte schneller sind"]
+  answer: { index: 1 }
+  explanation: "Als int würde aus 06108 die Zahl 6108."
+- key: q6
+  type: single_choice
+  prompt: "In der Variable punkte steht 5. Was steht nach „setze punkte auf punkte + 3“ darin?"
+  options: ["5", "3", "8", "53"]
+  answer: { index: 2 }
+  explanation: "Alter Wert 5 plus 3 = 8, zurück in die Schachtel."
+- key: q7
+  type: single_choice
+  prompt: "Was ergibt „verbinde \"Hallo \" name“, wenn in name „Tim“ steht?"
+  options: ["Hallo name", "Hallo Tim", "HalloTim", "Tim Hallo"]
+  answer: { index: 1 }
+  explanation: "Verketten hängt die Texte aneinander: „Hallo Tim“."
+- key: q8
+  type: true_false
+  prompt: "\"7\" und 7 sind für ein Programm dasselbe."
+  answer: { value: false }
+  explanation: "\"7\" ist ein Text (string), 7 eine Zahl (int) – nur mit der Zahl kann man rechnen."
+- key: q9
+  type: single_choice
+  prompt: "Welcher Baustein holt in Scratch eine Eingabe vom Nutzer?"
+  options: ["sage …", "frage … und warte", "setze … auf", "wiederhole"]
+  answer: { index: 1 }
+  explanation: "„frage … und warte“ – die Antwort landet in der Variable Antwort."
+- key: q10
+  type: single_choice
+  prompt: "Welche Variablennamen sind erlaubt und sinnvoll?"
+  options: ["anzahl äpfel", "anzahl_aepfel", "1anzahl", "Anzahl Äpfel!"]
+  answer: { index: 1 }
+  explanation: "Keine Leerzeichen, keine Umlaute, nicht mit einer Zahl beginnen."
+- key: q11
+  type: single_choice
+  prompt: "Welcher Datentyp passt zum Notendurchschnitt 2,3?"
+  options: ["int", "float", "string", "boolean"]
+  answer: { index: 1 }
+  explanation: "Kommazahl = float."
+- key: q12
+  type: multiple_choice
+  prompt: "Welche Werte sind vom Typ string?"
+  options: ["\"Mia\"", "42", "\"42\"", "wahr", "\"Hallo Welt\""]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Alles in Anführungszeichen ist ein string – auch \"42\"."

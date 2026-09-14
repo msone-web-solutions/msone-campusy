@@ -4,7 +4,7 @@
         <span class="rq-topbar__links">
             @auth
                 <span style="color:#fff">{{ auth()->user()->name }}</span>
-                <a href="{{ route('profile.edit') }}" wire:navigate>Einstellungen</a>
+                <a href="{{ auth()->user()->isParent() ? route('parent.dashboard') : route('dashboard') }}" wire:navigate>{{ auth()->user()->isParent() ? 'Wochenbericht' : 'Dashboard' }}</a>
                 <form method="POST" action="{{ route('logout') }}" style="display:inline">@csrf<button type="submit" style="background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer">Abmelden</button></form>
             @else
                 <a href="{{ route('login') }}" wire:navigate>Login</a>

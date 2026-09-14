@@ -1,0 +1,73 @@
+- key: q1
+  type: true_false
+  prompt: "Sauerstoff brennt selbst."
+  answer: { value: false }
+  explanation: "Sauerstoff brennt nicht – er unterhält die Verbrennung (brandfördernd)."
+- key: q2
+  type: single_choice
+  prompt: "Aus welchem Stoff stellt man im Labor mit Braunstein Sauerstoff her?"
+  options: ["Wasser", "Wasserstoffperoxid", "Kochsalz", "Kalk"]
+  answer: { index: 1 }
+  explanation: "Wasserstoffperoxid zerfällt zu Wasser und Sauerstoff; Braunstein beschleunigt das."
+- key: q3
+  type: single_choice
+  prompt: "Welche Aufgabe hat der Braunstein bei der Sauerstoffherstellung?"
+  options: ["Er liefert den Sauerstoff", "Er ist ein Katalysator und beschleunigt die Reaktion", "Er färbt das Gas", "Er bindet das Wasser"]
+  answer: { index: 1 }
+  explanation: "Katalysator: beschleunigt, wird nicht verbraucht."
+- key: q4
+  type: single_choice
+  prompt: "Wie wird Sauerstoff in der Technik in großen Mengen gewonnen?"
+  options: ["Aus Wasserstoffperoxid", "Durch Destillation verflüssigter Luft", "Aus Kochsalz", "Aus Eisenerz"]
+  answer: { index: 1 }
+  explanation: "Linde-Verfahren: Luft verflüssigen, Stickstoff siedet zuerst ab."
+- key: q5
+  type: single_choice
+  prompt: "Woher stammt fast der gesamte Sauerstoff in der Luft?"
+  options: ["Aus Vulkanen", "Aus der Fotosynthese von Pflanzen und Algen", "Aus dem Meer", "Aus Autos"]
+  answer: { index: 1 }
+  explanation: "Pflanzen, Algen und Cyanobakterien produzieren ihn aus CO₂ und Wasser."
+- key: q6
+  type: single_choice
+  prompt: "Wie verhält sich Eisenwolle in reinem Sauerstoff?"
+  options: ["Sie glimmt schwach", "Sie sprüht funkelnd wie eine Wunderkerze", "Sie erlischt", "Sie schmilzt ohne Reaktion"]
+  answer: { index: 1 }
+  explanation: "In reinem Sauerstoff läuft die Verbrennung viel heftiger ab als in Luft."
+- key: q7
+  type: gap_text
+  prompt: "Verbrennungsdreieck: brennbarer Stoff, ___ und ___."
+  answer:
+    gaps:
+      - ["Sauerstoff"]
+      - ["Entzündungstemperatur", "Zündtemperatur"]
+  explanation: "Fehlt eines der drei, brennt nichts."
+- key: q8
+  type: single_choice
+  prompt: "Welche Bedingung nimmt eine Löschdecke dem Feuer?"
+  options: ["Den brennbaren Stoff", "Den Sauerstoff", "Die Entzündungstemperatur", "Alle drei"]
+  answer: { index: 1 }
+  explanation: "Die Decke erstickt das Feuer – kein Sauerstoff mehr."
+- key: q9
+  type: single_choice
+  prompt: "Warum darf man brennendes Fett nicht mit Wasser löschen?"
+  options: ["Wasser ist zu kalt", "Das Wasser verdampft schlagartig und schleudert brennendes Fett heraus", "Wasser brennt", "Das Fett wird dadurch giftig"]
+  answer: { index: 1 }
+  explanation: "Fettexplosion – stattdessen Deckel drauf oder Löschdecke."
+- key: q10
+  type: single_choice
+  prompt: "Welches Gefahrenpiktogramm steht auf einer Sauerstoffflasche?"
+  options: ["Flamme (entzündbar)", "Flamme über Kreis (brandfördernd)", "Totenkopf (giftig)", "Ätzsymbol"]
+  answer: { index: 1 }
+  explanation: "Brandfördernd – deshalb nie Öl oder Fett an Sauerstoffventile."
+- key: q11
+  type: single_choice
+  prompt: "Bei welcher Temperatur siedet Sauerstoff?"
+  options: ["100 °C", "0 °C", "−183 °C", "−273 °C"]
+  answer: { index: 2 }
+  explanation: "−183 °C; Stickstoff siedet bei −196 °C – so kann man beide trennen."
+- key: q12
+  type: single_choice
+  prompt: "Wie nennt man die Reaktion eines Stoffs mit Sauerstoff?"
+  options: ["Reduktion", "Oxidation", "Destillation", "Neutralisation"]
+  answer: { index: 1 }
+  explanation: "Verbrennen ist eine Oxidation."

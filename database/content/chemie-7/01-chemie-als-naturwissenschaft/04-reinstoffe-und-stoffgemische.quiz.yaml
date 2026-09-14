@@ -1,0 +1,73 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Stoffe sind Reinstoffe?"
+  options: ["Destilliertes Wasser", "Luft", "Gold", "Cola", "Zucker"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Destilliertes Wasser, Gold und Zucker sind Reinstoffe; Luft und Cola sind Gemische."
+- key: q2
+  type: single_choice
+  prompt: "Sand in Wasser, der sich langsam absetzt – wie heißt das Gemisch?"
+  options: ["Lösung", "Suspension", "Emulsion", "Legierung"]
+  answer: { index: 1 }
+  explanation: "Fester, unlöslicher Stoff in Flüssigkeit = Suspension."
+- key: q3
+  type: single_choice
+  prompt: "Salzwasser ist …"
+  options: ["eine Suspension (heterogen)", "eine Lösung (homogen)", "eine Emulsion (heterogen)", "ein Reinstoff"]
+  answer: { index: 1 }
+  explanation: "Das Salz ist gelöst und nicht erkennbar – homogene Lösung."
+- key: q4
+  type: single_choice
+  prompt: "Welches Gemisch ist heterogen?"
+  options: ["Luft", "Messing", "Granit", "Zuckerwasser"]
+  answer: { index: 2 }
+  explanation: "In Granit erkennt man die Körner von Feldspat, Quarz und Glimmer."
+- key: q5
+  type: gap_text
+  prompt: "Ein Gemisch, dessen Bestandteile man erkennen kann, heißt ___; kann man sie nicht erkennen, heißt es ___."
+  answer:
+    gaps:
+      - ["heterogen"]
+      - ["homogen"]
+  explanation: "heteros = verschieden, homos = gleich."
+- key: q6
+  type: single_choice
+  prompt: "Nebel ist ein Gemisch aus …"
+  options: ["festen Teilchen in Gas", "Flüssigkeitströpfchen in Gas", "Gas in Flüssigkeit", "Flüssigkeit in Flüssigkeit"]
+  answer: { index: 1 }
+  explanation: "Nebel: Wassertröpfchen in Luft. Feste Teilchen in Gas wären Rauch."
+- key: q7
+  type: true_false
+  prompt: "Ein Stoffgemisch hat immer dieselbe feste Siedetemperatur wie ein Reinstoff."
+  answer: { value: false }
+  explanation: "Die Zusammensetzung eines Gemischs kann schwanken, deshalb hat es keine feste Siedetemperatur."
+- key: q8
+  type: single_choice
+  prompt: "Messing besteht aus Kupfer und Zink, die zusammengeschmolzen wurden. Wie heißt diese Gemischart?"
+  options: ["Gemenge", "Legierung", "Suspension", "Schaum"]
+  answer: { index: 1 }
+  explanation: "Zusammengeschmolzene Metalle bilden eine Legierung (homogen)."
+- key: q9
+  type: single_choice
+  prompt: "Welche Aussage über Verbindungen ist richtig?"
+  options: ["Eine Verbindung ist ein Gemisch aus Elementen.", "Eine Verbindung ist ein Reinstoff aus mehreren Elementen mit neuen Eigenschaften.", "Eine Verbindung lässt sich nicht zerlegen.", "Verbindungen kommen nur im Labor vor."]
+  answer: { index: 1 }
+  explanation: "Wasser ist eine Verbindung aus Wasserstoff und Sauerstoff – mit ganz anderen Eigenschaften als die Elemente."
+- key: q10
+  type: single_choice
+  prompt: "Wie viele chemische Elemente gibt es (ungefähr)?"
+  options: ["12", "50", "118", "1000"]
+  answer: { index: 2 }
+  explanation: "Im Periodensystem stehen 118 Elemente."
+- key: q11
+  type: single_choice
+  prompt: "Sahne ist ein Gemisch aus Luft in Flüssigkeit. Wie heißt das?"
+  options: ["Emulsion", "Nebel", "Schaum", "Lösung"]
+  answer: { index: 2 }
+  explanation: "Gas in Flüssigkeit = Schaum."
+- key: q12
+  type: single_choice
+  prompt: "Was unterscheidet eine Suspension von einer Lösung?"
+  options: ["In der Suspension setzt sich der Feststoff ab, in der Lösung bleibt er gelöst.", "Die Lösung ist trüb, die Suspension klar.", "Es gibt keinen Unterschied.", "Die Suspension ist immer heiß."]
+  answer: { index: 0 }
+  explanation: "Suspension: aufgewirbelt, setzt sich ab. Lösung: gelöst, bleibt klar verteilt."

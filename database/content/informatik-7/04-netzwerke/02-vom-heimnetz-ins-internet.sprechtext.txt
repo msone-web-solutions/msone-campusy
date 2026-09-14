@@ -1,0 +1,21 @@
+Vom Heimnetz ins Internet: Router, Server, Protokolle.
+
+Hallo! Was passiert eigentlich, wenn du eine Webseite aufrufst? Heute verfolgen wir den Weg deiner Anfrage.
+
+Zu Hause hängen Handy, Laptop, Fernseher und Drucker am Router. Der Router ist das Herz des Heimnetzes. Er verbindet die Geräte untereinander, per WLAN und LAN, und er verbindet das ganze Heimnetz mit dem Internet, über die Telefon- oder Glasfaserleitung zum Internetanbieter, dem Provider. Jedes Gerät im Netz hat eine IP-Adresse, eine Nummer, unter der es erreichbar ist, wie eine Hausnummer. Im Heimnetz vergibt der Router sie. Nach außen hat das ganze Heimnetz eine gemeinsame öffentliche Adresse vom Provider. Ein Schulnetzwerk ist genauso aufgebaut, nur größer: viele Switches, mehrere WLAN-Zugangspunkte, ein eigener Server für Dateien und Anmeldung, eine Firewall und ein Filter.
+
+Jetzt der Weg einer Anfrage. Du tippst campusy Punkt test ins Handy. Erstens: Das Handy sagt dem Router per WLAN: Ich will diese Seite. Zweitens: Der Router leitet die Anfrage über die Leitung an den Provider weiter. Drittens: die Namensauflösung. Computer arbeiten mit IP-Adressen, nicht mit Namen. Ein DNS-Server, das Telefonbuch des Internets, übersetzt den Namen in eine IP-Adresse. Viertens: Die Anfrage springt von Router zu Router, das sind die Netzwerkknoten, durch das Netz des Providers, über große Internetknoten wie den in Frankfurt, bis zum Rechenzentrum, in dem der Server steht. Jeder Knoten schaut auf die Zieladresse und reicht weiter, wie ein Paket bei der Post. Oft sind es zehn bis zwanzig Stationen, in Millisekunden. Fünftens: Der Server, ein Computer, der Dienste anbietet, schickt die Webseite in Datenpaketen zurück. Sechstens: Der Router erkennt, welches Gerät gefragt hatte, und liefert die Antwort dorthin. Der Browser setzt die Pakete zur Seite zusammen.
+
+Das Internet hat kein Zentrum. Fällt ein Knoten aus, nehmen die Pakete einen anderen Weg. Das war die Grundidee bei seiner Entwicklung.
+
+Wichtig: Internet und World Wide Web sind nicht dasselbe. Das Internet ist die technische Infrastruktur: Kabel, Router, Server, Protokolle. Das World Wide Web ist ein Dienst darauf, die Webseiten, die man mit dem Browser aufruft. Andere Dienste sind E-Mail, Messenger, Online-Spiele, Streaming.
+
+Damit ein Handy in Magdeburg mit einem Server in Kalifornien reden kann, brauchen beide dieselben Regeln. Solche Regelwerke heißen Protokolle. IP regelt die Adressierung und Weiterleitung der Pakete. TCP sorgt dafür, dass alle Pakete ankommen und in der richtigen Reihenfolge zusammengesetzt werden. HTTP ist das Protokoll des World Wide Web, so fragt der Browser Seiten an. Und HTTPS ist HTTP Secure: dasselbe, aber verschlüsselt.
+
+Warum ist HTTPS wichtig? Bei HTTP wandern die Daten im Klartext durch alle Knoten. Wer im selben WLAN sitzt, im Café oder am Bahnhof, oder an einem Knoten mitliest, sieht alles: Passwörter, Nachrichten, Kreditkartennummern. Bei HTTPS werden die Daten zwischen Browser und Server verschlüsselt. Mitleser sehen nur Zeichensalat. Außerdem beweist ein Zertifikat, dass der Server wirklich der ist, für den er sich ausgibt. Du erkennst es am Schloss-Symbol in der Adresszeile. Die Regel: Nie Passwörter oder Zahlungsdaten auf einer Seite ohne HTTPS eingeben.
+
+Eine Skizze macht alles klar: In der Mitte der Router. Links das Internet als Wolke, verbunden über die Leitung zum Provider. Rechts die Geräte, Laptop und Konsole per Kabel als durchgezogene Linie, Handy und Tablet per WLAN als gestrichelte Linie. Beim Schulnetz kommen Switch, Server, Firewall und Filter dazwischen.
+
+Fassen wir zusammen: Der Router verbindet Heimnetz und Internet und vergibt IP-Adressen. Der DNS-Server übersetzt Namen in Adressen. Die Anfrage reist über viele Knoten zum Server und zurück. Protokolle sind die Regeln der Verständigung, und HTTPS verschlüsselt sie.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

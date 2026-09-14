@@ -1,0 +1,74 @@
+- key: q1
+  type: single_choice
+  prompt: "Was passiert bei „falls punkte > 100 dann sage Rekord“, wenn punkte = 80 ist?"
+  options: ["Es wird „Rekord“ gesagt", "Nichts – das Programm macht danach weiter", "Das Programm stürzt ab", "punkte wird auf 100 gesetzt"]
+  answer: { index: 1 }
+  explanation: "Die Bedingung ist falsch, der dann-Block wird übersprungen."
+- key: q2
+  type: single_choice
+  prompt: "Wie heißt „falls … dann … sonst“ in vielen Textsprachen?"
+  options: ["for-loop", "if-else", "while", "print"]
+  answer: { index: 1 }
+  explanation: "if-else = Verzweigung."
+- key: q3
+  type: single_choice
+  prompt: "x = 7. Welche Bedingung ist wahr?"
+  options: ["x < 7", "x >= 7", "x = 8", "nicht (x = 7)"]
+  answer: { index: 1 }
+  explanation: "7 >= 7 ist wahr."
+- key: q4
+  type: single_choice
+  prompt: "alter = 15. Ist „alter >= 12 und alter <= 16“ wahr?"
+  options: ["wahr", "falsch"]
+  answer: { index: 0 }
+  explanation: "Beide Teile wahr → und ist wahr."
+- key: q5
+  type: single_choice
+  prompt: "taste = \"b\". Ist „taste = \"a\" oder taste = \"A\"“ wahr?"
+  options: ["wahr", "falsch"]
+  answer: { index: 1 }
+  explanation: "Kein Teil ist wahr → oder ist falsch."
+- key: q6
+  type: single_choice
+  prompt: "leben = 0. Was ergibt „nicht (leben = 0)“?"
+  options: ["wahr", "falsch"]
+  answer: { index: 1 }
+  explanation: "leben = 0 ist wahr, nicht dreht es um → falsch."
+- key: q7
+  type: single_choice
+  prompt: "„falls note < 4 dann sage bestanden“. Note 4 – was passiert?"
+  options: ["bestanden", "nichts, weil 4 < 4 falsch ist", "Fehler", "bestanden, weil 4 die Grenze ist"]
+  answer: { index: 1 }
+  explanation: "Grenzfehler: Für 4 müsste es note <= 4 heißen."
+- key: q8
+  type: single_choice
+  prompt: "Bei verschachtelten Verzweigungen (temperatur > 25 / > 15 / sonst): Welche Ausgabe bei 30 °C?"
+  options: ["Heiß", "Angenehm", "Kalt"]
+  answer: { index: 0 }
+  explanation: "Die erste Bedingung (30 > 25) trifft zu."
+- key: q9
+  type: single_choice
+  prompt: "Bei verschachtelten Verzweigungen (temperatur > 25 / > 15 / sonst): Welche Ausgabe bei 10 °C?"
+  options: ["Heiß", "Angenehm", "Kalt"]
+  answer: { index: 2 }
+  explanation: "Weder > 25 noch > 15 → der letzte sonst-Zweig."
+- key: q10
+  type: single_choice
+  prompt: "Welchen Datentyp hat das Ergebnis eines Vergleichs wie „x > 5“?"
+  options: ["int", "string", "boolean", "float"]
+  answer: { index: 2 }
+  explanation: "Ein Vergleich ergibt immer wahr oder falsch."
+- key: q11
+  type: single_choice
+  prompt: "Freibad: „falls (alter < 6) oder (alter > 70) dann frei sonst 3 Euro“. Was zahlt eine 70-Jährige?"
+  options: ["frei", "3 Euro"]
+  answer: { index: 1 }
+  explanation: "70 > 70 ist falsch, 70 < 6 auch → 3 Euro. Grenze beachten!"
+- key: q12
+  type: gap_text
+  prompt: "Bei „und“ müssen ___ Teile wahr sein, bei „oder“ reicht ___ Teil."
+  answer:
+    gaps:
+      - ["beide", "alle"]
+      - ["ein", "einer", "mindestens ein"]
+  explanation: "und: beide wahr. oder: mindestens einer wahr."

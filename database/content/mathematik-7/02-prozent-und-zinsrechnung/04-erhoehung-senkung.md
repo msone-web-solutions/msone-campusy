@@ -1,6 +1,6 @@
 ---
-title: Erhöhung und Senkung – Rabatt, Mehrwertsteuer, Brutto und Netto
-intro: Preise steigen oder sinken um einen Prozentsatz. So rechnest du mit Rabatt, Skonto, Mehrwertsteuer und Lohn.
+title: "Erhöhung und Senkung – Rabatt, Mehrwertsteuer, Brutto und Netto"
+intro: "Preise steigen oder sinken um einen Prozentsatz. So rechnest du mit Rabatt, Skonto, Mehrwertsteuer und Lohn."
 curriculum_ref: "Prozentrechnung in Sachbezügen anwenden; Rabatt, Skonto, Brutto, Netto, Steigerung bzw. Senkung um bzw. auf"
 estimated_minutes: 30
 reflect: "Erkläre, warum man vom Bruttopreis nicht einfach 19 % abziehen darf, um den Nettopreis zu bekommen."

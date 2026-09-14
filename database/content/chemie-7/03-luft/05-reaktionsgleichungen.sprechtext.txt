@@ -1,0 +1,27 @@
+Wort- und Reaktionsgleichungen aufstellen.
+
+Hallo! Heute lernst du, chemische Reaktionen in der Sprache der Chemie aufzuschreiben. Erst in Worten, dann mit Formeln.
+
+Eine Wortgleichung schreibt die Reaktion in Worten: links die Ausgangsstoffe, rechts die Reaktionsprodukte, dazwischen der Pfeil. Magnesium plus Sauerstoff reagiert zu Magnesiumoxid. Bei exothermen Reaktionen ergänzt man oft: plus Energie.
+
+Jetzt ersetzen wir die Namen durch Formeln. Dafür musst du die richtigen Formeln kennen. Metalle schreibt man nur mit dem Symbol: M G, F E, C U. Sauerstoff ist immer O zwei, ein zweiatomiges Molekül. Die Metalloxide: Magnesiumoxid M G O, Kupferoxid C U O, Zinkoxid Z N O, Eisenoxid F E zwei O drei, Aluminiumoxid A L zwei O drei. Die Nichtmetalloxide: Kohlenstoffdioxid C O zwei, Schwefeldioxid S O zwei, Wasser H zwei O.
+
+Erster Versuch: M G plus O zwei reagiert zu M G O. Aber Vorsicht: Links stehen zwei Sauerstoffatome, im O zwei, rechts nur eines, im M G O. Das kann nicht sein. Atome verschwinden nicht. Die Gleichung muss ausgeglichen werden.
+
+Dafür gibt es drei Regeln. Erstens: Auf beiden Seiten muss von jeder Atomsorte gleich viel stehen. Zweitens: Du darfst nur die Koeffizienten ändern, die Zahlen vor den Formeln. Drittens: Du darfst niemals die Indexzahlen ändern. Aus M G O ein M G O zwei zu machen, wäre ein anderer Stoff.
+
+Also gleichen wir aus. Rechts brauchen wir zwei Sauerstoffatome, also zwei M G O. Jetzt stehen rechts zwei Magnesiumatome, also links zwei M G. Ergebnis: zwei M G plus O zwei reagiert zu zwei M G O. Links zwei Magnesium und zwei Sauerstoff, rechts genauso. Fertig.
+
+Weitere Beispiele. Kupfer plus Sauerstoff: zwei C U plus O zwei reagiert zu zwei C U O. Kohlenstoff plus Sauerstoff: C plus O zwei reagiert zu C O zwei, das ist schon ausgeglichen, ein Kohlenstoff und zwei Sauerstoff auf beiden Seiten. Schwefel: S plus O zwei reagiert zu S O zwei. Wasserstoff plus Sauerstoff: zwei H zwei plus O zwei reagiert zu zwei H zwei O. Rechts stehen dann vier Wasserstoff und zwei Sauerstoff, links auch.
+
+Und ein schwierigeres: Eisen plus Sauerstoff zu Eisenoxid F E zwei O drei. Beim Sauerstoff stehen links zwei, rechts drei. Das kleinste gemeinsame Vielfache ist sechs: also drei O zwei und zwei F E zwei O drei. Dann stehen rechts vier Eisen, also links vier F E. Ergebnis: vier F E plus drei O zwei reagiert zu zwei F E zwei O drei. Links vier Eisen und sechs Sauerstoff, rechts genauso.
+
+Der Trick beim Zählen: Schreib unter jede Seite die Atomzahlen. Koeffizient mal Index ergibt die Atomzahl. Zwei F E zwei O drei: zwei mal zwei ist vier Eisen, zwei mal drei ist sechs Sauerstoff. Wenn beide Seiten gleich sind, bist du fertig.
+
+Und so liest man die Gleichung: Zwei M G plus O zwei zu zwei M G O heißt: Zwei Magnesiumatome reagieren mit einem Sauerstoffmolekül zu zwei Teilchen Magnesiumoxid. Die Gleichung sagt nicht nur, welche Stoffe reagieren, sondern auch in welchem Zahlenverhältnis.
+
+Die häufigsten Fehler: O statt O zwei schreiben. Den Index statt den Koeffizienten ändern. Und vergessen, nach dem Ausgleichen einer Atomsorte die andere neu zu prüfen.
+
+Fassen wir zusammen: Wortgleichung, dann Formeln einsetzen, dann ausgleichen. Nur Koeffizienten ändern, nie Indexzahlen. Sauerstoff ist immer O zwei. Und Atomzahl gleich Koeffizient mal Index.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

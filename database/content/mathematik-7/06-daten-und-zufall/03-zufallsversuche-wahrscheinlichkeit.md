@@ -1,6 +1,6 @@
 ---
-title: Zufallsversuche und Wahrscheinlichkeit
-intro: Würfel, Münze, Glücksrad – Zufallsversuche beschreiben, Ergebnisse und Ereignisse unterscheiden und Wahrscheinlichkeiten berechnen.
+title: "Zufallsversuche und Wahrscheinlichkeit"
+intro: "Würfel, Münze, Glücksrad – Zufallsversuche beschreiben, Ergebnisse und Ereignisse unterscheiden und Wahrscheinlichkeiten berechnen."
 curriculum_ref: "Zufallsversuche durch Angabe der Elementarereignisse beschreiben; Wahrscheinlichkeiten von einstufigen Zufallsversuchen berechnen; Zufallsversuch, Elementarereignis, Ereignis, Mengenschreibweise; gleichwahrscheinliche Elementarereignisse; Begriff Wahrscheinlichkeit P(A)"
 estimated_minutes: 30
 reflect: "Erkläre, wie man beim Würfeln die Wahrscheinlichkeit für „gerade Zahl“ berechnet, und was „günstig“ und „möglich“ bedeuten."

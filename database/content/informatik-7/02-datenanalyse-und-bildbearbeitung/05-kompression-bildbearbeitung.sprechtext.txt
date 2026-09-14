@@ -1,0 +1,21 @@
+Kompression, Bildbearbeitung und Echtheit von Bildern.
+
+Hallo! Ein Zwölf-Megapixel-Foto braucht unkomprimiert sechsunddreißig Megabyte. Ein Handy mit tausend Fotos wäre voll. Deshalb werden Bilder komprimiert, also verkleinert. Es gibt zwei grundlegend verschiedene Arten.
+
+Bei der verlustfreien Kompression wird nichts weggeworfen. Die Daten werden nur cleverer aufgeschrieben. Statt achtmal „weiß“ zu speichern, speichert man „acht mal weiß“. Beim Öffnen entsteht das Bild exakt wieder, jedes Pixel wie vorher. Das funktioniert gut bei Bildern mit großen einfarbigen Flächen, also Logos, Screenshots und Zeichnungen, aber schlecht bei Fotos, wo jedes Pixel etwas anders ist. Die Formate: PNG und GIF, das allerdings nur zweihundertsechsundfünfzig Farben kann.
+
+Bei der verlustbehafteten Kompression wird Information weggelassen, die das Auge kaum wahrnimmt: feine Farbunterschiede im Himmel, winzige Details. Das Bild wird viel kleiner, aus sechsunddreißig Megabyte werden drei. Aber es ist nicht mehr exakt das Original. Bei starker Kompression sieht man Artefakte: Klötzchen, Farbstufen, unscharfe Kanten. Das Format ist JPG. Die Stärke der Kompression stellt man beim Speichern ein. Und jedes erneute Speichern verschlechtert das Bild weiter, deshalb solltest du Originale immer aufheben. Auch MP3 für Musik und MP4 für Video sind verlustbehaftet.
+
+Welches Format wofür? Die Faustregel: Foto als JPG. Grafik mit Text oder transparentem Hintergrund als PNG. Kurze Animation als GIF. Logo oder Icon als SVG.
+
+Jetzt zur Bildbearbeitung. Jedes Bildprogramm hat diese Grundwerkzeuge. Zuschneiden: Ränder wegschneiden, Bildausschnitt wählen. Drehen und Spiegeln, etwa bei einem schiefen Horizont. Größe ändern: Verkleinern geht immer, Vergrößern erfindet Pixel und wird unscharf. Farbfilter und Korrekturen: Helligkeit, Kontrast, Sättigung, Schwarz-Weiß, Weichzeichnen, Schärfen. Die Filter in Social-Media-Apps sind nichts anderes als vorgefertigte Kombinationen davon. Ebenen, um Bildteile übereinanderzulegen. Und Retusche: Störendes wegstempeln, Objekte löschen oder einfügen, heute oft per KI mit einem Klick. Beim Speichern: Original behalten, Bearbeitung unter neuem Namen speichern.
+
+Und jetzt die entscheidende Frage: Wann ist ein Bild noch echt? Ein bisschen Helligkeit korrigieren, kein Problem. Aber Zuschneiden kann den Zusammenhang verfälschen, wenn die Person daneben plötzlich fehlt. Retusche kann Körper verändern. Und KI kann Personen an Orte setzen, an denen sie nie waren, oder komplett neue Fotos erzeugen. Das sind Deepfakes.
+
+So prüfst du die Echtheit eines Bildes. Erstens die Quelle: Wer hat es veröffentlicht? Zweitens die Rückwärtssuche: Wo taucht das Bild sonst auf, ist es älter, aus einem anderen Zusammenhang? Drittens die Details: Schatten in verschiedene Richtungen, sechs Finger, unleserlicher Text im Hintergrund, das sind typische KI-Fehler. Viertens die Plausibilität: Passt das Bild zu dem, was man sonst weiß? Fünftens die Metadaten: Kamera, Datum und Ort stecken oft in der Datei, können aber gefälscht sein.
+
+Merke: Ein Bild ist ein Beleg, kein Beweis. Und beurteile eine Bearbeitung nach der Absicht: Wurde das Bild verbessert oder verfälscht? Ist die Bearbeitung gekennzeichnet? Würde die abgebildete Person zustimmen? In Nachrichtenmedien gilt: Der Inhalt darf nicht verändert werden.
+
+Fassen wir zusammen: Verlustfreie Kompression wie PNG behält alles, verlustbehaftete wie JPG lässt Unauffälliges weg. Foto JPG, Grafik PNG, Logo SVG. Bildbearbeitung reicht vom Zuschneiden bis zur KI-Retusche. Und Echtheit prüft man über Quelle, Rückwärtssuche, Details, Plausibilität und Metadaten.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,0 +1,27 @@
+Netzwerke absichern und Daten sicher übertragen.
+
+Hallo! Ein Netzwerk ist eine Tür nach draußen, und drinnen liegen Fotos, Dokumente, Passwörter, Zeugnisse. Heute lernst du, wie man diese Tür schützt, und wie man Dateien sicher weitergibt.
+
+Die Gefahren: Fremde, die sich ins WLAN hängen. Schadsoftware, die von einem Gerät auf alle anderen springt. Angreifer aus dem Internet. Und ganz banal: Mitschüler, die auf dem Schulserver in fremden Ordnern stöbern. Schutz besteht aus mehreren Schichten.
+
+Die erste Schicht ist die Firewall, die Brandmauer. Sie steht zwischen dem Netzwerk und dem Internet und prüft jeden Datenverkehr: Was darf rein, was darf raus? Sie blockiert unerwünschte Verbindungen, etwa Angriffe von außen oder Programme, die heimlich Daten nach Hause funken. Im Router ist eine einfache Firewall eingebaut, und auch Windows und macOS haben eine auf jedem Rechner. Sie sollte immer an sein.
+
+Die zweite Schicht ist der Filter. Ein Webfilter sperrt bestimmte Webseiten oder Inhalte: Gewalt, Pornografie, Glücksspiel, bekannte Betrugsseiten, und in Schulen oft auch Spiele und Social Media während des Unterrichts. Er ist kein perfekter Schutz, aber er hält das Gröbste fern und ist in Schulnetzen Pflicht.
+
+Die dritte Schicht sind Passwörter. Sie sind die Schlüssel des Netzwerks. Gute Passwörter sind lang, mindestens zwölf Zeichen, denn Länge schlägt Komplexität. Nicht erratbar: kein Name, kein Geburtsdatum, kein „Passwort eins zwei drei“. Ein Trick ist die Merksatz-Methode: „Mein Hund Bello frisst drei Knochen am Tag“ wird zu den Anfangsbuchstaben M H B f drei K a T. Für jeden Dienst ein anderes Passwort, sonst öffnet ein geklautes alle Türen. Ein Passwort-Manager merkt sie sich. Nie weitergeben, auch nicht an Freunde. Zwei-Faktor-Authentifizierung einschalten, wo möglich: Passwort plus Code vom Handy. Und das Standardpasswort des Routers ändern, denn admin admin kennt jeder.
+
+Die vierte Schicht ist das Gast-WLAN. Besucher bekommen ein eigenes Netz: Es führt ins Internet, aber nicht ins Heimnetz. Gäste sehen weder Drucker noch Server noch andere Geräte. So bleibt das Hauptnetz geschützt, selbst wenn ein Gastgerät verseucht ist. Auch Smart-Home-Geräte gehören besser ins Gastnetz. In der Schule sind Verwaltung, Unterricht und Gäste streng getrennte Netze.
+
+Dazu kommen Updates für Router, Computer und Handys, Virenschutz, WLAN-Verschlüsselung, Zugriffsrechte auf dem Server, sodass jeder nur seine eigenen Ordner sieht, Backups, und Aufklärung. Denn die meisten Einbrüche passieren durch Menschen: Phishing, weitergegebene Passwörter, USB-Sticks vom Parkplatz. Wissen ist die beste Firewall.
+
+Jetzt zum Übertragen von Daten. Dateien wandern per USB-Stick, schnell und offline, aber mit Verlust- und Virenrisiko. Per E-Mail-Anhang bis etwa zehn Megabyte. Per Cloud, Link teilen, große Dateien, gemeinsames Arbeiten. Per Bluetooth oder AirDrop zwischen Geräten in der Nähe. Oder per Netzwerkfreigabe auf dem Schulserver.
+
+Das Format muss der Empfänger öffnen können. Texte, Referate und Bewerbungen als PDF: Es sieht überall gleich aus, lässt sich nicht versehentlich ändern, und jedes Gerät kann es öffnen. Nur zum gemeinsamen Bearbeiten das Originalformat. Bilder als JPG oder PNG. Mehrere Dateien als ZIP zusammenpacken. Und Dateiendungen immer anzeigen lassen, denn Rechnung Punkt PDF Punkt EXE ist ein Trick.
+
+Ein Zeugnis oder ein Formular scannst du mit dem Scanner oder der Handy-App: gerade und gut beleuchtet, als PDF speichern, Texterkennung einschalten, damit der Text durchsuchbar wird, und ein sinnvoller Dateiname mit Datum.
+
+Und der Schutz beim Weitergeben: Ein Dokument mit Schreibschutz freigeben, also „nur ansehen“ statt „bearbeiten“. PDF oder ZIP mit Passwort versehen, und das Passwort auf einem anderen Weg mitteilen, nie in derselben Mail. Freigabe-Links mit Ablaufdatum und nur an bestimmte Personen. Metadaten prüfen, denn Dokumente speichern Autor und Änderungen. Und nur weitergeben, was nötig ist: so wenig persönliche Daten wie möglich.
+
+Fassen wir zusammen: Firewall, Filter, Passwörter und Gast-WLAN sind die vier Schutzschichten, dazu Updates, Rechte und Backups. Beim Übertragen: PDF für Texte, sinnvolle Namen, Endungen anzeigen. Beim Weitergeben: Schreibschutz, Passwort auf anderem Weg, wenig persönliche Daten.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

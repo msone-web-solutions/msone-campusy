@@ -90,5 +90,7 @@ it('lets a student link a parent and shows the parent dashboard', function () {
     expect($student->fresh()->parent_id)->toBe($parent->id);
 
     $this->actingAs($parent)->get(route('parent.dashboard'))->assertOk()->assertSee($student->name);
-    $this->actingAs($student)->get(route('parent.dashboard'))->assertForbidden();
+    $this->actingAs($student)->get(route('parent.dashboard'))->assertRedirect(route('dashboard'));
+    $this->actingAs($parent)->get(route('learn.index'))->assertRedirect(route('parent.dashboard'));
+    $this->actingAs($parent)->get(route('dashboard'))->assertRedirect(route('parent.dashboard'));
 });

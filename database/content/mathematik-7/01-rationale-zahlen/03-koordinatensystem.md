@@ -1,6 +1,6 @@
 ---
-title: Das Koordinatensystem mit vier Quadranten
-intro: Punkte im Koordinatensystem eintragen und ablesen – jetzt auch mit negativen Koordinaten.
+title: "Das Koordinatensystem mit vier Quadranten"
+intro: "Punkte im Koordinatensystem eintragen und ablesen – jetzt auch mit negativen Koordinaten."
 curriculum_ref: "Punkte im Koordinatensystem eintragen und Koordinaten von Punkten ablesen; Koordinatensystem mit vier Quadranten"
 estimated_minutes: 25
 reflect: "Erkläre jemandem, der noch nie ein Koordinatensystem gesehen hat, wie man den Punkt P(−2 | 3) einträgt."

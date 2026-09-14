@@ -1,0 +1,70 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist Korrosion?"
+  options: ["Das Schmelzen eines Metalls", "Die Zerstörung eines Metalls durch Reaktion mit der Umgebung", "Das Verformen eines Metalls", "Das Recycling von Metall"]
+  answer: { index: 1 }
+  explanation: "Korrosion – z. B. Rosten – ist eine chemische Reaktion mit Sauerstoff und Wasser."
+- key: q2
+  type: single_choice
+  prompt: "Ein Eisennagel liegt in abgekochtem Wasser unter einer Ölschicht. Was passiert?"
+  options: ["Er rostet schnell", "Er rostet nicht, weil kein Sauerstoff dazukommt", "Er löst sich auf", "Er wird magnetisch"]
+  answer: { index: 1 }
+  explanation: "Ohne Sauerstoff kein Rost – das Öl hält die Luft fern."
+- key: q3
+  type: true_false
+  prompt: "Salzwasser lässt Eisen schneller rosten als reines Wasser."
+  answer: { value: true }
+  explanation: "Salz beschleunigt die Korrosion – deshalb Streusalz und Meerluft so gefährlich für Autos."
+- key: q4
+  type: single_choice
+  prompt: "Warum schützt Rost das Eisen darunter nicht?"
+  options: ["Weil Rost zu dünn ist", "Weil Rost porös ist und Wasser und Luft durchlässt", "Weil Rost giftig ist", "Weil Rost leitet"]
+  answer: { index: 1 }
+  explanation: "Rost ist locker und porös – anders als die dichten Oxidschichten von Aluminium und Zink."
+- key: q5
+  type: single_choice
+  prompt: "Welches Prinzip haben alle Methoden des Korrosionsschutzes?"
+  options: ["Das Metall erhitzen", "Sauerstoff und Wasser vom Metall fernhalten", "Das Metall magnetisieren", "Das Metall verkleinern"]
+  answer: { index: 1 }
+  explanation: "Ohne Sauerstoff und Wasser keine Korrosion."
+- key: q6
+  type: multiple_choice
+  prompt: "Welche Verfahren sind Korrosionsschutz durch Überzüge?"
+  options: ["Lackieren", "Verzinken", "Legieren zu Edelstahl", "Emaillieren", "Fetten"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Lack, Zink, Email und Fett sind Überzüge. Edelstahl ist Schutz durch Legieren."
+- key: q7
+  type: single_choice
+  prompt: "Was ist eine Opferanode?"
+  options: ["Eine Lackschicht", "Ein Block aus unedlerem Metall, der anstelle des Eisens korrodiert", "Ein Magnet am Schiff", "Eine Zinnschicht"]
+  answer: { index: 1 }
+  explanation: "Zink oder Magnesium korrodieren zuerst – das Eisen des Schiffs bleibt heil."
+- key: q8
+  type: single_choice
+  prompt: "Warum rostet Edelstahl nicht?"
+  options: ["Er enthält kein Eisen", "Chrom bildet eine dichte, schützende Oxidschicht", "Er ist lackiert", "Er ist zu hart"]
+  answer: { index: 1 }
+  explanation: "Chrom im Edelstahl sorgt für eine dichte Oxidschicht."
+- key: q9
+  type: numeric
+  prompt: "Wie viel Prozent der Energie spart Aluminium-Recycling gegenüber der Neuherstellung? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 95, tolerance: 3 }
+  explanation: "Recycling braucht nur etwa 5 % der Energie – Ersparnis 95 %."
+- key: q10
+  type: true_false
+  prompt: "Ein recyceltes Metall hat schlechtere Eigenschaften als neu hergestelltes."
+  answer: { value: false }
+  explanation: "Metalle verbrauchen sich nicht – eingeschmolzenes Aluminium ist genauso gut wie neues."
+- key: q11
+  type: single_choice
+  prompt: "Mit welchem Verfahren trennt man auf dem Schrottplatz Eisen vom übrigen Metall?"
+  options: ["Filtrieren", "Magnetscheiden", "Destillieren", "Sieben"]
+  answer: { index: 1 }
+  explanation: "Eisen ist magnetisch – ein großer Magnet zieht es heraus."
+- key: q12
+  type: single_choice
+  prompt: "Warum lohnt sich das Recycling alter Handys besonders?"
+  options: ["Weil sie schön sind", "Weil sie Gold, Silber und Seltene Erden enthalten", "Weil sie aus Eisen sind", "Weil sie leicht sind"]
+  answer: { index: 1 }
+  explanation: "Eine Tonne Althandys enthält mehr Gold als eine Tonne Golderz."

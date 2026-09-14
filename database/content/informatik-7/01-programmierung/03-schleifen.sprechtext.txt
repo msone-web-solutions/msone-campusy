@@ -1,0 +1,21 @@
+Schleifen: Wiederholungen im Programm.
+
+Hallo! Ein Quadrat zeichnen: gehe hundert Schritte, drehe dich um neunzig Grad, und das viermal. Bei einem Hunderteck wären das zweihundert Bausteine. Dafür gibt es Schleifen: Ein Block von Anweisungen wird mehrfach ausgeführt. Die Anweisungen in der Schleife heißen Schleifenkörper, und jeder Durchlauf heißt Iteration.
+
+Wenn du vorher weißt, wie oft wiederholt werden soll, nimmst du die Zählschleife: wiederhole viermal, gehe hundert Schritte, drehe dich um neunzig Grad. In Textsprachen heißt sie „for“. Oft braucht man dabei eine Zählvariable, die mitzählt. Setze i auf eins. Wiederhole zehnmal: sage i mal sieben, ändere i um eins. Das gibt das Siebener-Einmaleins aus.
+
+Wenn du nicht weißt, wie oft, sondern nur, solange oder bis etwas gilt, nimmst du die bedingte Schleife. In Scratch heißt sie „wiederhole bis Bedingung“, in Textsprachen „while“, also „solange“. Zum Beispiel: Wiederhole bis tipp gleich geheimzahl: Frage nach dem Tipp, speichere ihn. Danach: sage „Richtig“. Die Schleife läuft, solange der Tipp falsch ist. Das können ein oder fünfzig Durchläufe sein. Vor jedem Durchlauf wird die Bedingung geprüft.
+
+Achtung beim Übersetzen: Scratch sagt „wiederhole bis X“, Textsprachen sagen „solange nicht X“. Gleiche Idee, umgekehrte Formulierung.
+
+Und dann gibt es die Endlosschleife. „Wiederhole fortlaufend“ läuft ohne Ende, und in Spielen ist das genau richtig, denn die Figur soll ständig auf Tasten reagieren. Aber bei einer bedingten Schleife ist eine Endlosschleife oft ein Fehler. Wenn die Bedingung nie wahr wird, hängt das Programm. Beispiel: Setze i auf eins. Wiederhole bis i größer als zehn: sage i. Hier fehlt „ändere i um eins“. i bleibt eins, die Schleife endet nie. Merke: In einer bedingten Schleife muss sich im Körper etwas ändern, das die Bedingung beeinflusst.
+
+Schleifen kann man verschachteln, also eine Schleife in eine andere stecken. Für jede Zeile, das ist die äußere Schleife, alle Spalten, das ist die innere. Wiederhole dreimal: wiederhole fünfmal: stemple einen Stern. Ergebnis: drei mal fünf, also fünfzehn Sterne in einem Raster. Die innere Schleife läuft bei jedem äußeren Durchlauf komplett durch.
+
+Ein wichtiges Muster ist der Akkumulator: eine Variable, die sammelt. Setze summe auf null. Setze i auf eins. Wiederhole hundertmal: ändere summe um i, ändere i um eins. Sage summe. Ergebnis: fünftausendfünfzig, die Summe von eins bis hundert. Die Variable summe sammelt, i zählt. Dieses Muster brauchst du ständig: Punkte zählen, Preise addieren, Mittelwert bilden.
+
+Welche Schleife wann? Ist die Anzahl bekannt, zehn Fragen stellen oder ein Hunderteck zeichnen: Zählschleife. Ist die Anzahl unbekannt, bis der Tipp stimmt oder solange Leben größer null: bedingte Schleife. Für immer, die Spielfigur steuern: Endlosschleife, absichtlich.
+
+Fassen wir zusammen: Eine Schleife führt Anweisungen mehrfach aus. Die Zählschleife für eine bekannte Anzahl, die bedingte Schleife, solange oder bis eine Bedingung gilt. Endlosschleifen sind in Spielen gewollt, sonst oft ein Fehler. Und das Akkumulator-Muster sammelt Werte in einer Variable.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

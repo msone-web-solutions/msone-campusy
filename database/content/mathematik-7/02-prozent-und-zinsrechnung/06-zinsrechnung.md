@@ -1,6 +1,6 @@
 ---
-title: Zinsrechnung
-intro: Kapital, Zinssatz, Zinsen – Zinsen für ein Jahr, für Monate und für Tage berechnen.
+title: "Zinsrechnung"
+intro: "Kapital, Zinssatz, Zinsen – Zinsen für ein Jahr, für Monate und für Tage berechnen."
 curriculum_ref: "Prozentrechnung (einschließlich Zinsrechnung) in Sachbezügen anwenden; Kapital (Guthaben, Kredit), Zinsen, Zinssatz, Zinszeit (Jahre, Monate, Tage)"
 estimated_minutes: 30
 reflect: "Erkläre, was Kapital, Zinssatz und Zinsen bedeuten, und wie du die Zinsen für 6 Monate berechnest."

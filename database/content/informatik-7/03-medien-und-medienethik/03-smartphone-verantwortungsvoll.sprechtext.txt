@@ -1,0 +1,19 @@
+Das Smartphone verantwortungsvoll nutzen.
+
+Hallo! Dein Smartphone ist ein vollwertiger Computer mit Kamera, Mikrofon, GPS und Internet, und mit Dutzenden Apps, die alle etwas von dir wollen. Verantwortungsvoll nutzen heißt: wissen, was das Gerät tut, und selbst entscheiden, statt entscheiden zu lassen.
+
+Zuerst die App-Rechte. Jede App fragt nach Berechtigungen: Kamera, Mikrofon, Standort, Kontakte, Fotos, Benachrichtigungen. Die Regel: Nur so viel erlauben, wie die App für ihren Zweck braucht. Eine Navi-App braucht den Standort, aber nur, während sie benutzt wird. Eine Taschenlampen-App braucht keinen Zugriff auf Kontakte. Fragt sie danach, will sie Daten sammeln. Ein Spiel braucht kein Mikrofon. Prüfen kannst du das unter Einstellungen, Apps, Berechtigungen bei Android, oder Einstellungen, Datenschutz bei iOS. Einmal im Monat durchgehen lohnt sich.
+
+Dann die Grundeinstellungen, die schützen. Eine Bildschirmsperre mit PIN, Muster, Fingerabdruck oder Gesicht, immer. Updates installieren, denn sie schließen Sicherheitslücken. Apps nur aus offiziellen Stores installieren. Backup aktivieren, damit Fotos und Kontakte bei Verlust nicht weg sind. „Mein Gerät finden“ einschalten, dann kannst du ein verlorenes Handy orten und sperren. Und personalisierte Werbung in den Datenschutzeinstellungen ausschalten.
+
+Jetzt zur Gesundheit. Der Schlaf: Das blaue Bildschirmlicht und die Aufregung durch Feeds verzögern das Einschlafen. Eine Stunde vor dem Schlafen kein Handy, nachts nicht im Zimmer. Die Konzentration: Jede Benachrichtigung reißt dich aus den Gedanken, und es dauert Minuten, bis du wieder drin bist. Beim Lernen: Handy in einen anderen Raum oder auf „Nicht stören“. Die Haltung: Der gesenkte Kopf belastet den Nacken. Die Augen: alle zwanzig Minuten zwanzig Sekunden in die Ferne schauen. Und Bewegung und Freunde: Zeit am Handy ist Zeit, die woanders fehlt. Die Frage ist nicht „wie viel“, sondern „was fehlt dafür“.
+
+Die Bildschirmzeit kannst du messen: Android „Digital Wellbeing“, iOS „Bildschirmzeit“ zeigen, welche Apps wie lange laufen. Viele erschrecken beim ersten Blick. Limits setzen und Grautöne aktivieren machen das Handy langweiliger, und das hilft wirklich.
+
+Das Smartphone kann mehr als scrollen: Kalender und Erinnerungen, Notizen, Vokabel-Apps, Fotos von der Tafel, Navigation, Übersetzer, Lern-Apps wie diese hier. Der Unterschied zwischen Konsum und Produktivität ist, ob du das Gerät steuerst oder das Gerät dich.
+
+Zum Schluss das Bezahlen. Mit Google Pay, Apple Pay oder Bank-Apps bezahlst du kontaktlos per NFC an der Kasse, mit PayPal online, in Apps per In-App-Kauf, oft mit der hinterlegten Karte der Eltern. Praktisch, aber gefährlich, weil das Geld unsichtbar wird. In-App-Käufe in Spielen, Skins, Münzen, Lootboxen, summieren sich schnell auf hunderte Euro. Die Lösung: In-App-Käufe sperren oder ein Passwort bei jedem Kauf verlangen. Abo-Fallen: „Kostenlos testen“ wird nach sieben Tagen kostenpflichtig. Abos regelmäßig prüfen und kündigen. Phishing: Eine SMS „Ihr Paket wartet, klicken Sie hier“ führt zu gefälschten Seiten, die Kartendaten abgreifen. Nie über Links aus SMS oder Mails bezahlen. Und unter achtzehn brauchst du für Käufe die Zustimmung der Eltern.
+
+Fassen wir zusammen: App-Rechte nur nach Bedarf. Bildschirmsperre, Updates, offizielle Stores, Backup. Schlaf und Lernen handyfrei, Bildschirmzeit im Blick. Das Gerät produktiv nutzen statt nur konsumieren. Und Bezahlen nur bewusst: In-App-Käufe sperren, Abos prüfen, Phishing erkennen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Gas hat den größten Anteil an der Luft?"
+  options: ["Sauerstoff", "Stickstoff", "Kohlenstoffdioxid", "Argon"]
+  answer: { index: 1 }
+  explanation: "Stickstoff: etwa 78 %."
+- key: q2
+  type: numeric
+  prompt: "Wie viel Prozent Sauerstoff enthält die Luft ungefähr? (nur die Zahl)"
+  options: { unit: "%" }
+  answer: { value: 21, tolerance: 1 }
+  explanation: "Etwa 21 %, also ein Fünftel."
+- key: q3
+  type: single_choice
+  prompt: "Wie groß ist der Anteil von Kohlenstoffdioxid in der Luft?"
+  options: ["ca. 21 %", "ca. 4 %", "ca. 0,04 %", "ca. 78 %"]
+  answer: { index: 2 }
+  explanation: "Nur etwa 0,04 % – und trotzdem wichtig für das Klima."
+- key: q4
+  type: single_choice
+  prompt: "Welches Gas ist lebensnotwendig für die Atmung und unterhält die Verbrennung?"
+  options: ["Stickstoff", "Argon", "Sauerstoff", "Kohlenstoffdioxid"]
+  answer: { index: 2 }
+  explanation: "Sauerstoff (O₂)."
+- key: q5
+  type: single_choice
+  prompt: "Wie weist man Sauerstoff nach?"
+  options: ["Mit der Knallgasprobe", "Mit der Glimmspanprobe", "Mit Kalkwasser", "Mit dem Magneten"]
+  answer: { index: 1 }
+  explanation: "Ein glimmender Span flammt in Sauerstoff hell auf."
+- key: q6
+  type: single_choice
+  prompt: "Eine Kerze brennt unter einem Glas in einer Wasserschale. Wie hoch steigt das Wasser etwa, wenn die Kerze erlischt?"
+  options: ["Gar nicht", "Um ein Fünftel des Glases", "Um die Hälfte", "Bis ganz oben"]
+  answer: { index: 1 }
+  explanation: "Etwa ein Fünftel – so viel Sauerstoff war im Glas."
+- key: q7
+  type: single_choice
+  prompt: "Welches Gas wird zum Kühlen bei −196 °C in flüssiger Form verwendet?"
+  options: ["Sauerstoff", "Stickstoff", "Kohlenstoffdioxid", "Wasserstoff"]
+  answer: { index: 1 }
+  explanation: "Flüssiger Stickstoff."
+- key: q8
+  type: multiple_choice
+  prompt: "Welche Aussagen über Kohlenstoffdioxid sind richtig?"
+  options: ["Es ist schwerer als Luft", "Es entsteht beim Verbrennen und Atmen", "Es unterhält die Verbrennung", "Pflanzen brauchen es zur Fotosynthese", "Es macht 21 % der Luft aus"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "CO₂ ist schwerer als Luft, entsteht bei Verbrennung und Atmung, ist Pflanzennahrung. Es löscht Feuer und macht nur 0,04 % aus."
+- key: q9
+  type: single_choice
+  prompt: "Argon ist ein …"
+  options: ["Metall", "Edelgas", "Nichtmetall, das brennt", "Bestandteil von Wasser"]
+  answer: { index: 1 }
+  explanation: "Argon ist ein Edelgas – extrem reaktionsträge."
+- key: q10
+  type: true_false
+  prompt: "Luft hat keine Masse."
+  answer: { value: false }
+  explanation: "Ein Liter Luft wiegt etwa 1,3 g."
+- key: q11
+  type: numeric
+  prompt: "Im Kreisdiagramm der Luft: Wie viel Grad bekommt der Sauerstoff (21 %)? (auf ganze Grad gerundet)"
+  options: { unit: "°" }
+  answer: { value: 76, tolerance: 1 }
+  explanation: "21 · 3,6° ≈ 76°."
+- key: q12
+  type: single_choice
+  prompt: "Im Kolbenprober werden 100 ml Luft über glühende Eisenwolle gedrückt. Wie viel Gas bleibt etwa übrig?"
+  options: ["100 ml", "79 ml", "50 ml", "21 ml"]
+  answer: { index: 1 }
+  explanation: "Die Eisenwolle bindet die 21 ml Sauerstoff – 79 ml Stickstoff und Edelgase bleiben."

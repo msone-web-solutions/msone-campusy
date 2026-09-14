@@ -1,6 +1,6 @@
 ---
-title: Vierecksarten und das Haus der Vierecke
-intro: Quadrat, Rechteck, Parallelogramm, Raute, Trapez, Drachen – wie man sie erkennt und wie sie zusammenhängen.
+title: "Vierecksarten und das Haus der Vierecke"
+intro: "Quadrat, Rechteck, Parallelogramm, Raute, Trapez, Drachen – wie man sie erkennt und wie sie zusammenhängen."
 curriculum_ref: "Vierecksarten identifizieren, zeichnen und bezeichnen; Beziehungen zwischen den Vierecksarten beschreiben"
 estimated_minutes: 25
 reflect: "Erkläre, warum jedes Quadrat auch ein Rechteck ist, aber nicht jedes Rechteck ein Quadrat."

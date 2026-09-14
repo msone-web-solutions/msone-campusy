@@ -1,6 +1,6 @@
 ---
-title: Der Innenwinkelsatz im Viereck
-intro: Warum die vier Innenwinkel eines Vierecks immer 360° ergeben – mit Begründung über Dreiecke und vielen Rechenbeispielen.
+title: "Der Innenwinkelsatz im Viereck"
+intro: "Warum die vier Innenwinkel eines Vierecks immer 360° ergeben – mit Begründung über Dreiecke und vielen Rechenbeispielen."
 curriculum_ref: "Innenwinkelsatz bei Berechnungen und Begründungen anwenden; Aussagen über Vierecke durch Zurückführen auf Dreiecke begründen; Beweisführung am Beispiel des Satzes über die Summe der Innenwinkel im Viereck"
 estimated_minutes: 25
 reflect: "Erkläre mit der Diagonale, warum die Winkelsumme im Viereck 360° beträgt."

@@ -1,0 +1,74 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Gerät benutzt man, um kleine Stoffmengen zu erhitzen und zu beobachten?"
+  options: ["Messzylinder", "Reagenzglas", "Trichter", "Uhrglas"]
+  answer: { index: 1 }
+  explanation: "Das Reagenzglas ist das Standardgerät für kleine Versuche."
+- key: q2
+  type: single_choice
+  prompt: "Womit hält man ein Reagenzglas beim Erhitzen?"
+  options: ["Mit den Fingern", "Mit dem Reagenzglashalter", "Mit dem Trichter", "Mit dem Spatel"]
+  answer: { index: 1 }
+  explanation: "Der Reagenzglashalter (Holzklammer) schützt vor Verbrennungen."
+- key: q3
+  type: single_choice
+  prompt: "Welche Flamme brennt, wenn die Luftzufuhr am Brenner geschlossen ist?"
+  options: ["Die blaue rauschende Flamme", "Die gelbe leuchtende Flamme", "Gar keine Flamme"]
+  answer: { index: 1 }
+  explanation: "Ohne Luftzufuhr verbrennt das Gas unvollständig: gelb, leuchtend, rußend, kühler."
+- key: q4
+  type: numeric
+  prompt: "Wie heiß wird die rauschende Brennerflamme ungefähr? (in °C)"
+  options: { unit: "°C" }
+  answer: { value: 1500, tolerance: 100 }
+  explanation: "Die rauschende Flamme erreicht bis zu 1500 °C."
+- key: q5
+  type: multiple_choice
+  prompt: "Welche Regeln gelten im Chemieraum?"
+  options: ["Schutzbrille tragen", "Chemikalien probieren, um sie zu erkennen", "Reagenzglasöffnung nie auf Menschen richten", "Reste zurück in die Vorratsflasche gießen", "Nur nach Anleitung experimentieren"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Probieren und Zurückgießen sind verboten – Schutzbrille, Öffnung wegdrehen und Anleitung befolgen sind Pflicht."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet das Piktogramm „Flamme über Kreis“?"
+  options: ["entzündbar", "brandfördernd", "giftig", "ätzend"]
+  answer: { index: 1 }
+  explanation: "Brandfördernde Stoffe (z. B. Sauerstoff) lassen Feuer heftiger brennen."
+- key: q7
+  type: single_choice
+  prompt: "Was bedeutet das Piktogramm mit Totenkopf?"
+  options: ["reizend", "explosiv", "giftig", "umweltgefährlich"]
+  answer: { index: 2 }
+  explanation: "Totenkopf = giftig."
+- key: q8
+  type: single_choice
+  prompt: "Warum liegt beim Erhitzen ein Drahtnetz auf dem Dreifuß?"
+  options: ["Damit das Glas nicht wegrutscht", "Damit sich die Hitze verteilt und das Glas nicht springt", "Zur Dekoration", "Damit der Brenner nicht ausgeht"]
+  answer: { index: 1 }
+  explanation: "Das Netz verteilt die Hitze gleichmäßig."
+- key: q9
+  type: gap_text
+  prompt: "Beim Anzünden des Brenners: Luftzufuhr ___, Gashahn ___, anzünden, dann Luftzufuhr öffnen."
+  answer:
+    gaps:
+      - ["schließen", "zu", "zu machen"]
+      - ["öffnen", "auf", "auf machen"]
+  explanation: "Erst Luft zu, dann Gas auf und anzünden – so entsteht die sichtbare Sparflamme."
+- key: q10
+  type: single_choice
+  prompt: "Wie riecht man richtig an einem Stoff?"
+  options: ["Nase direkt über die Öffnung halten", "Mit der Hand Luft zufächeln", "Tief einatmen", "Gar nicht, das ist immer verboten"]
+  answer: { index: 1 }
+  explanation: "Zufächeln verdünnt die Dämpfe – so ist es sicher."
+- key: q11
+  type: single_choice
+  prompt: "Wohin kommen Chemikalienreste nach dem Versuch?"
+  options: ["In den Ausguss", "Zurück in die Vorratsflasche", "In den passenden Sammelbehälter", "In den Papierkorb"]
+  answer: { index: 2 }
+  explanation: "Sammelbehälter schützen Umwelt und Vorräte."
+- key: q12
+  type: single_choice
+  prompt: "Womit kann man ein Flüssigkeitsvolumen nur ungefähr abmessen?"
+  options: ["Messzylinder", "Becherglas", "Pipette"]
+  answer: { index: 1 }
+  explanation: "Die Markierungen am Becherglas dienen nur der Orientierung."

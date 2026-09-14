@@ -1,0 +1,69 @@
+- key: q1
+  type: single_choice
+  prompt: "Wozu dient eine Schleife?"
+  options: ["Um Fehler zu finden", "Um Anweisungen mehrfach auszuführen, ohne sie mehrfach zu schreiben", "Um Variablen zu löschen", "Um Texte auszugeben"]
+  answer: { index: 1 }
+  explanation: "Wiederholen statt kopieren."
+- key: q2
+  type: single_choice
+  prompt: "Welche Schleife nimmt man, wenn man vorher weiß, wie oft wiederholt wird?"
+  options: ["Zählschleife (for)", "Bedingte Schleife (while)", "Endlosschleife", "Verzweigung"]
+  answer: { index: 0 }
+  explanation: "„wiederhole n mal“ = Zählschleife."
+- key: q3
+  type: single_choice
+  prompt: "„wiederhole bis tipp = geheimzahl“ ist eine …"
+  options: ["Zählschleife", "bedingte Schleife", "Verzweigung", "Zuweisung"]
+  answer: { index: 1 }
+  explanation: "Die Anzahl der Durchläufe hängt von einer Bedingung ab."
+- key: q4
+  type: numeric
+  prompt: "„setze i auf 1 · wiederhole 5 mal: sage i · ändere i um 1“ – welche Zahl wird zuletzt ausgegeben?"
+  answer: { value: 5 }
+  explanation: "Ausgegeben werden 1, 2, 3, 4, 5."
+- key: q5
+  type: numeric
+  prompt: "„setze summe auf 0 · setze i auf 1 · wiederhole 4 mal: ändere summe um i · ändere i um 1“ – was steht am Ende in summe?"
+  answer: { value: 10 }
+  explanation: "1 + 2 + 3 + 4 = 10."
+- key: q6
+  type: single_choice
+  prompt: "Was ist eine Endlosschleife?"
+  options: ["Eine Schleife mit genau einem Durchlauf", "Eine Schleife, die nie endet", "Eine Schleife ohne Körper", "Eine Schleife mit Fehler"]
+  answer: { index: 1 }
+  explanation: "Läuft ohne Ende – in Spielen gewollt, sonst oft ein Fehler."
+- key: q7
+  type: single_choice
+  prompt: "Wann wird eine bedingte Schleife ungewollt zur Endlosschleife?"
+  options: ["Wenn sie zu lang ist", "Wenn sich im Schleifenkörper nichts ändert, das die Bedingung beeinflusst", "Wenn sie eine Zählvariable hat", "Wenn sie verschachtelt ist"]
+  answer: { index: 1 }
+  explanation: "Die Bedingung muss irgendwann wahr werden können."
+- key: q8
+  type: numeric
+  prompt: "„wiederhole 3 mal (wiederhole 4 mal: stemple)“ – wie viele Stempel?"
+  answer: { value: 12 }
+  explanation: "3 · 4 = 12."
+- key: q9
+  type: single_choice
+  prompt: "Wie heißt ein Durchlauf einer Schleife?"
+  options: ["Variable", "Iteration", "Bedingung", "Zweig"]
+  answer: { index: 1 }
+  explanation: "Iteration."
+- key: q10
+  type: single_choice
+  prompt: "Scratch „wiederhole bis X“ entspricht in Textsprachen …"
+  options: ["for X", "while X", "while nicht X", "if X"]
+  answer: { index: 2 }
+  explanation: "„bis X“ = „solange nicht X“."
+- key: q11
+  type: single_choice
+  prompt: "Welche Schleife passt zu „Spielfigur reagiert ständig auf Tasten“?"
+  options: ["wiederhole 10 mal", "wiederhole bis Spiel vorbei / fortlaufend", "falls Taste gedrückt", "wiederhole 1 mal"]
+  answer: { index: 1 }
+  explanation: "Ständige Reaktion braucht eine Endlosschleife oder eine Schleife bis zum Spielende."
+- key: q12
+  type: single_choice
+  prompt: "Ein Sechseck zeichnen: „wiederhole 6 mal: gehe 80 Schritte, drehe dich um ___ Grad“. Welcher Winkel?"
+  options: ["45", "60", "90", "120"]
+  answer: { index: 1 }
+  explanation: "360 : 6 = 60°."

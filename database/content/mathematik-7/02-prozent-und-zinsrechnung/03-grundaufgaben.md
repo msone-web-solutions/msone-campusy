@@ -1,6 +1,6 @@
 ---
-title: Die drei Grundaufgaben der Prozentrechnung
-intro: Prozentwert, Grundwert oder Prozentsatz berechnen – mit Dreisatz, Formel oder Prozentstreifen.
+title: "Die drei Grundaufgaben der Prozentrechnung"
+intro: "Prozentwert, Grundwert oder Prozentsatz berechnen – mit Dreisatz, Formel oder Prozentstreifen."
 curriculum_ref: "Prozentwerte, Grundwerte und Prozentsätze ohne Hilfsmittel und mit dem digitalen Mathematikwerkzeug ermitteln"
 estimated_minutes: 35
 reflect: "Erkläre den Dreisatz über 1 % an einem eigenen Beispiel: Wie berechnest du 15 % von 240 €?"

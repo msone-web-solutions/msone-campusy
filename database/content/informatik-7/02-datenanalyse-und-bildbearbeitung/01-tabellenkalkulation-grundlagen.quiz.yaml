@@ -1,0 +1,74 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie heißt die Zelle in Spalte C, Zeile 12?"
+  options: ["12C", "C12", "C:12", "12:C"]
+  answer: { index: 1 }
+  explanation: "Spaltenbuchstabe, dann Zeilennummer."
+- key: q2
+  type: single_choice
+  prompt: "Was bezeichnet A1:A10?"
+  options: ["Die Zellen A1 und A10", "Alle Zellen von A1 bis A10", "Die Zeile 1 bis 10 in allen Spalten", "Die Spalte A komplett"]
+  answer: { index: 1 }
+  explanation: "Ein Bereich: von A1 bis A10, zehn Zellen."
+- key: q3
+  type: single_choice
+  prompt: "Wo steht in einer gut aufgebauten Tabelle die Überschrift?"
+  options: ["In der letzten Zeile", "In der ersten Zeile", "In der Mitte", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Erste Zeile = Überschriften, dann ein Datensatz pro Zeile."
+- key: q4
+  type: single_choice
+  prompt: "Welches Format braucht die Postleitzahl 06108?"
+  options: ["Zahl", "Text", "Währung", "Datum"]
+  answer: { index: 1 }
+  explanation: "Als Zahl würde die führende Null verschwinden."
+- key: q5
+  type: single_choice
+  prompt: "Wie werden Zahlen in einer Zelle standardmäßig ausgerichtet?"
+  options: ["linksbündig", "rechtsbündig", "zentriert", "gar nicht"]
+  answer: { index: 1 }
+  explanation: "Zahlen rechts, Text links – so erkennt man Eingabefehler."
+- key: q6
+  type: single_choice
+  prompt: "Warum kann man mit Datumsangaben rechnen (z. B. Tage bis zu den Ferien)?"
+  options: ["Weil das Datum intern als Zahl gespeichert ist", "Weil das Programm einen Kalender hat", "Man kann es nicht", "Weil Datum ein Text ist"]
+  answer: { index: 0 }
+  explanation: "Ein Datum ist intern die Anzahl Tage seit 1900."
+- key: q7
+  type: single_choice
+  prompt: "Welche Tastenkombination macht die letzte Änderung rückgängig?"
+  options: ["Strg + S", "Strg + Z", "Strg + A", "Strg + C"]
+  answer: { index: 1 }
+  explanation: "Strg + Z = rückgängig."
+- key: q8
+  type: single_choice
+  prompt: "Welche Taste springt nach der Eingabe eine Zelle nach rechts?"
+  options: ["Enter", "Tab", "F2", "Esc"]
+  answer: { index: 1 }
+  explanation: "Tab nach rechts, Enter nach unten."
+- key: q9
+  type: single_choice
+  prompt: "Wie zeigt die Tabellenkalkulation den Wert 0,25 im Prozentformat an?"
+  options: ["0,25 %", "25 %", "2,5 %", "250 %"]
+  answer: { index: 1 }
+  explanation: "0,25 = 25 %."
+- key: q10
+  type: single_choice
+  prompt: "Was passiert, wenn du nur die Notenspalte markierst und sortierst?"
+  options: ["Alles bleibt korrekt", "Die Noten werden sortiert, aber die Namen bleiben – Zeilen werden auseinandergerissen", "Die Namen werden mitsortiert", "Es passiert nichts"]
+  answer: { index: 1 }
+  explanation: "Immer die ganze Tabelle markieren."
+- key: q11
+  type: gap_text
+  prompt: "Spalten sind mit ___ bezeichnet, Zeilen mit ___."
+  answer:
+    gaps:
+      - ["Buchstaben"]
+      - ["Zahlen", "Nummern"]
+  explanation: "Spalten A, B, C … – Zeilen 1, 2, 3 …"
+- key: q12
+  type: single_choice
+  prompt: "Wo siehst du die Adresse der aktiven Zelle?"
+  options: ["Im Namensfeld links oben", "In der Statusleiste unten", "Im Menü Datei", "Nirgends"]
+  answer: { index: 0 }
+  explanation: "Das Namensfeld zeigt z. B. B3, die Eingabezeile daneben den Inhalt."

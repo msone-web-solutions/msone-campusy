@@ -1,0 +1,25 @@
+Empfehlungsalgorithmen: Wer entscheidet, was du siehst?
+
+Hallo! Öffnest du TikTok, YouTube, Instagram oder Spotify, siehst du nicht alles. Das wäre auch unmöglich, denn auf YouTube werden jede Minute fünfhundert Stunden Video hochgeladen. Ein Programm wählt für dich aus: der Empfehlungsalgorithmus.
+
+Ein Algorithmus ist eine eindeutige Schritt-für-Schritt-Anleitung, wie ein Programm. Ein algorithmisches Entscheidungssystem trifft damit automatisch Entscheidungen, hier: welches Video als nächstes kommt.
+
+Wie entscheidet der Algorithmus? Er sammelt Daten über dich. Was du anschaust, wie lange, was du überspringst, likest, kommentierst, teilst, zu welcher Uhrzeit, mit welchem Gerät. Aus Milliarden solcher Daten von Millionen Nutzern erkennt er Muster: Wer diese drei Videos bis zum Ende schaut, schaut mit achtzig Prozent Wahrscheinlichkeit auch jenes. Das ist Mustererkennung, der Kern von dem, was heute künstliche Intelligenz genannt wird. Dann sagt er voraus, was dich am längsten auf der Plattform hält, und zeigt genau das.
+
+Und hier kommt der wichtigste Punkt: Das Ziel des Algorithmus ist nicht, dich zu informieren oder glücklich zu machen. Es ist Aufmerksamkeit. Denn Aufmerksamkeit lässt sich an Werbekunden verkaufen.
+
+Was gut daran ist: Ohne Empfehlungen würdest du im Datenmeer ertrinken. Du findest Musik, die dir gefällt, Erklärvideos zu genau deinem Thema, Leute mit denselben Hobbys. Das ist echter Nutzen.
+
+Aber: Weil der Algorithmus dir immer mehr von dem zeigt, was du schon magst, wird dein Feed immer enger. Wer ein Fußballvideo schaut, bekommt zehn weitere. Wer einmal auf ein Verschwörungsvideo klickt, bekommt mehr davon, und irgendwann sieht es so aus, als würden alle so denken. Das nennt man Filterblase: Du siehst nur noch, was zu dir passt, und merkst nicht, was du nicht siehst. Verstärkt wird das durch die Echokammer: In Gruppen und Kommentaren bestätigen sich Gleichgesinnte gegenseitig, Widerspruch fehlt.
+
+Und noch etwas lernt der Algorithmus: Inhalte, die starke Gefühle auslösen, Wut, Angst, Empörung, Neid, werden länger angeschaut und häufiger geteilt. Deshalb bekommen Aufreger, Streit und Übertreibungen mehr Reichweite als sachliche Beiträge. Das ist keine böse Absicht, sondern die logische Folge des Ziels Aufmerksamkeit. Für die Meinungsbildung ist das gefährlich: Was laut ist, wirkt wichtig. Was ausgewogen ist, geht unter.
+
+Ein Beispiel: Mia und Ben sind in derselben Klasse. Mia schaut Sportvideos und Mathe-Erklärungen, Ben Gaming und Comedy. Nach einem Monat haben beide völlig verschiedene Startseiten. Und wenn ein politisches Thema aufkommt, sehen sie dazu verschiedene Beiträge. Diskutieren sie darüber, wundern sie sich, dass der andere ganz andere Fakten kennt.
+
+Was kannst du tun? Bewusst suchen statt nur scrollen. Die Suche zeigt, was es gibt, der Feed zeigt, was der Algorithmus will. Verlauf und Empfehlungen in den Einstellungen zurücksetzen, um aus einer Blase herauszukommen. Verschiedene Quellen nutzen, Nachrichten nicht nur aus dem Feed. „Nicht interessiert“ klicken, so lernt der Algorithmus dazu. Und dich fragen: Warum sehe ich das gerade? Wer verdient daran?
+
+Merke: Der Feed zeigt nicht die Welt, sondern ein Bild von dir.
+
+Fassen wir zusammen: Empfehlungsalgorithmen erkennen Muster in deinem Verhalten und zeigen, was dich am längsten hält. Ihr Ziel ist Aufmerksamkeit. Das führt zur Filterblase und bevorzugt emotionale Inhalte. Bewusst suchen, mehrere Quellen und kritische Fragen helfen dagegen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

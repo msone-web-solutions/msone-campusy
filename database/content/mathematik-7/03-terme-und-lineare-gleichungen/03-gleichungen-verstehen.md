@@ -1,6 +1,6 @@
 ---
-title: Gleichungen verstehen – Waagemodell und Probe
-intro: Was eine Gleichung ist, was „lösen“ bedeutet und warum eine Gleichung wie eine Waage funktioniert.
+title: "Gleichungen verstehen – Waagemodell und Probe"
+intro: "Was eine Gleichung ist, was „lösen“ bedeutet und warum eine Gleichung wie eine Waage funktioniert."
 curriculum_ref: "Begriff „Gleichung“ am Beispiel erklären; Ergebnisse durch Einsetzen in die Ausgangsgleichung überprüfen; Lösbarkeit im Variablengrundbereich beurteilen; Gleichungen inhaltlich und durch Probieren lösen"
 estimated_minutes: 25
 reflect: "Erkläre das Waagemodell: Warum darf man auf beiden Seiten einer Gleichung dasselbe wegnehmen?"

@@ -1,6 +1,6 @@
 ---
-title: Vergleichen, Ordnen, Betrag und Gegenzahl
-intro: Welche Zahl ist größer, −3 oder −8? Wie weit ist eine Zahl von der Null entfernt? Und was ist die Gegenzahl?
+title: "Vergleichen, Ordnen, Betrag und Gegenzahl"
+intro: "Welche Zahl ist größer, −3 oder −8? Wie weit ist eine Zahl von der Null entfernt? Und was ist die Gegenzahl?"
 curriculum_ref: "rationale Zahlen darstellen, vergleichen und ordnen; Grundlegende Wissensbestände: entgegengesetzte Zahl, Betrag"
 estimated_minutes: 20
 reflect: "Erkläre den Unterschied zwischen dem Betrag und der Gegenzahl einer Zahl. Nutze die Zahl −5 als Beispiel."

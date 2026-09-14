@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Diagramm zeigt die Temperatur im Verlauf eines Jahres am besten?"
+  options: ["Kreisdiagramm", "Liniendiagramm", "Säulendiagramm", "Balkendiagramm"]
+  answer: { index: 1 }
+  explanation: "Entwicklung über die Zeit → Linie."
+- key: q2
+  type: single_choice
+  prompt: "Welches Diagramm vergleicht die Einwohnerzahlen von fünf Städten?"
+  options: ["Kreisdiagramm", "Liniendiagramm", "Säulendiagramm"]
+  answer: { index: 2 }
+  explanation: "Kategorien vergleichen → Säulen (oder Balken)."
+- key: q3
+  type: single_choice
+  prompt: "Wann ist ein Kreisdiagramm nicht sinnvoll?"
+  options: ["Wenn die Teile zusammen 100 % ergeben", "Wenn es nur 3 Teile gibt", "Wenn die Werte kein Ganzes bilden, z. B. Monatstemperaturen", "Bei Wahlergebnissen"]
+  answer: { index: 2 }
+  explanation: "Ein Kreis zeigt Anteile am Ganzen – Temperaturen sind keine Anteile."
+- key: q4
+  type: single_choice
+  prompt: "Was markierst du vor dem Einfügen eines Diagramms?"
+  options: ["Nur die Werte", "Nur die Überschriften", "Kategorien und Werte inklusive Überschriften", "Das ganze Tabellenblatt"]
+  answer: { index: 2 }
+  explanation: "Mit Überschriften bekommt das Diagramm automatisch die richtigen Beschriftungen."
+- key: q5
+  type: true_false
+  prompt: "Ändert man eine Zahl in der Tabelle, muss man das Diagramm neu erstellen."
+  answer: { value: false }
+  explanation: "Das Diagramm ist mit den Daten verknüpft und aktualisiert sich."
+- key: q6
+  type: single_choice
+  prompt: "Was bedeutet „n = 25“ im Diagrammtitel?"
+  options: ["25 Diagramme", "25 Befragte / Datensätze", "25 Prozent", "25 Kategorien"]
+  answer: { index: 1 }
+  explanation: "n ist die Anzahl der Daten – wichtig, um Prozente einzuordnen."
+- key: q7
+  type: single_choice
+  prompt: "Welche Datenbeschriftung ist beim Kreisdiagramm besonders sinnvoll?"
+  options: ["Uhrzeit", "Prozentwerte an den Sektoren", "Zeilennummern", "Formeln"]
+  answer: { index: 1 }
+  explanation: "Prozent an den Sektoren zeigt die Anteile direkt."
+- key: q8
+  type: single_choice
+  prompt: "4 Personen wurden befragt, 2 mögen Fußball. Was ist das Problem mit „50 % mögen Fußball“?"
+  options: ["Die Rechnung ist falsch", "Die Datenmenge ist zu klein für eine allgemeine Aussage", "Prozent ist hier verboten", "Es gibt kein Problem"]
+  answer: { index: 1 }
+  explanation: "Bei so wenigen Daten sagt ein Prozentwert wenig aus."
+- key: q9
+  type: single_choice
+  prompt: "Wann nimmt man Balken (waagerecht) statt Säulen (senkrecht)?"
+  options: ["Nie", "Wenn die Kategorienamen lang sind", "Bei Zeitreihen", "Bei Anteilen"]
+  answer: { index: 1 }
+  explanation: "Lange Namen passen waagerecht besser."
+- key: q10
+  type: single_choice
+  prompt: "Welche Frage prüft, ob Daten sich für eine Auswertung eignen?"
+  options: ["Sind sie bunt?", "Sind sie vollständig, vergleichbar und passend zur Frage?", "Sind es gerade Zahlen?", "Sind sie alphabetisch?"]
+  answer: { index: 1 }
+  explanation: "Vollständig, vergleichbar, ausreichend, passend."
+- key: q11
+  type: single_choice
+  prompt: "Wozu braucht ein Diagramm eine Legende?"
+  options: ["Zur Dekoration", "Um mehrere Datenreihen (z. B. Jungen/Mädchen) zu unterscheiden", "Um die Quelle anzugeben", "Um die Größe zu zeigen"]
+  answer: { index: 1 }
+  explanation: "Die Legende erklärt die Farben der Datenreihen."
+- key: q12
+  type: single_choice
+  prompt: "Woran erkennst du ein täuschendes Diagramm?"
+  options: ["An der Farbe", "Die y-Achse beginnt nicht bei 0 oder 3D-Effekte verzerren", "An der Legende", "An der Schriftart"]
+  answer: { index: 1 }
+  explanation: "Achse ab 0 und flache Darstellung sind ehrlich."

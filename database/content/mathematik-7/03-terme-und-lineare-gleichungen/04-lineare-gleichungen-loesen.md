@@ -1,6 +1,6 @@
 ---
-title: Lineare Gleichungen durch Umformen lösen
-intro: Das sichere Verfahren für Gleichungen wie 3x + 7 = 22 – Schritt für Schritt mit Äquivalenzumformungen.
+title: "Lineare Gleichungen durch Umformen lösen"
+intro: "Das sichere Verfahren für Gleichungen wie 3x + 7 = 22 – Schritt für Schritt mit Äquivalenzumformungen."
 curriculum_ref: "lineare Gleichungen des Typs ax + b = c mithilfe von Umformungsregeln lösen; Umformungsregeln für das Lösen von Gleichungen"
 estimated_minutes: 35
 reflect: "Erkläre, warum man bei 3x + 7 = 22 zuerst die 7 abzieht und erst dann durch 3 teilt."

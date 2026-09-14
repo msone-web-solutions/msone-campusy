@@ -1,6 +1,6 @@
 ---
-title: Grundwert, Prozentwert und Prozentsatz
-intro: Die drei Größen der Prozentrechnung erkennen und in Sachaufgaben richtig zuordnen.
+title: "Grundwert, Prozentwert und Prozentsatz"
+intro: "Die drei Größen der Prozentrechnung erkennen und in Sachaufgaben richtig zuordnen."
 curriculum_ref: "Grundbegriffe der Prozentrechnung in Sachverhalten zuordnen; Grundlegende Wissensbestände: Prozent, Grundwert, Prozentwert, Prozentsatz"
 estimated_minutes: 20
 reflect: "Denk dir eine eigene Prozent-Situation aus (z. B. beim Einkaufen) und benenne darin Grundwert, Prozentsatz und Prozentwert."

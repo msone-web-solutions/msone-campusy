@@ -1,0 +1,69 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Bit?"
+  options: ["Ein Bildpunkt", "Die kleinste Speichereinheit: 0 oder 1", "8 Bytes", "Eine Farbe"]
+  answer: { index: 1 }
+  explanation: "Bit = binary digit, 0 oder 1."
+- key: q2
+  type: numeric
+  prompt: "Wie viele Bit hat ein Byte?"
+  answer: { value: 8 }
+  explanation: "1 Byte = 8 Bit."
+- key: q3
+  type: single_choice
+  prompt: "In einem Schwarz-Weiß-Binärbild steht die Zeile 11000011. Wie sieht sie aus (1 = schwarz)?"
+  options: ["schwarz schwarz weiß weiß weiß weiß schwarz schwarz", "weiß weiß schwarz schwarz schwarz schwarz weiß weiß", "alles schwarz", "alles weiß"]
+  answer: { index: 0 }
+  explanation: "1 1 0 0 0 0 1 1 → außen schwarz, innen weiß."
+- key: q4
+  type: single_choice
+  prompt: "Welche RGB-Werte ergeben Weiß?"
+  options: ["(0, 0, 0)", "(255, 0, 0)", "(255, 255, 255)", "(128, 128, 128)"]
+  answer: { index: 2 }
+  explanation: "Alle drei Farben voll = Weiß."
+- key: q5
+  type: numeric
+  prompt: "Wie viele Byte braucht ein Pixel in RGB?"
+  answer: { value: 3 }
+  explanation: "Je 1 Byte für Rot, Grün und Blau."
+- key: q6
+  type: single_choice
+  prompt: "Was passiert beim starken Vergrößern einer Pixelgrafik?"
+  options: ["Sie bleibt scharf", "Die einzelnen Pixel werden als Klötzchen sichtbar", "Sie wird zur Vektorgrafik", "Sie wird kleiner"]
+  answer: { index: 1 }
+  explanation: "Verpixelung – die Auflösung reicht nicht."
+- key: q7
+  type: single_choice
+  prompt: "Wie speichert eine Vektorgrafik ein Bild?"
+  options: ["Als Raster aus Pixeln", "Als Formen mit Formeln (Kreis, Linie, Farbe)", "Als Text", "Als Ton"]
+  answer: { index: 1 }
+  explanation: "Formen werden beim Anzeigen neu berechnet – deshalb beliebig vergrößerbar."
+- key: q8
+  type: multiple_choice
+  prompt: "Wofür eignet sich eine Vektorgrafik?"
+  options: ["Logo", "Foto vom Klassenausflug", "Icon", "Schrift", "Screenshot"]
+  answer: { indexes: [0, 2, 3] }
+  explanation: "Logos, Icons, Schriften – Fotos und Screenshots sind Pixelgrafiken."
+- key: q9
+  type: single_choice
+  prompt: "Welches Format ist eine Vektorgrafik?"
+  options: ["JPG", "PNG", "SVG", "GIF"]
+  answer: { index: 2 }
+  explanation: "SVG = Scalable Vector Graphics."
+- key: q10
+  type: numeric
+  prompt: "Full HD hat 1920 × 1080 Pixel. Wie viele Megapixel sind das ungefähr? (auf ganze Zahl gerundet)"
+  answer: { value: 2 }
+  explanation: "1920 · 1080 = 2 073 600 ≈ 2 Megapixel."
+- key: q11
+  type: single_choice
+  prompt: "Was bedeutet dpi?"
+  options: ["Digital Picture Index", "Dots per inch – Punkte pro Zoll", "Data per image", "Deep pixel image"]
+  answer: { index: 1 }
+  explanation: "Pixeldichte, wichtig für den Druck (ca. 300 dpi)."
+- key: q12
+  type: single_choice
+  prompt: "Ein 100 × 100-Pixel-Bild wird als Plakat 1 m × 1 m gedruckt. Was passiert?"
+  options: ["Es sieht scharf aus", "Jedes Pixel wird 1 cm groß – Klötzchenbild", "Es wird zur Vektorgrafik", "Es wird automatisch schärfer"]
+  answer: { index: 1 }
+  explanation: "Zu niedrige Auflösung für den Zweck."

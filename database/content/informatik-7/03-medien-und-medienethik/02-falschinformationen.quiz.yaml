@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Fehl- und Falschinformation?"
+  options: ["Kein Unterschied", "Fehlinformation ist unabsichtlich falsch, Falschinformation absichtlich", "Fehlinformation ist wahr", "Falschinformation kommt nur im Fernsehen vor"]
+  answer: { index: 1 }
+  explanation: "Absicht macht den Unterschied – schädlich sind beide."
+- key: q2
+  type: multiple_choice
+  prompt: "Welche gehören zu den fünf Prüfkriterien?"
+  options: ["Absender/Autor", "Quellenangabe", "Anzahl der Likes", "Plausibilität", "Emotionalität"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Likes sagen nichts über Wahrheit – plus Expertenmeinung sind es fünf."
+- key: q3
+  type: single_choice
+  prompt: "„Schokolade macht schlank, sagen Wissenschaftler“ – kein anderes Medium berichtet. Welches Kriterium?"
+  options: ["Plausibilität", "Emotionalität", "Absender"]
+  answer: { index: 0 }
+  explanation: "Zu schön, um wahr zu sein, und niemand sonst berichtet – unplausibel."
+- key: q4
+  type: single_choice
+  prompt: "Wozu dienen GROSSBUCHSTABEN, Ausrufezeichen und „SKANDAL“ in einer Meldung?"
+  options: ["Zur besseren Lesbarkeit", "Um Gefühle auszulösen und das Prüfen auszuschalten", "Weil es Vorschrift ist", "Um Platz zu sparen"]
+  answer: { index: 1 }
+  explanation: "Emotionalität ist ein Warnzeichen."
+- key: q5
+  type: single_choice
+  prompt: "Ein Account wurde gestern erstellt, hat kein Impressum und postet Sensationen. Welches Kriterium?"
+  options: ["Quellenangabe", "Absender/Autor", "Plausibilität"]
+  answer: { index: 1 }
+  explanation: "Wer steckt dahinter? Unbekannt und neu = Warnsignal."
+- key: q6
+  type: single_choice
+  prompt: "Was ist ein Faktencheck?"
+  options: ["Ein Quiz", "Eine Überprüfung einer Behauptung durch Journalisten oder Organisationen wie Correctiv", "Eine Werbung", "Eine App zum Chatten"]
+  answer: { index: 1 }
+  explanation: "Faktenchecker prüfen verbreitete Behauptungen öffentlich."
+- key: q7
+  type: single_choice
+  prompt: "Was ist Clickbait?"
+  options: ["Ein Virus", "Eine reißerische Überschrift, die nur zum Klicken verleiten soll", "Ein Faktencheck", "Ein Passwort"]
+  answer: { index: 1 }
+  explanation: "„Du wirst nicht glauben, was dann geschah …“"
+- key: q8
+  type: single_choice
+  prompt: "„Teile das, bevor es gelöscht wird!“ – was ist das?"
+  options: ["Ein Zeichen für Seriosität", "Ein typisches Warnzeichen für Falschinformation", "Eine Bitte des Betreibers", "Ein Gesetz"]
+  answer: { index: 1 }
+  explanation: "Zeitdruck und Teil-Aufforderung sollen das Prüfen verhindern."
+- key: q9
+  type: single_choice
+  prompt: "Wie prüft man, ob ein Bild aus einem anderen Zusammenhang stammt?"
+  options: ["Mit Bild-Rückwärtssuche", "Indem man es vergrößert", "Indem man die Likes zählt", "Gar nicht möglich"]
+  answer: { index: 0 }
+  explanation: "Die Rückwärtssuche zeigt, wo das Bild sonst vorkommt."
+- key: q10
+  type: single_choice
+  prompt: "Warum verbreiten sich Falschmeldungen schneller als wahre?"
+  options: ["Weil sie kürzer sind", "Weil sie überraschender und emotionaler sind", "Weil sie wahr sind", "Weil sie von Behörden kommen"]
+  answer: { index: 1 }
+  explanation: "Überraschung und Gefühl → mehr Teilen."
+- key: q11
+  type: true_false
+  prompt: "Eine einzelne Expertenmeinung reicht als Beleg, auch wenn die meisten Fachleute anders denken."
+  answer: { value: false }
+  explanation: "Wichtig ist, was die Mehrheit der Fachleute sagt."
+- key: q12
+  type: single_choice
+  prompt: "Die Kettennachricht „WhatsApp kostet ab morgen Geld, außer du leitest weiter“ – was tust du?"
+  options: ["Sofort an 10 Kontakte weiterleiten", "Nicht weiterleiten und den Absender aufklären", "WhatsApp löschen", "Bezahlen"]
+  answer: { index: 1 }
+  explanation: "Alle Kriterien schlagen an – Falschinformation."

@@ -1,6 +1,6 @@
 ---
-title: Prozent heißt Hundertstel
-intro: Was „50 %“ wirklich bedeutet – und wie man zwischen Prozent, Bruch und Dezimalzahl hin- und herwechselt.
+title: "Prozent heißt Hundertstel"
+intro: "Was „50 %“ wirklich bedeutet – und wie man zwischen Prozent, Bruch und Dezimalzahl hin- und herwechselt."
 curriculum_ref: "Grundbegriffe der Prozentrechnung am Beispiel erläutern; Prozentsätze in der Prozentschreibweise, als gemeiner Bruch und als Dezimalbruch angeben"
 estimated_minutes: 20
 reflect: "Erkläre, warum 25 %, 1/4 und 0,25 dasselbe bedeuten. Wie rechnet man von einer Schreibweise in die andere um?"

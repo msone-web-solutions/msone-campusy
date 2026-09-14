@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Wo sitzt eine Firewall?"
+  options: ["Zwischen Tastatur und Bildschirm", "Zwischen Netzwerk und Internet (und auf jedem Rechner)", "Im USB-Stick", "Im Drucker"]
+  answer: { index: 1 }
+  explanation: "Sie kontrolliert, was rein und raus darf."
+- key: q2
+  type: single_choice
+  prompt: "Was macht ein Webfilter in der Schule?"
+  options: ["Er macht das Internet schneller", "Er sperrt bestimmte Webseiten und Inhalte (Jugendschutz, Betrug, Spiele im Unterricht)", "Er speichert Passwörter", "Er verteilt WLAN"]
+  answer: { index: 1 }
+  explanation: "Arbeitet mit Listen und Kategorien."
+- key: q3
+  type: single_choice
+  prompt: "Welches Passwort ist am sichersten?"
+  options: ["Passwort123", "Mia2013", "MHBf3KaT!", "qwertz"]
+  answer: { index: 2 }
+  explanation: "Merksatz-Methode: lang, nicht erratbar, gemischt."
+- key: q4
+  type: true_false
+  prompt: "Ein sehr gutes Passwort kann man für alle Dienste gleichzeitig verwenden."
+  answer: { value: false }
+  explanation: "Wird es einmal geklaut, sind alle Konten offen – für jeden Dienst ein eigenes."
+- key: q5
+  type: single_choice
+  prompt: "Was ist Zwei-Faktor-Authentifizierung?"
+  options: ["Zwei Passwörter hintereinander", "Passwort plus ein zweiter Nachweis, z. B. Code vom Handy", "Zwei Nutzer für ein Konto", "Ein doppelt langes Passwort"]
+  answer: { index: 1 }
+  explanation: "Selbst mit geklautem Passwort kommt der Angreifer nicht rein."
+- key: q6
+  type: single_choice
+  prompt: "Warum sollte man das Standardpasswort des Routers (admin/admin) ändern?"
+  options: ["Weil es zu kurz ist", "Weil es jeder kennt und Angreifer den Router übernehmen könnten", "Weil es Vorschrift ist", "Man muss es nicht ändern"]
+  answer: { index: 1 }
+  explanation: "Standardpasswörter stehen in jeder Anleitung."
+- key: q7
+  type: single_choice
+  prompt: "Welche Geräte gehören sinnvollerweise ins Gast-WLAN?"
+  options: ["Der eigene Laptop", "Geräte von Besuchern und Smart-Home-Geräte", "Der Drucker", "Der Server"]
+  answer: { index: 1 }
+  explanation: "Alles, was nicht ins Hauptnetz muss."
+- key: q8
+  type: single_choice
+  prompt: "Wie sollte man ein Referat verschicken, das nicht mehr bearbeitet werden soll?"
+  options: ["Als DOCX", "Als PDF", "Als Screenshot", "Als TXT"]
+  answer: { index: 1 }
+  explanation: "PDF sieht überall gleich aus und schützt vor versehentlichen Änderungen."
+- key: q9
+  type: single_choice
+  prompt: "Eine Datei heißt „Rechnung.pdf.exe“. Was ist das?"
+  options: ["Eine PDF-Rechnung", "Wahrscheinlich Schadsoftware – die echte Endung ist .exe", "Ein Bild", "Ein Scan"]
+  answer: { index: 1 }
+  explanation: "Dateiendungen anzeigen lassen und genau hinsehen."
+- key: q10
+  type: single_choice
+  prompt: "Was bewirkt OCR beim Scannen?"
+  options: ["Das Bild wird bunter", "Der Text im Scan wird erkannt und durchsuchbar", "Die Datei wird größer", "Der Scan wird gedreht"]
+  answer: { index: 1 }
+  explanation: "Texterkennung – wichtig für Dokumente."
+- key: q11
+  type: single_choice
+  prompt: "Du schickst ein passwortgeschütztes PDF. Wie teilst du das Passwort mit?"
+  options: ["In derselben Mail", "Auf einem anderen Weg, z. B. per Telefon oder Chat", "Gar nicht", "Im Dateinamen"]
+  answer: { index: 1 }
+  explanation: "Wer die Mail abfängt, hätte sonst beides."
+- key: q12
+  type: multiple_choice
+  prompt: "Welche Maßnahmen schützen beim Weitergeben von Dokumenten?"
+  options: ["Schreibschutz / Link „nur ansehen“", "Freigabe-Link mit Ablaufdatum", "Möglichst viele persönliche Daten mitschicken", "Metadaten entfernen"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "So wenig persönliche Daten wie möglich weitergeben."

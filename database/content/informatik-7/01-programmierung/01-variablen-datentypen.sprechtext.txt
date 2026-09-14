@@ -1,0 +1,27 @@
+Variablen, Datentypen, Ein- und Ausgabe.
+
+Hallo und willkommen in der Informatik! Heute geht es darum, wie sich ein Programm Dinge merkt.
+
+Ein Programm ist eine Folge von Anweisungen, die der Computer Schritt für Schritt ausführt, wie ein Rezept. In Klasse fünf und sechs hast du erste Programme in einer blockbasierten Sprache wie Scratch gebaut. Man steckt Bausteine zusammen, statt Text zu tippen. Damit arbeiten wir weiter, denn die Ideen sind in jeder Programmiersprache dieselben.
+
+Jedes Programm hat drei Teile: die Eingabe, da kommen Daten hinein, über Tastatur, Maus oder Sensor. Die Verarbeitung, da rechnet, vergleicht und entscheidet das Programm. Und die Ausgabe, da kommt das Ergebnis heraus, auf Bildschirm, Lautsprecher oder Motor. Das nennt man das EVA-Prinzip.
+
+Damit ein Programm rechnen kann, muss es sich Werte merken. Dafür gibt es Variablen. Stell dir eine Variable als Schachtel mit Beschriftung vor. Auf der Schachtel steht der Name, zum Beispiel „punkte“. In der Schachtel liegt der Wert, zum Beispiel zwölf. Man kann den Wert jederzeit auslesen oder durch einen neuen ersetzen. In Scratch heißt das: „setze punkte auf null“, und später „ändere punkte um eins“. Nach drei Treffern liegt in der Schachtel die Drei.
+
+Gute Variablennamen sagen, was drin ist: punkte, name, alter, geschwindigkeit. Nicht a, x eins oder ding. Ohne Leerzeichen, ohne Umlaute, klein geschrieben.
+
+Nicht jeder Wert ist gleich. Ein Programm muss wissen, ob es mit einer Zahl rechnen oder einen Text anzeigen soll. Die Sorte eines Werts heißt Datentyp. Die vier wichtigsten: Erstens die ganze Zahl, Fachname int, wie null, sieben, minus drei. Zweitens die Kommazahl, Fachname float, wie eins Komma fünfundsiebzig. Drittens der Text, Fachname string, wie „Alexa“ oder „Hallo“. Texte stehen immer in Anführungszeichen. Viertens der Wahrheitswert, Fachname boolean: wahr oder falsch.
+
+Aufgepasst: Die Sieben in Anführungszeichen ist ein Text, man kann sie nicht mal zwei nehmen. Die Sieben ohne Anführungszeichen ist eine Zahl.
+
+Übersetzen wir Alltag in Datentypen. Das Alter dreizehn: int. Die Körpergröße eins Komma zweiundsechzig: float. Der Vorname Mia: string. „Hat einen Bibliotheksausweis, ja“: boolean. Und die Postleitzahl null sechs eins null acht: ein string! Denn die führende Null muss bleiben, und man rechnet nicht damit.
+
+Zur Ein- und Ausgabe. In Scratch fragt der Baustein „frage: Wie heißt du? und warte“ den Nutzer, und die Antwort landet in der Variable „Antwort“. Der Baustein „sage Hallo“ zeigt Text an. Ein erstes vollständiges Programm: Frage nach dem Namen, speichere ihn in „name“. Frage nach dem Alter, speichere es in „alter“. Dann sage: Hallo, name, nächstes Jahr bist du alter plus eins. Eingabe, Verarbeitung, Ausgabe.
+
+Mit Zahlen rechnet man: punkte plus eins, preis mal anzahl. Texte setzt man zusammen, das heißt verketten: verbinde „Hallo“ mit name. Aus drei und drei wird beim Verketten dreiunddreißig, beim Rechnen sechs. Der Datentyp entscheidet.
+
+Und noch etwas Wichtiges: „setze punkte auf punkte plus eins“ heißt nicht, dass punkte gleich punkte plus eins ist, das wäre in Mathe unmöglich. Es heißt: Nimm den alten Wert, rechne eins dazu, und lege das Ergebnis wieder in die Schachtel. Das ist eine Zuweisung.
+
+Fassen wir zusammen: Eingabe, Verarbeitung, Ausgabe. Eine Variable ist eine beschriftete Schachtel mit Name und Wert. Die Datentypen sind int, float, string und boolean. Und eine Zuweisung legt einen neuen Wert in die Schachtel.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

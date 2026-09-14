@@ -1,6 +1,6 @@
 ---
-title: Negative Zahlen und die Zahlengerade
-intro: Warum brauchen wir Zahlen unter Null? Temperaturen, Kontostände, Höhen – und wie man sie auf der Zahlengerade findet.
+title: "Negative Zahlen und die Zahlengerade"
+intro: "Warum brauchen wir Zahlen unter Null? Temperaturen, Kontostände, Höhen – und wie man sie auf der Zahlengerade findet."
 curriculum_ref: "Notwendigkeit der Zahlenbereichserweiterung an Beispielen begründen; rationale Zahlen darstellen"
 estimated_minutes: 20
 reflect: "Erkläre in eigenen Worten, warum −4 kleiner ist als −1, obwohl die 4 größer aussieht als die 1. Nenne ein Beispiel aus dem Alltag."

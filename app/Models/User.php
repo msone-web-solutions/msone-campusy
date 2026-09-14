@@ -41,6 +41,13 @@ class User extends Authenticatable implements PasskeyUser
     use HasFactory, Notifiable, PasskeyAuthenticatable, TwoFactorAuthenticatable;
 
     /**
+     * @var array<string, mixed>
+     */
+    protected $attributes = [
+        'role' => 'student',
+    ];
+
+    /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>

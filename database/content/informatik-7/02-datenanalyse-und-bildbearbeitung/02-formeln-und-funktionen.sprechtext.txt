@@ -1,0 +1,21 @@
+Formeln, Funktionen, Autoausfüllen und bedingte Formatierung.
+
+Hallo! Heute bringen wir die Tabelle zum Rechnen. Tippst du in eine Zelle „drei plus vier“, steht dort nur der Text. Tippst du ein Gleichheitszeichen davor, also „gleich drei plus vier“, rechnet das Programm und zeigt sieben. Das Gleichheitszeichen sagt: Das ist eine Formel, rechne! Die Rechenzeichen sind Plus, Minus, Sternchen für mal und Schrägstrich für geteilt. Punkt vor Strich gilt, Klammern auch.
+
+Die eigentliche Stärke: In Formeln schreibt man nicht die Zahlen, sondern die Adressen der Zellen, in denen sie stehen. In B zwei steht die Anzahl drei, in C zwei der Einzelpreis null Komma fünfundachtzig. In D zwei schreibst du „gleich B zwei mal C zwei“, und es erscheint zwei Euro fünfundfünfzig. Änderst du die Anzahl auf fünf, wird D zwei sofort vier Euro fünfundzwanzig. Das nennt man Zellbezug.
+
+Für häufige Berechnungen gibt es fertige Funktionen. Sie haben einen Namen und in Klammern die Zellen, mit denen sie arbeiten. „Gleich SUMME von B zwei bis B zehn“ addiert alle Zellen von B zwei bis B zehn. „Gleich MITTELWERT von C zwei bis C zehn“ berechnet den Durchschnitt. MIN und MAX liefern den kleinsten und größten Wert. ANZAHL zählt, wie viele Zahlen im Bereich stehen. Und RUNDEN rundet auf eine gewünschte Zahl von Dezimalstellen. Statt B zwei plus B drei plus B vier und so weiter schreibst du einfach SUMME von B zwei bis B sechs.
+
+Jetzt zum Autoausfüllen. Du hast in D zwei die Formel „gleich B zwei mal C zwei“. Für die Zeilen drei bis zwanzig musst du sie nicht neu tippen. Klicke D zwei an, fasse das kleine Ausfüllkästchen rechts unten in der Zellecke und ziehe es nach unten. Das Programm kopiert die Formel und passt die Bezüge an: In D drei steht B drei mal C drei, in D vier steht B vier mal C vier. Das nennt man relative Bezüge. Die Formel merkt sich nicht B zwei, sondern „zwei Zellen links von mir“.
+
+Autoausfüllen funktioniert auch mit Reihen. Tippst du eins und zwei in zwei Zellen, markierst beide und ziehst, entsteht drei, vier, fünf. Aus Montag wird Dienstag, Mittwoch. Aus einem Datum wird der nächste Tag.
+
+Manchmal soll sich ein Bezug nicht verschieben. In B eins steht der Mehrwertsteuersatz neunzehn Prozent. Die Formel für den Bruttopreis in D zwei ist C zwei mal Klammer eins plus B eins. Zieht man sie nach unten, wird daraus C drei mal Klammer eins plus B zwei, und B zwei ist kein Steuersatz. Die Lösung: Dollar B Dollar eins. Das Dollarzeichen fixiert Spalte und Zeile. Das ist ein absoluter Bezug. Die Taste F vier setzt die Dollarzeichen.
+
+Zum Schluss die bedingte Formatierung. Damit färbt sich eine Zelle automatisch je nach Inhalt. Noten schlechter als vier werden rot, Umsatz über tausend Euro grün. Im Menü Format, bedingte Formatierung, legst du eine Regel fest, zum Beispiel „Zellwert größer als“, und wählst die Formatierung. Es gibt auch Farbskalen von grün über gelb nach rot, und Datenbalken, bei denen ein Balken in der Zelle so lang ist wie der Wert. Ändert sich der Wert, ändert sich die Farbe sofort.
+
+Und wie beim Programmieren gilt: Erst planen, dann bauen. Bei einer Klassenumfrage zum Schulweg: Daten in eine Spalte, darunter Mittelwert, Minimum und Maximum, dann bedingte Formatierung, dann Diagramm.
+
+Fassen wir zusammen: Formeln beginnen mit Gleichheitszeichen und benutzen Zellbezüge. Funktionen wie SUMME und MITTELWERT sparen Arbeit. Autoausfüllen kopiert Formeln und passt relative Bezüge an, das Dollarzeichen macht Bezüge absolut. Und bedingte Formatierung färbt Zellen je nach Wert.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,6 +1,6 @@
 ---
-title: Gegenereignis, Schätzen und Deuten von Wahrscheinlichkeiten
-intro: Mit dem Gegenereignis schneller rechnen, Wahrscheinlichkeiten aus vielen Versuchen schätzen und Aussagen wie „30 % Regenwahrscheinlichkeit“ richtig verstehen.
+title: "Gegenereignis, Schätzen und Deuten von Wahrscheinlichkeiten"
+intro: "Mit dem Gegenereignis schneller rechnen, Wahrscheinlichkeiten aus vielen Versuchen schätzen und Aussagen wie „30 % Regenwahrscheinlichkeit“ richtig verstehen."
 curriculum_ref: "Wahrscheinlichkeiten schätzen und interpretieren; Gegenereignis; P(A) + P(Ā) = 1; inner- und außermathematische Anwendungsaufgaben lösen"
 estimated_minutes: 25
 reflect: "Erkläre, warum der Würfel „kein Gedächtnis“ hat, und was das Gesetz der großen Zahlen bedeutet."

@@ -1,6 +1,6 @@
 ---
-title: Vierecke konstruieren
-intro: Mit Zirkel, Lineal und Geodreieck Vierecke aus gegebenen Stücken zeichnen – mit Planfigur und Konstruktionsbeschreibung.
+title: "Vierecke konstruieren"
+intro: "Mit Zirkel, Lineal und Geodreieck Vierecke aus gegebenen Stücken zeichnen – mit Planfigur und Konstruktionsbeschreibung."
 curriculum_ref: "Vierecke mit Zirkel, Lineal und Geodreieck sowie digitalem Mathematikwerkzeug konstruieren; Viereckskonstruktionen planen und Konstruktionsschritte beschreiben"
 estimated_minutes: 35
 reflect: "Erkläre, warum man ein Viereck meist als zwei Dreiecke konstruiert, und was dabei eine Planfigur ist."

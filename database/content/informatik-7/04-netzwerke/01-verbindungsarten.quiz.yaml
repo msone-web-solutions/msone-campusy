@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Wofür steht LAN?"
+  options: ["Large Area Network", "Local Area Network", "Long Antenna Network", "Laptop And Net"]
+  answer: { index: 1 }
+  explanation: "Lokales Netzwerk, meist per Kabel."
+- key: q2
+  type: single_choice
+  prompt: "Welche Verbindung ist am schnellsten und stabilsten?"
+  options: ["WLAN", "LAN-Kabel", "Bluetooth", "NFC"]
+  answer: { index: 1 }
+  explanation: "Kabel: keine Funkstörungen, höchstes Tempo."
+- key: q3
+  type: single_choice
+  prompt: "Womit verbindet man Kopfhörer kabellos mit dem Handy?"
+  options: ["LAN", "NFC", "Bluetooth", "Mobilfunk"]
+  answer: { index: 2 }
+  explanation: "Bluetooth: direkte Verbindung über wenige Meter."
+- key: q4
+  type: single_choice
+  prompt: "Welche Reichweite hat NFC?"
+  options: ["Wenige Zentimeter", "10 Meter", "50 Meter", "Kilometer"]
+  answer: { index: 0 }
+  explanation: "Near Field = Nahfeld."
+- key: q5
+  type: single_choice
+  prompt: "Was braucht man, um sich mit einem WLAN zu verbinden?"
+  options: ["Ein Kabel", "Netzwerkname (SSID) und Passwort", "Eine SIM-Karte", "Einen Drucker"]
+  answer: { index: 1 }
+  explanation: "SSID + Passwort."
+- key: q6
+  type: single_choice
+  prompt: "Wozu dient ein Repeater?"
+  options: ["Er macht das Internet schneller", "Er verlängert die Reichweite des WLANs", "Er ersetzt den Router", "Er speichert Daten"]
+  answer: { index: 1 }
+  explanation: "Er empfängt das WLAN und sendet es weiter."
+- key: q7
+  type: single_choice
+  prompt: "Welche WLAN-Frequenz reicht weiter, ist aber langsamer?"
+  options: ["2,4 GHz", "5 GHz"]
+  answer: { index: 0 }
+  explanation: "2,4 GHz kommt besser durch Wände, 5 GHz ist schneller."
+- key: q8
+  type: single_choice
+  prompt: "Wie kommt das Handy außerhalb des WLANs ins Internet?"
+  options: ["Über Bluetooth", "Über Mobilfunk (4G/5G)", "Über NFC", "Gar nicht"]
+  answer: { index: 1 }
+  explanation: "Über die Funkmasten des Anbieters."
+- key: q9
+  type: single_choice
+  prompt: "Welche Verbindungsart ist stromsparend, aber zu langsam für Videos?"
+  options: ["LAN", "WLAN", "Bluetooth", "5G"]
+  answer: { index: 2 }
+  explanation: "Bluetooth reicht für Musik und Maus."
+- key: q10
+  type: single_choice
+  prompt: "Welche Verschlüsselung sollte ein WLAN heute nutzen?"
+  options: ["Keine", "WPA2 oder WPA3", "NFC", "SSID"]
+  answer: { index: 1 }
+  explanation: "Plus starkes Passwort."
+- key: q11
+  type: single_choice
+  prompt: "Welcher Vorteil gehört zur analogen Kommunikation (Gespräch, Brief)?"
+  options: ["Sehr schnell an viele Empfänger", "Man sieht Gesichter und hört den Ton – weniger Missverständnisse", "Kostet keinen Strom für Server", "Beides: Missverständnisse seltener und langlebiger"]
+  answer: { index: 3 }
+  explanation: "Nähe und Langlebigkeit sind die Stärken des Analogen."
+- key: q12
+  type: single_choice
+  prompt: "Ein Termin soll an 30 Personen gehen. Welche Form ist am effizientesten?"
+  options: ["30 Briefe", "Eine E-Mail an alle", "30 Telefonate", "30 Besuche"]
+  answer: { index: 1 }
+  explanation: "Digital ist bei Reichweite und Tempo unschlagbar."

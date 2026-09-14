@@ -1,0 +1,10 @@
+slug: informatik
+name: Informatik
+description: "Klasse 7 – Sekundarschule Sachsen-Anhalt (Fachlehrplan Informatik, Fassung zur schulpraktischen Erprobung, Stand 01.08.2026, Schuljahrgänge 7/8)"
+icon: code-alt
+color: sky
+grade: 7
+school_type: sekundarschule
+state: ST
+curriculum_version: lsa-sks-2026-erprobung
+sort: 3

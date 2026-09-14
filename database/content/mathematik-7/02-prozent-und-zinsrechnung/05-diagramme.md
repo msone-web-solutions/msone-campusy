@@ -1,6 +1,6 @@
 ---
-title: Prozente in Diagrammen darstellen und auswerten
-intro: Kreis-, Säulen- und Liniendiagramme lesen und selbst zeichnen – mit Prozentangaben und Winkeln.
+title: "Prozente in Diagrammen darstellen und auswerten"
+intro: "Kreis-, Säulen- und Liniendiagramme lesen und selbst zeichnen – mit Prozentangaben und Winkeln."
 curriculum_ref: "Daten, insbesondere Prozentsätze, in geeigneten Diagrammen darstellen und Diagramme auswerten; Linien-, Säulen- und Kreisdiagramm"
 estimated_minutes: 25
 reflect: "Erkläre, warum 1 % im Kreisdiagramm 3,6° entspricht, und wie du daraus den Winkel für 40 % berechnest."

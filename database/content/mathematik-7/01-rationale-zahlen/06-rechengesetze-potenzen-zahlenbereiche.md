@@ -1,6 +1,6 @@
 ---
-title: Rechengesetze, Potenzen und Zahlenbereiche
-intro: Rechenvorteile nutzen, Vorrangregeln bei gemischten Aufgaben, Potenzen mit negativer Basis – und wie die Zahlenbereiche ℕ, ℤ und ℚ zusammenhängen.
+title: "Rechengesetze, Potenzen und Zahlenbereiche"
+intro: "Rechenvorteile nutzen, Vorrangregeln bei gemischten Aufgaben, Potenzen mit negativer Basis – und wie die Zahlenbereiche ℕ, ℤ und ℚ zusammenhängen."
 curriculum_ref: "Rechenvorteile formulieren und nutzen; rationale Zahlen potenzieren; Rechenausdrücke mit mehreren Operationen berechnen; Zahlenbereiche N, Z, Q unterscheiden; Kommutativ-, Assoziativ-, Distributivgesetz"
 estimated_minutes: 30
 reflect: "Erkläre den Unterschied zwischen (−3)² und −3². Warum kommen verschiedene Ergebnisse heraus?"

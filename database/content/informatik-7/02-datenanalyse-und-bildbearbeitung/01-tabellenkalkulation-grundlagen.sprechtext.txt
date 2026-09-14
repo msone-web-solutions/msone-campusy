@@ -1,0 +1,19 @@
+Tabellenkalkulation: Zeilen, Spalten, Zellen und Datenformate.
+
+Hallo! Heute lernst du ein Programm kennen, das in fast jedem Büro der Welt läuft: die Tabellenkalkulation. Excel, LibreOffice Calc, Google Tabellen, Numbers. Das sind Programme für Tabellen, die rechnen können. Du trägst Daten ein, Noten, Taschengeld, Messwerte, und das Programm berechnet Summen, Durchschnitte und zeichnet Diagramme. Ändert sich eine Zahl, rechnet es automatisch alles neu.
+
+Zuerst der Aufbau. Spalten laufen senkrecht und heißen A, B, C und so weiter. Zeilen laufen waagerecht und sind nummeriert: eins, zwei, drei. Das Kästchen, in dem sich Spalte und Zeile treffen, ist eine Zelle. Sie heißt nach Spalte und Zeile: B drei ist die Zelle in Spalte B, Zeile drei. Immer erst der Buchstabe, dann die Zahl. Mehrere Zellen zusammen sind ein Bereich: A eins bis A zehn sind die zehn Zellen der Spalte A von Zeile eins bis zehn. Die Zelle, die gerade ausgewählt ist, heißt aktive Zelle. Ihre Adresse steht links oben im Namensfeld, ihr Inhalt in der Eingabezeile.
+
+Daten ordnet man immer so: Die erste Zeile enthält die Überschriften, zum Beispiel Name, Klasse, Note. Jede weitere Zeile ist ein Datensatz, also ein Schüler, eine Messung, ein Einkauf. Und jede Spalte enthält immer dieselbe Art von Angabe. Das ist die Grundregel für alles, was später kommt: Sortieren, Filtern, Diagramme.
+
+Jetzt zu den Datenformaten. Eine Zelle kann verschieden formatiert sein, und das Format bestimmt, wie der Inhalt angezeigt wird und ob man damit rechnen kann. Zahlen stehen rechtsbündig, und man kann mit ihnen rechnen. Text steht linksbündig, und mit Text kann man nicht rechnen. Aufgepasst: Eine Postleitzahl wie null sechs eins null acht muss als Text formatiert sein, sonst wird daraus die Zahl sechstausendeinhundertacht. Das Währungsformat zeigt eine Zahl mit Eurozeichen und zwei Dezimalstellen. Das Datumsformat zeigt zum Beispiel den zweiten September zweitausendsechsundzwanzig. Intern ist ein Datum eine Zahl, nämlich die Tage seit neunzehnhundert. Deshalb kann man Daten voneinander abziehen: Wie viele Tage bis zu den Ferien? Das Prozentformat zeigt null Komma zwei fünf als fünfundzwanzig Prozent.
+
+Das Format änderst du über Rechtsklick und „Zellen formatieren“, oder über die Symbolleiste. Ein häufiger Fehler: Du tippst „drei Komma fünfzig Euro“ mit Eurozeichen als Text ein. Dann rechnet das Programm nicht damit. Richtig: nur die Zahl eintippen und die Zelle als Währung formatieren.
+
+Zum Eingeben: Zelle anklicken, tippen, Enter springt eine Zeile nach unten, Tab eine Zelle nach rechts. Zum Bearbeiten Doppelklick oder F zwei. Zeilen und Spalten fügst du mit Rechtsklick ein. Zum Sortieren markierst du die Daten und wählst „Sortieren nach Spalte“. Und dabei ganz wichtig: immer die ganze Tabelle markieren, sonst werden die Zeilen auseinandergerissen und die Noten gehören plötzlich zu den falschen Namen.
+
+Tastenkombinationen sparen Zeit. Steuerung C kopieren, Steuerung V einfügen, Steuerung Z rückgängig, Steuerung S speichern, Steuerung A alles markieren. F zwei bearbeitet die Zelle. Auf dem Mac steht Command statt Steuerung.
+
+Fassen wir zusammen: Spalten mit Buchstaben, Zeilen mit Zahlen, Zellen wie B drei. Erste Zeile Überschriften, jede weitere Zeile ein Datensatz. Formate: Zahl, Text, Währung, Datum, Prozent. Nur die Zahl eintippen, dann formatieren. Und beim Sortieren die ganze Tabelle markieren.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

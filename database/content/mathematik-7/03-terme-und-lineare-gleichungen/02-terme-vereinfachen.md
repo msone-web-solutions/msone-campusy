@@ -1,6 +1,6 @@
 ---
-title: Terme vereinfachen
-intro: Gleichartige Glieder zusammenfassen, Klammern auflösen und ausklammern – damit Terme kürzer und übersichtlicher werden.
+title: "Terme vereinfachen"
+intro: "Gleichartige Glieder zusammenfassen, Klammern auflösen und ausklammern – damit Terme kürzer und übersichtlicher werden."
 curriculum_ref: "Terme mit Variablen umformen; Zusammenfassen von gleichartigen Summanden, Addieren und Subtrahieren von Summen, Ausmultiplizieren, Ausklammern"
 estimated_minutes: 30
 reflect: "Erkläre mit dem Äpfel-und-Birnen-Beispiel, welche Glieder man zusammenfassen darf und welche nicht."

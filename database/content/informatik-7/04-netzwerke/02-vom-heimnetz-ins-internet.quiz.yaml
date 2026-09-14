@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Welches Gerät verbindet das Heimnetz mit dem Internet?"
+  options: ["Der Drucker", "Der Router", "Der Repeater", "Die Tastatur"]
+  answer: { index: 1 }
+  explanation: "Der Router ist die Schaltstelle zwischen Heimnetz und Provider."
+- key: q2
+  type: single_choice
+  prompt: "Was ist eine IP-Adresse?"
+  options: ["Ein Passwort", "Eine Nummer, unter der ein Gerät im Netz erreichbar ist", "Der Name einer Webseite", "Ein Kabel"]
+  answer: { index: 1 }
+  explanation: "Wie eine Hausnummer im Netz."
+- key: q3
+  type: single_choice
+  prompt: "Was macht ein DNS-Server?"
+  options: ["Er speichert Fotos", "Er übersetzt Domainnamen in IP-Adressen", "Er verschlüsselt Mails", "Er verteilt WLAN"]
+  answer: { index: 1 }
+  explanation: "campusy.test → 49.13.218.218."
+- key: q4
+  type: single_choice
+  prompt: "Was ist ein Server?"
+  options: ["Ein Kabel", "Ein Computer, der Dienste wie Webseiten oder Mails bereitstellt", "Ein Browser", "Ein Handy"]
+  answer: { index: 1 }
+  explanation: "Server bedienen Anfragen von Clients."
+- key: q5
+  type: single_choice
+  prompt: "Wie kommt eine Anfrage vom Provider zum Server?"
+  options: ["Direkt über ein einziges Kabel", "Über viele Netzwerkknoten (Router), die das Paket weiterreichen", "Per Funk in einem Schritt", "Über den DNS-Server"]
+  answer: { index: 1 }
+  explanation: "Wie ein Paket bei der Post – Station für Station."
+- key: q6
+  type: true_false
+  prompt: "Internet und World Wide Web sind dasselbe."
+  answer: { value: false }
+  explanation: "Das WWW ist ein Dienst im Internet – neben E-Mail, Messengern, Streaming."
+- key: q7
+  type: single_choice
+  prompt: "Was ist ein Protokoll?"
+  options: ["Ein Regelwerk für den Datenaustausch zwischen Geräten", "Eine Liste von Webseiten", "Ein Gerät", "Ein Virus"]
+  answer: { index: 0 }
+  explanation: "IP, TCP, HTTP, HTTPS sind Protokolle."
+- key: q8
+  type: single_choice
+  prompt: "Welches Protokoll nutzt der Browser für Webseiten?"
+  options: ["SMTP", "HTTP/HTTPS", "FTP", "Bluetooth"]
+  answer: { index: 1 }
+  explanation: "HyperText Transfer Protocol – mit S verschlüsselt."
+- key: q9
+  type: single_choice
+  prompt: "Was bedeutet das S in https?"
+  options: ["Server", "Secure – verschlüsselt", "Speed", "Standard"]
+  answer: { index: 1 }
+  explanation: "Verschlüsselte Übertragung plus Zertifikat."
+- key: q10
+  type: single_choice
+  prompt: "Woran erkennt man eine https-Verbindung im Browser?"
+  options: ["Am roten Hintergrund", "Am Schloss-Symbol und https:// in der Adresszeile", "An der Schriftgröße", "Am Datum"]
+  answer: { index: 1 }
+  explanation: "Schloss = verschlüsselt."
+- key: q11
+  type: single_choice
+  prompt: "Warum funktioniert das Internet weiter, wenn ein Knoten ausfällt?"
+  options: ["Weil es ein Zentrum hat", "Weil die Pakete einen anderen Weg nehmen können", "Weil alles gespeichert ist", "Es funktioniert dann nicht weiter"]
+  answer: { index: 1 }
+  explanation: "Kein Zentrum – viele Wege."
+- key: q12
+  type: multiple_choice
+  prompt: "Was gehört typischerweise zu einem Schulnetzwerk, aber selten zu einem Heimnetz?"
+  options: ["Router", "Mehrere Switches", "Eigener Server für Dateien und Anmeldung", "Firewall mit Filter"]
+  answer: { indexes: [1, 2, 3] }
+  explanation: "Einen Router haben beide."

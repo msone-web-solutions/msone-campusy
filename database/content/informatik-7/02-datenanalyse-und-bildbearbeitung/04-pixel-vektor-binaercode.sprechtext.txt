@@ -1,0 +1,23 @@
+Digitale Bilder: Pixel, Vektor, Auflösung und Binärcode.
+
+Hallo! Wie speichert ein Computer ein Bild? Das erfährst du heute, und es beginnt mit nur zwei Zeichen.
+
+Alles im Computer, Texte, Zahlen, Bilder, Musik, wird als Folge von Nullen und Einsen gespeichert: dem Binärcode. Ein einzelnes Null oder Eins heißt Bit, acht Bits sind ein Byte. Warum nur zwei Zeichen? Weil ein Schalter zwei Zustände hat, Strom an oder aus. Milliarden solcher Schalter stecken in jedem Chip.
+
+Das einfachste Bild ist ein Schwarz-Weiß-Bild. Stell dir ein Raster aus acht mal acht Kästchen vor. Jedes Kästchen ist entweder schwarz, das ist die Eins, oder weiß, das ist die Null. Zeile für Zeile aufgeschrieben ergibt das vierundsechzig Bits, und das ist schon ein Bild, zum Beispiel ein Smiley. Jedes Kästchen ist ein Pixel, ein Bildpunkt. So funktionieren im Prinzip alle Fotos und Bildschirme, nur mit viel mehr Pixeln und mehr Farben.
+
+Mit einem Bit pro Pixel gibt es nur schwarz oder weiß. Für Farbe speichert man pro Pixel drei Werte: Rot, Grün und Blau, kurz RGB, jeweils von null bis zweihundertfünfundfünfzig. Das sind drei Byte pro Pixel und über sechzehn Millionen mögliche Farben. Rot ist zweihundertfünfundfünfzig, null, null. Weiß ist dreimal zweihundertfünfundfünfzig. Schwarz ist dreimal null.
+
+Ein Foto ist eine Pixelgrafik, auch Rastergrafik genannt: ein Raster aus Millionen farbiger Punkte. Vorteile: fotorealistisch, jedes Detail speicherbar. Nachteile: Beim Vergrößern werden die Pixel als Klötzchen sichtbar, das Bild verpixelt, und die Datei ist groß. Formate sind JPG, PNG und GIF.
+
+Eine Vektorgrafik speichert keine Pixel, sondern Formen mit Formeln: Kreis mit Mittelpunkt und Radius, Füllfarbe rot, Linie von A nach B. Der Computer zeichnet das Bild jedes Mal neu. Vorteile: beliebig vergrößerbar ohne Qualitätsverlust, kleine Dateien, leicht änderbar. Nachteil: für Fotos ungeeignet, denn ein Gesicht lässt sich nicht aus Kreisen und Linien beschreiben. Das Format ist SVG. Logos, Icons, Schriften und Landkarten sind Vektorgrafiken. Fotos, Scans und Screenshots sind Pixelgrafiken.
+
+Jetzt zur Auflösung. Sie sagt, aus wie vielen Pixeln ein Bild besteht: Breite mal Höhe. Full HD hat neunzehnhundertzwanzig mal tausendachtzig Pixel, das sind gut zwei Millionen Pixel oder zwei Megapixel. Ein Handyfoto hat zwölf Megapixel. Bei Druck und Bildschirm spricht man von Pixeldichte, dpi, also Punkte pro Zoll. Für den Druck braucht man etwa dreihundert dpi.
+
+Höhere Auflösung bedeutet mehr Details, aber auch mehr Speicherplatz. Ein Bild mit zwölf Megapixeln in RGB braucht unkomprimiert zwölf Millionen mal drei Byte, das sind sechsunddreißig Megabyte. Deshalb komprimiert man Bilder, das ist das nächste Thema.
+
+Die Auflösung muss zum Zweck passen. Ein Bild mit hundert mal hundert Pixeln sieht als Profilbild scharf aus. Auf ein Plakat gedruckt wird jedes Pixel einen Zentimeter groß, ein Klötzchenbild. Umgekehrt ist ein Zwölf-Megapixel-Foto als kleines Icon Verschwendung.
+
+Fassen wir zusammen: Der Computer speichert alles als Nullen und Einsen. Ein Schwarz-Weiß-Bild ist ein Raster aus Bits, Farbe braucht drei Byte pro Pixel. Pixelgrafiken für Fotos, Vektorgrafiken für Logos und Icons. Die Auflösung ist Breite mal Höhe, und sie muss zum Verwendungszweck passen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

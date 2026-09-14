@@ -1,0 +1,21 @@
+Verbindungsarten: LAN, WLAN, Bluetooth, NFC.
+
+Hallo! Heute beginnt das Themenfeld Netzwerke. Ein Netzwerk entsteht, wenn mindestens zwei Geräte verbunden sind und Daten austauschen: dein Handy mit dem Drucker, der Laptop mit dem Router. Das größte Netzwerk ist das Internet, ein Netz aus Millionen Netzwerken. Damit Geräte Daten austauschen können, brauchen sie eine Verbindung, über Kabel oder über Funk.
+
+LAN heißt Local Area Network, lokales Netzwerk. Gemeint ist meist die Verbindung per Netzwerkkabel. Das Kabel führt vom Gerät zum Router oder zu einem Switch, einem Verteiler mit mehreren Buchsen. Die Vorteile: sehr schnell, stabil, keine Störungen, und sicher, denn man muss physisch am Kabel sein. Die Nachteile: Kabel verlegen, nicht mobil. Ideal für PC, Spielekonsole, Fernseher und Schulnetzwerke.
+
+WLAN heißt Wireless LAN, im Ausland Wi-Fi. Es ist dasselbe Netzwerk ohne Kabel: Der Router sendet per Funk, Geräte im Umkreis von zehn bis fünfzig Metern verbinden sich. Dafür braucht man den Netzwerknamen, die SSID, und das Passwort. Vorteile: mobil, keine Kabel, viele Geräte gleichzeitig. Nachteile: langsamer als Kabel, Wände und andere Funknetze stören, die Reichweite ist begrenzt. Ein Repeater verlängert sie. Und wer das Passwort hat, ist drin, deshalb ein starkes Passwort und moderne Verschlüsselung, WPA zwei oder WPA drei. Es gibt zwei Frequenzen: Zwei Komma vier Gigahertz reicht weiter, ist aber langsamer. Fünf Gigahertz ist schneller, kommt aber schlechter durch Wände.
+
+Bluetooth verbindet zwei Geräte direkt miteinander, ohne Router, über wenige Meter: Kopfhörer mit Handy, Maus mit Laptop, Smartwatch, Lautsprecher. Die Geräte müssen einmal gekoppelt werden. Bluetooth ist stromsparend, aber langsam. Für Musik und Maus reicht es, für Videos nicht.
+
+NFC heißt Near Field Communication, Nahfeldkommunikation. Es funktioniert nur über wenige Zentimeter, man hält die Geräte aneinander. Genau deshalb ist es sicher: Niemand kann aus der Ferne mitlesen. Einsatz: kontaktlos bezahlen, Türöffner, Fahrkarten. NFC überträgt nur winzige Datenmengen.
+
+Außerhalb des WLANs geht das Handy über Mobilfunk ins Internet, 4G oder 5G, über die Funkmasten des Anbieters. Reichweite: kilometerweit. Es kostet Datenvolumen. 5G ist so schnell wie gutes WLAN.
+
+Zum Schluss ein Vergleich: analog oder digital kommunizieren? Brief, Telefonat und Treffen sind analog. E-Mail, Chat und Videocall sind digital. Bei der Effizienz gewinnt digital: Eine Mail an dreißig Leute kostet Sekunden, ein Brief braucht Tage. Bei der Langlebigkeit gewinnt oft analog: Ein Brief hält hundert Jahre im Schuhkarton, eine Chat-Nachricht ist beim nächsten Handywechsel weg, oder für immer auf einem Server. Bei den sozialen Aspekten: Im Gespräch sieht man Gesichter und hört den Ton, Missverständnisse sind seltener. Im Chat fehlt das, Ironie kommt nicht an, Streit eskaliert schneller. Dafür verbindet Digitales über Entfernungen. Und bei den Ressourcen: Papier und Transport gegen Strom für Server. Eine Mail verbraucht weniger als ein Brief, aber Milliarden Mails und Videostreams brauchen riesige Rechenzentren.
+
+Das Fazit: nicht besser oder schlechter, sondern passend zum Zweck. Glückwunsch: Karte oder Anruf. Termin an alle: Mail. Streit klären: persönlich.
+
+Fassen wir zusammen: LAN per Kabel ist am schnellsten und stabilsten. WLAN ist mobil, braucht SSID und Passwort. Bluetooth verbindet zwei Geräte direkt über wenige Meter. NFC funktioniert nur auf Berührungsabstand und ist deshalb sicher. Und digitale und analoge Kommunikation haben beide ihre Stärken.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

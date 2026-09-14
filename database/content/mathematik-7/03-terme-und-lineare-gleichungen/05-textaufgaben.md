@@ -1,6 +1,6 @@
 ---
-title: Sachaufgaben mit Gleichungen lösen
-intro: Aus einem Text eine Gleichung machen, lösen, und die Antwort am Text prüfen – in fünf Schritten.
+title: "Sachaufgaben mit Gleichungen lösen"
+intro: "Aus einem Text eine Gleichung machen, lösen, und die Antwort am Text prüfen – in fünf Schritten."
 curriculum_ref: "inner- und außermathematische Sachverhalte mithilfe linearer Gleichungen darstellen; Anwendungsaufgaben mithilfe von Gleichungen lösen, dabei auch eine Probe am Text durchführen"
 estimated_minutes: 35
 reflect: "Beschreibe die fünf Schritte zum Lösen einer Sachaufgabe und erkläre, warum die Probe am Text so wichtig ist."

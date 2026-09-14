@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Eigenschaft nutzt das Sieben?"
+  options: ["Dichte", "Teilchengröße", "Siedetemperatur", "Magnetisierbarkeit"]
+  answer: { index: 1 }
+  explanation: "Kleine Teilchen fallen durch, große bleiben liegen."
+- key: q2
+  type: single_choice
+  prompt: "Beim Filtrieren von Sandwasser bleibt der Sand im Filter zurück. Wie heißt das, was durchläuft?"
+  options: ["Rückstand", "Destillat", "Filtrat", "Sediment"]
+  answer: { index: 2 }
+  explanation: "Rückstand bleibt im Filter, Filtrat läuft durch."
+- key: q3
+  type: true_false
+  prompt: "Mit einem Filter kann man Salz aus Salzwasser trennen."
+  answer: { value: false }
+  explanation: "Gelöstes Salz geht durch den Filter. Man muss eindampfen oder destillieren."
+- key: q4
+  type: single_choice
+  prompt: "Welches Verfahren trennt Alkohol (Siedetemperatur 78 °C) von Wasser (100 °C)?"
+  options: ["Sieben", "Magnetscheiden", "Destillieren", "Sedimentieren"]
+  answer: { index: 2 }
+  explanation: "Beim Destillieren verdampft der Alkohol zuerst und wird im Kühler aufgefangen."
+- key: q5
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen Eindampfen und Destillieren?"
+  options: ["Beim Destillieren wird der Dampf aufgefangen, beim Eindampfen nicht.", "Eindampfen geht nur mit Salz.", "Destillieren braucht keinen Brenner.", "Es gibt keinen Unterschied."]
+  answer: { index: 0 }
+  explanation: "Beim Destillieren gewinnt man das Lösungsmittel als Destillat zurück."
+- key: q6
+  type: single_choice
+  prompt: "Wie fließt das Kühlwasser richtig durch den Liebigkühler?"
+  options: ["Oben rein, unten raus", "Unten rein, oben raus", "Egal", "Gar nicht, er wird mit Luft gekühlt"]
+  answer: { index: 1 }
+  explanation: "Unten rein, oben raus – so ist der Kühlmantel immer ganz mit Wasser gefüllt."
+- key: q7
+  type: single_choice
+  prompt: "Wozu dienen Siedesteinchen im Destillationskolben?"
+  options: ["Sie färben das Destillat", "Sie verhindern Siedeverzug (plötzliches Aufkochen)", "Sie machen das Wasser reiner", "Sie messen die Temperatur"]
+  answer: { index: 1 }
+  explanation: "Siedesteinchen sorgen für gleichmäßiges Sieden."
+- key: q8
+  type: single_choice
+  prompt: "Ein Tropfen schwarze Tinte auf Filterpapier trennt sich in Blau, Rot und Gelb. Wie heißt das Verfahren?"
+  options: ["Extrahieren", "Chromatographie", "Dekantieren", "Eindampfen"]
+  answer: { index: 1 }
+  explanation: "Chromatographie trennt Farbstoffe nach Löslichkeit und Haftung."
+- key: q9
+  type: gap_text
+  prompt: "Gemisch aus Sand, Salz und Eisen: 1. ___ (Eisen), 2. Salz in Wasser lösen, 3. ___ (Sand), 4. Eindampfen (Salz)."
+  answer:
+    gaps:
+      - ["Magnetscheiden", "Magnet"]
+      - ["Filtrieren", "Filtern"]
+  explanation: "Magnetscheiden – Lösen – Filtrieren – Eindampfen."
+- key: q10
+  type: true_false
+  prompt: "Beim Trennen eines Gemischs entstehen neue Stoffe."
+  answer: { value: false }
+  explanation: "Trennverfahren sortieren nur – die Stoffe bleiben dieselben (physikalischer Vorgang)."
+- key: q11
+  type: single_choice
+  prompt: "Tee aufbrühen ist ein Beispiel für …"
+  options: ["Filtrieren", "Extrahieren", "Destillieren", "Sieben"]
+  answer: { index: 1 }
+  explanation: "Das heiße Wasser löst Aroma- und Farbstoffe aus den Blättern heraus."
+- key: q12
+  type: single_choice
+  prompt: "Welches Verfahren nutzt die Dichte?"
+  options: ["Sedimentieren", "Sieben", "Chromatographie", "Extrahieren"]
+  answer: { index: 0 }
+  explanation: "Schwere Teilchen sinken ab – das ist Sedimentieren."

@@ -1,0 +1,73 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Vorgänge sind chemische Reaktionen?"
+  options: ["Holz verbrennt", "Wasser verdampft", "Eisen rostet", "Salz löst sich in Wasser", "Kupfer wird beim Erhitzen schwarz"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Verbrennen, Rosten, Kupferoxid-Bildung: neue Stoffe. Verdampfen und Lösen sind physikalisch."
+- key: q2
+  type: multiple_choice
+  prompt: "Was sind die Merkmale einer chemischen Reaktion?"
+  options: ["Neue Stoffe entstehen", "Energie wird umgesetzt", "Der Stoff wechselt nur den Aggregatzustand", "Die Teilchen ordnen sich um"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Neue Stoffe, Energieumsatz, Umordnung der Teilchen. Ein Wechsel des Aggregatzustands ist physikalisch."
+- key: q3
+  type: single_choice
+  prompt: "Eine Reaktion, bei der Energie frei wird, heißt …"
+  options: ["endotherm", "exotherm", "isotherm", "katalytisch"]
+  answer: { index: 1 }
+  explanation: "Exotherm – z. B. jede Verbrennung."
+- key: q4
+  type: single_choice
+  prompt: "Was ist die Aktivierungsenergie?"
+  options: ["Die Energie, die bei der Reaktion frei wird", "Der Anstoß, der nötig ist, damit die Reaktion beginnt", "Die Energie im Sauerstoff", "Die Wärme des Produkts"]
+  answer: { index: 1 }
+  explanation: "Ohne Flamme brennt Holz nicht – die Aktivierungsenergie startet die Reaktion."
+- key: q5
+  type: single_choice
+  prompt: "Was ist eine Oxidation?"
+  options: ["Die Reaktion eines Stoffs mit Wasser", "Die Reaktion eines Stoffs mit Sauerstoff", "Das Schmelzen eines Metalls", "Das Lösen eines Salzes"]
+  answer: { index: 1 }
+  explanation: "Oxidation = Reaktion mit Sauerstoff, Produkt = Oxid."
+- key: q6
+  type: single_choice
+  prompt: "Welche ist eine langsame Oxidation?"
+  options: ["Verbrennen von Magnesium", "Rosten von Eisen", "Explosion von Feuerwerk", "Schmelzen von Eis"]
+  answer: { index: 1 }
+  explanation: "Rosten läuft ohne Flamme über Wochen ab – trotzdem eine Oxidation."
+- key: q7
+  type: gap_text
+  prompt: "Magnesium + ___ → Magnesiumoxid. Die Stoffe links vom Pfeil heißen ___."
+  answer:
+    gaps:
+      - ["Sauerstoff"]
+      - ["Ausgangsstoffe", "Edukte"]
+  explanation: "Ausgangsstoffe (Edukte) → Reaktionsprodukte."
+- key: q8
+  type: single_choice
+  prompt: "Welches Produkt entsteht, wenn Schwefel verbrennt?"
+  options: ["Schwefeloxid-Pulver", "Schwefeldioxid-Gas", "Schwefelsäure", "Magnesiumoxid"]
+  answer: { index: 1 }
+  explanation: "Nichtmetall + Sauerstoff → Nichtmetalloxid, hier das Gas Schwefeldioxid."
+- key: q9
+  type: single_choice
+  prompt: "Ein Kupferblech wird beim Erhitzen schwarz. Was ist die Deutung?"
+  options: ["Es ist Ruß von der Flamme", "Kupfer hat mit Sauerstoff zu Kupferoxid reagiert", "Das Kupfer ist geschmolzen", "Das Kupfer hat sich verfärbt, ohne dass etwas passiert ist"]
+  answer: { index: 1 }
+  explanation: "Kupfer + Sauerstoff → schwarzes Kupferoxid; darunter glänzt noch Kupfer."
+- key: q10
+  type: single_choice
+  prompt: "Wie reagieren Nichtmetalloxide in Wasser gelöst?"
+  options: ["basisch", "sauer", "neutral", "gar nicht"]
+  answer: { index: 1 }
+  explanation: "Nichtmetalloxide wie SO₂ ergeben saure Lösungen – Ursache des sauren Regens."
+- key: q11
+  type: true_false
+  prompt: "Bei einer chemischen Reaktion verschwinden Atome oder entstehen neue."
+  answer: { value: false }
+  explanation: "Atome werden nur neu verknüpft – keins verschwindet, keins entsteht."
+- key: q12
+  type: single_choice
+  prompt: "Die Atmung im Körper (Zucker + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie) ist …"
+  options: ["ein physikalischer Vorgang", "eine langsame Oxidation", "eine endotherme Reaktion", "ein Trennverfahren"]
+  answer: { index: 1 }
+  explanation: "Eine langsame, exotherme Oxidation – sie liefert die Energie für den Körper."

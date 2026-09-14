@@ -1,0 +1,25 @@
+Atome, Moleküle und chemische Symbole.
+
+Hallo! Heute lernst du die Sprache der Chemie: Symbole und Formeln. Und du erfährst, warum Sauerstoff und Stickstoff aus Molekülen bestehen.
+
+Im Periodensystem stehen Stickstoff und Sauerstoff rechts oben, bei den Nichtmetallen. Sie haben das Gegenteil der Metalleigenschaften: gasförmig, farblos, nicht leitend, kein Glanz. Nichtmetalle halten ihre Außenelektronen fest, statt sie in ein Elektronengas abzugeben. Deshalb bilden sie keine Metallgitter, sondern Moleküle.
+
+Zuerst zu den Atomen. Ein Atom hat einen winzigen, positiv geladenen Kern aus Protonen und Neutronen, und eine Hülle aus negativ geladenen Elektronen. Die Anzahl der Protonen bestimmt, welches Element es ist. Ein Proton: Wasserstoff. Sechs: Kohlenstoff. Sieben: Stickstoff. Acht: Sauerstoff. Sechsundzwanzig: Eisen. Diese Zahl ist die Ordnungszahl im Periodensystem.
+
+Jetzt zu den Molekülen. Einzelne Sauerstoffatome kommen in der Luft nicht vor. Immer zwei Sauerstoffatome hängen fest zusammen zu einem Sauerstoffmolekül. Genauso beim Stickstoff. Ein Molekül ist ein Teilchen aus mindestens zwei Atomen, die fest verbunden sind. Die Verbindung entsteht, indem sich die Atome Elektronenpaare teilen. Das ist die Atombindung. Im Sauerstoffmolekül teilen sich die beiden Atome zwei Elektronenpaare, eine Doppelbindung. Im Stickstoffmolekül sogar drei, eine Dreifachbindung. Deshalb ist Stickstoff so reaktionsträge: Die Dreifachbindung ist sehr fest.
+
+Moleküle gibt es auch aus verschiedenen Atomsorten: Wasser aus zwei Wasserstoffatomen und einem Sauerstoffatom, Kohlenstoffdioxid aus einem Kohlenstoffatom und zwei Sauerstoffatomen.
+
+Jetzt zur Schreibweise. Ein Symbol steht für eine Atomsorte, also ein Element: O für Sauerstoff, N für Stickstoff, H für Wasserstoff, C für Kohlenstoff, F E für Eisen, M G für Magnesium, S für Schwefel.
+
+Eine Formel steht für ein Teilchen. Die kleine, tiefgestellte Zahl, der Index, sagt, wie viele Atome dieser Sorte im Teilchen sind. O zwei ist ein Sauerstoffmolekül aus zwei Sauerstoffatomen. N zwei ein Stickstoffmolekül. H zwei O ist ein Wassermolekül: zwei Wasserstoffatome, ein Sauerstoffatom, die Eins schreibt man nicht. C O zwei ist Kohlenstoffdioxid: ein Kohlenstoffatom, zwei Sauerstoffatome.
+
+Eine Zahl vor der Formel, der Koeffizient, zählt Teilchen. Drei O zwei bedeutet drei Sauerstoffmoleküle, das sind sechs Sauerstoffatome. Zwei H zwei O bedeutet zwei Wassermoleküle, also vier Wasserstoffatome und zwei Sauerstoffatome. Metalle wie Eisen schreibt man einfach mit dem Symbol, F E, weil Eisen aus einzelnen Atomen im Gitter besteht.
+
+Der Unterschied ist wichtig: Zwei O wären zwei einzelne Sauerstoffatome, die es in der Luft nicht gibt. O zwei ist ein Molekül. Zwei O zwei sind zwei Moleküle.
+
+Zum Schluss die Namen der Verbindungen mit Sauerstoff. Sie heißen Oxide. Der Name nennt erst das andere Element, dann Oxid: Magnesiumoxid, M G O. Eisenoxid. Kupferoxid. Bei Nichtmetallen zählt man die Sauerstoffatome mit griechischen Vorsilben: Kohlenstoffmonoxid, C O, mit einem Sauerstoffatom. Kohlenstoffdioxid, C O zwei, mit zwei. Schwefeldioxid, S O zwei.
+
+Fassen wir zusammen: Atome haben Kern und Hülle, die Protonenzahl bestimmt das Element. Moleküle sind Teilchen aus fest verbundenen Atomen, gehalten durch die Atombindung. Symbole bezeichnen Elemente, Formeln bezeichnen Teilchen. Der Index zählt Atome im Teilchen, der Koeffizient zählt Teilchen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

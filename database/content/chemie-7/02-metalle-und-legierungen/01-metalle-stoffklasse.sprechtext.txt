@@ -1,0 +1,21 @@
+Metalle: eine Stoffklasse mit typischen Eigenschaften.
+
+Hallo! Heute beginnt ein neues Themenfeld: die Metalle. Stoffe mit ähnlichen Eigenschaften fasst man zu einer Stoffklasse zusammen, und die Metalle sind die bekannteste. Von den hundertachtzehn Elementen sind über achtzig Metalle: Eisen, Kupfer, Aluminium, Gold, Silber, Zink, Blei, Zinn, Magnesium, Natrium und Quecksilber.
+
+Alle Metalle haben vier gemeinsame Eigenschaften. Erstens: der metallische Glanz. Frisch geschnitten oder poliert glänzen Metalle, meist silbrig-grau, Kupfer rötlich, Gold gelb. Zweitens: die gute elektrische Leitfähigkeit. Metalle leiten Strom, am besten Silber, dann Kupfer, Gold und Aluminium. Deshalb bestehen Kabel aus Kupfer. Drittens: die gute Wärmeleitfähigkeit. Ein Metalllöffel im heißen Tee wird schnell warm. Viertens: die Verformbarkeit. Metalle lassen sich biegen, walzen, zu Draht ziehen und zu Blech hämmern, ohne zu brechen. Gold kann man zu Blattgold von einem Zehntausendstel Millimeter Dicke schlagen.
+
+Dazu kommen oft eine hohe Dichte und eine hohe Schmelztemperatur, und Metalle sind fest bei Raumtemperatur. Es gibt Ausnahmen: Aluminium und Magnesium sind leicht, und Quecksilber ist bei Raumtemperatur flüssig.
+
+Nichtmetalle wie Schwefel, Kohlenstoff, Sauerstoff oder Chlor haben diese Eigenschaften nicht: Sie glänzen nicht, leiten keinen Strom, sind spröde, und viele sind gasförmig. Im Labor gibt es einen einfachen Test: den Leitfähigkeitsprüfer, eine Batterie mit Lämpchen und zwei Kabeln. Leuchtet das Lämpchen, ist der Stoff ein Metall. Dazu prüft man den Glanz und ob der Stoff sich verformt oder zerspringt.
+
+Metalle unterscheiden sich darin, wie schnell sie mit Sauerstoff oder Säuren reagieren. Edle Metalle wie Gold, Silber und Platin reagieren kaum. Gold bleibt jahrtausendelang blank, deshalb macht man Schmuck und Münzen daraus. Unedle Metalle wie Eisen, Zink, Aluminium, Magnesium und Natrium reagieren leicht. Eisen rostet, Magnesium brennt mit greller Flamme, und Natrium reagiert sogar heftig mit Wasser. Deshalb wird es unter Öl aufbewahrt.
+
+Nach der Dichte unterscheidet man Leichtmetalle mit einer Dichte unter fünf Gramm pro Kubikzentimeter, also Aluminium, Magnesium und Titan, und Schwermetalle: Eisen mit sieben Komma neun, Kupfer mit acht Komma neun, Blei mit elf Komma drei und Gold mit neunzehn Komma drei. Einige Schwermetalle wie Blei, Quecksilber und Cadmium sind giftig.
+
+So sieht ein Protokoll aus. Aufgabe: Ist der unbekannte Draht ein Metall? Geräte: Leitfähigkeitsprüfer, Hammer, Schmirgelpapier. Durchführung: Draht anschmirgeln, in den Stromkreis einbauen, mit dem Hammer biegen. Beobachtung: Die angeschmirgelte Stelle glänzt silbrig. Das Lämpchen leuchtet. Der Draht lässt sich biegen. Auswertung: Glanz, Leitfähigkeit und Verformbarkeit. Der Draht ist ein Metall.
+
+Ohne Metalle gäbe es keine Stromleitungen, keine Autos, Brücken, Werkzeuge oder Handys. Die Kehrseite: Metallgewinnung braucht viel Energie, und einige Metalle sind knapp. Darum ist Recycling wichtig.
+
+Fassen wir zusammen: Die vier Metalleigenschaften sind Glanz, elektrische Leitfähigkeit, Wärmeleitfähigkeit und Verformbarkeit. Edle Metalle reagieren kaum, unedle leicht. Leichtmetalle haben eine Dichte unter fünf, Schwermetalle darüber.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

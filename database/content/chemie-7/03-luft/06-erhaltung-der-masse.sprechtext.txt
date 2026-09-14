@@ -1,0 +1,23 @@
+Das Gesetz von der Erhaltung der Masse.
+
+Hallo! Heute lösen wir einen scheinbaren Widerspruch. Erste Beobachtung: Ein Holzscheit verbrennt, übrig bleibt ein Häufchen Asche, viel leichter als das Holz. Zweite Beobachtung: Eisenwolle wird in der Flamme erhitzt, sie sprüht Funken, und danach ist sie schwerer als vorher. Wird die Masse bei chemischen Reaktionen also mal kleiner, mal größer?
+
+Antoine Lavoisier hat das um siebzehnhundertachtzig genau untersucht. Er ließ Reaktionen in geschlossenen Gefäßen ablaufen und wog vorher und nachher. Das Ergebnis: immer gleich schwer.
+
+Das Experiment im Unterricht: Ein Erlenmeyerkolben mit etwas Eisenwolle wird mit einem Stopfen verschlossen und gewogen. Dann entzündet man den Inhalt, lässt ihn reagieren und abkühlen, und wiegt wieder. Die Waage zeigt dieselbe Masse. Öffnet man den Stopfen danach, zischt Luft hinein. Im Kolben war Sauerstoff verbraucht worden, es herrscht Unterdruck. Erst jetzt wird der Kolben schwerer, weil Luft von außen nachströmt.
+
+Das Gesetz lautet: Bei einer chemischen Reaktion ist die Masse der Ausgangsstoffe gleich der Masse der Reaktionsprodukte. Kurz: Masse der Edukte gleich Masse der Produkte. Nichts geht verloren, nichts kommt dazu.
+
+Und warum stimmen die Alltagsbeobachtungen trotzdem? Beim Holz: Das Holz reagiert mit Sauerstoff aus der Luft. Die Produkte sind Kohlenstoffdioxid und Wasserdampf, Gase, die unsichtbar in die Luft entweichen. Nur die Asche bleibt sichtbar. Würde man alle Gase auffangen, wäre die Masse von Holz plus verbrauchtem Sauerstoff gleich der Masse von Asche plus Gasen. Bei der Eisenwolle: Das Eisen nimmt Sauerstoff aus der Luft auf und wird zu Eisenoxid. Der Sauerstoff wiegt etwas, deshalb wird die Wolle schwerer.
+
+Die Regel: Wird etwas leichter, ist ein Gas entwichen. Wird etwas schwerer, wurde ein Gas gebunden. Im geschlossenen System gleicht sich das immer aus.
+
+Die Erklärung liefert das Teilchenmodell. Bei einer chemischen Reaktion werden die Atome nur neu verknüpft. Es gehen keine Atome verloren, und es entstehen keine neuen. Da jedes Atom seine Masse behält, bleibt die Gesamtmasse gleich. Genau deshalb müssen Reaktionsgleichungen ausgeglichen sein. Zwei M G plus O zwei zu zwei M G O hat links und rechts zwei Magnesium und zwei Sauerstoff. Die Gleichung ist das Gesetz von der Erhaltung der Masse in Formelschreibweise.
+
+Damit kann man rechnen. Erstes Beispiel: Vierundzwanzig Gramm Magnesium verbrennen vollständig zu vierzig Gramm Magnesiumoxid. Wie viel Sauerstoff wurde gebunden? Vierzig minus vierundzwanzig, also sechzehn Gramm. Zweites Beispiel: Zwölf Gramm Kohlenstoff verbrennen mit zweiunddreißig Gramm Sauerstoff. Es entstehen zwölf plus zweiunddreißig, also vierundvierzig Gramm Kohlenstoffdioxid, als Gas. Deshalb sieht man am Ende nichts. Drittes Beispiel: Hundert Gramm Holz verbrennen, zwei Gramm Asche bleiben, hundertdreißig Gramm Sauerstoff wurden verbraucht. Die Gesamtmasse ist zweihundertdreißig Gramm. Minus zwei Gramm Asche sind zweihundertachtundzwanzig Gramm Gase entwichen.
+
+Das Gesetz ist eines der Fundamente der Chemie. Es erlaubt, Reaktionen zu berechnen: Wie viel Erz braucht man für eine Tonne Eisen? Wie viel Kohlenstoffdioxid entsteht aus einem Liter Benzin? Etwa zwei Komma drei Kilogramm, denn der Sauerstoff aus der Luft kommt dazu.
+
+Fassen wir zusammen: Masse der Edukte gleich Masse der Produkte. Scheinbare Ausnahmen entstehen durch entweichende oder gebundene Gase. Die Erklärung: Atome werden nur neu verknüpft. Und deshalb sind Reaktionsgleichungen ausgeglichen.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

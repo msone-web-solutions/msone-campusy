@@ -1,6 +1,6 @@
 ---
-title: Multiplizieren und Dividieren rationaler Zahlen
-intro: Mal und geteilt mit negativen Zahlen – die Vorzeichenregeln und warum „minus mal minus“ plus ergibt.
+title: "Multiplizieren und Dividieren rationaler Zahlen"
+intro: "Mal und geteilt mit negativen Zahlen – die Vorzeichenregeln und warum „minus mal minus“ plus ergibt."
 curriculum_ref: "Grundrechenoperationen mit rationalen Zahlen verstehen und hilfsmittelfrei ausführen"
 estimated_minutes: 25
 reflect: "Erkläre mit dem Muster oder dem Schulden-Beispiel, warum (−3) · (−5) = +15 ergibt."

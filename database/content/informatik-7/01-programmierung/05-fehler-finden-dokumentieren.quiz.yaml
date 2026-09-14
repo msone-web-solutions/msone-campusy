@@ -1,0 +1,72 @@
+- key: q1
+  type: single_choice
+  prompt: "Wie nennt man die Fehlersuche in Programmen?"
+  options: ["Coding", "Debugging", "Compiling", "Rendering"]
+  answer: { index: 1 }
+  explanation: "Bug = Käfer, Debugging = Fehler entfernen."
+- key: q2
+  type: single_choice
+  prompt: "Ein Programm stürzt ab, weil durch null geteilt wird. Welche Fehlerart?"
+  options: ["Syntaxfehler", "Laufzeitfehler", "Logikfehler", "Tippfehler"]
+  answer: { index: 1 }
+  explanation: "Startet, stürzt aber beim Ausführen ab = Laufzeitfehler."
+- key: q3
+  type: single_choice
+  prompt: "Welche Fehlerart meldet der Computer nicht, weil das Programm läuft?"
+  options: ["Syntaxfehler", "Laufzeitfehler", "Logikfehler"]
+  answer: { index: 2 }
+  explanation: "Der Computer tut genau, was du gesagt hast – nur nicht, was du wolltest."
+- key: q4
+  type: single_choice
+  prompt: "Was ist die wichtigste Regel bei Trial-and-Error?"
+  options: ["Möglichst viel auf einmal ändern", "Eine Änderung auf einmal, dann testen", "Nie testen", "Das Programm neu schreiben"]
+  answer: { index: 1 }
+  explanation: "Sonst weiß man nicht, welche Änderung geholfen hat."
+- key: q5
+  type: single_choice
+  prompt: "Was bedeutet „Eingrenzen“ bei der Fehlersuche?"
+  options: ["Das Programm kleiner schreiben", "Programmteile abklemmen und prüfen, ob der Fehler noch auftritt", "Die Variablen umbenennen", "Das Programm langsamer machen"]
+  answer: { index: 1 }
+  explanation: "Halbieren, testen, wieder halbieren – der Fehler wird eingekreist."
+- key: q6
+  type: multiple_choice
+  prompt: "Mit welchen Werten sollte man ein Programm besonders testen?"
+  options: ["0", "1", "negative Zahlen", "nur mit 5", "sehr große Zahlen"]
+  answer: { indexes: [0, 1, 2, 4] }
+  explanation: "Grenzwerte decken die meisten Logikfehler auf."
+- key: q7
+  type: single_choice
+  prompt: "Vier gleiche Befehle hintereinander – wie optimiert man das?"
+  options: ["Löschen", "Durch eine Schleife ersetzen", "In Kommentare umwandeln", "Durch Variablen ersetzen"]
+  answer: { index: 1 }
+  explanation: "Wiederholung → Schleife."
+- key: q8
+  type: single_choice
+  prompt: "Was ist eine „magische Zahl“ im Code?"
+  options: ["Eine Zufallszahl", "Eine feste Zahl ohne erklärenden Namen, z. B. 3 statt maxLeben", "Eine sehr große Zahl", "Eine Primzahl"]
+  answer: { index: 1 }
+  explanation: "Besser eine benannte Variable: maxLeben = 3."
+- key: q9
+  type: multiple_choice
+  prompt: "Woran erkennt man eine gute Programmlösung?"
+  options: ["Sie ist richtig, auch bei Grenzwerten", "Sie ist verständlich", "Sie ist möglichst lang", "Sie lässt sich leicht erweitern"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "Richtig, verständlich, kurz, änderbar – Länge ist kein Qualitätsmerkmal."
+- key: q10
+  type: single_choice
+  prompt: "Was gehört in eine Dokumentation?"
+  options: ["Nur der Name des Programmierers", "Was das Programm tut, wie man es bedient, welche Unterprogramme es gibt", "Das Passwort", "Nur der fertige Code"]
+  answer: { index: 1 }
+  explanation: "Plus Kommentare an schwierigen Stellen und sprechende Namen."
+- key: q11
+  type: single_choice
+  prompt: "Warum sollte man in einer Präsentation auch die gefundenen Fehler erwähnen?"
+  options: ["Um Mitleid zu bekommen", "Weil es zeigt, dass man systematisch gearbeitet hat", "Man sollte sie verschweigen", "Weil es Zeit füllt"]
+  answer: { index: 1 }
+  explanation: "Fehler finden und lösen ist Teil der Arbeit – kein Makel."
+- key: q12
+  type: single_choice
+  prompt: "Was ist „Rubber Duck Debugging“?"
+  options: ["Ein Programm zum Fehlerfinden", "Das Programm laut Zeile für Zeile erklären – oft findet man den Fehler dabei selbst", "Ein Test mit Zufallszahlen", "Eine Schleife"]
+  answer: { index: 1 }
+  explanation: "Erklären zwingt zum genauen Hinsehen."

@@ -8,12 +8,20 @@
             </ul>
         </div>
         <div>
-            <h3>Lernen</h3>
-            <ul>
-                <li><a href="{{ route('learn.index') }}" wire:navigate>Alle Fächer</a></li>
-                <li><a href="{{ route('learn.subject', 'mathematik') }}" wire:navigate>Mathematik Klasse 7</a></li>
-                <li><a href="{{ route('dashboard') }}" wire:navigate>Mein Fortschritt</a></li>
-            </ul>
+            @if (auth()->check() && auth()->user()->isParent())
+                <h3>Eltern</h3>
+                <ul>
+                    <li><a href="{{ route('parent.dashboard') }}" wire:navigate>Wochenbericht</a></li>
+                    <li><a href="{{ route('family.edit') }}" wire:navigate>Kinder verknüpfen</a></li>
+                </ul>
+            @else
+                <h3>Lernen</h3>
+                <ul>
+                    <li><a href="{{ route('learn.index') }}" wire:navigate>Alle Fächer</a></li>
+                    <li><a href="{{ route('practice') }}" wire:navigate>Tägliche Übung</a></li>
+                    <li><a href="{{ route('dashboard') }}" wire:navigate>Mein Fortschritt</a></li>
+                </ul>
+            @endif
         </div>
         <div>
             <h3>Lehrplan</h3>

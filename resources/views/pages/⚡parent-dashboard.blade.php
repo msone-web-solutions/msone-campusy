@@ -13,11 +13,6 @@ use Livewire\Component;
 
 new #[Title('Elternübersicht')] class extends Component
 {
-    public function mount(): void
-    {
-        abort_unless(auth()->user()->isParent(), 403);
-    }
-
     /**
      * @return Collection<int, User>
      */
@@ -40,7 +35,7 @@ new #[Title('Elternübersicht')] class extends Component
 
         $activeDays = $attempts->map(fn (QuizAttempt $a) => $a->finished_at->toDateString())->unique();
         $streak = 0;
-        for ($d = now()->startOfDay(); $activeDays->contains($d->toDateString()); $d->subDay()) {
+        for ($d = now()->startOfDay(); $activeDays->contains($d->toDateString()); $d = $d->subDay()) {
             $streak++;
         }
 

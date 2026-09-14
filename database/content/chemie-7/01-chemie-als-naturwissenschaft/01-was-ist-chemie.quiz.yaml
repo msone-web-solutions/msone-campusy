@@ -1,0 +1,60 @@
+- key: q1
+  type: single_choice
+  prompt: "Womit beschäftigt sich die Chemie?"
+  options: ["Mit Kräften und Bewegung", "Mit Stoffen, ihren Eigenschaften und Umwandlungen", "Mit Lebewesen", "Mit Zahlen und Formen"]
+  answer: { index: 1 }
+  explanation: "Chemie ist die Wissenschaft von den Stoffen. Kräfte gehören zur Physik, Lebewesen zur Biologie."
+- key: q2
+  type: single_choice
+  prompt: "Wer vermutete schon um 400 v. Chr., dass alles aus winzigen unteilbaren Teilchen besteht?"
+  options: ["Lavoisier", "Demokrit", "Mendelejew", "Boyle"]
+  answer: { index: 1 }
+  explanation: "Demokrit prägte den Begriff Atom (atomos = unteilbar)."
+- key: q3
+  type: true_false
+  prompt: "Die Alchemisten haben es geschafft, Blei in Gold zu verwandeln."
+  answer: { value: false }
+  explanation: "Das gelang nie – aber nebenbei entdeckten sie viele Stoffe und Verfahren wie das Destillieren."
+- key: q4
+  type: single_choice
+  prompt: "Was ordnete Mendelejew 1869?"
+  options: ["Die Laborgeräte", "Die chemischen Elemente im Periodensystem", "Die Metalle nach Preis", "Die Alchemisten"]
+  answer: { index: 1 }
+  explanation: "Mendelejew stellte das Periodensystem der Elemente auf."
+- key: q5
+  type: gap_text
+  prompt: "Die Schritte eines Experiments: Frage – ___ – Experiment – ___ – Auswertung."
+  answer:
+    gaps:
+      - ["Vermutung", "Hypothese"]
+      - ["Beobachtung", "Beobachten"]
+  explanation: "Frage, Vermutung, Experiment, Beobachtung, Auswertung – festgehalten im Protokoll."
+- key: q6
+  type: single_choice
+  prompt: "Welche Aussage ist eine Beobachtung (keine Deutung)?"
+  options: ["Die Flamme wird grün.", "Es ist Kupfer in der Probe.", "Der Stoff ist ein Salz.", "Es hat eine Reaktion stattgefunden."]
+  answer: { index: 0 }
+  explanation: "Nur „Die Flamme wird grün“ beschreibt, was man sieht. Die anderen Sätze sind Schlussfolgerungen."
+- key: q7
+  type: multiple_choice
+  prompt: "Welche Beispiele zeigen, dass chemische Erkenntnisse auch Schaden anrichten können?"
+  options: ["FCKW zerstörten die Ozonschicht", "Kunststoffe verursachen Mikroplastik", "Das Periodensystem ordnet die Elemente", "Das Haber-Bosch-Verfahren lieferte auch Sprengstoff"]
+  answer: { indexes: [0, 1, 3] }
+  explanation: "FCKW, Plastikmüll und Sprengstoff sind Schattenseiten. Das Periodensystem ist reines Ordnungswissen."
+- key: q8
+  type: single_choice
+  prompt: "Was gehört in ein Versuchsprotokoll?"
+  options: ["Nur das Ergebnis", "Aufgabe, Geräte, Durchführung, Beobachtung, Auswertung", "Nur die Vermutung", "Die Meinung des Lehrers"]
+  answer: { index: 1 }
+  explanation: "Ein Protokoll dokumentiert den ganzen Weg, damit andere den Versuch nachvollziehen können."
+- key: q9
+  type: single_choice
+  prompt: "Warum benutzen Chemiker Modelle wie Kugeln für Teilchen?"
+  options: ["Weil es schöner aussieht", "Weil man die Teilchen nicht sehen kann und sie so vorstellbar werden", "Weil Kugeln billig sind", "Weil Teilchen wirklich Kugeln sind"]
+  answer: { index: 1 }
+  explanation: "Modelle machen Unsichtbares vorstellbar – sie sind Hilfsmittel, keine Abbilder der Wirklichkeit."
+- key: q10
+  type: true_false
+  prompt: "Robert Boyle forderte, nur zu glauben, was durch Experimente überprüft werden kann."
+  answer: { value: true }
+  explanation: "Damit wurde aus der Alchemie eine Wissenschaft, die auf Experimenten beruht."

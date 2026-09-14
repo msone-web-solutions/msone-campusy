@@ -1,0 +1,74 @@
+- key: q1
+  type: single_choice
+  prompt: "Welche Wortgleichung beschreibt das Verbrennen von Kohlenstoff?"
+  options: ["Kohlenstoff → Sauerstoff + Kohlenstoffdioxid", "Kohlenstoff + Sauerstoff → Kohlenstoffdioxid", "Kohlenstoffdioxid → Kohlenstoff + Sauerstoff", "Kohlenstoff + Wasser → Kohlenstoffdioxid"]
+  answer: { index: 1 }
+  explanation: "Ausgangsstoffe links, Produkt rechts."
+- key: q2
+  type: single_choice
+  prompt: "Welche Formel hat Sauerstoff als Gas?"
+  options: ["O", "O₂", "O₃", "2 O"]
+  answer: { index: 1 }
+  explanation: "Sauerstoff ist ein zweiatomiges Molekül: O₂."
+- key: q3
+  type: single_choice
+  prompt: "Welche Regel gilt beim Ausgleichen?"
+  options: ["Man darf Indexzahlen ändern", "Man darf nur Koeffizienten (Zahlen vor den Formeln) ändern", "Man darf Formeln weglassen", "Man darf Stoffe hinzufügen"]
+  answer: { index: 1 }
+  explanation: "Indexzahlen zu ändern würde den Stoff verändern."
+- key: q4
+  type: gap_text
+  prompt: "Ausgleichen: ___ Mg + O₂ → ___ MgO"
+  answer:
+    gaps:
+      - ["2"]
+      - ["2"]
+  explanation: "2 Mg + O₂ → 2 MgO."
+- key: q5
+  type: gap_text
+  prompt: "Ausgleichen: 2 H₂ + O₂ → ___ H₂O"
+  answer:
+    gaps:
+      - ["2"]
+  explanation: "Rechts 2 H₂O: 4 H und 2 O – passt zu links."
+- key: q6
+  type: gap_text
+  prompt: "Ausgleichen: 4 Fe + ___ O₂ → 2 Fe₂O₃"
+  answer:
+    gaps:
+      - ["3"]
+  explanation: "Rechts 6 O-Atome, also links 3 O₂."
+- key: q7
+  type: single_choice
+  prompt: "Welche Gleichung ist bereits ausgeglichen?"
+  options: ["Mg + O₂ → MgO", "C + O₂ → CO₂", "Fe + O₂ → Fe₂O₃", "H₂ + O₂ → H₂O"]
+  answer: { index: 1 }
+  explanation: "C + O₂ → CO₂: 1 C und 2 O auf beiden Seiten."
+- key: q8
+  type: numeric
+  prompt: "Wie viele Sauerstoffatome stehen in „3 O₂“?"
+  answer: { value: 6 }
+  explanation: "Koeffizient 3 mal Index 2 = 6."
+- key: q9
+  type: numeric
+  prompt: "Wie viele Eisenatome stehen in „2 Fe₂O₃“?"
+  answer: { value: 4 }
+  explanation: "2 · 2 = 4 Eisenatome (und 2 · 3 = 6 Sauerstoffatome)."
+- key: q10
+  type: single_choice
+  prompt: "Welche Formel hat Kupferoxid?"
+  options: ["Cu₂O₂", "CuO", "CO", "CuO₂"]
+  answer: { index: 1 }
+  explanation: "CuO – nicht mit CO (Kohlenstoffmonoxid) verwechseln!"
+- key: q11
+  type: single_choice
+  prompt: "Wie liest man „2 Mg + O₂ → 2 MgO“?"
+  options: ["Zwei Magnesiumatome reagieren mit einem Sauerstoffmolekül zu zwei Teilchen Magnesiumoxid", "Magnesium und Sauerstoff werden zu zwei Stoffen", "Zwei Gramm Magnesium reagieren mit Sauerstoff", "Magnesiumoxid zerfällt in Magnesium und Sauerstoff"]
+  answer: { index: 0 }
+  explanation: "Die Gleichung nennt Stoffe und Teilchenverhältnis."
+- key: q12
+  type: single_choice
+  prompt: "Welche Gleichung ist richtig ausgeglichen?"
+  options: ["4 Al + 3 O₂ → 2 Al₂O₃", "2 Al + O₂ → Al₂O₃", "Al + O₂ → AlO₂", "4 Al + O₂ → 2 Al₂O₃"]
+  answer: { index: 0 }
+  explanation: "Links 4 Al, 6 O – rechts 4 Al, 6 O."

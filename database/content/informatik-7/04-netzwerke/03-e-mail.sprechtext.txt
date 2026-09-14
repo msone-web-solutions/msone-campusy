@@ -1,0 +1,23 @@
+E-Mail richtig nutzen.
+
+Hallo! E-Mail ist der älteste Dienst im Internet und immer noch der wichtigste für Schule, Bewerbung und Beruf. Anders als Chat ist sie förmlich, dauerhaft und funktioniert zwischen allen Anbietern. Eine Adresse besteht aus Name, At-Zeichen, Anbieter.
+
+Zuerst zur richtigen Adresse. Sweetkitty zweitausenddreizehn ist für die Freundin okay, für die Bewerbung um ein Praktikum nicht. Die Regel: Für Schule, Bewerbungen und Behörden eine seriöse Adresse aus Vor- und Nachname. Für Newsletter, Spiele und Shops eine zweite Adresse, damit die Hauptadresse nicht mit Spam geflutet wird.
+
+Jetzt die Felder einer E-Mail. Im Feld „An“ stehen die Hauptempfänger. Alle sehen, wer dort steht. CC heißt Carbon Copy, Kopie: Diese Empfänger sollen mitlesen, müssen aber nichts tun. Auch sie sind für alle sichtbar. BCC heißt Blind Carbon Copy, Blindkopie: Diese Empfänger sehen die anderen nicht. BCC ist Pflicht bei Mails an viele Leute, die sich nicht kennen, zum Beispiel alle Eltern der Klasse. Sonst gibst du fremde Adressen weiter, und das ist ein Datenschutzproblem.
+
+Der Betreff ist kurz und konkret und sagt, worum es geht: „Frage zur Mathe-Hausaufgabe, Klasse sieben b“ statt „Hallo“ oder gar nichts. Der Text hat eine Anrede, das Anliegen in ganzen Sätzen, einen Gruß und den Namen. Anhänge bekommen sinnvolle Dateinamen wie „Referat Vulkane Mia Punkt PDF“, Texte als PDF, nicht größer als zehn Megabyte.
+
+Die Signatur ist der Textblock, der automatisch unter jeder Mail steht: Name, gegebenenfalls Klasse oder Funktion, Kontakt. Sie wird in den Einstellungen einmal festgelegt. Adressatengerecht heißt: passend zum Empfänger. Für die Schule: Mia Schneider, Klasse sieben b, Sekundarschule Musterstadt. Für Freunde: nur Mia. Keine Sprüche, keine Bilder.
+
+Bist du länger nicht erreichbar, im Urlaub oder auf Klassenfahrt, richtest du eine Abwesenheitsnotiz ein. Das Mailprogramm antwortet dann automatisch auf jede eingehende Mail. Inhalt: bis wann du weg bist, ob Mails gelesen werden, und an wen man sich sonst wenden kann. Das findest du unter Einstellungen, automatische Antwort.
+
+Ein Postfach mit dreitausend ungelesenen Mails ist unbrauchbar. Ordnung schaffst du mit Ordnern: Schule, Verein, Bestellungen, Privat. Mit Regeln oder Filtern, die zum Beispiel alle Mails von der Schule automatisch in den Ordner Schule sortieren. Mit Markierungen für „muss ich noch bearbeiten“. Mit Löschen und Archivieren. Und mit der Suche statt endlosem Scrollen.
+
+Spam sind unerwünschte Massenmails: Werbung, Gewinnspiele, dubiose Angebote. Der Spamfilter sortiert die meisten automatisch aus. Die Regeln: Spam nicht öffnen, nicht antworten, denn das bestätigt, dass die Adresse aktiv ist, nicht auf „abmelden“ klicken bei unbekannten Absendern, und als Spam markieren.
+
+Und dann gibt es Phishing, das Passwort-Fischen. Das sind Mails, die aussehen wie von Bank, Paketdienst oder Netflix, und dich auf eine gefälschte Seite locken, wo du Passwort oder Kartendaten eingibst. Die Erkennungsmerkmale: Die Absenderadresse stimmt nicht, klicke auf die Adresse, nicht nur auf den Namen. Dringlichkeit und Drohung: „Ihr Konto wird in vierundzwanzig Stunden gesperrt“. Eine unpersönliche Anrede wie „Sehr geehrter Kunde“. Ein Link, der woandershin führt, das siehst du, wenn du die Maus darüberhältst. Rechtschreibfehler. Und ein Anhang, den man nicht erwartet. Im Zweifel: nicht klicken, sondern die Firma über die bekannte Webseite fragen. Seriöse Firmen fragen nie per Mail nach Passwörtern.
+
+Fassen wir zusammen: Seriöse Adresse für Schule und Bewerbung. An, CC und BCC richtig nutzen, BCC bei vielen fremden Empfängern. Betreff konkret, Signatur adressatengerecht, Abwesenheitsnotiz bei längerer Abwesenheit. Ordner und Regeln für Ordnung. Spam ignorieren, Phishing erkennen und nie klicken.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

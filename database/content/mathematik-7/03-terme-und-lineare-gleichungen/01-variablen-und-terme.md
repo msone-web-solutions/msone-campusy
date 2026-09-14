@@ -1,6 +1,6 @@
 ---
-title: Variablen und Terme
-intro: Was eine Variable ist, was ein Term ist – und wie man den Wert eines Terms berechnet.
+title: "Variablen und Terme"
+intro: "Was eine Variable ist, was ein Term ist – und wie man den Wert eines Terms berechnet."
 curriculum_ref: "Termstrukturen erkennen und am Beispiel beschreiben; Termwerte berechnen; Grundlegende Wissensbestände: Term, Variablengrundbereich, Termstrukturen Summe, Differenz, Produkt, Quotient"
 estimated_minutes: 25
 reflect: "Erkläre, was eine Variable ist und warum man sie braucht. Gib ein Beispiel aus dem Alltag, das man mit einem Term beschreiben kann."

@@ -1,0 +1,23 @@
+Die chemische Reaktion am Beispiel der Oxidation.
+
+Hallo! Heute klären wir, was beim Verbrennen wirklich passiert. Und dafür brauchen wir zuerst einen Unterschied.
+
+Wenn Eis schmilzt, ist es danach immer noch Wasser, nur flüssig. Wenn du Zucker in Tee löst, ist er unsichtbar, aber schmeckt noch süß. Das sind physikalische Vorgänge: Der Stoff bleibt derselbe, nur Aggregatzustand oder Verteilung ändern sich. Auch die Trennverfahren sind physikalisch. Wenn dagegen ein Magnesiumband verbrennt, ist danach kein Magnesium mehr da, sondern ein weißes Pulver mit völlig anderen Eigenschaften. Das ist eine chemische Reaktion.
+
+Eine chemische Reaktion hat drei Merkmale. Erstens: Neue Stoffe mit neuen Eigenschaften entstehen. Aus silbrig glänzendem, biegsamem Magnesium und farblosem Sauerstoffgas wird weißes, sprödes Magnesiumoxid. Zweitens: Energie wird umgesetzt. Beim Verbrennen wird Energie frei, als Wärme und Licht. Das nennt man exotherm. Andere Reaktionen brauchen dauernd Energie, zum Beispiel das Zerlegen von Wasser mit Strom. Das nennt man endotherm. Und auch exotherme Reaktionen brauchen oft einen Anstoß, die Aktivierungsenergie, etwa die Flamme des Brenners. Drittens: Die Teilchen ordnen sich um. Die Atome verschwinden nicht und entstehen nicht neu, sie werden nur neu verknüpft. Beim Verbrennen von Magnesium trennen sich die Sauerstoffmoleküle, und jedes Sauerstoffatom verbindet sich mit einem Magnesiumatom.
+
+Chemische Reaktionen sind meist nicht einfach umkehrbar. Aus Asche wird nicht wieder Holz.
+
+Die Reaktion eines Stoffs mit Sauerstoff heißt Oxidation. Der entstehende Stoff heißt Oxid. Verbrennung ist eine schnelle Oxidation mit Feuererscheinung. Es gibt auch langsame Oxidationen ohne Flamme: das Rosten von Eisen, die Atmung im Körper, das Verrotten.
+
+Beispiele: Magnesium plus Sauerstoff reagiert zu Magnesiumoxid, mit grellweißer Flamme. Eisen plus Sauerstoff zu Eisenoxid, mit Funkenregen. Kupfer plus Sauerstoff zu Kupferoxid, das Blech wird beim Erhitzen schwarz. Kohlenstoff plus Sauerstoff zu Kohlenstoffdioxid. Schwefel plus Sauerstoff zu Schwefeldioxid, mit blauer Flamme und stechendem Geruch. Die Stoffe links vom Pfeil heißen Ausgangsstoffe, die rechts Reaktionsprodukte. Der Pfeil heißt „reagiert zu“.
+
+Verbrennt ein Metall, entsteht ein Metalloxid, ein Feststoff, oft ein Pulver. In Wasser gelöst reagieren Metalloxide basisch. Verbrennt ein Nichtmetall, entsteht ein Nichtmetalloxid, meist ein Gas. In Wasser gelöst reagieren sie sauer. Daher kommt der saure Regen.
+
+Ein Experiment: Ein blankes Kupferblech wird in der Brennerflamme erhitzt. Beobachtung: Das Blech wird schwarz. Kratzt man die schwarze Schicht ab, glänzt darunter wieder Kupfer. Deutung: Das Kupfer hat an der Oberfläche mit dem Sauerstoff der Luft zu schwarzem Kupferoxid reagiert. Und die Masse des Blechs hat zugenommen, denn der Sauerstoff ist dazugekommen. Das führt zum Gesetz von der Erhaltung der Masse, dem nächsten Thema.
+
+Im Kugelmodell sieht das so aus: Vorher liegen die Magnesiumatome im Gitter, und die Sauerstoffmoleküle fliegen als Doppelkugeln in der Luft. Die Aktivierungsenergie bringt Bewegung hinein, die Moleküle brechen auf, und jedes Sauerstoffatom lagert sich an ein Magnesiumatom. Nachher: ein Gitter aus abwechselnd Magnesium und Sauerstoff. Kein Atom ist verschwunden, keines neu entstanden.
+
+Fassen wir zusammen: Bei einer chemischen Reaktion entstehen neue Stoffe, Energie wird umgesetzt, und die Teilchen ordnen sich um. Oxidation ist die Reaktion mit Sauerstoff, schnell als Verbrennung oder langsam wie beim Rosten. Metalloxide sind Feststoffe, Nichtmetalloxide meist Gase.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

@@ -1,0 +1,73 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein Unterprogramm?"
+  options: ["Ein Programm, das nicht funktioniert", "Ein benannter Anweisungsblock, den man definiert und mehrfach aufrufen kann", "Eine Variable", "Eine Schleife"]
+  answer: { index: 1 }
+  explanation: "Eigener Baustein: einmal definieren, oft benutzen."
+- key: q2
+  type: single_choice
+  prompt: "Wie heißen Unterprogramme in Scratch?"
+  options: ["Variablen", "Neue Blöcke / Meine Blöcke", "Ereignisse", "Kostüme"]
+  answer: { index: 1 }
+  explanation: "„Neuer Block“ erzeugt einen eigenen Baustein."
+- key: q3
+  type: single_choice
+  prompt: "Wie heißen Unterprogramme in Textsprachen wie Python meist?"
+  options: ["Schleifen", "Funktionen", "Datentypen", "Listen"]
+  answer: { index: 1 }
+  explanation: "Funktion oder Prozedur, definiert mit def."
+- key: q4
+  type: multiple_choice
+  prompt: "Welche Vorteile haben Unterprogramme?"
+  options: ["Keine Wiederholung von Code", "Bessere Lesbarkeit", "Programme laufen ohne Strom", "Leichtere Fehlersuche", "Teamarbeit wird einfacher"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Wiederverwendung, Lesbarkeit, Fehlersuche, Teamarbeit."
+- key: q5
+  type: single_choice
+  prompt: "Was ist ein Parameter?"
+  options: ["Der Name eines Programms", "Ein Wert, den man dem Unterprogramm beim Aufruf mitgibt", "Ein Fehler", "Eine Endlosschleife"]
+  answer: { index: 1 }
+  explanation: "Quadrat (50): 50 ist der Wert für den Parameter seite."
+- key: q6
+  type: single_choice
+  prompt: "„definiere Quadrat (seite)“ – was zeichnet der Aufruf „Quadrat (80)“?"
+  options: ["Ein Quadrat mit Seite 4", "Ein Quadrat mit Seite 80", "80 Quadrate", "Ein Achteck"]
+  answer: { index: 1 }
+  explanation: "Der Parameter seite bekommt den Wert 80."
+- key: q7
+  type: single_choice
+  prompt: "Das Fenster eines Hauses soll geändert werden. Es wurde als Unterprogramm viermal aufgerufen. Wo änderst du?"
+  options: ["An vier Stellen", "An einer Stelle – in der Definition", "Im Hauptprogramm viermal", "Gar nicht möglich"]
+  answer: { index: 1 }
+  explanation: "Einmal in der Definition ändern – alle Aufrufe nutzen die neue Version."
+- key: q8
+  type: single_choice
+  prompt: "Was ist ein Rückgabewert?"
+  options: ["Ein Fehler beim Aufruf", "Das Ergebnis, das ein Unterprogramm zurückliefert", "Der Parameter", "Ein Kommentar"]
+  answer: { index: 1 }
+  explanation: "Z. B. liefert Mittelwert (a) (b) das Ergebnis zurück."
+- key: q9
+  type: single_choice
+  prompt: "Welches ist ein fertiges Unterprogramm der Programmiersprache?"
+  options: ["Zufallszahl von 1 bis 6", "meinHaus", "punkte", "Wand"]
+  answer: { index: 0 }
+  explanation: "Zufallszahl ist eingebaut – Wand und meinHaus wären selbst definiert, punkte ist eine Variable."
+- key: q10
+  type: single_choice
+  prompt: "Ein Quiz mit 5 Fragen ist mit dem Unterprogramm FrageStellen gebaut. Wie viel Aufwand ist eine 6. Frage?"
+  options: ["Das ganze Programm neu schreiben", "Eine Zeile: ein weiterer Aufruf", "Ein neues Unterprogramm", "Unmöglich"]
+  answer: { index: 1 }
+  explanation: "Ein zusätzlicher Aufruf FrageStellen (…) (…)."
+- key: q11
+  type: gap_text
+  prompt: "Um ein großes Problem zu lösen, ___ man es in Teilprobleme und löst jedes mit einem ___."
+  answer:
+    gaps:
+      - ["zerlegt", "teilt"]
+      - ["Unterprogramm"]
+  explanation: "Zerlegen ist die wichtigste Strategie beim Programmieren."
+- key: q12
+  type: true_false
+  prompt: "Bei Teamarbeit kann jedes Mitglied ein Unterprogramm bauen; am Ende werden sie zusammengesetzt."
+  answer: { value: true }
+  explanation: "Deshalb plant man zuerst gemeinsam die Teilprobleme."

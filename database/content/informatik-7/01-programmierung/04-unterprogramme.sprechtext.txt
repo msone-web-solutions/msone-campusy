@@ -1,0 +1,21 @@
+Unterprogramme: Teilprobleme lösen.
+
+Hallo! Ein Spiel wie Minecraft hat Millionen Zeilen Code. Niemand kann das als eine lange Liste überblicken. Der Trick heißt Zerlegen: Man teilt das große Problem in kleine Teilprobleme, löst jedes für sich und setzt die Lösungen zusammen.
+
+Beispiel: ein Haus zeichnen. Die Teilprobleme sind eine Wand, also ein Rechteck, ein Dach, also ein Dreieck, ein Fenster und eine Tür. Jedes Teilproblem bekommt ein eigenes Unterprogramm.
+
+Ein Unterprogramm ist ein benannter Block von Anweisungen, den man einmal definiert, also aufschreibt, und dann beliebig oft aufruft, also benutzt. In Scratch heißt das „Neuer Block“ unter „Meine Blöcke“. In Textsprachen heißt es Funktion oder Prozedur. Definiere Quadrat: wiederhole viermal, gehe fünfzig Schritte, drehe dich um neunzig Grad. Danach gibt es einen neuen Baustein namens Quadrat, den du überall einsetzen kannst, wie einen eigenen Befehl. Das Hauptprogramm wird kurz und lesbar: Wand, Dach, Fenster, Fenster, Tür.
+
+Warum Unterprogramme? Erstens: keine Wiederholung. Das Fenster einmal definieren, viermal aufrufen. Ändert sich das Fenster, änderst du es an einer einzigen Stelle. Zweitens: Lesbarkeit. „Dach“ sagt mehr als zwölf Zeilen gehe und drehe. Drittens: Fehlersuche. Zeichnet das Dach falsch, weißt du, wo du suchen musst. Viertens: Teamarbeit. Jeder im Team baut ein Unterprogramm, am Ende werden sie zusammengesteckt. Deshalb plant man Programme in der Gruppe zuerst als Liste von Teilproblemen.
+
+Ein Quadrat mit fester Seite fünfzig ist unpraktisch. Besser: Das Unterprogramm bekommt beim Aufruf einen Wert mit, einen Parameter. Definiere Quadrat mit Parameter seite: wiederhole viermal, gehe seite Schritte, drehe dich um neunzig Grad. Der Aufruf Quadrat dreißig zeichnet ein kleines Quadrat, Quadrat hundertzwanzig ein großes. Der Parameter ist eine Variable, die beim Aufruf ihren Wert bekommt. Mehrere Parameter gehen auch, zum Beispiel Rechteck mit Breite und Höhe.
+
+Manche Unterprogramme geben ein Ergebnis zurück. Mittelwert von a und b liefert a plus b geteilt durch zwei. Das ist ein Rückgabewert. So kann das Hauptprogramm mit dem Ergebnis weiterrechnen.
+
+Ein Beispiel: ein Quiz mit fünf Fragen, Punktezählung und Ergebnisanzeige. Die Unterprogramme: FrageStellen mit den Parametern Fragetext und richtige Antwort. Es fragt, prüft und erhöht bei Treffer die Punkte. Und ErgebnisAnzeigen, das sagt: Du hast so und so viele von fünf. Das Hauptprogramm: Setze punkte auf null. FrageStellen: Hauptstadt von Sachsen-Anhalt, Magdeburg. FrageStellen: sieben mal acht, sechsundfünfzig. Und so weiter. Am Ende ErgebnisAnzeigen. Fünf Fragen, sechs Zeilen Hauptprogramm. Und eine sechste Frage ist nur eine Zeile mehr.
+
+Viele Unterprogramme musst du gar nicht selbst schreiben. Zufallszahl von eins bis sechs, Länge von Text, runde Zahl: Das sind fertige Bausteine der Programmiersprache. Programmieren heißt oft, die richtigen vorhandenen Bausteine zu kennen und geschickt zu kombinieren.
+
+Fassen wir zusammen: Große Probleme zerlegt man in Teilprobleme. Ein Unterprogramm wird einmal definiert und oft aufgerufen. Parameter machen es flexibel, Rückgabewerte liefern Ergebnisse. Vorteile: keine Wiederholung, Lesbarkeit, leichtere Fehlersuche und Teamarbeit.
+
+Jetzt bist du dran. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

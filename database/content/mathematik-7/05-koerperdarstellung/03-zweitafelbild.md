@@ -1,6 +1,6 @@
 ---
-title: Das Zweitafelbild – Grundriss und Aufriss
-intro: Körper von oben und von vorn zeichnen, wie es Architekten und Techniker tun.
+title: "Das Zweitafelbild – Grundriss und Aufriss"
+intro: "Körper von oben und von vorn zeichnen, wie es Architekten und Techniker tun."
 curriculum_ref: "Prismen, Pyramiden, Kreiszylinder und Kegel im Zweitafelbild darstellen; Eckpunkte von Prismen im Grund- und Aufriss bezeichnen; senkrechte Zweitafelprojektion: Grundriss, Aufriss, Rissachse, Ordnungslinie"
 estimated_minutes: 30
 reflect: "Erkläre den Unterschied zwischen Grundriss und Aufriss. Welche Maße zeigt jede Ansicht?"

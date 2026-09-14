@@ -1,0 +1,77 @@
+- key: q1
+  type: single_choice
+  prompt: "Was ist ein chemisches Element?"
+  options: ["Ein Stoff aus einer einzigen Atomsorte", "Ein Gemisch aus Metallen", "Ein Stoff, der Strom leitet", "Ein Laborgerät"]
+  answer: { index: 0 }
+  explanation: "Element = nur eine Atomsorte, z. B. Eisen aus Eisenatomen."
+- key: q2
+  type: gap_text
+  prompt: "Symbole: Gold ___, Silber ___, Sauerstoff ___."
+  answer:
+    gaps:
+      - ["Au"]
+      - ["Ag"]
+      - ["O"]
+  explanation: "Au (aurum), Ag (argentum), O (oxygenium)."
+- key: q3
+  type: single_choice
+  prompt: "Welches Symbol gehört zu Natrium?"
+  options: ["N", "Na", "Nt", "So"]
+  answer: { index: 1 }
+  explanation: "Na – N allein ist Stickstoff."
+- key: q4
+  type: single_choice
+  prompt: "Wie sind die Atome in einem Metall angeordnet?"
+  options: ["Völlig ungeordnet wie in einem Gas", "Dicht gepackt und regelmäßig im Metallgitter", "In langen Ketten", "Weit voneinander entfernt"]
+  answer: { index: 1 }
+  explanation: "Metallgitter: dicht gepackt, regelmäßig – daher fest und dicht."
+- key: q5
+  type: single_choice
+  prompt: "Was ist das Elektronengas?"
+  options: ["Ein Gas, das beim Erhitzen von Metall entsteht", "Die frei beweglichen Außenelektronen zwischen den Metall-Ionen", "Die Luft in den Poren des Metalls", "Ein Edelgas"]
+  answer: { index: 1 }
+  explanation: "Die abgegebenen Außenelektronen bewegen sich frei wie ein Gas zwischen den positiven Metall-Ionen."
+- key: q6
+  type: single_choice
+  prompt: "Welche Teilchen sitzen im Metallgitter an festen Plätzen?"
+  options: ["Elektronen", "Positiv geladene Metall-Ionen", "Neutrale Moleküle", "Negativ geladene Ionen"]
+  answer: { index: 1 }
+  explanation: "Die positiven Metall-Ionen bilden das Gitter, die Elektronen sind beweglich."
+- key: q7
+  type: single_choice
+  prompt: "Warum bricht ein Metall beim Biegen nicht, ein Salzkristall aber schon?"
+  options: ["Metalle sind weicher", "Das Elektronengas hält die verschobenen Ionen-Schichten weiter zusammen", "Salz ist immer feucht", "Metalle sind schwerer"]
+  answer: { index: 1 }
+  explanation: "Beim Verschieben bleibt das Elektronengas dazwischen – im Salzkristall stoßen sich gleiche Ladungen ab."
+- key: q8
+  type: single_choice
+  prompt: "Wonach sind die Elemente im Periodensystem geordnet?"
+  options: ["Nach dem Alphabet", "Nach der Ordnungszahl (Protonenzahl)", "Nach der Dichte", "Nach dem Entdeckungsjahr"]
+  answer: { index: 1 }
+  explanation: "Steigende Ordnungszahl = Anzahl der Protonen im Kern."
+- key: q9
+  type: gap_text
+  prompt: "Die waagerechten Zeilen des PSE heißen ___, die senkrechten Spalten ___."
+  answer:
+    gaps:
+      - ["Perioden"]
+      - ["Gruppen"]
+  explanation: "Perioden (Zeilen) und Gruppen (Spalten mit ähnlichen Eigenschaften)."
+- key: q10
+  type: single_choice
+  prompt: "Wo stehen die Nichtmetalle im Periodensystem?"
+  options: ["Links unten", "Rechts oben", "In der Mitte", "Überall verteilt"]
+  answer: { index: 1 }
+  explanation: "Nichtmetalle rechts oben, jenseits der Treppenlinie."
+- key: q11
+  type: single_choice
+  prompt: "Zu welcher Gruppe gehören Natrium und Kalium?"
+  options: ["Erdalkalimetalle", "Alkalimetalle", "Übergangsmetalle", "Halbmetalle"]
+  answer: { index: 1 }
+  explanation: "Gruppe 1 = Alkalimetalle, sehr weich und sehr unedel."
+- key: q12
+  type: single_choice
+  prompt: "Ein unbekanntes Metall schmilzt bei 1085 °C. Laut Tafelwerk: Aluminium 660 °C, Kupfer 1085 °C, Eisen 1538 °C. Welches Metall ist es?"
+  options: ["Aluminium", "Kupfer", "Eisen"]
+  answer: { index: 1 }
+  explanation: "1085 °C passt zu Kupfer."

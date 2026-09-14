@@ -1,0 +1,70 @@
+- key: q1
+  type: single_choice
+  prompt: "Was besagt das Recht am eigenen Bild?"
+  options: ["Jeder darf jedes Foto posten", "Fotos erkennbarer Personen dürfen nur mit deren Einwilligung veröffentlicht werden", "Man darf nur eigene Selfies posten", "Fotos sind im Internet immer erlaubt"]
+  answer: { index: 1 }
+  explanation: "Einwilligung ist Pflicht – auch bei Freunden."
+- key: q2
+  type: true_false
+  prompt: "Ein Fake-Profil mit dem Namen eines Mitschülers anzulegen ist nur ein Scherz und nicht verboten."
+  answer: { value: false }
+  explanation: "Das verletzt das Recht auf den eigenen Namen und kann strafbar sein."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Daten über andere darfst du nicht ohne Erlaubnis posten?"
+  options: ["Adresse", "Telefonnummer", "Krankheiten", "Den Namen ihrer Lieblingsband, den sie selbst öffentlich gepostet haben"]
+  answer: { indexes: [0, 1, 2] }
+  explanation: "Datenschutz: Jeder bestimmt selbst über seine Daten."
+- key: q4
+  type: single_choice
+  prompt: "Was machen Beauty-Effekte in Apps oft automatisch?"
+  options: ["Sie verkleinern die Datei", "Sie glätten Haut, vergrößern Augen und verändern Gesichtsproportionen", "Sie fügen Text ein", "Sie drehen das Bild"]
+  answer: { index: 1 }
+  explanation: "Oft ohne dass man es merkt."
+- key: q5
+  type: single_choice
+  prompt: "Warum kann der Vergleich mit gefilterten Profilbildern schaden?"
+  options: ["Weil Filter teuer sind", "Weil man sich mit unerreichbaren Bildern vergleicht – das schadet dem Selbstwert", "Weil Filter verboten sind", "Weil Bilder dann unscharf werden"]
+  answer: { index: 1 }
+  explanation: "Selbst die abgebildete Person sieht nicht so aus."
+- key: q6
+  type: single_choice
+  prompt: "Woran erkennt man oft ein stark gefiltertes Bild?"
+  options: ["An der Dateigröße", "An zu glatter Haut, seltsamen Proportionen und verzerrtem Hintergrund am Rand", "Am Datum", "Am Dateinamen"]
+  answer: { index: 1 }
+  explanation: "Typische Spuren von Beauty-Filtern."
+- key: q7
+  type: single_choice
+  prompt: "Was bewirkt ein privates Profil?"
+  options: ["Niemand kann das Profil finden", "Nur bestätigte Follower sehen die Beiträge", "Das Profil wird gelöscht", "Man kann nicht mehr posten"]
+  answer: { index: 1 }
+  explanation: "Kontrolle darüber, wer zuschaut."
+- key: q8
+  type: single_choice
+  prompt: "Warum sollte der Standort in Beiträgen aus sein?"
+  options: ["Weil es den Akku schont", "Weil ein Foto mit Standort verrät, wo du wohnst oder gerade bist", "Weil es hässlich aussieht", "Weil es Vorschrift ist"]
+  answer: { index: 1 }
+  explanation: "Ortsangaben sind ein Sicherheitsrisiko."
+- key: q9
+  type: single_choice
+  prompt: "Unter deinem Beitrag häufen sich beleidigende Kommentare. Welche technische Maßnahme hilft?"
+  options: ["Das Handy ausschalten", "Kommentare einschränken oder sperren, Beleidiger blockieren und melden", "Zurückbeleidigen", "Den Beitrag öfter posten"]
+  answer: { index: 1 }
+  explanation: "Kommentarfunktion sperren ist Kontrolle, keine Schwäche."
+- key: q10
+  type: single_choice
+  prompt: "Jemand postet ein peinliches Foto von dir ohne Erlaubnis. Was ist der erste sinnvolle Schritt?"
+  options: ["Ein noch peinlicheres Foto von ihm posten", "Screenshot als Beweis machen, dann melden und löschen lassen", "Das Profil löschen", "Nichts tun"]
+  answer: { index: 1 }
+  explanation: "Beweis sichern, melden, Vertrauensperson einschalten."
+- key: q11
+  type: true_false
+  prompt: "„Verschwindende“ Nachrichten und Bilder sind wirklich weg und können nicht gespeichert werden."
+  answer: { value: false }
+  explanation: "Ein Screenshot ist in einer Sekunde gemacht – das Netz vergisst nicht."
+- key: q12
+  type: single_choice
+  prompt: "Welche Regel fasst den Umgang mit Beiträgen über andere zusammen?"
+  options: ["Poste alles, was lustig ist", "Frag, bevor du etwas über andere postest – und poste nichts, was du ihnen nicht ins Gesicht sagen würdest", "Poste nur nachts", "Poste nur mit Filter"]
+  answer: { index: 1 }
+  explanation: "Einwilligung und Respekt."

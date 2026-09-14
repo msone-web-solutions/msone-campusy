@@ -1,6 +1,6 @@
 ---
-title: Umfang und Flächeninhalt von Vierecken
-intro: Flächenformeln für Parallelogramm, Raute, Trapez und Drachen – hergeleitet aus dem Rechteck und angewendet in Sachaufgaben.
+title: "Umfang und Flächeninhalt von Vierecken"
+intro: "Flächenformeln für Parallelogramm, Raute, Trapez und Drachen – hergeleitet aus dem Rechteck und angewendet in Sachaufgaben."
 curriculum_ref: "Umfang und Flächeninhalt von speziellen Vierecken berechnen; Formeln für Flächeninhalt von Parallelogramm, Rhombus, Trapez, Drachenviereck; Anwendungsaufgaben lösen"
 estimated_minutes: 35
 reflect: "Erkläre mit dem Zerschneiden-und-Umlegen-Trick, warum für das Parallelogramm A = a · h gilt."

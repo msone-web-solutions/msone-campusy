@@ -1,6 +1,6 @@
 ---
-title: Diagramme erstellen und kritisch lesen
-intro: Daten passend darstellen, Diagramme richtig auswerten – und Tricks erkennen, mit denen Diagramme täuschen.
+title: "Diagramme erstellen und kritisch lesen"
+intro: "Daten passend darstellen, Diagramme richtig auswerten – und Tricks erkennen, mit denen Diagramme täuschen."
 curriculum_ref: "Häufigkeiten in Diagrammen darstellen; Informationen und Daten analysieren, interpretieren und kritisch prüfen; Grenzen der unterschiedlichen Darstellungsformen reflektieren; fächerübergreifend: Sicher und gesund durch den Straßenverkehr"
 estimated_minutes: 25
 reflect: "Beschreibe zwei Tricks, mit denen Diagramme täuschen können, und wie du sie erkennst."

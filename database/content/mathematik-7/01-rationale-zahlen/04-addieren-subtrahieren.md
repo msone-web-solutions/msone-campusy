@@ -1,6 +1,6 @@
 ---
-title: Addieren und Subtrahieren rationaler Zahlen
-intro: Plus und minus mit negativen Zahlen – mit dem Pfeilmodell auf der Zahlengerade und festen Rechenregeln.
+title: "Addieren und Subtrahieren rationaler Zahlen"
+intro: "Plus und minus mit negativen Zahlen – mit dem Pfeilmodell auf der Zahlengerade und festen Rechenregeln."
 curriculum_ref: "Grundrechenoperationen mit rationalen Zahlen verstehen und hilfsmittelfrei ausführen"
 estimated_minutes: 30
 reflect: "Erkläre mit dem Schulden-Beispiel, warum 5 − (−3) dasselbe ist wie 5 + 3."

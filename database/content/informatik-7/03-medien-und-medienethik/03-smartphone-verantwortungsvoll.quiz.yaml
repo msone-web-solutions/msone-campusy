@@ -1,0 +1,71 @@
+- key: q1
+  type: single_choice
+  prompt: "Was sind App-Berechtigungen?"
+  options: ["Der Preis einer App", "Zugriffsrechte einer App auf Kamera, Standort, Kontakte usw.", "Die Bewertung im Store", "Die Größe der App"]
+  answer: { index: 1 }
+  explanation: "Rechte, die man erteilen oder verweigern kann."
+- key: q2
+  type: single_choice
+  prompt: "Welche Berechtigung braucht eine Navigations-App sinnvollerweise?"
+  options: ["Kontakte", "Standort (nur bei Verwendung)", "Mikrofon", "Fotos"]
+  answer: { index: 1 }
+  explanation: "Ohne Standort keine Navigation – aber nur während der Nutzung."
+- key: q3
+  type: multiple_choice
+  prompt: "Welche Grundeinstellungen schützen dein Handy?"
+  options: ["Bildschirmsperre", "Updates installieren", "Apps aus beliebigen Webseiten installieren", "Backup aktivieren", "„Mein Gerät finden“ einschalten"]
+  answer: { indexes: [0, 1, 3, 4] }
+  explanation: "Apps nur aus offiziellen Stores."
+- key: q4
+  type: single_choice
+  prompt: "Was ist die 20-20-20-Regel?"
+  options: ["20 Minuten Handy, 20 Minuten Pause, 20 Minuten Sport", "Alle 20 Minuten 20 Sekunden in 20 Fuß Ferne schauen", "20 Apps, 20 Kontakte, 20 Fotos", "20 Euro pro Monat"]
+  answer: { index: 1 }
+  explanation: "Entlastet die Augen."
+- key: q5
+  type: single_choice
+  prompt: "Warum stören Benachrichtigungen beim Lernen so sehr?"
+  options: ["Weil sie laut sind", "Weil jede Unterbrechung Minuten kostet, bis man wieder konzentriert ist", "Weil sie den Akku leeren", "Sie stören nicht"]
+  answer: { index: 1 }
+  explanation: "Deshalb: „Nicht stören“ oder Handy in einen anderen Raum."
+- key: q6
+  type: single_choice
+  prompt: "Welche Funktion zeigt, wie lange du welche Apps nutzt?"
+  options: ["Taschenrechner", "Bildschirmzeit / Digital Wellbeing", "Kamera", "Flugmodus"]
+  answer: { index: 1 }
+  explanation: "Damit kann man auch Limits setzen."
+- key: q7
+  type: single_choice
+  prompt: "Was ist eine Abo-Falle?"
+  options: ["Ein kostenloses Spiel", "Ein „kostenloser Test“, der nach kurzer Zeit automatisch kostenpflichtig wird", "Eine Rabattaktion", "Ein Passwort"]
+  answer: { index: 1 }
+  explanation: "Abos regelmäßig im Store prüfen und kündigen."
+- key: q8
+  type: single_choice
+  prompt: "Wie bezahlt man mit Google Pay oder Apple Pay an der Kasse?"
+  options: ["Per SMS", "Kontaktlos per NFC", "Per E-Mail", "Mit einem Foto"]
+  answer: { index: 1 }
+  explanation: "NFC = Nahfeldkommunikation, Handy ans Terminal halten."
+- key: q9
+  type: single_choice
+  prompt: "Wie schützt man sich vor teuren In-App-Käufen in Spielen?"
+  options: ["Gar nicht möglich", "In-App-Käufe sperren oder Passwort bei jedem Kauf verlangen", "Nur nachts spielen", "Das Spiel bewerten"]
+  answer: { index: 1 }
+  explanation: "Einstellung im Store oder in der Kindersicherung."
+- key: q10
+  type: true_false
+  prompt: "Unter 18 kann man ohne Zustimmung der Eltern beliebig Käufe im Internet tätigen."
+  answer: { value: false }
+  explanation: "Verträge und Käufe brauchen die Zustimmung der Eltern."
+- key: q11
+  type: single_choice
+  prompt: "Was ist der Unterschied zwischen produktiver und konsumierender Handynutzung?"
+  options: ["Produktiv ist teurer", "Ob du das Gerät steuerst (Kalender, Lernen) oder das Gerät dich (endloses Scrollen)", "Es gibt keinen", "Produktiv geht nur am PC"]
+  answer: { index: 1 }
+  explanation: "Werkzeug oder Zeitfresser – deine Entscheidung."
+- key: q12
+  type: single_choice
+  prompt: "Warum sollte man Apps nur aus offiziellen Stores installieren?"
+  options: ["Weil sie dort teurer sind", "Weil Dateien aus dem Netz Schadsoftware enthalten können", "Weil es schneller geht", "Weil es Vorschrift der Schule ist"]
+  answer: { index: 1 }
+  explanation: "Stores prüfen Apps auf Schadsoftware."

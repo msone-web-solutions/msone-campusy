@@ -1,0 +1,72 @@
+- key: q1
+  type: multiple_choice
+  prompt: "Welche Begriffe bezeichnen Stoffe (keine Gegenstände)?"
+  options: ["Kupfer", "Nagel", "Wasser", "Fensterscheibe", "Zucker"]
+  answer: { indexes: [0, 2, 4] }
+  explanation: "Kupfer, Wasser und Zucker sind Stoffe. Nagel und Fensterscheibe sind Gegenstände."
+- key: q2
+  type: numeric
+  prompt: "Ein Würfel aus Metall wiegt 54 g und hat ein Volumen von 20 cm³. Berechne die Dichte in g/cm³."
+  options: { unit: "g/cm³" }
+  answer: { value: 2.7 }
+  explanation: "54 : 20 = 2,7 g/cm³ – das ist Aluminium."
+- key: q3
+  type: single_choice
+  prompt: "Bei welcher Temperatur siedet Wasser (bei normalem Luftdruck)?"
+  options: ["0 °C", "78 °C", "100 °C", "1538 °C"]
+  answer: { index: 2 }
+  explanation: "Wasser siedet bei 100 °C, es schmilzt bei 0 °C."
+- key: q4
+  type: gap_text
+  prompt: "Der Übergang von fest zu flüssig heißt ___, von flüssig zu gasförmig ___."
+  answer:
+    gaps:
+      - ["Schmelzen"]
+      - ["Sieden", "Verdampfen"]
+  explanation: "Schmelzen und Sieden (Verdampfen); umgekehrt Erstarren und Kondensieren."
+- key: q5
+  type: single_choice
+  prompt: "Welcher Stoff wird vom Magneten angezogen?"
+  options: ["Kupfer", "Aluminium", "Eisen", "Gold"]
+  answer: { index: 2 }
+  explanation: "Nur Eisen, Nickel und Cobalt sind magnetisierbar."
+- key: q6
+  type: true_false
+  prompt: "Kork schwimmt auf Wasser, weil seine Dichte kleiner ist als die von Wasser."
+  answer: { value: true }
+  explanation: "Kork hat etwa 0,2 g/cm³, Wasser 1 g/cm³. Stoffe mit kleinerer Dichte schwimmen."
+- key: q7
+  type: single_choice
+  prompt: "Welche Eigenschaft ist eine chemische Eigenschaft?"
+  options: ["Farbe", "Dichte", "Brennbarkeit", "Siedetemperatur"]
+  answer: { index: 2 }
+  explanation: "Brennbarkeit zeigt sich erst bei einer chemischen Reaktion; die anderen sind physikalische Eigenschaften."
+- key: q8
+  type: single_choice
+  prompt: "Woran erkennt man beim Erhitzen, ob ein weißes Pulver Zucker oder Salz ist?"
+  options: ["Salz wird braun und verkohlt", "Zucker wird braun und verkohlt", "Beide bleiben unverändert", "Beide werden flüssig bei 0 °C"]
+  answer: { index: 1 }
+  explanation: "Zucker karamellisiert und verkohlt, Salz schmilzt erst bei 801 °C und bleibt weiß."
+- key: q9
+  type: single_choice
+  prompt: "Warum werden Stromkabel aus Kupfer gemacht?"
+  options: ["Weil Kupfer rot ist", "Weil Kupfer Strom sehr gut leitet", "Weil Kupfer magnetisch ist", "Weil Kupfer brennbar ist"]
+  answer: { index: 1 }
+  explanation: "Aus der Eigenschaft (gute Leitfähigkeit) folgt die Verwendung (Kabel)."
+- key: q10
+  type: single_choice
+  prompt: "Wie heißt der direkte Übergang von fest zu gasförmig?"
+  options: ["Kondensieren", "Sublimieren", "Erstarren", "Schmelzen"]
+  answer: { index: 1 }
+  explanation: "Sublimieren – zum Beispiel bei Trockeneis."
+- key: q11
+  type: numeric
+  prompt: "Eisen hat die Dichte 7,9 g/cm³. Wie viel wiegt ein Eisenstück mit 5 cm³ Volumen?"
+  options: { unit: "g" }
+  answer: { value: 39.5 }
+  explanation: "Masse = Dichte · Volumen = 7,9 · 5 = 39,5 g."
+- key: q12
+  type: true_false
+  prompt: "Die Siedetemperatur eines Reinstoffs ist immer gleich und eignet sich deshalb zum Erkennen des Stoffs."
+  answer: { value: true }
+  explanation: "Schmelz- und Siedetemperatur sind feste Kennwerte jedes Reinstoffs."

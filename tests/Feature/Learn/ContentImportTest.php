@@ -16,7 +16,7 @@ it('imports the bundled curriculum content idempotently', function () {
 
     expect($first['topics'])->toBeGreaterThanOrEqual(6)
         ->and($second)->toBe($first)
-        ->and(Subject::count())->toBe(1)
+        ->and(Subject::count())->toBe($first['subjects'])
         ->and(Topic::count())->toBe($first['topics'])
         ->and(Question::count())->toBe($first['questions']);
 
