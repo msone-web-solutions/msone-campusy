@@ -86,9 +86,13 @@ class ScheduleSetting extends Model
         return max(20, $this->lesson_minutes - self::MICRO_BREAK);
     }
 
+    /**
+     * Vor dem Startdatum gibt es keine Schultage – der Plan beginnt erst dort.
+     */
     public function isSchoolDay(CarbonInterface $date): bool
     {
-        return in_array($date->dayOfWeekIso, $this->school_days, true);
+        return $date->startOfDay()->gte($this->start_date->startOfDay())
+            && in_array($date->dayOfWeekIso, $this->school_days, true);
     }
 
     /**

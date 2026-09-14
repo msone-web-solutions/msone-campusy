@@ -190,3 +190,18 @@ it('leaves deselected and optional subjects out of the plan', function () {
     expect($topics->contains(fn (Topic $t) => $t->topicArea->subject_id === $optional->id))->toBeTrue()
         ->and($topics->contains(fn (Topic $t) => $t->topicArea->subject->slug === 'mathematik'))->toBeFalse();
 });
+
+it('does not plan anything before the start date', function () {
+    ScheduleSetting::factory()->for($this->user)->create(['start_date' => '2026-09-15']);
+    $monday = CarbonImmutable::parse('2026-09-14');
+
+    $week = app(WeekPlanner::class)->weekFor($this->user, $monday);
+    expect($week['days'][0]['planned'])->toBe([])
+        ->and($week['days'][0]['target_blocks'])->toBe(0)
+        ->and($week['days'][1]['planned'])->not->toBe([]);
+
+    $plan = app(DayPlanner::class)->planFor($this->user, $monday);
+    expect($plan['is_school_day'])->toBeFalse()
+        ->and($plan['date']->toDateString())->toBe('2026-09-15')
+        ->and($plan['pace']['backlog_blocks'])->toBeLessThanOrEqual(0);
+});
