@@ -29,3 +29,12 @@ Route::middleware(['auth', 'verified', 'role:parent'])->group(function () {
 });
 
 require __DIR__.'/settings.php';
+
+// Nur lokal: signierter Direkt-Login für Browser-Checks
+if (app()->environment('local')) {
+    Route::get('dev/login/{user}', function (\App\Models\User $user) {
+        auth()->login($user);
+
+        return redirect()->route('dashboard');
+    })->middleware('signed')->name('dev.login');
+}

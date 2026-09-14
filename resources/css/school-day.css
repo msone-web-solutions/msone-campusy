@@ -21,7 +21,7 @@
 .rq-pace > span { position: absolute; left: 0; top: 0; height: 100%; }
 .rq-pace__soll { background: rgba(1,166,253,.18); }
 .rq-pace__ist { background-image: var(--gradient-text); }
-@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } .rq-day__lernstand, .rq-day__timeline-wrap { grid-column: 1; grid-row: auto; } }
+@media (max-width: 900px) { .rq-day__layout { grid-template-columns: 1fr; } .rq-day__lernstand, .rq-day__timeline-wrap { grid-column: 1; grid-row: auto; } .rq-day__clock-card { position: static; } }
 
 /* ---- Uhr ---- */
 .rq-day__clock-card { padding: 30px; position: sticky; top: calc(var(--header-height) + 20px); display: grid; gap: 22px; }
