@@ -65,7 +65,7 @@ class ContentImporter
 
         $subject = Subject::updateOrCreate(
             ['slug' => $data['slug'] ?? basename($dir)],
-            collect($data)->only(['name', 'description', 'icon', 'color', 'grade', 'school_type', 'state', 'curriculum_version', 'sort'])->all(),
+            collect($data)->only(['name', 'description', 'icon', 'color', 'grade', 'school_type', 'state', 'curriculum_version', 'sort', 'optional'])->all(),
         );
         $this->stats['subjects']++;
 

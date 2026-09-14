@@ -91,7 +91,7 @@ new #[Title('Stundenplan einstellen')] class extends Component
             'school_days' => ['required', 'array', 'min:1'],
             'school_days.*' => ['integer', 'between:1,7'],
             'subject_weights' => ['array'],
-            'subject_weights.*' => ['integer', 'between:1,3'],
+            'subject_weights.*' => ['integer', 'between:0,3'],
         ]);
 
         [$h, $m] = explode(':', $validated['day_start']);
@@ -121,7 +121,7 @@ new #[Title('Stundenplan einstellen')] class extends Component
     </x-raque.page-banner>
 
     <section class="rq-section rq-section--tight rq-section--panel">
-        <div class="rq-container" style="display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:30px;align-items:start">
+        <div class="rq-container rq-settings-grid">
             <x-raque.card title="Rahmen" pad>
                 <form wire:submit="save" style="display:grid;gap:22px">
                     <div class="rq-grid rq-grid--2">
@@ -161,13 +161,13 @@ new #[Title('Stundenplan einstellen')] class extends Component
 
                     <div>
                         <flux:label>Fächer-Gewichtung</flux:label>
-                        <p style="font-size:13px;margin:4px 0 10px">Gewicht 2 = dieses Fach kommt doppelt so oft dran wie ein Fach mit Gewicht 1.</p>
+                        <p style="font-size:13px;margin:4px 0 10px">Gewicht 2 = dieses Fach kommt doppelt so oft dran wie ein Fach mit Gewicht 1. „Aus“ nimmt das Fach aus Stundenplan und Lernstand heraus – Wahlfächer sind standardmäßig aus.</p>
                         <div style="display:grid;gap:10px">
                             @foreach ($this->subjects as $subject)
-                                <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border:1px solid var(--border-default);border-radius:var(--radius-control)" wire:key="w-{{ $subject->slug }}">
-                                    <span style="font-weight:500"><i class="{{ \App\Schedule\DayPlanner::subjectIcon($subject) }}" style="color:var(--color-icon);margin-right:6px"></i>{{ $subject->name }}</span>
-                                    <div style="display:flex;gap:6px">
-                                        @foreach ([1 => 'normal', 2 => 'doppelt', 3 => 'dreifach'] as $w => $wl)
+                                <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 12px;padding:10px 14px;border:1px solid var(--border-default);border-radius:var(--radius-control);opacity:{{ (int) ($subject_weights[$subject->slug] ?? 1) === 0 ? '.6' : '1' }}" wire:key="w-{{ $subject->slug }}">
+                                    <span style="font-weight:500;min-width:0"><i class="{{ \App\Schedule\DayPlanner::subjectIcon($subject) }}" style="color:var(--color-icon);margin-right:6px"></i>{{ $subject->name }}@if ($subject->optional) <span class="rq-badge" style="margin-left:6px">Wahlfach</span>@endif</span>
+                                    <div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end">
+                                        @foreach ([0 => 'aus', 1 => 'normal', 2 => 'doppelt', 3 => 'dreifach'] as $w => $wl)
                                             <label class="rq-option" style="padding:6px 12px;font-size:13px"><input type="radio" wire:model="subject_weights.{{ $subject->slug }}" value="{{ $w }}"> {{ $w }}× <span class="rq-muted">{{ $wl }}</span></label>
                                         @endforeach
                                     </div>

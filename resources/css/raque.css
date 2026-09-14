@@ -569,6 +569,10 @@ main .rq-icon-btn:hover { color: var(--genius-white); }
 .rq-link { background: none; border: 0; padding: 0; font: inherit; font-size: 14px; font-weight: var(--fw-medium); color: var(--color-primary); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
 .rq-link:hover { text-decoration: underline; }
 
+/* Eltern-Einstellungen: Formular + Seitenspalte, ab Tablet-Hochformat untereinander */
+.rq-settings-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 30px; align-items: start; }
+@media (max-width: 991px) { .rq-settings-grid { grid-template-columns: minmax(0, 1fr); } }
+
 /* ---- responsive -------------------------------------------------- */
 @media (max-width: 991px) {
     .rq-hero { grid-template-columns: 1fr; }

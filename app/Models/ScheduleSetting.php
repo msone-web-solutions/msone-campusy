@@ -24,7 +24,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property int $backlog_alert_blocks Eltern-Erinnerung ab so vielen Blöcken Rückstand (0 = aus)
  * @property CarbonInterface|null $backlog_alerted_at
  * @property list<int> $school_days ISO-Wochentage 1–7
- * @property array<string, int> $subject_weights Fach-Slug → Gewicht 1–3
+ * @property array<string, int> $subject_weights Fach-Slug → Gewicht 0–3 (0 = abgewählt)
  */
 #[Fillable(['user_id', 'start_date', 'day_start', 'blocks_per_day', 'lesson_minutes', 'break_minutes', 'weekly_goal_blocks', 'backlog_alert_blocks', 'school_days', 'subject_weights', 'backlog_alerted_at'])]
 class ScheduleSetting extends Model
@@ -91,9 +91,19 @@ class ScheduleSetting extends Model
         return in_array($date->dayOfWeekIso, $this->school_days, true);
     }
 
+    /**
+     * Gewicht 0 = abgewählt. Wahlfächer sind aus, solange die Eltern nichts anderes einstellen.
+     */
     public function weightFor(Subject $subject): int
     {
-        return max(1, min(3, (int) ($this->subject_weights[$subject->slug] ?? 1)));
+        $weight = $this->subject_weights[$subject->slug] ?? ($subject->optional ? 0 : 1);
+
+        return max(0, min(3, (int) $weight));
+    }
+
+    public function isEnabled(Subject $subject): bool
+    {
+        return $this->weightFor($subject) > 0;
     }
 
     /**

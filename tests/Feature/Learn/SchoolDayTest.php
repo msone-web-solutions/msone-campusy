@@ -173,3 +173,20 @@ it('lets a parent configure the schedule of their own child only', function () {
         ->and($settings->school_days)->toBe([1, 2, 3])
         ->and($settings->subject_weights['mathematik'])->toBe(2);
 });
+
+it('leaves deselected and optional subjects out of the plan', function () {
+    $optional = Subject::factory()->create(['slug' => 'russisch', 'name' => 'Russisch', 'sort' => 18, 'optional' => true]);
+    $area = TopicArea::factory()->for($optional)->create(['sort' => 1]);
+    Topic::factory()->for($area)->create(['sort' => 1, 'estimated_minutes' => 30]);
+    $settings = ScheduleSetting::for($this->user);
+
+    expect($settings->isEnabled($optional))->toBeFalse()
+        ->and(Curriculum::for($this->user)->topics()->contains(fn (Topic $t) => $t->topicArea->subject_id === $optional->id))->toBeFalse();
+
+    $settings->fill(['subject_weights' => ['russisch' => 1, 'mathematik' => 0]])->save();
+    $this->user->unsetRelation('scheduleSetting');
+
+    $topics = Curriculum::for($this->user)->topics();
+    expect($topics->contains(fn (Topic $t) => $t->topicArea->subject_id === $optional->id))->toBeTrue()
+        ->and($topics->contains(fn (Topic $t) => $t->topicArea->subject->slug === 'mathematik'))->toBeFalse();
+});

@@ -21,12 +21,19 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
  * @property string $state
  * @property string $curriculum_version
  * @property int $sort
+ * @property bool $optional
  */
-#[Fillable(['slug', 'name', 'description', 'icon', 'color', 'grade', 'school_type', 'state', 'curriculum_version', 'sort'])]
+#[Fillable(['slug', 'name', 'description', 'icon', 'color', 'grade', 'school_type', 'state', 'curriculum_version', 'sort', 'optional'])]
 class Subject extends Model
 {
     /** @use HasFactory<SubjectFactory> */
     use HasFactory;
+
+    /** @return array<string, string> */
+    protected function casts(): array
+    {
+        return ['optional' => 'boolean'];
+    }
 
     public function getRouteKeyName(): string
     {

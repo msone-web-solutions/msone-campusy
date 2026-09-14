@@ -46,7 +46,9 @@ class Curriculum
             ->orderBy('subjects.sort')->orderBy('topic_areas.sort')->orderBy('topics.sort')
             ->select('topics.*')
             ->with('topicArea.subject')
-            ->get();
+            ->get()
+            ->filter(fn (Topic $t) => $this->settings->isEnabled($t->topicArea->subject))
+            ->values();
         $this->progress = TopicProgress::query()->where('user_id', $user->id)->get()->keyBy('topic_id');
     }
 
@@ -71,7 +73,8 @@ class Curriculum
     }
 
     /**
-     * Alle Themen in Lehrplan-Reihenfolge.
+     * Alle Themen der aktiven Fächer in Lehrplan-Reihenfolge; abgewählte Fächer
+     * fehlen hier und damit in Plan, Lernstand und Wochenziel.
      *
      * @return Collection<int, Topic>
      */

@@ -14,6 +14,12 @@ new #[Title('Lernen')] class extends Component
     #[Url(as: 'q', except: '')]
     public string $q = '';
 
+    #[Computed]
+    public function settings(): \App\Models\ScheduleSetting
+    {
+        return \App\Models\ScheduleSetting::for(auth()->user());
+    }
+
     /**
      * Volltextsuche über Titel, Einleitung, Erklärung, Hefteintrag, Themenfeld und Fach.
      * Alle Suchwörter müssen vorkommen; Treffer im Titel stehen vorn.
@@ -148,6 +154,7 @@ new #[Title('Lernen')] class extends Component
                             ['icon' => 'bx bx-book', 'label' => $progress['total'].' Themen'],
                             ['icon' => 'bx bx-check-circle', 'label' => $progress['passed'].' bestanden'],
                         ]">
+                        @unless ($this->settings->isEnabled($subject))<p style="margin-bottom:10px"><span class="rq-badge"><i class="bx bx-pause-circle"></i>Nicht im Stundenplan</span></p>@endunless
                         <p style="font-size:14px;margin-bottom:15px">{{ $subject->description }}</p>
                         <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--text-body);margin-bottom:8px"><span>Fortschritt</span><span class="rq-num">{{ $progress['percent'] }} %</span></div>
                         <div class="rq-progress"><span style="width: {{ $progress['percent'] }}%"></span></div>
