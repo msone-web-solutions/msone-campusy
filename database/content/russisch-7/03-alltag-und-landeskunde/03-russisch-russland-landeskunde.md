@@ -73,7 +73,7 @@ Russische Schüler gehen meist elf Jahre zur selben Schule, das Schuljahr beginn
 **Russland (Россия) – Land, Symbole und Alltag**
 
 **Geografie:** größtes Land der Erde (ca. 17 Mio. km², 11 Zeitzonen), Ural trennt Europa und Asien (Sibirien), ca. 145 Mio. Einwohner
-- **Москва** (Hauptstadt): Kreml, Roter Platz (Красная площадь), Basilius-Kathedrale
+- **Москва** (Hauptstadt): Kreml, Roter Platz (Красная площадь; красный hieß früher „schön“), Basilius-Kathedrale
 - **Санкт-Петербург** (gegr. 1703 von Peter dem Großen): Eremitage, Kanäle
 - Baikalsee (tiefster See der Welt), Wolga (längster Fluss Europas)
 

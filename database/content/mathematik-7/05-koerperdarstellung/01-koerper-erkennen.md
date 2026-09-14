@@ -101,3 +101,4 @@ Quader und Würfel sind Prismen. Prismen und Pyramiden heißen nach ihrer Grundf
 **Teile:** Grundfläche G · Deckfläche · Seitenflächen / Mantel · Körperhöhe h (senkrechter Abstand Grundfläche – Deckfläche/Spitze)
 
 **Zählen:** Würfel 6 Flächen, 12 Kanten, 8 Ecken · Dreiecksprisma 5 F, 9 K, 6 E · quadratische Pyramide 5 F, 8 K, 5 E
+Prisma mit n-Eck: n + 2 Flächen, 3n Kanten, 2n Ecken (Fünfeckprisma: 15 Kanten)

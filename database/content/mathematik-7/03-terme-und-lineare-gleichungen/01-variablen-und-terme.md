@@ -114,6 +114,7 @@ explanation: "Zuletzt wird multipliziert → Produkt."
 Eine **Variable** (x, a, n …) ist ein **Platzhalter für eine Zahl**.
 
 Ein **Term** ist ein Rechenausdruck aus Zahlen, Variablen und Rechenzeichen: 3x + 5, 2 · (n − 4), x/4
+Kein Term: x = 5 (das ist eine Gleichung), 5 + · 3 (ergibt keinen Sinn)
 
 **Schreibweisen:** 3 · x = 3x        1 · x = x        x · x = x²
 

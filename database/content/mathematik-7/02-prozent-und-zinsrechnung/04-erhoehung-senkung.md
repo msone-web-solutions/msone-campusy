@@ -100,7 +100,7 @@ Ein Preis von 100 € wird erst um 10 % erhöht und dann um 10 % gesenkt. Ist er
 
 **„um 20 % gesenkt“** → man zahlt 80 %.   **„auf 20 % gesenkt“** → man zahlt 20 %.
 
-**Mehrwertsteuer 19 %:**
+**Mehrwertsteuer:** meist 19 % (Lebensmittel, Bücher: 7 %)
 Netto = ohne Steuer = 100 %        Brutto = mit Steuer = 119 %
 Brutto = Netto · 1,19        Netto = Brutto : 1,19
 Beispiel: 200 € netto → 238 € brutto
@@ -109,3 +109,9 @@ Beispiel: 200 € netto → 238 € brutto
 
 **Alten Preis zurückrechnen:** neuer Preis : Prozentfaktor
 42 € nach 30 % Rabatt → 42 : 0,7 = 60 €
+
+**Änderung in Prozent:** Änderung : alter Wert · 100
+250 → 290 Mitglieder: 40 : 250 · 100 = 16 % mehr
+
+**Zwei Änderungen nacheinander:** Die zweite bezieht sich auf den neuen Wert!
+100 € + 10 % → 110 €, dann − 10 % → 99 € (nicht 100 €)

@@ -86,3 +86,5 @@ Fremde Atome im Metallgitter → Schichten verschieben sich schwerer → Legieru
 | **585er Gold** | 58,5 % Gold + Silber + Kupfer | Schmuck (härter als reines Gold) |
 
 **Ziele des Legierens:** härter, korrosionsbeständiger, niedrigere Schmelztemperatur, andere Farbe, billiger.
+
+**Merke:** „Nordisches Gold“ (10-, 20-, 50-Cent-Münzen) = Kupfer, Aluminium, Zink, Zinn – ohne Gold. Legierungen sind schwerer zu recyceln, weil man die Bestandteile wieder trennen muss → Schrott nach Legierungen sortieren.

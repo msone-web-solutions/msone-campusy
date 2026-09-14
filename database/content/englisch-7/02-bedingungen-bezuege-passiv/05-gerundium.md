@@ -11,7 +11,7 @@ reflect: "Nenne drei Verben, nach denen das Gerund steht, und bilde mit einem da
 
 *I love **swimming**.* – *Swimming* ist hier kein Verb, das jemand gerade tut, sondern ein **Nomen**: „das Schwimmen“. Diese **-ing-Form als Nomen** heißt **Gerund** (Gerundium).
 
-Bildung wie die -ing-Form: *swim → swimming, read → reading, make → making, run → running.*
+Bildung wie die -ing-Form: *swim → swimming, read → reading, make → making* (stummes e fällt weg), *run → running* (Konsonant wird verdoppelt), *lie → lying* (ie → y).
 
 ### Nach bestimmten Verben steht das Gerund
 
@@ -66,6 +66,7 @@ explanation: "look forward to + Gerund – „to“ ist hier eine Präposition."
 **Gerund – die -ing-Form als Nomen**
 
 *Swimming is fun.* – *I love swimming.* (= das Schwimmen)
+Schreibung: *make → making* (e fällt weg) · *run → running* (Konsonant doppelt) · *lie → lying* (ie → y)
 
 **Gerund steht:**
 1. nach **like, love, enjoy, hate, don't mind, can't stand** · **start, stop, finish, keep, give up** · **suggest, avoid, go** (+ Aktivität)

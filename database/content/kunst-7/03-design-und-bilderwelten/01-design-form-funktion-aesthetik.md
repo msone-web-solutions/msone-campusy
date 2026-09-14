@@ -23,7 +23,7 @@ Gutes Design verbindet drei Dinge:
 | **Form** | Welche Gestalt, welches Material, welche Konstruktion? | Vier Beine oder Freischwinger, Holz oder Kunststoff. |
 | **Ästhetik** | Gefällt er? Passt er zu seiner Zeit und Umgebung? | schlicht und elegant oder verspielt und bunt |
 
-Der berühmte Leitsatz **„Form follows function“** (die Form folgt der Funktion) stammt aus dem frühen 20. Jahrhundert und prägte das **Bauhaus** (1919 in Weimar gegründet, ab 1925 in Dessau – also in Sachsen-Anhalt!). Bauhaus-Entwürfe wie Marcel Breuers Stahlrohrstuhl oder Wilhelm Wagenfelds Tischlampe sind schlicht, funktional und bis heute in Produktion.
+Der berühmte Leitsatz **„Form follows function“** (die Form folgt der Funktion) stammt vom amerikanischen Architekten Louis Sullivan (1896) und prägte das **Bauhaus** (1919 in Weimar gegründet, ab 1925 in Dessau – also in Sachsen-Anhalt!). Bauhaus-Entwürfe wie Marcel Breuers Stahlrohrstuhl oder Wilhelm Wagenfelds Tischlampe sind schlicht, funktional und bis heute in Produktion.
 
 Nicht jedes Design ist nüchtern: **Luigi Colani** (1928–2019) entwarf Autos, Kameras und Möbel in **organischen, runden Formen** – inspiriert von der Natur, oft futuristisch. **Karl Lagerfeld** (1933–2019) prägte als Modedesigner jahrzehntelang Chanel und zeigte, dass Mode Funktion (Kleidung) und Ausdruck (Stil, Marke) verbindet. **Jean Tinguely** (1925–1991) baute aus Schrott bewegliche Maschinen, die nichts Nützliches tun – ein ironischer Kommentar zur Technikwelt und die Grenze zwischen Design und Kunst.
 

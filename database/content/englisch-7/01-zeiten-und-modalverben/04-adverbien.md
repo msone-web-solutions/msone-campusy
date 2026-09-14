@@ -75,7 +75,7 @@ explanation: "Nach sound steht das Adjektiv: sounds beautiful."
 
 **Adjektiv** beschreibt ein Nomen: *a slow car.* – **Adverb** beschreibt ein Verb (wie?): *He drives slowly.*
 
-**Bildung:** Adjektiv + **-ly** · -y → **-ily** (*happily*) · -le → **-ly** (*terribly*) · -ic → **-ically** (*fantastically*)
+**Bildung:** Adjektiv + **-ly** · -y → **-ily** (*happily*) · -le → **-ly** (*terribly*) · -ic → **-ically** (*fantastically*) · -ll → **-lly** (*fully*)
 
 **Ausnahmen:** good → **well** · fast → **fast** · hard → **hard** · late → **late** · early → **early**
 Falsche Freunde: *hardly* = kaum, *lately* = in letzter Zeit · *friendly, lovely, silly* = Adjektive

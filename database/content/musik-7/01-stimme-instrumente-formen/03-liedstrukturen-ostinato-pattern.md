@@ -84,6 +84,6 @@ Das Wechselspiel zwischen Gruppen kennst du auch aus der Popmusik: Strophe leise
 
 **Musikalische Kontraste im Barock:**
 - **Suite:** Folge von Tanzsätzen mit wechselndem Charakter (Allemande, Courante, Sarabande, Gigue; Menuett, Gavotte) – Bach: Orchestersuiten, Händel: „Wassermusik“
-- **Concerto grosso:** Solistengruppe (**Concertino**) gegen ganzes Orchester (**Tutti**) – Bach: „Brandenburgische Konzerte“
+- **Concerto grosso:** Solistengruppe (**Concertino**) gegen ganzes Orchester (**Tutti** / Ripieno) – Bach: „Brandenburgische Konzerte“
 
 **Merke:** Kontraste (laut/leise, viele/wenige, schnell/langsam) machen Musik spannend – im Barock wie im Pop.

@@ -1,0 +1,11 @@
+Gewichtskraft und Masse.
+
+Hallo! Masse und Gewichtskraft werden im Alltag oft verwechselt, in der Physik sind es zwei verschiedene Größen. Die Masse m ist die Menge an Stoff in einem Körper. Ihre Einheit ist das Kilogramm, gemessen mit der Balkenwaage. Die Masse ist überall gleich, egal wo im Weltall.
+
+Die Gewichtskraft F G ist die Kraft, mit der die Erde oder ein anderer Himmelskörper einen Körper anzieht. Sie wirkt senkrecht nach unten. Ihre Einheit ist das Newton, gemessen mit dem Federkraftmesser.
+
+Beides verbindet die Formel F G gleich m mal g. Das g ist der Ortsfaktor. Auf der Erde beträgt er etwa zehn Newton pro Kilogramm, genau neun Komma acht eins. Auf dem Mond nur eins Komma sechs, auf dem Mars drei Komma sieben, auf dem Jupiter fünfundzwanzig Newton pro Kilogramm.
+
+Ein Beispiel: Ein Körper hat sechs Kilogramm Masse. Seine Gewichtskraft auf der Erde ist sechs Kilogramm mal zehn Newton pro Kilogramm, also sechzig Newton. Auf dem Mond wären es nur etwa zehn Newton.
+
+Merke: Die Masse bleibt überall gleich, die Gewichtskraft hängt vom Ort ab. Auf dem Mond ist sie nur etwa ein Sechstel so groß wie auf der Erde. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

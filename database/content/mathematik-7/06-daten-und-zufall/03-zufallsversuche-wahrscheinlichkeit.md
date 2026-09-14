@@ -107,3 +107,5 @@ Urne mit 5 roten und 3 schwarzen Kugeln: P(rot) = 5/8
 **0 ≤ P(A) ≤ 1** · P(unmöglich) = 0 · P(sicher) = 1
 
 Zwei Würfel: 36 gleich wahrscheinliche Kombinationen zählen! P(Summe 7) = 6/36 = 1/6
+
+Nicht gleich wahrscheinlich (Reißzwecke, gezinkter Würfel): P nicht berechnen, sondern durch viele Versuche **schätzen**.

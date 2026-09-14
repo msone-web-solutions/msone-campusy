@@ -81,7 +81,9 @@ Das Gesetz von der Erhaltung der Masse ist eines der Fundamente der Chemie. Es e
 
 ## Hefteintrag
 
-**Das Gesetz von der Erhaltung der Masse** (Lavoisier, um 1780)
+**Das Gesetz von der Erhaltung der Masse**
+
+Entdeckt von Lavoisier (um 1780) durch Wiegen in geschlossenen Gefäßen.
 
 **Bei einer chemischen Reaktion ist die Masse der Ausgangsstoffe gleich der Masse der Reaktionsprodukte.**
 Masse der Edukte = Masse der Produkte

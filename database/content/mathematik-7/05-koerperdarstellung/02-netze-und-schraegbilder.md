@@ -113,7 +113,7 @@ Quadratische Pyramide: 1 Quadrat + 4 Dreiecke · Zylinder: 2 Kreise + 1 Rechteck
 **Schrägbild** (räumliche Zeichnung):
 1. Vorderseite in wahrer Größe
 2. Kanten nach hinten unter **α = 45°** nach rechts oben
-3. schräge Kanten auf die **Hälfte verkürzt (q = 1/2)**: 4 cm Tiefe → 2 cm zeichnen
+3. schräge Kanten auf die **Hälfte verkürzt (q = 1/2)**: 4 cm Tiefe → 2 cm zeichnen (rückwärts: gezeichnete Länge · 2 = wahre Länge)
 4. verdeckte Kanten **gestrichelt**
 
 Quader 5 × 4 × 3 cm: vorne Rechteck 5 × 3 cm, Schrägkanten 2 cm, hinteres Rechteck verbinden.

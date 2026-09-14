@@ -62,10 +62,10 @@
   explanation: "Innen- und Außenwinkel ergänzen sich zu 180°."
 - key: q11
   type: numeric
-  prompt: "Die Winkel eines Vierecks verhalten sich wie 1 : 2 : 3 : 6. Wie groß ist der größte Winkel?"
+  prompt: "Die Winkel eines Vierecks verhalten sich wie 2 : 3 : 4 : 6. Wie groß ist der größte Winkel?"
   options: { unit: "°" }
-  answer: { value: 180 }
-  explanation: "12 Teile = 360°, ein Teil = 30°, der größte Winkel = 6 · 30° = 180°. (Ein entarteter Fall – die Ecke liegt auf einer Geraden.)"
+  answer: { value: 144 }
+  explanation: "15 Teile = 360°, ein Teil = 24°, der größte Winkel = 6 · 24° = 144°."
 - key: q12
   type: single_choice
   prompt: "In einem Viereck sind alle vier Winkel gleich groß. Wie groß ist jeder?"

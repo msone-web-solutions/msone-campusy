@@ -38,7 +38,7 @@ explanation: "Die Tora umfasst die fünf Bücher Mose."
 
 ### Station 2: Der Zwölfjährige im Tempel (Lk 2,41–52)
 
-Jedes Jahr pilgerte die Familie zum **Pessachfest** nach Jerusalem, wie es fromme Juden taten. Als Jesus zwölf war – im Judentum das Alter, in dem ein Junge religiös mündig wird (heute: **Bar Mizwa**) –, blieb er nach dem Fest im Tempel zurück, ohne dass die Eltern es merkten. Nach drei Tagen fanden sie ihn „mitten unter den Lehrern, wie er ihnen zuhörte und sie fragte“. Alle staunten über seinen Verstand. Auf den Vorwurf der Mutter antwortete er: „Wusstet ihr nicht, dass ich sein muss in dem, was meines Vaters ist?“
+Jedes Jahr pilgerte die Familie zum **Pessachfest** nach Jerusalem, wie es fromme Juden taten. Als Jesus zwölf war – kurz vor dem Alter von 13 Jahren, in dem ein jüdischer Junge religiös mündig wird (heute: **Bar Mizwa**) –, blieb er nach dem Fest im Tempel zurück, ohne dass die Eltern es merkten. Nach drei Tagen fanden sie ihn „mitten unter den Lehrern, wie er ihnen zuhörte und sie fragte“. Alle staunten über seinen Verstand. Auf den Vorwurf der Mutter antwortete er: „Wusstet ihr nicht, dass ich sein muss in dem, was meines Vaters ist?“
 
 Die Geschichte zeigt: Jesus kannte die Tora genau, diskutierte wie ein junger Gelehrter mit den Rabbinern und fühlte sich im Tempel zu Hause – und er sprach von Gott als seinem **Vater**.
 
@@ -77,7 +77,7 @@ Jahrhundertelang haben Christen vergessen oder verdrängt, dass Jesus Jude war, 
 
 **Jüdische Stationen im Leben Jesu:**
 1. **Beschneidung** am 8. Tag (Lk 2,21) – Bundeszeichen, Name Jeschua = „Gott rettet“
-2. **Zwölfjähriger im Tempel** (Lk 2,41–52) – religiöse Mündigkeit, diskutiert mit den Lehrern, nennt Gott „Vater“
+2. **Zwölfjähriger im Tempel** (Lk 2,41–52) – kurz vor der religiösen Mündigkeit (Bar Mizwa mit 13), diskutiert mit den Lehrern, nennt Gott „Vater“
 3. **Pessachmahl** (Lk 22,7) – Erinnerung an Auszug aus Ägypten; Jesus deutet Brot und Wein neu → **Abendmahl**
 
 **Bedeutung heute:** Judentum = **Wurzel** des Christentums (Röm 11,18); Respekt statt Judenfeindschaft

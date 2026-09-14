@@ -121,3 +121,6 @@ Mit 150 m Aufstieg: −165 + 150 = **−15 m**. Das U-Boot ist 15 m unter der Ob
 
 **Beispiele:**
 −7 + 12 = 5        −7 − 12 = −19        4 − 9 = −5        −4 − (−9) = 5
+
+**Mehrere Zahlen:** Plus-Zahlen und Minus-Zahlen getrennt sammeln.
+−8 + 5 − 3 + 10 = (5 + 10) + (−8 − 3) = 15 − 11 = 4

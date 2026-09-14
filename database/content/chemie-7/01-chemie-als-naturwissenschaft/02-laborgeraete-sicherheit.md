@@ -101,7 +101,7 @@ Beispiel: Wasser im Becherglas erhitzen. Du brauchst Stativ, Dreifuß mit Drahtn
 
 **Laborgeräte und sicheres Experimentieren**
 
-**Geräte:** Reagenzglas (kleine Mengen, mit Halter erhitzen) · Becherglas (mischen, ungefähr abmessen) · Erlenmeyerkolben (schwenken) · Messzylinder (genau abmessen) · Trichter + Filterpapier (filtern) · Dreifuß + Drahtnetz (erhitzen) · Stativ mit Muffe und Klemme · Spatel · Tiegelzange · Uhrglas · Pipette
+**Geräte:** Reagenzglas (kleine Mengen, mit Halter erhitzen) · Becherglas (mischen, ungefähr abmessen) · Erlenmeyerkolben (schwenken) · Messzylinder (genau abmessen) · Trichter + Filterpapier (filtern) · Dreifuß + Drahtnetz (erhitzen; Netz verteilt die Hitze, Glas springt nicht) · Stativ mit Muffe und Klemme · Spatel · Tiegelzange · Uhrglas · Pipette
 
 **Gasbrenner:**
 - Luftzufuhr **zu** → gelbe, **leuchtende Flamme** (ca. 600 °C, gut sichtbar, „Sparflamme“)

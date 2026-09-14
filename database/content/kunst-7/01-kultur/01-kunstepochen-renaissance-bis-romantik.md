@@ -87,10 +87,10 @@ explanation: "Der Zwinger (Pöppelmann, Permoser) steht für den Barock; Friedri
 
 | Epoche | Zeit | Merkmale | Künstler |
 |---|---|---|---|
-| **Renaissance** | 1400–1600 | Antike als Vorbild, Mensch im Mittelpunkt, **Zentralperspektive**, klare Ordnung, Proportionen | Leonardo da Vinci, Michelangelo, Raffael, Dürer |
-| **Barock** | 1600–1750 | **Pracht, Bewegung**, Diagonalen, **Hell-Dunkel**, Gesamtkunstwerk | Rubens, Rembrandt, Pöppelmann/Permoser (Zwinger) |
-| **Klassizismus** | 1770–1830 | **Strenge**, Symmetrie, Säulen, Antike, Vernunft | Schinkel, Brandenburger Tor |
-| **Romantik** | 1790–1850 | **Gefühl, Sehnsucht, Natur**, Nebel, **Rückenfigur** | Caspar David Friedrich, Runge |
+| **Renaissance** | 1400–1600 | Antike als Vorbild, Mensch im Mittelpunkt, **Zentralperspektive**, klare Ordnung, Proportionen | Leonardo da Vinci („Mona Lisa“), Michelangelo („David“), Raffael, Dürer („Feldhase“) |
+| **Barock** | 1600–1750 | **Pracht, Bewegung**, Diagonalen, **Hell-Dunkel**, Gesamtkunstwerk | Rubens, Rembrandt („Die Nachtwache“), Pöppelmann/Permoser (Dresdner Zwinger) |
+| **Klassizismus** | 1770–1830 | **Strenge**, Symmetrie, Säulen, Antike, Vernunft | Schinkel, Brandenburger Tor (1791) |
+| **Romantik** | 1790–1850 | **Gefühl, Sehnsucht, Natur**, Nebel, **Rückenfigur** | Caspar David Friedrich („Wanderer über dem Nebelmeer“), Runge |
 
 **Auftraggeber:** Kirche und Fürsten (Renaissance, Barock) → Staat und Bürgertum (Klassizismus, Romantik)
 **Künstlerpersönlichkeit:** ab der Renaissance signieren Künstler ihre Werke und malen Selbstbildnisse (Dürer, Rembrandt).

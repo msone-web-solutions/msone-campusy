@@ -140,4 +140,6 @@ Parallelogramm a = 8 cm, h = 5 cm: A = 40 cm²
 Raute e = 10 cm, f = 6 cm: A = 30 cm²
 Trapez a = 9 cm, c = 5 cm, h = 4 cm: A = (9 + 5) : 2 · 4 = 28 cm²
 
+**Rückwärts:** Parallelogramm A = 54 cm², a = 9 cm → h = A : a = 6 cm
+
 **Einheiten:** 1 m² = 100 dm² = 10 000 cm² · 1 cm² = 100 mm² · 1 ha = 10 000 m²

@@ -99,7 +99,7 @@ Ecken A, B, C, D gegen den Uhrzeigersinn · Seiten a, b, c, d · Winkel α, β, 
 
 | Viereck | Kennzeichen |
 |---|---|
-| **Trapez** | ein Paar gegenüberliegender Seiten parallel |
+| **Trapez** | mindestens ein Paar gegenüberliegender Seiten parallel |
 | **Parallelogramm** | beide Paare gegenüberliegender Seiten parallel |
 | **Rechteck** | Parallelogramm mit 4 rechten Winkeln |
 | **Raute** | Parallelogramm mit 4 gleich langen Seiten |
@@ -108,4 +108,4 @@ Ecken A, B, C, D gegen den Uhrzeigersinn · Seiten a, b, c, d · Winkel α, β, 
 
 **Haus der Vierecke:** Von unten nach oben kommen Eigenschaften dazu.
 Jedes Quadrat ist auch Rechteck, Raute, Parallelogramm, Trapez und Drachen.
-Jedes Rechteck und jede Raute ist ein Parallelogramm. Jedes Parallelogramm ist ein Trapez.
+Jedes Rechteck und jede Raute ist ein Parallelogramm. Jedes Parallelogramm ist ein Trapez. Jede Raute ist ein Drachen.

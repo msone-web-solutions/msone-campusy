@@ -107,4 +107,4 @@ Gegeben ist die Zahl −6.
 Schreibweise: |−5| = 5 und |5| = 5
 
 **Gegenzahl:** Zwei Zahlen mit gleichem Betrag, aber verschiedenem Vorzeichen, heißen Gegenzahlen.
-Die Gegenzahl von 4 ist −4. Die Gegenzahl von −7 ist 7.
+Die Gegenzahl von 4 ist −4. Die Gegenzahl von −7 ist 7. Die Gegenzahl von 0 ist 0.

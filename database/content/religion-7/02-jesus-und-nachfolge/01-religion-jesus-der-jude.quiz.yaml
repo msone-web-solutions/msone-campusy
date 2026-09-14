@@ -27,7 +27,7 @@
   prompt: "Wie alt war Jesus, als er im Tempel mit den Lehrern diskutierte?"
   options: ["8 Tage", "7 Jahre", "12 Jahre", "30 Jahre"]
   answer: { index: 2 }
-  explanation: "Lk 2,41–52 – mit zwölf gilt ein jüdischer Junge als religiös mündig."
+  explanation: "Lk 2,41–52 – Jesus war zwölf, kurz vor der religiösen Mündigkeit (Bar Mizwa mit 13)."
 - key: q6
   type: multiple_choice
   prompt: "Welche Ereignisse zeigen Jesus als Juden?"

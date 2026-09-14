@@ -111,7 +111,7 @@ Angenommen, bei einer Altersaufgabe kommt x = −3 heraus. Rechnerisch mag alles
 4. Gleichung lösen
 5. Probe am Text + Antwortsatz
 
-**Übersetzen:** ist/ergibt = · mehr als + · weniger als − · das Doppelte 2x · die Hälfte x/2
+**Übersetzen:** ist/ergibt = · mehr als + · weniger als − · das Doppelte 2x · die Hälfte x/2 · drei aufeinanderfolgende Zahlen x, x + 1, x + 2
 
 **Beispiel:** Papa ist 3-mal so alt wie Ben, zusammen 48 Jahre.
 x = Alter von Ben in Jahren, Papa: 3x

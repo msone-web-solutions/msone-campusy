@@ -91,4 +91,4 @@ Niemand hat je ein einzelnes Teilchen schwingen sehen. Trotzdem erklärt das Tei
 - Gase: am stärksten (Heißluftballon)
 
 **Anomalie des Wassers:** Wasser hat bei **4 °C** die größte Dichte. Unter 4 °C dehnt es sich wieder aus; Eis hat ca. 9 % mehr Volumen.
-Folgen: Eis schwimmt · Seen frieren von oben zu (unten 4 °C – Fische überleben) · Frostsprengung · Leitungen platzen → im Winter entleeren, Frostschutz.
+Folgen: Eis schwimmt · Seen frieren von oben zu (unten 4 °C – Fische überleben) · Frostsprengung · Leitungen platzen → vor dem Winter entleeren, Frostschutz.

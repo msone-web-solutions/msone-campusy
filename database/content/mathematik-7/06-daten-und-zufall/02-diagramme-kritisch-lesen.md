@@ -87,11 +87,12 @@ explanation: "Eine abgeschnittene Achse übertreibt Unterschiede."
 
 **Diagramme erstellen und kritisch lesen**
 
-**Diagramm wählen:** Vergleich → Säulendiagramm · Anteile am Ganzen → Kreisdiagramm · Verlauf über die Zeit → Liniendiagramm
+**Diagramm wählen:** Vergleich → Säulendiagramm · Anteile am Ganzen → Kreisdiagramm (Winkel = h · 360°) · Verlauf über die Zeit → Liniendiagramm
 
 **Sauber zeichnen:** Überschrift · Achsen beschriften (mit Einheit) · Skala gleichmäßig ab 0 · Säulen gleich breit · ggf. Legende
 
 **Auswerten:** größter/kleinster Wert · Unterschied · Trend · Gesamtzahl n
+Änderung in Prozent: Unterschied : Anfangswert · 100. Von 40 auf 30 Unfälle: 10 : 40 = 25 % weniger
 
 **Tricks erkennen:**
 1. Abgeschnittene Achse (beginnt nicht bei 0) → Unterschiede wirken größer

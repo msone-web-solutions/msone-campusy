@@ -102,7 +102,7 @@ Auf dem Mac steht Cmd statt Strg.
 
 Eine **Tabellenkalkulation** ist ein Programm für Tabellen, die rechnen können (Excel, Calc, Google Tabellen).
 
-**Aufbau:** Spalten A, B, C … (senkrecht) · Zeilen 1, 2, 3 … (waagerecht) · **Zelle** = Kreuzung, z. B. **B3** (Spalte B, Zeile 3) · **Bereich** z. B. **A1:A10**
+**Aufbau:** Spalten A, B, C … (senkrecht) · Zeilen 1, 2, 3 … (waagerecht) · **Zelle** = Kreuzung, z. B. **B3** (Spalte B, Zeile 3) · **Bereich** z. B. **A1:A10** · Adresse der aktiven Zelle steht im **Namensfeld** (links oben), ihr Inhalt in der Eingabezeile
 
 **Datensatz:** 1. Zeile = Überschriften, jede weitere Zeile = ein Eintrag, jede Spalte = eine Angabe.
 

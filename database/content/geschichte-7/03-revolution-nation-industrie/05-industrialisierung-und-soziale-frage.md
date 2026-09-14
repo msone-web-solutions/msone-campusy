@@ -94,12 +94,12 @@ Was tun mit stillgelegten Fabriken und Tagebauen? In **Ferropolis** bei Gräfenh
 
 **Bedingungen:** Rohstoffe (Kohle, Eisen), freie Arbeitskräfte, Zollverein, Kapital, Erfinder.
 
-**Phasen:** Frühindustrialisierung (bis 1835) – industrieller Durchbruch (**Eisenbahn** als Motor, 1835–1870) – Hochindustrialisierung (Chemie, Elektro, ab 1870).
+**Phasen:** Frühindustrialisierung (bis 1835; 1835 erste Eisenbahn Nürnberg–Fürth) – industrieller Durchbruch (**Eisenbahn** als Motor, 1835–1870) – Hochindustrialisierung (Chemie, Elektro, ab 1870).
 
 **Folgen:** Umweltverschmutzung (Rauch, Abwasser), **Klassengesellschaft** (Bürgertum – Arbeiter), **Urbanisierung**.
 
 **Soziale Frage:** 12–16 h Arbeit, **Kinderarbeit**, Hungerlöhne, keine Absicherung, Wohnungsnot.
-**Antworten:** **Arbeiterbewegung** (Lassalle 1863, Bebel/Liebknecht 1869 → SPD; Gewerkschaften), Kirchen (Wichern, Kolping), Unternehmer (Werkswohnungen), Staat (**Sozialversicherung** 1883/84/89 unter Bismarck).
+**Antworten:** **Arbeiterbewegung** (Lassalle 1863, Bebel/Liebknecht 1869 → SPD; Gewerkschaften), Kirchen (Wichern, Kolping), Unternehmer (Werkswohnungen), Staat (Bismarck: Sozialistengesetz 1878, aber **Sozialversicherung**: Kranken- 1883, Unfall- 1884, Altersversicherung 1889).
 
 **Sachsen-Anhalt:** **Zucker** (Magdeburger Börde), **Maschinenbau** (Magdeburg: Gruson, Wolf), **Kali** (Staßfurt 1861, erstes Kalibergwerk der Welt), **Braunkohle** und **Chemie** (Bitterfeld), Kupfer (Mansfeld).
 

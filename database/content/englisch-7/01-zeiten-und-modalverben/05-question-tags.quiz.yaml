@@ -29,7 +29,7 @@
 - key: q5
   type: single_choice
   prompt: "„I'm right, …“"
-  options: ["amn't I?", "am I not?", "aren't I?", "don't I?"]
+  options: ["amn't I?", "isn't I?", "aren't I?", "don't I?"]
   answer: { index: 2 }
   explanation: "Nach I am lautet der tag aren't I?"
 - key: q6

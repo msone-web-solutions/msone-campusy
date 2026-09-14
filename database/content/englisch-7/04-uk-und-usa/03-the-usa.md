@@ -9,7 +9,7 @@ reflect: "Nenne drei Naturwunder der USA und den Staat, in dem sie liegen."
 
 ### Ein Land aus 50 Staaten
 
-Die **United States of America** bestehen aus **50 states** – 48 zusammenhängende, dazu **Alaska** (im Nordwesten, an Kanada) und **Hawaii** (Inseln im Pazifik). Die Hauptstadt ist **Washington, D.C.** (*District of Columbia* – gehört zu keinem Staat). Rund **335 Millionen** Menschen leben in den USA, auf einer Fläche, die 26-mal so groß ist wie Deutschland.
+Die **United States of America** bestehen aus **50 states** – 48 zusammenhängende, dazu **Alaska** (im Nordwesten, an Kanada) und **Hawaii** (Inseln im Pazifik). Die Hauptstadt ist **Washington, D.C.** (*District of Columbia* – gehört zu keinem Staat). Rund **335 Millionen** Menschen leben in den USA, auf einer Fläche, die rund 27-mal so groß ist wie Deutschland.
 
 Jeder Staat hat eine eigene Hauptstadt, eigene Gesetze und Schulregeln. Die Flagge, **the Stars and Stripes**, zeigt **50 Sterne** (Staaten) und **13 Streifen** (die Gründungskolonien von 1776). Staatsoberhaupt und Regierungschef ist der **President**, Sitz: das **White House**.
 

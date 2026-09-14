@@ -64,7 +64,7 @@ explanation: "Magensaft spaltet Eiweiße; die Aufnahme ins Blut geschieht über 
 
 Der Körper braucht alle Nährstoffe im richtigen Verhältnis. Empfohlen wird: viel Gemüse und Obst (5 Portionen am Tag), Vollkornprodukte, ausreichend Wasser, wenig Zucker, wenig Fett und wenig Fertigprodukte. Die **Ernährungspyramide** zeigt das anschaulich: unten viel Wasser und Gemüse, oben wenig Süßes.
 
-Werbung erzählt oft etwas anderes. Ein Frühstücksflocken-Riegel „mit wertvollen Vitaminen“ kann zu einem Drittel aus Zucker bestehen; „Fruchtjoghurt“ enthält oft mehr Zucker als Frucht. Ein Blick auf die **Zutatenliste** und die **Nährwerttabelle** verrät mehr als das Bild auf der Packung. Dauerhaft zu viel Zucker und Fett führen zu Übergewicht, Diabetes und Herzkrankheiten.
+Werbung erzählt oft etwas anderes. Ein Frühstücksflocken-Riegel „mit wertvollen Vitaminen“ kann zu einem Drittel aus Zucker bestehen; „Fruchtjoghurt“ enthält oft mehr Zucker als Frucht. Ein Blick auf die **Zutatenliste** und die **Nährwerttabelle** verrät mehr als das Bild auf der Packung. Dauerhaft zu viel Zucker und Fett führt zu Übergewicht, Diabetes und Herzkrankheiten.
 
 **Merksatz:** Nährstoffe werden von Enzymen in ihre Bausteine zerlegt und im Dünndarm ins Blut aufgenommen.
 

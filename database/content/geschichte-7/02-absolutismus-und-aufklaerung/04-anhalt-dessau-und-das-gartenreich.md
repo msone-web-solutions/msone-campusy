@@ -87,6 +87,6 @@ Wenn du dir das Gartenreich auf der Website der Kulturstiftung oder der UNESCO a
 - **Bildung:** **Philanthropinum** (1774, **Basedow**) – Reformschule ohne Prügel, praxisnah
 - **Toleranz:** Rechte für Juden, **Synagoge** in Wörlitz (1790) neben der Kirche
 
-**Dessau-Wörlitzer Gartenreich** (ab 1764, ca. 142 km²): erster Landschaftsgarten auf dem Festland, für alle offen, Bauwerke als Lehrstücke (Schloss Wörlitz 1769–73 – erster Bau des Klassizismus, Gotisches Haus, Vulkan, Synagoge). Seit **2000 UNESCO-Welterbe**.
+**Dessau-Wörlitzer Gartenreich** (ab 1764, ca. 142 km²): erster Landschaftsgarten auf dem Festland, für alle offen, Bauwerke als Lehrstücke (Schloss Wörlitz 1769–73 – erster Bau des Klassizismus in Deutschland, Gotisches Haus, Vulkan, Synagoge). Seit **2000 UNESCO-Welterbe**.
 
 **Personen:** **Moses Mendelssohn** (Dessau, jüdischer Philosoph), **Gleim** (Halberstadt, Dichter, Freundschaftstempel), **Dorothea Erxleben** (Quedlinburg, erste Ärztin mit Doktortitel 1754).

@@ -83,11 +83,11 @@ Glüh- und Halogenlampen dürfen in den Restmüll. Energiesparlampen und LEDs si
 | Lichtausbeute | ca. 5 % | ca. 10 % | ca. 25 % | 30 – 40 % |
 | Lebensdauer | 1 000 h | 2 000 h | 10 000 h | bis 50 000 h |
 | Leistung für 800 lm | 60 W | 42 W | 14 W | 8 – 10 W |
-| Entsorgung | Restmüll | Restmüll | Sondermüll (Quecksilber) | Elektroschrott |
+| Entsorgung | Restmüll | Restmüll | Sammelstelle (Quecksilber!) | Sammelstelle (Elektroschrott) |
 
 **Watt (W)** = aufgenommene elektrische **Leistung** · **Lumen (lm)** = Helligkeit (**Lichtstrom**) · **Lichtausbeute** = lm/W
 
-**Energie berechnen:** E = P · t · Einheit **kWh** (1 kWh = 1 000 W · 1 h)
+**Energie berechnen:** E = P · t · Einheit **kWh** (1 kWh = 1 000 W · 1 h; ca. 0,35 € pro kWh)
 Beispiel: 60 W · 1 460 h = 87,6 kWh; 9 W · 1 460 h = 13,1 kWh
 
 **EU-Energielabel:** Klassen **A** (sehr effizient) bis **G**; außerdem Lumen, Watt, Lebensdauer, Lichtfarbe in Kelvin.

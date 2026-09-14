@@ -99,7 +99,7 @@ Alle Stoffe bestehen aus **Atomen**. Ein **Element** besteht aus einer einzigen 
 
 Das erklärt: Leitfähigkeit (Elektronen wandern) · Wärmeleitung · Verformbarkeit (Schichten verschieben sich, Elektronengas hält) · Glanz.
 
-**Periodensystem (PSE):** 118 Elemente nach Ordnungszahl. Zeilen = **Perioden**, Spalten = **Gruppen** (ähnliche Eigenschaften).
+**Periodensystem (PSE):** 118 Elemente nach **Ordnungszahl** (= Zahl der Protonen im Kern). Zeilen = **Perioden**, Spalten = **Gruppen** (ähnliche Eigenschaften).
 Metalle links und Mitte, Nichtmetalle rechts oben, Halbmetalle auf der Treppenlinie.
 Gruppe 1 = Alkalimetalle (Na, K: sehr unedel), Gruppe 2 = Erdalkalimetalle (Mg, Ca), Mitte = Übergangsmetalle (Fe, Cu, Zn, Au).
 Je weiter links und unten, desto unedler.

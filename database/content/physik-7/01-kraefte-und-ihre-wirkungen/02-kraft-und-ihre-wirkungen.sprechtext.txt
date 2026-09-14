@@ -1,0 +1,11 @@
+Kräfte erkennen und messen.
+
+Hallo! Eine Kraft kannst du nicht sehen, nur ihre Wirkungen. Davon gibt es zwei. Erstens die Verformung eines Körpers. Zweitens die Bewegungsänderung: Ein Körper wird schneller, langsamer oder ändert seine Richtung.
+
+Bei der Verformung unterscheidest du elastisch und plastisch. Elastisch heißt: Der Körper federt zurück, wie eine Feder, ein Gummiband oder ein Schwamm. Plastisch heißt: Der Körper bleibt verformt, wie Knete, Alufolie oder Blech.
+
+Das Formelzeichen der Kraft ist F, die Einheit heißt Newton, abgekürzt N. Tausend Newton sind ein Kilonewton. Ein Newton ist ungefähr die Kraft, mit der eine Tafel Schokolade von hundert Gramm auf deine Hand drückt. Ein Kilogramm drückt mit etwa zehn Newton.
+
+Gemessen wird mit dem Federkraftmesser. Die Verlängerung der Feder ist proportional zur Kraft, das ist das Hookesche Gesetz: doppelte Kraft, doppelte Verlängerung. Im Diagramm ergibt das eine Gerade durch den Nullpunkt.
+
+Beim Messen beachtest du vier Dinge: Nullstellung prüfen, Messbereich beachten, senkrecht ablesen und ruhig halten. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

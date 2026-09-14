@@ -33,7 +33,7 @@ Wenn Gott seine Gnade schenkt, ist der Ablasshandel Betrug. Am **31. Oktober 151
 
 ### Der Reichstag zu Worms (1521)
 
-Der Papst forderte Luther zum Widerruf auf und schloss ihn 1520 aus der Kirche aus (**Bann**). Luther verbrannte die Bannandrohung öffentlich. 1521 musste er vor Kaiser **Karl V.** auf dem **Reichstag in Worms** erscheinen. Auf die Frage, ob er widerrufe, antwortete er: Er könne nur widerrufen, wenn man ihn aus der Heiligen Schrift widerlege. „Mein Gewissen ist gefangen in Gottes Wort … Gott helfe mir. Amen.“ (Der berühmte Satz „Hier stehe ich, ich kann nicht anders“ wurde später hinzugefügt.)
+Der Papst forderte Luther zum Widerruf auf und drohte ihm 1520 den **Bann** an. Luther verbrannte die Bannandrohung öffentlich und wurde Anfang 1521 aus der Kirche ausgeschlossen. Im April 1521 musste er vor Kaiser **Karl V.** auf dem **Reichstag in Worms** erscheinen. Auf die Frage, ob er widerrufe, antwortete er: Er könne nur widerrufen, wenn man ihn aus der Heiligen Schrift widerlege. „Mein Gewissen ist gefangen in Gottes Wort … Gott helfe mir. Amen.“ (Der berühmte Satz „Hier stehe ich, ich kann nicht anders“ wurde später hinzugefügt.)
 
 Der Kaiser verhängte die **Reichsacht**: Luther war vogelfrei, jeder durfte ihn töten. Sein Landesherr, Kurfürst **Friedrich der Weise**, ließ ihn zum Schein entführen und auf der **Wartburg** verstecken. Dort übersetzte Luther als „Junker Jörg“ in nur elf Wochen das **Neue Testament** ins Deutsche – so konnten alle die Bibel selbst lesen.
 
@@ -75,7 +75,7 @@ Die Reformation war eine mitteldeutsche Bewegung: **Eisleben** (Geburt und Tod L
 
 **31. Oktober 1517:** **95 Thesen** gegen den Ablass an der Schlosskirche **Wittenberg** → Reformationstag
 
-**1521 Reichstag zu Worms:** kein Widerruf vor Kaiser Karl V. („Mein Gewissen ist gefangen in Gottes Wort“) → **Reichsacht** → Versteck auf der **Wartburg**, Übersetzung des Neuen Testaments
+**1521 Reichstag zu Worms:** kein Widerruf vor Kaiser Karl V. („Mein Gewissen ist gefangen in Gottes Wort“) → **Reichsacht** → Kurfürst Friedrich der Weise versteckt ihn auf der **Wartburg**, Übersetzung des Neuen Testaments
 
 **Vier Sola:** **sola scriptura** (allein die Schrift) · **sola gratia** (allein Gnade) · **sola fide** (allein Glaube) · **solus Christus** (allein Christus)
 

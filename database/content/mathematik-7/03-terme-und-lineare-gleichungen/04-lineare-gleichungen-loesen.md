@@ -138,5 +138,7 @@ Probe: 3 · 5 + 7 = 22 ✓
 x/5 + 2 = 6 | − 2 → x/5 = 4 | · 5 → x = 20
 
 **Vorher vereinfachen,** wenn nötig: 2x + 5 + 3x = 30 → 5x + 5 = 30 → x = 5
+**Mit Klammer:** 3 · (x − 2) = 18 | : 3 → x − 2 = 6 | + 2 → x = 8
+**Achtung:** Eine Umformung gilt immer für die **ganze Seite**: (2x + 6) : 2 = x + 3, nicht x + 6.
 
 **Immer die Probe machen!**

@@ -103,7 +103,7 @@ Ein Rechteck hat die Seiten x und x + 3. Umfang: x + (x + 3) + x + (x + 3) = **4
 
 **Gleichartige Glieder zusammenfassen** (gleiche Variable):
 3x + 5x = 8x        7a − 2a = 5a        4y − 9y = −5y
-3x + 5y und 3x + 5 kann man **nicht** zusammenfassen.
+3x + 5y, 3x + 5 und 2x + x² kann man **nicht** zusammenfassen (nicht gleichartig).
 
 **Ordnen und zusammenfassen:**
 5x + 3 − 2x + 8 = 3x + 11

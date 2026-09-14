@@ -85,7 +85,7 @@ Zeitformen einheitlich? · 3. Person -s? · Rechtschreibung (Wörterbuch!)? · S
 
 **Texte schreiben**
 
-Vorher: Wer liest? Welcher Zweck? Welche Struktur? → Stichpunkte sammeln → schreiben → Korrektur lesen
+Vorher: Wer liest? Welcher Zweck? Welche Struktur? → Stichpunkte sammeln → schreiben → Korrektur lesen (Zeitformen, 3. Person -s, Rechtschreibung, Großschreibung, Absätze)
 
 **Blog post:** persönlich, locker · Titel · *Hi everyone!* · erzählen (simple past) + Gefühle/Meinung · Schluss mit Frage: *What about you?* · Kommentar kurz und freundlich
 

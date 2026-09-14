@@ -128,6 +128,7 @@ Rechenvorteil: (−4) · 7 · (−25) = 100 · 7 = 700
 **Vorrangregeln:** Klammern → Potenzen → Punkt vor Strich → von links nach rechts
 −3 + 4 · (−2) = −3 − 8 = −11
 
+**Potenzen:** 2⁴ = 2 · 2 · 2 · 2 = 16 (2 = Basis, 4 = Exponent)
 **Potenzen mit negativer Basis:**
 (−2)² = 4        (−2)³ = −8
 Gerader Exponent → positiv, ungerader Exponent → negativ.

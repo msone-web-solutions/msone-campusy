@@ -25,10 +25,10 @@
   explanation: "Die zugeführte Energie (Schmelzwärme) wird gebraucht, um die Anziehungskräfte zwischen den Teilchen zu überwinden – nicht, um sie schneller zu machen."
 - key: q5
   type: single_choice
-  prompt: "Welchen Aggregatzustand hat Wasser bei Normbedingungen (0 °C)?"
-  options: ["flüssig", "fest", "gasförmig", "flüssig und gasförmig"]
-  answer: { index: 1 }
-  explanation: "Bei 0 °C ist Wasser gerade fest (Eis) – das ist die Schmelz- bzw. Erstarrungstemperatur."
+  prompt: "Welchen Aggregatzustand hat Sauerstoff bei Normbedingungen (0 °C, Normaldruck)?"
+  options: ["flüssig", "fest", "gasförmig", "flüssig und fest"]
+  answer: { index: 2 }
+  explanation: "Sauerstoff wird erst bei −183 °C flüssig – bei 0 °C ist er gasförmig. Wasser liegt bei 0 °C genau an seiner Schmelztemperatur (Eis und Wasser nebeneinander)."
 - key: q6
   type: single_choice
   prompt: "Wie entsteht Hagel?"

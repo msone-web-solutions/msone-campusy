@@ -88,7 +88,7 @@ Ein Handy-Akku zeigt 0,7 der Ladung an. Das sind 0,7 · 100 = **70 %**.
 
 **Prozent heißt Hundertstel**
 
-1 % = 1/100 = 0,01        100 % = das Ganze = 1
+1 % = 1/100 = 0,01        100 % = das Ganze = 1        150 % = 1,5 = mehr als das Ganze
 
 Prozent, Bruch und Dezimalzahl sind drei Schreibweisen für denselben Anteil:
 
@@ -104,4 +104,5 @@ Prozent, Bruch und Dezimalzahl sind drei Schreibweisen für denselben Anteil:
 Prozent → Dezimalzahl: durch 100 teilen. 35 % = 0,35
 Dezimalzahl → Prozent: mal 100. 0,6 = 60 %
 Bruch → Prozent: Nenner auf 100 bringen. 3/20 = 15/100 = 15 %
+Geht das nicht: Zähler : Nenner rechnen, dann mal 100. 7/8 = 0,875 = 87,5 %
 Prozent → Bruch: als Hundertstel schreiben und kürzen. 40 % = 40/100 = 2/5

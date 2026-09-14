@@ -72,7 +72,7 @@ Der Rhythmus unterstützt den Inhalt: Im „Erlkönig“ treibt ein galoppierend
 
 ### Zeilensprung und lyrische Bilder
 
-Endet ein Satz nicht mit dem Vers, sondern läuft in die nächste Zeile weiter, spricht man vom **Zeilensprung** (Enjambement): *„Der Vater erschrickt, er reitet geschwind, / er hält in Armen das ächzende Kind“*. Der Zeilensprung erzeugt Tempo und Atemlosigkeit – wie beim Galopp.
+Endet ein Satz nicht mit dem Vers, sondern läuft in die nächste Zeile weiter, spricht man vom **Zeilensprung** (Enjambement): *„Und hinein mit bedächtigem Schritt / ein Löwe tritt“* (Schiller, „Der Handschuh“). Der Zeilensprung zieht den Leser in die nächste Zeile – er erzeugt Tempo und Spannung.
 
 **Lyrische Bilder** machen ein Gedicht anschaulich:
 

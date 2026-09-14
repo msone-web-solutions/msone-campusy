@@ -103,6 +103,7 @@ Mit dem Handel verändern sich auch die Berufe: **Kaufleute im Einzelhandel** un
 **Angebot** = Menge, die Anbieter zu einem Preis verkaufen wollen – steigt mit dem Preis
 **Nachfrage** = Menge, die Käufer zu einem Preis kaufen wollen – sinkt mit dem Preis
 **Gleichgewichtspreis (Marktpreis)**: Angebot = Nachfrage
+**Merke:** Nachfrage > Angebot → Preis steigt · Angebot > Nachfrage → Preis sinkt (Beispiel Erdbeeren: bei 4 € je kg 60 kg angeboten und 60 kg gekauft)
 
 **Preisbildungsfaktoren:** Ernte/Saison, Kosten der Anbieter, Mode/Werbung, Einkommen, Konkurrenz, Ereignisse; manche Preise regelt der Staat
 

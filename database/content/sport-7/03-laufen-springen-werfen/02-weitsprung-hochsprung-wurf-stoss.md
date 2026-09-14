@@ -51,7 +51,7 @@ Typische Fehler: Arm zu tief („Wurf aus der Hüfte“), Abwurf ohne Stemmschri
 
 ### Kugelstoßen – stoßen, nicht werfen
 
-Die **Kugel** (Klasse 7: Mädchen meist 3 kg, Jungen 4 kg) darf nicht geworfen werden – sie wird **gestoßen**: Sie liegt am Hals und wird geradlinig nach vorn-oben weggedrückt. Der Arm wird erst am Ende gestreckt.
+Die **Kugel** (Klasse 7: meist 3 kg, ältere Jungen 4 kg) darf nicht geworfen werden – sie wird **gestoßen**: Sie liegt am Hals und wird geradlinig nach vorn-oben weggedrückt. Der Arm wird erst am Ende gestreckt.
 
 **Technik aus der seitlichen Stoßauslage:**
 1. Seitlich zur Stoßrichtung stehen, Kugel an Hals und Kinn, Ellenbogen etwas vom Körper weg, Gewicht auf dem hinteren, gebeugten Bein.

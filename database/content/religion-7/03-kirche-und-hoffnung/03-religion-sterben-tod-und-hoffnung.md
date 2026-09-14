@@ -15,7 +15,7 @@ Der Tod gehört zum Leben – und doch fällt es schwer, darüber zu reden. Viel
 
 **Im Mythos:** Die griechische Sage von **Orpheus und Eurydike** erzählt, wie der Sänger Orpheus in die Unterwelt hinabsteigt, um seine gestorbene Frau zurückzuholen. Mit seiner Musik erweicht er den Totengott Hades, der Eurydike freigibt – unter der Bedingung, dass Orpheus sich auf dem Weg nach oben nicht umdreht. Kurz vor dem Ausgang dreht er sich doch um und verliert sie für immer. Der Mythos sagt: Der Tod ist endgültig; kein Mensch kann ihn rückgängig machen.
 
-**Im Märchen:** In **Gevatter Tod** (Brüder Grimm) wird der Tod Pate eines Jungen und macht ihn zum berühmten Arzt: Steht der Tod am Fußende des Bettes, wird der Kranke gesund; steht er am Kopfende, muss er sterben. Als der Arzt den Tod zweimal überlistet, löscht dieser seine Lebenskerze aus. Das Märchen zeigt: Der Tod ist gerecht – er trifft jeden, Arm und Reich, und lässt sich nicht betrügen.
+**Im Märchen:** In **Gevatter Tod** (Brüder Grimm) wird der Tod Pate eines Jungen und macht ihn zum berühmten Arzt: Steht der Tod am Kopfende des Bettes, wird der Kranke gesund; steht er am Fußende, muss er sterben. Als der Arzt den Tod zweimal überlistet, löscht dieser seine Lebenskerze aus. Das Märchen zeigt: Der Tod ist gerecht – er trifft jeden, Arm und Reich, und lässt sich nicht betrügen.
 
 **In der Medizin:** Menschen, die klinisch tot waren und wiederbelebt wurden, berichten von **Nahtoderfahrungen** – Licht, Tunnel, Frieden. Die Wissenschaft erklärt sie mit Vorgängen im Gehirn; für manche sind sie ein Hinweis auf ein Weiterleben. Beweisen lässt sich beides nicht.
 

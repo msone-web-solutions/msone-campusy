@@ -51,7 +51,7 @@
   type: true_false
   prompt: "Das Produkt aus einer positiven und einer negativen Zahl ist immer negativ."
   answer: { value: true }
-  explanation: "Verschiedene Vorzeichen ergeben immer Minus (außer wenn ein Faktor 0 ist – dann ist das Ergebnis 0)."
+  explanation: "Verschiedene Vorzeichen ergeben immer Minus. (Die 0 ist weder positiv noch negativ, sie kommt hier also nicht vor.)"
 
 - key: q10
   type: numeric

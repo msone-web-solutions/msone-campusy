@@ -1,0 +1,9 @@
+Leuchtmittel im Vergleich.
+
+Hallo! Vier Leuchtmittel im Vergleich. Die Glühlampe hat einen glühenden Wolframdraht. Nur etwa fünf Prozent der Energie werden zu Licht, der Rest ist Wärme. Sie hält tausend Stunden und braucht sechzig Watt für achthundert Lumen. Die Halogenlampe hat den Glühdraht in Halogengas, etwa zehn Prozent Lichtausbeute, zweitausend Stunden, zweiundvierzig Watt. Die Energiesparlampe arbeitet mit Quecksilberdampf und einer Leuchtschicht, rund fünfundzwanzig Prozent, zehntausend Stunden, vierzehn Watt. Sie gehört wegen des Quecksilbers in den Sondermüll. Die LED ist ein leuchtender Halbleiter, dreißig bis vierzig Prozent Lichtausbeute, bis zu fünfzigtausend Stunden, nur acht bis zehn Watt. Sie gehört in den Elektroschrott.
+
+Die Begriffe: Watt ist die aufgenommene elektrische Leistung. Lumen ist die Helligkeit, der Lichtstrom. Die Lichtausbeute ist Lumen pro Watt.
+
+Energie berechnest du mit E gleich P mal t, in Kilowattstunden. Eine Kilowattstunde ist tausend Watt für eine Stunde. Beispiel: Sechzig Watt mal vierzehnhundertsechzig Stunden ergibt 87,6 Kilowattstunden. Eine LED mit neun Watt braucht in derselben Zeit nur 13,1 Kilowattstunden.
+
+Das EU-Energielabel zeigt die Klassen A, sehr effizient, bis G, außerdem Lumen, Watt, Lebensdauer und die Lichtfarbe in Kelvin. Viel Erfolg!

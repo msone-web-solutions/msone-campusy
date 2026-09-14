@@ -25,7 +25,7 @@ Man unterscheidet dabei, **wem gegenüber** man verantwortlich ist:
 |---|---|
 | **ab 7** | **beschränkt geschäftsfähig**: kleine Käufe vom Taschengeld sind gültig („Taschengeldparagraf“); **bedingt deliktsfähig**: für Schäden haftest du, wenn du deren Folgen verstehen konntest |
 | **ab 14** | **strafmündig**: Straftaten werden nach dem **Jugendstrafrecht** verfolgt; **religionsmündig**: du entscheidest selbst über deine Religion; Schutzalter im Sexualstrafrecht |
-| **ab 16** | Bier und Wein in der Öffentlichkeit erlaubt; Mopedführerschein; bei manchen Wahlen (z. B. Kommunalwahlen in Sachsen-Anhalt) wahlberechtigt |
+| **ab 16** | Bier und Wein in der Öffentlichkeit erlaubt; Führerschein für Leichtkrafträder (125 cm³); bei manchen Wahlen (z. B. Kommunalwahlen in Sachsen-Anhalt) wahlberechtigt |
 | **ab 18** | **volljährig**: voll geschäftsfähig, wahlberechtigt bei Bundestagswahlen, Autoführerschein, volle Verantwortung |
 
 Wichtig für dich: **Ab 14 bist du strafmündig.** Wer mit 14 einen Mitschüler verprügelt, Bilder ohne Erlaubnis verbreitet oder etwas stiehlt, bekommt ein Verfahren nach dem Jugendgerichtsgesetz – mit Arbeitsstunden, sozialem Training, im schlimmsten Fall Jugendarrest oder Jugendstrafe. Vor dem 14. Geburtstag gibt es keine Strafe, aber das Jugendamt und die Eltern werden eingeschaltet – und Schadenersatz kann trotzdem fällig werden.
@@ -95,7 +95,7 @@ explanation: "Ego = ich, alter = der andere."
 **Rechtliche Verantwortung** (Maßstab: Gesetz):
 - ab 7: beschränkt geschäftsfähig (Taschengeld), bedingt haftbar für Schäden
 - **ab 14: strafmündig** (Jugendstrafrecht), religionsmündig
-- ab 16: Bier/Wein, Moped, teils Wahlrecht
+- ab 16: Bier/Wein, Leichtkraftrad, teils Wahlrecht
 - ab 18: volljährig
 
 **Moralische Verantwortung** (Maßstab: Werte und **Gewissen**): fragt nicht „Ist es verboten?“, sondern „Ist es richtig?“. Nicht alles Erlaubte ist richtig (z. B. Lügen, Wegsehen).

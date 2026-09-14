@@ -1,0 +1,11 @@
+Volumen, Masse und Dichte.
+
+Hallo und willkommen in Physik! Drei Größen, die du auseinanderhalten musst. Das Volumen V ist der Raum, den ein Körper einnimmt. Einheiten sind Kubikzentimeter, Kubikdezimeter, das ist ein Liter, und Kubikmeter. Bei unregelmäßigen Körpern misst du das Volumen über die Wasserverdrängung im Messzylinder.
+
+Die Masse m ist die Menge an Stoff in einem Körper, gemessen in Gramm oder Kilogramm mit der Waage. Die Masse ist überall gleich groß, auf der Erde wie auf dem Mond.
+
+Die Dichte, das griechische rho, ist Masse pro Volumen. Die Formel: rho gleich m geteilt durch V. Umgestellt: m gleich rho mal V, und V gleich m geteilt durch rho. Die Einheit ist Gramm pro Kubikzentimeter oder Kilogramm pro Kubikmeter. Ein Gramm pro Kubikzentimeter sind tausend Kilogramm pro Kubikmeter.
+
+Merke: Die Dichte ist eine Stoffeigenschaft. Sie hängt nicht davon ab, wie groß der Körper ist. Ein kleiner Goldring und ein großer Goldbarren haben dieselbe Dichte. Die Werte stehen im Tafelwerk: Wasser eins, Aluminium zwei Komma sieben, Eisen sieben Komma neun, Gold neunzehn Komma drei Gramm pro Kubikzentimeter.
+
+Beim Messen entstehen Abweichungen durch ungenaues Ablesen, Luftbläschen oder die Rundung der Waage. Deshalb mehrfach messen. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

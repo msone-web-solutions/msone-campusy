@@ -1,0 +1,13 @@
+Konstruktionselemente von Bauwerken.
+
+Hallo! Bauwerke müssen Lasten sicher in den Boden ableiten: das Eigengewicht, die Nutzlast, Schnee und Wind. Bauteile werden dabei auf Druck beansprucht, also zusammengedrückt, oder auf Zug, also auseinandergezogen. Stein hält Druck gut aus, aber kaum Zug. Stahl hält beides.
+
+Vier Konstruktionselemente. Der Bogen leitet Lasten als Druck seitlich in die Widerlager. Deshalb ist er ideal für Stein, wie bei römischen Brücken und Aquädukten. Der oberste Stein ist der Schlussstein.
+
+Profile wie das I-Profil, U-Profil, L-Profil oder Rohr setzen auf Form statt Masse. Das Material sitzt dort, wo die Kräfte am größten sind. So wird das Bauteil leicht und trotzdem tragfähig.
+
+Das Fachwerk besteht aus Stäben, die zu Dreiecken verbunden sind. Das Dreieck ist unverschieblich, und die Stäbe werden nur auf Zug oder Druck beansprucht. Beispiele: Strommasten, Kräne, Dachstühle und Fachwerkhäuser.
+
+Beim Wandbau gibt es den Massivbau, bei dem Wände aus Ziegel oder Beton tragen und im Verband gemauert werden. Und den Skelettbau, bei dem Stützen und Träger tragen und die Wände nur Ausfachung sind.
+
+Merke: Nicht die Menge des Materials macht ein Bauteil stabil, sondern seine Form. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

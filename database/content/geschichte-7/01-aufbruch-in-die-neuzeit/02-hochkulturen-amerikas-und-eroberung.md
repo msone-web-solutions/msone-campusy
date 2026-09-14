@@ -81,7 +81,7 @@ explanation: "Kartoffel und Kakao stammen aus Amerika; Pferd und Weizen brachten
 - 1532/33 **Pizarro** besiegt die Inka (Atahualpa)
 - Gründe: bessere Waffen, Pferde, einheimische Verbündete, **Pocken**, innere Konflikte
 
-**Kolonialisierung:** Amerika wird zur **Kolonie** Spaniens – Silber (Potosí), Zwangsarbeit, Mission, ab dem 16. Jahrhundert **Sklaven aus Afrika**.
+**Kolonialisierung:** Amerika wird zur **Kolonie** Spaniens (= Gebiet, das von einem fremden Land beherrscht und ausgebeutet wird) – Silber (Potosí), Zwangsarbeit, Mission, ab dem 16. Jahrhundert **Sklaven aus Afrika**.
 
 **Kolumbianischer Austausch:**
 - Amerika → Europa: Kartoffel, Mais, Tomate, Kakao, Tabak

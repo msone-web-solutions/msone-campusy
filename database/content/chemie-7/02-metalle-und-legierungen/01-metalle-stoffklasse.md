@@ -84,6 +84,7 @@ Eine **Stoffklasse** fasst Stoffe mit ähnlichen Eigenschaften zusammen. Über 8
 4. **Verformbarkeit** (biegen, walzen, zu Draht ziehen)
 
 Meist: fest, hohe Dichte, hohe Schmelztemperatur. Ausnahmen: Quecksilber ist flüssig, Aluminium ist leicht.
+**Magnetisch** sind nur Eisen, Nickel und Cobalt – nicht alle Metalle!
 
 **Nichtmetalle** (Schwefel, Kohlenstoff, Sauerstoff …): kein Glanz, keine Leitfähigkeit, spröde oder gasförmig.
 

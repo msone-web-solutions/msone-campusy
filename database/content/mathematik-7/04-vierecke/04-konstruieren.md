@@ -108,6 +108,7 @@ Nicht jede Vorgabe ergibt ein Viereck. Bei Beispiel 1 müssen beide Dreiecke die
 **Vierecke konstruieren**
 
 **Grundidee:** Eine Diagonale zerlegt das Viereck in zwei Dreiecke → nacheinander konstruieren (SSS, SWS, WSW).
+Ein allgemeines Viereck braucht **5 Stücke** (z. B. 4 Seiten + 1 Diagonale). Hilfslinien dünn stehen lassen.
 
 **Immer so:** 1. Planfigur (Skizze, Gegebenes farbig) · 2. Konstruktion · 3. Konstruktionsbeschreibung
 

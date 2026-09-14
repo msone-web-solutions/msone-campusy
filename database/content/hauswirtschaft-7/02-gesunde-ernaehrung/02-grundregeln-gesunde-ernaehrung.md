@@ -67,7 +67,7 @@ Der Körper arbeitet gleichmäßiger, wenn die Energie über den Tag verteilt wi
 
 Immer wieder gibt es neue **Ernährungstrends**: vegetarisch, vegan, Low Carb, Intervallfasten, Superfoods, Fitness-Shakes. Wie beurteilt man sie? Mit drei Fragen:
 
-- **Gesundheitlich**: Liefert die Ernährung alle Nährstoffe? Eine vegetarische Ernährung kann sehr gesund sein; bei veganer Ernährung muss Vitamin B12 ergänzt werden. Extreme Diäten fehlen oft wichtige Stoffe.
+- **Gesundheitlich**: Liefert die Ernährung alle Nährstoffe? Eine vegetarische Ernährung kann sehr gesund sein; bei veganer Ernährung muss Vitamin B12 ergänzt werden. Extremen Diäten fehlen oft wichtige Stoffe.
 - **Ökonomisch**: Was kostet es? Superfoods wie Chiasamen oder Gojibeeren sind teuer – heimische Leinsamen und Beeren leisten dasselbe.
 - **Ökologisch**: Wie wirkt es auf die Umwelt? Weniger Fleisch spart Treibhausgase, Wasser und Fläche; Flugobst und weit transportierte Superfoods belasten das Klima.
 

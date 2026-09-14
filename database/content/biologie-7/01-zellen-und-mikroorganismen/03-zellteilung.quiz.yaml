@@ -43,6 +43,6 @@
 - key: q8
   type: single_choice
   prompt: "Was passiert, wenn die Kontrolle über die Zellteilung verloren geht?"
-  options: ["Die Zellen hören auf zu wachsen", "Es kann ein Krebsgeschwulst entstehen", "Die Zellen werden zu Pflanzenzellen", "Nichts, das ist normal"]
+  options: ["Die Zellen hören auf zu wachsen", "Es kann eine Krebsgeschwulst entstehen", "Die Zellen werden zu Pflanzenzellen", "Nichts, das ist normal"]
   answer: { index: 1 }
   explanation: "Ungebremste Zellteilung führt zu Geschwulsten – Krebs. Tabakrauch und UV-Strahlung können die Kontrolle stören."

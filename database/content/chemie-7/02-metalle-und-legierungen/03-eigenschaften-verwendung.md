@@ -91,8 +91,10 @@ Metalle sind unverzichtbar – aber ihre Gewinnung frisst Energie und Rohstoffe,
 | **Zink** Zn | schützende Oxidschicht, Schmelztemp. 420 °C | Verzinken gegen Rost, Batterien, Messing |
 | **Gold** Au | edel, weich, 19,3 g/cm³ | Schmuck, Elektronik-Kontakte |
 | **Silber** Ag | edel, bester Leiter | Schmuck, Elektronik |
+| **Platin** Pt | edel | Katalysatoren, Laborgeräte |
 | **Blei** Pb | weich, 11,3 g/cm³, giftig | Autobatterien, Strahlenschutz |
 | **Zinn** Sn | Schmelztemp. 232 °C, ungiftig | Lötzinn, Konservendosen, Bronze |
 | **Magnesium** Mg | 1,7 g/cm³, brennt grell | Feuerwerk, Leichtbau |
+| **Titan** Ti | leicht, fest, rostfrei, körperverträglich | Implantate, Flugzeuge |
 
-**Bewertung:** unverzichtbar, aber energieaufwendig, teils giftig, teils knapp → recyceln!
+**Bewertung:** unverzichtbar, aber energieaufwendig, teils giftig, teils knapp → recyceln! (Aluminium-Recycling spart 95 % der Energie.)

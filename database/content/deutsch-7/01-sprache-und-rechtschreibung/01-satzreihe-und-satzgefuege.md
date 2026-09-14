@@ -87,7 +87,7 @@ Wer nur kurze Hauptsätze schreibt, klingt abgehackt: „Es regnete. Wir blieben
 **Zusammengesetzte Sätze**
 
 - **Hauptsatz (HS):** kann allein stehen, Verb an **2. Stelle**. *Lena fährt nach Halle.*
-- **Nebensatz (NS):** kann nicht allein stehen, beginnt mit **Konjunktion** (weil, dass, wenn, obwohl, als, damit, bevor, nachdem, ob), Verb am **Ende**. *..., weil sie Oma besucht.*
+- **Nebensatz (NS):** kann nicht allein stehen, beginnt mit **Konjunktion** (weil, dass, wenn, obwohl, als, damit, bevor, nachdem, ob), Fragewort (wann, wo) oder Relativpronomen (der, die, das), Verb am **Ende**. *..., weil sie Oma besucht.*
 
 **Satzreihe (Satzverbindung) = HS + HS**
 verbunden durch Komma oder **und, oder, aber, denn, sondern**

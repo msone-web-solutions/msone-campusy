@@ -95,6 +95,6 @@ explanation: "Inhaltsangaben stehen im Präsens; wörtliche Rede wird in indirek
 - **sachlich**, keine Spannung, keine Ausschmückung
 - **keine wörtliche Rede** → **indirekte Rede** mit **Konjunktiv I** (*Er sagt, er habe ...*)
 - eigene Worte, keine Meinung
-- Länge: etwa ein Drittel des Originals
+- Länge: etwa ein Drittel bis ein Viertel des Originals
 
 **Vorgehen:** lesen und markieren → Abschnitte mit Überschriften → W-Fragen → Schreibplan → schreiben → überarbeiten

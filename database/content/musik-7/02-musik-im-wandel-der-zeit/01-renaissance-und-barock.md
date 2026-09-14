@@ -81,7 +81,7 @@ Beim Hören von Barockmusik achte auf: das gleichmäßige „Laufen“ des Gener
 
 **Komponisten aus Mitteldeutschland:**
 - **Händel** (1685–1759), geboren in **Halle**, ab 1712 London: „Wassermusik“, „Feuerwerksmusik“, „Messiah“
-- **Bach** (1685–1750), Hofkapellmeister in **Köthen**, Thomaskantor in Leipzig: „Brandenburgische Konzerte“, „Toccata und Fuge d-Moll“, „Weihnachtsoratorium“
+- **Bach** (1685–1750), geboren in Eisenach, Hofkapellmeister in **Köthen**, ab 1723 Thomaskantor in Leipzig: „Brandenburgische Konzerte“, „Toccata und Fuge d-Moll“, „Weihnachtsoratorium“
 - **Telemann** (1681–1767), geboren in **Magdeburg**: „Tafelmusik“, über 3 600 Werke
 - **Fasch** (1688–1758), Hofkapellmeister in **Zerbst**: Orchestersuiten
 

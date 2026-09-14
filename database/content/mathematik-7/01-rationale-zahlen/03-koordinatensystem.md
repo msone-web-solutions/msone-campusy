@@ -121,3 +121,6 @@ Ein Punkt wird mit seinen Koordinaten angegeben: **P(x | y)**.
 Beispiel: P(−3 | 2) → 3 nach links, 2 nach oben → II. Quadrant.
 
 Punkte auf der x-Achse haben y = 0. Punkte auf der y-Achse haben x = 0.
+
+**Streckenlänge:** A(−2 | 3) und B(4 | 3) liegen waagerecht: von −2 bis 4 sind es 2 + 4 = 6 Einheiten.
+**Spiegeln an der x-Achse:** x bleibt, y wechselt das Vorzeichen: P(3 | −1) → P'(3 | 1).

@@ -34,7 +34,7 @@ explanation: "GCSE mit 16, A-levels mit 18."
 - **Pancake Day** (Shrove Tuesday, vor der Fastenzeit): Pfannkuchen – und Pfannkuchen-Wettrennen.
 - **Halloween** (31 October) und **Easter** mit *egg hunts* wie bei uns.
 - **Remembrance Day (11 November):** Menschen tragen eine rote Mohnblüte (*poppy*) für die Kriegstoten.
-- Schottland: **Hogmanay** (Silvester) und **Burns Night** (25 Januar, zu Ehren des Dichters Robert Burns, mit *haggis*).
+- Schottland: **Hogmanay** (Silvester) und **Burns Night** (25 January, zu Ehren des Dichters Robert Burns, mit *haggis*).
 
 ### Everyday life
 

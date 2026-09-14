@@ -53,7 +53,7 @@ Versailles war das Vorbild für Fürsten in ganz Europa – auch für die kleine
 
 - **Schloss Oranienbaum** (1683–1698): Fürstin **Henriette Catharina** aus dem niederländischen Haus Oranien ließ es als Sommersitz bauen. Wie in Versailles entstanden Schloss, Park und Stadt nach einem einheitlichen Plan – im holländischen Barockstil mit Grachten und Backstein.
 - **Schloss Hundisburg** bei Haldensleben (1693–1712): Der Adlige Johann Friedrich von Alvensleben baute eine alte Burg zu einem der bedeutendsten Barockschlösser Norddeutschlands um – mit einem Garten nach französischem Vorbild.
-- **Schloss Zerbst** (ab 1681): das größte Barockschloss des Landes. Hier wuchs die spätere russische Zarin Katharina die Große auf. 1945 wurde es weitgehend zerstört; heute ist es eine Ruine, die ein Verein Stück für Stück sichert.
+- **Schloss Zerbst** (ab 1681): das größte Barockschloss des Landes. Von hier aus reiste 1744 die Prinzessin Sophie von Anhalt-Zerbst nach Russland – die spätere Zarin Katharina die Große. 1945 wurde es weitgehend zerstört; heute ist es eine Ruine, die ein Verein Stück für Stück sichert.
 - **Schloss Mosigkau** bei Dessau (1752–1757): ein Rokokoschloss der Prinzessin Anna Wilhelmine, „Klein-Sanssouci“ genannt.
 
 **Entstehungsumstände** waren fast immer dieselben: ein Fürst oder Adliger mit Geltungsbedürfnis, das Vorbild Versailles, Baumeister und Handwerker aus Frankreich, Italien oder den Niederlanden – und Geld, das die Untertanen über Steuern und Frondienste aufbringen mussten.
@@ -91,5 +91,6 @@ explanation: "Die Manufaktur ist der Vorläufer der Fabrik – Arbeitsteilung, a
 - **Hundisburg** (1693–1712, von Alvensleben)
 - **Zerbst** (ab 1681, größtes Barockschloss des Landes, 1945 zerstört)
 - **Mosigkau** (1752–1757, Rokoko)
+→ bezahlt von den Untertanen über Steuern und Frondienste
 
 **Denkmalschutz:** teuer (Millionen für Sanierung), aber Geschichte, Tourismus, Museen, Identität der Region.

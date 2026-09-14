@@ -111,6 +111,7 @@ Aufriss oben, Grundriss darunter, dazwischen die **Rissachse**.
 Zusammengehörende Punkte liegen genau übereinander, verbunden durch **Ordnungslinien** (dünn, senkrecht).
 
 **Bezeichnung:** Grundriss A', B', C' … Aufriss A'', B'', C'' …
+Im Grundriss liegen obere Ecken genau auf den unteren: E' = A'. Im Aufriss liegen hintere auf vorderen: D'' = A''.
 
 | Körper | Grundriss | Aufriss |
 |---|---|---|

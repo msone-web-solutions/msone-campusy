@@ -129,6 +129,7 @@ wiederhole 4 mal
     drehe dich um 90 Grad
 ```
 Mit **Zählvariable**: `setze i auf 1` … `ändere i um 1`
+Regelmäßiges n-Eck: `wiederhole n mal`, Drehwinkel = 360° : n (Sechseck: 60°).
 
 **Bedingte Schleife (while):** läuft, solange / bis eine Bedingung gilt. Anzahl unbekannt.
 ```

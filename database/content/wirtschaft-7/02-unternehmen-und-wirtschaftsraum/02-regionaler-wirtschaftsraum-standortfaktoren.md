@@ -86,6 +86,7 @@ Sachsen-Anhalt: Chemie (Leuna, Bitterfeld-Wolfen, Schkopau), Logistik (Flughafen
 **Standortfaktoren:**
 - **hart** (messbar): Verkehrsanbindung, Arbeitskräfte, Grundstücke, Rohstoffe/Energie, Absatzmarkt, Steuern/Förderung, Zulieferer/Forschung
 - **weich**: Wohnqualität, Schulen, Kultur, Freizeit, Landschaft, Image
+Je nach Branche zählen andere Faktoren: Logistik → Autobahn/Flughafen, Software → Internet/Fachkräfte, Sägewerk → Wald
 
 **Strukturstark**: viele Betriebe, wenig Arbeitslose, Zuwanderung · **strukturschwach**: wenige Betriebe, Arbeitslosigkeit, Abwanderung, Leerstand → Staat fördert mit **Infrastrukturmaßnahmen**
 

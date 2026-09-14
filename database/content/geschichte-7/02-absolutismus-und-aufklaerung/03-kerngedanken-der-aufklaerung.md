@@ -46,7 +46,7 @@ explanation: "Montesquieu beschrieb in „Vom Geist der Gesetze“ die Trennung 
 
 Die Aufklärer griffen auch die Kirche an – nicht unbedingt den Glauben an Gott, aber den Anspruch der Kirche, allein die Wahrheit zu besitzen. Sie kritisierten:
 
-- den **Aberglauben** und die Hexenverfolgung (die letzte Hexe in Deutschland wurde 1775 hingerichtet),
+- den **Aberglauben** und die Hexenverfolgung (die letzten Hexenprozesse in Deutschland fanden um 1775 statt),
 - die **Verfolgung Andersgläubiger**,
 - die **Macht** und den Reichtum der Kirche,
 - das Verbot, die Bibel und Glaubenssätze kritisch zu prüfen.

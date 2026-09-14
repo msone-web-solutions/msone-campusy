@@ -50,9 +50,9 @@ Viele Wortverbindungen kann man getrennt oder zusammen schreiben – je nachdem,
 
 | zusammen (neue, übertragene Bedeutung) | getrennt (jedes Wort behält seine Bedeutung) |
 |---|---|
-| Er will das Fahrrad **sitzenlassen** (= im Stich lassen). | Sie will das Kind nicht **sitzen lassen** (= sitzen bleiben lassen). |
+| Er will seine Freundin nicht **sitzenlassen** (= im Stich lassen). | Sie will das Kind noch etwas **sitzen lassen** (= sitzen bleiben lassen). |
 | Er ist beim Test **durchgefallen**. | Der Ball ist durch das Netz **gefallen**. |
-| Das ist ein **zusammengesetztes** Wort. | Wir haben die Teile **zusammen gesetzt**. |
+| Sie ist in der Schule **sitzengeblieben** (= nicht versetzt worden). | Der Hund ist auf der Decke **sitzen geblieben**. |
 
 Regeln, die fast immer helfen:
 
@@ -87,6 +87,8 @@ Mehrteilige Orts- und Zeitangaben werden durch Komma gegliedert: *Magdeburg, den
 **Korrekturstrategie:** Lies deinen Text rückwärts Wort für Wort (so achtest du nur auf die Schreibung), markiere Signalwörter für Nominalisierungen und nutze die Rechtschreibkorrektur des Textprogramms – aber prüfe ihre Vorschläge, denn sie erkennt keine Bedeutungsunterschiede (*sitzen lassen / sitzenlassen*).
 
 ## Hefteintrag
+
+**Rechtschreibung: Nominalisierung, Zusammenschreibung, Apostroph**
 
 **Nominalisierung (Substantivierung)** – Verben und Adjektive werden groß, wenn sie wie Nomen gebraucht werden.
 **Signalwörter:** Artikel (*das* Lesen), Präposition + Artikel (*beim* Schwimmen, *zum* Essen), Pronomen (*mein* Zögern, *nichts* Neues, *etwas* Leckeres, *alles* Gute), Adjektiv davor (*lautes* Rufen)

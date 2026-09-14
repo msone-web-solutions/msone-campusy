@@ -34,7 +34,7 @@ Die meisten russischen Verben enden im Infinitiv auf **-ть**. Bei Verben auf *
 | вы | чита**ете** | -ете |
 | они | чита**ют** | -ют |
 
-Genauso gehen **играть** (я играю, ты играешь …), **гулять**, **знать**, **делать**, **слушать**, **работать** (arbeiten) und **отдыхать** (sich erholen).
+Genauso gehen **играть** (я играю, ты играешь …), **гулять**, **знать**, **делать**, **слушать**, **работать** (arbeiten) und **отдыхать** (sich erholen). Achtung: **рисовать** (malen) hat im Präsens den Stamm рису-: *я рисую, ты рисуешь, они рисуют*.
 
 **Merksatz:** Die е-Konjugation heißt so, weil in den Endungen von ты, он, мы, вы ein **-е-** steckt.
 
@@ -108,7 +108,7 @@ Bei Sportarten mit Ball sagt man **играть в** + Sportart: *играть �
 
 **е-Konjugation** (Verben auf -ать / -ять): Stamm + **-ю, -ешь, -ет, -ем, -ете, -ют**
 → читать: я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают
-→ жить (Stamm жив-): живу, живёшь, живёт, живём, живёте, живут
+→ жить (Stamm жив-): живу, живёшь, живёт, живём, живёте, живут · рисовать (Stamm рису-): рисую, рисуешь, рисуют
 
 **и-Konjugation** (meist Verben auf -ить): Stamm + **-ю, -ишь, -ит, -им, -ите, -ят**
 → говорить: говорю, говоришь, говорит, говорим, говорите, говорят

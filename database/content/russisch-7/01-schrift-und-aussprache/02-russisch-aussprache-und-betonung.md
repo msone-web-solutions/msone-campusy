@@ -70,7 +70,7 @@ explanation: "Auslautverhärtung: б am Ende klingt wie п – хлеб wird „
 
 ### Intonation: Aussage oder Frage?
 
-Im Russischen gibt es keine Fragewörter wie „do“ im Englischen, und die Wortstellung ändert sich bei Fragen oft nicht. Ob ein Satz eine Frage ist, hört man nur an der **Satzmelodie**:
+Im Russischen gibt es keine Hilfsverben wie „do“ im Englischen, und die Wortstellung ändert sich bei Fragen oft nicht. Ob ein Satz eine Frage ist, hört man nur an der **Satzmelodie**:
 
 - **Aussagesatz:** Die Stimme fällt am Ende. *Это Анна.* (Das ist Anna.)
 - **Entscheidungsfrage** (Antwort ja/nein): Die Stimme steigt auf dem wichtigsten Wort stark an und fällt danach. *Это Анна?* (Ist das Anna?)

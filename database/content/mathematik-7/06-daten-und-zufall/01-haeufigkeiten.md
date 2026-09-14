@@ -96,7 +96,7 @@ H = h · n = 0,35 · 400 = **140 Personen**.
 
 **Absolute und relative Häufigkeit**
 
-**Datenerhebung planen:** Was will ich wissen? Wen befrage ich? Welche Antworten gibt es? → Strichliste
+**Datenerhebung planen:** Was will ich wissen? Wen befrage ich? Welche Antworten gibt es? → Strichliste (jeder 5. Strich quer)
 
 **Absolute Häufigkeit H(A)** = Anzahl, wie oft A vorkommt.
 Alle absoluten Häufigkeiten zusammen = Gesamtzahl n.

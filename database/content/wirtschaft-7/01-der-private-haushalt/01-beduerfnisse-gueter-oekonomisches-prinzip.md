@@ -86,7 +86,7 @@ Aus alldem folgen **Grundeinsichten**, die bei jeder Entscheidung helfen: Bedür
 
 **Güter** befriedigen Bedürfnisse:
 - **freie Güter**: unbegrenzt, kostenlos (Luft, Sonne)
-- **wirtschaftliche Güter**: **knapp**, haben einen Preis – **Sachgüter** (Konsumgüter: Verbrauchs-/Gebrauchsgüter; Produktionsgüter), **Dienstleistungen**, Rechte
+- **wirtschaftliche Güter**: **knapp**, haben einen Preis – **Sachgüter** (Konsumgüter: Verbrauchs-/Gebrauchsgüter; Produktionsgüter), **Dienstleistungen** (Haarschnitt, Busfahrt), Rechte
 
 **Knappheit** = Grundproblem der Wirtschaft → entscheiden → **Opportunitätskosten** (Verzicht auf das Nächstbeste)
 

@@ -38,7 +38,7 @@ Merkmale: Call & Response, einfache, eingängige Melodien, oft langsam und getra
 
 ### Gospel – die gute Nachricht
 
-Nach dem Ende der Sklaverei (1865) entwickelte sich aus dem Spiritual in den Kirchen der Afroamerikaner der **Gospel** (englisch *gospel* = Evangelium, gute Nachricht). Gospel ist lauter, schneller und freudiger als das Spiritual: Chor, Klavier, Orgel, später Schlagzeug und Bass begleiten, der Vorsänger improvisiert, die Gemeinde klatscht auf 2 und 4, ruft und tanzt. **Mahalia Jackson** war die „Queen of Gospel“; **Aretha Franklin** kam aus dem Gospel in den Pop. Bekannte Songs: „Oh Happy Day“, „Amazing Grace“ (ursprünglich ein englischer Choral, im Gospelstil weltberühmt), „This Little Light of Mine“. Gospelchöre gibt es heute überall – auch in Sachsen-Anhalt.
+Nach dem Ende der Sklaverei (1865) entwickelte sich aus dem Spiritual in den Kirchen der Afroamerikaner der **Gospel** (seine Blütezeit begann in den 1920er-Jahren) (englisch *gospel* = Evangelium, gute Nachricht). Gospel ist lauter, schneller und freudiger als das Spiritual: Chor, Klavier, Orgel, später Schlagzeug und Bass begleiten, der Vorsänger improvisiert, die Gemeinde klatscht auf 2 und 4, ruft und tanzt. **Mahalia Jackson** war die „Queen of Gospel“; **Aretha Franklin** kam aus dem Gospel in den Pop. Bekannte Songs: „Oh Happy Day“, „Amazing Grace“ (ursprünglich ein englischer Choral, im Gospelstil weltberühmt), „This Little Light of Mine“. Gospelchöre gibt es heute überall – auch in Sachsen-Anhalt.
 
 ### Blues – vom Leid zum Lebensgefühl
 
@@ -75,7 +75,7 @@ In Lateinamerika mischten sich afrikanische Rhythmen mit spanischer und portugie
 
 **Spiritual:** religiöse Lieder der Sklaven, Hoffnung auf Freiheit, teils geheime Botschaften; Call & Response, getragen – „Swing Low, Sweet Chariot“, „Go Down Moses“
 
-**Gospel** („gute Nachricht“): ab ca. 1870 in afroamerikanischen Kirchen; laut, freudig, Chor + Klavier/Orgel/Band, Klatschen auf 2 und 4, Improvisation – Mahalia Jackson; „Oh Happy Day“, „Amazing Grace“
+**Gospel** („gute Nachricht“): nach dem Ende der Sklaverei (1865) in afroamerikanischen Kirchen entstanden, Blütezeit ab den 1920er-Jahren; laut, freudig, Chor + Klavier/Orgel/Band, Klatschen auf 2 und 4, Improvisation – Mahalia Jackson; „Oh Happy Day“, „Amazing Grace“
 
 **Blues:** um 1900 im Mississippi-Delta, weltlich, Alltag und Leid
 - **12-Takt-Bluesschema** mit 3 Akkorden

@@ -19,7 +19,7 @@ Wasser kennst du als Eis, als Flüssigkeit und als Wasserdampf. Diese drei Ersch
 | Form | eigene Form | nimmt Form des Gefäßes an | füllt den ganzen Raum aus |
 | Volumen | fest | fest | veränderlich (zusammendrückbar) |
 
-Bei **Normbedingungen** (0 °C und Normaldruck) ist Eisen fest, Wasser fest (Eis!), Alkohol flüssig, Quecksilber flüssig, Sauerstoff und Stickstoff gasförmig. Bei 20 °C (Zimmertemperatur) ist Wasser dann flüssig.
+Bei **Normbedingungen** (0 °C und Normaldruck) ist Eisen fest, Alkohol flüssig, Quecksilber flüssig, Sauerstoff und Stickstoff gasförmig. Wasser liegt bei 0 °C genau an seiner Schmelztemperatur – Eis und flüssiges Wasser kommen dort nebeneinander vor. Bei 20 °C (Zimmertemperatur) ist Wasser flüssig.
 
 ### Die Übergänge
 

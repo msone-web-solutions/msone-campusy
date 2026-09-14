@@ -95,6 +95,6 @@ Kläranlage (Rechen = Sieben, Absetzbecken = Sedimentieren, Sandfilter = Filtrie
 | Extrahieren | Löslichkeit | Tee, Kaffee |
 | Chromatographie | Löslichkeit + Haftung | Farbstoffe der Filzstifttinte |
 
-**Destillation:** Kolben mit Siedesteinchen → Thermometer → Liebigkühler (Kühlwasser unten rein, oben raus) → Vorlage.
+**Destillation:** Kolben mit Siedesteinchen (gegen Siedeverzug) → Thermometer → Liebigkühler (Kühlwasser unten rein, oben raus) → Vorlage.
 
 **Merke:** Filtrieren trennt keine Lösungen – gelöstes Salz geht mit durch. Für Lösungen: Eindampfen oder Destillieren.

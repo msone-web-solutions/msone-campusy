@@ -98,3 +98,5 @@ Der **Außenwinkel** an einer Ecke ergänzt den Innenwinkel zu 180°. Bei α = 8
 **Trapez (a ∥ c):** α + δ = 180°, β + γ = 180°
 
 **Mit Variable:** Winkel x, 2x, 3x, 4x → 10x = 360° → x = 36°
+
+**Außenwinkel** = 180° − Innenwinkel. α = 80° → Außenwinkel 100°

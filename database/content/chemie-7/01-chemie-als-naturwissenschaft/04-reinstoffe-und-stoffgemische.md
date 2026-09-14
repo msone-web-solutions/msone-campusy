@@ -87,7 +87,7 @@ explanation: "Wasser ist eine Verbindung – ein Reinstoff mit ganz eigenen Eige
 **Reinstoffe und Stoffgemische**
 
 **Reinstoff:** eine Stoffart, feste Eigenschaften (z. B. Siedetemperatur immer gleich). Beispiele: destilliertes Wasser, Kochsalz, Eisen.
-- **Element**: chemisch nicht weiter zerlegbar (Eisen, Sauerstoff)
+- **Element**: chemisch nicht weiter zerlegbar (Eisen, Sauerstoff); 118 Elemente im Periodensystem
 - **Verbindung**: aus mehreren Elementen fest verbunden, neue Eigenschaften (Wasser, Kochsalz)
 
 **Stoffgemisch:** mehrere Reinstoffe nebeneinander, jeder behält seine Eigenschaften, Zusammensetzung kann schwanken.
@@ -97,10 +97,10 @@ explanation: "Wasser ist eine Verbindung – ein Reinstoff mit ganz eigenen Eige
 | Gemisch | Bestandteile | Beispiel |
 |---|---|---|
 | Gemenge | fest + fest | Sand und Kies |
-| Suspension | fest in flüssig | Sand in Wasser |
+| Suspension | fest in flüssig (setzt sich ab) | Sand in Wasser |
 | Emulsion | flüssig in flüssig | Milch |
 | Rauch / Nebel | fest / flüssig in Gas | Ruß / Wassertröpfchen in Luft |
 | Schaum | Gas in flüssig | Sahne |
-| Lösung (homogen) | gelöst in flüssig | Salzwasser |
+| Lösung (homogen) | gelöst in flüssig (bleibt verteilt) | Salzwasser |
 | Gasgemisch (homogen) | Gas + Gas | Luft |
 | Legierung (homogen) | Metall + Metall | Messing |

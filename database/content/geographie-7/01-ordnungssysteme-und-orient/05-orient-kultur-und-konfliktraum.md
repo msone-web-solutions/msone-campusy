@@ -9,7 +9,7 @@ reflect: "Nenne zwei Ursachen für Konflikte im Orient und erkläre, warum Wasse
 
 ### Ein Kulturraum: Was den Orient verbindet
 
-Der Orient ist eine der **Wiegen der Menschheit**: Im **Zweistromland** zwischen Euphrat und Tigris (heute Irak) entstanden vor 5000 Jahren die ersten Städte und die Schrift; in Ägypten die Pyramiden. Drei Weltreligionen haben hier ihren Ursprung: **Judentum, Christentum und Islam**.
+Der Orient ist eine der **Wiegen der Zivilisation**: Im **Zweistromland** zwischen Euphrat und Tigris (heute Irak) entstanden vor 5000 Jahren die ersten Städte und die Schrift; in Ägypten die Pyramiden. Drei Weltreligionen haben hier ihren Ursprung: **Judentum, Christentum und Islam**.
 
 Heute prägt der **Islam** den Raum: Rund 90 % der Menschen sind Muslime. Das zeigt sich im Alltag – die **Moschee** mit Minarett, fünf tägliche Gebete, der Fastenmonat **Ramadan**, der Freitag als Feiertag, Kleidungsregeln, kein Schweinefleisch, kein Alkohol. Die **arabische Sprache** und Schrift (von rechts nach links) verbinden 22 Länder; Türkei und Iran haben eigene Sprachen.
 
@@ -59,7 +59,7 @@ Vieles wirkt aus deutscher Sicht fremd: Rolle der Religion, Kleidungsregeln, Ste
 
 **Der Orient als Kultur- und Konfliktraum**
 
-**Kulturraum:** Wiege der Menschheit (Zweistromland, Ägypten) · Ursprung von **Judentum, Christentum, Islam** · heute ~90 % Muslime: Moschee, Ramadan, Freitag · arabische Sprache (22 Länder) · orientalische Stadt: enge Gassen, Innenhof, **Basar**, Moschee – daneben Hochhausstädte (Dubai)
+**Kulturraum:** Wiege der Zivilisation (Zweistromland, Ägypten) · Ursprung von **Judentum, Christentum, Islam** · heute ~90 % Muslime: Moschee, Ramadan, Freitag · arabische Sprache (22 Länder) · orientalische Stadt: enge Gassen, Innenhof, **Basar**, Moschee – daneben Hochhausstädte (Dubai)
 
 **Erdöl:** ~50 % der Weltreserven (Saudi-Arabien, Irak, Iran, Kuwait, VAE) → reiche Golfstaaten vs. arme Länder ohne Öl (Jemen) · OPEC · Abhängigkeit → Tourismus, Solar
 

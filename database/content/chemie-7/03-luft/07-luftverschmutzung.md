@@ -77,6 +77,6 @@ Autos, Heizungen, Kraftwerke, Industrie – alles nützlich, alles belastet die 
 
 **Treibhauseffekt:** Treibhausgase halten Wärme zurück. Natürlich lebenswichtig, zusätzlich durch den Menschen → Erwärmung. CO₂-Anteil von 0,028 % auf über 0,042 % gestiegen.
 
-**Ozon O₃:** in 15–30 km Höhe schützt die Ozonschicht vor UV-Strahlung. **FCKW** (Kühlschränke, Spraydosen) zerstörten sie → **Ozonloch**. Seit 1987 (Montreal-Protokoll) verboten → Ozonschicht erholt sich.
+**Ozon O₃:** in 15–30 km Höhe schützt die Ozonschicht vor UV-Strahlung; am Boden ist Ozon ein Reizgas (Sommersmog). **FCKW** (Kühlschränke, Spraydosen) zerstörten sie → **Ozonloch**. Seit 1987 (Montreal-Protokoll) verboten → Ozonschicht erholt sich.
 
 **Jeder kann:** Rad und Bahn statt Auto, Energie sparen, weniger Fleisch.

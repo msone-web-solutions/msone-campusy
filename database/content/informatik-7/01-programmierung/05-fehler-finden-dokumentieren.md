@@ -9,7 +9,7 @@ reflect: "Beschreibe zwei Strategien, mit denen du einen Fehler in einem Program
 
 ### Bugs gehören dazu
 
-Der Begriff **Bug** (Käfer) für Programmfehler ist alt: 1947 fand man in einem Röhrencomputer tatsächlich eine Motte, die einen Kontakt blockierte. Seitdem heißt Fehlersuche **Debugging**. Auch Profis machen Fehler – der Unterschied ist, dass sie systematisch suchen.
+Der Begriff **Bug** (Käfer) für Programmfehler ist alt: 1947 fand man in einem frühen Computer (Harvard Mark II) tatsächlich eine Motte, die ein Relais blockierte. Seitdem heißt Fehlersuche **Debugging**. Auch Profis machen Fehler – der Unterschied ist, dass sie systematisch suchen.
 
 ### Drei Arten von Fehlern
 

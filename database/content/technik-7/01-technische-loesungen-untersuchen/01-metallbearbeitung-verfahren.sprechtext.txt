@@ -1,0 +1,9 @@
+Verfahren der Metallbearbeitung.
+
+Hallo und willkommen in Technik! Alle Verfahren, mit denen man Metall bearbeitet, lassen sich in fünf Gruppen einteilen. Erstens Urformen: Aus einem formlosen Stoff entsteht ein fester Körper, zum Beispiel beim Gießen. Zweitens Umformen: Die Form ändert sich, aber es geht kein Material verloren, wie beim Biegen, Schmieden, Walzen und Tiefziehen. Drittens Trennen: Material wird entfernt, es entstehen Späne, wie beim Sägen, Feilen, Bohren, Scheren und Schleifen. Viertens Fügen: Teile werden verbunden. Lösbar durch Schrauben und Stecken, nicht lösbar durch Nieten, Löten, Schweißen und Kleben. Fünftens Beschichten: Eine Schutzschicht kommt auf die Oberfläche, etwa durch Lackieren, Verzinken oder Verchromen.
+
+Ein Tipp zum Unterscheiden: Fallen Späne an, ist es Trennen. Bleibt das Material vollständig und ändert nur die Form, ist es Umformen. Entsteht aus Flüssigem etwas Festes, ist es Urformen.
+
+Sicherheit in der Werkstatt: Das Werkstück immer fest einspannen. Schutzbrille beim Bohren und Schleifen. Späne nie mit der Hand, sondern mit dem Handfeger entfernen.
+
+Merke: Die Reihenfolge der Arbeitsschritte, die Werkzeuge und die Maße stehen im Arbeitsplan. Hefteintrag abschreiben, dann zum Test. Viel Erfolg!

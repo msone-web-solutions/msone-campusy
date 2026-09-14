@@ -82,7 +82,7 @@ explanation: "Kinshasa (Demokratische Republik Kongo) hat über 15 Millionen Ein
 
 **La France et la francophonie**
 
-**Frankreich (l'Hexagone):** ca. 550 000 km², **68 Mio.** Einwohner, größtes EU-Land · 8 Nachbarländer (Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre) · Meere: la Manche, l'Atlantique, la Méditerranée · Gebirge: **Alpes (Mont Blanc 4 806 m)**, Pyrénées · Flüsse: **Seine, Loire, Rhône, Garonne** · 13 Regionen + Überseegebiete (Guadeloupe, Martinique, La Réunion, Guyane, Mayotte)
+**Frankreich (l'Hexagone = Sechseck, wegen der Form):** ca. 550 000 km², **68 Mio.** Einwohner, größtes EU-Land · 8 Nachbarländer (Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre) · Meere: la Manche, l'Atlantique, la Méditerranée · Gebirge: **Alpes (Mont Blanc 4 806 m)**, Pyrénées · Flüsse: **Seine, Loire, Rhône, Garonne** · 13 Regionen + Überseegebiete (Guadeloupe, Martinique, La Réunion, Guyane, Mayotte)
 
 **Paris:** ca. 2 Mio. (Großraum 12 Mio.), an der Seine · **tour Eiffel** (1889, 330 m) · **Louvre** (Mona Lisa) · **Notre-Dame** · **Arc de Triomphe** / Champs-Élysées · Sacré-Cœur / Montmartre · métro
 **Städte:** Marseille, Lyon, Toulouse, Nice, Bordeaux, Strasbourg, Lille

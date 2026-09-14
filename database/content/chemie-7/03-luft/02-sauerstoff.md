@@ -81,7 +81,7 @@ Verbrennen heißt chemisch: Der Stoff reagiert mit Sauerstoff. Das nennt man **O
 
 **Sauerstoff**
 
-**Steckbrief O₂:** farblos, geruchlos, etwas schwerer als Luft, Siedetemperatur −183 °C, schlecht wasserlöslich, **brandfördernd** (unterhält die Verbrennung, brennt selbst nicht), lebensnotwendig.
+**Steckbrief O₂:** farblos, geruchlos, etwas schwerer als Luft, Siedetemperatur −183 °C, schlecht wasserlöslich, **brandfördernd** (unterhält die Verbrennung, brennt selbst nicht), lebensnotwendig. Piktogramm: Flamme über Kreis – nie Öl oder Fett an Sauerstoffventile!
 
 **Herstellung im Labor:** Wasserstoffperoxid + Katalysator Braunstein → Wasser + Sauerstoff.
 Ein **Katalysator** beschleunigt eine Reaktion, ohne verbraucht zu werden.

@@ -23,7 +23,7 @@ Die anderen Naturwissenschaften sind Physik (Kräfte, Energie, Bewegung) und Bio
 
 **Steinzeit bis Antike:** Menschen nutzten Chemie, ohne es zu wissen. Feuer machen, Ton brennen, Erze zu Kupfer und Bronze schmelzen (Bronzezeit, ab ca. 2200 v. Chr.), Eisen gewinnen (Eisenzeit, ab ca. 800 v. Chr.). Die Griechen dachten über den Aufbau der Stoffe nach: Demokrit vermutete um 400 v. Chr., dass alles aus winzigen, unteilbaren Teilchen besteht – **Atomen** (griechisch *atomos* = unteilbar).
 
-**Mittelalter – die Alchemie:** Alchemisten versuchten, unedle Metalle in Gold zu verwandeln und den „Stein der Weisen“ zu finden. Das klappte nie – aber nebenbei entdeckten sie viele Stoffe und Verfahren, zum Beispiel das Destillieren, Schwefelsäure und das Porzellan (Johann Friedrich Böttger, 1708).
+**Mittelalter bis 18. Jahrhundert – die Alchemie:** Alchemisten versuchten, unedle Metalle in Gold zu verwandeln und den „Stein der Weisen“ zu finden. Das klappte nie – aber nebenbei entdeckten sie viele Stoffe und Verfahren, zum Beispiel das Destillieren, Schwefelsäure und das Porzellan (Johann Friedrich Böttger, 1708).
 
 **Ab dem 17. Jahrhundert – die Chemie wird Wissenschaft:** Robert Boyle forderte 1661, nur noch zu glauben, was man durch **Experimente** überprüfen kann. Antoine Lavoisier wog um 1780 Stoffe vor und nach der Reaktion und fand: Die Masse bleibt gleich (mehr dazu im Themenfeld Luft). Dmitri Mendelejew ordnete 1869 alle bekannten Elemente im **Periodensystem**.
 
@@ -89,7 +89,7 @@ Ein typischer Anfängerfehler: Beobachtung und Erklärung vermischen.
 **Geschichte in Stichworten:**
 - Bronzezeit / Eisenzeit: Metalle aus Erzen gewinnen
 - Demokrit (um 400 v. Chr.): alles besteht aus Atomen
-- Alchemie (Mittelalter): Suche nach Gold, nebenbei viele Entdeckungen (Destillieren, Porzellan)
+- Alchemie (Mittelalter bis 18. Jh.): Suche nach Gold, nebenbei viele Entdeckungen (Destillieren, Porzellan)
 - Boyle (1661): nur Experimente zählen · Lavoisier (um 1780): Masse bleibt erhalten · Mendelejew (1869): Periodensystem
 
 **Chemie hat zwei Seiten:** Düngemittel ernähren Milliarden – Kunststoffe erzeugen Müll. Chemische Erkenntnisse muss man **bewerten**.

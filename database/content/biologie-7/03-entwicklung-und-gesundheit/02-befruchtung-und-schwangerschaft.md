@@ -79,7 +79,7 @@ Trotz Verhütung kann es zu einer ungewollten Schwangerschaft kommen. In Deutsch
 - Geschlecht bestimmt das Spermium: XX = Mädchen, XY = Junge
 
 **Einnistung:** nach 5–6 Tagen in der **Gebärmutterschleimhaut** → Schwangerschaft beginnt (ca. 40 Wochen)
-- **Embryo** (bis 3. Monat), dann **Fötus**
+- **Embryo** (erste Wochen), ab dem 3. Monat **Fötus**
 - **Fruchtblase** mit **Fruchtwasser** (Schutz), **Nabelschnur**, **Plazenta** (Austausch von Sauerstoff, Nährstoffen und Abfallstoffen – Blut mischt sich nicht)
 - Alkohol, Nikotin, Drogen gelangen zum Kind → **verboten in der Schwangerschaft**
 

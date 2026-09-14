@@ -19,7 +19,7 @@ Damit ein Programm rechnen kann, muss es sich Werte merken. Dafür gibt es **Var
 
 In Scratch: Baustein „setze `punkte` auf 0“, später „ändere `punkte` um 1“. Nach drei Treffern steht in der Schachtel 3.
 
-Gute Variablennamen sagen, was drin ist: `punkte`, `name`, `alter`, `geschwindigkeit` – nicht `a`, `x1` oder `ding`. Namen ohne Leerzeichen und Umlaute, klein geschrieben.
+Gute Variablennamen sagen, was drin ist: `punkte`, `name`, `alter`, `geschwindigkeit` – nicht `a`, `x1` oder `ding`. Namen ohne Leerzeichen und Umlaute, klein geschrieben und nicht mit einer Ziffer beginnend (`anzahl_aepfel`, nicht `1anzahl`).
 
 ::: check
 type: single_choice
@@ -100,6 +100,7 @@ explanation: "Texte werden aneinandergehängt, nicht addiert."
 
 **Variable** = beschriftete Schachtel: **Name** (z. B. `punkte`) und **Wert** (z. B. 12). Der Wert kann gelesen und ersetzt werden.
 `setze punkte auf 0` · `ändere punkte um 1`
+Namen: sagen, was drin ist; keine Leerzeichen/Umlaute; nicht mit Ziffer beginnen (`anzahl_aepfel`).
 **Zuweisung:** `setze punkte auf punkte + 1` = alten Wert nehmen, 1 dazu, zurücklegen.
 
 **Datentypen:**

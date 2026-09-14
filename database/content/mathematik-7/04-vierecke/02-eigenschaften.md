@@ -102,10 +102,12 @@ Gleich lang + halbieren sich → Rechteck. Nicht senkrecht → kein Quadrat. Als
 | | Seiten | Winkel | Diagonalen | Symmetrieachsen |
 |---|---|---|---|---|
 | **Parallelogramm** | gegenüber parallel und gleich lang | gegenüber gleich, benachbart 180° | halbieren sich | 0 (punktsymm.) |
-| **Rechteck** | gegenüber gleich lang | alle 90° | halbieren sich, gleich lang | 2 |
-| **Raute** | alle gleich lang | gegenüber gleich | halbieren sich, senkrecht | 2 |
+| **Rechteck** | gegenüber gleich lang | alle 90° | halbieren sich, gleich lang | 2 (Mittellinien) |
+| **Raute** | alle gleich lang | gegenüber gleich | halbieren sich, senkrecht | 2 (Diagonalen) |
 | **Quadrat** | alle gleich lang | alle 90° | halbieren sich, gleich lang, senkrecht | 4 |
-| **Drachen** | Nachbarseiten paarweise gleich | β = δ | senkrecht | 1 |
+| **Drachen** | Nachbarseiten paarweise gleich | β = δ | senkrecht | 1 (Diagonale) |
 | **Trapez** | ein Paar parallel | am Schenkel 180° | – | gleichschenklig: 1 |
 
 Beispiel Parallelogramm: α = 65° → γ = 65°, β = δ = 115°
+
+**Besondere Linien:** Diagonale = Ecke zu Gegenecke · **Mittellinie** verbindet die Mittelpunkte gegenüberliegender Seiten · **Höhe** = senkrechter Abstand paralleler Seiten

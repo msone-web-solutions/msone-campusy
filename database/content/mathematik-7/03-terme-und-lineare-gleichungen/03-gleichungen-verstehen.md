@@ -118,3 +118,4 @@ Was man auf der einen Seite tut, muss man auch auf der anderen Seite tun.
 2x + 3 = 15 mit x = 6:   2 · 6 + 3 = 15   ✓
 
 **Grundbereich:** x + 5 = 2 hat in ℕ keine Lösung (L = { }), in ℚ ist L = {−3}.
+x + 3 = x + 5 ist für keine Zahl wahr: L = { }.   x + x = 2x ist für jede Zahl wahr: L = ℚ.

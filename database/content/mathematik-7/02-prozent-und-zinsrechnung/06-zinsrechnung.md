@@ -91,6 +91,8 @@ Das ist in Klasse 8 wichtig – hier reicht es, wenn du die Idee verstanden hast
 
 **Zinsrechnung**
 
+**Zinsen** = Preis fürs Geldleihen: Für Guthaben bekommt man sie, für einen **Kredit** zahlt man sie.
+
 Zinsrechnung ist Prozentrechnung:
 Kapital K (Grundwert) · Zinssatz p % pro Jahr (Prozentsatz) · Zinsen Z (Prozentwert)
 
@@ -104,6 +106,7 @@ Kapital K (Grundwert) · Zinssatz p % pro Jahr (Prozentsatz) · Zinsen Z (Prozen
 90 Tage → 75 € · 90/360 = 18,75 €
 
 **Umgestellt:** K = Z · 100/p        p = Z/K · 100
+**Zinszeit gesucht:** Jahreszinsen berechnen und vergleichen. 4 000 € zu 3 % → 120 € im Jahr; 60 € Zinsen = die Hälfte → 6 Monate
 
 **Zinseszins:** Zinsen werden im nächsten Jahr mitverzinst. 1 000 € zu 5 % → nach 2 Jahren 1000 · 1,05 · 1,05 = 1 102,50 €
 

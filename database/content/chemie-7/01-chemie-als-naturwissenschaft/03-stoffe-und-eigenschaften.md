@@ -96,7 +96,7 @@ Aus den Eigenschaften folgt die Verwendung: Kupfer leitet Strom gut → Kabel. A
 
 **Stoffeigenschaften** (der Steckbrief eines Stoffes):
 - mit den Sinnen: Farbe, Geruch, Glanz, Aggregatzustand, Härte
-- messbar: **Dichte** (Masse : Volumen, in g/cm³), **Schmelztemperatur**, **Siedetemperatur**, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, Magnetisierbarkeit
+- messbar: **Dichte** (Masse : Volumen, in g/cm³), **Schmelztemperatur**, **Siedetemperatur**, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, Magnetisierbarkeit (nur Eisen, Nickel, Cobalt)
 - chemisch: Brennbarkeit, Verhalten mit Säuren, Wasser, Luft
 
 | Stoff | Dichte | Schmelzt. | Siedet. |
@@ -104,6 +104,9 @@ Aus den Eigenschaften folgt die Verwendung: Kupfer leitet Strom gut → Kabel. A
 | Wasser | 1 g/cm³ | 0 °C | 100 °C |
 | Eisen | 7,9 g/cm³ | 1538 °C | 2861 °C |
 | Kupfer | 8,9 g/cm³ | 1085 °C | 2562 °C |
+| Aluminium | 2,7 g/cm³ | 660 °C | 2470 °C |
+
+Dichte kleiner als 1 g/cm³ (Kork 0,2 g/cm³) → schwimmt auf Wasser; größer → sinkt.
 
 **Aggregatzustände:** fest ⇄ flüssig (Schmelzen / Erstarren), flüssig ⇄ gasförmig (Sieden / Kondensieren), fest → gasförmig (Sublimieren)
 

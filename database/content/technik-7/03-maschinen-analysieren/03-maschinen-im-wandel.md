@@ -42,7 +42,7 @@ Maschinen haben das Leben grundlegend verändert. Die Folgen kann man nach vier 
 
 Der Einsatz von Maschinen hat viele Berufe verändert, manche verschwinden lassen und neue geschaffen:
 
-- **Verschwunden oder selten**: Weber am Handwebstuhl, Setzer in der Druckerei, Schriftsetzer, Telefonvermittler.
+- **Verschwunden oder selten**: Weber am Handwebstuhl, Schriftsetzer in der Druckerei, Telefonvermittler.
 - **Verändert**: Der **Landwirt** fährt heute einen Traktor mit GPS-Steuerung und wertet Ertragsdaten am Computer aus. Der **Kfz-Mechatroniker** (früher Kfz-Mechaniker) liest Fehler mit dem Diagnosecomputer aus statt nur zu schrauben. Der **Zerspanungsmechaniker** programmiert CNC-Fräsen, statt Werkstücke von Hand zu feilen.
 - **Neu entstanden**: Mechatroniker, Robotertechniker, IT-Systemelektroniker, Fachinformatiker, Drohnenpilot.
 

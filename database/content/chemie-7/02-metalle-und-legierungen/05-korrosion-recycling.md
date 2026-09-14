@@ -87,6 +87,6 @@ Rost ist porös → schützt nicht → Eisen rostet durch. (Oxidschichten von Al
 - Legieren: Edelstahl (Chrom bildet dichte Oxidschicht)
 - **Opferanode**: unedleres Metall (Zink, Magnesium) korrodiert zuerst – Schiffe, Pipelines
 
-**Recycling:** Altmetall einschmelzen, Eigenschaften bleiben erhalten.
+**Recycling:** Altmetall einschmelzen, Eigenschaften bleiben erhalten. Schrott sortieren: der Magnet trennt Eisen ab (**Magnetscheiden**).
 Energieersparnis: Aluminium 95 %, Kupfer ca. 85 %, Stahl ca. 60–75 %.
 Eine Tonne Althandys enthält mehr Gold als eine Tonne Golderz.

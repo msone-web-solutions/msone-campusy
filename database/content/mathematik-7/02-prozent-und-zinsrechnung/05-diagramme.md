@@ -109,6 +109,7 @@ Prozent → Winkel: p · 3,6°        Winkel → Prozent: Winkel : 3,6
 | 180° | 90° | 36° | 72° |
 
 Beispiel: 30 % → 30 · 3,6° = 108°
+Bei Anzahlen erst den Anteil berechnen: 12 von 30 → 12/30 = 40 % → 144°
 
 **Liniendiagramm:** zeigt Veränderung über die Zeit.
 

@@ -11,7 +11,7 @@ reflect: "Erkläre das Leitbild der Nachhaltigkeit mit dem Drei-Säulen-Modell a
 
 **71 %** der Erdoberfläche sind Wasser. Alle Ozeane hängen zusammen und bilden das **Weltmeer**. Man gliedert es in:
 
-- **Drei große Ozeane:** **Pazifik** (der größte, halb so groß wie die gesamte Erdoberfläche, bis 11 000 m tief), **Atlantik**, **Indischer Ozean**
+- **Drei große Ozeane:** **Pazifik** (der größte: ein Drittel der Erdoberfläche, größer als alle Landflächen zusammen, bis 11 000 m tief), **Atlantik**, **Indischer Ozean**
 - **Polarmeere:** Arktischer Ozean (Nordpolarmeer) und Südlicher Ozean um die Antarktis
 - **Nebenmeere:** **Randmeere** liegen am Rand eines Ozeans (Nordsee, Ostchinesisches Meer); **Binnenmeere** sind fast von Land umschlossen (Mittelmeer, Ostsee, Schwarzes Meer, Rotes Meer)
 - Dazu **Meeresteile**: Buchten (Golf von Mexiko, Bengalen), Meerengen (Gibraltar, Bosporus, Malakka), Kanäle als künstliche Verbindungen (Suez, Panama)
